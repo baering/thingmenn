@@ -1,7 +1,78 @@
 import cheerio from 'cheerio'
+import fs from 'fs'
 import { fetchHtml } from '../utility/html'
 
 const mpListUrl = 'http://www.althingi.is/thingmenn/althingismenn/'
+const mpVoteUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/?nfaerslunr='
+
+function parseMpVotes(html) {
+  const result = []
+  const htmlObj = cheerio.load(html)
+
+  const rows = htmlObj('.boxbody > table tr')
+
+  let currentTopic = null
+  rows.each(function(i, element) {
+    const row = htmlObj(this)
+    if (row.children().length === 1) {
+      if (currentTopic !== null) {
+        result.push(currentTopic)
+      }
+
+      const topic = row.find('a').text()
+      row.find('h3').remove()
+      currentTopic = {
+        topic,
+        description: row.text().replace('\r\n', ''),
+        votes: []
+      }
+    } else {
+      const cells = row.text().split('\r\n')
+
+      currentTopic.votes.push({
+        date: cells[1],
+        proposal: cells[2],
+        proposalUrl: row.find('a').attr('href'),
+        vote: cells[3]
+      })
+    }
+  })
+
+  if (currentTopic !== null) {
+    result.push(currentTopic)
+  }
+
+  return result
+}
+
+async function fetchVotesForMp(id) {
+  const url = `${mpVoteUrl}${id}`
+  console.log(`About to fetch votes for: ${id}`)
+  const html = await fetchHtml(url)
+  const votes = parseMpVotes(html)
+
+  return {
+    mpId: id,
+    votes
+  }
+}
+
+async function fetchMpVotes(ids) {
+  let counter = 0
+  const result = []
+  for (const id of ids) {
+    const votes = await fetchVotesForMp(id)
+    result.push(votes)
+    ++counter
+
+    if (counter > 1) {
+      break
+    }
+  }
+
+  return result
+}
+
 
 async function parseMpIds(html) {
   const htmlObj = cheerio.load(html)
@@ -20,4 +91,38 @@ async function fetchMpIds() {
   return parseMpIds(html)
 }
 
-fetchMpIds().then(ids => console.log(ids))
+async function fetchData() {
+  const mpIds = await fetchMpIds()
+  const allVotes = await fetchMpVotes(mpIds)
+  return allVotes
+}
+
+function writeToFile(data, filename) {
+  const stringified = JSON.stringify(data, null, '\t')
+  fs.writeFile(filename, stringified, error => {
+    if (error) {
+      console.log(`Error writing to file: ${error}`)
+    } else {
+      console.log('Wrote data to file')
+    }
+  })
+}
+
+// fetchMpIds().then(ids => console.log(ids))
+// fetchData().then()
+
+fetchData()
+  .then(data => {
+    console.log('Successfully fetched votes')
+    writeToFile(data, 'data/all-votes.json')
+  }).catch(error => {
+    console.log(`There was an error: ${error}`)
+  })
+
+// fetchVotesForMp(1221)
+//   .then(votes => {
+//     console.log('Received votes')
+//     console.log(votes)
+//     writeToFile(votes, 'data/votes.json')
+//   })
+//   .catch(e => console.log(`there was an error: ${e}`))
