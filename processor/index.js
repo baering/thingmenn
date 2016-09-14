@@ -81,8 +81,19 @@ allVotes.forEach(mp => {
 
     return bValue - aValue
   })
-  const bestFriends = sortedFriendIds.slice(0, 10)
-  friendLookup[mp.mpId].bestFriends = bestFriends.map(mpId => nameLookup[mpId])
+  const bestFriends = sortedFriendIds.slice(0, 5)
+  friendLookup[mp.mpId].bestFriends = bestFriends.map(mpId => {
+    const numberOfSimilarVotes = friendLookup[mp.mpId].similiarMpVoteCount[mpId]
+
+    return `${nameLookup[mpId]}: ${numberOfSimilarVotes}`
+  })
+
+  const enemies = sortedFriendIds.slice(sortedFriendIds.length - 6, sortedFriendIds.length)
+  friendLookup[mp.mpId].enemies = enemies.map(mpId => {
+    const numberOfSimilarVotes = friendLookup[mp.mpId].similiarMpVoteCount[mpId]
+
+    return `${nameLookup[mpId]}: ${numberOfSimilarVotes}`
+  })
 })
 
 writeToFile(friendLookup, 'data/friend-lookup.json', true)
