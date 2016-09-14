@@ -52,6 +52,7 @@ allVotes.forEach(mp => {
   friendLookup[mp.mpId] = {
     name: mp.mpName,
     numberOfVotes: 0,
+    voteTypes: {},
     similiarMpVoteCount: {}
   }
   mp.votes.forEach(category => {
@@ -71,6 +72,11 @@ allVotes.forEach(mp => {
       })
 
       friendLookup[mp.mpId].numberOfVotes += 1
+      if (!friendLookup[mp.mpId].voteTypes[voteType]) {
+        friendLookup[mp.mpId].voteTypes[voteType] = 0
+      }
+
+      friendLookup[mp.mpId].voteTypes[voteType] += 1
     })
   })
 
