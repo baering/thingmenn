@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetch": "node index.js --debug"
+    "fetch": "node index.js --debug",
+    "process": "node process.js --debug"
   },
   "author": "",
   "license": "ISC",

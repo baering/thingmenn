@@ -42,7 +42,10 @@ function parseMpVotes(html) {
     result.push(currentTopic)
   }
 
-  return result
+  return {
+    mpName: htmlObj('.boxhead a').text(),
+    votes: result
+  }
 }
 
 async function fetchVotesForMp(id) {
@@ -50,24 +53,21 @@ async function fetchVotesForMp(id) {
   console.log(`About to fetch votes for: ${id}`)
   const html = await fetchHtml(url)
   const votes = parseMpVotes(html)
+  console.log('Done\n-------')
 
   return {
     mpId: id,
-    votes
+    mpName: votes.mpName,
+    votes: votes.votes
   }
 }
 
 async function fetchMpVotes(ids) {
-  let counter = 0
   const result = []
+
   for (const id of ids) {
     const votes = await fetchVotesForMp(id)
     result.push(votes)
-    ++counter
-
-    if (counter > 1) {
-      break
-    }
   }
 
   return result
@@ -98,7 +98,7 @@ async function fetchData() {
 }
 
 function writeToFile(data, filename) {
-  const stringified = JSON.stringify(data, null, '\t')
+  const stringified = JSON.stringify(data)
   fs.writeFile(filename, stringified, error => {
     if (error) {
       console.log(`Error writing to file: ${error}`)
