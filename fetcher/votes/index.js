@@ -11,7 +11,7 @@ function parseMpVotes(html) {
   const rows = htmlObj('.boxbody > table tr')
 
   let currentTopic = null
-  rows.each(function(i, element) {
+  rows.each(function parseRow() {
     const row = htmlObj(this)
     if (row.children().length === 1) {
       if (currentTopic !== null) {
@@ -71,7 +71,6 @@ async function fetchMpVotes(ids) {
 
   return result
 }
-
 
 async function parseMpIds(html) {
   const htmlObj = cheerio.load(html)

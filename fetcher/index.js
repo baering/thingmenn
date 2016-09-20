@@ -1,7 +1,7 @@
-import fetchData from './mps'
+import fetchVotes from './votes'
 import { writeToFile } from '../utility/file'
 
-fetchData()
+fetchVotes()
   .then(data => {
     console.log('Successfully fetched votes')
     writeToFile(data, 'data/all-votes.json')
