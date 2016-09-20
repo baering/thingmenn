@@ -4,7 +4,7 @@
   "rules": {
     "semi": [2, "never"],
     "max-len": [1, 120],
-    "comma-dangle": [2, "never"]
+    "comma-dangle": [2]
   },
   "globals": {
   }
