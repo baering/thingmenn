@@ -16,3 +16,7 @@ export function writeToFile(data, filename, pretty = false) {
     }
   })
 }
+
+export function loadFile(filename) {
+  return JSON.parse(fs.readFileSync(filename, 'utf8'))
+}

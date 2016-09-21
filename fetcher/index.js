@@ -12,5 +12,5 @@ import { writeToFile } from '../utility/file'
 
 // fetchSpeeches().then(speeches => {
 //   console.log('Successfully fetched all speeches')
-//   writeToFile(speeches, 'data/all-speeches.json')
+//   writeToFile(speeches, 'data/all-speeches-.json')
 //   }).catch((error) => console.log(`There was an error: ${error}`))
