@@ -23,7 +23,7 @@ function parseMpVotes(html) {
       currentTopic = {
         topic,
         description: row.text().replace('\r\n', ''),
-        votes: []
+        votes: [],
       }
     } else {
       const cells = row.text().split('\r\n')
@@ -32,7 +32,7 @@ function parseMpVotes(html) {
         date: cells[1],
         proposal: cells[2],
         proposalUrl: row.find('a').attr('href'),
-        vote: cells[3]
+        vote: cells[3],
       })
     }
   })
@@ -43,7 +43,7 @@ function parseMpVotes(html) {
 
   return {
     mpName: htmlObj('.boxhead a').text(),
-    votes: result
+    votes: result,
   }
 }
 
@@ -57,7 +57,7 @@ async function fetchVotesForMp(id) {
   return {
     mpId: id,
     mpName: votes.mpName,
-    votes: votes.votes
+    votes: votes.votes,
   }
 }
 
