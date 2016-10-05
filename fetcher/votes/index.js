@@ -1,6 +1,9 @@
 import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
 
+import fetchMps from '../mps'
+import { loadFile } from '../../utility/file'
+
 const mpListUrl = 'http://www.althingi.is/thingmenn/althingismenn/'
 const mpVoteUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/?nfaerslunr='
 
@@ -18,11 +21,11 @@ function parseMpVotes(html) {
         result.push(currentTopic)
       }
 
-      const topic = row.find('a').text()
+      const topicAnchor = row.find('a')
+      const topic = topicAnchor.text()
       row.find('h3').remove()
       currentTopic = {
-        topic,
-        description: row.text().replace('\r\n', ''),
+        id: topicAnchor.attr('href').split('?')[1],
         votes: [],
       }
     } else {
@@ -72,26 +75,22 @@ async function fetchMpVotes(ids) {
   return result
 }
 
-async function parseMpIds(html) {
-  const htmlObj = cheerio.load(html)
-  const mpRows = htmlObj('#t_thingmenn a')
-
-  const ids = []
-  for (let i = 0; i < mpRows.length; i++) {
-    ids.push(mpRows[i].attribs.href.split('=')[1])
+async function getMps(lthing) {
+  let mps = loadFile('data/mps.json')
+  if (mps !== null) {
+    return mps
   }
 
-  return ids
-}
-
-async function fetchMpIds() {
-  const html = await fetchHtml(mpListUrl)
-  return parseMpIds(html)
+  mps = await fetchMps(lthing)
+  return mps
 }
 
 async function fetchData() {
-  const mpIds = await fetchMpIds()
+  const mps = await getMps()
+  const mpIds = mps.map(mp => mp.id)
   const allVotes = await fetchMpVotes(mpIds)
+  console.log('Fetched votes, example: ')
+  console.log(allVotes[0])
   return allVotes
 }
 
