@@ -7,17 +7,33 @@ const allVotes = loadFile('data/all-votes.json')
 console.log('Loaded all data needed, derp!')
 
 const globalVoteTypes = {}
-const globalWordTypes = {}
+const uniqueSubjectsMap = {}
+const uniqueTagsMap = {}
 
-function createOccuranceMap() {
-  const occuranceMap = {}
+function updateOccuranceCount(occuranceMap, mpId, word, vote) {
+  if (!occuranceMap[mpId][word]) {
+    occuranceMap[mpId][word] = {}
+  }
+
+  if (!occuranceMap[mpId][word][vote]) {
+    occuranceMap[mpId][word][vote] = 0
+  }
+
+  occuranceMap[mpId][word][vote]++
+}
+
+function createOccuranceMaps() {
+  const subjectOccuranceMap = {}
+  const tagOccuranceMap = {}
 
   allVotes.forEach(mpVotes => {
-    occuranceMap[mpVotes.mpId] = {}
+    subjectOccuranceMap[mpVotes.mpId] = {}
+    tagOccuranceMap[mpVotes.mpId] = {}
 
     mpVotes.votes.forEach(voteTopic => {
       const topicId = voteTopic.id
       const subjectWords = subjects[topicId].words.subjects
+      const tagWords = subjects[topicId].words.tags
 
       voteTopic.votes.forEach(vote => {
         const voteValue = vote.vote
@@ -27,25 +43,38 @@ function createOccuranceMap() {
         }
 
         subjectWords.forEach(word => {
-          if (!globalWordTypes[word]) {
-            globalWordTypes[word] = true
+          if (!uniqueSubjectsMap[word]) {
+            uniqueSubjectsMap[word] = true
           }
 
-          if (!occuranceMap[mpVotes.mpId][word]) {
-            occuranceMap[mpVotes.mpId][word] = {}
+          updateOccuranceCount(
+            subjectOccuranceMap,
+            mpVotes.mpId,
+            word,
+            voteValue
+          )
+        })
+
+        tagWords.forEach(word => {
+          if (!uniqueTagsMap[word]) {
+            uniqueTagsMap[word] = true
           }
 
-          if (!occuranceMap[mpVotes.mpId][word][voteValue]) {
-            occuranceMap[mpVotes.mpId][word][voteValue] = 0
-          }
-
-          occuranceMap[mpVotes.mpId][word][voteValue]++
+          updateOccuranceCount(
+            tagOccuranceMap,
+            mpVotes.mpId,
+            word,
+            voteValue
+          )
         })
       })
     })
   })
 
-  return occuranceMap
+  return {
+    subjects: subjectOccuranceMap,
+    tags: tagOccuranceMap,
+  }
 }
 
 function getTopListOf(occuranceMap, mpId, voteType, words) {
@@ -68,47 +97,61 @@ function getTopListOf(occuranceMap, mpId, voteType, words) {
   return []
 }
 
-function generateTopListsForMp(voteTypes, occuranceMap, mpId, words) {
-  const topLists = voteTypes.map(voteType => {
-    const topList = getTopListOf(
-      occuranceMap,
+function generateTopListsForMp(voteTypes, occuranceMaps, mpId, words) {
+  const topList = voteTypes.map(voteType => {
+    const topSubjects = getTopListOf(
+      occuranceMaps.subjects,
       mpId,
       voteType,
-      words
+      words.subjects
+    )
+
+    const topTags = getTopListOf(
+      occuranceMaps.tags,
+      mpId,
+      voteType,
+      words.tags
     )
 
     return {
       voteType,
-      words: topList,
+      subjects: topSubjects.slice(0, 10),
+      tags: topTags.slice(0, 10),
     }
-  })
+  }).filter(voteType => voteType.subjects.length || voteType.tags.length)
 
-  return topLists.filter(topList => topList.words.length)
+  return topList
 }
 
 function process() {
-  const occuranceMap = createOccuranceMap()
+  const occuranceMaps = createOccuranceMaps()
   const voteTypes = Object.keys(globalVoteTypes)
 
   console.log('Vote types')
   console.log(voteTypes)
 
-  const uniqueWords = Object.keys(globalWordTypes)
+  const uniqueSubjects = Object.keys(uniqueSubjectsMap)
+  const uniqueTags = Object.keys(uniqueTagsMap)
 
-  console.log(`\nWords that occured (${uniqueWords.length})`)
-  console.log(uniqueWords)
+  console.log(`\nWords that occured (${uniqueSubjects.length} and tags: ${uniqueTags.length})`)
+  console.log(uniqueSubjects)
+  console.log(uniqueTags)
   const summary = []
   mps.forEach(mp => {
-    if (occuranceMap[mp.id] !== undefined) {
-      const words = Object.keys(occuranceMap[mp.id])
+    if (occuranceMaps.subjects[mp.id] !== undefined) {
+      const subjectWords = Object.keys(occuranceMaps.subjects[mp.id])
+      const tagWords = Object.keys(occuranceMaps.tags[mp.id])
 
       summary.push({
         name: mp.name,
         top: generateTopListsForMp(
           voteTypes,
-          occuranceMap,
+          occuranceMaps,
           mp.id,
-          words
+          {
+            subjects: subjectWords,
+            tags: tagWords,
+          }
         ),
       })
     }
