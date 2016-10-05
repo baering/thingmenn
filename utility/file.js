@@ -18,5 +18,10 @@ export function writeToFile(data, filename, pretty = false) {
 }
 
 export function loadFile(filename) {
-  return JSON.parse(fs.readFileSync(filename, 'utf8'))
+  const fileContent = fs.readFileSync(filename, 'utf8')
+
+  if (fileContent.length) {
+    return JSON.parse(fileContent)
+  }
+  return null
 }
