@@ -2,6 +2,7 @@
 logs
 *.log
 *.csv
+*.pyc
 
 # Runtime data
 pids
