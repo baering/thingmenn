@@ -1,5 +1,19 @@
 body {
-  margin: 0;
+  margin: 3px;
   padding: 0;
   font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.Grid-cell {
+  flex: 1;
 }

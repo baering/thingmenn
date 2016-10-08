@@ -27,6 +27,7 @@ function parseMpDetails(html, mpId) {
     name: htmlObj('h1').text(),
     party: parseMpParty(htmlObj),
     imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
+    isPrimary: htmlObj('.office').length > 0,
   }
 }
 

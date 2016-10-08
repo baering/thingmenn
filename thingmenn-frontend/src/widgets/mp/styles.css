@@ -1,0 +1,57 @@
+.Mp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 200px;
+  height: 277px;
+  padding: 3px;
+}
+
+.Mp .Heading {
+  font-size: 20px;
+}
+
+.Mp-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.6;
+  transition: opacity 200ms linear;
+}
+
+.Mp-card:hover {
+  opacity: 1;
+}
+
+.Mp-card:hover > .Mp-content {
+  transform: translateY(-167px);
+  opacity: 1;
+}
+
+.Mp-card:hover > .Mp-image {
+  transform: scale(1.03);
+}
+
+.Mp-content {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 20px;
+  width: 100%;
+  bottom: -167px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 200ms linear, transform 300ms linear;
+  pointer-events: none;
+  height: 166px;
+}
+
+.Mp-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  transition: transform 300ms ease-in-out;
+  pointer-events: none;
+}
