@@ -15,7 +15,11 @@ with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
 
 def get_mps():
     print 'getting mps!'
-    return jsonify(mps)
+    response = jsonify(mps)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+    return response
 
 def get_mp_by_id(mp_id):
     print mp_id
