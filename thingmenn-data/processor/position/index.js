@@ -92,7 +92,12 @@ function getTopListOf(occuranceMap, mpId, voteType, words) {
       const occurancesForB = occuranceMap[mpId][b][voteType]
 
       return occurancesForB - occurancesForA
-    }).map(word => `${word}: ${occuranceMap[mpId][word][voteType]}`)
+    }).map(word => {
+      return {
+        word,
+        occurance: occuranceMap[mpId][word][voteType]
+      }
+    })
   }
   return []
 }
@@ -142,17 +147,49 @@ function process() {
       const subjectWords = Object.keys(occuranceMaps.subjects[mp.id])
       const tagWords = Object.keys(occuranceMaps.tags[mp.id])
 
+      const topLists = generateTopListsForMp(
+        voteTypes,
+        occuranceMaps,
+        mp.id,
+        {
+          subjects: subjectWords,
+          tags: tagWords,
+        }
+      )
+
+      const topSummary = {}
+      const totalVotesForSubject = {}
+      topLists.forEach(topList => {
+        topList.subjects.forEach(topSubject => {
+          if (topList.voteType === 'já' || topList.voteType === 'nei') {
+            if (!topSummary[topSubject.word]) {
+              topSummary[topSubject.word] = 0
+            }
+            topSummary[topSubject.word] += topSubject.occurance
+          }
+
+          if (!totalVotesForSubject[topSubject.word]) {
+            totalVotesForSubject[topSubject.word] = 0
+          }
+          totalVotesForSubject[topSubject.word] += topSubject.occurance
+        })
+      })
+
+      const wordsInTopSummary = Object.keys(topSummary)
+      const topSummarySorted = wordsInTopSummary.map(word => {
+        return {
+          word,
+          occurance: topSummary[word],
+          occuranceRatio: topSummary[word] / totalVotesForSubject[word],
+        }
+      }).sort((a, b) => {
+        return b.occurance - a.occurance
+      })
+
       summary.push({
         name: mp.name,
-        top: generateTopListsForMp(
-          voteTypes,
-          occuranceMaps,
-          mp.id,
-          {
-            subjects: subjectWords,
-            tags: tagWords,
-          }
-        ),
+        summary: topSummarySorted.slice(0, 10).map(topSubject => `${topSubject.word}: ${topSubject.occurance} (${topSubject.occuranceRatio})`),
+        top: topLists,
       })
     }
   })
