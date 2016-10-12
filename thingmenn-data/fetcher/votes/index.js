@@ -50,8 +50,8 @@ function parseMpVotes(html) {
   }
 }
 
-async function fetchVotesForMp(id) {
-  const url = `${mpVoteUrl}${id}`
+async function fetchVotesForMp(id, lthing = 145) {
+  const url = `${mpVoteUrl}${id}&lthing=${lthing}`
   console.log(`About to fetch votes for: ${id}`)
   const html = await fetchHtml(url)
   const votes = parseMpVotes(html)
@@ -64,11 +64,11 @@ async function fetchVotesForMp(id) {
   }
 }
 
-async function fetchMpVotes(ids) {
+async function fetchMpVotes(ids, lthing) {
   const result = []
 
   for (const id of ids) {
-    const votes = await fetchVotesForMp(id)
+    const votes = await fetchVotesForMp(id, lthing)
     result.push(votes)
   }
 
@@ -88,9 +88,22 @@ async function getMps(lthing) {
 async function fetchData() {
   const mps = await getMps()
   const mpIds = mps.map(mp => mp.id)
-  const allVotes = await fetchMpVotes(mpIds)
+  const lthings = [143, 144, 145]
+  const allVotes = []
+
+  for (const lthing of lthings) {
+    console.log(`Fetching all votes from lthing: ${lthing}`)
+    const allVotesOnLthing = await fetchMpVotes(mpIds, lthing)
+    allVotes.push({
+      lthing,
+      votes: allVotesOnLthing,
+    })
+    console.log('Done..\n')
+  }
+
+  // const allVotes = await fetchMpVotes(mpIds)
   console.log('Fetched votes, example: ')
-  console.log(allVotes[0])
+  console.log(allVotes[0].votes[0])
   return allVotes
 }
 
