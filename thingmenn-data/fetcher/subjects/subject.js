@@ -13,6 +13,14 @@ function generateUrl(lthing, column, subjectId) {
   return `${subjectRootUrl}?ltg=${lthing}&mfl=${column}&mnr=${subjectId}`
 }
 
+function parseWordsInSubject(subjectTitleAttribute) {
+  const words = subjectTitleAttribute.replace('þ.m.t. ', '')
+  if (words.length) {
+    return words.split(', ')
+  }
+  return []
+}
+
 function parseSubjectWords(html) {
   const htmlObj = cheerio.load(html)
 
@@ -20,7 +28,11 @@ function parseSubjectWords(html) {
   const subjects = []
   subjectWordLinks.each(function parseLink() {
     const element = htmlObj(this)
-    subjects.push(element.text())
+    const subjectName = element.text()
+    subjects.push({
+      name: subjectName,
+      words: parseWordsInSubject(element.attr('title')),
+    })
   })
 
   const subjectTagLinks = htmlObj(`a[href*="${tagPrefix}"]`)
@@ -39,13 +51,21 @@ function parseSubjectWords(html) {
 async function fetchSubjectWords(lthing, column, subjectId) {
   const url = generateUrl(lthing, column, subjectId)
   const html = await fetchHtml(url)
-  return parseSubjectWords(html)
+  try {
+    const parsed = parseSubjectWords(html)
+    return parsed
+  } catch (error) {
+    console.log(`subject.parse error: ${error}`)
+    return {
+      subjects: [],
+      tags: [],
+    }
+  }
 }
 
 async function fetch(lthing, column, subjectId) {
   try {
     const words = await fetchSubjectWords(lthing, column, subjectId)
-    console.log(words)
     return words
   } catch (e) {
     return []

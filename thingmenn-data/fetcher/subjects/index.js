@@ -2,14 +2,11 @@ import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
 
 import fetchMps from '../mps'
-import { loadFile } from '../../utility/file'
+import { loadFile, writeToFile } from '../../utility/file'
 import fetchSubjectWords from './subject'
 
-// export default function fetch() {
-//   fetchSubjects(145, 'A', 6)
-// }
-
 const mpVoteUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/?nfaerslunr=652&lthing=143'
+const subjectContainMap = {}
 
 function parseSubjectWordInfo(raw) {
   // ltg=LTHING&mfl=COLUMN&mnr=SUBJECT_ID
@@ -21,12 +18,32 @@ function parseSubjectWordInfo(raw) {
   }
 }
 
+function processSubjectWords(subjects) {
+  subjects.forEach(subject => {
+    if (!subjectContainMap[subject.name]) {
+      subjectContainMap[subject.name] = {}
+    }
+
+    if (subject.words) {
+      subject.words.forEach(word => subjectContainMap[subject.name][word] = true)
+    }
+  })
+}
+
 async function fetchWordsForSubject(subject, lthing) {
   const html = await fetchHtml(`http://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill/?${subject.id}`)
   const rawSubjectInfo = html.split('/thingstorf/leit-ad-thingmalum/efnisyfirlit/millivisanir?')[1].split('"')[0]
   const parsedSubjectInfo = parseSubjectWordInfo(rawSubjectInfo)
   const words = await fetchSubjectWords(lthing, parsedSubjectInfo.column, parsedSubjectInfo.subjectId)
-  subject.words = words
+
+  if (words.subjects) {
+    processSubjectWords(words.subjects)
+  }
+
+  subject.words = {
+    subjects: words.subjects ? words.subjects.map(currentSubject => currentSubject.name) : undefined,
+    tags: words.tags,
+  }
 }
 
 function parseSubjects(html) {
@@ -66,6 +83,7 @@ async function fetchSubjectsForMp(mpId, lthing, allSubjects) {
 
   for (const subject of subjects) {
     if (!allSubjects[subject.id]) {
+      console.log(`Fetching subject: ${subject.title}`)
       await fetchWordsForSubject(subject, lthing)
       allSubjects[subject.id] = subject
     }
@@ -103,7 +121,18 @@ async function fetchAllSubjects(lthing) {
   }
   console.log('Done')
   console.log(Object.keys(subjects))
-  return subjects
+
+  writeToFile(subjects, 'data/subjects.json', true)
+
+  const subjectContainResult = []
+  Object.keys(subjectContainMap).forEach(subjectName => {
+    subjectContainResult.push({
+      subject: subjectName,
+      wordsInSubject: Object.keys(subjectContainMap[subjectName]),
+    })
+  })
+  writeToFile(subjectContainResult, 'data/subjects-contain.json', true)
+  return true
 }
 
 export default fetchAllSubjects
