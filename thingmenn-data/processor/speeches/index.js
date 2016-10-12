@@ -4,11 +4,40 @@ import pronounMap from './analyzer/maps/pronoun-map'
 import verbMap from './analyzer/maps/verb-map'
 import adverbMap from './analyzer/maps/adverb-map'
 import ignoreWordsMap from './analyzer/maps/words-to-ignore'
+import { isNoun, getNounRoot } from './analyzer/analyzer'
 
 const alphabet = 'aábcdðeéfghiíjklmnoóprstuúvxyýþæöAÁBDÐEÉFGHIÍJKLMNOÓPRSTUÚVXYÝÞÆÖqQwWxXzZ'
 const cleanWordLetters = `${alphabet}0123456789`
 
-import { isNoun, getNounRoot } from './analyzer/analyzer'
+console.log('Loading subjects')
+const wordsInSubjects = loadFile('data/subjects-contain.json')
+const subjectLookup = {}
+
+function addToSubjectLookup(word, subjectIndex) {
+  const nounRoot = getNounRoot(cleanWord(word))
+
+  if (!nounRoot) {
+    return
+  }
+
+  console.log(`Adding ${nounRoot} to subjects`)
+
+  if (!subjectLookup[nounRoot]) {
+    subjectLookup[nounRoot] = []
+  }
+
+  subjectLookup[nounRoot].push(subjectIndex)
+}
+
+wordsInSubjects.forEach((subject, index) => {
+  addToSubjectLookup(subject.subject, index)
+  if (subject.wordsInSubject) {
+    subject.wordsInSubject.forEach(word => {
+      addToSubjectLookup(word, index)
+    })
+  }
+})
+console.log('Subjects loaded')
 
 function wordIsOfInterest(word) {
   const wordIsUninflectable = uninflectableWordMap[word]
@@ -34,9 +63,12 @@ export default function createMpNounLookup() {
   const allMpSpeeches = loadFile('data/all-speeches.json')
 
   const mpNounLookup = {}
+  const mpSubjectOccuranceMap = {}
+
   allMpSpeeches.forEach(mpSpeeches => {
     const currentMpId = mpSpeeches.mpId
     mpNounLookup[currentMpId] = {}
+    mpSubjectOccuranceMap[currentMpId] = {}
 
     mpSpeeches.speeches.forEach(speech => {
       const nouns = speech.split(' ').map(word => cleanWord(word))
@@ -48,6 +80,15 @@ export default function createMpNounLookup() {
         }
 
         mpNounLookup[currentMpId][nounRoot]++
+
+        if (subjectLookup[nounRoot] && nounRoot !== 'forseti') {
+          subjectLookup[nounRoot].forEach(subjectIndex => {
+            if (!mpSubjectOccuranceMap[currentMpId][subjectIndex]) {
+              mpSubjectOccuranceMap[currentMpId][subjectIndex] = 0
+            }
+            mpSubjectOccuranceMap[currentMpId][subjectIndex]++
+          })
+        }
       })
     })
   })
@@ -93,4 +134,27 @@ export default function createMpNounLookup() {
     topForAll: allNounCounters.sort((a, b) => b.count - a.count).slice(0, 50).map(noun => `${noun.noun}: ${noun.count}`),
     topMpNouns: topNouns,
   }, 'data/mp-noun-lookup.json', true)
+
+  console.log('Wrote mp-nouns to file')
+
+  const mpSubjects = []
+  mpIds.forEach(mpId => {
+    const subjectIndices = Object.keys(mpSubjectOccuranceMap[mpId])
+
+    mpSubjects.push({
+      mpId,
+      subjectOccurance: subjectIndices.map(subjectIndex => {
+        const subjectName = wordsInSubjects[subjectIndex].subject
+        const subjectOccurance = mpSubjectOccuranceMap[mpId][subjectIndex]
+        return {
+          name: subjectName,
+          occurance: subjectOccurance,
+        }
+      }).sort((a, b) => {
+        return b.occurance - a.occurance
+      }).map(subjectOccurance => `${subjectOccurance.name}: ${subjectOccurance.occurance}`),
+    })
+  })
+
+  writeToFile(mpSubjects, 'data/mp-subject-occurance.json', true)
 }
