@@ -100,29 +100,34 @@ async function getMps(lthing) {
   return mps
 }
 
-async function fetchAllSubjects(lthing) {
+async function fetchAllSubjects() {
   console.log('Starting to fetch all subjects')
 
+  const lthings = [143, 144, 145]
+
   console.log('Begin by fetching mps')
-  const mps = await getMps(lthing)
+  const mps = await getMps(lthings[lthings.length - 1])
   console.log('Done ..')
 
   const subjects = {}
   let counter = 0
   for (const mp of mps) {
     console.log(`Fetching subjects for mp ${counter} / ${mps.length}`)
-    try {
-      await fetchSubjectsForMp(mp.id, lthing, subjects)
-    } catch (error) {
-      console.log(`Failed: ${error}`)
-      break
+    for (const lthing of lthings) {
+      console.log(`Fetching subjects from lthing: ${lthing}`)
+      try {
+        await fetchSubjectsForMp(mp.id, lthing, subjects)
+      } catch (error) {
+        console.log(`Failed: ${error}`)
+        break
+      }
     }
     ++counter
   }
   console.log('Done')
   console.log(Object.keys(subjects))
 
-  writeToFile(subjects, 'data/subjects.json', true)
+  writeToFile(subjects, 'data/subjects-for-term.json', true)
 
   const subjectContainResult = []
   Object.keys(subjectContainMap).forEach(subjectName => {
@@ -131,7 +136,7 @@ async function fetchAllSubjects(lthing) {
       wordsInSubject: Object.keys(subjectContainMap[subjectName]),
     })
   })
-  writeToFile(subjectContainResult, 'data/subjects-contain.json', true)
+  writeToFile(subjectContainResult, 'data/subjects-for-term-contain.json', true)
   return true
 }
 
