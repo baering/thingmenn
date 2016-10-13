@@ -1,8 +1,8 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
 const mps = loadFile('data/mps.json')
-const subjects = loadFile('data/subjects.json')
-const allVotes = loadFile('data/all-votes.json')
+const subjects = loadFile('data/subjects-for-term.json')
+const allVotesForTerm = loadFile('data/all-votes-for-term.json')
 
 console.log('Loaded all data needed, derp!')
 
@@ -26,46 +26,48 @@ function createOccuranceMaps() {
   const subjectOccuranceMap = {}
   const tagOccuranceMap = {}
 
-  allVotes.forEach(mpVotes => {
-    subjectOccuranceMap[mpVotes.mpId] = {}
-    tagOccuranceMap[mpVotes.mpId] = {}
+  allVotesForTerm.forEach(term => {
+    term.votes.forEach(mpVotes => {
+      subjectOccuranceMap[mpVotes.mpId] = {}
+      tagOccuranceMap[mpVotes.mpId] = {}
 
-    mpVotes.votes.forEach(voteTopic => {
-      const topicId = voteTopic.id
-      const subjectWords = subjects[topicId].words.subjects
-      const tagWords = subjects[topicId].words.tags
+      mpVotes.votes.forEach(voteTopic => {
+        const topicId = voteTopic.id
+        const subjectWords = subjects[topicId].words.subjects
+        const tagWords = subjects[topicId].words.tags
 
-      voteTopic.votes.forEach(vote => {
-        const voteValue = vote.vote
+        voteTopic.votes.forEach(vote => {
+          const voteValue = vote.vote
 
-        if (!globalVoteTypes[voteValue]) {
-          globalVoteTypes[voteValue] = true
-        }
-
-        subjectWords.forEach(word => {
-          if (!uniqueSubjectsMap[word]) {
-            uniqueSubjectsMap[word] = true
+          if (!globalVoteTypes[voteValue]) {
+            globalVoteTypes[voteValue] = true
           }
 
-          updateOccuranceCount(
-            subjectOccuranceMap,
-            mpVotes.mpId,
-            word,
-            voteValue
-          )
-        })
+          subjectWords.forEach(word => {
+            if (!uniqueSubjectsMap[word]) {
+              uniqueSubjectsMap[word] = true
+            }
 
-        tagWords.forEach(word => {
-          if (!uniqueTagsMap[word]) {
-            uniqueTagsMap[word] = true
-          }
+            updateOccuranceCount(
+              subjectOccuranceMap,
+              mpVotes.mpId,
+              word,
+              voteValue
+            )
+          })
 
-          updateOccuranceCount(
-            tagOccuranceMap,
-            mpVotes.mpId,
-            word,
-            voteValue
-          )
+          tagWords.forEach(word => {
+            if (!uniqueTagsMap[word]) {
+              uniqueTagsMap[word] = true
+            }
+
+            updateOccuranceCount(
+              tagOccuranceMap,
+              mpVotes.mpId,
+              word,
+              voteValue
+            )
+          })
         })
       })
     })
@@ -159,19 +161,23 @@ function process() {
 
       const topSummary = {}
       const totalVotesForSubject = {}
-      topLists.forEach(topList => {
-        topList.subjects.forEach(topSubject => {
-          if (topList.voteType === 'já' || topList.voteType === 'nei') {
-            if (!topSummary[topSubject.word]) {
-              topSummary[topSubject.word] = 0
+
+      const subjectOccuranceForMp = occuranceMaps.subjects[mp.id]
+      const mpSubjects = Object.keys(subjectOccuranceForMp)
+      mpSubjects.forEach(subject => {
+        const mpSubjectVoteTypes = Object.keys(subjectOccuranceForMp[subject])
+        mpSubjectVoteTypes.forEach(voteType => {
+          if (voteType === 'já' || voteType === 'nei') {
+            if (!topSummary[subject]) {
+              topSummary[subject] = 0
             }
-            topSummary[topSubject.word] += topSubject.occurance
+            topSummary[subject] += subjectOccuranceForMp[subject][voteType]
           }
 
-          if (!totalVotesForSubject[topSubject.word]) {
-            totalVotesForSubject[topSubject.word] = 0
+          if (!totalVotesForSubject[subject]) {
+            totalVotesForSubject[subject] = 0
           }
-          totalVotesForSubject[topSubject.word] += topSubject.occurance
+          totalVotesForSubject[subject] += subjectOccuranceForMp[subject][voteType]
         })
       })
 
@@ -183,18 +189,21 @@ function process() {
           occuranceRatio: topSummary[word] / totalVotesForSubject[word],
         }
       }).sort((a, b) => {
-        return b.occurance - a.occurance
+        return b.occuranceRatio - a.occuranceRatio
       })
 
       summary.push({
         name: mp.name,
-        summary: topSummarySorted.slice(0, 10).map(topSubject => `${topSubject.word}: ${topSubject.occurance} (${topSubject.occuranceRatio})`),
+        summary: topSummarySorted.slice(0, 15).map(topSubject => {
+          const { word, occurance, occuranceRatio } = topSubject
+          return `${word}: ${occurance} (${(occuranceRatio * 100).toFixed(2)})`
+        }),
         top: topLists,
       })
     }
   })
 
-  writeToFile(summary, 'data/mp-positions.json', true)
+  writeToFile(summary, 'data/term/mp-positions.json', true)
 }
 
 export default process
