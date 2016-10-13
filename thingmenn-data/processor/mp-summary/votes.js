@@ -105,11 +105,11 @@ export default function createVoteSummary() {
 
     const numberOfVotes = summary.voteSummary.numberOfVotes
     const standsTaken = summary.voteSummary.numberOfStandsTaken / numberOfVotes
-    const standsNotTaken = 1 - standsTaken
+    const idle = summary.voteSummary.numberOfIdleVotes / numberOfVotes
     const away = summary.voteSummary.numberOfAway / numberOfVotes
     summary.votePercentages = {
       standsTaken: (standsTaken * 100).toFixed(1),
-      standsNotTaken: (standsNotTaken * 100).toFixed(1),
+      idle: (idle * 100).toFixed(1),
       away: (away * 100).toFixed(1),
     }
   })
