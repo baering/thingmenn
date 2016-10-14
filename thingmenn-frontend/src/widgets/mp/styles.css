@@ -1,7 +1,5 @@
 .Mp {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: block;
   width: 200px;
   height: 277px;
   padding: 3px;
@@ -26,7 +24,7 @@
 }
 
 .Mp-card:hover > .Mp-content {
-  transform: translateY(-167px);
+  transform: translateY(-131px);
   opacity: 1;
 }
 
@@ -35,16 +33,27 @@
 }
 
 .Mp-content {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.97);
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   width: 100%;
-  bottom: -167px;
+  bottom: -131px;
   left: 0;
   opacity: 0;
   transition: opacity 200ms linear, transform 300ms linear;
   pointer-events: none;
-  height: 166px;
+  height: 130px;
+}
+
+.Mp-content .Heading {
+  font-size: 2em;
+}
+
+.Mp-content .Text {
+  margin-top: auto;
+  font-size: 1.6em;
 }
 
 .Mp-image {
