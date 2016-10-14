@@ -8,7 +8,7 @@ const Mp = ({
   party,
 }) => {
   return (
-    <a href={`/mps/${id}`} className="Mp">
+    <a href={`/thingmenn/${id}`} className="Mp">
       <div className="Mp-card">
         <div
           className="Mp-image"
