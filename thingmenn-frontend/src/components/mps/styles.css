@@ -1,16 +1,22 @@
 .mps {
   margin: 20px auto;
-  width: 203px;
+  width: 200px;
+}
+
+@media (min-width: 420px) {
+  .mps {
+    width: 400px;
+  }
 }
 
 @media (min-width: 768px) {
   .mps {
-    width: 609px;
+    width: 600px;
   }
 }
 
 @media (min-width: 1024px) {
   .mps {
-    width: 812px;
+    width: 800px;
   }
 }
