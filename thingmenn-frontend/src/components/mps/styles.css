@@ -1,0 +1,16 @@
+.mps {
+  margin: 20px auto;
+  width: 203px;
+}
+
+@media (min-width: 768px) {
+  .mps {
+    width: 609px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mps {
+    width: 812px;
+  }
+}
