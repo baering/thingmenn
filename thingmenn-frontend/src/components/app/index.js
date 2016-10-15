@@ -3,8 +3,6 @@ import './styles.css'
 
 class App extends React.Component {
   render() {
-    const { className } = this.props;
-
     return (
       <div className='index'>
         <div className='index__header'>
