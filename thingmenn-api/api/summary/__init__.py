@@ -7,15 +7,30 @@ import json
 
 mps = []
 mp_vote_summary_lookup = {}
+mp_subject_summary_lookup = {}
 
-with open(path.dirname(__file__) + '/../../data/mp-vote-summaries.json', 'r') as summaryFile:
-    mp_vote_summary_lookup = json.loads(summaryFile.read())
+with open(path.dirname(__file__) + '/../../data/mp-vote-summaries.json', 'r') as f:
+    mp_vote_summary_lookup = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/mp-positions.json', 'r') as f:
+    mp_subject_summary_lookup = json.loads(f.read())
 
 def get_mp_vote_summary(mp_id):
     if mp_id not in mp_vote_summary_lookup:
         return '404'
 
     summary_for_mp = mp_vote_summary_lookup[mp_id]
+    response = jsonify(summary_for_mp)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET')
+    return response
+
+def get_mp_subject_summary(mp_id):
+    if mp_id not in mp_subject_summary_lookup:
+        return '404'
+
+    summary_for_mp = mp_subject_summary_lookup[mp_id]
     response = jsonify(summary_for_mp)
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')

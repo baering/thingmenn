@@ -130,6 +130,22 @@ function generateTopListsForMp(voteTypes, occuranceMaps, mpId, words) {
   return topList
 }
 
+function createSortedSummaryList(typeOccuranceMap, totalOccuranceMap) {
+  const wordsInSummary = Object.keys(typeOccuranceMap)
+  const typeOccuranceMapSorted = wordsInSummary.map(word => {
+    const occuranceRatio = typeOccuranceMap[word] / totalOccuranceMap[word]
+    return {
+      word,
+      occurance: typeOccuranceMap[word],
+      occuranceRatio: (occuranceRatio * 100).toFixed(2),
+    }
+  }).sort((a, b) => {
+    return b.occuranceRatio - a.occuranceRatio
+  })
+
+  return typeOccuranceMapSorted
+}
+
 function process() {
   const occuranceMaps = createOccuranceMaps()
   const voteTypes = Object.keys(globalVoteTypes)
@@ -144,6 +160,8 @@ function process() {
   console.log(uniqueSubjects)
   console.log(uniqueTags)
   const summary = []
+  const mpVoteSplitSummary = {}
+
   mps.forEach(mp => {
     if (occuranceMaps.subjects[mp.id] !== undefined) {
       const subjectWords = Object.keys(occuranceMaps.subjects[mp.id])
@@ -162,22 +180,42 @@ function process() {
       const topSummary = {}
       const totalVotesForSubject = {}
 
+      const standsTakenSummary = {}
+      const idleSummary = {}
+      const awaySummary = {}
+
       const subjectOccuranceForMp = occuranceMaps.subjects[mp.id]
       const mpSubjects = Object.keys(subjectOccuranceForMp)
       mpSubjects.forEach(subject => {
         const mpSubjectVoteTypes = Object.keys(subjectOccuranceForMp[subject])
         mpSubjectVoteTypes.forEach(voteType => {
+          const subjectOccurance = subjectOccuranceForMp[subject][voteType]
           if (voteType === 'já' || voteType === 'nei') {
             if (!topSummary[subject]) {
               topSummary[subject] = 0
             }
-            topSummary[subject] += subjectOccuranceForMp[subject][voteType]
+            topSummary[subject] += subjectOccurance
+
+            if (!standsTakenSummary[subject]) {
+              standsTakenSummary[subject] = 0
+            }
+            standsTakenSummary[subject] += subjectOccurance
+          } else if (voteType === 'greiðir ekki atkvæði') {
+            if (!idleSummary[subject]) {
+              idleSummary[subject] = 0
+            }
+            idleSummary[subject] += subjectOccurance
+          } else {
+            if (!awaySummary[subject]) {
+              awaySummary[subject] = 0
+            }
+            awaySummary[subject] += subjectOccurance
           }
 
           if (!totalVotesForSubject[subject]) {
             totalVotesForSubject[subject] = 0
           }
-          totalVotesForSubject[subject] += subjectOccuranceForMp[subject][voteType]
+          totalVotesForSubject[subject] += subjectOccurance
         })
       })
 
@@ -200,10 +238,22 @@ function process() {
         }),
         top: topLists,
       })
+
+      const sortedStandsTaken = createSortedSummaryList(standsTakenSummary, totalVotesForSubject)
+      const sortedIdles = createSortedSummaryList(idleSummary, totalVotesForSubject)
+      const sortedAways = createSortedSummaryList(awaySummary, totalVotesForSubject)
+
+      console.log(`Adding split votes for ${mp.name} (${mp.id})`)
+      mpVoteSplitSummary[mp.id] = {
+        standsTaken: sortedStandsTaken,
+        idle: sortedIdles,
+        away: sortedAways,
+      }
     }
   })
 
   writeToFile(summary, 'data/term/mp-positions.json', true)
+  writeToFile(mpVoteSplitSummary, 'data/export/mp-positions.json', true)
 }
 
 export default process

@@ -60,41 +60,61 @@ function cleanWord(word) {
 }
 
 export default function createMpNounLookup() {
-  const allMpSpeeches = loadFile('data/all-speeches.json')
+  // const allMpSpeeches = loadFile('data/all-speeches.json')
+
+  const allSpeeches = [
+    {
+      lthing: 143,
+      speeches: loadFile('data/term/speeches-143.json'),
+    },
+    {
+      lthing: 144,
+      speeches: loadFile('data/term/speeches-144.json'),
+    },
+    {
+      lthing: 145,
+      speeches: loadFile('data/term/speeches-145.json'),
+    },
+  ]
 
   const mpNounLookup = {}
   const mpSubjectOccuranceMap = {}
 
-  allMpSpeeches.forEach(mpSpeeches => {
-    const currentMpId = mpSpeeches.mpId
-    mpNounLookup[currentMpId] = {}
-    mpSubjectOccuranceMap[currentMpId] = {}
+  allSpeeches.forEach(term => {
+    term.speeches.forEach(mpSpeeches => {
+      const currentMpId = mpSpeeches.mpId
+      mpNounLookup[currentMpId] = {}
+      mpSubjectOccuranceMap[currentMpId] = {}
 
-    mpSpeeches.speeches.forEach(speech => {
-      const nouns = speech.split(' ').map(word => cleanWord(word))
+      mpSpeeches.speeches.forEach(speech => {
+        const cleanedSpeech = speech.replace(/\n/g, ' ')
+        // cleanedSpeech = speech.replace(/\.|\?|!/g, '')
+        const nouns = cleanedSpeech.split(' ').map(word => cleanWord(word))
 
-      nouns.filter(word => wordIsOfInterest(word)).forEach(noun => {
-        const nounRoot = getNounRoot(noun)
-        if (!mpNounLookup[currentMpId][nounRoot]) {
-          mpNounLookup[currentMpId][nounRoot] = 0
-        }
+        nouns.filter(word => wordIsOfInterest(word)).forEach(noun => {
+          const nounRoot = getNounRoot(noun)
+          if (!mpNounLookup[currentMpId][nounRoot]) {
+            mpNounLookup[currentMpId][nounRoot] = 0
+          }
 
-        mpNounLookup[currentMpId][nounRoot]++
+          mpNounLookup[currentMpId][nounRoot]++
 
-        if (subjectLookup[nounRoot] && nounRoot !== 'forseti') {
-          subjectLookup[nounRoot].forEach(subjectIndex => {
-            if (!mpSubjectOccuranceMap[currentMpId][subjectIndex]) {
-              mpSubjectOccuranceMap[currentMpId][subjectIndex] = 0
-            }
-            mpSubjectOccuranceMap[currentMpId][subjectIndex]++
-          })
-        }
+          if (subjectLookup[nounRoot] && nounRoot !== 'forseti') {
+            subjectLookup[nounRoot].forEach(subjectIndex => {
+              if (!mpSubjectOccuranceMap[currentMpId][subjectIndex]) {
+                mpSubjectOccuranceMap[currentMpId][subjectIndex] = 0
+              }
+              mpSubjectOccuranceMap[currentMpId][subjectIndex]++
+            })
+          }
+        })
       })
     })
   })
 
   const topNounsForAll = {}
   const topNouns = []
+  const mpNounLookupMap = {}
   const mpIds = Object.keys(mpNounLookup)
   mpIds.forEach(mpId => {
     const nouns = Object.keys(mpNounLookup[mpId])
@@ -114,10 +134,17 @@ export default function createMpNounLookup() {
       }
     })
 
-    const topNounsForMp = nounCounters.sort((a, b) => b.count - a.count).slice(0, 10)
+    const topNounsForMp = nounCounters.sort((a, b) => b.count - a.count).slice(0, 15)
     topNouns.push({
       mpId,
       nouns: topNounsForMp.map(nounCounter => `${nounCounter.noun}: ${nounCounter.count}`),
+    })
+
+    mpNounLookupMap[mpId] = topNounsForMp.map(nounCounter => {
+      return {
+        noun: nounCounter.noun,
+        occurance: nounCounter.count,
+      }
     })
   })
 
@@ -133,7 +160,9 @@ export default function createMpNounLookup() {
   writeToFile({
     topForAll: allNounCounters.sort((a, b) => b.count - a.count).slice(0, 50).map(noun => `${noun.noun}: ${noun.count}`),
     topMpNouns: topNouns,
-  }, 'data/mp-noun-lookup.json', true)
+  }, 'data/term/mp-noun-lookup.json', true)
+
+  writeToFile(mpNounLookupMap, 'data/export/mp-noun-lookup.json', true)
 
   console.log('Wrote mp-nouns to file')
 
@@ -156,5 +185,5 @@ export default function createMpNounLookup() {
     })
   })
 
-  writeToFile(mpSubjects, 'data/mp-subject-occurance.json', true)
+  writeToFile(mpSubjects, 'data/term/mp-subject-occurance.json', true)
 }

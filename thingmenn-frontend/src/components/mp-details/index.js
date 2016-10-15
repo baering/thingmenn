@@ -18,6 +18,11 @@ export default class Mps extends React.Component {
         voteSummary: {},
         votePercentages: {},
       },
+      subjectSummary: {
+        standsTaken: [],
+        idle: [],
+        away: [],
+      }
     }
   }
 
@@ -33,10 +38,15 @@ export default class Mps extends React.Component {
     fetchJson(mpVoteUrl)
       .then(voteSummary => this.setState({ voteSummary }))
       .catch(error => console.log(error))
+
+    const mpSubjectUrl = `http://localhost:8080/api/summary/subjects/mp/${mpId}`
+    fetchJson(mpSubjectUrl)
+      .then(subjectSummary => this.setState({ subjectSummary }))
+      .catch(error => console.log(error))
   }
 
   render() {
-    const { mp, voteSummary } = this.state
+    const { mp, voteSummary, subjectSummary } = this.state
 
     return (
       <div className='mp-details'>
@@ -52,6 +62,7 @@ export default class Mps extends React.Component {
             <h2 className='mp-details__introduction-party text'>{mp.party}</h2>
           </div>
         </div>
+
         <div className='mp-details__votes mp-details__section'>
           <h2 className='heading'>Yfirlit atkvæða</h2>
           <ul>
@@ -59,6 +70,35 @@ export default class Mps extends React.Component {
             <li className='text'>{voteSummary.votePercentages.standsTaken}% afstaða tekin</li>
             <li className='text'>{voteSummary.votePercentages.idle}% hlutleysi</li>
             <li className='text'>{voteSummary.votePercentages.away}% fjarverandi</li>
+          </ul>
+        </div>
+
+        <div className='mp-details__subjects mp-details__section'>
+          <h3 className='heading'>Mest afstaða</h3>
+          <ul>
+            {subjectSummary.standsTaken.slice(0, 5).map(subject => (
+              <div className='text' key={subject.word}>
+                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
+              </div>
+            ))}
+          </ul>
+
+          <h3 className='heading'>Mest hlutleysi</h3>
+          <ul>
+            {subjectSummary.idle.slice(0, 5).map(subject => (
+              <div className='text' key={subject.word}>
+                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
+              </div>
+            ))}
+          </ul>
+
+          <h3 className='heading'>Mest fjarverandi</h3>
+          <ul>
+            {subjectSummary.away.slice(0, 5).map(subject => (
+              <div className='text' key={subject.word}>
+                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
+              </div>
+            ))}
           </ul>
         </div>
       </div>

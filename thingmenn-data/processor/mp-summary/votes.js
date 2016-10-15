@@ -114,7 +114,29 @@ export default function createVoteSummary() {
     }
   })
 
-  writeToFile(mpVoteSummary, 'data/term/mp-vote-summaries.json', true)
+  writeToFile(mpVoteSummary, 'data/export/mp-vote-summaries.json', true)
   writeToFile(mpSimilarVotes, 'data/term/mp-similar-votes.json', true)
+
+  const sortedMpSimilarVotes = {}
+  mps.forEach(mp => {
+    const similarVoteLookup = mpSimilarVotes[mp.id]
+    const similarVoterIds = Object.keys(similarVoteLookup)
+
+    const sortedSimilarVoters = similarVoterIds.sort((a, b) => {
+      const similarVotesByA = mpSimilarVotes[mp.id][a]
+      const similarVotesByB = mpSimilarVotes[mp.id][b]
+
+      return similarVotesByB - similarVotesByA
+    }).map(voterId => {
+      return {
+        mpId: voterId,
+        similarVotes: mpSimilarVotes[mp.id][voterId],
+      }
+    })
+
+    sortedMpSimilarVotes[mp.id] = sortedSimilarVoters
+  })
+  writeToFile(sortedMpSimilarVotes, 'data/export/mp-similar-votes.json', true)
+
   writeToFile(reducedLookup, 'data/term/lookup-temp.json', true)
 }

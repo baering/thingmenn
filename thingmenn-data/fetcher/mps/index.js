@@ -1,5 +1,6 @@
 import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
+import { writeToFile } from '../../utility/file'
 
 const mpListUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/'
 const mpDetailsUrl = 'http://www.althingi.is/altext/cv/is/?nfaerslunr='
@@ -75,6 +76,7 @@ async function fetch(lthing = 145) {
     const mps = await fetchMpList(lthing)
     console.log('Done\n\nExample:')
     console.log(mps[0])
+    writeToFile(mps, 'data/export/mps.json', true)
     return mps
   } catch (e) {
     console.log(`Error: ${e}`)
