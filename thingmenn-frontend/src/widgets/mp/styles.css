@@ -1,15 +1,15 @@
-.Mp {
+.mp {
   display: block;
   width: 200px;
   height: 277px;
   padding: 3px;
 }
 
-.Mp .Heading {
+.mp .heading {
   font-size: 20px;
 }
 
-.Mp-card {
+.mp-card {
   display: block;
   width: 100%;
   height: 100%;
@@ -19,20 +19,20 @@
   transition: opacity 200ms linear;
 }
 
-.Mp-card:hover {
+.mp-card:hover {
   opacity: 1;
 }
 
-.Mp-card:hover > .Mp-content {
+.mp-card:hover > .mp-content {
   transform: translateY(-131px);
   opacity: 1;
 }
 
-.Mp-card:hover > .Mp-image {
+.mp-card:hover > .mp-image {
   transform: scale(1.03);
 }
 
-.Mp-content {
+.mp-content {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -47,16 +47,16 @@
   height: 130px;
 }
 
-.Mp-content .Heading {
+.mp-content .heading {
   font-size: 2em;
 }
 
-.Mp-content .Text {
+.mp-content .text {
   margin-top: auto;
   font-size: 1.6em;
 }
 
-.Mp-image {
+.mp-image {
   background-size: cover;
   width: 100%;
   height: 100%;

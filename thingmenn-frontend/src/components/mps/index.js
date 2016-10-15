@@ -36,9 +36,9 @@ export default class Mps extends React.Component {
 
     return (
       <div className={classnames('Mps', className)}>
-        <div className="Grid">
+        <div className="grid">
           {mps.map(mp => (
-            <div key={mp.id} className="Grid-cell">
+            <div key={mp.id} className="grid-cell">
               <Mp key={mp.id} {...mp} />
             </div>
           ))}

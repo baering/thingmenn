@@ -8,17 +8,17 @@ const Mp = ({
   party,
 }) => {
   return (
-    <a href={`/thingmenn/${id}`} className="Mp">
-      <div className="Mp-card">
+    <a href={`/thingmenn/${id}`} className="mp">
+      <div className="mp-card">
         <div
-          className="Mp-image"
+          className="mp-image"
           style={{
             backgroundImage: `url(${imagePath})`
           }}
         />
-        <div className="Mp-content">
-          <h2 className="Heading">{name}</h2>
-          <p className="Text">{party}</p>
+        <div className="mp-content">
+          <h2 className="heading">{name}</h2>
+          <p className="text">{party}</p>
         </div>
       </div>
     </a>
