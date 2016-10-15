@@ -1,4 +1,5 @@
 from api.mp import get_mps, get_mp_by_id
+from api.summary import get_mp_vote_summary
 
 from flask import blueprints
 from flask import jsonify
@@ -10,3 +11,6 @@ prefix = '/api'
 
 api.add_url_rule(prefix + '/mps', 'list_mps', get_mps)
 api.add_url_rule(prefix + '/mps/<int:mp_id>', 'get_mp', get_mp_by_id)
+
+summary_prefix = prefix + '/summary'
+api.add_url_rule(summary_prefix + '/votes/mp/<string:mp_id>', 'get_mp_vote_summary', get_mp_vote_summary)
