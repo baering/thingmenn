@@ -35,8 +35,19 @@ export default class Mps extends React.Component {
     const { mp } = this.state
 
     return (
-      <div className={classnames('MpDetails', className)}>
-        <h1>{mp.name}</h1>
+      <div className='mp-details'>
+        <div className='mp-details__introduction'>
+          <div
+            className='mp-details__introduction-image'
+            style={{
+              backgroundImage: `url(${mp.imagePath})`
+            }}
+          ></div>
+          <div className='mp-details__introduction-text'>
+            <h1 className='mp-details__introduction-name'>{mp.name}</h1>
+            <h2 className='mp-details__introduction-party'>{mp.party}</h2>
+          </div>
+        </div>
       </div>
     );
   }

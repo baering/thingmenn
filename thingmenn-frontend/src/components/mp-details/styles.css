@@ -1,0 +1,23 @@
+.mp-details {
+  margin: 10px;
+}
+
+.mp-details__introduction {
+  display: flex;
+}
+
+.mp-details__introduction-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 277px;
+}
+
+.mp-details__introduction-text {
+  margin: 0 10px;
+}
+
+.mp-details__introduction-name, .mp-details__introduction-party {
+  margin: 0;
+  padding: 0;
+}
