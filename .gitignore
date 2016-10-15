@@ -24,8 +24,8 @@ lib
 
 # Build directory
 dist
-data
-database
+thingmenn-data/data
+thingmenn-data/processor/speeches/analyzer
 
 # Ignore Mac DS_Store files
 .DS_Store
