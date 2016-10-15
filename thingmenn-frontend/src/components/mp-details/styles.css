@@ -1,9 +1,18 @@
 .mp-details {
-  margin: 10px;
+  margin: 20px;
+}
+
+.mp-details__section {
+  margin-bottom: 20px;
+}
+
+.mp-details__section:last-child {
+  margin-bottom: 0;
 }
 
 .mp-details__introduction {
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .mp-details__introduction-image {
@@ -14,10 +23,14 @@
 }
 
 .mp-details__introduction-text {
-  margin: 0 10px;
+  margin-bottom: 20px;
 }
 
 .mp-details__introduction-name, .mp-details__introduction-party {
   margin: 0;
   padding: 0;
+}
+
+.mp-details__votes {
+
 }
