@@ -1,5 +1,4 @@
 import React from 'react'
-import classnames from 'classnames'
 import './styles.css'
 
 class App extends React.Component {
@@ -7,9 +6,9 @@ class App extends React.Component {
     const { className } = this.props;
 
     return (
-      <div className={classnames('App', className)}>
-        <div className="App-header">
-          <h2>Thingmenn</h2>
+      <div className='index'>
+        <div className='index__header'>
+          <a href='/thingmenn'>Skoða þingmenn</a>
         </div>
       </div>
     );

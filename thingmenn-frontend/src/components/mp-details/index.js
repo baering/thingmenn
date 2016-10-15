@@ -33,23 +33,9 @@ export default class Mps extends React.Component {
     fetchJson(mpVoteUrl)
       .then(voteSummary => this.setState({ voteSummary }))
       .catch(error => console.log(error))
-
-    // fetch(`http://localhost:8080/api/mps/${mpId}`)
-    //   .then(response => {
-    //     return response.json()
-    //   })
-    //   .then(mp => {
-    //     this.setState({
-    //       mp,
-    //     })
-    //   })
-    //   .catch(error => {
-    //     console.log(`Error: ${error}`)
-    //   })
   }
 
   render() {
-    // const { className } = this.props;
     const { mp, voteSummary } = this.state
 
     return (
