@@ -22,7 +22,8 @@ export default class Mps extends React.Component {
         standsTaken: [],
         idle: [],
         away: [],
-      }
+      },
+      nouns: [],
     }
   }
 
@@ -43,10 +44,15 @@ export default class Mps extends React.Component {
     fetchJson(mpSubjectUrl)
       .then(subjectSummary => this.setState({ subjectSummary }))
       .catch(error => console.log(error))
+
+      const mpNounUrl = `http://localhost:8080/api/summary/nouns/mp/${mpId}`
+      fetchJson(mpNounUrl)
+        .then(nouns => this.setState({ nouns }))
+        .catch(error => console.log(error))
   }
 
   render() {
-    const { mp, voteSummary, subjectSummary } = this.state
+    const { mp, voteSummary, subjectSummary, nouns } = this.state
 
     return (
       <div className='mp-details'>
@@ -70,6 +76,17 @@ export default class Mps extends React.Component {
             <li className='text'>{voteSummary.votePercentages.standsTaken}% afstaða tekin</li>
             <li className='text'>{voteSummary.votePercentages.idle}% hlutleysi</li>
             <li className='text'>{voteSummary.votePercentages.away}% fjarverandi</li>
+          </ul>
+        </div>
+
+        <div className='mp-details__nouns mp-details__section'>
+          <h3 className='heading'>Mest talað um</h3>
+          <ul>
+            {nouns.slice(0, 10).map(noun => (
+              <div className='text' key={noun.noun}>
+                <strong>{noun.noun}</strong>: {noun.occurance}
+              </div>
+            ))}
           </ul>
         </div>
 
