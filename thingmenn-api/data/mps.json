@@ -1,0 +1,632 @@
+[
+	{
+		"id": "1221",
+		"name": "Anna María Elíasdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1221/1221-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1002",
+		"name": "Anna Margrét Guðjónsdóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1002/1002-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "678",
+		"name": "Árni Páll Árnason",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/678/678-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "707",
+		"name": "Ásmundur Einar Daðason",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/707/707-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1157",
+		"name": "Ásmundur Friðriksson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1157/1157-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1214",
+		"name": "Ásta Guðrún Helgadóttir",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1214/1214-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "650",
+		"name": "Birgir Ármannsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "728",
+		"name": "Birgitta Jónsdóttir",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/728/728-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1012",
+		"name": "Bjarkey Olsen Gunnarsdóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1012/1012-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "652",
+		"name": "Bjarni Benediktsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/652/652-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "653",
+		"name": "Björgvin G. Sigurðsson",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/653/653-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "737",
+		"name": "Björn Valur Gíslason",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/737/737-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1215",
+		"name": "Björn Leví Gunnarsson",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1215/1215-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1158",
+		"name": "Björt Ólafsdóttir",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1158/1158-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1186",
+		"name": "Brynhildur S. Björnsdóttir",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1186/1186-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1159",
+		"name": "Brynhildur Pétursdóttir",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1159/1159-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1160",
+		"name": "Brynjar Níelsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "124",
+		"name": "Einar K. Guðfinnsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/124/124-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1181",
+		"name": "Elín Hirst",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1181/1181-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1161",
+		"name": "Elsa Lára Arnardóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1161/1161-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1237",
+		"name": "Erna Indriðadóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1237/1237-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "703",
+		"name": "Eygló Harðardóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/703/703-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1046",
+		"name": "Fanný Gunnarsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1046/1046-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1211",
+		"name": "Fjóla Hrund Björnsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1211/1211-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1188",
+		"name": "Freyja Haraldsdóttir",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1188/1188-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1162",
+		"name": "Frosti Sigurjónsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1162/1162-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1212",
+		"name": "Geir Jón Þórisson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1212/1212-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "683",
+		"name": "Guðbjartur Hannesson",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "656",
+		"name": "Guðlaugur Þór Þórðarson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/656/656-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "704",
+		"name": "Guðmundur Steingrímsson",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/704/704-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "722",
+		"name": "Gunnar Bragi Sveinsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/722/722-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1218",
+		"name": "Halldóra Mogensen",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1218/1218-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1163",
+		"name": "Hanna Birna Kristjánsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1163/1163-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1164",
+		"name": "Haraldur Benediktsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1164/1164-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1165",
+		"name": "Haraldur Einarsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1165/1165-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1213",
+		"name": "Heiða Kristín Helgadóttir",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1213/1213-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1166",
+		"name": "Helgi Hrafn Gunnarsson",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1166/1166-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "658",
+		"name": "Helgi Hjörvar",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/658/658-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1202",
+		"name": "Hjálmar Bogi Hafliðason",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1202/1202-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1235",
+		"name": "Hörður Ríkharðsson",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1235/1235-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "686",
+		"name": "Höskuldur Þórhallsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/686/686-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "687",
+		"name": "Illugi Gunnarsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/687/687-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1236",
+		"name": "Ingibjörg Þórðardóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1236/1236-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1167",
+		"name": "Jóhanna María Sigmundsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "688",
+		"name": "Jón Gunnarsson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1242",
+		"name": "Karen Elísabet Halldórsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.isundefined",
+		"isPrimary": false
+	},
+	{
+		"id": "1169",
+		"name": "Karl Garðarsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1169/1169-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "690",
+		"name": "Katrín Jakobsdóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/690/690-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "660",
+		"name": "Katrín Júlíusdóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/660/660-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "691",
+		"name": "Kristján Þór Júlíusson",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/691/691-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "396",
+		"name": "Kristján L. Möller",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/396/396-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1241",
+		"name": "Lárus Ástmar Hannesson",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.isundefined",
+		"isPrimary": false
+	},
+	{
+		"id": "714",
+		"name": "Lilja Rafney Magnúsdóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/714/714-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1170",
+		"name": "Líneik Anna Sævarsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1170/1170-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1199",
+		"name": "Margrét Gauja Magnúsdóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1199/1199-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "719",
+		"name": "Oddný G. Harðardóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/719/719-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "999",
+		"name": "Óli Björn Kárason",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/999/999-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "715",
+		"name": "Ólína Kjerúlf Þorvarðardóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/715/715-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1171",
+		"name": "Óttarr Proppé",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1171/1171-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1172",
+		"name": "Páll Valur Björnsson",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1172/1172-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1173",
+		"name": "Páll Jóhann Pálsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1173/1173-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1240",
+		"name": "Preben Jón Pétursson",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.isundefined",
+		"isPrimary": false
+	},
+	{
+		"id": "693",
+		"name": "Ragnheiður E. Árnadóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/693/693-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "694",
+		"name": "Ragnheiður Ríkharðsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/694/694-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "708",
+		"name": "Róbert Marshall",
+		"party": "Björt framtíð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/708/708-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1183",
+		"name": "Rósa Björk Brynjólfsdóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.isundefined",
+		"isPrimary": false
+	},
+	{
+		"id": "1238",
+		"name": "Sandra Dís Hafþórsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1238/1238-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "729",
+		"name": "Sigmundur Davíð Gunnlaugsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/729/729-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1018",
+		"name": "Sigríður Á. Andersen",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1018/1018-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "712",
+		"name": "Sigríður Ingibjörg Ingadóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/712/712-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "934",
+		"name": "Sigrún Magnúsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/934/934-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1243",
+		"name": "Sigurbjörg Erla Egilsdóttir",
+		"party": "Píratar",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1243/1243-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "726",
+		"name": "Sigurður Ingi Jóhannsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/726/726-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1203",
+		"name": "Sigurður Páll Jónsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1203/1203-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1201",
+		"name": "Sigurjón Kjærnested",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1201/1201-220.jpg",
+		"isPrimary": false
+	},
+	{
+		"id": "1174",
+		"name": "Silja Dögg Gunnarsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1174/1174-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "557",
+		"name": "Steingrímur J. Sigfússon",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/557/557-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1031",
+		"name": "Steinunn Þóra Árnadóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1031/1031-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "730",
+		"name": "Svandís Svavarsdóttir",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/730/730-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "721",
+		"name": "Unnur Brá Konráðsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/721/721-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "705",
+		"name": "Valgerður Bjarnadóttir",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/705/705-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1175",
+		"name": "Valgerður Gunnarsdóttir",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1175/1175-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "706",
+		"name": "Vigdís Hauksdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/706/706-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1176",
+		"name": "Vilhjálmur Árnason",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1176/1176-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1177",
+		"name": "Vilhjálmur Bjarnason",
+		"party": "Sjálfstæðisflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1177/1177-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1178",
+		"name": "Willum Þór Þórsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1178/1178-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1179",
+		"name": "Þorsteinn Sæmundsson",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1179/1179-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "1180",
+		"name": "Þórunn Egilsdóttir",
+		"party": "Framsóknarflokkur",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1180/1180-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "630",
+		"name": "Ögmundur Jónasson",
+		"party": "Vinstri hreyfingin – grænt framboð",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/630/630-220.jpg",
+		"isPrimary": true
+	},
+	{
+		"id": "631",
+		"name": "Össur Skarphéðinsson",
+		"party": "Samfylkingin",
+		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/631/631-220.jpg",
+		"isPrimary": true
+	}
+]
