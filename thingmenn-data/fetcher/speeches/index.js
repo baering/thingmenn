@@ -1,8 +1,9 @@
 import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
+import { loadFile, writeToFile } from '../../utility/file'
+import fetchMps from '../mps'
 
-const speechListUrl = 'http://www.althingi.is/altext/cv/is/raedur/?lthing=145'
-const mpSpeechesUrl = 'http://www.althingi.is/altext/cv/is/raedur/?lthing=145&nfaerslunr='
+const mpSpeechesUrl = 'http://www.althingi.is/altext/cv/is/raedur/?'
 
 function parseSpeech(html) {
   const htmlObj = cheerio.load(html)
@@ -10,8 +11,13 @@ function parseSpeech(html) {
 }
 
 async function fetchSpeech(url) {
-  const html = await fetchHtml(url)
-  return parseSpeech(html)
+  try {
+    const html = await fetchHtml(url)
+    return parseSpeech(html)
+  } catch (error) {
+    console.log(`Error fetching speech: ${url}`)
+    return null
+  }
 }
 
 async function fetchMpSpeeches(speechUrls) {
@@ -20,8 +26,14 @@ async function fetchMpSpeeches(speechUrls) {
   let counter = 0
   for (const speechUrl of speechUrls) {
     console.log(`\t- speech ${counter + 1} / ${speechUrls.length}`)
-    const speech = await fetchSpeech(speechUrl)
-    speeches.push(speech)
+    try {
+      const speech = await fetchSpeech(speechUrl)
+      if (speech !== null) {
+        speeches.push(speech)
+      }
+    } catch (error) {
+      console.log(`Failed to fetch speech: ${error}`)
+    }
     counter++
   }
 
@@ -43,56 +55,68 @@ function parseMpSpeechUrls(html) {
   return urls
 }
 
-async function fetchMpSpeechUrls(mpId) {
-  const url = `${mpSpeechesUrl}${mpId}`
+async function fetchMpSpeechUrls(mpId, lthing = 145) {
+  const url = `${mpSpeechesUrl}lthing=${lthing}&nfaerslunr=${mpId}`
   const html = await fetchHtml(url)
   const speechUrls = parseMpSpeechUrls(html)
 
   return speechUrls
 }
 
-async function fetchSpeeches(mpIds) {
+async function fetchSpeeches(mps, lthings) {
   const mpSpeeches = []
 
-  let counter = 0
-  for (const mpId of mpIds) {
-    console.log(`Fetching speeches for mp ${counter + 1} / ${mpIds.length}`)
-    const speechUrls = await fetchMpSpeechUrls(mpId)
-    const speeches = await fetchMpSpeeches(speechUrls)
-    console.log('Done\n-------')
+  for (const lthing of lthings) {
+    const lthingSpeeches = []
+    console.log(`Fetching lthing: ${lthing}`)
+
+    let counter = 0
+    for (const mp of mps) {
+      console.log(`Mp ${counter} / ${mps.length}`)
+      try {
+        const speechUrls = await fetchMpSpeechUrls(mp.id, lthing)
+        const speeches = await fetchMpSpeeches(speechUrls)
+
+        lthingSpeeches.push({
+          mpId: mp.id,
+          speeches,
+        })
+      } catch (error) {
+        console.log(`Failed fetching for ${mp.id}, ${lthing}: ${error}`)
+      }
+      ++counter
+    }
+
+    console.log(`Lthing ${lthing} done`)
+    try {
+      writeToFile(lthingSpeeches, `data/term/speeches-${lthing}.json`)
+    } catch (error) {
+      console.log(`Could not ${lthing} write to file: ${error}`)
+    }
 
     mpSpeeches.push({
-      mpId,
-      speeches,
+      lthing,
+      speeches: lthingSpeeches,
     })
-    counter++
   }
 
   return mpSpeeches
 }
 
-async function parseMpIds(html) {
-  const htmlObj = cheerio.load(html)
-  const mpRows = htmlObj('.article > .boxbody li > a')
+async function getMps(lthing) {
+  let mps = loadFile('data/mps.json')
+  if (mps !== null) {
+    return mps
+  }
 
-  const ids = []
-  mpRows.each(function parseIdInRow() {
-    const element = htmlObj(this)
-
-    ids.push(element.attr('href').split('=')[1].split('&')[0])
-  })
-
-  return ids
-}
-
-async function fetchMpIds() {
-  const html = await fetchHtml(speechListUrl)
-  return parseMpIds(html)
+  mps = await fetchMps(lthing)
+  return mps
 }
 
 async function fetchSpeechesFromAllMps() {
-  const mpIds = await fetchMpIds()
-  const mpSpeeches = await fetchSpeeches(mpIds)
+  const lthings = [144, 145]
+  const mps = await getMps(lthings[lthings.length - 1])
+  const mpSpeeches = await fetchSpeeches(mps, lthings)
   return mpSpeeches
 }
 
