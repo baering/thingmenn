@@ -1,0 +1,494 @@
+{
+	"Framsóknarflokkur": [
+		{
+			"noun": "sveitarfélag",
+			"occurance": 847
+		},
+		{
+			"noun": "barn",
+			"occurance": 434
+		},
+		{
+			"noun": "banki",
+			"occurance": 430
+		},
+		{
+			"noun": "þjóð",
+			"occurance": 375
+		},
+		{
+			"noun": "bæt",
+			"occurance": 280
+		},
+		{
+			"noun": "íbúð",
+			"occurance": 278
+		},
+		{
+			"noun": "heimili",
+			"occurance": 271
+		},
+		{
+			"noun": "fjárlaganefnd",
+			"occurance": 240
+		},
+		{
+			"noun": "einstaklingur",
+			"occurance": 233
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 233
+		},
+		{
+			"noun": "leigjandi",
+			"occurance": 222
+		},
+		{
+			"noun": "seðlabanki",
+			"occurance": 210
+		},
+		{
+			"noun": "tækifæri",
+			"occurance": 207
+		},
+		{
+			"noun": "fyrirtæki",
+			"occurance": 207
+		},
+		{
+			"noun": "samningur",
+			"occurance": 201
+		},
+		{
+			"noun": "samstarf",
+			"occurance": 193
+		},
+		{
+			"noun": "áfengi",
+			"occurance": 189
+		},
+		{
+			"noun": "ríkissjóður",
+			"occurance": 188
+		},
+		{
+			"noun": "áætlun",
+			"occurance": 185
+		},
+		{
+			"noun": "þjónusta",
+			"occurance": 172
+		}
+	],
+	"Samfylkingin": [
+		{
+			"noun": "forsætisráðherra",
+			"occurance": 797
+		},
+		{
+			"noun": "þjóð",
+			"occurance": 677
+		},
+		{
+			"noun": "öryrki",
+			"occurance": 663
+		},
+		{
+			"noun": "fjármálaráðherra",
+			"occurance": 632
+		},
+		{
+			"noun": "barn",
+			"occurance": 398
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 380
+		},
+		{
+			"noun": "sveitarfélag",
+			"occurance": 376
+		},
+		{
+			"noun": "fjárlaganefnd",
+			"occurance": 370
+		},
+		{
+			"noun": "íslenska",
+			"occurance": 366
+		},
+		{
+			"noun": "framsóknarflokkur",
+			"occurance": 366
+		},
+		{
+			"noun": "fjármunir",
+			"occurance": 341
+		},
+		{
+			"noun": "ríkissjóður",
+			"occurance": 337
+		},
+		{
+			"noun": "samningur",
+			"occurance": 299
+		},
+		{
+			"noun": "íslendingur",
+			"occurance": 288
+		},
+		{
+			"noun": "sjálfstæðisflokkur",
+			"occurance": 283
+		},
+		{
+			"noun": "stjórnarskrá",
+			"occurance": 278
+		},
+		{
+			"noun": "landspítali",
+			"occurance": 255
+		},
+		{
+			"noun": "utanríkisráðherra",
+			"occurance": 236
+		},
+		{
+			"noun": "kjörtímabil",
+			"occurance": 226
+		},
+		{
+			"noun": "þjónusta",
+			"occurance": 217
+		}
+	],
+	"Sjálfstæðisflokkur": [
+		{
+			"noun": "sveitarfélag",
+			"occurance": 569
+		},
+		{
+			"noun": "skattur",
+			"occurance": 362
+		},
+		{
+			"noun": "barn",
+			"occurance": 340
+		},
+		{
+			"noun": "þjóð",
+			"occurance": 339
+		},
+		{
+			"noun": "fjármunir",
+			"occurance": 309
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 305
+		},
+		{
+			"noun": "fyrirtæki",
+			"occurance": 276
+		},
+		{
+			"noun": "ríkissjóður",
+			"occurance": 254
+		},
+		{
+			"noun": "þjónusta",
+			"occurance": 215
+		},
+		{
+			"noun": "nám",
+			"occurance": 202
+		},
+		{
+			"noun": "fjármál",
+			"occurance": 197
+		},
+		{
+			"noun": "landspítali",
+			"occurance": 181
+		},
+		{
+			"noun": "íslenska",
+			"occurance": 168
+		},
+		{
+			"noun": "banki",
+			"occurance": 165
+		},
+		{
+			"noun": "ríkisútvarp",
+			"occurance": 164
+		},
+		{
+			"noun": "fjármálafyrirtæki",
+			"occurance": 164
+		},
+		{
+			"noun": "fjárlaganefnd",
+			"occurance": 163
+		},
+		{
+			"noun": "laun",
+			"occurance": 160
+		},
+		{
+			"noun": "utanríkismálanefnd",
+			"occurance": 155
+		},
+		{
+			"noun": "seðlabanki",
+			"occurance": 152
+		}
+	],
+	"Píratar": [
+		{
+			"noun": "þjóð",
+			"occurance": 388
+		},
+		{
+			"noun": "vandamál",
+			"occurance": 363
+		},
+		{
+			"noun": "hugmynd",
+			"occurance": 255
+		},
+		{
+			"noun": "samfélagið",
+			"occurance": 240
+		},
+		{
+			"noun": "stjórnarskrá",
+			"occurance": 237
+		},
+		{
+			"noun": "pírati",
+			"occurance": 195
+		},
+		{
+			"noun": "íslenska",
+			"occurance": 180
+		},
+		{
+			"noun": "réttindi",
+			"occurance": 155
+		},
+		{
+			"noun": "áhyggja",
+			"occurance": 143
+		},
+		{
+			"noun": "forsætisráðherra",
+			"occurance": 140
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 138
+		},
+		{
+			"noun": "lögregla",
+			"occurance": 137
+		},
+		{
+			"noun": "skýrsla",
+			"occurance": 135
+		},
+		{
+			"noun": "samband",
+			"occurance": 131
+		},
+		{
+			"noun": "umboðsmaður",
+			"occurance": 129
+		},
+		{
+			"noun": "vald",
+			"occurance": 125
+		},
+		{
+			"noun": "frelsi",
+			"occurance": 122
+		},
+		{
+			"noun": "tilfelli",
+			"occurance": 121
+		},
+		{
+			"noun": "eftirlit",
+			"occurance": 120
+		},
+		{
+			"noun": "fjármálaráðherra",
+			"occurance": 93
+		}
+	],
+	"Vinstri hreyfingin – grænt framboð": [
+		{
+			"noun": "sveitarfélag",
+			"occurance": 1072
+		},
+		{
+			"noun": "þjóð",
+			"occurance": 897
+		},
+		{
+			"noun": "barn",
+			"occurance": 760
+		},
+		{
+			"noun": "samfélagið",
+			"occurance": 614
+		},
+		{
+			"noun": "forsætisráðherra",
+			"occurance": 611
+		},
+		{
+			"noun": "fjármunir",
+			"occurance": 574
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 492
+		},
+		{
+			"noun": "fjárlaganefnd",
+			"occurance": 398
+		},
+		{
+			"noun": "áætlun",
+			"occurance": 351
+		},
+		{
+			"noun": "samfélag",
+			"occurance": 344
+		},
+		{
+			"noun": "áhyggja",
+			"occurance": 315
+		},
+		{
+			"noun": "fjármálaráðherra",
+			"occurance": 295
+		},
+		{
+			"noun": "stjórnvald",
+			"occurance": 266
+		},
+		{
+			"noun": "ríkisútvarp",
+			"occurance": 243
+		},
+		{
+			"noun": "þjónusta",
+			"occurance": 231
+		},
+		{
+			"noun": "öryrki",
+			"occurance": 215
+		},
+		{
+			"noun": "kostnaður",
+			"occurance": 207
+		},
+		{
+			"noun": "kjör",
+			"occurance": 179
+		},
+		{
+			"noun": "skýrsla",
+			"occurance": 179
+		},
+		{
+			"noun": "ríkissjóður",
+			"occurance": 171
+		}
+	],
+	"Björt framtíð": [
+		{
+			"noun": "þjóð",
+			"occurance": 528
+		},
+		{
+			"noun": "barn",
+			"occurance": 515
+		},
+		{
+			"noun": "framtíð",
+			"occurance": 407
+		},
+		{
+			"noun": "samfélagið",
+			"occurance": 372
+		},
+		{
+			"noun": "forsætisráðherra",
+			"occurance": 312
+		},
+		{
+			"noun": "samfélag",
+			"occurance": 285
+		},
+		{
+			"noun": "þjónusta",
+			"occurance": 231
+		},
+		{
+			"noun": "sveitarfélag",
+			"occurance": 214
+		},
+		{
+			"noun": "áfengi",
+			"occurance": 208
+		},
+		{
+			"noun": "íslenska",
+			"occurance": 193
+		},
+		{
+			"noun": "fjárlag",
+			"occurance": 161
+		},
+		{
+			"noun": "stjórnvald",
+			"occurance": 153
+		},
+		{
+			"noun": "samningur",
+			"occurance": 131
+		},
+		{
+			"noun": "réttindi",
+			"occurance": 130
+		},
+		{
+			"noun": "íslendingur",
+			"occurance": 117
+		},
+		{
+			"noun": "fjárlaganefnd",
+			"occurance": 106
+		},
+		{
+			"noun": "kosning",
+			"occurance": 101
+		},
+		{
+			"noun": "skýrsla",
+			"occurance": 98
+		},
+		{
+			"noun": "uppbygging",
+			"occurance": 94
+		},
+		{
+			"noun": "líf",
+			"occurance": 93
+		}
+	]
+}

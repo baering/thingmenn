@@ -6,7 +6,10 @@ class App extends React.Component {
     return (
       <div className='index'>
         <div className='index__header'>
-          <a href='/thingmenn'>Skoða þingmenn</a>
+          <ul>
+            <li><a href='/thingmenn'>Skoða þingmenn</a></li>
+            <li><a href='/thingflokkar'>Skoða þingflokka</a></li>
+          </ul>
         </div>
       </div>
     );
