@@ -16,7 +16,7 @@ export default class Mps extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:8080/api/mps')
+    fetch('http://api-dot-thingmenn.appspot.com/api/mps')
       .then(response => {
         return response.json()
       })
@@ -31,18 +31,16 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { className } = this.props;
-    const { mps} = this.state
+    const { mps } = this.state
 
     return (
-      <div className={classnames('mps', className)}>
-        <div className="grid">
+      <div className="Mps">
+        <h1 className="Mps-header">Þingmenn</h1>
+        <section className="Mps-list">
           {mps.map(mp => (
-            <div key={mp.id} className="grid-cell">
-              <Mp key={mp.id} {...mp} />
-            </div>
+            <Mp key={mp.id} {...mp} />
           ))}
-        </div>
+        </section>
       </div>
     );
   }

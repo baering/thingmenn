@@ -1,22 +1,21 @@
-.mps {
-  margin: 20px auto;
-  width: 200px;
+.Mps {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: #e9eef2;
+  min-height: 900px;
 }
 
-@media (min-width: 420px) {
-  .mps {
-    width: 400px;
-  }
-}
-
-@media (min-width: 768px) {
-  .mps {
-    width: 600px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mps {
-    width: 800px;
-  }
+.Mps-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 6rem;
+  padding-left: 1.777rem;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  font-family: 'Lora', serif;
+  font-size: 1.777rem;
+  margin: 0;
+  width: 100%;
 }

@@ -30,22 +30,22 @@ export default class Mps extends React.Component {
   componentDidMount() {
     const { mpId } = this.props.params
 
-    const mpUrl = `http://localhost:8080/api/mps/${mpId}`
+    const mpUrl = `http://api-dot-thingmenn.appspot.com/api/mps/${mpId}`
     fetchJson(mpUrl)
       .then(mp => this.setState({ mp }))
       .catch(error => console.log(error))
 
-    const mpVoteUrl = `http://localhost:8080/api/summary/votes/mp/${mpId}`
+    const mpVoteUrl = `http://api-dot-thingmenn.appspot.com/api/summary/votes/mp/${mpId}`
     fetchJson(mpVoteUrl)
       .then(voteSummary => this.setState({ voteSummary }))
       .catch(error => console.log(error))
 
-    const mpSubjectUrl = `http://localhost:8080/api/summary/subjects/mp/${mpId}`
+    const mpSubjectUrl = `http://api-dot-thingmenn.appspot.com/api/summary/subjects/mp/${mpId}`
     fetchJson(mpSubjectUrl)
       .then(subjectSummary => this.setState({ subjectSummary }))
       .catch(error => console.log(error))
 
-      const mpNounUrl = `http://localhost:8080/api/summary/nouns/mp/${mpId}`
+      const mpNounUrl = `http://api-dot-thingmenn.appspot.com/api/summary/nouns/mp/${mpId}`
       fetchJson(mpNounUrl)
         .then(nouns => this.setState({ nouns }))
         .catch(error => console.log(error))

@@ -9,12 +9,42 @@ body {
   box-sizing: border-box;
 }
 
-.grid {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+:root {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.grid-cell {
-  flex: 1;
+html, body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+body {
+  background: #F2F2F2;
+  color: #393D3F;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.contain {
+  display: flex;
+  overflow: hidden;
+}
+
+.fill {
+  width: 100%;
+}
+
+.typcn {
+  padding-left: 0;
+  padding-right: 0.422rem;
+  text-indent: 0;
 }
