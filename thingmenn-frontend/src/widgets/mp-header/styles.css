@@ -1,0 +1,74 @@
+.MpHeader {
+  display: flex;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  font-family: 'Lora', serif;
+  font-size: 1.777rem;
+}
+
+.MpHeader-image {
+  flex: 0 1 150px;
+  width: 150px;
+  height: 200px;
+  margin-right: 1.333rem;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.MpHeader-details {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.MpHeader-bio {
+  display: flex;
+  flex: 0 1 40%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.MpHeader-bioName {
+  margin-bottom: 0.75rem;
+  font-size: 1.333rem;
+}
+
+.MpHeader-bioText {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.MpHeader-stats {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  padding: 2.369rem;
+  border-left: 1px solid rgba(44, 63, 80, 0.2);
+}
+
+.MpHeader-statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MpHeader-statsHeading {
+  font-size: 1rem;
+  font-style: italic;
+  color: #51575a;
+}
+
+.MpHeader-statsText {
+  color: #eca72c;
+  font-size: 2.5rem;
+}
+
+.Main-subheader {
+  margin-left: 0.75rem;
+  color: #838a8e;
+}
