@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Routes from './routes';
+import Routes from './routes'
 
 import Sidebar from './widgets/sidebar'
 
-import './index.css';
-import './typography.css';
+import './reset.css'
+import './index.css'
+import './typography.css'
 
 ReactDOM.render(
   <div className="contain">
