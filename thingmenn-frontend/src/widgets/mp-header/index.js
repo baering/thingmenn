@@ -31,8 +31,8 @@ const MpHeader = ({
             <h1 className="MpHeader-statsHeading">Afstaða</h1>
           </div>
           <div className="MpHeader-statsItem">
-            <p className="MpHeader-statsText">{100 - voteSummary.votePercentages.away}%</p>
-            <h1 className="MpHeader-statsHeading">Mæting</h1>
+            <p className="MpHeader-statsText">{voteSummary.votePercentages.away}%</p>
+            <h1 className="MpHeader-statsHeading">Fjarverandi</h1>
           </div>
         </div>
       </div>
