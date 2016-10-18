@@ -1,0 +1,35 @@
+runtime: python27
+threadsafe: true
+service: default
+
+default_expiration: "1m"
+
+handlers:
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: build/\1
+  upload: build/(.*\.css)
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: build/\1
+  upload: build/(.*\.js)
+
+- url: /(.*\.map)
+  mime_type: application/json
+  static_files: build/\1
+  upload: build/(.*\.map)
+
+- url: /.*
+  static_files: build/index.html
+  upload: build/index.html
+
+skip_files:
+  - ^(.*/)?#.*#$
+  - ^(.*/)?.*~$
+  - ^(.*/)?.*\.py[co]$
+  - ^(.*/)?.*/RCS/.*$
+  - ^(.*/)?\..*$
+  - src(\/.*)
+  - node_modules
+  - public
