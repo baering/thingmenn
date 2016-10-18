@@ -137,7 +137,7 @@ function createSortedSummaryList(typeOccuranceMap, totalOccuranceMap) {
     return {
       word,
       occurance: typeOccuranceMap[word],
-      occuranceRatio: (occuranceRatio * 100).toFixed(2),
+      occuranceRatio: parseFloat(((occuranceRatio * 100).toFixed(2)),
     }
   }).sort((a, b) => {
     return b.occuranceRatio - a.occuranceRatio
