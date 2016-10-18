@@ -1,5 +1,4 @@
 import React from 'react';
-import classnames from 'classnames';
 import 'whatwg-fetch'
 
 import Mp from '../../widgets/mp'
@@ -34,9 +33,9 @@ export default class Mps extends React.Component {
     const { mps } = this.state
 
     return (
-      <div className="Mps">
-        <h1 className="Mps-header">Þingmenn</h1>
-        <section className="Mps-list">
+      <div>
+        <h1 className="title">Þingmenn</h1>
+        <section className="Mps">
           {mps.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
