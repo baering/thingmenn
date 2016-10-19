@@ -14,4 +14,7 @@ def make_error(reason, status_code=404):
 
     response = jsonify(responseDict)
     response.status_code = status_code
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET')
     return response
