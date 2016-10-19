@@ -4,31 +4,35 @@ from flask import jsonify
 from flask import make_response
 from os import path
 import json
+from api.helpers import make_json_response, make_error
 
 mps = []
 lookup = {}
 
+similar_mp_votes = {}
+
 with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
-    mps = [mp for mp in mps if mp['isPrimary'] is True]
+    #mps = [mp for mp in mps if mp['isPrimary'] is True]
     for index, mp in enumerate(mps):
         lookup[int(mp['id'])] = index
 
+with open(path.dirname(__file__) + '/../../data/mp-similar-votes.json', 'r') as f:
+    similar_mp_votes = json.loads(f.read())
+
 def get_mps():
     print 'getting mps!'
-    response = jsonify(mps)
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET')
-    return response
+    return make_json_response(mps)
 
 def get_mp_by_id(mp_id):
     if mp_id not in lookup:
-        return '404'
+        return make_error('Not found')
 
     mp_index = lookup[mp_id]
-    response = jsonify(mps[mp_index])
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET')
-    return response
+    return make_json_response(mps[mp_index])
+
+def get_similar_mps(mp_id):
+    if mp_id not in similar_mp_votes:
+        return make_error('Not found :()')
+
+    return make_json_response(similar_mp_votes[mp_id])

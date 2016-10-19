@@ -10,7 +10,7 @@ class Sidebar extends React.Component {
         </div>
         <a href="/" className="Sidebar-item is-active"><span className="typcn typcn-user-outline"></span> Þingmenn</a>
         {/*<a href="#" className="Sidebar-item"><span className="typcn typcn-group-outline"></span> Flokkar</a>*/}
-        <a href="#" className="Sidebar-item"><span className="typcn typcn-info-large-outline"></span> Um verkefnið</a>
+        <a href="/um" className="Sidebar-item"><span className="typcn typcn-info-large-outline"></span> Um verkefnið</a>
       </nav>
     );
   }

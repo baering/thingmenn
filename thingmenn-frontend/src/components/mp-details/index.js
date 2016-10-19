@@ -1,8 +1,7 @@
 import React from 'react';
 import 'whatwg-fetch'
 
-import './styles.css';
-
+import MpHeader from '../../widgets/mp-header'
 import Piechart from '../../widgets/piechart'
 
 function fetchJson(url) {
@@ -58,31 +57,9 @@ export default class Mps extends React.Component {
 
     return (
       <div className='mp-details'>
-        <div className='mp-details__introduction mp-details__section'>
-          <div
-            className='mp-details__introduction-image'
-            style={{
-              backgroundImage: `url(${mp.imagePath})`
-            }}
-          ></div>
-          <div className='mp-details__introduction-text'>
-            <h1 className='mp-details__introduction-name heading'>{mp.name}</h1>
-            <h2 className='mp-details__introduction-party text'>{mp.party}</h2>
-          </div>
-        </div>
+        <MpHeader voteSummary={voteSummary} {...mp} />
 
-        <div className='mp-details__votes mp-details__section'>
-          <h2 className='heading'>Yfirlit atkvæða</h2>
-
-          <Piechart voteSummary={voteSummary} />
-
-          <ul>
-            <li className='text'>{voteSummary.voteSummary.numberOfVotes} atkvæði</li>
-            <li className='text'>{voteSummary.votePercentages.standsTaken}% afstaða tekin</li>
-            <li className='text'>{voteSummary.votePercentages.idle}% hlutleysi</li>
-            <li className='text'>{voteSummary.votePercentages.away}% fjarverandi</li>
-          </ul>
-        </div>
+        <Piechart voteSummary={voteSummary} />
 
         <div className='mp-details__nouns mp-details__section'>
           <h3 className='heading'>Mest talað um</h3>

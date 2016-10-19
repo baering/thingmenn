@@ -48,3 +48,17 @@ a {
   padding-right: 0.422rem;
   text-indent: 0;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 6rem;
+  padding-left: 1.777rem;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  font-family: 'Lora', serif;
+  font-size: 1.777rem;
+  margin: 0;
+  width: 100%;
+}

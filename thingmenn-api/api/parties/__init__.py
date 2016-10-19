@@ -4,6 +4,7 @@ from flask import jsonify
 from flask import make_response
 from os import path
 import json
+from api.helpers import make_error
 
 parties = []
 lookup = {}
@@ -23,7 +24,7 @@ def get_parties():
 
 def get_party_by_id(party_id):
     if party_id not in lookup:
-        return '404'
+        return make_error('Not found')
 
     party_index = lookup[party_id]
     response = jsonify(parties[party_index])

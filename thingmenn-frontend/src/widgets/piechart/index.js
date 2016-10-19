@@ -4,7 +4,7 @@ import ReactHighcharts from 'react-highcharts';
 import './styles.css'
 
 const chartConfig = (voteSummary) => {
-  return {
+    return {
     chart: {
         backgroundColor: 'transparent',
         type: 'pie'
@@ -25,22 +25,25 @@ const chartConfig = (voteSummary) => {
     },
     tooltip: {
       headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-      pointFormat: '<b>{point.y:.2f}%</b> {point.name}<br/>'
+      pointFormat: '<b>{point.y:.2f}% {point.name}</b> ({point.amount})<br/>'
     },
     series: [{
-      name: name,
+      name: voteSummary.name,
       data: [{
+        amount: parseInt(voteSummary.voteSummary.numberOfStandsTaken),
+        color: 'lightgreen',
         name: 'afstaða tekin',
-        y: parseFloat(voteSummary.votePercentages.standsTaken),
-        color: 'lightgreen'
+        y: parseFloat(voteSummary.votePercentages.standsTaken)
       }, {
+        amount: parseInt(voteSummary.voteSummary.numberOfIdleVotes),
+        color: 'lightgrey',
         name: 'hlutleysi',
-        y: parseFloat(voteSummary.votePercentages.idle),
-        color: 'lightgrey'
+        y: parseFloat(voteSummary.votePercentages.idle)
       }, {
+        amount: parseInt(voteSummary.voteSummary.numberOfAway),
+        color: 'salmon',
         name: 'fjarverandi',
-        y: parseFloat(voteSummary.votePercentages.away),
-        color: 'salmon'
+        y: parseFloat(voteSummary.votePercentages.away)
       }]
     }]
   };

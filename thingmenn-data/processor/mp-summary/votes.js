@@ -35,12 +35,19 @@ function createLookup(allVotesForTerm) {
 
 export default function createVoteSummary() {
   const mps = loadFile('data/mps.json')
+  const mpToPartyLookup = {}
+  const mpLookup = {}
+  mps.forEach(mp => {
+    mpToPartyLookup[mp.id] = mp.party
+    mpLookup[mp.id] = mp
+  })
   const allVotesForTerm = loadFile('data/all-votes-for-term.json')
 
   const reducedLookup = createLookup(allVotesForTerm)
 
   const mpVoteSummary = {}
   const mpSimilarVotes = {}
+  const partySimilarVotes = {}
 
   allVotesForTerm.forEach(term => {
     console.log(`Term: ${term.lthing}`)
@@ -87,6 +94,62 @@ export default function createVoteSummary() {
     })
   })
 
+  // const voterParty = mpToPartyLookup[voterId]
+  // if (voterParty !== currentMp.party) {
+  //   if (!partySimilarVotes[currentMp.party][voterParty]) {
+  //     partySimilarVotes[currentMp.party][voterParty] = 0
+  //   }
+  //   partySimilarVotes[currentMp.party][voterParty] += 1
+  // }
+
+  let partyCounters = {}
+  const topics = Object.keys(reducedLookup)
+  topics.forEach(topicId => {
+    const proposalsForTopic = Object.keys(reducedLookup[topicId].proposals)
+    proposalsForTopic.forEach(proposalUrl => {
+      const voteTypes = Object.keys(reducedLookup[topicId].proposals[proposalUrl])
+      voteTypes.forEach(voteType => {
+        if (voteType === 'já' || voteType === 'nei' || voteType === 'greiðir ekki atkvæði') {
+          const mpIds = reducedLookup[topicId].proposals[proposalUrl][voteType]
+
+          const partyVoteSplit = {}
+          mpIds.forEach(mpId => {
+            const currentMp = mpLookup[mpId]
+
+            if (!partyCounters[currentMp.party]) {
+              partyCounters[currentMp.party] = {}
+            }
+            const currentLocationId = `${topicId}-${proposalUrl}-${voteType}`
+            if (!partyCounters[currentMp.party][currentLocationId]) {
+              partyCounters[currentMp.party][currentLocationId] = true
+            }
+
+            if (!partyVoteSplit[currentMp.party]) {
+              partyVoteSplit[currentMp.party] = 0
+            }
+            partyVoteSplit[currentMp.party] += 1
+          })
+
+          const partyNames = Object.keys(partyVoteSplit)
+          partyNames.forEach(currentParty => {
+            if (!partySimilarVotes[currentParty]) {
+              partySimilarVotes[currentParty] = {}
+            }
+            partyNames.forEach(partyName => {
+              if (currentParty !== partyName) {
+                if (!partySimilarVotes[currentParty][partyName]) {
+                  partySimilarVotes[currentParty][partyName] = 0
+                }
+                // partySimilarVotes[currentParty][partyName] += partyVoteSplit[partyName]
+                partySimilarVotes[currentParty][partyName] += 1
+              }
+            })
+          })
+        }
+      })
+    })
+  })
+
   const mpIds = Object.keys(mpVoteSummary)
   mpIds.forEach(mpId => {
     const summary = mpVoteSummary[mpId]
@@ -108,14 +171,13 @@ export default function createVoteSummary() {
     const idle = summary.voteSummary.numberOfIdleVotes / numberOfVotes
     const away = summary.voteSummary.numberOfAway / numberOfVotes
     summary.votePercentages = {
-      standsTaken: (standsTaken * 100).toFixed(1),
-      idle: (idle * 100).toFixed(1),
-      away: (away * 100).toFixed(1),
+      standsTaken: parseFloat((standsTaken * 100).toFixed(1)),
+      idle: parseFloat((idle * 100).toFixed(1)),
+      away: parseFloat((away * 100).toFixed(1)),
     }
   })
 
   writeToFile(mpVoteSummary, 'data/export/mp-vote-summaries.json', true)
-  writeToFile(mpSimilarVotes, 'data/term/mp-similar-votes.json', true)
 
   const sortedMpSimilarVotes = {}
   mps.forEach(mp => {
@@ -131,12 +193,32 @@ export default function createVoteSummary() {
       return {
         mpId: voterId,
         similarVotes: mpSimilarVotes[mp.id][voterId],
+        similarity: mpSimilarVotes[mp.id][voterId] / mpVoteSummary[mp.id].voteSummary.numberOfVotes,
       }
-    })
+    }).sort((a, b) => b.similarity - a.similarity)
 
     sortedMpSimilarVotes[mp.id] = sortedSimilarVoters
   })
   writeToFile(sortedMpSimilarVotes, 'data/export/mp-similar-votes.json', true)
+
+  const sortedPartySimilarVotes = {}
+  const partyNames = Object.keys(partySimilarVotes)
+  partyNames.forEach(partyName => {
+    const similarParties = Object.keys(partySimilarVotes[partyName])
+    const uniquePartyVotes = Object.keys(partyCounters[partyName]).length
+    sortedPartySimilarVotes[partyName] = similarParties.sort((a, b) => {
+      return partySimilarVotes[partyName][b] - partySimilarVotes[partyName][a]
+    }).map(similarParty => {
+      return {
+        party: similarParty,
+        similarVotes: partySimilarVotes[partyName][similarParty],
+        totalVotes: uniquePartyVotes,
+        similarity: partySimilarVotes[partyName][similarParty] / uniquePartyVotes,
+      }
+    }).sort((a, b) => b.similarity - a.similarity)
+  })
+
+  writeToFile(sortedPartySimilarVotes, 'data/export/party-similar-votes.json', true)
 
   writeToFile(reducedLookup, 'data/term/lookup-temp.json', true)
 }

@@ -51,9 +51,9 @@ function calculateVotePercentages(partyNames, voteSummary) {
     const idle = voteSummary[party].voteSummary.numberOfIdleVotes / numberOfVotes
     const away = voteSummary[party].voteSummary.numberOfAway / numberOfVotes
     voteSummary[party].votePercentages = {
-      standsTaken: (standsTaken * 100).toFixed(1),
-      idle: (idle * 100).toFixed(1),
-      away: (away * 100).toFixed(1),
+      standsTaken: parseFloat((standsTaken * 100).toFixed(1)),
+      idle: parseFloat((idle * 100).toFixed(1)),
+      away: parseFloat((away * 100).toFixed(1)),
     }
   })
 }
@@ -136,6 +136,16 @@ function getTopNouns(nounSummary, partyNames) {
 //   return sortedSimilarVotes
 // }
 
+function updatePositionSummary(positionSummary, mpPositionSummary, mp) {
+  if (!positionSummary[mp.party]) {
+    positionSummary[mp.party] = {
+      standsTaken: [],
+      idle: [],
+      away: [],
+    }
+  }
+}
+
 export default function process() {
   const voteSummary = {}
   const nounSummary = {}
@@ -158,5 +168,5 @@ export default function process() {
 
   writeToFile(voteSummary, 'data/export/party-vote-summary.json', true)
   writeToFile(topPartyNouns, 'data/export/party-noun-lookup.json', true)
-  writeToFile(sortedSimilarVoteSummary, 'data/export/party-similar-votes.json', true)
+  // writeToFile(sortedSimilarVoteSummary, 'data/export/party-similar-votes.json', true)
 }
