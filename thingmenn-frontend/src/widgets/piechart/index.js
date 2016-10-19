@@ -32,22 +32,22 @@ const chartConfig = (voteSummary) => {
     },
     tooltip: {
       headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-      pointFormat: '<b>{point.y:.2f}% {point.name}</b> ({point.amount})<br/>'
+      pointFormat: '<b>{point.y:.2f}% {point.name}</b> ({point.amount} atkvæði)<br/>'
     },
     series: [{
       name: voteSummary.name,
       data: [{
-        amount: parseInt(voteSummary.voteSummary.numberOfStandsTaken),
+        amount: parseInt(voteSummary.voteSummary.numberOfStandsTaken, 10),
         color: 'lightgreen',
         name: 'afstaða tekin',
         y: parseFloat(voteSummary.votePercentages.standsTaken)
       }, {
-        amount: parseInt(voteSummary.voteSummary.numberOfIdleVotes),
+        amount: parseInt(voteSummary.voteSummary.numberOfIdleVotes, 10),
         color: 'lightgrey',
         name: 'hlutleysi',
         y: parseFloat(voteSummary.votePercentages.idle)
       }, {
-        amount: parseInt(voteSummary.voteSummary.numberOfAway),
+        amount: parseInt(voteSummary.voteSummary.numberOfAway, 10),
         color: 'salmon',
         name: 'fjarverandi',
         y: parseFloat(voteSummary.votePercentages.away)
