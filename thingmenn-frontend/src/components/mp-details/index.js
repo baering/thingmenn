@@ -75,7 +75,7 @@ export default class Mps extends React.Component {
 
           <div className="MpDetails-item">
             <h3 className='heading'>Mest talað um</h3>
-            <Piechart nouns={nouns} />
+            <Barchart nouns={nouns} />
 
             <ul>
               {nouns.slice(0, 10).map(noun => (
