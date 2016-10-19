@@ -184,17 +184,27 @@ export default function createVoteSummary() {
     const similarVoteLookup = mpSimilarVotes[mp.id]
     const similarVoterIds = Object.keys(similarVoteLookup)
 
+    const totalNumberOfStandsTaken = mpVoteSummary[mp.id].voteSummary.numberOfStandsTaken
+    const totalNumberOfIdleVotes = mpVoteSummary[mp.id].voteSummary.numberOfIdleVotes
+    const totalVotesWithStand = totalNumberOfStandsTaken + totalNumberOfIdleVotes
+
     const sortedSimilarVoters = similarVoterIds.sort((a, b) => {
       const similarVotesByA = mpSimilarVotes[mp.id][a]
       const similarVotesByB = mpSimilarVotes[mp.id][b]
 
       return similarVotesByB - similarVotesByA
     }).map(voterId => {
-      const similarity = mpSimilarVotes[mp.id][voterId] / mpVoteSummary[mp.id].voteSummary.numberOfVotes
+      const similarity = mpSimilarVotes[mp.id][voterId] / totalVotesWithStand
+      let similarityPrecision = 0
+      if (similarity < 0.5) {
+        similarityPrecision = parseFloat((similarity * 100).toFixed(2))
+      } else {
+        similarityPrecision = parseFloat((similarity * 100).toFixed(1))
+      }
       return {
         mp: mpLookup[voterId],
         similarVotes: mpSimilarVotes[mp.id][voterId],
-        similarity: parseFloat((similarity * 100).toFixed(1)),
+        similarity: similarityPrecision,
       }
     }).sort((a, b) => b.similarity - a.similarity)
 
