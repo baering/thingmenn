@@ -68,3 +68,35 @@
     border-color: #eca72c;
   }
 }
+
+.Nav-title {
+  display: none;
+}
+.Nav-title--shorter {
+  display: none;
+}
+.Nav-title--shortest {
+  display: block;
+}
+@media (min-width: 425px) {
+  .Nav-title {
+    display: none;
+  }
+  .Nav-title--shorter {
+    display: block;
+  }
+  .Nav-title--shortest {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .Nav-title {
+    display: block;
+  }
+  .Nav-title--shorter {
+    display: none;
+  }
+  .Nav-title--shortest {
+    display: none;
+  }
+}

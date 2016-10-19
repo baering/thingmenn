@@ -18,7 +18,7 @@
 
 .MpHeader-details {
   display: flex;
-  width: 100%;
+  flex: auto;
   padding: 1rem;
   font-size: 1rem;
 }
@@ -89,6 +89,11 @@
 }
 
 .Main-subheader {
-  margin-left: 0.75rem;
   color: #838a8e;
+}
+
+@media (min-width: 768px) {
+  .Main-subheader {
+    margin-left: 0.75rem;
+  }
 }
