@@ -1,10 +1,3 @@
-body {
-  margin: 3px;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: 10px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -17,7 +10,7 @@ body {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-
+/* 375px, 768px, 1024px, 1440px */
 html, body {
   height: 100%;
   line-height: 1.5;
@@ -25,8 +18,22 @@ html, body {
 
 body {
   background: #F2F2F2;
+  max-width: 1440px;
   color: #393D3F;
-  margin: 0;
+  margin: 1rem auto;
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1456px) {
+  body {
+    margin: 0 auto;
+  }
 }
 
 a {

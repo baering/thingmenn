@@ -7,8 +7,8 @@
 }
 
 .MpHeader-image {
-  flex: 0 1 150px;
-  width: 150px;
+  flex: 1 1 100%;
+  max-width: 150px;
   height: 200px;
   margin-right: 1.333rem;
   background-size: cover;
@@ -22,10 +22,20 @@
   padding: 1rem;
   font-size: 1rem;
 }
-
+@media (max-width: 1234px) {
+  .MpHeader {
+    flex-wrap: wrap;
+  }
+  .MpHeader-details {
+    flex: 1 1 100%;
+  }
+  .MpHeader-bioText {
+    font-size: 1.333rem;
+  }
+}
 .MpHeader-bio {
   display: flex;
-  flex: 0 1 40%;
+  flex: 0 1 auto;
   justify-content: center;
   flex-direction: column;
   padding: 1rem;
@@ -37,24 +47,34 @@
 }
 
 .MpHeader-bioText {
+  max-width: 27rem;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
+
 .MpHeader-stats {
   display: flex;
-  justify-content: space-between;
   flex: 1 1 auto;
+  justify-content: space-between;
+  max-width: 40rem;
+  margin: auto;
   padding: 2.369rem;
-  border-left: 1px solid rgba(44, 63, 80, 0.2);
+  border: 0;
 }
-
+@media (min-width: 1234px) {
+  .MpHeader-stats {
+    margin: 0;
+    border-left: 1px solid rgba(44, 63, 80, 0.2);
+  }
+}
 .MpHeader-statsItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 2.25rem;
 }
 
 .MpHeader-statsHeading {

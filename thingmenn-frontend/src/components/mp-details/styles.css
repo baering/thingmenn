@@ -7,9 +7,16 @@
 
 .MpDetails-item {
   flex: auto;
-  width: calc(50% - 2rem);
-  margin: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
   background: white;
   border-bottom: 3px solid rgba(44, 63, 80, 0.33333);
   padding: 1rem;
+}
+
+@media (min-width: 1234px) {
+  .MpDetails-item {
+    width: calc(50% - 2rem);
+    margin: 1rem;
+  }
 }
