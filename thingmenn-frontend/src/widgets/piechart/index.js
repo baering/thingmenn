@@ -3,6 +3,13 @@ import ReactHighcharts from 'react-highcharts';
 
 import './styles.css'
 
+// drilldown WIP
+const buildDrillDown = () => {
+  return {
+    series: []
+  }
+}
+
 const chartConfig = (voteSummary) => {
     return {
     chart: {
@@ -18,7 +25,7 @@ const chartConfig = (voteSummary) => {
     plotOptions: {
       series: {
         dataLabels: {
-          enabled: true,
+          enabled: false,
           format: '{point.name}: {point.y:.1f}%'
         }
       }
@@ -45,7 +52,8 @@ const chartConfig = (voteSummary) => {
         name: 'fjarverandi',
         y: parseFloat(voteSummary.votePercentages.away)
       }]
-    }]
+    }],
+    drilldown: buildDrillDown()
   };
 };
 
@@ -53,7 +61,7 @@ const Piechart = ({
   voteSummary
 }) => {
   return (
-    <div>
+    <div className="Chart-pie">
       <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
     </div>
   )
