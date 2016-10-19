@@ -2,6 +2,7 @@ import React from 'react';
 import 'whatwg-fetch'
 
 import MpHeader from '../../widgets/mp-header'
+import Piechart from '../../widgets/piechart'
 
 function fetchJson(url) {
   console.log(`Fetching json: ${url}`)
@@ -57,6 +58,8 @@ export default class Mps extends React.Component {
     return (
       <div className='mp-details'>
         <MpHeader voteSummary={voteSummary} {...mp} />
+
+        <Piechart voteSummary={voteSummary} />
 
         <div className='mp-details__nouns mp-details__section'>
           <h3 className='heading'>Mest talað um</h3>
