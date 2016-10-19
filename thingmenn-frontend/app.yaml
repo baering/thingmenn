@@ -20,6 +20,10 @@ handlers:
   static_files: build/\1
   upload: build/(.*\.map)
 
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: build/\1
+  upload: build/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
 - url: /.*
   static_files: build/index.html
   upload: build/index.html

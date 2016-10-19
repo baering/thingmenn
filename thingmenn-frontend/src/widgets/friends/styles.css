@@ -1,0 +1,58 @@
+.Friends {
+  background: white;
+  padding: 1rem;
+  counter-reset: friends;
+}
+
+.Friends .icon-friend {
+  padding: 0;
+  color: #90ed7d;
+}
+
+.Friends .icon-enemy {
+  padding: 0;
+  color: #cb3838;
+}
+
+.Friends-heading {
+  padding: 1rem;
+  font-size: 1.333rem;
+}
+
+.Friends-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  line-height: 2.5;
+}
+
+.Friends-list > dt,
+.Friends-list dd {
+  flex: 0 1 50%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  font-size: 0.9rem;
+}
+
+.Friends-list > dt:first-of-type,
+.Friends-list dd:first-of-type {
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+}
+
+.Friends-list > dt:last-of-type,
+.Friends-list dd:last-of-type {
+  border: 0;
+}
+
+.Friends-list dt:not(:first-child)::before {
+  counter-increment: friends;
+  content: counter(friends) ".";
+  margin-right: 0.422rem;
+}
+
+.Friends-list dd {
+  text-align: right;
+}

@@ -8,7 +8,8 @@ export default class About extends React.Component {
       <div>
         <h1 className="title">Þingmenn.is</h1>
         <div className="About">
-          <p>Markmið þessa vefs er að koma betur fram upplýsingum sem leynast á <a href="http://althingi.is">alþingi.is</a>.</p>
+          <p>Markmið þessa verkefnis er að sækja hluta af því mikla magni gagna sem finna má á vef <a href="http://althingi.is">Alþingis</a>, vinna úr þeim gögnum og setja fram á skemmtilegan og fræðandi máta.</p>
+          <p>Þetta verkefni er eftir <a href="http://twitter.com/baerinq" target="_blank">Bæring Gunnar Steinþórsson</a>, sérstakar þakkir fá <a href="http://twitter.com/justifycontent" target="_blank">Davíð Bachmann Jóhannesson</a>, <a href="http://twitter.com/herrhelms" target="_blank">Sebastian Helms</a> og <a href="http://twitter.com/thorsteinsson" target="_blank">Ægir Giraldo Þorsteinsson</a> sem komu að útfærslu og hönnun vefsins</p>
         </div>
       </div>
     );
