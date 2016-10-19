@@ -24,6 +24,12 @@ handlers:
   static_files: build/\1
   upload: build/(.*\.(bmp|gif|ico|jpeg|jpg|png))
 
+- url: /(.*\.ico)
+  mime_type: image/x-icon
+  static_files: build/\1
+  upload: build/(.*\.ico)
+  expiration: "7d"
+
 - url: /.*
   static_files: build/index.html
   upload: build/index.html
