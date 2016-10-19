@@ -1,0 +1,15 @@
+.MpDetails {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.563rem;
+  background: #E9EEF2;
+}
+
+.MpDetails-item {
+  flex: auto;
+  width: calc(50% - 2rem);
+  margin: 1rem;
+  background: white;
+  border-bottom: 3px solid rgba(44, 63, 80, 0.33333);
+  padding: 1rem;
+}
