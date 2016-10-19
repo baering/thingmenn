@@ -23,12 +23,14 @@ function parseMpParty(htmlObj) {
 function parseMpDetails(html, mpId) {
   const htmlObj = cheerio.load(html)
 
+  const mpName = htmlObj('h1').text()
   return {
     id: mpId,
-    name: htmlObj('h1').text(),
+    name: mpName,
     party: parseMpParty(htmlObj),
     imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
     isPrimary: htmlObj('.office').length > 0,
+    description: `${mpName} er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at.`
   }
 }
 

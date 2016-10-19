@@ -4,629 +4,719 @@
 		"name": "Anna María Elíasdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1221/1221-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Anna María Elíasdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1002",
 		"name": "Anna Margrét Guðjónsdóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1002/1002-220.jpg",
-		"isPrimary": true
+		"isPrimary": false,
+		"description": "Anna Margrét Guðjónsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "678",
 		"name": "Árni Páll Árnason",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/678/678-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Árni Páll Árnason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "707",
 		"name": "Ásmundur Einar Daðason",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/707/707-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ásmundur Einar Daðason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1157",
 		"name": "Ásmundur Friðriksson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1157/1157-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ásmundur Friðriksson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1214",
 		"name": "Ásta Guðrún Helgadóttir",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1214/1214-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ásta Guðrún Helgadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "650",
 		"name": "Birgir Ármannsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Birgir Ármannsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "728",
 		"name": "Birgitta Jónsdóttir",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/728/728-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Birgitta Jónsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1012",
 		"name": "Bjarkey Olsen Gunnarsdóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1012/1012-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Bjarkey Olsen Gunnarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "652",
 		"name": "Bjarni Benediktsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/652/652-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Bjarni Benediktsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "653",
 		"name": "Björgvin G. Sigurðsson",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/653/653-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Björgvin G. Sigurðsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "737",
 		"name": "Björn Valur Gíslason",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/737/737-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Björn Valur Gíslason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1215",
 		"name": "Björn Leví Gunnarsson",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1215/1215-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Björn Leví Gunnarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1158",
 		"name": "Björt Ólafsdóttir",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1158/1158-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Björt Ólafsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1186",
 		"name": "Brynhildur S. Björnsdóttir",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1186/1186-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Brynhildur S. Björnsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1159",
 		"name": "Brynhildur Pétursdóttir",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1159/1159-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Brynhildur Pétursdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1160",
 		"name": "Brynjar Níelsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Brynjar Níelsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "124",
 		"name": "Einar K. Guðfinnsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/124/124-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Einar K. Guðfinnsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1181",
 		"name": "Elín Hirst",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1181/1181-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Elín Hirst er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1161",
 		"name": "Elsa Lára Arnardóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1161/1161-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Elsa Lára Arnardóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1237",
 		"name": "Erna Indriðadóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1237/1237-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Erna Indriðadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "703",
 		"name": "Eygló Harðardóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/703/703-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Eygló Harðardóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1046",
 		"name": "Fanný Gunnarsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1046/1046-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Fanný Gunnarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1211",
 		"name": "Fjóla Hrund Björnsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1211/1211-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Fjóla Hrund Björnsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1188",
 		"name": "Freyja Haraldsdóttir",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1188/1188-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Freyja Haraldsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1162",
 		"name": "Frosti Sigurjónsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1162/1162-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Frosti Sigurjónsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1212",
 		"name": "Geir Jón Þórisson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1212/1212-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Geir Jón Þórisson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "683",
 		"name": "Guðbjartur Hannesson",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Guðbjartur Hannesson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "656",
 		"name": "Guðlaugur Þór Þórðarson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/656/656-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Guðlaugur Þór Þórðarson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "704",
 		"name": "Guðmundur Steingrímsson",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/704/704-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Guðmundur Steingrímsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "722",
 		"name": "Gunnar Bragi Sveinsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/722/722-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Gunnar Bragi Sveinsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1218",
 		"name": "Halldóra Mogensen",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1218/1218-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Halldóra Mogensen er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1163",
 		"name": "Hanna Birna Kristjánsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1163/1163-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Hanna Birna Kristjánsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1164",
 		"name": "Haraldur Benediktsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1164/1164-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Haraldur Benediktsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1165",
 		"name": "Haraldur Einarsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1165/1165-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Haraldur Einarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1213",
 		"name": "Heiða Kristín Helgadóttir",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1213/1213-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Heiða Kristín Helgadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1166",
 		"name": "Helgi Hrafn Gunnarsson",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1166/1166-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Helgi Hrafn Gunnarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "658",
 		"name": "Helgi Hjörvar",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/658/658-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Helgi Hjörvar er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1202",
 		"name": "Hjálmar Bogi Hafliðason",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1202/1202-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Hjálmar Bogi Hafliðason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1235",
 		"name": "Hörður Ríkharðsson",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1235/1235-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Hörður Ríkharðsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "686",
 		"name": "Höskuldur Þórhallsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/686/686-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Höskuldur Þórhallsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "687",
 		"name": "Illugi Gunnarsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/687/687-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Illugi Gunnarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1236",
 		"name": "Ingibjörg Þórðardóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1236/1236-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Ingibjörg Þórðardóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1167",
 		"name": "Jóhanna María Sigmundsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Jóhanna María Sigmundsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "688",
 		"name": "Jón Gunnarsson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Jón Gunnarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1242",
 		"name": "Karen Elísabet Halldórsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.isundefined",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Karen Elísabet Halldórsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1169",
 		"name": "Karl Garðarsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1169/1169-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Karl Garðarsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "690",
 		"name": "Katrín Jakobsdóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/690/690-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Katrín Jakobsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "660",
 		"name": "Katrín Júlíusdóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/660/660-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Katrín Júlíusdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "691",
 		"name": "Kristján Þór Júlíusson",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/691/691-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Kristján Þór Júlíusson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "396",
 		"name": "Kristján L. Möller",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/396/396-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Kristján L. Möller er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1241",
 		"name": "Lárus Ástmar Hannesson",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.isundefined",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Lárus Ástmar Hannesson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "714",
 		"name": "Lilja Rafney Magnúsdóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/714/714-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Lilja Rafney Magnúsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1170",
 		"name": "Líneik Anna Sævarsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1170/1170-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Líneik Anna Sævarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1199",
 		"name": "Margrét Gauja Magnúsdóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1199/1199-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Margrét Gauja Magnúsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "719",
 		"name": "Oddný G. Harðardóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/719/719-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Oddný G. Harðardóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "999",
 		"name": "Óli Björn Kárason",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/999/999-220.jpg",
-		"isPrimary": true
+		"isPrimary": false,
+		"description": "Óli Björn Kárason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "715",
 		"name": "Ólína Kjerúlf Þorvarðardóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/715/715-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ólína Kjerúlf Þorvarðardóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1171",
 		"name": "Óttarr Proppé",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1171/1171-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Óttarr Proppé er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1172",
 		"name": "Páll Valur Björnsson",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1172/1172-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Páll Valur Björnsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1173",
 		"name": "Páll Jóhann Pálsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1173/1173-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Páll Jóhann Pálsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1240",
 		"name": "Preben Jón Pétursson",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.isundefined",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Preben Jón Pétursson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "693",
 		"name": "Ragnheiður E. Árnadóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/693/693-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ragnheiður E. Árnadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "694",
 		"name": "Ragnheiður Ríkharðsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/694/694-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ragnheiður Ríkharðsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "708",
 		"name": "Róbert Marshall",
 		"party": "Björt framtíð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/708/708-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Róbert Marshall er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1183",
 		"name": "Rósa Björk Brynjólfsdóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.isundefined",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Rósa Björk Brynjólfsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1238",
 		"name": "Sandra Dís Hafþórsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1238/1238-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Sandra Dís Hafþórsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "729",
 		"name": "Sigmundur Davíð Gunnlaugsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/729/729-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Sigmundur Davíð Gunnlaugsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1018",
 		"name": "Sigríður Á. Andersen",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1018/1018-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Sigríður Á. Andersen er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "712",
 		"name": "Sigríður Ingibjörg Ingadóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/712/712-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Sigríður Ingibjörg Ingadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "934",
 		"name": "Sigrún Magnúsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/934/934-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Sigrún Magnúsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1243",
 		"name": "Sigurbjörg Erla Egilsdóttir",
 		"party": "Píratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1243/1243-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Sigurbjörg Erla Egilsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "726",
 		"name": "Sigurður Ingi Jóhannsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/726/726-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Sigurður Ingi Jóhannsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1203",
 		"name": "Sigurður Páll Jónsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1203/1203-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Sigurður Páll Jónsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1201",
 		"name": "Sigurjón Kjærnested",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1201/1201-220.jpg",
-		"isPrimary": false
+		"isPrimary": false,
+		"description": "Sigurjón Kjærnested er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1174",
 		"name": "Silja Dögg Gunnarsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1174/1174-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Silja Dögg Gunnarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "557",
 		"name": "Steingrímur J. Sigfússon",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/557/557-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Steingrímur J. Sigfússon er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1031",
 		"name": "Steinunn Þóra Árnadóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1031/1031-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Steinunn Þóra Árnadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "730",
 		"name": "Svandís Svavarsdóttir",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/730/730-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Svandís Svavarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "721",
 		"name": "Unnur Brá Konráðsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/721/721-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Unnur Brá Konráðsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "705",
 		"name": "Valgerður Bjarnadóttir",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/705/705-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Valgerður Bjarnadóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1175",
 		"name": "Valgerður Gunnarsdóttir",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1175/1175-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Valgerður Gunnarsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "706",
 		"name": "Vigdís Hauksdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/706/706-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Vigdís Hauksdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1176",
 		"name": "Vilhjálmur Árnason",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1176/1176-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Vilhjálmur Árnason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1177",
 		"name": "Vilhjálmur Bjarnason",
 		"party": "Sjálfstæðisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1177/1177-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Vilhjálmur Bjarnason er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1178",
 		"name": "Willum Þór Þórsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1178/1178-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Willum Þór Þórsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1179",
 		"name": "Þorsteinn Sæmundsson",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1179/1179-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Þorsteinn Sæmundsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "1180",
 		"name": "Þórunn Egilsdóttir",
 		"party": "Framsóknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1180/1180-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Þórunn Egilsdóttir er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "630",
 		"name": "Ögmundur Jónasson",
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/630/630-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Ögmundur Jónasson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	},
 	{
 		"id": "631",
 		"name": "Össur Skarphéðinsson",
 		"party": "Samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/631/631-220.jpg",
-		"isPrimary": true
+		"isPrimary": true,
+		"description": "Össur Skarphéðinsson er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at."
 	}
 ]

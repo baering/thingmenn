@@ -9,18 +9,18 @@ import { writeToFile } from '../utility/file'
 //   }).catch(error => {
 //     console.log(`There was an error: ${error}`)
 //   })
-
-fetchSpeeches().then(speeches => {
-  console.log('Successfully fetched all speeches')
-  writeToFile(speeches, 'data/term/speeches-for-term.json')
-  }).catch((error) => console.log(`There was an error: ${error}`))
-
-// import fetchMps from './mps'
 //
-// fetchMps()
-//   .then(mps => {
-//     console.log('Success')
-//   })
+// fetchSpeeches().then(speeches => {
+//   console.log('Successfully fetched all speeches')
+//   writeToFile(speeches, 'data/term/speeches-for-term.json')
+//   }).catch((error) => console.log(`There was an error: ${error}`))
+
+import fetchMps from './mps'
+
+fetchMps()
+  .then(mps => {
+    console.log('Success')
+  })
 
 // import fetchSubjects from './subjects'
 //
