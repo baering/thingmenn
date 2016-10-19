@@ -33,6 +33,39 @@ function createLookup(allVotesForTerm) {
   return reducedLookup
 }
 
+function createSortedMpVoteSimilarityLookup(lookup, mpLookup, mpVoteSummary) {
+  const mpIds = Object.keys(lookup)
+
+  const result = {}
+  mpIds.forEach(mpId => {
+    const otherMpIds = Object.keys(lookup[mpId])
+    const totalNumberOfStandsTaken = mpVoteSummary[mpId].voteSummary.numberOfStandsTaken
+    const totalNumberOfIdleVotes = mpVoteSummary[mpId].voteSummary.numberOfIdleVotes
+    const totalVotesWithStand = totalNumberOfStandsTaken + totalNumberOfIdleVotes
+
+    result[mpId] = otherMpIds.sort((a, b) => {
+      return lookup[mpId][b] - lookup[mpId][a]
+    }).map(otherMpId => {
+      const votes = lookup[mpId][otherMpId]
+
+      const similarity = votes / totalVotesWithStand
+      let similarityPrecision = 0
+      if (similarity < 0.5) {
+        similarityPrecision = parseFloat((similarity * 100).toFixed(2))
+      } else {
+        similarityPrecision = parseFloat((similarity * 100).toFixed(1))
+      }
+      return {
+        mp: mpLookup[otherMpId],
+        votes,
+        similarity: similarityPrecision,
+      }
+    })
+  })
+
+  return result
+}
+
 export default function createVoteSummary() {
   const mps = loadFile('data/export/mps.json')
   const mpToPartyLookup = {}
@@ -48,6 +81,8 @@ export default function createVoteSummary() {
   const mpVoteSummary = {}
   const mpSimilarVotes = {}
   const partySimilarVotes = {}
+
+  const mpVoteLog = {}
 
   allVotesForTerm.forEach(term => {
     console.log(`Term: ${term.lthing}`)
@@ -68,20 +103,33 @@ export default function createVoteSummary() {
 
       mpSimilarVotes[mp.mpId] = {}
 
+      mpVoteLog[mp.mpId] = {}
+
       mp.votes.forEach(voteTopic => {
         const topicId = `${term.lthing}-${voteTopic.id}`
         voteTopic.votes.forEach(vote => {
           const voteType = vote.vote
 
-          reducedLookup[topicId].proposals[vote.proposalUrl][voteType].forEach(voterId => {
-            if (voterId !== mp.mpId) {
-              if (!mpSimilarVotes[mp.mpId][voterId]) {
-                mpSimilarVotes[mp.mpId][voterId] = 0
-              }
+          const voteIdentifier = `${topicId}-${vote.proposalUrl}`
+          mpVoteLog[mp.mpId][voteIdentifier] = voteType
 
-              mpSimilarVotes[mp.mpId][voterId] += 1
-            }
-          })
+          // const mpTookStand = (
+          //   (voteType === 'já') ||
+          //   (voteType === 'nei') ||
+          //   (voteType === 'greiðir ekki atkvæði')
+          // )
+          //
+          // if (mpTookStand) {
+          //   reducedLookup[topicId].proposals[vote.proposalUrl][voteType].forEach(voterId => {
+          //     if (voterId !== mp.mpId) {
+          //       if (!mpSimilarVotes[mp.mpId][voterId]) {
+          //         mpSimilarVotes[mp.mpId][voterId] = 0
+          //       }
+          //
+          //       mpSimilarVotes[mp.mpId][voterId] += 1
+          //     }
+          //   })
+          // }
 
           mpVoteSummary[mp.mpId].voteSummary.numberOfVotes += 1
           if (!mpVoteSummary[mp.mpId].voteTypes[voteType]) {
@@ -179,38 +227,38 @@ export default function createVoteSummary() {
 
   writeToFile(mpVoteSummary, 'data/export/mp-vote-summaries.json', true)
 
-  const sortedMpSimilarVotes = {}
-  mps.forEach(mp => {
-    const similarVoteLookup = mpSimilarVotes[mp.id]
-    const similarVoterIds = Object.keys(similarVoteLookup)
-
-    const totalNumberOfStandsTaken = mpVoteSummary[mp.id].voteSummary.numberOfStandsTaken
-    const totalNumberOfIdleVotes = mpVoteSummary[mp.id].voteSummary.numberOfIdleVotes
-    const totalVotesWithStand = totalNumberOfStandsTaken + totalNumberOfIdleVotes
-
-    const sortedSimilarVoters = similarVoterIds.sort((a, b) => {
-      const similarVotesByA = mpSimilarVotes[mp.id][a]
-      const similarVotesByB = mpSimilarVotes[mp.id][b]
-
-      return similarVotesByB - similarVotesByA
-    }).map(voterId => {
-      const similarity = mpSimilarVotes[mp.id][voterId] / totalVotesWithStand
-      let similarityPrecision = 0
-      if (similarity < 0.5) {
-        similarityPrecision = parseFloat((similarity * 100).toFixed(2))
-      } else {
-        similarityPrecision = parseFloat((similarity * 100).toFixed(1))
-      }
-      return {
-        mp: mpLookup[voterId],
-        similarVotes: mpSimilarVotes[mp.id][voterId],
-        similarity: similarityPrecision,
-      }
-    }).sort((a, b) => b.similarity - a.similarity)
-
-    sortedMpSimilarVotes[mp.id] = sortedSimilarVoters
-  })
-  writeToFile(sortedMpSimilarVotes, 'data/export/mp-similar-votes.json', true)
+  // const sortedMpSimilarVotes = {}
+  // mps.forEach(mp => {
+  //   const similarVoteLookup = mpSimilarVotes[mp.id]
+  //   const similarVoterIds = Object.keys(similarVoteLookup)
+  //
+  //   const totalNumberOfStandsTaken = mpVoteSummary[mp.id].voteSummary.numberOfStandsTaken
+  //   const totalNumberOfIdleVotes = mpVoteSummary[mp.id].voteSummary.numberOfIdleVotes
+  //   const totalVotesWithStand = totalNumberOfStandsTaken + totalNumberOfIdleVotes
+  //
+  //   const sortedSimilarVoters = similarVoterIds.sort((a, b) => {
+  //     const similarVotesByA = mpSimilarVotes[mp.id][a]
+  //     const similarVotesByB = mpSimilarVotes[mp.id][b]
+  //
+  //     return similarVotesByB - similarVotesByA
+  //   }).map(voterId => {
+  //     const similarity = mpSimilarVotes[mp.id][voterId] / totalVotesWithStand
+  //     let similarityPrecision = 0
+  //     if (similarity < 0.5) {
+  //       similarityPrecision = parseFloat((similarity * 100).toFixed(2))
+  //     } else {
+  //       similarityPrecision = parseFloat((similarity * 100).toFixed(1))
+  //     }
+  //     return {
+  //       mp: mpLookup[voterId],
+  //       similarVotes: mpSimilarVotes[mp.id][voterId],
+  //       similarity: similarityPrecision,
+  //     }
+  //   }).sort((a, b) => b.similarity - a.similarity)
+  //
+  //   sortedMpSimilarVotes[mp.id] = sortedSimilarVoters
+  // })
+  // writeToFile(sortedMpSimilarVotes, 'data/export/mp-similar-votes.json', true)
 
   const sortedPartySimilarVotes = {}
   const partyNames = Object.keys(partySimilarVotes)
@@ -230,6 +278,75 @@ export default function createVoteSummary() {
   })
 
   writeToFile(sortedPartySimilarVotes, 'data/export/party-similar-votes.json', true)
+
+  const similarMpLookup = {}
+  const differentMpLookup = {}
+
+  mps.forEach(mp => {
+    const voteLog = mpVoteLog[mp.id]
+    const voteIdentifiers = Object.keys(voteLog)
+    const similar = {}
+    const different = {}
+
+    mps.forEach(otherMp => {
+      if (mp.id !== otherMp.id) {
+        voteIdentifiers.forEach(voteIdentifier => {
+          const voteLogForOtherMp = mpVoteLog[otherMp.id]
+
+          const mpVote = voteLog[voteIdentifier]
+          const otherMpVote = voteLogForOtherMp[voteIdentifier]
+
+          const mpTookStand = (
+            (mpVote === 'já') ||
+            (mpVote === 'nei') ||
+            (mpVote === 'greiðir ekki atkvæði')
+          )
+          const otherMpTookStand = (
+            (otherMpVote === 'já') ||
+            (otherMpVote === 'nei') ||
+            (otherMpVote === 'greiðir ekki atkvæði')
+          )
+
+          const bothTookStand = mpTookStand && otherMpTookStand
+
+          if (bothTookStand) {
+            if (!similar[otherMp.id]) {
+              similar[otherMp.id] = 0
+            }
+
+            if (!different[otherMp.id]) {
+              different[otherMp.id] = 0
+            }
+
+            if (mpVote === otherMpVote) {
+              similar[otherMp.id] += 1
+            } else {
+              different[otherMp.id] += 1
+            }
+          }
+        })
+      }
+    })
+
+    similarMpLookup[mp.id] = similar
+    differentMpLookup[mp.id] = different
+  })
+
+  const sortedSimilarMpLookup = createSortedMpVoteSimilarityLookup(
+    similarMpLookup,
+    mpLookup,
+    mpVoteSummary,
+  )
+
+  const sortedDifferentMpLookup = createSortedMpVoteSimilarityLookup(
+    differentMpLookup,
+    mpLookup,
+    mpVoteSummary
+  )
+
+  // writeToFile(sortedMpSimilarVotes, 'data/export/mp-similar-votes.json', true)
+  writeToFile(sortedSimilarMpLookup, 'data/export/mp-similar-votes.json', true)
+  writeToFile(sortedDifferentMpLookup, 'data/export/mp-different-votes.json', true)
 
   writeToFile(reducedLookup, 'data/term/lookup-temp.json', true)
 }
