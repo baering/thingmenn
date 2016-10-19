@@ -15,7 +15,7 @@ const Friends = ({
        <dd>{subTitle}</dd>
        {friends.map((friend) => (
          [
-           <dt>{friend.mp.name}</dt>,
+           <dt><a href={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</a></dt>,
            <dd>{friend.votes} ({friend.similarity}%)</dd>
          ]
        ))}
