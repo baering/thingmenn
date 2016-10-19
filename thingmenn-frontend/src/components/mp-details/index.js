@@ -1,6 +1,7 @@
 import React from 'react';
 import 'whatwg-fetch'
 
+import { apiUrl } from '../../config'
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
@@ -35,34 +36,34 @@ export default class Mps extends React.Component {
   componentDidMount() {
     const { mpId } = this.props.params
 
-    const mpUrl = `http://api-dot-thingmenn.appspot.com/api/mps/${mpId}`
+    const mpUrl = `${apiUrl}/api/mps/${mpId}`
     fetchJson(mpUrl)
       .then(mp => this.setState({ mp }))
       .catch(error => console.log(error))
 
-    const mpVoteUrl = `http://api-dot-thingmenn.appspot.com/api/summary/votes/mp/${mpId}`
+    const mpVoteUrl = `${apiUrl}/api/summary/votes/mp/${mpId}`
     fetchJson(mpVoteUrl)
       .then(voteSummary => this.setState({ voteSummary }))
       .catch(error => console.log(error))
 
-    const mpSubjectUrl = `http://api-dot-thingmenn.appspot.com/api/summary/subjects/mp/${mpId}`
+    const mpSubjectUrl = `${apiUrl}/api/summary/subjects/mp/${mpId}`
     fetchJson(mpSubjectUrl)
       .then(subjectSummary => this.setState({ subjectSummary }))
       .catch(error => console.log(error))
 
-    const mpNounUrl = `http://api-dot-thingmenn.appspot.com/api/summary/nouns/mp/${mpId}`
+    const mpNounUrl = `${apiUrl}/api/summary/nouns/mp/${mpId}`
     fetchJson(mpNounUrl)
       .then(nouns => this.setState({ nouns }))
       .catch(error => console.log(error))
 
-    const mpSimilarUrl = `http://api-dot-thingmenn.appspot.com/api/mps/${mpId}/similar`
+    const mpSimilarUrl = `${apiUrl}/api/mps/${mpId}/similar`
     fetchJson(mpSimilarUrl)
-      .then(similarMps => {
-        this.setState({
-          similarMps,
-          differentMps: similarMps.slice().reverse(),
-        })
-      })
+      .then(similarMps => this.setState({ similarMps }))
+      .catch(error => console.log(error))
+
+    const mpDifferentUrl = `${apiUrl}/api/mps/${mpId}/different`
+    fetchJson(mpDifferentUrl)
+      .then(differentMps => this.setState({ differentMps }))
       .catch(error => console.log(error))
   }
 
@@ -119,11 +120,20 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item">
-            <Friends title="Samherjar" friends={similarMps.slice(0, 10)} />
+            <Friends
+              title="Samherjar"
+              subTitle="Eins greidd atkvæði"
+              friends={similarMps.slice(0, 10)}
+              isDisplayingFriends={true}
+            />
           </div>
 
           <div className="MpDetails-item">
-            <Friends title="Mótherjar" friends={differentMps.slice(0, 10)} />
+            <Friends
+              title="Mótherjar"
+              subTitle="Ólík greidd atkvæði"
+              friends={differentMps.slice(0, 10)}
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import 'whatwg-fetch'
 
+import { apiUrl } from '../../config'
 import Mp from '../../widgets/mp'
 
 import './styles.css';
@@ -15,7 +16,7 @@ export default class Mps extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://api-dot-thingmenn.appspot.com/api/mps')
+    fetch(`${apiUrl}/api/mps`)
       .then(response => {
         return response.json()
       })
