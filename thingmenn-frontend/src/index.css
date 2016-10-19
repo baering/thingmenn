@@ -10,7 +10,7 @@
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-/* 375px, 768px, 1024px, 1440px */
+/* 375px, 768px, 1024px, (1234px), 1440px */
 html, body {
   height: 100%;
   line-height: 1.5;
@@ -44,6 +44,13 @@ a {
 .contain {
   display: flex;
   overflow: hidden;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1234px) {
+  .contain {
+    flex-wrap: nowrap;
+  }
 }
 
 .fill {

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import Routes from './routes'
 
-import Sidebar from './widgets/sidebar'
+import Nav from './widgets/nav'
 
 import './reset.css'
 import './index.css'
@@ -13,7 +13,7 @@ ReactDOM.render(
   <div className="contain">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500|Lora" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" rel="stylesheet" />
-    <Sidebar />
+    <Nav />
     <main className="fill">
       <Routes />
     </main>
