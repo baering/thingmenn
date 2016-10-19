@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "highcharts": "^5.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-highcharts": "^10.0.0",
     "react-router": "^2.8.1",
     "whatwg-fetch": "^1.0.0"
   },

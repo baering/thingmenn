@@ -3,11 +3,11 @@ import 'whatwg-fetch'
 
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
+import Piechart from '../../widgets/piechart'
 
 import './styles.css'
 
 function fetchJson(url) {
-  console.log(`Fetching json: ${url}`)
   return fetch(url).then(response => response.json())
 }
 
@@ -69,6 +69,10 @@ export default class Mps extends React.Component {
 
         <div className='MpDetails'>
           <div className="MpDetails-item">
+            <Piechart voteSummary={voteSummary} />
+          </div>
+
+          <div className="MpDetails-item">
             <h3 className='heading'>Mest talað um</h3>
             <ul>
               {nouns.slice(0, 10).map(noun => (
@@ -83,17 +87,6 @@ export default class Mps extends React.Component {
             <h3 className='heading'>Mest afstaða</h3>
             <ul>
               {subjectSummary.standsTaken.slice(0, 8).map(subject => (
-                <div className='text' key={subject.word}>
-                  <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-                </div>
-              ))}
-            </ul>
-          </div>
-
-          <div className="MpDetails-item">
-            <h3 className='heading'>Mest hlutleysi</h3>
-            <ul>
-              {subjectSummary.idle.slice(0, 8).map(subject => (
                 <div className='text' key={subject.word}>
                   <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
                 </div>

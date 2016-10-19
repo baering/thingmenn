@@ -34,7 +34,7 @@ function createLookup(allVotesForTerm) {
 }
 
 export default function createVoteSummary() {
-  const mps = loadFile('data/mps.json')
+  const mps = loadFile('data/export/mps.json')
   const mpToPartyLookup = {}
   const mpLookup = {}
   mps.forEach(mp => {
@@ -190,10 +190,11 @@ export default function createVoteSummary() {
 
       return similarVotesByB - similarVotesByA
     }).map(voterId => {
+      const similarity = mpSimilarVotes[mp.id][voterId] / mpVoteSummary[mp.id].voteSummary.numberOfVotes
       return {
-        mpId: voterId,
+        mp: mpLookup[voterId],
         similarVotes: mpSimilarVotes[mp.id][voterId],
-        similarity: mpSimilarVotes[mp.id][voterId] / mpVoteSummary[mp.id].voteSummary.numberOfVotes,
+        similarity: parseFloat((similarity * 100).toFixed(1)),
       }
     }).sort((a, b) => b.similarity - a.similarity)
 

@@ -5,6 +5,21 @@ import { writeToFile } from '../../utility/file'
 const mpListUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/'
 const mpDetailsUrl = 'http://www.althingi.is/altext/cv/is/?nfaerslunr='
 
+const letters = 'abcdefghijklmnoprstuvxyz'
+
+const icelandicLetterToAscii = {
+  á: 'a',
+  ð: 'd',
+  é: 'e',
+  í: 'i',
+  ó: 'o',
+  ú: 'u',
+  ý: 'y',
+  þ: 'th',
+  æ: 'ae',
+  ö: 'o',
+}
+
 function parseMpParty(htmlObj) {
   if (htmlObj('.office').length) {
     const parts = htmlObj('.office li:contains("Þingflokkur")')
@@ -20,13 +35,32 @@ function parseMpParty(htmlObj) {
   return 'Tókst ekki að sækja'
 }
 
+function generateSlug(mpName) {
+  const nameLowerCased = mpName.toLowerCase()
+  return nameLowerCased.split('').map(letter => {
+    if (letter === ' ') {
+      return '_'
+    }
+    if (icelandicLetterToAscii[letter]) {
+      return icelandicLetterToAscii[letter]
+    }
+    if (letters.indexOf(letter) !== -1) {
+      return letter
+    }
+    return '\n'
+  }).filter(letter => letter !== '\n')
+  .join('')
+}
+
 function parseMpDetails(html, mpId) {
   const htmlObj = cheerio.load(html)
 
   const mpName = htmlObj('h1').text()
+  const slug = generateSlug(mpName)
   return {
     id: mpId,
     name: mpName,
+    slug,
     party: parseMpParty(htmlObj),
     imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
     isPrimary: htmlObj('.office').length > 0,
@@ -76,6 +110,11 @@ async function fetch(lthing = 145) {
   try {
     console.log('Fetching mps')
     const mps = await fetchMpList(lthing)
+    mps.forEach(mp => {
+      if (mp.imagePath.indexOf('undefined') !== -1) {
+        mp.imagePath = 'http://thingmenn.is/images/unknown_user.png'
+      }
+    })
     console.log('Done\n\nExample:')
     console.log(mps[0])
     writeToFile(mps, 'data/export/mps.json', true)
