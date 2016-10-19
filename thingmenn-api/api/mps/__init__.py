@@ -10,6 +10,7 @@ mps = []
 lookup = {}
 
 similar_mp_votes = {}
+different_mp_votes = {}
 
 with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
@@ -19,6 +20,9 @@ with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
 
 with open(path.dirname(__file__) + '/../../data/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/mp-different-votes.json', 'r') as f:
+    different_mp_votes = json.loads(f.read())
 
 def get_mps():
     print 'getting mps!'
@@ -33,6 +37,12 @@ def get_mp_by_id(mp_id):
 
 def get_similar_mps(mp_id):
     if mp_id not in similar_mp_votes:
-        return make_error('Not found :()')
+        return make_error('Not found')
 
     return make_json_response(similar_mp_votes[mp_id])
+
+def get_different_mps(mp_id):
+    if mp_id not in different_mp_votes:
+        return make_error('Not found')
+
+    return make_json_response(different_mp_votes[mp_id])
