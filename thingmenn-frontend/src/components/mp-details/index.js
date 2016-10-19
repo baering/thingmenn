@@ -27,7 +27,8 @@ export default class Mps extends React.Component {
         away: [],
       },
       nouns: [],
-      similar: [],
+      similarMps: [],
+      differentMps: [],
     }
   }
 
@@ -56,12 +57,24 @@ export default class Mps extends React.Component {
 
     const mpSimilarUrl = `http://api-dot-thingmenn.appspot.com/api/mps/${mpId}/similar`
     fetchJson(mpSimilarUrl)
-      .then(similar => this.setState({ similar }))
+      .then(similarMps => {
+        this.setState({
+          similarMps,
+          differentMps: similarMps.slice().reverse(),
+        })
+      })
       .catch(error => console.log(error))
   }
 
   render() {
-    const { mp, voteSummary, subjectSummary, nouns, similar } = this.state
+    const {
+      mp,
+      voteSummary,
+      subjectSummary,
+      nouns,
+      similarMps,
+      differentMps,
+    } = this.state
 
     return (
       <div>
@@ -106,11 +119,11 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item">
-            <Friends title="Samherjar" friends={similar.slice(0, 10)} />
+            <Friends title="Samherjar" friends={similarMps.slice(0, 10)} />
           </div>
 
           <div className="MpDetails-item">
-            <Friends title="Mótherjar" friends={similar.reverse().slice(0, 10)} />
+            <Friends title="Mótherjar" friends={differentMps.slice(0, 10)} />
           </div>
         </div>
       </div>
