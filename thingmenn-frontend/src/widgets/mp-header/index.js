@@ -4,6 +4,7 @@ import './styles.css'
 const MpHeader = ({
   id,
   name,
+  description,
   party,
   imagePath,
   voteSummary,
@@ -19,7 +20,7 @@ const MpHeader = ({
         />
         <div className="MpHeader-bio">
           <h1 className="MpHeader-bioName">{name} <span className="Main-subheader">{party}</span></h1>
-          <p className="MpHeader-bioText"></p>
+          <p className="MpHeader-bioText">{description}</p>
         </div>
         <div className="MpHeader-stats">
           <div className="MpHeader-statsItem">
