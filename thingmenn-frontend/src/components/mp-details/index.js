@@ -3,6 +3,8 @@ import 'whatwg-fetch'
 
 import './styles.css';
 
+import Piechart from '../../widgets/piechart'
+
 function fetchJson(url) {
   console.log(`Fetching json: ${url}`)
   return fetch(url).then(response => response.json())
@@ -71,6 +73,9 @@ export default class Mps extends React.Component {
 
         <div className='mp-details__votes mp-details__section'>
           <h2 className='heading'>Yfirlit atkvæða</h2>
+
+          <Piechart voteSummary={voteSummary} />
+
           <ul>
             <li className='text'>{voteSummary.voteSummary.numberOfVotes} atkvæði</li>
             <li className='text'>{voteSummary.votePercentages.standsTaken}% afstaða tekin</li>
