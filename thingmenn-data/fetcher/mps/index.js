@@ -110,6 +110,11 @@ async function fetch(lthing = 145) {
   try {
     console.log('Fetching mps')
     const mps = await fetchMpList(lthing)
+    mps.forEach(mp => {
+      if (mp.imagePath.indexOf('undefined') !== -1) {
+        mp.imagePath = 'http://thingmenn.is/images/unknown_user.png'
+      }
+    })
     console.log('Done\n\nExample:')
     console.log(mps[0])
     writeToFile(mps, 'data/export/mps.json', true)
