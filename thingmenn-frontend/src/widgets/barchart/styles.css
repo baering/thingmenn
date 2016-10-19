@@ -1,4 +1,0 @@
-/* hide highcharts.com link */
-text[text-anchor=end] {
-  display: none;
-}

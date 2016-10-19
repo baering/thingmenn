@@ -4,7 +4,7 @@ import 'whatwg-fetch'
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
-import Barchart from '../../widgets/barchart'
+import Words from '../../widgets/words'
 
 import './styles.css'
 
@@ -74,16 +74,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item">
-            <h3 className='heading'>Mest talað um</h3>
-            <Barchart nouns={nouns} />
-
-            <ul>
-              {nouns.slice(0, 10).map(noun => (
-                <div className='text' key={noun.noun}>
-                  <strong>{noun.noun}</strong>: {noun.occurance}
-                </div>
-              ))}
-            </ul>
+            <Words title="Mest talað um" words={nouns} />
           </div>
 
           <div className="MpDetails-item">

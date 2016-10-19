@@ -17,10 +17,10 @@ const chartConfig = (voteSummary) => {
         type: 'pie'
     },
     title: {
-        text: voteSummary.voteSummary.numberOfVotes
+      text: ''
     },
     subtitle: {
-        text: 'atkvæði'
+      text: ''
     },
     plotOptions: {
       series: {
@@ -61,8 +61,16 @@ const Piechart = ({
   voteSummary
 }) => {
   return (
-    <div className="Chart-pie">
-      <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
+    <div className="Chart">
+      <div className="Chart-heading">{voteSummary.voteSummary.numberOfVotes} afstaða</div>
+      <div className="Chart-pie">
+        <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
+      </div>
+      <div className="Chart-legend">
+        <div>◼ ataða tekin</div>
+        <div>◼ hlutleysi</div>
+        <div>◼︎ fjarverandi</div>
+      </div>
     </div>
   )
 }
