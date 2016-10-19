@@ -1,0 +1,56 @@
+.Words {
+  background: white;
+}
+
+.Words-heading {
+  font-weight: 100;
+  font-size: 2.4em;
+  text-align: center;
+}
+
+.Words-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  line-height: 2.5;
+}
+
+.Words-list > dt,
+.Words-list dd {
+  flex: 1 50%;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  font-size: 0.9rem;
+}
+
+.Words-list > dt {
+  text-align: right;
+}
+
+.Words-list dd {
+  position: relative;
+  text-align: left !important;
+  overflow: hidden;
+}
+
+.Words-list dd div {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  background-color: lightgrey;
+  display: inline-block;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.Words-list dd span {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  width: 30px;
+  display: inline-block;
+}
+
+.Words-list > dt:last-of-type,
+.Words-list dd:last-of-type {
+  border: 0;
+}

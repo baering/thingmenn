@@ -3,6 +3,13 @@ import ReactHighcharts from 'react-highcharts';
 
 import './styles.css'
 
+// drilldown WIP
+const buildDrillDown = () => {
+  return {
+    series: []
+  }
+}
+
 const chartConfig = (voteSummary) => {
     return {
     chart: {
@@ -10,15 +17,15 @@ const chartConfig = (voteSummary) => {
         type: 'pie'
     },
     title: {
-        text: voteSummary.voteSummary.numberOfVotes
+      text: ''
     },
     subtitle: {
-        text: 'atkvæði'
+      text: ''
     },
     plotOptions: {
       series: {
         dataLabels: {
-          enabled: true,
+          enabled: false,
           format: '{point.name}: {point.y:.1f}%'
         }
       }
@@ -45,7 +52,8 @@ const chartConfig = (voteSummary) => {
         name: 'fjarverandi',
         y: parseFloat(voteSummary.votePercentages.away)
       }]
-    }]
+    }],
+    drilldown: buildDrillDown()
   };
 };
 
@@ -53,8 +61,16 @@ const Piechart = ({
   voteSummary
 }) => {
   return (
-    <div>
-      <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
+    <div className="Chart">
+      <div className="Chart-heading">{voteSummary.voteSummary.numberOfVotes} atkvæði</div>
+      <div className="Chart-pie">
+        <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
+      </div>
+      <div className="Chart-legend">
+        <div>◼ ataða tekin</div>
+        <div>◼ hlutleysi</div>
+        <div>◼︎ fjarverandi</div>
+      </div>
     </div>
   )
 }
