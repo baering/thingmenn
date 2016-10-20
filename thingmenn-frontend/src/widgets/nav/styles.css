@@ -12,7 +12,7 @@
     flex-wrap: nowrap;
     border-right: 1px solid #313131;
     width: 18rem;
-    height: 100%;
+    min-height: 100%;
     max-width: 18rem;
     padding: 0;
     letter-spacing: 1px;
