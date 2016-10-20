@@ -1,0 +1,45 @@
+.Barchart {
+  background: white;
+  border-top: 1px solid rgba(44, 63, 80, 0.2);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.Barchart-bar {
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.Barchart-bar .Barchart-segment {
+  color: #FFF;
+  display: block;
+  font-size: 12px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.Barchart-segment.Barchart--standsTaken {
+  background-color: lightgreen;
+}
+
+.Barchart-segment.Barchart--idle {
+  background-color: lightgrey;
+}
+
+.Barchart-segment.Barchart--away {
+  background-color: salmon;
+}
+
+@media (min-width: 1234px) {
+  .Barchart {
+    display: flex;
+  }
+  .Barchart .Barchart-topic  {
+    flex: 4;
+  }
+  .Barchart .Barchart-bar  {
+    flex: 70%;
+    margin-top: 3px;
+  }
+}
