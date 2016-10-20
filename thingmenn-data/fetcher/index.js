@@ -15,12 +15,12 @@ import { writeToFile } from '../utility/file'
 //   writeToFile(speeches, 'data/term/speeches-for-term.json')
 //   }).catch((error) => console.log(`There was an error: ${error}`))
 
-import fetchMps from './mps'
-
-fetchMps()
-  .then(mps => {
-    console.log('Success')
-  })
+// import fetchMps from './mps'
+//
+// fetchMps()
+//   .then(mps => {
+//     console.log('Success')
+//   })
 
 // import fetchSubjects from './subjects'
 //
@@ -28,3 +28,9 @@ fetchMps()
 //   .then(wasASuccess => {
 //     console.log('Done', wasASuccess)
 //   }).catch(error => console.log(`Error: ${error}`))
+
+import fetchSpeechStatistics from './speech-statistics'
+fetchSpeechStatistics()
+  .then(wasASuccess => {
+    console.log('Done', wasASuccess)
+  })

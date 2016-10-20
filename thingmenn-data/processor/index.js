@@ -10,8 +10,11 @@ import { writeToFile } from '../utility/file'
 // import createMpPositionLookup from './position'
 // createMpPositionLookup()
 
-import createMpSummary from './mp-summary'
-createMpSummary()
+// import createMpSummary from './mp-summary'
+// createMpSummary()
 
 // import createPartySummaries from './parties'
 // createPartySummaries()
+
+import createMpSpeechStatisticSummary from './speech-statistics'
+createMpSpeechStatisticSummary()
