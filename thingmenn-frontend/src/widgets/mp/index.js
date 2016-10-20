@@ -1,6 +1,8 @@
 import React from 'react'
 import './styles.css'
 
+import PartyBadge from '../partybadge'
+
 const Mp = ({
   id,
   name,
@@ -14,7 +16,9 @@ const Mp = ({
         style={{
           backgroundImage: `url(${imagePath})`
         }}
-      />
+      >
+        <PartyBadge party={party}/>
+      </div>
       <div className="Mp-content">
         <h2 className="Mp-name">{name}</h2>
         <p className="Mp-party">{party}</p>
