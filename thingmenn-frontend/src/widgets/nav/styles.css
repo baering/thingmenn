@@ -1,5 +1,6 @@
 .Nav {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   flex: 1 1 100%;
   background: #32394C;
@@ -8,8 +9,10 @@
 @media (min-width: 1234px) {
   .Nav {
     flex-direction: column;
+    flex-wrap: nowrap;
     border-right: 1px solid #313131;
     width: 18rem;
+    height: 100%;
     max-width: 18rem;
     padding: 0;
     letter-spacing: 1px;
@@ -38,7 +41,6 @@
   justify-content: center;
   font-size: 1.25rem;
   color: #fdfdff;
-  border-bottom: 1px solid #313131;
   border-left: 4px solid transparent;
   text-indent: 1rem;
   letter-spacing: .8px;
@@ -47,6 +49,7 @@
   .Nav-item {
     display: initial;
     padding: 1rem;
+    border-bottom: 1px solid #313131;
     font-size: 1.1rem;
   }
 }
@@ -73,33 +76,9 @@
 }
 
 .Nav-title {
-  display: none;
+  color: white;
 }
-.Nav-title--shorter {
-  display: none;
-}
-.Nav-title--shortest {
-  display: block;
-}
-@media (min-width: 425px) {
-  .Nav-title {
-    display: none;
-  }
-  .Nav-title--shorter {
-    display: block;
-  }
-  .Nav-title--shortest {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .Nav-title {
-    display: block;
-  }
-  .Nav-title--shorter {
-    display: none;
-  }
-  .Nav-title--shortest {
-    display: none;
-  }
+
+.Nav-titleDot {
+  color: #06ABDC;
 }

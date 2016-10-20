@@ -40,11 +40,15 @@ a {
   text-decoration: none;
   color: initial;
 }
+#root {
+  height: 100%;
+}
 
 .contain {
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 @media (min-width: 1234px) {
@@ -76,4 +80,10 @@ a {
   font-size: 1.777rem;
   margin: 0;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .u-hiddenSmall {
+    display: none;
+  }
 }

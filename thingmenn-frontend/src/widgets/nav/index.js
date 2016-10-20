@@ -6,9 +6,7 @@ class Nav extends React.Component {
     return (
       <nav className="Nav">
         <div className="Nav-top">
-          <h1 className="Nav-title">Þingmenn.is</h1>
-          <h1 className="Nav-title--shorter">Þingmenn</h1>
-          <h1 className="Nav-title--shortest">ÞM</h1>
+          <a href='/' className="Nav-title">Þingmenn<span className='u-hiddenSmall'><span className='Nav-titleDot'>.</span>is</span></a>
         </div>
         <a href="/" className="Nav-item is-active"><span className="typcn typcn-user-outline"></span> Þingmenn</a>
         <a href="#" className="Nav-item"><span className="typcn typcn-group-outline"></span> Flokkar</a>
