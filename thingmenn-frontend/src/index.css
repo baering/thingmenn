@@ -32,7 +32,7 @@ body {
 @media (min-width: 1234px) {
   body {
     border-radius: 6px;
-    margin: 1rem;
+    margin: 1rem auto;
   }
 }
 
