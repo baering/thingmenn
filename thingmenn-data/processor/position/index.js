@@ -137,7 +137,7 @@ function createSortedSummaryList(typeOccuranceMap, totalOccuranceMap) {
     return {
       word,
       occurance: typeOccuranceMap[word],
-      occuranceRatio: parseFloat(((occuranceRatio * 100).toFixed(2)),
+      occuranceRatio: parseFloat((occuranceRatio * 100).toFixed(2)),
     }
   }).sort((a, b) => {
     return b.occuranceRatio - a.occuranceRatio
@@ -254,6 +254,89 @@ function process() {
 
   writeToFile(summary, 'data/term/mp-positions.json', true)
   writeToFile(mpVoteSplitSummary, 'data/export/mp-positions.json', true)
+
+  const sortedMpVoteSplitSummary = {}
+  mps.forEach(mp => {
+    const sortedVoteSplit = {}
+
+    const mpVoteSplit = mpVoteSplitSummary[mp.id]
+    mpVoteSplit.standsTaken.forEach(subjectSummary => {
+      if (!sortedVoteSplit[subjectSummary.word]) {
+        sortedVoteSplit[subjectSummary.word] = {}
+      }
+
+      sortedVoteSplit[subjectSummary.word].standsTaken = {
+        occurance: subjectSummary.occurance,
+        percentage: subjectSummary.occuranceRatio,
+      }
+    })
+
+    mpVoteSplit.idle.forEach(subjectSummary => {
+      if (!sortedVoteSplit[subjectSummary.word]) {
+        sortedVoteSplit[subjectSummary.word] = {}
+      }
+
+      sortedVoteSplit[subjectSummary.word].idle = {
+        occurance: subjectSummary.occurance,
+        percentage: subjectSummary.occuranceRatio,
+      }
+    })
+
+    mpVoteSplit.away.forEach(subjectSummary => {
+      if (!sortedVoteSplit[subjectSummary.word]) {
+        sortedVoteSplit[subjectSummary.word] = {}
+      }
+
+      sortedVoteSplit[subjectSummary.word].away = {
+        occurance: subjectSummary.occurance,
+        percentage: subjectSummary.occuranceRatio,
+      }
+    })
+
+    const subjectsMpVotedFor = Object.keys(sortedVoteSplit)
+    sortedMpVoteSplitSummary[mp.id] = subjectsMpVotedFor.sort((a, b) => {
+      const aStand = sortedVoteSplit[a].standTaken
+      const bStand = sortedVoteSplit[b].standTaken
+
+      if (aStand && bStand) {
+        return bStand.occurance - aStand.occurance
+      } else if (aStand && !bStand) {
+        return -1
+      } else if (!aStand && bStand) {
+        return 1
+      }
+
+      const aIdle = sortedVoteSplit[a].idle
+      const bIdle = sortedVoteSplit[b].idle
+
+      if (aIdle && bIdle) {
+        return bIdle.occurance - aIdle.occurance
+      } else if (aIdle && !bIdle) {
+        return -1
+      } else if (!aIdle && bIdle) {
+        return 1
+      }
+
+      const aAway = sortedVoteSplit[a].away
+      const bAway = sortedVoteSplit[b].away
+
+      if (aAway && bAway) {
+        return bAway.occurance - aAway.occurance
+      } else if (aAway && !bAway) {
+        return -1
+      } else if (!aAway && bAway) {
+        return 1
+      }
+      return 0
+    }).map(subjectName => {
+      return {
+        subject: subjectName,
+        voteSplit: sortedVoteSplit[subjectName],
+      }
+    })
+  })
+
+  writeToFile(sortedMpVoteSplitSummary, 'data/export/mp-positions-processed.json', true)
 }
 
 export default process
