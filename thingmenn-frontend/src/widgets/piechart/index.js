@@ -67,8 +67,8 @@ const Piechart = ({
         <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
       </div>
       <div className="Chart-legend">
-        <div>◼ afstaða tekin</div>
-        <div>◼ hlutleysi</div>
+        <div>◼︎ afstaða tekin</div>
+        <div>◼︎ hlutleysi</div>
         <div>◼︎ fjarverandi</div>
       </div>
     </div>
