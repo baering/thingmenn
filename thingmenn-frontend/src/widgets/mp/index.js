@@ -8,6 +8,7 @@ const Mp = ({
   name,
   imagePath,
   party,
+  partySlug
 }) => {
   return (
     <a href={`/thingmenn/${id}`} className="Mp">
@@ -17,7 +18,7 @@ const Mp = ({
           backgroundImage: `url(${imagePath})`
         }}
       >
-        <PartyBadge party={party}/>
+        <PartyBadge party={partySlug}/>
       </div>
       <div className="Mp-content">
         <h2 className="Mp-name">{name}</h2>

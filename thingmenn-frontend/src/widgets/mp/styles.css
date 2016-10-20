@@ -11,17 +11,24 @@
   }
 }
 
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
+  .Mp {
+    width: calc(33.333% - 2rem);
+  }
+}
+
+@media (min-width: 920px) {
   .Mp {
     width: calc(25% - 2rem);
   }
 }
 
-@media (min-width: 920px) and (max-width: 1234px) {
+@media (min-width: 1234px) {
   .Mp {
-    width: calc(33.333% - 2rem);
+    width: calc(20% - 2rem);
   }
 }
+
 
 .Mp-content {
   padding: 0.563rem;

@@ -3,9 +3,8 @@
 }
 
 .Words-heading {
-  font-size: 2.4em;
+  font-size: 1.333em;
   font-weight: 100;
-  text-align: center;
 }
 
 .Words-list {
@@ -17,13 +16,14 @@
 
 .Words-list > dt,
 .Words-list dd {
-  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  border-bottom: 1px solid rgba(44, 63, 80, 0.15);
   flex: 1 50%;
   font-size: 0.9rem;
 }
 
 .Words-list > dt {
-  text-align: right;
+  text-transform: capitalize;
+  border-right:  1px solid rgba(44, 63, 80, 0.15);
 }
 
 .Words-list dd {
@@ -33,7 +33,7 @@
 }
 
 .Words-list dd div {
-  background-color: #eca72c;
+  background-color: #06ABDC;
   display: inline-block;
   height: 10px;
   left: 10px;
@@ -43,10 +43,6 @@
 }
 
 .Words-list dd > span {
-  -moz-border-image: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 1 100%;
-  -o-border-image: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 1 100%;
-  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1))) 1 100%;
-  -webkit-border-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 1 100%;
   border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 1 100%;
   border-style: solid;
   border-width: 0 50px 0 0;
@@ -66,5 +62,5 @@
 
 .Words-list > dt:last-of-type,
 .Words-list dd:last-of-type {
-  border: 0;
+  border-bottom: 0;
 }

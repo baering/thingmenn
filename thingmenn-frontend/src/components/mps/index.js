@@ -36,7 +36,7 @@ export default class Mps extends React.Component {
 
     return (
       <div>
-        <h1 className="title">Þingmenn</h1>
+        <h1 className="title">Allir þingmenn</h1>
         <SubNav />
         <section className="Mps">
           {mps.map(mp => (

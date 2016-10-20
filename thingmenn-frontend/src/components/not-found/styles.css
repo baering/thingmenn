@@ -3,15 +3,15 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 1rem;
   font-size: 35vw;
   color: white;
   background: url('http://www.althingi.is/media/althingishusid/clip_image002.jpg') 100%/cover;
+  border: 1rem solid white;
 }
 
 .not-found .travolta {
   position: absolute;
-  bottom: -2rem;
+  bottom: 0;
   width: 40vw;
   height: 40vw;
   background: url('https://i.imgur.com/35xkavm.gif') 100% 100%/cover no-repeat;

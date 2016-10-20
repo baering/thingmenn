@@ -2,9 +2,16 @@
   display: flex;
   align-items: center;
   flex: 0 1 100%;
+  flex-wrap: wrap;
   padding: 1rem 1.777rem;
   background: #f8fafb;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+}
+
+@media (min-width: 768px) {
+  .SubNav {
+    flex-wrap: nowrap;
+  }
 }
 .SubNav-item {
   color: #444;
@@ -20,11 +27,19 @@
   border-radius: 20px;
 }
 .SubNav-search {
-  flex: 0 1 15rem;
+  flex: 1 1 100%;
+  margin: 1rem 0;
   border: 0;
   padding: 0.75rem;
-  margin-left: auto;
   border: 1px solid rgba(44, 63, 80, 0.2);
   border-radius: 30px;
   font-size: inherit;
+}
+
+@media (min-width: 768px) {
+  .SubNav-search {
+    flex: 0 1 17rem;
+    margin: 0;
+    margin-left: auto;
+  }
 }

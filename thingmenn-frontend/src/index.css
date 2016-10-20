@@ -24,21 +24,15 @@ html, body {
 
 body {
   background: #F2F2F2;
-  max-width: 1440px;
+  max-width: 1600px;
   color: #393D3F;
-  margin: 1rem auto;
+  margin: 0;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1234px) {
   body {
-    margin: 0;
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 1456px) {
-  body {
-    margin: 0 auto;
+    border-radius: 6px;
+    margin: 1rem;
   }
 }
 
@@ -56,6 +50,7 @@ a {
 @media (min-width: 1234px) {
   .contain {
     flex-wrap: nowrap;
+    border-radius: 3px;
   }
 }
 
