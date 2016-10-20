@@ -12,24 +12,3 @@ text[text-anchor=end] {
   font-weight: 100;
   text-align: center;
 }
-
-.Chart-legend {
-  display: flex;
-}
-
-.Chart-legend div{
-  flex: 1;
-  text-align: center;
-}
-
-.Chart-legend div:nth-child(1) {
-  color: lightgreen;
-}
-
-.Chart-legend div:nth-child(2) {
-  color: lightgrey;
-}
-
-.Chart-legend div:nth-child(3) {
-  color: salmon;
-}
