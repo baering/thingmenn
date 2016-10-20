@@ -1,5 +1,6 @@
 .Colors {
   display: flex;
+  margin: 2rem 0;
 }
 
 .Colors div{
@@ -8,13 +9,13 @@
 }
 
 .Colors--standsTaken {
-  color: #51e571;
+  color: lightgreen;
 }
 
 .Colors--idle {
-  color: #aebecc;
+  color: lightgrey;
 }
 
 .Colors--away {
-  color: #f9364d;
+  color: salmon;
 }
