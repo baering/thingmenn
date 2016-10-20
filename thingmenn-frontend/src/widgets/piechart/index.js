@@ -38,18 +38,36 @@ const chartConfig = (voteSummary) => {
       name: voteSummary.name,
       data: [{
         amount: parseInt(voteSummary.voteSummary.numberOfStandsTaken, 10),
-        color: 'lightgreen',
-        name: 'afstaða tekin',
+        color: {
+          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
+          stops: [
+            [0, '#51e571'],
+            [1, '#41eead']
+          ]
+        },
+        name: 'Afstaða tekin',
         y: parseFloat(voteSummary.votePercentages.standsTaken)
       }, {
         amount: parseInt(voteSummary.voteSummary.numberOfIdleVotes, 10),
-        color: 'lightgrey',
-        name: 'hlutleysi',
+        color: {
+          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
+          stops: [
+            [0, '#aebecc'],
+            [1, '#e3eaf0']
+          ]
+        },
+        name: 'Hlutleysi',
         y: parseFloat(voteSummary.votePercentages.idle)
       }, {
         amount: parseInt(voteSummary.voteSummary.numberOfAway, 10),
-        color: 'salmon',
-        name: 'fjarverandi',
+        color: {
+          linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
+          stops: [
+            [0, '#f9364d'],
+            [1, '#fa503c']
+          ]
+        },
+        name: 'Fjarverandi',
         y: parseFloat(voteSummary.votePercentages.away)
       }]
     }],

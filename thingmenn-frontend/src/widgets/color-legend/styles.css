@@ -8,13 +8,13 @@
 }
 
 .Colors--standsTaken {
-  color: lightgreen;
+  color: #51e571;
 }
 
 .Colors--idle {
-  color: lightgrey;
+  color: #aebecc;
 }
 
 .Colors--away {
-  color: salmon;
+  color: #f9364d;
 }

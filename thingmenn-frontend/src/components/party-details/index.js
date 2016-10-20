@@ -66,10 +66,10 @@ export default class Mps extends React.Component {
         <div className='party-details__votes party-details__section'>
           <h2 className='heading'>Yfirlit atkvæða</h2>
           <ul>
-            <li className='text'>{voteSummary.voteSummary.numberOfVotes} atkvæði</li>
-            <li className='text'>{voteSummary.votePercentages.standsTaken}% afstaða tekin</li>
-            <li className='text'>{voteSummary.votePercentages.idle}% hlutleysi</li>
-            <li className='text'>{voteSummary.votePercentages.away}% fjarverandi</li>
+            <li className='text'>{voteSummary.voteSummary.numberOfVotes} Atkvæði</li>
+            <li className='text'>{voteSummary.votePercentages.standsTaken}% Afstaða tekin</li>
+            <li className='text'>{voteSummary.votePercentages.idle}% Hlutleysi</li>
+            <li className='text'>{voteSummary.votePercentages.away}% Fjarverandi</li>
           </ul>
         </div>
 

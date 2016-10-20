@@ -20,15 +20,15 @@
 }
 
 .Barchart-segment.Barchart--standsTaken {
-  background-color: lightgreen;
+  background: linear-gradient(to right, #51e571, #41eead);
 }
 
 .Barchart-segment.Barchart--idle {
-  background-color: lightgrey;
+  background: linear-gradient(to right, #aebecc, #e3eaf0);
 }
 
 .Barchart-segment.Barchart--away {
-  background-color: salmon;
+  background: linear-gradient(to right, #f9364d, #fa503c);
 }
 
 @media (min-width: 1234px) {

@@ -18,8 +18,9 @@
 
 .MpHeader-details {
   display: flex;
-  flex: auto;
-  padding: 1rem;
+  flex: 0 1 auto;
+  width: 50%;
+  padding: 1.5rem;
   font-size: 1rem;
 }
 @media (max-width: 1234px) {
@@ -56,9 +57,10 @@
 
 .MpHeader-stats {
   display: flex;
-  flex: 1 1 auto;
-  justify-content: space-between;
-  max-width: 40rem;
+  flex: 0 1 auto;
+  justify-content: space-around;
+  width: 50%;
+  max-width: 45rem;
   margin: auto;
   padding: 2.369rem;
   border: 0;
@@ -75,6 +77,9 @@
   justify-content: center;
   align-items: center;
   margin-right: 2.25rem;
+}
+.MpHeader-statsItem:last-child {
+  margin-right: 0;
 }
 
 .MpHeader-statsHeading {

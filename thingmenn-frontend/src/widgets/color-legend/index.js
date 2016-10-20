@@ -4,9 +4,9 @@ import './styles.css'
 const ColorLegend = () => {
   return (
     <div className="Colors">
-      <div className="Colors--standsTaken">◼︎ afstaða tekin</div>
-      <div className="Colors--idle">◼︎ hlutleysi</div>
-      <div className="Colors--away">◼︎ fjarverandi</div>
+      <div className="Colors--standsTaken">◼︎ Afstaða tekin</div>
+      <div className="Colors--idle">◼︎ Hlutleysi</div>
+      <div className="Colors--away">◼︎ Fjarverandi</div>
     </div>
   )
 }

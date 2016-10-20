@@ -5,7 +5,7 @@ const PartyBadge = ({party}) => {
   return (
     <div className='PartyBadge'
       style={{
-        backgroundImage: `url(/img/${party}.svg)`
+        backgroundImage: `url(/images/parties/${party}.svg)`
       }}
     >
     </div>
