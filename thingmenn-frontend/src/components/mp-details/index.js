@@ -91,11 +91,6 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item MpDetails-item--large">
-            <h3 className='heading'>Atkvæðaskipting eftir efnisflokkum</h3>
-            <ColorLegend/>
-            {subjectSummary.map(subject => (
-              <BarChart subjectSummary={subject} key={subject.subject} />
-            ))}
           </div>
 
           <div className="MpDetails-item">
@@ -113,6 +108,14 @@ export default class Mps extends React.Component {
               subTitle="Ólík greidd atkvæði"
               friends={differentMps.slice(0, 10)}
             />
+          </div>
+
+          <div className="MpDetails-item MpDetails-item--large">
+            <h3 className='heading'>Atkvæðaskipting eftir efnisflokkum</h3>
+            <ColorLegend/>
+            {subjectSummary.map(subject => (
+              <BarChart subjectSummary={subject} key={subject.subject} />
+            ))}
           </div>
         </div>
       </div>
