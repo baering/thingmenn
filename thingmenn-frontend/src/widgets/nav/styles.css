@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: row;
   flex: 1 1 100%;
-  background: #2c3f50;
+  background: #32394C;
   padding: 1rem;
 }
 @media (min-width: 1234px) {
   .Nav {
     flex-direction: column;
-    border-right: 1px solid #fdfdff;
+    border-right: 1px solid #313131;
     width: 18rem;
     max-width: 18rem;
     padding: 0;
@@ -37,19 +37,21 @@
   justify-content: center;
   font-size: 1.25rem;
   color: #fdfdff;
+  border-bottom: 1px solid #313131;
   border-left: 4px solid transparent;
   text-indent: 1rem;
-  letter-spacing: .5px;
+  letter-spacing: .8px;
 }
 @media (min-width: 1234px) {
   .Nav-item {
     display: initial;
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
   }
 }
 .Nav-item > span {
-  color: #eca72c;
+  font-size: 1.333rem;
+  color: #06ABDC;
 }
 
 @media (min-width: 1234px) {
@@ -65,7 +67,7 @@
   .Nav-item.is-active {
     background: #212324;
     color: #fdfdff;
-    border-color: #eca72c;
+    border-left-color: #06ABDC;
   }
 }
 
