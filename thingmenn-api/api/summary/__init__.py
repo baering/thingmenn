@@ -14,7 +14,7 @@ mp_noun_lookup = {}
 with open(path.dirname(__file__) + '/../../data/mp-vote-summaries.json', 'r') as f:
     mp_vote_summary_lookup = json.loads(f.read())
 
-with open(path.dirname(__file__) + '/../../data/mp-positions.json', 'r') as f:
+with open(path.dirname(__file__) + '/../../data/mp-positions-processed.json', 'r') as f:
     mp_subject_summary_lookup = json.loads(f.read())
 
 with open(path.dirname(__file__) + '/../../data/mp-noun-lookup.json', 'r') as f:
