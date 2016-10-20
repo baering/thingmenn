@@ -11,7 +11,7 @@ class Nav extends React.Component {
           <h1 className="Nav-title--shortest">ÞM</h1>
         </div>
         <a href="/" className="Nav-item is-active"><span className="typcn typcn-user-outline"></span> Þingmenn</a>
-        {/*<a href="#" className="Nav-item"><span className="typcn typcn-group-outline"></span> Flokkar</a>*/}
+        <a href="#" className="Nav-item"><span className="typcn typcn-group-outline"></span> Flokkar</a>
         <a href="/um" className="Nav-item"><span className="typcn typcn-info-large-outline"></span> Um verkefnið</a>
       </nav>
     );

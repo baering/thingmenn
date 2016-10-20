@@ -42,6 +42,7 @@
 }
 
 .Mp-image {
+  position: relative;
   width: 100%;
   padding-bottom: 110%;
   margin: auto;

@@ -7,8 +7,9 @@ export default class NotFound extends React.Component {
     return (
       <div className='not-found'>
         <h1>
-          404 <small>Not Found :(</small>
+          404
         </h1>
+        <div className='travolta'></div>
       </div>
     );
   }
