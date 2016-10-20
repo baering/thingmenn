@@ -12,7 +12,7 @@ const Words = ({
        {words.map((word) => (
          [
            <dt>{word.noun}</dt>,
-           <dd><div style={{width: word.occurance + 'px'}}>&nbsp;</div><span>{word.occurance}</span></dd>
+           <dd><div style={{width: word.occurance + 'px'}}>&nbsp;</div><span className="bottom-to-top"><span>{word.occurance}</span></span></dd>
          ]
        ))}
      </dl>
