@@ -299,7 +299,7 @@ function process() {
       const bStand = sortedVoteSplit[b].standTaken
 
       if (aStand && bStand) {
-        return bStand.occurance - aStand.occurance
+        return bStand.percentage - aStand.percentage
       } else if (aStand && !bStand) {
         return -1
       } else if (!aStand && bStand) {
@@ -310,7 +310,7 @@ function process() {
       const bIdle = sortedVoteSplit[b].idle
 
       if (aIdle && bIdle) {
-        return bIdle.occurance - aIdle.occurance
+        return bIdle.percentage - aIdle.percentage
       } else if (aIdle && !bIdle) {
         return -1
       } else if (!aIdle && bIdle) {
@@ -321,7 +321,7 @@ function process() {
       const bAway = sortedVoteSplit[b].away
 
       if (aAway && bAway) {
-        return bAway.occurance - aAway.occurance
+        return bAway.percentage - aAway.percentage
       } else if (aAway && !bAway) {
         return -1
       } else if (!aAway && bAway) {
