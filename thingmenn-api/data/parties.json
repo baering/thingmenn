@@ -2,31 +2,31 @@
   {
     "id": "bjort-framtid",
     "name": "Björt framtíð",
-    "imagePath": "http://www.bjortframtid.is/wp-content/uploads/2016/03/aðallogo-1-300x152.png"
+    "imagePath": "http://www.thingmenn.is/images/parties/bjort-framtid.svg.svg"
   },
   {
     "id": "framsoknarflokkur",
     "name": "Framsóknarflokkur",
-    "imagePath": "http://www.framsokn.is/wp-content/uploads/2014/03/xbmerkiliturheiti.gif"
+    "imagePath": "http://www.thingmenn.is/images/parties/framsoknarflokkur.svg.svg"
   },
   {
     "id": "piratar",
     "name": "Píratar",
-    "imagePath": "http://piratar.is/wp-content/themes/piratar/img/logo.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/piratar.svg.svg"
   },
   {
     "id": "samfylkingin",
     "name": "Samfylkingin",
-    "imagePath": "http://xs.is/wp-content/uploads/2016/09/Samfylkingin_merki.png"
+    "imagePath": "http://www.thingmenn.is/images/parties/samfylkingin.svg"
   },
   {
     "id": "sjalfstaedisflokkur",
     "name": "Sjálfstæðisflokkur",
-    "imagePath": ""
+    "imagePath": "http://www.thingmenn.is/images/parties/sjalfstaedisflokkur.svg"
   },
   {
     "id": "vinstri-hreyfingin-graent-frambod",
     "name": "Vinstri hreyfingin – grænt framboð",
-    "imagePath": "http://vg.is/wp-content/uploads/2016/10/logo_vg_menu-300x169.png"
+    "imagePath": "http://www.thingmenn.is/images/parties/vinstri-hreyfingin-graent-frambod.svg"
   }
 ]
