@@ -295,8 +295,8 @@ function process() {
 
     const subjectsMpVotedFor = Object.keys(sortedVoteSplit)
     sortedMpVoteSplitSummary[mp.id] = subjectsMpVotedFor.sort((a, b) => {
-      const aStand = sortedVoteSplit[a].standTaken
-      const bStand = sortedVoteSplit[b].standTaken
+      const aStand = sortedVoteSplit[a].standsTaken
+      const bStand = sortedVoteSplit[b].standsTaken
 
       if (aStand && bStand) {
         return bStand.percentage - aStand.percentage
