@@ -52,6 +52,10 @@ function parseMpDescription(htmlObj) {
   return ''
 }
 
+function isSubstitute(htmlObj) {
+  return htmlObj('.person').text().indexOf('Varaþingmaður') !== -1
+}
+
 function generateSlug(mpName) {
   const nameLowerCased = mpName.toLowerCase()
   return nameLowerCased.split('').map(letter => {
@@ -82,7 +86,7 @@ function parseMpDetails(html, mpId) {
     party: partyName,
     partySlug: partyNameToSlug[partyName],
     imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
-    isPrimary: htmlObj('.office').length > 0,
+    isSubstitute: isSubstitute(htmlObj),
     description: parseMpDescription(htmlObj),
   }
 }

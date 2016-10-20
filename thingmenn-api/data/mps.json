@@ -6,7 +6,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1221/1221-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðvesturkjördæmis október 2014 og maí–júlí  2015 og apríl 2016 (Framsóknarflokkur)."
 	},
 	{
@@ -16,7 +16,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1002/1002-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðurkjördæmis október 2009, apríl–september 2010, júní 2011, febrúar–mars 2013 og desember 2015 og  október 2016 (Samfylkingin)."
 	},
 	{
@@ -26,7 +26,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/678/678-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Samfylkingin)."
 	},
 	{
@@ -36,7 +36,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/707/707-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Vinstri hreyfinginn - grænt framboð, utan flokka, Framsóknarflokkur)."
 	},
 	{
@@ -46,7 +46,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1157/1157-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -56,7 +56,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1214/1214-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2015."
 	},
 	{
@@ -66,7 +66,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður 2003–2013, alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -76,7 +76,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/728/728-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður 2009–2013 (Borgarahreyfingin, Hreyfingin), alþingismaður Suðvesturkjördæmis síðan 2013 (Píratar)."
 	},
 	{
@@ -86,7 +86,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1012/1012-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -96,7 +96,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/652/652-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2003 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -106,7 +106,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/653/653-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Alþingismaður Suðurkjördæmis 2003–2013 (Samfylkingin)."
 	},
 	{
@@ -116,7 +116,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/737/737-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Alþingismaður Norðausturkjördæmis 2009–2013 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -126,7 +126,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1215/1215-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis mars og október 2014,  október–nóvember 2015 og desember 2015  (Píratar)."
 	},
 	{
@@ -136,7 +136,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1158/1158-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -146,7 +146,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1186/1186-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Reykjavíkurkjördæmis suður júlí 2013, mars–maí og september 2014 og september 2015 (Björt framtíð)."
 	},
 	{
@@ -156,7 +156,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1159/1159-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -166,7 +166,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -176,7 +176,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/124/124-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Vestfjarða 1991–2003, alþingismaður Norðvesturkjördæmis síðan 2003 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -186,7 +186,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1181/1181-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -196,7 +196,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1161/1161-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -206,7 +206,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1237/1237-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðausturkjördæmis október 2015 (Samfylkingin)."
 	},
 	{
@@ -216,7 +216,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/703/703-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis 2008–2013, alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -226,7 +226,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1046/1046-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Reykjavíkurkjördæmis norður mars–apríl, október 2006 og maí–júní 2015 og desember 2015 (Framsóknarflokkur)."
 	},
 	{
@@ -236,7 +236,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1211/1211-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðurkjördæmis febrúar og júní 2014, júní 2015 og október–nóvember 2015 (Framsóknarflokkur)."
 	},
 	{
@@ -246,7 +246,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1188/1188-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis  júní–júlí og nóvember 2013 og september 2015 (Björt framtíð)."
 	},
 	{
@@ -256,7 +256,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1162/1162-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -266,7 +266,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1212/1212-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðurkjördæmis febrúar–mars 2014, apríl–maí 2015 og ágúst–september 2016 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -276,7 +276,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis 2007–2015 (Samfylkingin)."
 	},
 	{
@@ -286,7 +286,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/656/656-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður 2003–2009, alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -296,7 +296,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/704/704-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis 2009–2013 (Framsóknarflokkur, utan flokka), alþingismaður Suðvesturkjördæmis síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -306,7 +306,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/722/722-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Framsóknarflokkur)."
 	},
 	{
@@ -316,7 +316,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1218/1218-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Reykjavíkurkjördæmis norður september–október 2014, febrúar–mars, mars–apríl og nóvember 2015 og október 2016 (Píratar)."
 	},
 	{
@@ -326,7 +326,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1163/1163-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -336,7 +336,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1164/1164-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -346,7 +346,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1165/1165-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -356,7 +356,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1213/1213-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Reykjavíkurkjördæmis norður mars 2014 og september–desember 2015 (Björt framtíð)."
 	},
 	{
@@ -366,7 +366,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1166/1166-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Píratar)."
 	},
 	{
@@ -376,7 +376,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/658/658-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður 2003–2013, alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Samfylkingin)."
 	},
 	{
@@ -386,7 +386,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1202/1202-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðausturkjördæmis nóvember 2013, september 2014, janúar og júní 2015 og apríl–maí 2016 (Framsóknarflokkur)."
 	},
 	{
@@ -396,7 +396,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1235/1235-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðvesturkjördæmis september–október 2015 og nóvember 2015 (Samfylkingin)."
 	},
 	{
@@ -406,7 +406,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/686/686-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2007 (Framsóknarflokkur)."
 	},
 	{
@@ -416,7 +416,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/687/687-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður 2007–2009, alþingismaður Reykjavíkurkjördæmis norður síðan 2009 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -426,7 +426,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1236/1236-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðausturkjördæmis október 2015 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -436,7 +436,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -446,7 +446,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -456,7 +456,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://thingmenn.is/images/unknown_user.png",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis nóvember 2015 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -466,7 +466,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1169/1169-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -476,7 +476,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/690/690-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2007 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -486,7 +486,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/660/660-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2003 (Samfylkingin)."
 	},
 	{
@@ -496,7 +496,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/691/691-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -506,7 +506,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/396/396-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðurlands vestra 1999–2003, alþingismaður Norðausturkjördæmis síðan 2003 (Samfylkingin)."
 	},
 	{
@@ -516,7 +516,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://thingmenn.is/images/unknown_user.png",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður norðvesturkjördæmis nóvember 2015 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -526,7 +526,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/714/714-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -536,7 +536,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1170/1170-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -546,7 +546,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1199/1199-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis október og nóvember–desember 2013, apríl og desember 2014, nóvember 2015 og október 2016 (Samfylkingin)."
 	},
 	{
@@ -556,7 +556,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/719/719-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Samfylkingin)."
 	},
 	{
@@ -566,7 +566,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/999/999-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis apríl–september 2010, október 2013, mars, október og desember 2014, nóvember og desember 2015, apríl 2016 og október 2016 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -576,7 +576,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/715/715-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðvesturkjördæmis 2009–2013 og síðan 2015 (Samfylkingin)."
 	},
 	{
@@ -586,7 +586,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1171/1171-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -596,7 +596,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1172/1172-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -606,7 +606,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1173/1173-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -616,7 +616,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://thingmenn.is/images/unknown_user.png",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður október–nóvember 2015 (Björt framtíð)."
 	},
 	{
@@ -626,7 +626,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/693/693-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis 2007–2009, alþingismaður Suðurkjördæmis síðan 2009 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -636,7 +636,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/694/694-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -646,7 +646,7 @@
 		"party": "Björt framtíð",
 		"partySlug": "bjort-framtid",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/708/708-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis 2009–2013 (Samfylkingin, utan flokka), alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Björt framtíð)."
 	},
 	{
@@ -656,7 +656,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://thingmenn.is/images/unknown_user.png",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis  júní–júlí 2013, janúar–febrúar og apríl 2015, janúar og apríl 2016 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -666,7 +666,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1238/1238-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður október–nóvember 2015 (Sjálfstæðisflokkur)"
 	},
 	{
@@ -676,7 +676,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/729/729-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður 2009–2013, alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -686,7 +686,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1018/1018-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2015 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -696,7 +696,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/712/712-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Samfylkingin)."
 	},
 	{
@@ -706,7 +706,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/934/934-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -716,7 +716,7 @@
 		"party": "Píratar",
 		"partySlug": "piratar",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1243/1243-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Reykjavíkurkjördæmis suður febrúar–mars 2016 (Píratar)."
 	},
 	{
@@ -726,7 +726,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/726/726-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Framsóknarflokkur)."
 	},
 	{
@@ -736,7 +736,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1203/1203-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Norðvesturkjördæmis desember 2013, maí, október og desember 2014,  maí, nóvember og desember 2015, janúar–febrúar og síðan apríl 2016 (Framsóknarflokkur)."
 	},
 	{
@@ -746,7 +746,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1201/1201-220.jpg",
-		"isPrimary": false,
+		"isSubstitute": true,
 		"description": "Varaþingmaður Suðvesturkjördæmis október 2013, janúar 2014 og október–nóvember 2015 (Framsóknarflokkur)."
 	},
 	{
@@ -756,7 +756,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1174/1174-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -766,7 +766,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/557/557-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðurlands eystra 1983–2003 (Alþýðubandalagið, óháðir, Vinstri hreyfingin – grænt framboð), alþingismaður Norðausturkjördæmis síðan 2003 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -776,7 +776,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1031/1031-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2014 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -786,7 +786,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/730/730-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -796,7 +796,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/721/721-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -806,7 +806,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/705/705-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2009 (Samfylkingin)."
 	},
 	{
@@ -816,7 +816,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1175/1175-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -826,7 +826,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/706/706-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Framsóknarflokkur)."
 	},
 	{
@@ -836,7 +836,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1176/1176-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -846,7 +846,7 @@
 		"party": "Sjálfstæðisflokkur",
 		"partySlug": "sjalfstaedisflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1177/1177-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
 	},
 	{
@@ -856,7 +856,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1178/1178-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -866,7 +866,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1179/1179-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -876,7 +876,7 @@
 		"party": "Framsóknarflokkur",
 		"partySlug": "framsoknarflokkur",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1180/1180-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
 	},
 	{
@@ -886,7 +886,7 @@
 		"party": "Vinstri hreyfingin – grænt framboð",
 		"partySlug": "vinstri-hreyfingin-graent-frambod",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/630/630-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykvíkinga 1995–2003 (Alþýðubandalagið og óháðir, Óháðir, Vinstri hreyfingin – grænt framboð), alþingismaður Reykjavíkurkjördæmis suður 2003–2007, alþingismaður Suðvesturkjördæmis síðan 2007 (Vinstri hreyfingin – grænt framboð)."
 	},
 	{
@@ -896,7 +896,7 @@
 		"party": "Samfylkingin",
 		"partySlug": "samfylkingin",
 		"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/631/631-220.jpg",
-		"isPrimary": true,
+		"isSubstitute": false,
 		"description": "Alþingismaður Reykvíkinga 1991–2003 (Alþýðuflokkur, þingflokkur jafnaðarmanna, Samfylkingin), alþingismaður Reykjavíkurkjördæmis norður 2003–2009, alþingismaður Reykjavíkurkjördæmis suður 2009–2013,  alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Samfylkingin)."
 	}
 ]

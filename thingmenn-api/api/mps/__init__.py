@@ -14,7 +14,7 @@ different_mp_votes = {}
 
 with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
-    #mps = [mp for mp in mps if mp['isPrimary'] is True]
+    mps = [mp for mp in mps if mp['isSubstitute'] is False]
     for index, mp in enumerate(mps):
         lookup[int(mp['id'])] = index
 
