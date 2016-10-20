@@ -5,7 +5,7 @@ import { writeToFile } from '../../utility/file'
 const mpListUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/'
 const mpDetailsUrl = 'http://www.althingi.is/altext/cv/is/?nfaerslunr='
 
-const letters = 'abcdefghijklmnoprstuvxyz'
+const letters = 'abcdefghijklmnoprstuvwxyz'
 
 const icelandicLetterToAscii = {
   á: 'a',
@@ -18,6 +18,15 @@ const icelandicLetterToAscii = {
   þ: 'th',
   æ: 'ae',
   ö: 'o',
+}
+
+const partyNameToSlug = {
+  'Björt framtíð': 'bjort-framtid',
+  Framsóknarflokkur: 'framsoknarflokkur',
+  Píratar: 'piratar',
+  Samfylkingin: 'samfylkingin',
+  Sjálfstæðisflokkur: 'sjalfstaedisflokkur',
+  'Vinstri hreyfingin – grænt framboð': 'vinstri-hreyfingin-graent-frambod',
 }
 
 function parseMpParty(htmlObj) {
@@ -33,6 +42,14 @@ function parseMpParty(htmlObj) {
     return description.split('(')[1].split(')')[0]
   }
   return 'Tókst ekki að sækja'
+}
+
+function parseMpDescription(htmlObj) {
+  const description = htmlObj('h3:contains("Þingseta")').next()
+  if (description.length) {
+    return description.text()
+  }
+  return ''
 }
 
 function generateSlug(mpName) {
@@ -57,14 +74,16 @@ function parseMpDetails(html, mpId) {
 
   const mpName = htmlObj('h1').text()
   const slug = generateSlug(mpName)
+  const partyName = parseMpParty(htmlObj)
   return {
     id: mpId,
     name: mpName,
     slug,
-    party: parseMpParty(htmlObj),
+    party: partyName,
+    partySlug: partyNameToSlug[partyName],
     imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
     isPrimary: htmlObj('.office').length > 0,
-    description: `${mpName} er þingmaður consectetur adipiscing elit. Phasellus bibendum nisl sem, ac pellentesque nisi ullamcorper at.`
+    description: parseMpDescription(htmlObj),
   }
 }
 
@@ -123,6 +142,11 @@ async function fetch(lthing = 145) {
     console.log(`Error: ${e}`)
     return []
   }
+}
+
+async function testFetch() {
+  const mp = await fetchMpDetails(656)
+  console.log(mp)
 }
 
 export default fetch
