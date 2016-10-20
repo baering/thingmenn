@@ -1,7 +1,7 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
 // const mps = loadFile('data/export/mps.json')
-const mpSpeechAnalytics = loadFile('data/term/mp-speech-analytics.json')
+const mpSpeechAnalytics = loadFile('data/term/mp-speech-statistics.json')
 
 export default function process() {
   const mpSpeechAnalyticsSummary = {}
@@ -33,5 +33,5 @@ export default function process() {
     })
   })
 
-  writeToFile(mpSpeechAnalyticsSummary, 'data/export/mp-speech-analytics.json', true)
+  writeToFile(mpSpeechAnalyticsSummary, 'data/export/mp-speech-statistics.json', true)
 }

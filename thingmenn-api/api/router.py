@@ -1,6 +1,6 @@
 from api.mps import get_mps, get_mp_by_id, get_similar_mps, get_different_mps
 from api.parties import get_parties, get_party_by_id
-from api.summary import get_mp_vote_summary, get_party_vote_summary, get_mp_subject_summary, get_mp_nouns, get_party_nouns
+from api.summary import get_mp_vote_summary, get_party_vote_summary, get_mp_subject_summary, get_mp_nouns, get_party_nouns, get_mp_speech_statistics
 
 from flask import blueprints
 from flask import jsonify
@@ -21,3 +21,4 @@ api.add_url_rule('/api/summary/votes/party/<string:party_id>', 'get_party_vote_s
 api.add_url_rule('/api/summary/subjects/mp/<string:mp_id>', 'get_mp_subject_summary', get_mp_subject_summary)
 api.add_url_rule('/api/summary/nouns/mp/<string:mp_id>', 'get_mp_nouns', get_mp_nouns)
 api.add_url_rule('/api/summary/nouns/party/<string:party_id>', 'get_party_nouns', get_party_nouns)
+api.add_url_rule('/api/summary/speeches/mp/<string:mp_id>', 'get_mp_speech_statistics', get_mp_speech_statistics)

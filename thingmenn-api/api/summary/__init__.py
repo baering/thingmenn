@@ -10,6 +10,7 @@ mps = []
 mp_vote_summary_lookup = {}
 mp_subject_summary_lookup = {}
 mp_noun_lookup = {}
+mp_speech_statistics = {}
 
 with open(path.dirname(__file__) + '/../../data/mp-vote-summaries.json', 'r') as f:
     mp_vote_summary_lookup = json.loads(f.read())
@@ -19,6 +20,9 @@ with open(path.dirname(__file__) + '/../../data/mp-positions-processed.json', 'r
 
 with open(path.dirname(__file__) + '/../../data/mp-noun-lookup.json', 'r') as f:
     mp_noun_lookup = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/mp-speech-statistics.json', 'r') as f:
+    mp_speech_statistics = json.loads(f.read())
 
 parties = []
 party_lookup = {}
@@ -74,3 +78,10 @@ def get_party_nouns(party_id):
     party = parties[party_lookup[party_id]]
     summary_for_party = party_noun_lookup[party['name']]
     return make_json_response(summary_for_party)
+
+def get_mp_speech_statistics(mp_id):
+    if mp_id not in mp_speech_statistics:
+        return make_error('Not found')
+
+    summary_for_mp = mp_speech_statistics[mp_id]
+    return make_json_response(summary_for_mp)

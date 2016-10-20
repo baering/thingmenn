@@ -46,16 +46,16 @@ async function fetchMpSpeechAnalytics(mpId, lthing = 145) {
 }
 
 async function fetchAllSpeechAnalytics(mps, lthings) {
-  const analytics = {}
+  const statistics = {}
   for (const lthing of lthings) {
     console.log(`Fetching lthing ${lthing}`)
-    analytics[lthing] = {}
+    statistics[lthing] = {}
     for (const mp of mps) {
       console.log(`MP: ${mp.name}`)
-      analytics[lthing][mp.id] = await fetchMpSpeechAnalytics(mp.id, lthing)
+      statistics[lthing][mp.id] = await fetchMpSpeechAnalytics(mp.id, lthing)
     }
   }
-  return analytics
+  return statistics
 }
 
 async function getMps(lthing) {
@@ -72,11 +72,11 @@ export default async function fetch() {
   const lthings = [143, 144, 145]
   const mps = await getMps(lthings[lthings.length - 1])
 
-  const analytics = await fetchAllSpeechAnalytics(mps, lthings)
-  writeToFile(analytics, 'data/term/mp-speech-analytics.json', true)
+  const statistics = await fetchAllSpeechAnalytics(mps, lthings)
+  writeToFile(statistics, 'data/term/mp-speech-statistics.json', true)
 }
 
 // export default async function testFetch() {
-//   const analytics = await fetchMpSpeechAnalytics(678, 145)
-//   console.log(analytics)
+//   const statistics = await fetchMpSpeechAnalytics(678, 145)
+//   console.log(statistics)
 // }
