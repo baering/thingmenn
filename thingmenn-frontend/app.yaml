@@ -30,6 +30,11 @@ handlers:
   upload: build/(.*\.ico)
   expiration: "7d"
 
+- url: /(.*\.(svg|svgz))
+  mime_type: images/svg+xml
+  static_files: build/\1
+  upload: build/(.*\.(svg|svgz))
+
 - url: /.*
   static_files: build/index.html
   upload: build/index.html
