@@ -1,0 +1,20 @@
+.Colors {
+  display: flex;
+}
+
+.Colors div{
+  flex: 1;
+  text-align: center;
+}
+
+.Colors--standsTaken {
+  color: lightgreen;
+}
+
+.Colors--idle {
+  color: lightgrey;
+}
+
+.Colors--away {
+  color: salmon;
+}

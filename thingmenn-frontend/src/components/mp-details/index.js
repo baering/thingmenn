@@ -2,6 +2,7 @@ import React from 'react';
 import 'whatwg-fetch'
 
 import { apiUrl } from '../../config'
+import ColorLegend from '../../widgets/color-legend'
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
@@ -82,6 +83,7 @@ export default class Mps extends React.Component {
         <div className='MpDetails'>
           <div className="MpDetails-item">
             <Piechart voteSummary={voteSummary} />
+            <ColorLegend/>
           </div>
 
           <div className="MpDetails-item">
@@ -90,6 +92,7 @@ export default class Mps extends React.Component {
 
           <div className="MpDetails-item MpDetails-item--large">
             <h3 className='heading'>Atkvæðaskipting eftir efnisflokkum</h3>
+            <ColorLegend/>
             {subjectSummary.map(subject => (
               <BarChart subjectSummary={subject} key={subject.subject} />
             ))}
