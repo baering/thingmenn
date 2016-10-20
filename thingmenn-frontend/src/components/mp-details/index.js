@@ -6,6 +6,7 @@ import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
 import Words from '../../widgets/words'
+import BarChart from '../../widgets/bar-chart'
 
 import './styles.css'
 
@@ -23,11 +24,7 @@ export default class Mps extends React.Component {
         voteSummary: {},
         votePercentages: {},
       },
-      subjectSummary: {
-        standsTaken: [],
-        idle: [],
-        away: [],
-      },
+      subjectSummary: [],
       nouns: [],
       similarMps: [],
       differentMps: [],
@@ -91,26 +88,11 @@ export default class Mps extends React.Component {
             <Words title="Mest talað um" words={nouns} />
           </div>
 
-          <div className="MpDetails-item">
-            <h3 className='heading'>Mest afstaða</h3>
-            <ul>
-              {subjectSummary.standsTaken.slice(0, 8).map(subject => (
-                <div className='text' key={subject.word}>
-                  <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-                </div>
-              ))}
-            </ul>
-          </div>
-
-          <div className="MpDetails-item">
-            <h3 className='heading'>Mest fjarverandi</h3>
-            <ul>
-              {subjectSummary.away.slice(0, 8).map(subject => (
-                <div className='text' key={subject.word}>
-                  <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-                </div>
-              ))}
-            </ul>
+          <div className="MpDetails-item MpDetails-item--large">
+            <h3 className='heading'>Atkvæðaskipting eftir efnisflokkum</h3>
+            {subjectSummary.map(subject => (
+              <BarChart subjectSummary={subject} key={subject.subject} />
+            ))}
           </div>
 
           <div className="MpDetails-item">

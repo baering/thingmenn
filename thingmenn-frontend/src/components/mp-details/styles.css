@@ -15,8 +15,13 @@
 }
 
 @media (min-width: 1234px) {
-  .MpDetails-item {
+  .MpDetails-item:not(.MpDetails-item--large) {
     width: calc(50% - 2rem);
+    margin: 1rem;
+  }
+
+  .MpDetails-item.MpDetails-item--large {
+    width: calc(100% - 2rem);
     margin: 1rem;
   }
 }
