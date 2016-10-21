@@ -34,56 +34,52 @@ export default class Mps extends React.Component {
   }
 
   componentDidMount() {
-    const { mpId } = this.props.params
+    this.getData()
+  }
 
-    if (!this.state.mp.id) {
-      this.mpService.getMpDetails(mpId)
-        .then(mp => {
-          this.setState({ mp })
-        })
-    }
+  componentWillReceiveProps(nextProps) {
+    this.getData(nextProps.routeParams.mpId)
+  }
 
-    if (!this.state.voteSummary.voteSummary.numberOfVotes) {
-      this.mpSummaryService.getMpVotes(mpId)
-        .then(voteSummary => {
-          this.setState({ voteSummary })
-        })
-    }
+  getData(id) {
+    const mpId = id || this.props.params.mpId
 
-    if (!this.state.subjectSummary.length) {
-      this.mpSummaryService.getMpSubjects(mpId)
-        .then(subjectSummary => {
-          this.setState({ subjectSummary })
-        })
-    }
+    if (this.state.mp.id === mpId) return;
 
-    if (!this.state.nouns.length) {
-      this.mpSummaryService.getMpNouns(mpId)
-        .then(nouns => {
-          this.setState({ nouns })
-        })
-    }
+    this.mpService.getMpDetails(mpId)
+      .then(mp => {
+        this.setState({ mp })
+      })
 
-    if (!this.state.speechSummary.Samtals) {
-      this.mpSummaryService.getMpSpeeches(mpId)
-        .then(speechSummary => {
-          this.setState({ speechSummary })
-        })
-    }
+    this.mpSummaryService.getMpVotes(mpId)
+      .then(voteSummary => {
+        this.setState({ voteSummary })
+      })
 
-    if (!this.state.similarMps.length) {
-      this.mpService.getSimilarMps(mpId)
-        .then(similarMps => {
-          this.setState({ similarMps })
-        })
-    }
+    this.mpSummaryService.getMpSubjects(mpId)
+      .then(subjectSummary => {
+        this.setState({ subjectSummary })
+      })
 
-    if (!this.state.differentMps.length) {
-      this.mpService.getDifferentMps(mpId)
-        .then(differentMps => {
-          this.setState({ differentMps })
-        })
-    }
+    this.mpSummaryService.getMpNouns(mpId)
+      .then(nouns => {
+        this.setState({ nouns })
+      })
+
+    this.mpSummaryService.getMpSpeeches(mpId)
+      .then(speechSummary => {
+        this.setState({ speechSummary })
+      })
+
+    this.mpService.getSimilarMps(mpId)
+      .then(similarMps => {
+        this.setState({ similarMps })
+      })
+
+    this.mpService.getDifferentMps(mpId)
+      .then(differentMps => {
+        this.setState({ differentMps })
+      })
   }
 
   render() {

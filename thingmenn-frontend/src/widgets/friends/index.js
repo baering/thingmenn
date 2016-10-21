@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router'
+
 import './styles.css'
 
 const Friends = ({
@@ -15,7 +17,7 @@ const Friends = ({
        <dd>{subTitle}</dd>
        {friends.map((friend) => (
          [
-           <dt><a href={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</a></dt>,
+           <dt><Link to={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</Link></dt>,
            <dd>{friend.votes} ({friend.similarity}%)</dd>
          ]
        ))}
