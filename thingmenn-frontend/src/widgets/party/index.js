@@ -10,7 +10,7 @@ const Party = ({
   imagePath,
 }) => {
   return (
-    <ListItem link={`/thingflokkar/${id}`}>
+    <ListItem url={`/thingflokkar/${id}`}>
       <ListItemImage path={imagePath}></ListItemImage>
       <ListItemContent title={name} />
     </ListItem>

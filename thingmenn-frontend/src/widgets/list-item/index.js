@@ -7,7 +7,6 @@ const ListItem = ({
   url,
   children,
 }) => {
-  console.log(url)
   return (
     <Link to={url} className="ListItem">
       {children}
