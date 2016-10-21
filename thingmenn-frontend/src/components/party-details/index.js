@@ -60,7 +60,7 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { party, voteSummary, speechSummary, nouns } = this.state
+    const { party, voteSummary, nouns } = this.state
 
     return (
       <div className="fill">
