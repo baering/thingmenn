@@ -18,7 +18,7 @@ const Speeches = ({
       if (minutes <= 60) {
         timeString = `${Math.round(minutes)} mín.`;
       } else {
-        timeString = `${parseFloat(minutes/60).toFixed(1)} klst.`;
+        timeString = `${parseFloat(minutes/60).toFixed(1).replace('.', ',')} klst.`;
       }
     } else {
       timeString = `Aldrei`;
