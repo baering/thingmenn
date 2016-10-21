@@ -1,7 +1,7 @@
 import React from 'react';
-import 'whatwg-fetch'
 
-import { apiUrl } from '../../config'
+import PartyService from '../../services/party-service'
+
 import Party from '../../widgets/party'
 import List from '../../widgets/list'
 
@@ -11,24 +11,20 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
+    this.partyService = new PartyService()
+
     this.state = {
-      parties: [],
+      parties: this.partyService.getPartiesIfCached(),
     }
   }
 
   componentDidMount() {
-    fetch(`${apiUrl}/api/parties`)
-      .then(response => {
-        return response.json()
-      })
-      .then(parties => {
-        this.setState({
-          parties,
+    if (!this.state.parties.length) {
+      this.partyService.getParties()
+        .then(parties => {
+          this.setState({ parties })
         })
-      })
-      .catch(error => {
-        console.log(`Error: ${error}`)
-      })
+    }
   }
 
   render() {
