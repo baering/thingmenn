@@ -6,6 +6,7 @@ const DetailsHeader = ({
   name,
   description,
   party,
+  about,
   imagePath,
   speechSummary,
   subjectSummary,
@@ -37,7 +38,7 @@ const DetailsHeader = ({
         ></div>
       <div className="DetailsHeader-bio">
           <h1 className="DetailsHeader-bioName">{name} <p className="Main-subheader">{party}</p></h1>
-          <p className="DetailsHeader-bioText">{description}</p>
+          <p className="DetailsHeader-bioText">{description || about}</p>
         </div>
       </div>
       <div className="DetailsHeader-stats">
