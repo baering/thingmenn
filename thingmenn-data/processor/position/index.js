@@ -299,6 +299,10 @@ function process() {
       const bStand = sortedVoteSplit[b].standsTaken
 
       if (aStand && bStand) {
+        if (aStand.percentage === bStand.percentage) {
+          return bStand.occurance - aStand.occurance
+        }
+
         return bStand.percentage - aStand.percentage
       } else if (aStand && !bStand) {
         return -1
