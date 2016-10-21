@@ -12,9 +12,15 @@ lookup = {}
 similar_mp_votes = {}
 different_mp_votes = {}
 
+def shouldShowMp(mp):
+    isSubstitute = mp['isSubstitute']
+    isAlive = mp['id'] != '683'
+
+    return not isSubstitute and isAlive
+
 with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
-    mps = [mp for mp in mps if mp['isSubstitute'] is False]
+    mps = [mp for mp in mps if shouldShowMp(mp) is True]
     for index, mp in enumerate(mps):
         lookup[int(mp['id'])] = index
 
