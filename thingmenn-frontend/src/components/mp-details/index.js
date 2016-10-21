@@ -2,6 +2,7 @@ import React from 'react';
 import 'whatwg-fetch'
 
 import { apiUrl } from '../../config'
+import MpService from '../../services/mp-service'
 import ColorLegend from '../../widgets/color-legend'
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
@@ -20,8 +21,11 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
+    this.mpService = new MpService()
+    const { mpId } = this.props.params
+
     this.state = {
-      mp: {},
+      mp: this.mpService.getMpDetailsIfCached(mpId),
       voteSummary: {
         voteSummary: {},
         votePercentages: {},
@@ -37,10 +41,12 @@ export default class Mps extends React.Component {
   componentDidMount() {
     const { mpId } = this.props.params
 
-    const mpUrl = `${apiUrl}/api/mps/${mpId}`
-    fetchJson(mpUrl)
-      .then(mp => this.setState({ mp }))
-      .catch(error => console.log(error))
+    if (!this.state.mp.id) {
+      this.mpService.getMpDetails(mpId)
+        .then(mp => {
+          this.setState({ mp })
+        })
+    }
 
     const mpVoteUrl = `${apiUrl}/api/summary/votes/mp/${mpId}`
     fetchJson(mpVoteUrl)
