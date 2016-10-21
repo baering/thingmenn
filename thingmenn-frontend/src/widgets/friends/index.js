@@ -9,7 +9,7 @@ const Friends = ({
 }) => {
   return (
     <div className="Friends">
-     <h1 className="Friends-heading"><span className={`typcn typcn-group-outline icon-${isDisplayingFriends ? 'friend' : 'enemy'}`}></span> {title}</h1>
+     <h1 className="Friends-heading heading"><span className={`typcn typcn-group-outline icon-${isDisplayingFriends ? 'friend' : 'enemy'}`}></span> {title}</h1>
      <dl className="Friends-list">
        <dt>Nafn</dt>
        <dd>{subTitle}</dd>

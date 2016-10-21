@@ -88,7 +88,7 @@ const Speeches = ({
 
   return (
     <div className="Speeches">
-     <h3 className='Words-heading'>{title}</h3>
+     <h3 className='Speeches-heading heading'>{title}</h3>
      <div className="Speeches-items">
       <div className="Speeches-item">
         <p className="Speeches-statsText">{speech.time}</p>

@@ -1,55 +1,35 @@
 .Friends {
-  background: white;
-  padding: 1rem;
   counter-reset: friends;
 }
 
 .Friends .icon-friend {
-  padding: 0;
   color: #90ed7d;
 }
 
 .Friends .icon-enemy {
-  padding: 0;
   color: #cb3838;
 }
 
-.Friends-heading {
-  padding: 1rem 0;
-  font-size: 1.333rem;
-}
-@media (min-width: 768px) {
-  .Friends-heading {
-    padding: 1rem;
-  }
-}
 .Friends-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
   line-height: 2.5;
-}
-
-@media (min-width: 768px) {
-  .Friends-list {
-    padding: 1rem;
-  }
 }
 
 .Friends-list > dt,
 .Friends-list dd {
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
   flex: 0 1 50%;
+  font-size: 0.9rem;
   margin-bottom: 5px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
-  font-size: 0.9rem;
 }
 
 .Friends-list > dt:first-of-type,
 .Friends-list dd:first-of-type {
+  border: 0;
   font-size: 1rem;
   font-weight: 500;
-  border: 0;
 }
 
 .Friends-list > dt:last-of-type,
@@ -58,8 +38,8 @@
 }
 
 .Friends-list dt:not(:first-child)::before {
-  counter-increment: friends;
   content: counter(friends) ".";
+  counter-increment: friends;
   margin-right: 0.422rem;
 }
 

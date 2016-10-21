@@ -62,7 +62,7 @@ const Piechart = ({
 }) => {
   return (
     <div className="Chart">
-      <div className="Chart-heading">{voteSummary.voteSummary.numberOfVotes} atkvæði</div>
+      <div className="Chart-heading heading">{voteSummary.voteSummary.numberOfVotes} Atkvæði</div>
       <div className="Chart-pie">
         <ReactHighcharts config={ chartConfig(voteSummary) }></ReactHighcharts>
       </div>
