@@ -7,6 +7,7 @@ import DetailsHeader from '../../widgets/details-header'
 import Piechart from '../../widgets/piechart'
 import ColorLegend from '../../widgets/color-legend'
 import Words from '../../widgets/words'
+import Speeches from '../../widgets/speeches'
 
 import './styles.css';
 
@@ -22,6 +23,7 @@ export default class Mps extends React.Component {
       voteSummary: this.partySummaryService.getPartyVotesIfCached(),
       // subjectSummary: this.partySummaryService.getPartySubjectsIfCached(),
       nouns: this.partySummaryService.getPartyNounsIfCached(),
+      speechSummary: this.partySummaryService.getPartySpeechesIfCached(),
     }
   }
 
@@ -54,14 +56,24 @@ export default class Mps extends React.Component {
           this.setState({ nouns })
         })
     }
+
+    if (!this.state.speechSummary.Samtals) {
+      this.partySummaryService.getPartySpeeches(partyId)
+        .then(speechSummary => {
+          this.setState({ speechSummary })
+        })
+    }
   }
 
   render() {
-    const { party, voteSummary, nouns } = this.state
+    const { party, voteSummary, nouns, speechSummary } = this.state
 
     return (
       <div className="fill">
-        <DetailsHeader voteSummary={voteSummary} {...party} />
+        <DetailsHeader
+          speechSummary={speechSummary}
+          voteSummary={voteSummary}
+          {...party} />
 
         <div className='Details'>
           <div className="Details-item">
@@ -72,6 +84,10 @@ export default class Mps extends React.Component {
 
           <div className="Details-item">
             <Words divider="3" title="Mest talað um" words={nouns} />
+          </div>
+
+          <div className="Details-item Details-item--large">
+            <Speeches title="Skipting ræðutíma" speechSummary={speechSummary} />
           </div>
         </div>
       </div>
