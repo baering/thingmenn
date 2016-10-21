@@ -1,7 +1,6 @@
 import React from 'react';
-import 'whatwg-fetch'
 
-import { apiUrl } from '../../config'
+import MpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
 import SubNav from '../../widgets/subnav'
 import List from '../../widgets/list'
@@ -12,24 +11,19 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
+    this.mpService = new MpService()
     this.state = {
-      mps: [],
+      mps: this.mpService.getMpsIfCached(),
     }
   }
 
   componentDidMount() {
-    fetch(`${apiUrl}/api/mps`)
-      .then(response => {
-        return response.json()
-      })
-      .then(mps => {
-        this.setState({
-          mps,
+    if (!this.state.mps.length) {
+      this.mpService.getMps()
+        .then(mps => {
+          this.setState({ mps })
         })
-      })
-      .catch(error => {
-        console.log(`Error: ${error}`)
-      })
+    }
   }
 
   render() {
