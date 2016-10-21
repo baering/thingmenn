@@ -18,10 +18,9 @@ export default class Mps extends React.Component {
       mps: this.mpService.getMpsIfCached(),
       searchInput: ''
     }
-    this.handleSearchInput = this.handleSearchInput.bind(this);
   }
 
-  handleSearchInput(evt) {
+  handleSearchInput = (evt) => {
     searchString = evt.target.value;
     this.setState({
       searchInput: searchString
@@ -30,7 +29,7 @@ export default class Mps extends React.Component {
 
   searchFilter(mp) {
     if (searchString.length) {
-      return (mp.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1);
+      return (mp.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1)
     }
     return mp
   }
@@ -49,7 +48,7 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <SubNav handleSearchInput={this.handleSearchInput} searchInput={this.state.searchInput} />
+        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} />
         <List>
           {mps.filter(this.searchFilter).map(mp => (
             <Mp key={mp.id} {...mp} />
