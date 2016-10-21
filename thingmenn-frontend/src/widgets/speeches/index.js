@@ -6,7 +6,7 @@ const Speeches = ({
   speechSummary,
 }) => {
 
-  const { Ræða, Andsvar, Flutningsræða} = speechSummary
+  const { Ræða, Andsvar, Flutningsræða } = speechSummary
   const explainData = speechSummary['Grein fyrir atkvæði']
   const discussData = speechSummary['Um atkvæðagreiðslu']
   const delayData = speechSummary['Um fundarstjórn']
@@ -16,9 +16,9 @@ const Speeches = ({
     let timeString = 0;
     if (minutes !== 0) {
       if (minutes <= 60) {
-        timeString = `${Math.round(minutes)}min`;
+        timeString = `${Math.round(minutes)} mín.`;
       } else {
-        timeString = `${parseFloat(minutes/60).toFixed(1)}klst`;
+        timeString = `${parseFloat(minutes/60).toFixed(1)} klst.`;
       }
     } else {
       timeString = `Aldrei`;
