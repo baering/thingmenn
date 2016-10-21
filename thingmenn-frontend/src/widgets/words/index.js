@@ -4,6 +4,7 @@ import './styles.css'
 const Words = ({
   title,
   words,
+  divider
 }) => {
   return (
     <div className="Words">
@@ -12,7 +13,7 @@ const Words = ({
        {words.map((word) => (
          [
            <dt>{word.noun}</dt>,
-           <dd><div style={{width: word.occurance + 'px'}}>&nbsp;</div><span className="bottom-to-top"><span>{word.occurance}</span></span></dd>
+           <dd><div style={{width: `${word.occurance/divider}px`}}>&nbsp;</div><span className="bottom-to-top"><span>{word.occurance}</span></span></dd>
          ]
        ))}
      </dl>

@@ -37,7 +37,7 @@
 }
 
 .Words-list dd > span {
-  border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) 1 100%;
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 55%) 1 100%;
   border-style: solid;
   border-width: 0 50px 0 0;
   display: inline-block;

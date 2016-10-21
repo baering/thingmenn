@@ -8,11 +8,9 @@ import Piechart from '../../widgets/piechart'
 import ColorLegend from '../../widgets/color-legend'
 import Words from '../../widgets/words'
 
-
 import './styles.css';
 
 function fetchJson(url) {
-  console.log(`Fetching json: ${url}`)
   return fetch(url).then(response => response.json())
 }
 
@@ -74,7 +72,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="Details-item">
-            <Words title="Mest talað um" words={nouns} />
+            <Words divider="3" title="Mest talað um" words={nouns} />
           </div>
         </div>
       </div>
