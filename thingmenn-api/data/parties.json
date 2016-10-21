@@ -2,31 +2,37 @@
   {
     "id": "bjort-framtid",
     "name": "Björt framtíð",
-    "imagePath": "http://www.thingmenn.is/images/parties/bjort-framtid.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/bjort-framtid.svg",
+    "relativeImagePath": "/images/parties/bjort-framtid.svg"
   },
   {
     "id": "framsoknarflokkur",
     "name": "Framsóknarflokkur",
-    "imagePath": "http://www.thingmenn.is/images/parties/framsoknarflokkur.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/framsoknarflokkur.svg",
+    "relativeImagePath": "/images/parties/framsoknarflokkur.svg"
   },
   {
     "id": "piratar",
     "name": "Píratar",
-    "imagePath": "http://www.thingmenn.is/images/parties/piratar.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/piratar.svg",
+    "relativeImagePath": "/images/parties/piratar.svg"
   },
   {
     "id": "samfylkingin",
     "name": "Samfylkingin",
-    "imagePath": "http://www.thingmenn.is/images/parties/samfylkingin.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/samfylkingin.svg",
+    "relativeImagePath": "/images/parties/samfylkingin.svg"
   },
   {
     "id": "sjalfstaedisflokkur",
     "name": "Sjálfstæðisflokkur",
-    "imagePath": "http://www.thingmenn.is/images/parties/sjalfstaedisflokkur.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/sjalfstaedisflokkur.svg",
+    "relativeImagePath": "/images/parties/sjalfstaedisflokkur.svg"
   },
   {
     "id": "vinstri-hreyfingin-graent-frambod",
     "name": "Vinstri hreyfingin – grænt framboð",
-    "imagePath": "http://www.thingmenn.is/images/parties/vinstri-hreyfingin-graent-frambod.svg"
+    "imagePath": "http://www.thingmenn.is/images/parties/vinstri-hreyfingin-graent-frambod.svg",
+    "relativeImagePath": "/images/parties/vinstri-hreyfingin-graent-frambod.svg"
   }
 ]
