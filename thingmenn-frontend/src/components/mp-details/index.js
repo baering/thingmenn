@@ -3,6 +3,8 @@ import 'whatwg-fetch'
 
 import { apiUrl } from '../../config'
 import MpService from '../../services/mp-service'
+import MpSummaryService from '../../services/mp-summary-service'
+
 import ColorLegend from '../../widgets/color-legend'
 import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
@@ -22,17 +24,16 @@ export default class Mps extends React.Component {
     super(props)
 
     this.mpService = new MpService()
+    this.mpSummaryService = new MpSummaryService()
+
     const { mpId } = this.props.params
 
     this.state = {
       mp: this.mpService.getMpDetailsIfCached(mpId),
-      voteSummary: {
-        voteSummary: {},
-        votePercentages: {},
-      },
-      speechSummary: {},
-      subjectSummary: [],
-      nouns: [],
+      voteSummary: this.mpSummaryService.getMpVotesIfCached(mpId),
+      speechSummary: this.mpSummaryService.getMpSpeechesIfCached(mpId),
+      subjectSummary: this.mpSummaryService.getMpSubjectsIfCached(mpId),
+      nouns: this.mpSummaryService.getMpNounsIfCached(mpId),
       similarMps: this.mpService.getSimilarMpsIfCached(mpId),
       differentMps: this.mpService.getDifferentMpsIfCached(mpId),
     }
@@ -48,25 +49,33 @@ export default class Mps extends React.Component {
         })
     }
 
-    const mpVoteUrl = `${apiUrl}/api/summary/votes/mp/${mpId}`
-    fetchJson(mpVoteUrl)
-      .then(voteSummary => this.setState({ voteSummary }))
-      .catch(error => console.log(error))
+    if (!this.state.voteSummary.voteSummary.numberOfVotes) {
+      this.mpSummaryService.getMpVotes(mpId)
+        .then(voteSummary => {
+          this.setState({ voteSummary })
+        })
+    }
 
-    const mpSubjectUrl = `${apiUrl}/api/summary/subjects/mp/${mpId}`
-    fetchJson(mpSubjectUrl)
-      .then(subjectSummary => this.setState({ subjectSummary }))
-      .catch(error => console.log(error))
+    if (!this.state.subjectSummary.length) {
+      this.mpSummaryService.getMpSubjects(mpId)
+        .then(subjectSummary => {
+          this.setState({ subjectSummary })
+        })
+    }
 
-    const mpSpeechUrl = `${apiUrl}/api/summary/speeches/mp/${mpId}`
-    fetchJson(mpSpeechUrl)
-      .then(speechSummary => this.setState({ speechSummary }))
-      .catch(error => console.log(error))
+    if (!this.state.nouns.length) {
+      this.mpSummaryService.getMpNouns(mpId)
+        .then(nouns => {
+          this.setState({ nouns })
+        })
+    }
 
-    const mpNounUrl = `${apiUrl}/api/summary/nouns/mp/${mpId}`
-    fetchJson(mpNounUrl)
-      .then(nouns => this.setState({ nouns }))
-      .catch(error => console.log(error))
+    if (!this.state.speechSummary.Samtals) {
+      this.mpSummaryService.getMpSpeeches(mpId)
+        .then(speechSummary => {
+          this.setState({ speechSummary })
+        })
+    }
 
     if (!this.state.similarMps.length) {
       this.mpService.getSimilarMps(mpId)
