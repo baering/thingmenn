@@ -7,17 +7,24 @@
   background: #32394C;
   padding: 1rem;
 }
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .Nav {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     border-right: 1px solid #313131;
-    width: 18rem;
+    width: 15rem;
+    max-width: 15rem;
     min-height: 100%;
-    max-width: 18rem;
     padding: 0;
     letter-spacing: 1px;
+  }
+}
+@media (min-width: 1234px) {
+  .Nav {
+    width: 18rem;
+    max-width: 18rem;
+    min-height: 100%;
   }
 }
 .Nav-top {
@@ -31,7 +38,7 @@
   font-size: 1.777rem;
   text-align: center;
 }
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .Nav-top {
     flex-direction: column;
     width: auto;
@@ -43,18 +50,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #fdfdff;
   border-left: 4px solid transparent;
   text-indent: 1rem;
   letter-spacing: .8px;
 }
-@media (min-width: 1234px) {
+
+@media (min-width: 768px) {
   .Nav-item {
     display: initial;
-    padding: 1rem;
+    padding: 1rem 0;
     border-bottom: 1px solid #313131;
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1234px) {
+  .Nav-item {
+    padding: 1rem;
   }
 }
 .Nav-item > span {
@@ -62,7 +75,7 @@
   color: #06ABDC;
 }
 
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .Nav-item:hover {
     background: rgba(33, 35, 36, 0.2);
   }
@@ -71,7 +84,7 @@
 
 }
 
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .Nav-item.is-active {
     background: #212324;
     color: #fdfdff;
@@ -80,6 +93,7 @@
 }
 
 .Nav-title {
+  padding: 1rem;
   color: white;
 }
 

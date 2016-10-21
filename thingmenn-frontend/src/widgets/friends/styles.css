@@ -22,8 +22,14 @@
 .Friends-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 0;
   line-height: 2.5;
+}
+
+@media (min-width: 768px) {
+  .Friends-list {
+    padding: 1rem;
+  }
 }
 
 .Friends-list > dt,

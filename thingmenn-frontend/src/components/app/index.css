@@ -29,7 +29,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1234px) {
+@media (min-width: 1615px) {
   body {
     border-radius: 6px;
     margin: 1rem auto;
@@ -48,15 +48,11 @@ a {
   min-height: 90vh;
 }
 
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .contain {
     flex-wrap: nowrap;
     border-radius: 3px;
   }
-}
-
-.fill {
-  width: 100%;
 }
 
 .typcn {

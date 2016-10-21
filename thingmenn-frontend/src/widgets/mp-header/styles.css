@@ -1,9 +1,16 @@
 .MpHeader {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0.563rem;
   background: white;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
   font-family: 'Lora', serif;
   font-size: 1.777rem;
+}
+@media (min-width: 1234px) {
+  .MpHeader {
+    margin: 0;
+  }
 }
 
 .MpHeader-image {
@@ -18,17 +25,17 @@
 
 .MpHeader-details {
   display: flex;
-  flex: 0 1 auto;
+  flex: 1 1 100%;
   width: 50%;
   padding: 1.5rem;
   font-size: 1rem;
 }
-@media (max-width: 1234px) {
+@media (min-width: 1234px) {
   .MpHeader {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .MpHeader-details {
-    flex: 1 1 100%;
+    flex: 0 1 auto;
   }
   .MpHeader-bioText {
     font-size: 1.333rem;
@@ -59,15 +66,16 @@
   display: flex;
   flex: 0 1 auto;
   justify-content: space-around;
-  width: 50%;
-  max-width: 45rem;
+  width: 80%;
+  max-width: initial;
   margin: auto;
   padding: 2.369rem;
   border: 0;
 }
 @media (min-width: 1234px) {
   .MpHeader-stats {
-    margin: 0;
+    width: 50%;
+    max-width: 45rem;
     border-left: 1px solid rgba(44, 63, 80, 0.2);
   }
 }
@@ -90,9 +98,13 @@
 
 .MpHeader-statsText {
   color: #06ABDC;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
-
+@media (min-width: 768px) {
+  .Main-statsText {
+    font-size: 2.5rem;
+  }
+}
 .Main-subheader {
   color: #838a8e;
 }

@@ -8,7 +8,7 @@
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
   .SubNav {
     flex-wrap: nowrap;
   }
@@ -36,7 +36,7 @@
   font-size: inherit;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
   .SubNav-search {
     flex: 0 1 17rem;
     margin: 0;

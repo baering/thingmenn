@@ -95,28 +95,26 @@ const Speeches = ({
         <h1 className="Speeches-statsHeading">{speech.count} Ræður</h1>
       </div>
       <div className="Speeches-item">
-        <p className="MpHeader-statsText">{answer.time}</p>
-        <h1 className="MpHeader-statsHeading">{answer.count} Andsvör</h1>
+        <p className="Speeches-statsText">{answer.time}</p>
+        <h1 className="Speeches-statsHeading">{answer.count} Andsvör</h1>
       </div>
       <div className="Speeches-item">
-        <p className="MpHeader-statsText">{billProposals.time}</p>
-        <h1 className="MpHeader-statsHeading">{billProposals.count} Flutningsræður</h1>
+        <p className="Speeches-statsText">{billProposals.time}</p>
+        <h1 className="Speeches-statsHeading">{billProposals.count} Flutningsræður</h1>
+      </div>
+      <div className="Speeches-item">
+        <p className="Speeches-statsText">{explainVote.time}</p>
+        <h1 className="Speeches-statsHeading">Grein fyrir atkvæði</h1>
+      </div>
+      <div className="Speeches-item">
+        <p className="Speeches-statsText">{discussVoting.time}</p>
+        <h1 className="Speeches-statsHeading">Um atkvæðagreiðslu</h1>
+      </div>
+      <div className="Speeches-item">
+        <p className="Speeches-statsText">{delayVote.time}</p>
+        <h1 className="Speeches-statsHeading">Um fundarstjórn</h1>
       </div>
      </div>
-     <div className="Speeches-items">
-      <div className="Speeches-item">
-        <p className="MpHeader-statsText">{explainVote.time}</p>
-        <h1 className="MpHeader-statsHeading">Grein fyrir atkvæði</h1>
-      </div>
-      <div className="Speeches-item">
-        <p className="MpHeader-statsText">{discussVoting.time}</p>
-        <h1 className="MpHeader-statsHeading">Um atkvæðagreiðslu</h1>
-      </div>
-      <div className="Speeches-item">
-        <p className="MpHeader-statsText">{delayVote.time}</p>
-        <h1 className="MpHeader-statsHeading">Um fundarstjórn</h1>
-      </div>
-    </div>
    </div>
   )
 }
