@@ -10,3 +10,24 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.PartyBadge[data-party="sjalfstaedisflokkur"] {
+  background-size: 75%;
+}
+.PartyBadge[data-party="samfylkingin"] {
+  background-size: 75%;
+}
+.PartyBadge[data-party="framsoknarflokkur"] {
+  background-size: 60%;
+}
+.PartyBadge[data-party="piratar"] {
+  background-size: 75%;
+  background-position: 45% 50%;
+}
+.PartyBadge[data-party="bjort-framtid"] {
+  background-size: 60%;
+}
+.PartyBadge[data-party="vinstri-hreyfingin-graent-frambod"] {
+  background-size: 65%;
+  background-position: 40% 50%;
+}

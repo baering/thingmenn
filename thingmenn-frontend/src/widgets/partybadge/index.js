@@ -3,7 +3,7 @@ import './styles.css'
 
 const PartyBadge = ({party}) => {
   return (
-    <div className='PartyBadge'
+    <div className='PartyBadge' data-party={party}
       style={{
         backgroundImage: `url(/images/parties/${party}.svg)`
       }}
