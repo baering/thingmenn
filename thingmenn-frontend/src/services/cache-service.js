@@ -30,21 +30,17 @@ class CacheService {
       const now = new Date().getTime()
       const diff = now - cached.time
       if (diff < timeToFlushCache) {
-        console.log(`Cache hit: ${key} | diff: ${diff}`)
         return cached.data
       } else {
-        console.log(`Cache flush: ${key} | diff is ${diff}`)
         this.cache[key] = undefined
       }
-    } else {
-      console.log(`Cache miss: ${key}`)
     }
     return null
   }
 
   setKeyToCache(key, data) {
     const time = new Date().getTime()
-    console.log(`Cache insert: ${key} | time is ${time}`)
+
     this.cache[key] = {
       time,
       data,
