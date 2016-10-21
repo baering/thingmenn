@@ -21,13 +21,13 @@ export default function process() {
             count: 0,
             minutes: 0,
           }
+        }
 
-          const countForLabel = mpSpeechAnalytics[lthing][mpId][label].count
-          const minutesForLabel = mpSpeechAnalytics[lthing][mpId][label].minutes
-          if (countForLabel) {
-            mpSpeechAnalyticsSummary[mpId][label].count += countForLabel
-            mpSpeechAnalyticsSummary[mpId][label].minutes += minutesForLabel
-          }
+        const countForLabel = mpSpeechAnalytics[lthing][mpId][label].count
+        const minutesForLabel = mpSpeechAnalytics[lthing][mpId][label].minutes
+        if (countForLabel) {
+          mpSpeechAnalyticsSummary[mpId][label].count += countForLabel
+          mpSpeechAnalyticsSummary[mpId][label].minutes += minutesForLabel
         }
       })
     })

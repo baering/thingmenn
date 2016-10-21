@@ -1,20 +1,20 @@
 {
 	"124": {
 		"Ræða": {
-			"count": 350,
-			"minutes": 154.98
+			"count": 1238,
+			"minutes": 619.53
 		},
 		"Andsvar": {
-			"count": 5,
-			"minutes": 9.73
+			"count": 10,
+			"minutes": 19.4
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.88
+			"count": 3,
+			"minutes": 19.32
 		},
 		"Samtals": {
-			"count": 356,
-			"minutes": 170.59
+			"count": 1256,
+			"minutes": 659.6
 		},
 		"Um fundarstjórn": {
 			"count": 5,
@@ -23,148 +23,148 @@
 	},
 	"396": {
 		"Ræða": {
-			"count": 144,
-			"minutes": 526.58
+			"count": 470,
+			"minutes": 1844.1000000000001
 		},
 		"Andsvar": {
-			"count": 72,
-			"minutes": 121.82
+			"count": 320,
+			"minutes": 577.63
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 54.65
+			"count": 8,
+			"minutes": 108.07000000000001
 		},
 		"Um fundarstjórn": {
-			"count": 11,
-			"minutes": 14.73
+			"count": 41,
+			"minutes": 53.84
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 11,
-			"minutes": 12.88
+			"count": 38,
+			"minutes": 47.68
 		},
 		"Grein fyrir atkvæði": {
-			"count": 8,
-			"minutes": 7.97
+			"count": 42,
+			"minutes": 46.62
 		},
 		"Samtals": {
-			"count": 249,
-			"minutes": 738.63
+			"count": 919,
+			"minutes": 2677.94
 		}
 	},
 	"557": {
 		"Ræða": {
-			"count": 172,
-			"minutes": 1083.95
+			"count": 667,
+			"minutes": 3832.99
 		},
 		"Andsvar": {
-			"count": 208,
-			"minutes": 398.12
+			"count": 777,
+			"minutes": 1498.75
 		},
 		"Flutningsræða": {
-			"count": 7,
-			"minutes": 47.45
+			"count": 13,
+			"minutes": 136.63
 		},
 		"Grein fyrir atkvæði": {
-			"count": 31,
-			"minutes": 33.73
+			"count": 95,
+			"minutes": 104.13
 		},
 		"Um fundarstjórn": {
-			"count": 17,
-			"minutes": 20.93
+			"count": 80,
+			"minutes": 99.19999999999999
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 16,
-			"minutes": 19.3
+			"count": 70,
+			"minutes": 82
 		},
 		"Samtals": {
-			"count": 451,
-			"minutes": 1603.48
+			"count": 1702,
+			"minutes": 5753.700000000001
 		}
 	},
 	"630": {
 		"Ræða": {
-			"count": 48,
-			"minutes": 401.03
+			"count": 182,
+			"minutes": 1451.09
 		},
 		"Andsvar": {
-			"count": 86,
-			"minutes": 135.5
+			"count": 406,
+			"minutes": 654.5
 		},
 		"Flutningsræða": {
-			"count": 6,
-			"minutes": 61.52
+			"count": 17,
+			"minutes": 130.05
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 6,
-			"minutes": 7.45
+			"count": 27,
+			"minutes": 33.42
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 5.15
+			"count": 10,
+			"minutes": 12.32
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 2.05
+			"count": 30,
+			"minutes": 37.97
 		},
 		"Samtals": {
-			"count": 152,
-			"minutes": 612.7
+			"count": 672,
+			"minutes": 2319.3500000000004
 		}
 	},
 	"631": {
 		"Ræða": {
-			"count": 93,
-			"minutes": 486.28
+			"count": 390,
+			"minutes": 2148.63
 		},
 		"Andsvar": {
-			"count": 196,
-			"minutes": 353.75
+			"count": 1063,
+			"minutes": 2001.12
 		},
 		"Um fundarstjórn": {
-			"count": 14,
-			"minutes": 15.45
+			"count": 95,
+			"minutes": 114.07000000000001
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 9.2
+			"count": 7,
+			"minutes": 83.74
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 5,
-			"minutes": 5.27
+			"count": 32,
+			"minutes": 36.7
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 2.42
+			"count": 10,
+			"minutes": 11.5
 		},
 		"Ber af sér sakir": {
 			"count": 1,
 			"minutes": 1.07
 		},
 		"Samtals": {
-			"count": 312,
-			"minutes": 873.44
+			"count": 1598,
+			"minutes": 4396.83
 		}
 	},
 	"650": {
 		"Ræða": {
-			"count": 28,
-			"minutes": 139.88
+			"count": 87,
+			"minutes": 456.7
 		},
 		"Andsvar": {
-			"count": 71,
-			"minutes": 106
+			"count": 183,
+			"minutes": 300.71
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 2
+			"count": 3,
+			"minutes": 3.38
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 1.37
+			"count": 6,
+			"minutes": 6.74
 		},
 		"Samtals": {
-			"count": 102,
-			"minutes": 249.25
+			"count": 285,
+			"minutes": 775.1300000000001
 		},
 		"Um atkvæðagreiðslu": {
 			"count": 6,
@@ -173,32 +173,32 @@
 	},
 	"652": {
 		"Ræða": {
-			"count": 136,
-			"minutes": 418.08
+			"count": 520,
+			"minutes": 1418.34
 		},
 		"Flutningsræða": {
-			"count": 34,
-			"minutes": 316.52
+			"count": 103,
+			"minutes": 1215.1599999999999
 		},
 		"Andsvar": {
-			"count": 138,
-			"minutes": 259.13
+			"count": 498,
+			"minutes": 894.23
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 14,
-			"minutes": 18.23
+			"count": 51,
+			"minutes": 65.31
 		},
 		"Grein fyrir atkvæði": {
-			"count": 10,
-			"minutes": 12.32
+			"count": 29,
+			"minutes": 35.89
 		},
 		"Svar": {
-			"count": 2,
-			"minutes": 6.77
+			"count": 32,
+			"minutes": 119.32
 		},
 		"Samtals": {
-			"count": 334,
-			"minutes": 1031.05
+			"count": 1234,
+			"minutes": 3750.05
 		},
 		"Um fundarstjórn": {
 			"count": 1,
@@ -207,8 +207,8 @@
 	},
 	"653": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 13,
+			"minutes": 39.89
 		},
 		"Ræða": {
 			"count": 7,
@@ -221,32 +221,32 @@
 	},
 	"656": {
 		"Ræða": {
-			"count": 88,
-			"minutes": 462
+			"count": 212,
+			"minutes": 1153
 		},
 		"Andsvar": {
-			"count": 115,
-			"minutes": 197.78
+			"count": 377,
+			"minutes": 675.6300000000001
 		},
 		"Flutningsræða": {
-			"count": 5,
-			"minutes": 58.4
+			"count": 13,
+			"minutes": 141.45
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 23,
-			"minutes": 23.63
+			"count": 66,
+			"minutes": 71.88999999999999
 		},
 		"Grein fyrir atkvæði": {
-			"count": 10,
-			"minutes": 9.62
+			"count": 39,
+			"minutes": 40.26
 		},
 		"Um fundarstjórn": {
-			"count": 8,
-			"minutes": 9.62
+			"count": 25,
+			"minutes": 30.17
 		},
 		"Samtals": {
-			"count": 249,
-			"minutes": 761.05
+			"count": 733,
+			"minutes": 2112.87
 		},
 		"Ber af sér sakir": {
 			"count": 1,
@@ -255,58 +255,58 @@
 	},
 	"658": {
 		"Ræða": {
-			"count": 160,
-			"minutes": 508.43
+			"count": 553,
+			"minutes": 1709.96
 		},
 		"Andsvar": {
-			"count": 217,
-			"minutes": 364.37
+			"count": 521,
+			"minutes": 882.95
 		},
 		"Um fundarstjórn": {
-			"count": 39,
-			"minutes": 43.22
+			"count": 134,
+			"minutes": 147.62
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 12,
-			"minutes": 12.47
+			"count": 54,
+			"minutes": 56.72
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 10.32
+			"count": 10,
+			"minutes": 53.97
 		},
 		"Grein fyrir atkvæði": {
-			"count": 8,
-			"minutes": 6.48
+			"count": 39,
+			"minutes": 32.980000000000004
 		},
 		"Samtals": {
-			"count": 438,
-			"minutes": 945.29
+			"count": 1311,
+			"minutes": 2884.2000000000003
 		}
 	},
 	"660": {
 		"Ræða": {
-			"count": 76,
-			"minutes": 372.03
+			"count": 383,
+			"minutes": 1588.7999999999997
 		},
 		"Andsvar": {
-			"count": 125,
-			"minutes": 215.27
+			"count": 396,
+			"minutes": 719.84
 		},
 		"Um fundarstjórn": {
-			"count": 42,
-			"minutes": 52.52
+			"count": 149,
+			"minutes": 184.32
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 13,
-			"minutes": 16.48
+			"count": 62,
+			"minutes": 74.86000000000001
 		},
 		"Grein fyrir atkvæði": {
-			"count": 8,
-			"minutes": 9.08
+			"count": 35,
+			"minutes": 41.43
 		},
 		"Samtals": {
-			"count": 264,
-			"minutes": 665.38
+			"count": 1027,
+			"minutes": 2619.5
 		},
 		"Flutningsræða": {
 			"count": 2,
@@ -315,122 +315,122 @@
 	},
 	"678": {
 		"Ræða": {
-			"count": 137,
-			"minutes": 724.13
+			"count": 510,
+			"minutes": 2251.63
 		},
 		"Andsvar": {
-			"count": 174,
-			"minutes": 297.37
+			"count": 442,
+			"minutes": 801.79
 		},
 		"Um fundarstjórn": {
-			"count": 41,
-			"minutes": 48.42
+			"count": 79,
+			"minutes": 93.15
 		},
 		"Flutningsræða": {
-			"count": 5,
-			"minutes": 44.13
+			"count": 19,
+			"minutes": 176.76
 		},
 		"Grein fyrir atkvæði": {
-			"count": 38,
-			"minutes": 37.57
+			"count": 131,
+			"minutes": 136.12
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 26,
-			"minutes": 30.07
+			"count": 86,
+			"minutes": 100.56
 		},
 		"Samtals": {
-			"count": 421,
-			"minutes": 1181.69
+			"count": 1267,
+			"minutes": 3560.01
 		}
 	},
 	"683": {
 		"Ræða": {
-			"count": 107,
-			"minutes": 621.9
+			"count": 257,
+			"minutes": 1289.58
 		},
 		"Andsvar": {
-			"count": 193,
-			"minutes": 372.23
+			"count": 345,
+			"minutes": 651.01
 		},
 		"Um fundarstjórn": {
-			"count": 26,
-			"minutes": 33.17
+			"count": 55,
+			"minutes": 70.1
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 13,
-			"minutes": 14.28
+			"count": 25,
+			"minutes": 27.15
 		},
 		"Grein fyrir atkvæði": {
-			"count": 15,
-			"minutes": 14.17
+			"count": 38,
+			"minutes": 38.47
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.18
+			"count": 2,
+			"minutes": 6.41
 		},
 		"Samtals": {
-			"count": 355,
-			"minutes": 1060.93
+			"count": 722,
+			"minutes": 2082.7200000000003
 		}
 	},
 	"686": {
 		"Ræða": {
-			"count": 34,
-			"minutes": 196.5
+			"count": 103,
+			"minutes": 691.33
 		},
 		"Andsvar": {
-			"count": 70,
-			"minutes": 125.73
+			"count": 167,
+			"minutes": 273.23
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 28.13
+			"count": 5,
+			"minutes": 66.16
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 11,
-			"minutes": 12.8
+			"count": 38,
+			"minutes": 43.25
 		},
 		"Um fundarstjórn": {
-			"count": 6,
-			"minutes": 8.22
+			"count": 9,
+			"minutes": 12.52
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 2.87
+			"count": 23,
+			"minutes": 21.84
 		},
 		"Samtals": {
-			"count": 127,
-			"minutes": 374.25
+			"count": 345,
+			"minutes": 1108.33
 		}
 	},
 	"687": {
 		"Ræða": {
-			"count": 86,
-			"minutes": 198.57
+			"count": 253,
+			"minutes": 583.31
 		},
 		"Flutningsræða": {
-			"count": 12,
-			"minutes": 67.9
+			"count": 39,
+			"minutes": 277.5
 		},
 		"Svar": {
-			"count": 20,
-			"minutes": 60.58
+			"count": 89,
+			"minutes": 277.88
 		},
 		"Andsvar": {
-			"count": 25,
-			"minutes": 44.2
+			"count": 145,
+			"minutes": 267.53
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 2.45
+			"count": 9,
+			"minutes": 10.95
 		},
 		"Grein fyrir atkvæði": {
-			"count": 3,
-			"minutes": 2
+			"count": 22,
+			"minutes": 23.36
 		},
 		"Samtals": {
-			"count": 148,
-			"minutes": 375.7
+			"count": 559,
+			"minutes": 1442.85
 		},
 		"Um fundarstjórn": {
 			"count": 2,
@@ -439,122 +439,122 @@
 	},
 	"688": {
 		"Ræða": {
-			"count": 43,
-			"minutes": 171.62
+			"count": 136,
+			"minutes": 592.87
 		},
 		"Andsvar": {
-			"count": 30,
-			"minutes": 61.15
+			"count": 99,
+			"minutes": 184.32999999999998
 		},
 		"Flutningsræða": {
-			"count": 6,
-			"minutes": 55.88
+			"count": 13,
+			"minutes": 100.11000000000001
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 2.87
+			"count": 22,
+			"minutes": 28.06
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 1.95
+			"count": 29,
+			"minutes": 39.33
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.63
+			"count": 15,
+			"minutes": 18.66
 		},
 		"Samtals": {
-			"count": 85,
-			"minutes": 294.1
+			"count": 314,
+			"minutes": 963.36
 		}
 	},
 	"690": {
 		"Ræða": {
-			"count": 146,
-			"minutes": 634.85
+			"count": 561,
+			"minutes": 2424.76
 		},
 		"Andsvar": {
-			"count": 131,
-			"minutes": 199.77
+			"count": 518,
+			"minutes": 862.39
 		},
 		"Flutningsræða": {
-			"count": 10,
-			"minutes": 66.8
+			"count": 30,
+			"minutes": 223.35
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 18,
-			"minutes": 17.07
+			"count": 64,
+			"minutes": 64.43
 		},
 		"Um fundarstjórn": {
-			"count": 14,
-			"minutes": 15.02
+			"count": 75,
+			"minutes": 89.77
 		},
 		"Grein fyrir atkvæði": {
-			"count": 14,
-			"minutes": 9.55
+			"count": 57,
+			"minutes": 46.59
 		},
 		"Samtals": {
-			"count": 333,
-			"minutes": 943.06
+			"count": 1305,
+			"minutes": 3711.29
 		}
 	},
 	"691": {
 		"Ræða": {
-			"count": 64,
-			"minutes": 135.12
+			"count": 206,
+			"minutes": 415.52000000000004
 		},
 		"Flutningsræða": {
-			"count": 11,
-			"minutes": 54.23
+			"count": 33,
+			"minutes": 175.1
 		},
 		"Svar": {
-			"count": 10,
-			"minutes": 32.28
+			"count": 45,
+			"minutes": 150.89
 		},
 		"Andsvar": {
-			"count": 5,
-			"minutes": 5.97
+			"count": 37,
+			"minutes": 62.06
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 1.08
+			"count": 3,
+			"minutes": 3.5
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.48
+			"count": 5,
+			"minutes": 5.550000000000001
 		},
 		"Samtals": {
-			"count": 92,
-			"minutes": 229.16
+			"count": 329,
+			"minutes": 812.6200000000001
 		}
 	},
 	"693": {
 		"Ræða": {
-			"count": 45,
-			"minutes": 123.58
+			"count": 156,
+			"minutes": 412.13
 		},
 		"Flutningsræða": {
-			"count": 12,
-			"minutes": 76.13
+			"count": 40,
+			"minutes": 304.46
 		},
 		"Andsvar": {
-			"count": 22,
-			"minutes": 33.45
+			"count": 120,
+			"minutes": 204.35000000000002
 		},
 		"Svar": {
-			"count": 2,
-			"minutes": 7.28
+			"count": 18,
+			"minutes": 65.75
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 3.98
+			"count": 7,
+			"minutes": 7.88
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 1.82
+			"count": 10,
+			"minutes": 10.57
 		},
 		"Samtals": {
-			"count": 86,
-			"minutes": 246.24
+			"count": 352,
+			"minutes": 1006.47
 		},
 		"Um fundarstjórn": {
 			"count": 1,
@@ -563,294 +563,294 @@
 	},
 	"694": {
 		"Ræða": {
-			"count": 47,
-			"minutes": 120.83
+			"count": 147,
+			"minutes": 460.56
 		},
 		"Andsvar": {
-			"count": 42,
-			"minutes": 46.22
+			"count": 95,
+			"minutes": 127.75
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 18.08
+			"count": 4,
+			"minutes": 24.56
 		},
 		"Um fundarstjórn": {
-			"count": 7,
-			"minutes": 6.3
+			"count": 10,
+			"minutes": 9.78
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 7,
-			"minutes": 6.28
+			"count": 28,
+			"minutes": 26.8
 		},
 		"Grein fyrir atkvæði": {
-			"count": 5,
-			"minutes": 3.6
+			"count": 12,
+			"minutes": 7.97
 		},
 		"Samtals": {
-			"count": 111,
-			"minutes": 201.31
+			"count": 296,
+			"minutes": 657.42
 		}
 	},
 	"703": {
 		"Ræða": {
-			"count": 59,
-			"minutes": 140.05
+			"count": 261,
+			"minutes": 577.74
 		},
 		"Flutningsræða": {
-			"count": 9,
-			"minutes": 72.92
+			"count": 33,
+			"minutes": 389.77
 		},
 		"Andsvar": {
-			"count": 23,
-			"minutes": 38.52
+			"count": 124,
+			"minutes": 218.34
 		},
 		"Svar": {
-			"count": 4,
-			"minutes": 12.72
+			"count": 38,
+			"minutes": 112.17
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 2.38
+			"count": 18,
+			"minutes": 18.39
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 1.55
+			"count": 23,
+			"minutes": 21.77
 		},
 		"Samtals": {
-			"count": 100,
-			"minutes": 268.14
+			"count": 499,
+			"minutes": 1340.23
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 1.05
+			"count": 2,
+			"minutes": 2.05
 		}
 	},
 	"704": {
 		"Ræða": {
-			"count": 94,
-			"minutes": 420.63
+			"count": 321,
+			"minutes": 1423.58
 		},
 		"Andsvar": {
-			"count": 83,
-			"minutes": 135.42
+			"count": 275,
+			"minutes": 480.37
 		},
 		"Flutningsræða": {
-			"count": 7,
-			"minutes": 60.55
+			"count": 18,
+			"minutes": 150.7
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 25,
-			"minutes": 27.85
+			"count": 76,
+			"minutes": 91.39
 		},
 		"Grein fyrir atkvæði": {
-			"count": 13,
-			"minutes": 12.2
+			"count": 61,
+			"minutes": 69.68
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 2.33
+			"count": 31,
+			"minutes": 39.86
 		},
 		"Samtals": {
-			"count": 224,
-			"minutes": 658.98
+			"count": 782,
+			"minutes": 2255.58
 		}
 	},
 	"705": {
 		"Ræða": {
-			"count": 108,
-			"minutes": 429.63
+			"count": 397,
+			"minutes": 1762.4099999999999
 		},
 		"Andsvar": {
-			"count": 137,
-			"minutes": 238.05
+			"count": 484,
+			"minutes": 866.4
 		},
 		"Flutningsræða": {
-			"count": 4,
-			"minutes": 49.45
+			"count": 10,
+			"minutes": 106.63000000000001
 		},
 		"Um fundarstjórn": {
-			"count": 35,
-			"minutes": 41.15
+			"count": 116,
+			"minutes": 136.32999999999998
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 7,
-			"minutes": 6.25
+			"count": 30,
+			"minutes": 28.48
 		},
 		"Grein fyrir atkvæði": {
-			"count": 5,
-			"minutes": 4.42
+			"count": 26,
+			"minutes": 19.369999999999997
 		},
 		"Samtals": {
-			"count": 296,
-			"minutes": 768.95
+			"count": 1063,
+			"minutes": 2919.62
 		}
 	},
 	"706": {
 		"Ræða": {
-			"count": 35,
-			"minutes": 166.33
+			"count": 108,
+			"minutes": 660.96
 		},
 		"Andsvar": {
-			"count": 42,
-			"minutes": 66.08
+			"count": 195,
+			"minutes": 315.68
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 39.02
+			"count": 8,
+			"minutes": 95.09
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 11,
-			"minutes": 11.08
+			"count": 47,
+			"minutes": 48.36
 		},
 		"Um fundarstjórn": {
-			"count": 4,
-			"minutes": 5.05
+			"count": 24,
+			"minutes": 27.72
 		},
 		"Grein fyrir atkvæði": {
-			"count": 7,
-			"minutes": 4.6
+			"count": 30,
+			"minutes": 28.3
 		},
 		"Samtals": {
-			"count": 102,
-			"minutes": 292.16
+			"count": 412,
+			"minutes": 1176.1100000000001
 		}
 	},
 	"707": {
 		"Ræða": {
-			"count": 9,
-			"minutes": 54.35
+			"count": 58,
+			"minutes": 222.55
 		},
 		"Andsvar": {
-			"count": 28,
-			"minutes": 46.95
+			"count": 80,
+			"minutes": 124.36999999999999
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 2.27
+			"count": 17,
+			"minutes": 20.19
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 2.22
+			"count": 8,
+			"minutes": 9.35
 		},
 		"Samtals": {
-			"count": 41,
-			"minutes": 105.79
+			"count": 177,
+			"minutes": 392.96000000000004
 		},
 		"Um fundarstjórn": {
-			"count": 5,
-			"minutes": 5.37
+			"count": 14,
+			"minutes": 16.5
 		}
 	},
 	"708": {
 		"Ræða": {
-			"count": 83,
-			"minutes": 247.45
+			"count": 335,
+			"minutes": 1099.46
 		},
 		"Andsvar": {
-			"count": 67,
-			"minutes": 98.28
+			"count": 259,
+			"minutes": 433.93
 		},
 		"Um fundarstjórn": {
-			"count": 13,
-			"minutes": 15.53
+			"count": 53,
+			"minutes": 61.440000000000005
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 13.92
+			"count": 9,
+			"minutes": 66.82
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 6,
-			"minutes": 6.1
+			"count": 47,
+			"minutes": 46.61
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 3.58
+			"count": 27,
+			"minutes": 26.16
 		},
 		"Samtals": {
-			"count": 176,
-			"minutes": 384.86
+			"count": 730,
+			"minutes": 1734.42
 		}
 	},
 	"712": {
 		"Ræða": {
-			"count": 77,
-			"minutes": 459.3
+			"count": 424,
+			"minutes": 1960.75
 		},
 		"Andsvar": {
-			"count": 122,
-			"minutes": 210.27
+			"count": 481,
+			"minutes": 867.04
 		},
 		"Um fundarstjórn": {
-			"count": 38,
-			"minutes": 45.1
+			"count": 112,
+			"minutes": 132.35
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 24.75
+			"count": 9,
+			"minutes": 76.37
 		},
 		"Grein fyrir atkvæði": {
-			"count": 13,
-			"minutes": 11.2
+			"count": 43,
+			"minutes": 42.05
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 10,
-			"minutes": 10.28
+			"count": 47,
+			"minutes": 49.03
 		},
 		"Samtals": {
-			"count": 263,
-			"minutes": 760.9
+			"count": 1116,
+			"minutes": 3127.59
 		}
 	},
 	"714": {
 		"Ræða": {
-			"count": 121,
-			"minutes": 643.72
+			"count": 514,
+			"minutes": 2608.62
 		},
 		"Andsvar": {
-			"count": 133,
-			"minutes": 238.42
+			"count": 571,
+			"minutes": 1050.55
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 20.82
+			"count": 9,
+			"minutes": 110.98
 		},
 		"Um fundarstjórn": {
-			"count": 16,
-			"minutes": 18.65
+			"count": 109,
+			"minutes": 128.45
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 13,
-			"minutes": 15.35
+			"count": 50,
+			"minutes": 59.78
 		},
 		"Grein fyrir atkvæði": {
-			"count": 11,
-			"minutes": 11.92
+			"count": 68,
+			"minutes": 76.34
 		},
 		"Samtals": {
-			"count": 296,
-			"minutes": 948.88
+			"count": 1321,
+			"minutes": 4034.7200000000003
 		}
 	},
 	"715": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 330,
+			"minutes": 883.6500000000001
 		},
 		"Ræða": {
-			"count": 22,
-			"minutes": 76
+			"count": 167,
+			"minutes": 618.43
 		},
 		"Andsvar": {
-			"count": 8,
-			"minutes": 11.83
+			"count": 87,
+			"minutes": 148.96
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.28
+			"count": 6,
+			"minutes": 36.98
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 1.2
+			"count": 22,
+			"minutes": 26.32
 		},
 		"Grein fyrir atkvæði": {
 			"count": 29,
@@ -863,224 +863,224 @@
 	},
 	"719": {
 		"Ræða": {
-			"count": 89,
-			"minutes": 486.43
+			"count": 362,
+			"minutes": 1740.45
 		},
 		"Andsvar": {
-			"count": 127,
-			"minutes": 228.52
+			"count": 476,
+			"minutes": 835.9300000000001
 		},
 		"Flutningsræða": {
-			"count": 4,
-			"minutes": 35.38
+			"count": 14,
+			"minutes": 102.92
 		},
 		"Um fundarstjórn": {
-			"count": 31,
-			"minutes": 33.97
+			"count": 97,
+			"minutes": 106.93
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 13,
-			"minutes": 12.05
+			"count": 39,
+			"minutes": 38.2
 		},
 		"Grein fyrir atkvæði": {
-			"count": 8,
-			"minutes": 6.72
+			"count": 54,
+			"minutes": 52.349999999999994
 		},
 		"Samtals": {
-			"count": 272,
-			"minutes": 803.07
+			"count": 1042,
+			"minutes": 2876.7799999999997
 		}
 	},
 	"721": {
 		"Ræða": {
-			"count": 52,
-			"minutes": 259.67
+			"count": 140,
+			"minutes": 609.24
 		},
 		"Andsvar": {
-			"count": 66,
-			"minutes": 97.65
+			"count": 151,
+			"minutes": 212.26
 		},
 		"Flutningsræða": {
-			"count": 9,
-			"minutes": 42.75
+			"count": 31,
+			"minutes": 125.25
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 10,
-			"minutes": 7.05
+			"count": 28,
+			"minutes": 22.77
 		},
 		"Um fundarstjórn": {
-			"count": 6,
-			"minutes": 6.15
+			"count": 15,
+			"minutes": 15.02
 		},
 		"Grein fyrir atkvæði": {
-			"count": 5,
-			"minutes": 2.95
+			"count": 20,
+			"minutes": 16.25
 		},
 		"Samtals": {
-			"count": 148,
-			"minutes": 416.22
+			"count": 385,
+			"minutes": 1000.79
 		}
 	},
 	"722": {
 		"Ræða": {
-			"count": 68,
-			"minutes": 130.03
+			"count": 144,
+			"minutes": 381.34000000000003
 		},
 		"Flutningsræða": {
-			"count": 21,
-			"minutes": 97.25
+			"count": 58,
+			"minutes": 258.83000000000004
 		},
 		"Andsvar": {
-			"count": 75,
-			"minutes": 95.13
+			"count": 179,
+			"minutes": 238.6
 		},
 		"Svar": {
-			"count": 8,
-			"minutes": 18.87
+			"count": 10,
+			"minutes": 26.39
 		},
 		"Um fundarstjórn": {
-			"count": 5,
-			"minutes": 3.8
+			"count": 6,
+			"minutes": 4.77
 		},
 		"Grein fyrir atkvæði": {
-			"count": 3,
-			"minutes": 2.3
+			"count": 6,
+			"minutes": 5.18
 		},
 		"Samtals": {
-			"count": 180,
-			"minutes": 347.38
+			"count": 415,
+			"minutes": 926.76
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 2.67
+			"count": 12,
+			"minutes": 11.65
 		}
 	},
 	"726": {
 		"Flutningsræða": {
-			"count": 30,
-			"minutes": 184.07
+			"count": 63,
+			"minutes": 359.62
 		},
 		"Ræða": {
-			"count": 65,
-			"minutes": 174.2
+			"count": 278,
+			"minutes": 670.58
 		},
 		"Andsvar": {
-			"count": 64,
-			"minutes": 96.83
+			"count": 122,
+			"minutes": 193.91
 		},
 		"Svar": {
-			"count": 29,
-			"minutes": 89.52
+			"count": 51,
+			"minutes": 160.98
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 3.52
+			"count": 19,
+			"minutes": 22.15
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 3.1
+			"count": 12,
+			"minutes": 11.75
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 1.25
+			"count": 2,
+			"minutes": 2.13
 		},
 		"Samtals": {
-			"count": 196,
-			"minutes": 552.49
+			"count": 547,
+			"minutes": 1421.12
 		}
 	},
 	"728": {
 		"Ræða": {
-			"count": 87,
-			"minutes": 346.62
+			"count": 443,
+			"minutes": 1478.35
 		},
 		"Andsvar": {
-			"count": 72,
-			"minutes": 106.65
+			"count": 284,
+			"minutes": 468.15000000000003
 		},
 		"Flutningsræða": {
-			"count": 6,
-			"minutes": 77.55
+			"count": 16,
+			"minutes": 179.64
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 17,
-			"minutes": 16.85
+			"count": 79,
+			"minutes": 78.49000000000001
 		},
 		"Um fundarstjórn": {
-			"count": 12,
-			"minutes": 13.83
+			"count": 48,
+			"minutes": 53.7
 		},
 		"Grein fyrir atkvæði": {
-			"count": 7,
-			"minutes": 6.4
+			"count": 53,
+			"minutes": 50.160000000000004
 		},
 		"Samtals": {
-			"count": 201,
-			"minutes": 567.9
+			"count": 923,
+			"minutes": 2308.49
 		}
 	},
 	"729": {
 		"Ræða": {
-			"count": 136,
-			"minutes": 256.4
+			"count": 419,
+			"minutes": 721.27
 		},
 		"Flutningsræða": {
-			"count": 5,
-			"minutes": 28.53
+			"count": 18,
+			"minutes": 104.55999999999999
 		},
 		"Andsvar": {
-			"count": 20,
-			"minutes": 26.87
+			"count": 64,
+			"minutes": 80.97999999999999
 		},
 		"Svar": {
-			"count": 8,
-			"minutes": 20.23
+			"count": 30,
+			"minutes": 82.03
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 8,
-			"minutes": 9.48
+			"count": 16,
+			"minutes": 18.71
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 2.12
+			"count": 6,
+			"minutes": 6.82
 		},
 		"Um fundarstjórn": {
 			"count": 1,
 			"minutes": 1.1
 		},
 		"Samtals": {
-			"count": 180,
-			"minutes": 344.73
+			"count": 554,
+			"minutes": 1015.47
 		}
 	},
 	"730": {
 		"Ræða": {
-			"count": 119,
-			"minutes": 473.12
+			"count": 500,
+			"minutes": 1755.45
 		},
 		"Andsvar": {
-			"count": 125,
-			"minutes": 213.08
+			"count": 456,
+			"minutes": 801.96
 		},
 		"Flutningsræða": {
-			"count": 9,
-			"minutes": 77.97
+			"count": 20,
+			"minutes": 156.87
 		},
 		"Um fundarstjórn": {
-			"count": 47,
-			"minutes": 54.45
+			"count": 183,
+			"minutes": 214.95000000000002
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 11,
-			"minutes": 11.35
+			"count": 58,
+			"minutes": 64.47999999999999
 		},
 		"Grein fyrir atkvæði": {
-			"count": 8,
-			"minutes": 6.67
+			"count": 49,
+			"minutes": 48.65
 		},
 		"Samtals": {
-			"count": 319,
-			"minutes": 836.64
+			"count": 1268,
+			"minutes": 3044.16
 		},
 		"Ber af sér sakir": {
 			"count": 2,
@@ -1089,20 +1089,20 @@
 	},
 	"737": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 114,
+			"minutes": 384.02
 		},
 		"Ræða": {
-			"count": 19,
-			"minutes": 79.75
+			"count": 46,
+			"minutes": 264.93
 		},
 		"Andsvar": {
-			"count": 4,
-			"minutes": 8.35
+			"count": 51,
+			"minutes": 97.05
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 2.65
+			"count": 4,
+			"minutes": 5.13
 		},
 		"Um fundarstjórn": {
 			"count": 12,
@@ -1115,32 +1115,32 @@
 	},
 	"934": {
 		"Ræða": {
-			"count": 36,
-			"minutes": 93.82
+			"count": 130,
+			"minutes": 365.27
 		},
 		"Andsvar": {
-			"count": 11,
-			"minutes": 14.72
+			"count": 76,
+			"minutes": 99.64
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 4,
-			"minutes": 3.6
+			"count": 11,
+			"minutes": 10.83
 		},
 		"Um fundarstjórn": {
 			"count": 1,
 			"minutes": 0.58
 		},
 		"Samtals": {
-			"count": 52,
-			"minutes": 112.72
+			"count": 272,
+			"minutes": 752.25
 		},
 		"Flutningsræða": {
-			"count": 7,
-			"minutes": 54.28
+			"count": 25,
+			"minutes": 183.31
 		},
 		"Svar": {
-			"count": 13,
-			"minutes": 42.87
+			"count": 27,
+			"minutes": 90.77
 		},
 		"Grein fyrir atkvæði": {
 			"count": 2,
@@ -1149,22 +1149,22 @@
 	},
 	"999": {
 		"Andsvar": {
-			"count": 17,
-			"minutes": 30.85
+			"count": 41,
+			"minutes": 74.82
 		},
 		"Ræða": {
-			"count": 2,
-			"minutes": 15.5
+			"count": 9,
+			"minutes": 78.1
 		},
 		"Samtals": {
-			"count": 19,
-			"minutes": 46.35
+			"count": 50,
+			"minutes": 152.92
 		}
 	},
 	"1002": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 40,
+			"minutes": 152.65
 		},
 		"Ræða": {
 			"count": 10,
@@ -1189,58 +1189,58 @@
 	},
 	"1012": {
 		"Ræða": {
-			"count": 133,
-			"minutes": 731.62
+			"count": 630,
+			"minutes": 3607.34
 		},
 		"Andsvar": {
-			"count": 163,
-			"minutes": 292.12
+			"count": 623,
+			"minutes": 1156.19
 		},
 		"Um fundarstjórn": {
-			"count": 17,
-			"minutes": 20.32
+			"count": 115,
+			"minutes": 136.62
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 14.17
+			"count": 6,
+			"minutes": 64.89
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 9,
-			"minutes": 9.05
+			"count": 57,
+			"minutes": 63.59
 		},
 		"Grein fyrir atkvæði": {
-			"count": 7,
-			"minutes": 5.67
+			"count": 63,
+			"minutes": 64.14
 		},
 		"Samtals": {
-			"count": 331,
-			"minutes": 1072.95
+			"count": 1494,
+			"minutes": 5092.77
 		}
 	},
 	"1018": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 190,
+			"minutes": 629
 		},
 		"Ræða": {
-			"count": 14,
-			"minutes": 120.78
+			"count": 50,
+			"minutes": 356.55
 		},
 		"Andsvar": {
-			"count": 42,
-			"minutes": 72.27
+			"count": 122,
+			"minutes": 225.08999999999997
 		},
 		"Grein fyrir atkvæði": {
-			"count": 3,
-			"minutes": 3.2
+			"count": 9,
+			"minutes": 8.33
 		},
 		"Um fundarstjórn": {
 			"count": 1,
 			"minutes": 1.48
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.82
+			"count": 5,
+			"minutes": 5.15
 		},
 		"Flutningsræða": {
 			"count": 3,
@@ -1249,38 +1249,38 @@
 	},
 	"1031": {
 		"Ræða": {
-			"count": 21,
-			"minutes": 59.58
+			"count": 316,
+			"minutes": 1644.8600000000001
 		},
 		"Andsvar": {
-			"count": 15,
-			"minutes": 19.1
+			"count": 447,
+			"minutes": 844.4000000000001
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 7.55
+			"count": 2,
+			"minutes": 12.780000000000001
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.78
+			"count": 28,
+			"minutes": 28.08
 		},
 		"Samtals": {
-			"count": 38,
-			"minutes": 87.01
+			"count": 857,
+			"minutes": 2601.74
 		},
 		"Um fundarstjórn": {
-			"count": 27,
-			"minutes": 31.03
+			"count": 47,
+			"minutes": 55.1
 		},
 		"Grein fyrir atkvæði": {
-			"count": 7,
-			"minutes": 6.72
+			"count": 17,
+			"minutes": 16.52
 		}
 	},
 	"1046": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 1,
+			"minutes": 2.13
 		},
 		"Ræða": {
 			"count": 1,
@@ -1289,24 +1289,24 @@
 	},
 	"1157": {
 		"Ræða": {
-			"count": 37,
-			"minutes": 110.42
+			"count": 149,
+			"minutes": 492.62
 		},
 		"Andsvar": {
-			"count": 12,
-			"minutes": 22.65
+			"count": 48,
+			"minutes": 70.5
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.38
+			"count": 6,
+			"minutes": 36.730000000000004
 		},
 		"Samtals": {
-			"count": 50,
-			"minutes": 138.45
+			"count": 214,
+			"minutes": 611.23
 		},
 		"Um fundarstjórn": {
-			"count": 6,
-			"minutes": 6.88
+			"count": 7,
+			"minutes": 7.65
 		},
 		"Um atkvæðagreiðslu": {
 			"count": 1,
@@ -1319,110 +1319,110 @@
 	},
 	"1158": {
 		"Ræða": {
-			"count": 46,
-			"minutes": 175.02
+			"count": 216,
+			"minutes": 666.75
 		},
 		"Andsvar": {
-			"count": 23,
-			"minutes": 35.83
+			"count": 102,
+			"minutes": 160.41
 		},
 		"Flutningsræða": {
-			"count": 4,
-			"minutes": 27.58
+			"count": 13,
+			"minutes": 104.42999999999999
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 4,
-			"minutes": 3.78
+			"count": 15,
+			"minutes": 14.86
 		},
 		"Grein fyrir atkvæði": {
-			"count": 7,
-			"minutes": 3.28
+			"count": 22,
+			"minutes": 17
 		},
 		"Samtals": {
-			"count": 84,
-			"minutes": 245.49
+			"count": 380,
+			"minutes": 977.3800000000001
 		},
 		"Um fundarstjórn": {
-			"count": 11,
-			"minutes": 12.75
+			"count": 12,
+			"minutes": 13.93
 		}
 	},
 	"1159": {
 		"Ræða": {
-			"count": 76,
-			"minutes": 247.33
+			"count": 394,
+			"minutes": 1309.41
 		},
 		"Andsvar": {
-			"count": 61,
-			"minutes": 75.62
+			"count": 351,
+			"minutes": 515.97
 		},
 		"Flutningsræða": {
-			"count": 5,
-			"minutes": 34.43
+			"count": 17,
+			"minutes": 128.18
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 9,
-			"minutes": 6.07
+			"count": 31,
+			"minutes": 21.48
 		},
 		"Grein fyrir atkvæði": {
-			"count": 3,
-			"minutes": 2.48
+			"count": 26,
+			"minutes": 21.85
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 1.98
+			"count": 20,
+			"minutes": 19.95
 		},
 		"Samtals": {
-			"count": 156,
-			"minutes": 367.91
+			"count": 839,
+			"minutes": 2016.8400000000001
 		}
 	},
 	"1160": {
 		"Ræða": {
-			"count": 19,
-			"minutes": 58.75
+			"count": 49,
+			"minutes": 195.35
 		},
 		"Andsvar": {
-			"count": 32,
-			"minutes": 47.07
+			"count": 124,
+			"minutes": 204.75
 		},
 		"Um fundarstjórn": {
-			"count": 3,
-			"minutes": 3.08
+			"count": 14,
+			"minutes": 15.23
 		},
 		"Samtals": {
-			"count": 54,
-			"minutes": 108.9
+			"count": 193,
+			"minutes": 421.73
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.9
+			"count": 6,
+			"minutes": 6.4
 		}
 	},
 	"1161": {
 		"Ræða": {
-			"count": 46,
-			"minutes": 129.13
+			"count": 198,
+			"minutes": 668.3299999999999
 		},
 		"Andsvar": {
-			"count": 49,
-			"minutes": 56.03
+			"count": 127,
+			"minutes": 163.03
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 18.8
+			"count": 6,
+			"minutes": 40.25
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 1.73
+			"count": 14,
+			"minutes": 12.03
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.45
+			"count": 8,
+			"minutes": 5.890000000000001
 		},
 		"Samtals": {
-			"count": 102,
-			"minutes": 206.14
+			"count": 354,
+			"minutes": 890.48
 		},
 		"Um fundarstjórn": {
 			"count": 1,
@@ -1431,28 +1431,28 @@
 	},
 	"1162": {
 		"Ræða": {
-			"count": 32,
-			"minutes": 136.8
+			"count": 100,
+			"minutes": 573.4300000000001
 		},
 		"Andsvar": {
-			"count": 58,
-			"minutes": 76.63
+			"count": 270,
+			"minutes": 405.38
 		},
 		"Flutningsræða": {
-			"count": 3,
-			"minutes": 11.32
+			"count": 7,
+			"minutes": 55.03
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 1.53
+			"count": 11,
+			"minutes": 11.18
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.95
+			"count": 9,
+			"minutes": 7.27
 		},
 		"Samtals": {
-			"count": 96,
-			"minutes": 227.23
+			"count": 399,
+			"minutes": 1054.62
 		},
 		"Um fundarstjórn": {
 			"count": 2,
@@ -1461,32 +1461,32 @@
 	},
 	"1163": {
 		"Flutningsræða": {
-			"count": 27,
-			"minutes": 201.17
+			"count": 37,
+			"minutes": 253.79
 		},
 		"Ræða": {
-			"count": 78,
-			"minutes": 180.8
+			"count": 141,
+			"minutes": 427.1
 		},
 		"Andsvar": {
-			"count": 72,
-			"minutes": 115.87
+			"count": 105,
+			"minutes": 165.71
 		},
 		"Svar": {
-			"count": 27,
-			"minutes": 76.38
+			"count": 38,
+			"minutes": 110.19999999999999
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 2.58
+			"count": 12,
+			"minutes": 13.29
 		},
 		"Grein fyrir atkvæði": {
 			"count": 2,
 			"minutes": 1.45
 		},
 		"Samtals": {
-			"count": 209,
-			"minutes": 578.25
+			"count": 337,
+			"minutes": 974.3100000000001
 		},
 		"Um fundarstjórn": {
 			"count": 2,
@@ -1495,50 +1495,50 @@
 	},
 	"1164": {
 		"Ræða": {
-			"count": 33,
-			"minutes": 132.03
+			"count": 80,
+			"minutes": 417.61
 		},
 		"Andsvar": {
-			"count": 13,
-			"minutes": 21.97
+			"count": 76,
+			"minutes": 120
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.32
+			"count": 4,
+			"minutes": 22.59
 		},
 		"Samtals": {
-			"count": 47,
-			"minutes": 159.32
+			"count": 172,
+			"minutes": 569.71
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 2.98
+			"count": 8,
+			"minutes": 6.21
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.72
+			"count": 4,
+			"minutes": 3.3
 		}
 	},
 	"1165": {
 		"Ræða": {
-			"count": 13,
-			"minutes": 37.02
+			"count": 55,
+			"minutes": 263.32000000000005
 		},
 		"Andsvar": {
-			"count": 14,
-			"minutes": 23.43
+			"count": 55,
+			"minutes": 87.87
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 7.12
+			"count": 2,
+			"minutes": 16.45
 		},
 		"Samtals": {
-			"count": 28,
-			"minutes": 67.57
+			"count": 117,
+			"minutes": 372.53
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.98
+			"count": 4,
+			"minutes": 4.01
 		},
 		"Grein fyrir atkvæði": {
 			"count": 1,
@@ -1547,106 +1547,106 @@
 	},
 	"1166": {
 		"Ræða": {
-			"count": 89,
-			"minutes": 292.05
+			"count": 567,
+			"minutes": 1996.48
 		},
 		"Andsvar": {
-			"count": 165,
-			"minutes": 258.67
+			"count": 709,
+			"minutes": 1186.88
 		},
 		"Um fundarstjórn": {
-			"count": 23,
-			"minutes": 22.85
+			"count": 103,
+			"minutes": 109.80000000000001
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 14,
-			"minutes": 12.85
+			"count": 80,
+			"minutes": 70.34
 		},
 		"Grein fyrir atkvæði": {
-			"count": 13,
-			"minutes": 9.07
+			"count": 65,
+			"minutes": 46.07
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 4.57
+			"count": 18,
+			"minutes": 119.72
 		},
 		"Samtals": {
-			"count": 305,
-			"minutes": 600.06
+			"count": 1542,
+			"minutes": 3529.29
 		}
 	},
 	"1167": {
 		"Ræða": {
-			"count": 15,
-			"minutes": 51.68
+			"count": 82,
+			"minutes": 251.07
 		},
 		"Andsvar": {
-			"count": 2,
-			"minutes": 2.72
+			"count": 54,
+			"minutes": 69.33
 		},
 		"Samtals": {
-			"count": 17,
-			"minutes": 54.4
+			"count": 153,
+			"minutes": 347.82
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 12.47
+			"count": 3,
+			"minutes": 16.9
 		},
 		"Grein fyrir atkvæði": {
-			"count": 4,
-			"minutes": 2.02
+			"count": 9,
+			"minutes": 6.039999999999999
 		},
 		"Um fundarstjórn": {
 			"count": 1,
 			"minutes": 0.93
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.65
+			"count": 4,
+			"minutes": 3.55
 		}
 	},
 	"1169": {
 		"Ræða": {
-			"count": 30,
-			"minutes": 75.3
+			"count": 88,
+			"minutes": 341.05
 		},
 		"Andsvar": {
-			"count": 18,
-			"minutes": 17.68
+			"count": 77,
+			"minutes": 91.65
 		},
 		"Um fundarstjórn": {
-			"count": 2,
-			"minutes": 1.53
+			"count": 9,
+			"minutes": 7.68
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.55
+			"count": 4,
+			"minutes": 3.0999999999999996
 		},
 		"Samtals": {
-			"count": 51,
-			"minutes": 95.06
+			"count": 181,
+			"minutes": 486.12
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 11.52
+			"count": 3,
+			"minutes": 42.64
 		}
 	},
 	"1170": {
 		"Ræða": {
-			"count": 21,
-			"minutes": 58.27
+			"count": 121,
+			"minutes": 420.58000000000004
 		},
 		"Andsvar": {
-			"count": 15,
-			"minutes": 19.57
+			"count": 61,
+			"minutes": 102.6
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 0.82
+			"count": 12,
+			"minutes": 9.08
 		},
 		"Samtals": {
-			"count": 38,
-			"minutes": 78.66
+			"count": 196,
+			"minutes": 545.75
 		},
 		"Grein fyrir atkvæði": {
 			"count": 1,
@@ -1659,88 +1659,88 @@
 	},
 	"1171": {
 		"Ræða": {
-			"count": 44,
-			"minutes": 154.32
+			"count": 209,
+			"minutes": 784.0999999999999
 		},
 		"Andsvar": {
-			"count": 10,
-			"minutes": 21.7
+			"count": 90,
+			"minutes": 162.35000000000002
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 15.27
+			"count": 3,
+			"minutes": 47.63999999999999
 		},
 		"Um fundarstjórn": {
-			"count": 3,
-			"minutes": 3.75
+			"count": 6,
+			"minutes": 7.35
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 2.1
+			"count": 23,
+			"minutes": 22.73
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.85
+			"count": 27,
+			"minutes": 25.78
 		},
 		"Samtals": {
-			"count": 61,
-			"minutes": 197.99
+			"count": 358,
+			"minutes": 1049.95
 		}
 	},
 	"1172": {
 		"Ræða": {
-			"count": 39,
-			"minutes": 162.43
+			"count": 222,
+			"minutes": 918.68
 		},
 		"Andsvar": {
-			"count": 28,
-			"minutes": 42.5
+			"count": 150,
+			"minutes": 221.13
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 1.82
+			"count": 12,
+			"minutes": 11.32
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 1.1
+			"count": 8,
+			"minutes": 7.37
 		},
 		"Samtals": {
-			"count": 70,
-			"minutes": 207.85
+			"count": 419,
+			"minutes": 1238.8899999999999
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 17.72
+			"count": 7,
+			"minutes": 58.8
 		},
 		"Um fundarstjórn": {
-			"count": 15,
-			"minutes": 16.47
+			"count": 20,
+			"minutes": 21.59
 		}
 	},
 	"1173": {
 		"Ræða": {
-			"count": 19,
-			"minutes": 73.07
+			"count": 109,
+			"minutes": 486.58000000000004
 		},
 		"Andsvar": {
-			"count": 33,
-			"minutes": 44.42
+			"count": 170,
+			"minutes": 269.45000000000005
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 4,
-			"minutes": 3.55
+			"count": 12,
+			"minutes": 11.81
 		},
 		"Um fundarstjórn": {
-			"count": 3,
-			"minutes": 3.42
+			"count": 15,
+			"minutes": 18.099999999999998
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 1.27
+			"count": 11,
+			"minutes": 11.59
 		},
 		"Samtals": {
-			"count": 60,
-			"minutes": 125.73
+			"count": 319,
+			"minutes": 809.0600000000001
 		},
 		"Flutningsræða": {
 			"count": 2,
@@ -1749,46 +1749,46 @@
 	},
 	"1174": {
 		"Ræða": {
-			"count": 36,
-			"minutes": 75.1
+			"count": 111,
+			"minutes": 348.53999999999996
 		},
 		"Flutningsræða": {
-			"count": 4,
-			"minutes": 63.62
+			"count": 10,
+			"minutes": 124.47
 		},
 		"Andsvar": {
-			"count": 15,
-			"minutes": 22.48
+			"count": 35,
+			"minutes": 53.81
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.68
+			"count": 3,
+			"minutes": 2.7800000000000002
 		},
 		"Samtals": {
-			"count": 56,
-			"minutes": 161.88
+			"count": 169,
+			"minutes": 536.3499999999999
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 0.42
+			"count": 10,
+			"minutes": 6.75
 		}
 	},
 	"1175": {
 		"Ræða": {
-			"count": 31,
-			"minutes": 62.95
+			"count": 120,
+			"minutes": 248.15
 		},
 		"Andsvar": {
-			"count": 14,
-			"minutes": 22.25
+			"count": 34,
+			"minutes": 48.15
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 19.12
+			"count": 4,
+			"minutes": 27.970000000000002
 		},
 		"Samtals": {
-			"count": 47,
-			"minutes": 104.32
+			"count": 165,
+			"minutes": 330.03999999999996
 		},
 		"Grein fyrir atkvæði": {
 			"count": 4,
@@ -1805,54 +1805,54 @@
 	},
 	"1176": {
 		"Ræða": {
-			"count": 38,
-			"minutes": 111.3
+			"count": 89,
+			"minutes": 341.9
 		},
 		"Andsvar": {
-			"count": 24,
-			"minutes": 30.88
+			"count": 94,
+			"minutes": 125.09
 		},
 		"Flutningsræða": {
-			"count": 2,
-			"minutes": 9.12
+			"count": 6,
+			"minutes": 76.17
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 3,
-			"minutes": 2.37
+			"count": 6,
+			"minutes": 5.52
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.68
+			"count": 8,
+			"minutes": 7.08
 		},
 		"Samtals": {
-			"count": 68,
-			"minutes": 154.35
+			"count": 203,
+			"minutes": 555.76
 		}
 	},
 	"1177": {
 		"Ræða": {
-			"count": 43,
-			"minutes": 208.58
+			"count": 111,
+			"minutes": 580.94
 		},
 		"Andsvar": {
-			"count": 45,
-			"minutes": 53.58
+			"count": 125,
+			"minutes": 169
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 1.72
+			"count": 13,
+			"minutes": 10.15
 		},
 		"Samtals": {
-			"count": 90,
-			"minutes": 263.88
+			"count": 260,
+			"minutes": 780.28
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 3.97
+			"count": 2,
+			"minutes": 10.15
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 2.13
+			"count": 7,
+			"minutes": 7.78
 		},
 		"Ber af sér sakir": {
 			"count": 1,
@@ -1865,88 +1865,88 @@
 	},
 	"1178": {
 		"Ræða": {
-			"count": 43,
-			"minutes": 225.8
+			"count": 204,
+			"minutes": 1130.43
 		},
 		"Andsvar": {
-			"count": 85,
-			"minutes": 122.78
+			"count": 330,
+			"minutes": 543.49
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 10.32
+			"count": 7,
+			"minutes": 131.78
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.6
+			"count": 12,
+			"minutes": 11.8
 		},
 		"Samtals": {
-			"count": 130,
-			"minutes": 359.5
+			"count": 566,
+			"minutes": 1830.51
 		},
 		"Um fundarstjórn": {
-			"count": 7,
-			"minutes": 7.83
+			"count": 8,
+			"minutes": 8.61
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.55
+			"count": 5,
+			"minutes": 4.4
 		}
 	},
 	"1179": {
 		"Ræða": {
-			"count": 74,
-			"minutes": 146.48
+			"count": 288,
+			"minutes": 670.99
 		},
 		"Andsvar": {
-			"count": 45,
-			"minutes": 67.27
+			"count": 141,
+			"minutes": 204.84
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.17
+			"count": 7,
+			"minutes": 39.400000000000006
 		},
 		"Um fundarstjórn": {
-			"count": 3,
-			"minutes": 2.1
+			"count": 12,
+			"minutes": 10.780000000000001
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 1,
-			"minutes": 0.98
+			"count": 14,
+			"minutes": 12.030000000000001
 		},
 		"Grein fyrir atkvæði": {
-			"count": 1,
-			"minutes": 0.75
+			"count": 15,
+			"minutes": 13.120000000000001
 		},
 		"Samtals": {
-			"count": 125,
-			"minutes": 222.75
+			"count": 477,
+			"minutes": 951.16
 		}
 	},
 	"1180": {
 		"Ræða": {
-			"count": 24,
-			"minutes": 67.73
+			"count": 104,
+			"minutes": 239.65
 		},
 		"Flutningsræða": {
-			"count": 1,
-			"minutes": 5.18
+			"count": 2,
+			"minutes": 10.28
 		},
 		"Um atkvæðagreiðslu": {
-			"count": 2,
-			"minutes": 0.93
+			"count": 5,
+			"minutes": 2.6900000000000004
 		},
 		"Andsvar": {
-			"count": 2,
-			"minutes": 0.92
+			"count": 26,
+			"minutes": 27.610000000000003
 		},
 		"Grein fyrir atkvæði": {
-			"count": 2,
-			"minutes": 0.8
+			"count": 4,
+			"minutes": 1.62
 		},
 		"Samtals": {
-			"count": 31,
-			"minutes": 75.56
+			"count": 145,
+			"minutes": 284.68
 		},
 		"Um fundarstjórn": {
 			"count": 4,
@@ -1955,24 +1955,24 @@
 	},
 	"1181": {
 		"Ræða": {
-			"count": 24,
-			"minutes": 62.95
+			"count": 100,
+			"minutes": 327.05
 		},
 		"Andsvar": {
-			"count": 12,
-			"minutes": 19.68
+			"count": 31,
+			"minutes": 51.8
 		},
 		"Grein fyrir atkvæði": {
-			"count": 3,
-			"minutes": 1.95
+			"count": 8,
+			"minutes": 6.08
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 0.9
+			"count": 2,
+			"minutes": 1.77
 		},
 		"Samtals": {
-			"count": 40,
-			"minutes": 85.48
+			"count": 148,
+			"minutes": 399.15
 		},
 		"Flutningsræða": {
 			"count": 1,
@@ -1985,48 +1985,48 @@
 	},
 	"1183": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 44,
+			"minutes": 119.7
 		},
 		"Ræða": {
-			"count": 9,
-			"minutes": 42.05
+			"count": 19,
+			"minutes": 79.85
 		},
 		"Andsvar": {
-			"count": 19,
-			"minutes": 32.18
+			"count": 25,
+			"minutes": 39.85
 		}
 	},
 	"1186": {
 		"Ræða": {
-			"count": 6,
-			"minutes": 27.87
+			"count": 22,
+			"minutes": 69.89
 		},
 		"Andsvar": {
-			"count": 4,
-			"minutes": 5.32
+			"count": 7,
+			"minutes": 9.1
 		},
 		"Um atkvæðagreiðslu": {
 			"count": 2,
 			"minutes": 1.72
 		},
 		"Samtals": {
-			"count": 12,
-			"minutes": 34.91
+			"count": 31,
+			"minutes": 80.71000000000001
 		}
 	},
 	"1188": {
 		"Ræða": {
-			"count": 9,
-			"minutes": 16.98
+			"count": 17,
+			"minutes": 48.8
 		},
 		"Flutningsræða": {
 			"count": 1,
 			"minutes": 5.32
 		},
 		"Samtals": {
-			"count": 10,
-			"minutes": 22.3
+			"count": 21,
+			"minutes": 58.56
 		},
 		"Andsvar": {
 			"count": 2,
@@ -2039,20 +2039,20 @@
 	},
 	"1199": {
 		"Ræða": {
-			"count": 17,
-			"minutes": 68.53
+			"count": 25,
+			"minutes": 80.22999999999999
 		},
 		"Andsvar": {
-			"count": 30,
-			"minutes": 40.97
+			"count": 34,
+			"minutes": 47.849999999999994
 		},
 		"Flutningsræða": {
 			"count": 2,
 			"minutes": 20.78
 		},
 		"Samtals": {
-			"count": 49,
-			"minutes": 130.28
+			"count": 63,
+			"minutes": 150.95999999999998
 		},
 		"Um fundarstjórn": {
 			"count": 2,
@@ -2061,44 +2061,44 @@
 	},
 	"1201": {
 		"Ræða": {
-			"count": 7,
-			"minutes": 13.52
+			"count": 11,
+			"minutes": 20.89
 		},
 		"Andsvar": {
 			"count": 1,
 			"minutes": 0.83
 		},
 		"Samtals": {
-			"count": 8,
-			"minutes": 14.35
+			"count": 12,
+			"minutes": 21.72
 		}
 	},
 	"1202": {
 		"Andsvar": {
-			"count": 11,
-			"minutes": 8.08
+			"count": 43,
+			"minutes": 41.239999999999995
 		},
 		"Ræða": {
-			"count": 1,
-			"minutes": 1.83
+			"count": 13,
+			"minutes": 35.010000000000005
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 0.62
+			"count": 2,
+			"minutes": 1.27
 		},
 		"Samtals": {
-			"count": 13,
-			"minutes": 10.53
+			"count": 58,
+			"minutes": 77.52000000000001
 		}
 	},
 	"1203": {
 		"Ræða": {
-			"count": 2,
-			"minutes": 4.35
+			"count": 8,
+			"minutes": 16.869999999999997
 		},
 		"Samtals": {
-			"count": 2,
-			"minutes": 4.35
+			"count": 10,
+			"minutes": 18.24
 		},
 		"Andsvar": {
 			"count": 2,
@@ -2107,12 +2107,12 @@
 	},
 	"1211": {
 		"Ræða": {
-			"count": 3,
-			"minutes": 4.57
+			"count": 6,
+			"minutes": 9.47
 		},
 		"Samtals": {
-			"count": 3,
-			"minutes": 4.57
+			"count": 8,
+			"minutes": 10.620000000000001
 		},
 		"Andsvar": {
 			"count": 2,
@@ -2121,12 +2121,12 @@
 	},
 	"1212": {
 		"Ræða": {
-			"count": 2,
-			"minutes": 3.88
+			"count": 3,
+			"minutes": 12.43
 		},
 		"Samtals": {
-			"count": 2,
-			"minutes": 3.88
+			"count": 5,
+			"minutes": 15.030000000000001
 		},
 		"Andsvar": {
 			"count": 2,
@@ -2135,16 +2135,16 @@
 	},
 	"1213": {
 		"Andsvar": {
-			"count": 12,
-			"minutes": 17.55
+			"count": 23,
+			"minutes": 29.78
 		},
 		"Ræða": {
-			"count": 5,
-			"minutes": 16.02
+			"count": 51,
+			"minutes": 111.11999999999999
 		},
 		"Samtals": {
-			"count": 17,
-			"minutes": 33.57
+			"count": 78,
+			"minutes": 153.95
 		},
 		"Flutningsræða": {
 			"count": 2,
@@ -2161,16 +2161,16 @@
 	},
 	"1214": {
 		"Ræða": {
-			"count": 1,
-			"minutes": 6.88
+			"count": 142,
+			"minutes": 516.75
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 0.7
+			"count": 20,
+			"minutes": 21.2
 		},
 		"Samtals": {
-			"count": 2,
-			"minutes": 7.58
+			"count": 351,
+			"minutes": 848.86
 		},
 		"Andsvar": {
 			"count": 156,
@@ -2191,20 +2191,20 @@
 	},
 	"1215": {
 		"Andsvar": {
-			"count": 12,
-			"minutes": 11.68
+			"count": 56,
+			"minutes": 70.23
 		},
 		"Ræða": {
-			"count": 5,
-			"minutes": 10.48
+			"count": 30,
+			"minutes": 82.08000000000001
 		},
 		"Samtals": {
-			"count": 17,
-			"minutes": 22.16
+			"count": 103,
+			"minutes": 166.59
 		},
 		"Um fundarstjórn": {
-			"count": 1,
-			"minutes": 0.57
+			"count": 12,
+			"minutes": 10.4
 		},
 		"Um atkvæðagreiðslu": {
 			"count": 4,
@@ -2217,16 +2217,16 @@
 	},
 	"1218": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 46,
+			"minutes": 53.36
 		},
 		"Andsvar": {
-			"count": 19,
-			"minutes": 17.62
+			"count": 23,
+			"minutes": 21.62
 		},
 		"Ræða": {
-			"count": 10,
-			"minutes": 17.32
+			"count": 19,
+			"minutes": 29.14
 		},
 		"Um fundarstjórn": {
 			"count": 1,
@@ -2243,8 +2243,8 @@
 	},
 	"1221": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 2,
+			"minutes": 3.28
 		},
 		"Ræða": {
 			"count": 2,
@@ -2253,8 +2253,8 @@
 	},
 	"1235": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 28,
+			"minutes": 76.8
 		},
 		"Ræða": {
 			"count": 19,
@@ -2271,8 +2271,8 @@
 	},
 	"1236": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 21,
+			"minutes": 39.45
 		},
 		"Ræða": {
 			"count": 9,
@@ -2285,8 +2285,8 @@
 	},
 	"1237": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 6,
+			"minutes": 13.8
 		},
 		"Ræða": {
 			"count": 5,
@@ -2299,8 +2299,8 @@
 	},
 	"1238": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 1,
+			"minutes": 1.78
 		},
 		"Ræða": {
 			"count": 1,
@@ -2309,8 +2309,8 @@
 	},
 	"1240": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 3,
+			"minutes": 4.1
 		},
 		"Ræða": {
 			"count": 3,
@@ -2319,8 +2319,8 @@
 	},
 	"1241": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 33,
+			"minutes": 77.67
 		},
 		"Ræða": {
 			"count": 15,
@@ -2337,8 +2337,8 @@
 	},
 	"1242": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 1,
+			"minutes": 2.73
 		},
 		"Ræða": {
 			"count": 1,
@@ -2347,8 +2347,8 @@
 	},
 	"1243": {
 		"Samtals": {
-			"count": 0,
-			"minutes": 0
+			"count": 2,
+			"minutes": 2.6
 		},
 		"Ræða": {
 			"count": 1,
