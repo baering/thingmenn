@@ -7,7 +7,7 @@ const ListItemContent = ({
 }) => {
   return (
     <div className="ListItemContent">
-      <h2 className="ListItemContent-content">{title}</h2>
+      <h2 className="ListItemContent-title">{title}</h2>
       {description ?
         <p className="ListItemContent-description">{description}</p>
         : null}
