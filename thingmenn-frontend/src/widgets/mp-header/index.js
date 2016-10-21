@@ -36,7 +36,7 @@ const MpHeader = ({
           }}
         ></div>
         <div className="MpHeader-bio">
-          <h1 className="MpHeader-bioName">{name} <span className="Main-subheader">{party}</span></h1>
+          <h1 className="MpHeader-bioName">{name} <p className="Main-subheader">{party}</p></h1>
           <p className="MpHeader-bioText">{description}</p>
         </div>
       </div>

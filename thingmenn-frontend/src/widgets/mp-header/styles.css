@@ -52,7 +52,7 @@
 }
 
 .MpHeader-bioName {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.2rem;
   font-size: 1.333rem;
 }
 
@@ -117,10 +117,4 @@
 }
 .Main-subheader {
   color: #838a8e;
-}
-
-@media (min-width: 768px) {
-  .Main-subheader {
-    margin-left: 0.75rem;
-  }
 }
