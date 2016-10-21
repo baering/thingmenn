@@ -27,6 +27,7 @@
   display: flex;
   flex: 1 1 100%;
   width: 50%;
+  border-bottom: 1px solid #d4d8dc;
   padding: 1.5rem;
   font-size: 1rem;
 }
@@ -36,6 +37,7 @@
   }
   .MpHeader-details {
     flex: 0 1 auto;
+    border-bottom: 0;
   }
   .MpHeader-bioText {
     font-size: 1.333rem;

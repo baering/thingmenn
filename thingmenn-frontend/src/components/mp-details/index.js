@@ -89,6 +89,7 @@ export default class Mps extends React.Component {
 
         <div className='MpDetails'>
           <div className="MpDetails-item">
+          <h1 className="MpDetails-heading">Skipting atkvæða</h1>
             <Piechart voteSummary={voteSummary} />
             <ColorLegend/>
           </div>
@@ -119,7 +120,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item MpDetails-item--large">
-            <h3 className='heading'>Atkvæðaskipting eftir efnisflokkum</h3>
+            <h1 className='heading'>Atkvæðaskipting eftir efnisflokkum</h1>
             <ColorLegend/>
             {subjectSummary.map(subject => (
               <BarChart subjectSummary={subject} key={subject.subject} />

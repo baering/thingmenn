@@ -15,10 +15,14 @@
 }
 
 .Friends-heading {
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.333rem;
 }
-
+@media (min-width: 768px) {
+  .Friends-heading {
+    padding: 1rem;
+  }
+}
 .Friends-list {
   display: flex;
   flex-wrap: wrap;

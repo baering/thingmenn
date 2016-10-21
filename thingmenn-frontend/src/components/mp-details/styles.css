@@ -14,11 +14,15 @@
   padding: 1rem;
 }
 
+.MpDetails-heading {
+  font-size: 1.333em;
+  font-weight: 100;
+}
+
 @media (min-width: 1234px) {
   .MpDetails-item:not(.MpDetails-item--large) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: calc(50% - 2rem);
     margin: 1rem;
   }
