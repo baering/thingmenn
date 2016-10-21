@@ -10,10 +10,10 @@ import About from './components/about'
 import NotFound from './components/not-found'
 
 function onRouterUpdate() {
-  const { action } = this.state.location;
+  const { action } = this.state.location
 
   if (action === 'PUSH') {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0)
   }
 }
 
