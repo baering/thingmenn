@@ -33,8 +33,8 @@ export default class Mps extends React.Component {
       speechSummary: {},
       subjectSummary: [],
       nouns: [],
-      similarMps: [],
-      differentMps: [],
+      similarMps: this.mpService.getSimilarMpsIfCached(mpId),
+      differentMps: this.mpService.getDifferentMpsIfCached(mpId),
     }
   }
 
@@ -68,15 +68,19 @@ export default class Mps extends React.Component {
       .then(nouns => this.setState({ nouns }))
       .catch(error => console.log(error))
 
-    const mpSimilarUrl = `${apiUrl}/api/mps/${mpId}/similar`
-    fetchJson(mpSimilarUrl)
-      .then(similarMps => this.setState({ similarMps }))
-      .catch(error => console.log(error))
+    if (!this.state.similarMps.length) {
+      this.mpService.getSimilarMps(mpId)
+        .then(similarMps => {
+          this.setState({ similarMps })
+        })
+    }
 
-    const mpDifferentUrl = `${apiUrl}/api/mps/${mpId}/different`
-    fetchJson(mpDifferentUrl)
-      .then(differentMps => this.setState({ differentMps }))
-      .catch(error => console.log(error))
+    if (!this.state.differentMps.length) {
+      this.mpService.getDifferentMps(mpId)
+        .then(differentMps => {
+          this.setState({ differentMps })
+        })
+    }
   }
 
   render() {

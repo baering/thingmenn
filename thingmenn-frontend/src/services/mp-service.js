@@ -3,11 +3,6 @@ import CacheService from './cache-service'
 
 let instance = null
 
-const urls = {
-  all: `${apiUrl}/api/mps`,
-  details: `${apiUrl}/api/mps`
-}
-
 class MpService extends CacheService {
   constructor() {
     super()
@@ -19,13 +14,14 @@ class MpService extends CacheService {
   }
 
   getMpsIfCached() {
-    let cached = instance.getKeyFromCache(urls.all)
+    const url = `${apiUrl}/api/mps`
+    const cached = instance.getKeyFromCache(url)
     return cached ? cached : []
   }
 
   getMps() {
     return new Promise((resolve, reject) => {
-      const url = urls.all
+      const url = `${apiUrl}/api/mps`
       instance.fetchData(url).then(mps => {
         resolve(mps)
       }).catch(error => reject(error))
@@ -33,13 +29,43 @@ class MpService extends CacheService {
   }
 
   getMpDetailsIfCached(mpId) {
-    const url = `${urls.details}/${mpId}`
-    let cached = instance.getKeyFromCache(url)
+    const url = `${apiUrl}/api/mps/${mpId}`
+    const cached = instance.getKeyFromCache(url)
     return cached ? cached : {}
   }
 
   getMpDetails(mpId) {
-    const url = `${urls.details}/${mpId}`
+    const url = `${apiUrl}/api/mps/${mpId}`
+    return new Promise((resolve, reject) => {
+      instance.fetchData(url).then(mp => {
+        resolve(mp)
+      }).catch(error => reject(error))
+    })
+  }
+
+  getSimilarMpsIfCached(mpId) {
+    const url = `${apiUrl}/api/mps/${mpId}/similar`
+    const cached = instance.getKeyFromCache(url)
+    return cached ? cached : []
+  }
+
+  getSimilarMps(mpId) {
+    const url = `${apiUrl}/api/mps/${mpId}/similar`
+    return new Promise((resolve, reject) => {
+      instance.fetchData(url).then(mp => {
+        resolve(mp)
+      }).catch(error => reject(error))
+    })
+  }
+
+  getDifferentMpsIfCached(mpId) {
+    const url = `${apiUrl}/api/mps/${mpId}/different`
+    const cached = instance.getKeyFromCache(url)
+    return cached ? cached : []
+  }
+
+  getDifferentMps(mpId) {
+    const url = `${apiUrl}/api/mps/${mpId}/different`
     return new Promise((resolve, reject) => {
       instance.fetchData(url).then(mp => {
         resolve(mp)
