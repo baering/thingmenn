@@ -50,7 +50,7 @@ class MpSummaryService extends CacheService {
   getMpSpeechesIfCached(mpId) {
     const url = `${apiUrl}/api/summary/speeches/mp/${mpId}`
     const cached = instance.getKeyFromCache(url)
-    return cached ? cached : []
+    return cached ? cached : {}
   }
 
   getMpSpeeches(mpId) {
