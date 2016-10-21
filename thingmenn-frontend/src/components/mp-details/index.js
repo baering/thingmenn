@@ -1,7 +1,5 @@
 import React from 'react';
-import 'whatwg-fetch'
 
-import { apiUrl } from '../../config'
 import MpService from '../../services/mp-service'
 import MpSummaryService from '../../services/mp-summary-service'
 
@@ -14,10 +12,6 @@ import Speeches from '../../widgets/speeches'
 import BarChart from '../../widgets/bar-chart'
 
 import './styles.css'
-
-function fetchJson(url) {
-  return fetch(url).then(response => response.json())
-}
 
 export default class Mps extends React.Component {
   constructor(props) {
