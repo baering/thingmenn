@@ -9,8 +9,16 @@ import PartyDetails from './components/party-details'
 import About from './components/about'
 import NotFound from './components/not-found'
 
+function onRouterUpdate() {
+  const { action } = this.state.location;
+
+  if (action === 'PUSH') {
+    window.scrollTo(0, 0);
+  }
+}
+
 const Routes = (props) => (
-  <Router history={browserHistory}>
+  <Router onUpdate={onRouterUpdate} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Mps} />
       <Route path="/thingmenn/:mpId" component={MpDetails} />
