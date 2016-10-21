@@ -11,7 +11,7 @@
 
 .not-found .travolta {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   width: 40vw;
   height: 40vw;
   background: url('https://i.imgur.com/35xkavm.gif') 100% 100%/cover no-repeat;
