@@ -1,7 +1,8 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
-const mps = loadFile('data/mps.json')
+const mps = loadFile('data/export/mps.json')
 const mpVoteSummaries = loadFile('data/export/mp-vote-summaries.json')
+const mpSpeechStatistics = loadFile('data/export/mp-speech-statistics.json')
 
 const mpIdToParty = {}
 
@@ -55,24 +56,39 @@ function calculateVotePercentages(partyNames, voteSummary) {
   })
 }
 
-function updatePositionSummary(positionSummary, mpPositionSummary, mp) {
-  if (!positionSummary[mp.party]) {
-    positionSummary[mp.party] = {
-      standsTaken: [],
-      idle: [],
-      away: [],
-    }
+function updateSpeechStatistics(speechStatistics, mpSpeechStatistics, mp) {
+  if (!speechStatistics[mp.partySlug]) {
+    speechStatistics[mp.partySlug] = {}
   }
+
+  const labels = Object.keys(mpSpeechStatistics)
+  labels.forEach(label => {
+    if (!speechStatistics[mp.partySlug][label]) {
+      speechStatistics[mp.partySlug][label] = {
+        count: 0,
+        minutes: 0,
+      }
+    }
+
+    const labelInfo = mpSpeechStatistics[label]
+    const mpLabelMinutes = Number(labelInfo.minutes.toFixed(2))
+
+    speechStatistics[mp.partySlug][label].count += labelInfo.count
+    speechStatistics[mp.partySlug][label].minutes += mpLabelMinutes
+  })
 }
 
 export default function process() {
   const voteSummary = {}
+  const speechStatistics = {}
   const partyNames = getPartyNames(mps)
 
   mps.forEach(mp => {
     updateVoteSummary(voteSummary, mpVoteSummaries[mp.id], mp)
+    updateSpeechStatistics(speechStatistics, mpSpeechStatistics[mp.id], mp)
   })
   calculateVotePercentages(partyNames, voteSummary)
 
   writeToFile(voteSummary, 'data/export/party-vote-summary.json', true)
+  writeToFile(speechStatistics, 'data/export/party-speech-statistics.json', true)
 }
