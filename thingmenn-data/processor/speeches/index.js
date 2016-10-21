@@ -13,6 +13,10 @@ console.log('Loading subjects')
 const wordsInSubjects = loadFile('data/subjects-contain.json')
 const subjectLookup = {}
 
+const mps = loadFile('data/export/mps.json')
+const mpLookup = {}
+mps.forEach(mp => mpLookup[mp.id] = mp)
+
 function addToSubjectLookup(word, subjectIndex) {
   const nounRoot = getNounRoot(cleanWord(word))
 
@@ -57,6 +61,29 @@ function cleanWord(word) {
   const allCharacters = lowerCaseWord.split('')
   const allowedCharacters = allCharacters.filter(character => cleanWordLetters.includes(character))
   return allowedCharacters.join('').trim()
+}
+
+function getTopPartyNouns(nounSummary) {
+  const topPartyNouns = {}
+  const partyNames = Object.keys(nounSummary)
+  partyNames.forEach(partyName => {
+    const partyNounSummary = nounSummary[partyName]
+
+    const nouns = Object.keys(partyNounSummary)
+    topPartyNouns[partyName] = nouns.sort((a, b) => {
+      const occuranceA = nounSummary[partyName][a]
+      const occuranceB = nounSummary[partyName][b]
+
+      return occuranceB - occuranceA
+    }).slice(0, 20).map(noun => {
+      return {
+        noun,
+        occurance: nounSummary[partyName][noun]
+      }
+    })
+  })
+
+  return topPartyNouns
 }
 
 export default function createMpNounLookup() {
@@ -116,6 +143,9 @@ export default function createMpNounLookup() {
   const topNouns = []
   const mpNounLookupMap = {}
   const mpIds = Object.keys(mpNounLookup)
+
+  const partyNounCounters = {}
+
   mpIds.forEach(mpId => {
     const nouns = Object.keys(mpNounLookup[mpId])
     const nounCounters = []
@@ -134,7 +164,19 @@ export default function createMpNounLookup() {
       }
     })
 
-    const topNounsForMp = nounCounters.sort((a, b) => b.count - a.count).slice(0, 15)
+    const sortedNounCounters = nounCounters.sort((a, b) => b.count - a.count)
+    const mp = mpLookup[mpId]
+    if (!partyNounCounters[mp.partySlug]) {
+      partyNounCounters[mp.partySlug] = {}
+    }
+    sortedNounCounters.forEach(nounCounter => {
+      if (!partyNounCounters[mp.partySlug][nounCounter.noun]) {
+        partyNounCounters[mp.partySlug][nounCounter.noun] = 0
+      }
+      partyNounCounters[mp.partySlug][nounCounter.noun] += nounCounter.count
+    })
+
+    const topNounsForMp = sortedNounCounters.slice(0, 15)
     topNouns.push({
       mpId,
       nouns: topNounsForMp.map(nounCounter => `${nounCounter.noun}: ${nounCounter.count}`),
@@ -163,6 +205,9 @@ export default function createMpNounLookup() {
   }, 'data/term/mp-noun-lookup.json', true)
 
   writeToFile(mpNounLookupMap, 'data/export/mp-noun-lookup.json', true)
+
+  const topPartyNouns = getTopPartyNouns(partyNounCounters)
+  writeToFile(topPartyNouns, 'data/export/party-noun-lookup-wip.json', true)
 
   console.log('Wrote mp-nouns to file')
 
