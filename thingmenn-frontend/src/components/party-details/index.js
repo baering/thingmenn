@@ -1,6 +1,8 @@
 import React from 'react';
 import 'whatwg-fetch'
 
+import { apiUrl } from '../../config'
+
 import './styles.css';
 
 function fetchJson(url) {
@@ -30,12 +32,12 @@ export default class Mps extends React.Component {
   componentDidMount() {
     const { partyId } = this.props.params
 
-    const partyUrl = `http://localhost:8080/api/parties/${partyId}`
+    const partyUrl = `${apiUrl}/api/parties/${partyId}`
     fetchJson(partyUrl)
       .then(party => this.setState({ party }))
       .catch(error => console.log(error))
 
-    const voteUrl = `http://localhost:8080/api/summary/votes/party/${partyId}`
+    const voteUrl = `${apiUrl}/api/summary/votes/party/${partyId}`
     fetchJson(voteUrl)
       .then(voteSummary => this.setState({ voteSummary }))
       .catch(error => console.log(error))
@@ -45,7 +47,7 @@ export default class Mps extends React.Component {
     //   .then(subjectSummary => this.setState({ subjectSummary }))
     //   .catch(error => console.log(error))
     //
-    const nounUrl = `http://localhost:8080/api/summary/nouns/party/${partyId}`
+    const nounUrl = `${apiUrl}/api/summary/nouns/party/${partyId}`
     fetchJson(nounUrl)
       .then(nouns => this.setState({ nouns }))
       .catch(error => console.log(error))

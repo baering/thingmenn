@@ -17,7 +17,7 @@ const Mp = ({
       <ListItemImage path={imagePath}>
         <PartyBadge party={partySlug}/>
       </ListItemImage>
-      <ListItemContent title={name} description={party} />
+      <ListItemContent title={name} />
     </ListItem>
   )
 }
