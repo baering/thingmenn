@@ -2,16 +2,10 @@
   background: white;
 }
 
-.Words-heading {
-  font-size: 1.333em;
-  font-weight: 100;
-}
-
 .Words-list {
   display: flex;
   flex-wrap: wrap;
   line-height: 2.5;
-  padding: 1rem 0;
 }
 
 .Words-list > dt,

@@ -7,7 +7,7 @@ const Words = ({
 }) => {
   return (
     <div className="Words">
-     <h3 className='Words-heading'>{title}</h3>
+     <h3 className='Words-heading heading'>{title}</h3>
      <dl className="Words-list">
        {words.map((word) => (
          [

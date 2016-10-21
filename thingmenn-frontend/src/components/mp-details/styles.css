@@ -1,17 +1,17 @@
 .MpDetails {
+  background: #E9EEF2;
   display: flex;
   flex-wrap: wrap;
   padding: 0.563rem;
-  background: #E9EEF2;
 }
 
 .MpDetails-item {
-  flex: auto;
-  width: 100%;
-  margin-bottom: 1rem;
   background: white;
   border-bottom: 3px solid rgba(44, 63, 80, 0.12);
-  padding: 1rem;
+  flex: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem 2rem;
+  width: 100%;
 }
 
 .MpDetails-heading {
@@ -23,12 +23,12 @@
   .MpDetails-item:not(.MpDetails-item--large) {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 2rem);
     margin: 1rem;
+    width: calc(50% - 2rem);
   }
 
   .MpDetails-item.MpDetails-item--large {
-    width: calc(100% - 2rem);
     margin: 1rem;
+    width: calc(100% - 2rem);
   }
 }

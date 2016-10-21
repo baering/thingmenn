@@ -1,12 +1,13 @@
 .MpHeader {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0.563rem;
   background: white;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  display: flex;
+  flex-wrap: wrap;
   font-family: 'Lora', serif;
   font-size: 1.777rem;
+  margin: 0.563rem;
 }
+
 @media (min-width: 1234px) {
   .MpHeader {
     margin: 0;
@@ -14,23 +15,24 @@
 }
 
 .MpHeader-image {
-  flex: 1 1 100%;
-  max-width: 150px;
-  height: 200px;
-  margin-right: 1.333rem;
-  background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1 1 100%;
+  height: 200px;
+  margin-right: 1.333rem;
+  max-width: 150px;
 }
 
 .MpHeader-details {
+  border-bottom: 1px solid #d4d8dc;
   display: flex;
   flex: 1 1 100%;
-  width: 50%;
-  border-bottom: 1px solid #d4d8dc;
-  padding: 1.5rem;
   font-size: 1rem;
+  padding: 1.5rem;
+  width: 50%;
 }
+
 @media (min-width: 1234px) {
   .MpHeader {
     flex-wrap: nowrap;
@@ -43,53 +45,57 @@
     font-size: 1.333rem;
   }
 }
+
 .MpHeader-bio {
   display: flex;
+  flex-direction: column;
   flex: 0 1 auto;
   justify-content: center;
-  flex-direction: column;
   padding: 1rem;
 }
 
 .MpHeader-bioName {
-  margin-bottom: 0.2rem;
   font-size: 1.333rem;
+  margin-bottom: 0.2rem;
 }
 
 .MpHeader-bioText {
-  max-width: 27rem;
-  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   font-weight: 300;
+  max-width: 27rem;
 }
 
 
 .MpHeader-stats {
+  background: #f8fafb;
+  border: 0;
   display: flex;
   flex: 0 1 auto;
   justify-content: space-around;
-  width: 100%;
-  max-width: initial;
   margin: auto;
+  max-width: initial;
   padding: 2.369rem;
-  border: 0;
-  background: #f8fafb;
+  width: 100%;
 }
+
 @media (min-width: 1234px) {
   .MpHeader-stats {
-    width: 50%;
-    max-width: 45rem;
-    border-left: 1px solid rgba(44, 63, 80, 0.2);
     background: none;
+    border-left: 1px solid rgba(44, 63, 80, 0.2);
+    max-width: 45rem;
+    width: 50%;
   }
 }
+
 .MpHeader-statsItem {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin-right: 0;
 }
+
 @media (min-width: 1234px) {
   .MpHeader-statsItem {
     margin-right: 2.25rem;
@@ -98,10 +104,11 @@
     margin-right: 0;
   }
 }
+
 .MpHeader-statsHeading {
+  color: #51575a;
   font-size: 1rem;
   font-style: italic;
-  color: #51575a;
 }
 
 .MpHeader-statsText {
@@ -109,12 +116,14 @@
   font-size: 2rem;
   text-shadow: 0 2px 0 #FFF;
 }
+
 @media (min-width: 768px) {
   .Main-statsText {
     font-size: 2.5rem;
     text-transform: none;
   }
 }
+
 .Main-subheader {
   color: #838a8e;
 }

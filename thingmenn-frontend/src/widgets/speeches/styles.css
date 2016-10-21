@@ -1,7 +1,3 @@
-.Speeches {
-  padding: 1rem;
-}
-
 .Speeches-items {
   border: 0;
   display: flex;
@@ -26,11 +22,13 @@
   color: #06ABDC;
   font-size: 2rem;
 }
+
 @media (min-width: 768px) {
   .Speeches-statsText {
     font-size: 2.5rem;
   }
 }
+
 .Speeches-statsHeading {
   color: #51575a;
   font-size: 1rem;

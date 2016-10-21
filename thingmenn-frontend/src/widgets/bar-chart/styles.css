@@ -1,8 +1,5 @@
 .Barchart {
-  background: white;
   border-top: 1px solid rgba(44, 63, 80, 0.2);
-  margin-top: 10px;
-  padding-top: 10px;
 }
 
 .Barchart-bar {
