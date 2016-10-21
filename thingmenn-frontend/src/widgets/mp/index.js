@@ -1,6 +1,8 @@
 import React from 'react'
-import './styles.css'
 
+import ListItem from '../list-item'
+import ListItemImage from '../list-item-image'
+import ListItemContent from '../list-item-content'
 import PartyBadge from '../partybadge'
 
 const Mp = ({
@@ -11,20 +13,12 @@ const Mp = ({
   partySlug
 }) => {
   return (
-    <a href={`/thingmenn/${id}`} className="Mp">
-      <div
-        className="Mp-image"
-        style={{
-          backgroundImage: `url(${imagePath})`
-        }}
-      >
+    <ListItem url={`/thingmenn/${id}`}>
+      <ListItemImage path={imagePath}>
         <PartyBadge party={partySlug}/>
-      </div>
-      <div className="Mp-content">
-        <h2 className="Mp-name">{name}</h2>
-        <p className="Mp-party">{party}</p>
-      </div>
-    </a>
+      </ListItemImage>
+      <ListItemContent title={name} description={party} />
+    </ListItem>
   )
 }
 

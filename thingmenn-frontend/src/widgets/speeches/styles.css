@@ -1,0 +1,26 @@
+.Speeches {
+  padding: 1rem;
+}
+
+.Speeches-items {
+  border: 0;
+  display: flex;
+  font-family: 'Lora', serif;
+  margin: 2rem auto;
+}
+
+.Speeches-item {
+  display: block;
+  flex: 1;
+  text-align: center;
+}
+
+.Speeches-statsText {
+  color: #06ABDC;
+  font-size: 2.5rem;
+}
+
+.Speeches-statsHeading {
+  color: #51575a;
+  font-size: 1rem;
+}

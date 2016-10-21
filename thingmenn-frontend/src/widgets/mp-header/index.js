@@ -7,8 +7,25 @@ const MpHeader = ({
   description,
   party,
   imagePath,
+  speechSummary,
+  subjectSummary,
   voteSummary,
 }) => {
+
+  let timeInStand = 0;
+  if (speechSummary && speechSummary.Samtals) {
+    let minutes = parseFloat(speechSummary.Samtals.minutes)
+    if (minutes !== 0) {
+      if (minutes <= 60) {
+        timeInStand = `${Math.round(minutes)}min`;
+      } else {
+        timeInStand = `${parseFloat(minutes/60).toFixed(1)}klst`;
+      }
+    } else {
+      timeInStand = `Aldrei`;
+    }
+  }
+
   return (
     <div className="MpHeader">
       <div className="MpHeader-details">
@@ -33,8 +50,8 @@ const MpHeader = ({
           <h1 className="MpHeader-statsHeading">Afstaða</h1>
         </div>
         <div className="MpHeader-statsItem">
-          <p className="MpHeader-statsText">{voteSummary.votePercentages.away}%</p>
-          <h1 className="MpHeader-statsHeading">Fjarverandi</h1>
+          <p className="MpHeader-statsText">{timeInStand}</p>
+          <h1 className="MpHeader-statsHeading">í Ræðustól</h1>
         </div>
       </div>
     </div>

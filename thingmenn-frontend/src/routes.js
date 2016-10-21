@@ -1,22 +1,25 @@
-import React from 'react';
-import { Router, Route, browserHistory } from 'react-router';
+import React from 'react'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import Mps from './components/mps';
-import MpDetails from './components/mp-details';
-import Parties from './components/parties';
-import PartyDetails from './components/party-details';
-import About from './components/about';
-import NotFound from './components/not-found';
+import App from './components/app'
+import Mps from './components/mps'
+import MpDetails from './components/mp-details'
+import Parties from './components/parties'
+import PartyDetails from './components/party-details'
+import About from './components/about'
+import NotFound from './components/not-found'
 
 const Routes = (props) => (
   <Router history={browserHistory}>
-    <Route path="/" component={Mps} />
-    <Route path="/thingmenn/:mpId" component={MpDetails} />
-    <Route path="/thingflokkar" component={Parties} />
-    <Route path="/thingflokkar/:partyId" component={PartyDetails} />
-    <Route path="/um" component={About} />
-    <Route path="*" component={NotFound} />
+    <Route path="/" component={App}>
+      <IndexRoute component={Mps} />
+      <Route path="/thingmenn/:mpId" component={MpDetails} />
+      <Route path="/thingflokkar" component={Parties} />
+      <Route path="/thingflokkar/:partyId" component={PartyDetails} />
+      <Route path="/um" component={About} />
+      <Route path="*" component={NotFound} />
+    </Route>
   </Router>
-);
+)
 
 export default Routes;

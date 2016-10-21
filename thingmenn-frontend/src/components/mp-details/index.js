@@ -7,6 +7,7 @@ import MpHeader from '../../widgets/mp-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
 import Words from '../../widgets/words'
+import Speeches from '../../widgets/speeches'
 import BarChart from '../../widgets/bar-chart'
 
 import './styles.css'
@@ -25,6 +26,7 @@ export default class Mps extends React.Component {
         voteSummary: {},
         votePercentages: {},
       },
+      speechSummary: {},
       subjectSummary: [],
       nouns: [],
       similarMps: [],
@@ -50,6 +52,11 @@ export default class Mps extends React.Component {
       .then(subjectSummary => this.setState({ subjectSummary }))
       .catch(error => console.log(error))
 
+    const mpSpeechUrl = `${apiUrl}/api/summary/speeches/mp/${mpId}`
+    fetchJson(mpSpeechUrl)
+      .then(speechSummary => this.setState({ speechSummary }))
+      .catch(error => console.log(error))
+
     const mpNounUrl = `${apiUrl}/api/summary/nouns/mp/${mpId}`
     fetchJson(mpNounUrl)
       .then(nouns => this.setState({ nouns }))
@@ -70,15 +77,15 @@ export default class Mps extends React.Component {
     const {
       mp,
       voteSummary,
+      speechSummary,
       subjectSummary,
       nouns,
       similarMps,
       differentMps,
     } = this.state
-
     return (
       <div>
-        <MpHeader voteSummary={voteSummary} {...mp} />
+        <MpHeader speechSummary={speechSummary} voteSummary={voteSummary} {...mp} />
 
         <div className='MpDetails'>
           <div className="MpDetails-item">
@@ -91,6 +98,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="MpDetails-item MpDetails-item--large">
+            <Speeches title="Skipting ræðutíma" speechSummary={speechSummary} />
           </div>
 
           <div className="MpDetails-item">

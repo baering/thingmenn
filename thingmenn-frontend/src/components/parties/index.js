@@ -1,6 +1,10 @@
 import React from 'react';
 import 'whatwg-fetch'
 
+import { apiUrl } from '../../config'
+import Party from '../../widgets/party'
+import List from '../../widgets/list'
+
 import './styles.css';
 
 export default class Mps extends React.Component {
@@ -13,7 +17,7 @@ export default class Mps extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:8080/api/parties')
+    fetch(`${apiUrl}/api/parties`)
       .then(response => {
         return response.json()
       })
@@ -31,14 +35,13 @@ export default class Mps extends React.Component {
     const { parties } = this.state
 
     return (
-      <div className='parties'>
-        <ul className='parties__list'>
+      <div>
+        <h1 className="title">Allir þingflokkar</h1>
+        <List>
           {parties.map(party => (
-            <li key={party.id} className='parties__list-item'>
-              <a className='parties__list-link' href={`/thingflokkar/${party.id}`}>{party.name}</a>
-            </li>
+            <Party key={party.id} {...party} />
           ))}
-        </ul>
+        </List>
       </div>
     );
   }

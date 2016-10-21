@@ -4,6 +4,7 @@ import 'whatwg-fetch'
 import { apiUrl } from '../../config'
 import Mp from '../../widgets/mp'
 import SubNav from '../../widgets/subnav'
+import List from '../../widgets/list'
 
 import './styles.css';
 
@@ -38,11 +39,11 @@ export default class Mps extends React.Component {
       <div>
         <h1 className="title">Allir þingmenn</h1>
         <SubNav />
-        <section className="Mps">
+        <List>
           {mps.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
-        </section>
+        </List>
       </div>
     );
   }
