@@ -55,6 +55,11 @@ a {
   }
 }
 
+.fill {
+  width: 100%;
+  background: #e9eef2;
+}
+
 .typcn {
   padding-left: 0;
   padding-right: 0.422rem;
