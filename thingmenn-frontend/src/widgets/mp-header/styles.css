@@ -68,17 +68,19 @@
   display: flex;
   flex: 0 1 auto;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   max-width: initial;
   margin: auto;
   padding: 2.369rem;
   border: 0;
+  background: #f8fafb;
 }
 @media (min-width: 1234px) {
   .MpHeader-stats {
     width: 50%;
     max-width: 45rem;
     border-left: 1px solid rgba(44, 63, 80, 0.2);
+    background: none;
   }
 }
 .MpHeader-statsItem {
@@ -86,12 +88,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 2.25rem;
-}
-.MpHeader-statsItem:last-child {
   margin-right: 0;
 }
-
+@media (min-width: 1234px) {
+  .MpHeader-statsItem {
+    margin-right: 2.25rem;
+  }
+  .MpHeader-statsItem:last-child {
+    margin-right: 0;
+  }
+}
 .MpHeader-statsHeading {
   font-size: 1rem;
   font-style: italic;
@@ -101,10 +107,12 @@
 .MpHeader-statsText {
   color: #06ABDC;
   font-size: 2rem;
+  text-shadow: 0 2px 0 #FFF;
 }
 @media (min-width: 768px) {
   .Main-statsText {
     font-size: 2.5rem;
+    text-transform: none;
   }
 }
 .Main-subheader {

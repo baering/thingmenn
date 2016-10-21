@@ -64,6 +64,9 @@
     border-bottom: 1px solid #313131;
     font-size: 1rem;
   }
+  .Nav-item:first-of-type:not(.is-active) {
+    border-top: 1px solid #313131;
+  }
 }
 @media (min-width: 1234px) {
   .Nav-item {
