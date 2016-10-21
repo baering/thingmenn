@@ -3,19 +3,19 @@
     "id": "bjort-framtid",
     "name": "Björt framtíð",
     "imagePath": "/images/parties/bjort-framtid.svg",
-    "about": "Björt framtíð er íslenskur stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson, sem áður hafði verið í Samfylkingunni og Framsóknarflokknum og Heiða Kristín Helgadóttir, sem hefur komið að Besta flokknum.[1] Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015"
+    "about": "Björt framtíð er íslenskur stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson og Heiða Kristín Helgadóttir. Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015."
   },
   {
     "id": "framsoknarflokkur",
     "name": "Framsóknarflokkur",
     "imagePath": "/images/parties/framsoknarflokkur.svg",
-    "about": "Framsóknarflokkurinn er íslenskur frjálslyndur félagshyggjuflokkur sem staðsetur sig á miðjunni.[1] Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi."
+    "about": "Framsóknarflokkurinn er íslenskur frjálslyndur félagshyggjuflokkur sem staðsetur sig á miðjunni. Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi."
   },
   {
     "id": "piratar",
     "name": "Píratar",
     "imagePath": "/images/parties/piratar.svg",
-    "about": "Píratar er íslenskur frjálslyndur miðjuflokkur[2], stjórnmálaflokkur stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012.[3][4] Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland)."
+    "about": "Píratar er íslenskur frjálslyndur miðjuflokkur, stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012. Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland)."
   },
   {
     "id": "samfylkingin",
@@ -28,7 +28,7 @@
     "id": "sjalfstaedisflokkur",
     "name": "Sjálfstæðisflokkur",
     "imagePath": "/images/parties/sjalfstaedisflokkur.svg",
-    "about": "Sjálfstæðisflokkurinn er íslenskur stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna. Sjálfstæðisflokkurinn er einnig sá flokkur sem státar af flestum skráðum flokksmönnum. Mestu kosningu fékk flokkurinn árið 1933 48,0% en þá verstu árið 2009 23,7% eftir bankahrunið á Íslandi haustið 2008."
+    "about": "Sjálfstæðisflokkurinn er íslenskur stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna."
   },
   {
     "id": "vinstri-hreyfingin-graent-frambod",
