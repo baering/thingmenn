@@ -9,12 +9,12 @@
 }
 @media (min-width: 768px) {
   .Nav {
+    flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     border-right: 1px solid #313131;
     width: 15rem;
-    max-width: 15rem;
     min-height: 100%;
     padding: 0;
     letter-spacing: 1px;
