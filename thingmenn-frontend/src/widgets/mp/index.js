@@ -14,7 +14,7 @@ const Mp = ({
 }) => {
   return (
     <ListItem url={`/thingmenn/${id}`}>
-      <ListItemImage path={imagePath}>
+      <ListItemImage path={imagePath} cover={true}>
         <PartyBadge party={partySlug}/>
       </ListItemImage>
       <ListItemContent title={name} />
