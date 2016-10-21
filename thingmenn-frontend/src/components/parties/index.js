@@ -35,7 +35,7 @@ export default class Mps extends React.Component {
     const { parties } = this.state
 
     return (
-      <div>
+      <div className="fill">
         <h1 className="title">Allir þingflokkar</h1>
         <List>
           {parties.map(party => (

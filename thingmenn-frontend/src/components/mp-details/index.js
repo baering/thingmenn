@@ -97,7 +97,7 @@ export default class Mps extends React.Component {
       differentMps,
     } = this.state
     return (
-      <div>
+      <div className="fill">
         <MpHeader speechSummary={speechSummary} voteSummary={voteSummary} {...mp} />
 
         <div className='MpDetails'>

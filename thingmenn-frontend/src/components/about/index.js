@@ -5,7 +5,7 @@ import './styles.css';
 export default class About extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fill">
         <h1 className="title">Um verkefnið</h1>
         <div className="About">
           <p>Markmið þessa verkefnis er að sækja hluta af því mikla magni gagna sem finna má á vef <a href="http://althingi.is">Alþingis</a>, vinna úr þeim gögnum og setja fram á skemmtilegan og fræðandi máta.</p>

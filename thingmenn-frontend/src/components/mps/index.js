@@ -30,7 +30,7 @@ export default class Mps extends React.Component {
     const { mps } = this.state
 
     return (
-      <div>
+      <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
         <SubNav />
         <List>
