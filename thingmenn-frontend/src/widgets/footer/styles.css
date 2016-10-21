@@ -1,0 +1,8 @@
+.Footer {
+  padding: 1rem 2rem;
+  background: #f8fafb;
+  border: 1px solid #e9eef2;
+  border-top: 0;
+  text-shadow: 0px 1px 0 #FFF;
+  text-align: right;
+}

@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   flex: 1 1 100%;
   background: #32394C;
   padding: 1rem;
@@ -10,6 +11,7 @@
   .Nav {
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: flex-start;
     border-right: 1px solid #313131;
     width: 18rem;
     min-height: 100%;
@@ -22,7 +24,8 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-right: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
   color: #fdfdff;
   font-family: 'Lora', serif;
   font-size: 1.777rem;
@@ -31,8 +34,9 @@
 @media (min-width: 1234px) {
   .Nav-top {
     flex-direction: column;
+    width: auto;
     height: 6rem;
-    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 .Nav-item {
