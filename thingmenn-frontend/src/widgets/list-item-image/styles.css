@@ -1,0 +1,17 @@
+.ListItemImage {
+  position: relative;
+  width: 100%;
+  padding-bottom: 110%;
+  margin: auto;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  transition: background-size 0.1s ease-out, opacity 0.25s ease-out;
+  cursor: pointer;
+}
+
+.ListItemImage:hover {
+  background-size: 105%;
+  opacity: 1;
+}
