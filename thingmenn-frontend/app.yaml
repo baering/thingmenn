@@ -31,7 +31,7 @@ handlers:
   expiration: "7d"
 
 - url: /(.*\.(svg|svgz))
-  mime_type: images/svg+xml
+  mime_type: image/svg+xml
   static_files: build/\1
   upload: build/(.*\.(svg|svgz))
 
