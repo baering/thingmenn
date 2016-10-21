@@ -3,6 +3,12 @@ import 'whatwg-fetch'
 
 import { apiUrl } from '../../config'
 
+import DetailsHeader from '../../widgets/details-header'
+import Piechart from '../../widgets/piechart'
+import ColorLegend from '../../widgets/color-legend'
+import Words from '../../widgets/words'
+
+
 import './styles.css';
 
 function fetchJson(url) {
@@ -57,63 +63,20 @@ export default class Mps extends React.Component {
     const { party, voteSummary, nouns } = this.state
 
     return (
-      <div className='party-details'>
-        <div className='party-details__introduction party-details__section'>
-          <div className='party-details__introduction-text'>
-            <h1 className='party-details__introduction-name heading'>{party.name}</h1>
-            <h2 className='party-details__introduction-party text'>{party.party}</h2>
+      <div className="fill">
+        <DetailsHeader voteSummary={voteSummary} {...party} />
+
+        <div className='Details'>
+          <div className="Details-item">
+          <h1 className="heading">Skipting atkvæða</h1>
+            <Piechart voteSummary={voteSummary} />
+            <ColorLegend/>
+          </div>
+
+          <div className="Details-item">
+            <Words title="Mest talað um" words={nouns} />
           </div>
         </div>
-
-        <div className='party-details__votes party-details__section'>
-          <h2 className='heading'>Yfirlit atkvæða</h2>
-          <ul>
-            <li className='text'>{voteSummary.voteSummary.numberOfVotes} Atkvæði</li>
-            <li className='text'>{voteSummary.votePercentages.standsTaken}% Afstaða tekin</li>
-            <li className='text'>{voteSummary.votePercentages.idle}% Hlutleysi</li>
-            <li className='text'>{voteSummary.votePercentages.away}% Fjarverandi</li>
-          </ul>
-        </div>
-
-        <div className='party-details__nouns party-details__section'>
-          <h3 className='heading'>Mest talað um</h3>
-          <ul>
-            {nouns.slice(0, 10).map(noun => (
-              <div className='text' key={noun.noun}>
-                <strong>{noun.noun}</strong>: {noun.occurance} skipti
-              </div>
-            ))}
-          </ul>
-        </div>
-
-        {/* <div className='party-details__subjects party-details__section'>
-          <h3 className='heading'>Mest afstaða</h3>
-          <ul>
-            {subjectSummary.standsTaken.slice(0, 8).map(subject => (
-              <div className='text' key={subject.word}>
-                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-              </div>
-            ))}
-          </ul>
-
-          <h3 className='heading'>Mest hlutleysi</h3>
-          <ul>
-            {subjectSummary.idle.slice(0, 8).map(subject => (
-              <div className='text' key={subject.word}>
-                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-              </div>
-            ))}
-          </ul>
-
-          <h3 className='heading'>Mest fjarverandi</h3>
-          <ul>
-            {subjectSummary.away.slice(0, 8).map(subject => (
-              <div className='text' key={subject.word}>
-                <strong>{subject.word}</strong>: {subject.occurance} ({subject.occuranceRatio}%)
-              </div>
-            ))}
-          </ul>
-        </div> */}
       </div>
     );
   }

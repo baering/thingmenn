@@ -1,4 +1,4 @@
-.MpHeader {
+.DetailsHeader {
   background: white;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
   display: flex;
@@ -9,12 +9,12 @@
 }
 
 @media (min-width: 1234px) {
-  .MpHeader {
+  .DetailsHeader {
     margin: 0;
   }
 }
 
-.MpHeader-image {
+.DetailsHeader-image {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
   max-width: 150px;
 }
 
-.MpHeader-details {
+.DetailsHeader-details {
   border-bottom: 1px solid #d4d8dc;
   display: flex;
   flex: 1 1 100%;
@@ -34,19 +34,19 @@
 }
 
 @media (min-width: 1234px) {
-  .MpHeader {
+  .DetailsHeader {
     flex-wrap: nowrap;
   }
-  .MpHeader-details {
+  .DetailsHeader-details {
     flex: 0 1 auto;
     border-bottom: 0;
   }
-  .MpHeader-bioText {
+  .DetailsHeader-bioText {
     font-size: 1.333rem;
   }
 }
 
-.MpHeader-bio {
+.DetailsHeader-bio {
   display: flex;
   flex-direction: column;
   flex: 0 1 auto;
@@ -54,12 +54,12 @@
   padding: 1rem;
 }
 
-.MpHeader-bioName {
+.DetailsHeader-bioName {
   font-size: 1.333rem;
   margin-bottom: 0.2rem;
 }
 
-.MpHeader-bioText {
+.DetailsHeader-bioText {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -67,7 +67,7 @@
 }
 
 
-.MpHeader-stats {
+.DetailsHeader-stats {
   background: #f8fafb;
   border: 0;
   display: flex;
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 1234px) {
-  .MpHeader-stats {
+  .DetailsHeader-stats {
     background: none;
     border-left: 1px solid rgba(44, 63, 80, 0.2);
     max-width: 45rem;
@@ -88,7 +88,7 @@
   }
 }
 
-.MpHeader-statsItem {
+.DetailsHeader-statsItem {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -97,21 +97,21 @@
 }
 
 @media (min-width: 1234px) {
-  .MpHeader-statsItem {
+  .DetailsHeader-statsItem {
     margin-right: 2.25rem;
   }
-  .MpHeader-statsItem:last-child {
+  .DetailsHeader-statsItem:last-child {
     margin-right: 0;
   }
 }
 
-.MpHeader-statsHeading {
+.DetailsHeader-statsHeading {
   color: #51575a;
   font-size: 1rem;
   font-style: italic;
 }
 
-.MpHeader-statsText {
+.DetailsHeader-statsText {
   color: #06ABDC;
   font-size: 2rem;
   text-shadow: 0 2px 0 #FFF;
