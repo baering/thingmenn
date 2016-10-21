@@ -30,6 +30,7 @@
 }
 
 .ListItem[href^='/thingflokkar/'] > .ListItemImage {
+  padding-bottom: 100%;
   background-size: 80%;
 }
 

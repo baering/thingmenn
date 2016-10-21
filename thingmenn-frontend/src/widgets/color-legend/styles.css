@@ -1,8 +1,14 @@
 .Colors {
   display: flex;
 }
-
-.Colors div{
+@media (min-width: 768px) {
+  .Colors {
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+}
+.Colors div {
   flex: 1;
   text-align: center;
 }

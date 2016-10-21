@@ -1,18 +1,52 @@
 .Barchart {
-  border-top: 1px solid rgba(44, 63, 80, 0.2);
+  display: flex;
+  background: rgba(0,0,0,0.04);
+  margin-top: 7px;
+  padding: 4px 0;
+  margin-bottom: 7px;
+  flex-wrap: wrap;
 }
 
+@media (min-width: 568px) {
+  .Barchart-bar  {
+    flex-wrap: nowrap;
+    flex: 70%;
+  }
+}
+
+.Barchart:nth-child(even) {
+  background: none;
+}
 .Barchart-bar {
   display: flex;
+  align-items: center;
   font-size: 0.9rem;
+  flex: 1 1 100%;
+}
+
+@media (min-width: 568px) {
+  .Barchart-bar  {
+    flex: 70%;
+  }
+}
+
+.Barchart-topic {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 568px) {
+  .Barchart-topic  {
+    flex: 30%;
+    padding-left: 0.5rem;
+  }
 }
 
 .Barchart-bar .Barchart-segment {
   color: #FFF;
   display: block;
-  font-size: 12px;
-  height: 16px;
-  line-height: 16px;
+  font-size: 0.8rem;
+  height: 1.466rem;
+  line-height: 1.466rem;
   text-align: center;
 }
 
@@ -26,17 +60,4 @@
 
 .Barchart-segment.Barchart--away {
   background-color: salmon;
-}
-
-@media (min-width: 1234px) {
-  .Barchart {
-    display: flex;
-  }
-  .Barchart .Barchart-topic  {
-    flex: 4;
-  }
-  .Barchart .Barchart-bar  {
-    flex: 70%;
-    margin-top: 3px;
-  }
 }
