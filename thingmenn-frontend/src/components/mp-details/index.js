@@ -4,7 +4,7 @@ import MpService from '../../services/mp-service'
 import MpSummaryService from '../../services/mp-summary-service'
 
 import ColorLegend from '../../widgets/color-legend'
-import MpHeader from '../../widgets/mp-header'
+import DetailsHeader from '../../widgets/details-header'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
 import Words from '../../widgets/words'
@@ -98,24 +98,24 @@ export default class Mps extends React.Component {
     } = this.state
     return (
       <div className="fill">
-        <MpHeader speechSummary={speechSummary} voteSummary={voteSummary} {...mp} />
+        <DetailsHeader speechSummary={speechSummary} voteSummary={voteSummary} {...mp} />
 
-        <div className='MpDetails'>
-          <div className="MpDetails-item">
+        <div className='Details'>
+          <div className="Details-item">
           <h1 className="heading">Skipting atkvæða</h1>
             <Piechart voteSummary={voteSummary} />
             <ColorLegend/>
           </div>
 
-          <div className="MpDetails-item">
+          <div className="Details-item">
             <Words title="Mest talað um" words={nouns} />
           </div>
 
-          <div className="MpDetails-item MpDetails-item--large">
+          <div className="Details-item Details-item--large">
             <Speeches title="Skipting ræðutíma" speechSummary={speechSummary} />
           </div>
 
-          <div className="MpDetails-item">
+          <div className="Details-item">
             <Friends
               title="Samherjar"
               subTitle="Eins greidd atkvæði"
@@ -124,7 +124,7 @@ export default class Mps extends React.Component {
             />
           </div>
 
-          <div className="MpDetails-item">
+          <div className="Details-item">
             <Friends
               title="Mótherjar"
               subTitle="Ólík greidd atkvæði"
@@ -132,7 +132,7 @@ export default class Mps extends React.Component {
             />
           </div>
 
-          <div className="MpDetails-item MpDetails-item--large">
+          <div className="Details-item Details-item--large">
             <h1 className='heading'>Atkvæðaskipting eftir efnisflokkum</h1>
             <ColorLegend/>
             {subjectSummary.map(subject => (
