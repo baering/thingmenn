@@ -7,9 +7,9 @@ const ListItemContent = ({
 }) => {
   return (
     <div className="ListItemContent">
-      <h2 className="ListItemContent-name">{title}</h2>
+      <h2 className="ListItemContent-content">{title}</h2>
       {description ?
-        <p className="ListItemContent-party">{description}</p>
+        <p className="ListItemContent-description">{description}</p>
         : null}
     </div>
   )
