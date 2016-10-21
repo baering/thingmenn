@@ -1,20 +1,15 @@
 import 'whatwg-fetch'
 
-let instance = null
 const timeToFlushCache = 30 * 3600 // 30 minutes
 
 class CacheService {
   constructor() {
-    if (!instance) {
-      instance = this
-      instance.cache = {}
-    }
-    return instance
+    this.cache = {}
   }
 
   fetchData(url) {
     return new Promise((resolve, reject) => {
-      const cached = instance.getKeyFromCache[url]
+      const cached = this.getKeyFromCache[url]
       if (cached) {
         resolve(cached)
       } else {
@@ -22,7 +17,7 @@ class CacheService {
           .then(response => {
             return response.json()
           }).then(jsonData => {
-            instance.setKeyToCache(url, jsonData)
+            this.setKeyToCache(url, jsonData)
             resolve(jsonData)
           })
       }
@@ -30,7 +25,7 @@ class CacheService {
   }
 
   getKeyFromCache(key) {
-    const cached = instance.cache[key]
+    const cached = this.cache[key]
     if (cached) {
       const now = new Date().getTime()
       const diff = now - cached.time
@@ -39,7 +34,7 @@ class CacheService {
         return cached.data
       } else {
         console.log(`Cache flush: ${key} | diff is ${diff}`)
-        instance.cache[key] = undefined
+        this.cache[key] = undefined
       }
     } else {
       console.log(`Cache miss: ${key}`)
@@ -50,7 +45,7 @@ class CacheService {
   setKeyToCache(key, data) {
     const time = new Date().getTime()
     console.log(`Cache insert: ${key} | time is ${time}`)
-    instance.cache[key] = {
+    this.cache[key] = {
       time,
       data,
     }

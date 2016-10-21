@@ -6,6 +6,7 @@ let instance = null
 class MpService extends CacheService {
   constructor() {
     super()
+
     if (!instance) {
       instance = this
     }
@@ -52,8 +53,8 @@ class MpService extends CacheService {
   getSimilarMps(mpId) {
     const url = `${apiUrl}/api/mps/${mpId}/similar`
     return new Promise((resolve, reject) => {
-      instance.fetchData(url).then(mp => {
-        resolve(mp)
+      instance.fetchData(url).then(similarMps => {
+        resolve(similarMps)
       }).catch(error => reject(error))
     })
   }
@@ -67,8 +68,8 @@ class MpService extends CacheService {
   getDifferentMps(mpId) {
     const url = `${apiUrl}/api/mps/${mpId}/different`
     return new Promise((resolve, reject) => {
-      instance.fetchData(url).then(mp => {
-        resolve(mp)
+      instance.fetchData(url).then(differentMps => {
+        resolve(differentMps)
       }).catch(error => reject(error))
     })
   }
