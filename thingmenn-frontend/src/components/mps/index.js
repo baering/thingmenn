@@ -5,9 +5,9 @@ import Mp from '../../widgets/mp'
 import SubNav from '../../widgets/subnav'
 import List from '../../widgets/list'
 
-import './styles.css';
+import './styles.css'
 
-let searchString = ''
+let searchInput = ''
 
 export default class Mps extends React.Component {
   constructor(props) {
@@ -21,15 +21,16 @@ export default class Mps extends React.Component {
   }
 
   handleSearchInput = (evt) => {
-    searchString = evt.target.value
+    searchInput = evt.target.value
     this.setState({
-      searchInput: searchString
+      searchInput
     })
   }
 
   searchFilter(mp) {
-    if (searchString.length) {
-      return (mp.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1)
+    const { searchInput } = this.state
+    if (searchInput) {
+      return (mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1)
     }
     return mp
   }
@@ -49,7 +50,7 @@ export default class Mps extends React.Component {
   setSorting(props) {
     const { query } = props.location
     const sortByParty = query.rada === 'flokkar'
-    this.setState({ sortByParty })
+    this.setState({ sortByParty, searchInput })
   }
 
   sortItem(mp1, mp2) {
@@ -60,9 +61,9 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { mps, searchInput, sortByParty } = this.state
+    const { mps, sortByParty } = this.state
 
-    const items = mps.filter(this.searchFilter)
+    const items = mps.filter(this.searchFilter.bind(this))
         .sort(this.sortItem.bind(this))
 
     return (
