@@ -1,5 +1,6 @@
 .ListItemImage {
   overflow: hidden;
+  position: relative;
 }
 
 .ListItemImage-image {
@@ -12,6 +13,7 @@
   background-repeat: no-repeat;
   opacity: 0.8;
   transition: transform 0.1s ease-out, opacity 0.25s ease-out;
+  transform: translateZ(0);
   cursor: pointer;
 }
 
@@ -20,6 +22,6 @@
 }
 
 .ListItemImage-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateZ(0);
   opacity: 1;
 }

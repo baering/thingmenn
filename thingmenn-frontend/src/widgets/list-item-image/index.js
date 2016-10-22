@@ -19,8 +19,8 @@ const ListItemImage = ({
           backgroundImage: `url(${path})`
         }}
       >
-        {children}
       </div>
+      {children}
     </div>
   )
 }
