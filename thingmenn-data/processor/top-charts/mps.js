@@ -32,7 +32,7 @@ function getTopStandsTaken() {
   }).map(mp => {
     return {
       mp,
-      standsTaken: getMpAttendance(mp)
+      standsTaken: getMpStandsTaken(mp)
     }
   })
 }
