@@ -103,33 +103,19 @@ export default function createVoteSummary() {
 
       mpSimilarVotes[mp.mpId] = {}
 
-      mpVoteLog[mp.mpId] = {}
+      if (!mpVoteLog[mp.mpId]) {
+        mpVoteLog[mp.mpId] = {}
+      }
 
       mp.votes.forEach(voteTopic => {
-        const topicId = `${term.lthing}-${voteTopic.id}`
+
         voteTopic.votes.forEach(vote => {
           const voteType = vote.vote
 
-          const voteIdentifier = `${topicId}-${vote.proposalUrl}`
-          mpVoteLog[mp.mpId][voteIdentifier] = voteType
+          const propsalId = vote.proposalUrl.replace('/thingstorf/thingmalin/atkvaedagreidsla/?nnafnak=', '')
+          const voteIdentifier = `${term.lthing}-${propsalId}`
 
-          // const mpTookStand = (
-          //   (voteType === 'já') ||
-          //   (voteType === 'nei') ||
-          //   (voteType === 'greiðir ekki atkvæði')
-          // )
-          //
-          // if (mpTookStand) {
-          //   reducedLookup[topicId].proposals[vote.proposalUrl][voteType].forEach(voterId => {
-          //     if (voterId !== mp.mpId) {
-          //       if (!mpSimilarVotes[mp.mpId][voterId]) {
-          //         mpSimilarVotes[mp.mpId][voterId] = 0
-          //       }
-          //
-          //       mpSimilarVotes[mp.mpId][voterId] += 1
-          //     }
-          //   })
-          // }
+          mpVoteLog[mp.mpId][voteIdentifier] = voteType
 
           mpVoteSummary[mp.mpId].voteSummary.numberOfVotes += 1
           if (!mpVoteSummary[mp.mpId].voteTypes[voteType]) {
@@ -285,6 +271,7 @@ export default function createVoteSummary() {
   mps.forEach(mp => {
     const voteLog = mpVoteLog[mp.id]
     const voteIdentifiers = Object.keys(voteLog)
+
     const similar = {}
     const different = {}
 
