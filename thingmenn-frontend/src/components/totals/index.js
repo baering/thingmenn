@@ -1,7 +1,7 @@
 import React from 'react';
 
 import totalsService from '../../services/totals-service'
-import { formatPercentage } from '../../utils'
+import { formatPercentage, formatTime } from '../../utils'
 
 import Friends from '../../widgets/friends'
 
@@ -14,6 +14,8 @@ export default class Totals extends React.Component {
       bottomMpsAttendance: [],
       topMpsStands: [],
       bottomMpsStands: [],
+      topMpMinutesTalked: [],
+      bottomMpMinutesTalked: [],
     }
   }
 
@@ -37,10 +39,27 @@ export default class Totals extends React.Component {
       .then(bottomMpsStands => {
         this.setState({ bottomMpsStands })
       })
+
+    totalsService.getTopMpsMinutes()
+      .then(topMpMinutesTalked => {
+        this.setState({ topMpMinutesTalked })
+      })
+
+    totalsService.getBottomMpsMinutes()
+      .then(bottomMpMinutesTalked => {
+        this.setState({ bottomMpMinutesTalked })
+      })
   }
 
   render() {
-    const { topMpsAttendance, bottomMpsAttendance, topMpsStands, bottomMpsStands } = this.state
+    const {
+      topMpsAttendance,
+      bottomMpsAttendance,
+      topMpsStands,
+      bottomMpsStands,
+      topMpMinutesTalked,
+      bottomMpMinutesTalked,
+    } = this.state
 
     return (
       <div className="fill">
@@ -81,6 +100,24 @@ export default class Totals extends React.Component {
               friends={bottomMpsStands}
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.standsTaken)}
+            />
+          </div>
+          <div className="Details-item">
+            <Friends
+              title="Mest í ræðustól"
+              subTitle="Tími"
+              friends={topMpMinutesTalked}
+              icon={false}
+              valueFormatter={(friend) => formatTime(friend.minutesTalked)}
+            />
+          </div>
+          <div className="Details-item">
+            <Friends
+              title="Minnst í ræðustól"
+              subTitle="Tími"
+              friends={bottomMpMinutesTalked}
+              icon={false}
+              valueFormatter={(friend) => formatTime(friend.minutesTalked)}
             />
           </div>
         </div>
