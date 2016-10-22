@@ -391,19 +391,6 @@
 	},
 	{
 		"mp": {
-			"id": "650",
-			"name": "Birgir Ármannsson",
-			"slug": "birgir_armannsson",
-			"party": "Sjálfstæðisflokkur",
-			"partySlug": "sjalfstaedisflokkur",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2003–2013, alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
-		},
-		"attendance": 85.12
-	},
-	{
-		"mp": {
 			"id": "1167",
 			"name": "Jóhanna María Sigmundsdóttir",
 			"slug": "johanna_maria_sigmundsdottir",
@@ -412,6 +399,19 @@
 			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
 			"isSubstitute": false,
 			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"attendance": 85.12
+	},
+	{
+		"mp": {
+			"id": "650",
+			"name": "Birgir Ármannsson",
+			"slug": "birgir_armannsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2003–2013, alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
 		},
 		"attendance": 85.12
 	},
@@ -648,19 +648,6 @@
 			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Björt framtíð)."
 		},
 		"attendance": 74.53
-	},
-	{
-		"mp": {
-			"id": "683",
-			"name": "Guðbjartur Hannesson",
-			"slug": "gudbjartur_hannesson",
-			"party": "Samfylkingin",
-			"partySlug": "samfylkingin",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Norðvesturkjördæmis 2007–2015 (Samfylkingin)."
-		},
-		"attendance": 73.69
 	},
 	{
 		"mp": {
