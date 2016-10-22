@@ -53,7 +53,7 @@ const chartConfig = (voteSummary) => {
         name: 'Afstöðuleysi',
         y: parseFloat(voteSummary.votePercentages.idle)
       }, {
-        amount: parseInt(voteSummary.voteSummary.numberOfAway, 10),
+        amount: parseInt(voteSummary.voteSummary.numberOfAbsent, 10),
         color: '#DD673C',
         name: 'Fjarvist',
         y: parseFloat(voteSummary.votePercentages.absent)
