@@ -23,6 +23,7 @@
 }
 .PartyBadge[data-party="bjort-framtid"] {
   background-size: 60%;
+  background-position: 50% 60%;
 }
 .PartyBadge[data-party="vinstri-hreyfingin-graent-frambod"] {
   background-size: 65%;
