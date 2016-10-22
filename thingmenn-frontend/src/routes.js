@@ -21,7 +21,6 @@ function onRouterUpdate() {
 
   if (navigatingToNewPath) {
     analytics.pageview(pathname)
-    console.log('New path, sent page view')
   }
 
   if (action === 'PUSH' && navigatingToNewPath) {
