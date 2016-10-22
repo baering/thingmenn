@@ -52,6 +52,16 @@
   text-align: right;
 }
 
+.Friends-list a {
+  color: #068AB1;
+}
+
+@media (min-width: 768px) {
+  .Friends-list a:hover {
+    text-decoration: underline;
+  }
+}
+
 .Friends-badge {
   display: inline-block;
   vertical-align: middle;

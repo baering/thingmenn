@@ -42,10 +42,11 @@
 .Barchart-bar .Barchart-segment {
   color: #FFF;
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   height: 1.466rem;
   line-height: 1.466rem;
   text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .Barchart-segment.Barchart--standsTaken {

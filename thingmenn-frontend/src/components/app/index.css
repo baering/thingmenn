@@ -84,5 +84,11 @@ a {
 }
 
 .u-link {
-  color: #06ABDC;
+  color: #068AB1;
+}
+
+@media (min-width: 768px) {
+  .u-link:hover {
+    text-decoration: underline;
+  }
 }
