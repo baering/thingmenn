@@ -8,9 +8,14 @@
 
 .About p {
   max-width: 50em;
-  padding: 1rem;
+  margin: 1rem;
   color: #333;
   line-height: 1.75;
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.About h2 {
+  font-size: 1.333rem;
+  margin: 1rem;
 }
