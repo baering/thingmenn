@@ -28,8 +28,13 @@ function createOccuranceMaps() {
 
   allVotesForTerm.forEach(term => {
     term.votes.forEach(mpVotes => {
-      subjectOccuranceMap[mpVotes.mpId] = {}
-      tagOccuranceMap[mpVotes.mpId] = {}
+      if (!subjectOccuranceMap[mpVotes.mpId]) {
+        subjectOccuranceMap[mpVotes.mpId] = {}
+      }
+
+      if (!tagOccuranceMap[mpVotes.mpId]) {
+        tagOccuranceMap[mpVotes.mpId] = {}
+      }
 
       mpVotes.votes.forEach(voteTopic => {
         const topicId = voteTopic.id
