@@ -1,0 +1,834 @@
+[
+	{
+		"mp": {
+			"id": "557",
+			"name": "Steingrímur J. Sigfússon",
+			"slug": "steingrimur_j_sigfusson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/557/557-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðurlands eystra 1983–2003 (Alþýðubandalagið, óháðir, Vinstri hreyfingin – grænt framboð), alþingismaður Norðausturkjördæmis síðan 2003 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 5753.700000000001
+	},
+	{
+		"mp": {
+			"id": "1012",
+			"name": "Bjarkey Olsen Gunnarsdóttir",
+			"slug": "bjarkey_olsen_gunnarsdottir",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1012/1012-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 5092.77
+	},
+	{
+		"mp": {
+			"id": "631",
+			"name": "Össur Skarphéðinsson",
+			"slug": "ossur_skarphedinsson",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/631/631-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykvíkinga 1991–2003 (Alþýðuflokkur, þingflokkur jafnaðarmanna, Samfylkingin), alþingismaður Reykjavíkurkjördæmis norður 2003–2009, alþingismaður Reykjavíkurkjördæmis suður 2009–2013,  alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Samfylkingin)."
+		},
+		"minutesTalked": 4396.83
+	},
+	{
+		"mp": {
+			"id": "714",
+			"name": "Lilja Rafney Magnúsdóttir",
+			"slug": "lilja_rafney_magnusdottir",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/714/714-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 4034.7200000000003
+	},
+	{
+		"mp": {
+			"id": "652",
+			"name": "Bjarni Benediktsson",
+			"slug": "bjarni_benediktsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/652/652-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2003 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 3750.05
+	},
+	{
+		"mp": {
+			"id": "690",
+			"name": "Katrín Jakobsdóttir",
+			"slug": "katrin_jakobsdottir",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/690/690-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2007 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 3711.29
+	},
+	{
+		"mp": {
+			"id": "678",
+			"name": "Árni Páll Árnason",
+			"slug": "arni_pall_arnason",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/678/678-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Samfylkingin)."
+		},
+		"minutesTalked": 3560.01
+	},
+	{
+		"mp": {
+			"id": "1166",
+			"name": "Helgi Hrafn Gunnarsson",
+			"slug": "helgi_hrafn_gunnarsson",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1166/1166-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Píratar)."
+		},
+		"minutesTalked": 3529.29
+	},
+	{
+		"mp": {
+			"id": "712",
+			"name": "Sigríður Ingibjörg Ingadóttir",
+			"slug": "sigridur_ingibjorg_ingadottir",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/712/712-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Samfylkingin)."
+		},
+		"minutesTalked": 3127.59
+	},
+	{
+		"mp": {
+			"id": "730",
+			"name": "Svandís Svavarsdóttir",
+			"slug": "svandis_svavarsdottir",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/730/730-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 3044.16
+	},
+	{
+		"mp": {
+			"id": "705",
+			"name": "Valgerður Bjarnadóttir",
+			"slug": "valgerdur_bjarnadottir",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/705/705-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2009 (Samfylkingin)."
+		},
+		"minutesTalked": 2919.62
+	},
+	{
+		"mp": {
+			"id": "658",
+			"name": "Helgi Hjörvar",
+			"slug": "helgi_hjorvar",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/658/658-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2003–2013, alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Samfylkingin)."
+		},
+		"minutesTalked": 2884.2000000000003
+	},
+	{
+		"mp": {
+			"id": "719",
+			"name": "Oddný G. Harðardóttir",
+			"slug": "oddny_g_hardardottir",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/719/719-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Samfylkingin)."
+		},
+		"minutesTalked": 2876.7799999999997
+	},
+	{
+		"mp": {
+			"id": "396",
+			"name": "Kristján L. Möller",
+			"slug": "kristjan_l_moller",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/396/396-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðurlands vestra 1999–2003, alþingismaður Norðausturkjördæmis síðan 2003 (Samfylkingin)."
+		},
+		"minutesTalked": 2677.94
+	},
+	{
+		"mp": {
+			"id": "660",
+			"name": "Katrín Júlíusdóttir",
+			"slug": "katrin_juliusdottir",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/660/660-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2003 (Samfylkingin)."
+		},
+		"minutesTalked": 2619.5
+	},
+	{
+		"mp": {
+			"id": "1031",
+			"name": "Steinunn Þóra Árnadóttir",
+			"slug": "steinunn_thora_arnadottir",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1031/1031-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2014 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 2601.74
+	},
+	{
+		"mp": {
+			"id": "630",
+			"name": "Ögmundur Jónasson",
+			"slug": "ogmundur_jonasson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/630/630-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykvíkinga 1995–2003 (Alþýðubandalagið og óháðir, Óháðir, Vinstri hreyfingin – grænt framboð), alþingismaður Reykjavíkurkjördæmis suður 2003–2007, alþingismaður Suðvesturkjördæmis síðan 2007 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 2319.3500000000004
+	},
+	{
+		"mp": {
+			"id": "728",
+			"name": "Birgitta Jónsdóttir",
+			"slug": "birgitta_jonsdottir",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/728/728-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2009–2013 (Borgarahreyfingin, Hreyfingin), alþingismaður Suðvesturkjördæmis síðan 2013 (Píratar)."
+		},
+		"minutesTalked": 2308.49
+	},
+	{
+		"mp": {
+			"id": "704",
+			"name": "Guðmundur Steingrímsson",
+			"slug": "gudmundur_steingrimsson",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/704/704-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis 2009–2013 (Framsóknarflokkur, utan flokka), alþingismaður Suðvesturkjördæmis síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 2255.58
+	},
+	{
+		"mp": {
+			"id": "656",
+			"name": "Guðlaugur Þór Þórðarson",
+			"slug": "gudlaugur_thor_thordarson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/656/656-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2003–2009, alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 2112.87
+	},
+	{
+		"mp": {
+			"id": "683",
+			"name": "Guðbjartur Hannesson",
+			"slug": "gudbjartur_hannesson",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis 2007–2015 (Samfylkingin)."
+		},
+		"minutesTalked": 2082.7200000000003
+	},
+	{
+		"mp": {
+			"id": "1159",
+			"name": "Brynhildur Pétursdóttir",
+			"slug": "brynhildur_petursdottir",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1159/1159-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 2016.8400000000001
+	},
+	{
+		"mp": {
+			"id": "1178",
+			"name": "Willum Þór Þórsson",
+			"slug": "willum_thor_thorsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1178/1178-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1830.51
+	},
+	{
+		"mp": {
+			"id": "708",
+			"name": "Róbert Marshall",
+			"slug": "robert_marshall",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/708/708-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis 2009–2013 (Samfylkingin, utan flokka), alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 1734.42
+	},
+	{
+		"mp": {
+			"id": "687",
+			"name": "Illugi Gunnarsson",
+			"slug": "illugi_gunnarsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/687/687-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2007–2009, alþingismaður Reykjavíkurkjördæmis norður síðan 2009 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 1442.85
+	},
+	{
+		"mp": {
+			"id": "726",
+			"name": "Sigurður Ingi Jóhannsson",
+			"slug": "sigurdur_ingi_johannsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/726/726-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1421.12
+	},
+	{
+		"mp": {
+			"id": "703",
+			"name": "Eygló Harðardóttir",
+			"slug": "eyglo_hardardottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/703/703-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis 2008–2013, alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1340.23
+	},
+	{
+		"mp": {
+			"id": "1172",
+			"name": "Páll Valur Björnsson",
+			"slug": "pall_valur_bjornsson",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1172/1172-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 1238.8899999999999
+	},
+	{
+		"mp": {
+			"id": "706",
+			"name": "Vigdís Hauksdóttir",
+			"slug": "vigdis_hauksdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/706/706-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2009 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1176.1100000000001
+	},
+	{
+		"mp": {
+			"id": "686",
+			"name": "Höskuldur Þórhallsson",
+			"slug": "hoskuldur_thorhallsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/686/686-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2007 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1108.33
+	},
+	{
+		"mp": {
+			"id": "1162",
+			"name": "Frosti Sigurjónsson",
+			"slug": "frosti_sigurjonsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1162/1162-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1054.62
+	},
+	{
+		"mp": {
+			"id": "1171",
+			"name": "Óttarr Proppé",
+			"slug": "ottarr_proppe",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1171/1171-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 1049.95
+	},
+	{
+		"mp": {
+			"id": "729",
+			"name": "Sigmundur Davíð Gunnlaugsson",
+			"slug": "sigmundur_david_gunnlaugsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/729/729-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2009–2013, alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 1015.47
+	},
+	{
+		"mp": {
+			"id": "693",
+			"name": "Ragnheiður E. Árnadóttir",
+			"slug": "ragnheidur_e_arnadottir",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/693/693-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis 2007–2009, alþingismaður Suðurkjördæmis síðan 2009 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 1006.47
+	},
+	{
+		"mp": {
+			"id": "721",
+			"name": "Unnur Brá Konráðsdóttir",
+			"slug": "unnur_bra_konradsdottir",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/721/721-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2009 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 1000.79
+	},
+	{
+		"mp": {
+			"id": "1158",
+			"name": "Björt Ólafsdóttir",
+			"slug": "bjort_olafsdottir",
+			"party": "Björt framtíð",
+			"partySlug": "bjort-framtid",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1158/1158-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Björt framtíð)."
+		},
+		"minutesTalked": 977.3800000000001
+	},
+	{
+		"mp": {
+			"id": "1163",
+			"name": "Hanna Birna Kristjánsdóttir",
+			"slug": "hanna_birna_kristjansdottir",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1163/1163-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 974.3100000000001
+	},
+	{
+		"mp": {
+			"id": "688",
+			"name": "Jón Gunnarsson",
+			"slug": "jon_gunnarsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 963.36
+	},
+	{
+		"mp": {
+			"id": "1179",
+			"name": "Þorsteinn Sæmundsson",
+			"slug": "thorsteinn_saemundsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1179/1179-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 951.16
+	},
+	{
+		"mp": {
+			"id": "722",
+			"name": "Gunnar Bragi Sveinsson",
+			"slug": "gunnar_bragi_sveinsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/722/722-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 926.76
+	},
+	{
+		"mp": {
+			"id": "1161",
+			"name": "Elsa Lára Arnardóttir",
+			"slug": "elsa_lara_arnardottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1161/1161-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 890.48
+	},
+	{
+		"mp": {
+			"id": "715",
+			"name": "Ólína Kjerúlf Þorvarðardóttir",
+			"slug": "olina_kjerulf_thorvardardottir",
+			"party": "Samfylkingin",
+			"partySlug": "samfylkingin",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/715/715-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis 2009–2013 og síðan 2015 (Samfylkingin)."
+		},
+		"minutesTalked": 883.6500000000001
+	},
+	{
+		"mp": {
+			"id": "1214",
+			"name": "Ásta Guðrún Helgadóttir",
+			"slug": "asta_gudrun_helgadottir",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1214/1214-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2015."
+		},
+		"minutesTalked": 848.86
+	},
+	{
+		"mp": {
+			"id": "691",
+			"name": "Kristján Þór Júlíusson",
+			"slug": "kristjan_thor_juliusson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/691/691-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 812.6200000000001
+	},
+	{
+		"mp": {
+			"id": "1173",
+			"name": "Páll Jóhann Pálsson",
+			"slug": "pall_johann_palsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1173/1173-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 809.0600000000001
+	},
+	{
+		"mp": {
+			"id": "1177",
+			"name": "Vilhjálmur Bjarnason",
+			"slug": "vilhjalmur_bjarnason",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1177/1177-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 780.28
+	},
+	{
+		"mp": {
+			"id": "650",
+			"name": "Birgir Ármannsson",
+			"slug": "birgir_armannsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2003–2013, alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 775.1300000000001
+	},
+	{
+		"mp": {
+			"id": "934",
+			"name": "Sigrún Magnúsdóttir",
+			"slug": "sigrun_magnusdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/934/934-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 752.25
+	},
+	{
+		"mp": {
+			"id": "124",
+			"name": "Einar K. Guðfinnsson",
+			"slug": "einar_k_gudfinnsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/124/124-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Vestfjarða 1991–2003, alþingismaður Norðvesturkjördæmis síðan 2003 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 659.6
+	},
+	{
+		"mp": {
+			"id": "694",
+			"name": "Ragnheiður Ríkharðsdóttir",
+			"slug": "ragnheidur_rikhardsdottir",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/694/694-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 657.42
+	},
+	{
+		"mp": {
+			"id": "1018",
+			"name": "Sigríður Á. Andersen",
+			"slug": "sigridur_a_andersen",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1018/1018-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2015 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 629
+	},
+	{
+		"mp": {
+			"id": "1157",
+			"name": "Ásmundur Friðriksson",
+			"slug": "asmundur_fridriksson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1157/1157-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 611.23
+	},
+	{
+		"mp": {
+			"id": "1164",
+			"name": "Haraldur Benediktsson",
+			"slug": "haraldur_benediktsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1164/1164-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 569.71
+	},
+	{
+		"mp": {
+			"id": "1176",
+			"name": "Vilhjálmur Árnason",
+			"slug": "vilhjalmur_arnason",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1176/1176-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 555.76
+	},
+	{
+		"mp": {
+			"id": "1170",
+			"name": "Líneik Anna Sævarsdóttir",
+			"slug": "lineik_anna_saevarsdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1170/1170-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 545.75
+	},
+	{
+		"mp": {
+			"id": "1174",
+			"name": "Silja Dögg Gunnarsdóttir",
+			"slug": "silja_dogg_gunnarsdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1174/1174-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 536.3499999999999
+	},
+	{
+		"mp": {
+			"id": "1169",
+			"name": "Karl Garðarsson",
+			"slug": "karl_gardarsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1169/1169-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 486.12
+	},
+	{
+		"mp": {
+			"id": "1160",
+			"name": "Brynjar Níelsson",
+			"slug": "brynjar_nielsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 421.73
+	},
+	{
+		"mp": {
+			"id": "1181",
+			"name": "Elín Hirst",
+			"slug": "elin_hirst",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1181/1181-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 399.15
+	},
+	{
+		"mp": {
+			"id": "707",
+			"name": "Ásmundur Einar Daðason",
+			"slug": "asmundur_einar_dadason",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/707/707-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Vinstri hreyfinginn - grænt framboð, utan flokka, Framsóknarflokkur)."
+		},
+		"minutesTalked": 392.96000000000004
+	},
+	{
+		"mp": {
+			"id": "1165",
+			"name": "Haraldur Einarsson",
+			"slug": "haraldur_einarsson",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1165/1165-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 372.53
+	},
+	{
+		"mp": {
+			"id": "1167",
+			"name": "Jóhanna María Sigmundsdóttir",
+			"slug": "johanna_maria_sigmundsdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 347.82
+	},
+	{
+		"mp": {
+			"id": "1175",
+			"name": "Valgerður Gunnarsdóttir",
+			"slug": "valgerdur_gunnarsdottir",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1175/1175-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 330.03999999999996
+	},
+	{
+		"mp": {
+			"id": "1180",
+			"name": "Þórunn Egilsdóttir",
+			"slug": "thorunn_egilsdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1180/1180-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðausturkjördæmis síðan 2013 (Framsóknarflokkur)."
+		},
+		"minutesTalked": 284.68
+	}
+]

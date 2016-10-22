@@ -7,8 +7,8 @@ import { writeToFile } from '../utility/file'
 // import createMpNounLookup from './speeches'
 // createMpNounLookup()
 
-import createMpPositionLookup from './position'
-createMpPositionLookup()
+// import createMpPositionLookup from './position'
+// createMpPositionLookup()
 
 // import createMpSummary from './mp-summary'
 // createMpSummary()
@@ -18,3 +18,6 @@ createMpPositionLookup()
 
 // import createMpSpeechStatisticSummary from './speech-statistics'
 // createMpSpeechStatisticSummary()
+
+import createTopCharts from './top-charts'
+createTopCharts()
