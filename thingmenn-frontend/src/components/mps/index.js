@@ -21,7 +21,7 @@ export default class Mps extends React.Component {
   }
 
   handleSearchInput = (evt) => {
-    searchString = evt.target.value;
+    searchString = evt.target.value
     this.setState({
       searchInput: searchString
     })
