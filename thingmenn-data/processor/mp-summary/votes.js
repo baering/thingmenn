@@ -95,6 +95,7 @@ export default function createVoteSummary() {
             numberOfVotes: 0,
             numberOfStandsTaken: 0,
             numberOfAway: 0,
+            numberOfAbsent: 0,
             numberOfIdleVotes: 0,
           },
           voteTypes: {},
@@ -195,8 +196,10 @@ export default function createVoteSummary() {
         summary.voteSummary.numberOfStandsTaken += numberOfVotesForType
       } else if (voteType === 'greiðir ekki atkvæði') {
         summary.voteSummary.numberOfIdleVotes += numberOfVotesForType
-      } else {
+      } else if (voteType === 'fjarverandi') {
         summary.voteSummary.numberOfAway += numberOfVotesForType
+      } else {
+        summary.voteSummary.numberOfAbsent += numberOfVotesForType
       }
     })
 
@@ -204,10 +207,12 @@ export default function createVoteSummary() {
     const standsTaken = summary.voteSummary.numberOfStandsTaken / numberOfVotes
     const idle = summary.voteSummary.numberOfIdleVotes / numberOfVotes
     const away = summary.voteSummary.numberOfAway / numberOfVotes
+    const absent = summary.voteSummary.numberOfAbsent / numberOfVotes
     summary.votePercentages = {
-      standsTaken: parseFloat((standsTaken * 100).toFixed(1)),
-      idle: parseFloat((idle * 100).toFixed(1)),
-      away: parseFloat((away * 100).toFixed(1)),
+      standsTaken: parseFloat((standsTaken * 100).toFixed(2)),
+      idle: parseFloat((idle * 100).toFixed(2)),
+      away: parseFloat((away * 100).toFixed(2)),
+      absent: parseFloat((absent * 100).toFixed(2)),
     }
   })
 

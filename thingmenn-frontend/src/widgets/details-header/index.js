@@ -14,13 +14,13 @@ const DetailsHeader = ({
   subjectSummary,
   voteSummary,
 }) => {
-  const { standsTaken, idle } = voteSummary.votePercentages
+  const { standsTaken, away } = voteSummary.votePercentages
 
   let timeInStand = 0
   if (speechSummary && speechSummary.Samtals) {
     timeInStand = speechSummary.Samtals.minutes
   }
-  let attendance = parseFloat(standsTaken) + parseFloat(idle)
+  let attendance = 100 - parseFloat(away)
 
   return (
     <div className="DetailsHeader">

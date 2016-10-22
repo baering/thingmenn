@@ -21,6 +21,7 @@ function updateVoteSummary(voteSummary, mpVoteSummary, mp) {
     voteSummary[mp.party] = {
       voteSummary: {
         numberOfAway: 0,
+        numberOfAbsent: 0,
         numberOfIdleVotes: 0,
         numberOfStandsTaken: 0,
         numberOfVotes: 0,
@@ -30,6 +31,7 @@ function updateVoteSummary(voteSummary, mpVoteSummary, mp) {
   }
 
   voteSummary[mp.party].voteSummary.numberOfAway += mpVoteSummary.voteSummary.numberOfAway
+  voteSummary[mp.party].voteSummary.numberOfAbsent += mpVoteSummary.voteSummary.numberOfAbsent
   voteSummary[mp.party].voteSummary.numberOfIdleVotes += mpVoteSummary.voteSummary.numberOfIdleVotes
   voteSummary[mp.party].voteSummary.numberOfStandsTaken += mpVoteSummary.voteSummary.numberOfStandsTaken
   voteSummary[mp.party].voteSummary.numberOfVotes += mpVoteSummary.voteSummary.numberOfVotes
@@ -49,10 +51,12 @@ function calculateVotePercentages(partyNames, voteSummary) {
     const standsTaken = voteSummary[party].voteSummary.numberOfStandsTaken / numberOfVotes
     const idle = voteSummary[party].voteSummary.numberOfIdleVotes / numberOfVotes
     const away = voteSummary[party].voteSummary.numberOfAway / numberOfVotes
+    const absent = voteSummary[party].voteSummary.numberOfAbsent / numberOfVotes
     voteSummary[party].votePercentages = {
-      standsTaken: parseFloat((standsTaken * 100).toFixed(1)),
-      idle: parseFloat((idle * 100).toFixed(1)),
-      away: parseFloat((away * 100).toFixed(1)),
+      standsTaken: parseFloat((standsTaken * 100).toFixed(2)),
+      idle: parseFloat((idle * 100).toFixed(2)),
+      away: parseFloat((away * 100).toFixed(2)),
+      absent: parseFloat((away * 100).toFixed(2)),
     }
   })
 }

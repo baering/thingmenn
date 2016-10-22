@@ -95,7 +95,7 @@ export default class Mps extends React.Component {
           <div className="Details-item">
           <h1 className="heading">Skipting atkvæða</h1>
             <Piechart voteSummary={voteSummary} />
-            <ColorLegend/>
+            <ColorLegend includeAbsent={true} />
           </div>
 
           <div className="Details-item">

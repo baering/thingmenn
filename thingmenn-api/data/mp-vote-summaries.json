@@ -5,7 +5,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3093,
 			"numberOfStandsTaken": 2903,
-			"numberOfAway": 190,
+			"numberOfAway": 89,
+			"numberOfAbsent": 101,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -16,9 +17,10 @@
 			"fjarvist": 98
 		},
 		"votePercentages": {
-			"standsTaken": 93.9,
+			"standsTaken": 93.86,
 			"idle": 0,
-			"away": 6.1
+			"away": 2.88,
+			"absent": 3.27
 		}
 	},
 	"396": {
@@ -27,7 +29,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3118,
 			"numberOfStandsTaken": 1602,
-			"numberOfAway": 1026,
+			"numberOfAway": 707,
+			"numberOfAbsent": 319,
 			"numberOfIdleVotes": 490
 		},
 		"voteTypes": {
@@ -38,9 +41,10 @@
 			"fjarvist": 319
 		},
 		"votePercentages": {
-			"standsTaken": 51.4,
-			"idle": 15.7,
-			"away": 32.9
+			"standsTaken": 51.38,
+			"idle": 15.72,
+			"away": 22.67,
+			"absent": 10.23
 		}
 	},
 	"557": {
@@ -49,7 +53,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3118,
 			"numberOfStandsTaken": 1774,
-			"numberOfAway": 836,
+			"numberOfAway": 390,
+			"numberOfAbsent": 446,
 			"numberOfIdleVotes": 508
 		},
 		"voteTypes": {
@@ -62,8 +67,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 56.9,
-			"idle": 16.3,
-			"away": 26.8
+			"idle": 16.29,
+			"away": 12.51,
+			"absent": 14.3
 		}
 	},
 	"630": {
@@ -72,7 +78,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2820,
 			"numberOfStandsTaken": 699,
-			"numberOfAway": 1805,
+			"numberOfAway": 1341,
+			"numberOfAbsent": 464,
 			"numberOfIdleVotes": 316
 		},
 		"voteTypes": {
@@ -84,9 +91,10 @@
 			"fjarvist": 29
 		},
 		"votePercentages": {
-			"standsTaken": 24.8,
-			"idle": 11.2,
-			"away": 64
+			"standsTaken": 24.79,
+			"idle": 11.21,
+			"away": 47.55,
+			"absent": 16.45
 		}
 	},
 	"631": {
@@ -95,7 +103,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 1350,
-			"numberOfAway": 1434,
+			"numberOfAway": 1272,
+			"numberOfAbsent": 162,
 			"numberOfIdleVotes": 335
 		},
 		"voteTypes": {
@@ -107,9 +116,10 @@
 			"fjarvist": 7
 		},
 		"votePercentages": {
-			"standsTaken": 43.3,
-			"idle": 10.7,
-			"away": 46
+			"standsTaken": 43.28,
+			"idle": 10.74,
+			"away": 40.78,
+			"absent": 5.19
 		}
 	},
 	"650": {
@@ -118,7 +128,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2535,
-			"numberOfAway": 531,
+			"numberOfAway": 464,
+			"numberOfAbsent": 67,
 			"numberOfIdleVotes": 53
 		},
 		"voteTypes": {
@@ -130,9 +141,10 @@
 			"fjarvist": 28
 		},
 		"votePercentages": {
-			"standsTaken": 81.3,
+			"standsTaken": 81.28,
 			"idle": 1.7,
-			"away": 17
+			"away": 14.88,
+			"absent": 2.15
 		}
 	},
 	"652": {
@@ -141,7 +153,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2229,
-			"numberOfAway": 888,
+			"numberOfAway": 748,
+			"numberOfAbsent": 140,
 			"numberOfIdleVotes": 2
 		},
 		"voteTypes": {
@@ -153,9 +166,10 @@
 			"greiðir ekki atkvæði": 2
 		},
 		"votePercentages": {
-			"standsTaken": 71.5,
-			"idle": 0.1,
-			"away": 28.5
+			"standsTaken": 71.47,
+			"idle": 0.06,
+			"away": 23.98,
+			"absent": 4.49
 		}
 	},
 	"653": {
@@ -165,6 +179,7 @@
 			"numberOfVotes": 2,
 			"numberOfStandsTaken": 2,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -173,7 +188,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"656": {
@@ -182,7 +198,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3115,
 			"numberOfStandsTaken": 2235,
-			"numberOfAway": 840,
+			"numberOfAway": 711,
+			"numberOfAbsent": 129,
 			"numberOfIdleVotes": 40
 		},
 		"voteTypes": {
@@ -193,9 +210,10 @@
 			"fjarvist (erl.)": 129
 		},
 		"votePercentages": {
-			"standsTaken": 71.7,
-			"idle": 1.3,
-			"away": 27
+			"standsTaken": 71.75,
+			"idle": 1.28,
+			"away": 22.83,
+			"absent": 4.14
 		}
 	},
 	"658": {
@@ -204,7 +222,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3105,
 			"numberOfStandsTaken": 1374,
-			"numberOfAway": 1134,
+			"numberOfAway": 1092,
+			"numberOfAbsent": 42,
 			"numberOfIdleVotes": 597
 		},
 		"voteTypes": {
@@ -217,9 +236,10 @@
 			"fjarvist (veik.)": 1
 		},
 		"votePercentages": {
-			"standsTaken": 44.3,
-			"idle": 19.2,
-			"away": 36.5
+			"standsTaken": 44.25,
+			"idle": 19.23,
+			"away": 35.17,
+			"absent": 1.35
 		}
 	},
 	"660": {
@@ -228,7 +248,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2834,
 			"numberOfStandsTaken": 1362,
-			"numberOfAway": 1027,
+			"numberOfAway": 1004,
+			"numberOfAbsent": 23,
 			"numberOfIdleVotes": 445
 		},
 		"voteTypes": {
@@ -239,9 +260,10 @@
 			"fjarvist (erl.)": 23
 		},
 		"votePercentages": {
-			"standsTaken": 48.1,
+			"standsTaken": 48.06,
 			"idle": 15.7,
-			"away": 36.2
+			"away": 35.43,
+			"absent": 0.81
 		}
 	},
 	"678": {
@@ -250,7 +272,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2985,
 			"numberOfStandsTaken": 1504,
-			"numberOfAway": 876,
+			"numberOfAway": 865,
+			"numberOfAbsent": 11,
 			"numberOfIdleVotes": 605
 		},
 		"voteTypes": {
@@ -263,9 +286,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 50.4,
-			"idle": 20.3,
-			"away": 29.3
+			"standsTaken": 50.39,
+			"idle": 20.27,
+			"away": 28.98,
+			"absent": 0.37
 		}
 	},
 	"683": {
@@ -274,7 +298,8 @@
 		"voteSummary": {
 			"numberOfVotes": 1828,
 			"numberOfStandsTaken": 874,
-			"numberOfAway": 556,
+			"numberOfAway": 481,
+			"numberOfAbsent": 75,
 			"numberOfIdleVotes": 398
 		},
 		"voteTypes": {
@@ -286,9 +311,10 @@
 			"fjarvist (erl.)": 69
 		},
 		"votePercentages": {
-			"standsTaken": 47.8,
-			"idle": 21.8,
-			"away": 30.4
+			"standsTaken": 47.81,
+			"idle": 21.77,
+			"away": 26.31,
+			"absent": 4.1
 		}
 	},
 	"686": {
@@ -297,7 +323,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3029,
 			"numberOfStandsTaken": 1891,
-			"numberOfAway": 1130,
+			"numberOfAway": 930,
+			"numberOfAbsent": 200,
 			"numberOfIdleVotes": 8
 		},
 		"voteTypes": {
@@ -309,9 +336,10 @@
 			"fjarvist": 131
 		},
 		"votePercentages": {
-			"standsTaken": 62.4,
-			"idle": 0.3,
-			"away": 37.3
+			"standsTaken": 62.43,
+			"idle": 0.26,
+			"away": 30.7,
+			"absent": 6.6
 		}
 	},
 	"687": {
@@ -320,7 +348,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3114,
 			"numberOfStandsTaken": 2100,
-			"numberOfAway": 1010,
+			"numberOfAway": 944,
+			"numberOfAbsent": 66,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -332,9 +361,10 @@
 			"greiðir ekki atkvæði": 4
 		},
 		"votePercentages": {
-			"standsTaken": 67.4,
-			"idle": 0.1,
-			"away": 32.4
+			"standsTaken": 67.44,
+			"idle": 0.13,
+			"away": 30.31,
+			"absent": 2.12
 		}
 	},
 	"688": {
@@ -343,7 +373,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3118,
 			"numberOfStandsTaken": 2041,
-			"numberOfAway": 1074,
+			"numberOfAway": 951,
+			"numberOfAbsent": 123,
 			"numberOfIdleVotes": 3
 		},
 		"voteTypes": {
@@ -355,9 +386,10 @@
 			"greiðir ekki atkvæði": 3
 		},
 		"votePercentages": {
-			"standsTaken": 65.5,
+			"standsTaken": 65.46,
 			"idle": 0.1,
-			"away": 34.4
+			"away": 30.5,
+			"absent": 3.94
 		}
 	},
 	"690": {
@@ -366,7 +398,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3022,
 			"numberOfStandsTaken": 1766,
-			"numberOfAway": 679,
+			"numberOfAway": 503,
+			"numberOfAbsent": 176,
 			"numberOfIdleVotes": 577
 		},
 		"voteTypes": {
@@ -378,9 +411,10 @@
 			"fjarvist": 26
 		},
 		"votePercentages": {
-			"standsTaken": 58.4,
-			"idle": 19.1,
-			"away": 22.5
+			"standsTaken": 58.44,
+			"idle": 19.09,
+			"away": 16.64,
+			"absent": 5.82
 		}
 	},
 	"691": {
@@ -389,7 +423,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2386,
-			"numberOfAway": 729,
+			"numberOfAway": 542,
+			"numberOfAbsent": 187,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -402,8 +437,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 76.5,
-			"idle": 0.1,
-			"away": 23.4
+			"idle": 0.13,
+			"away": 17.38,
+			"absent": 6
 		}
 	},
 	"693": {
@@ -412,7 +448,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3118,
 			"numberOfStandsTaken": 2041,
-			"numberOfAway": 1071,
+			"numberOfAway": 949,
+			"numberOfAbsent": 122,
 			"numberOfIdleVotes": 6
 		},
 		"voteTypes": {
@@ -424,9 +461,10 @@
 			"fjarvist": 12
 		},
 		"votePercentages": {
-			"standsTaken": 65.5,
-			"idle": 0.2,
-			"away": 34.3
+			"standsTaken": 65.46,
+			"idle": 0.19,
+			"away": 30.44,
+			"absent": 3.91
 		}
 	},
 	"694": {
@@ -435,7 +473,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3062,
 			"numberOfStandsTaken": 2405,
-			"numberOfAway": 599,
+			"numberOfAway": 350,
+			"numberOfAbsent": 249,
 			"numberOfIdleVotes": 58
 		},
 		"voteTypes": {
@@ -448,9 +487,10 @@
 			"fjarvist": 35
 		},
 		"votePercentages": {
-			"standsTaken": 78.5,
-			"idle": 1.9,
-			"away": 19.6
+			"standsTaken": 78.54,
+			"idle": 1.89,
+			"away": 11.43,
+			"absent": 8.13
 		}
 	},
 	"703": {
@@ -459,7 +499,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2839,
 			"numberOfStandsTaken": 2119,
-			"numberOfAway": 709,
+			"numberOfAway": 505,
+			"numberOfAbsent": 204,
 			"numberOfIdleVotes": 11
 		},
 		"voteTypes": {
@@ -471,9 +512,10 @@
 			"greiðir ekki atkvæði": 11
 		},
 		"votePercentages": {
-			"standsTaken": 74.6,
-			"idle": 0.4,
-			"away": 25
+			"standsTaken": 74.64,
+			"idle": 0.39,
+			"away": 17.79,
+			"absent": 7.19
 		}
 	},
 	"704": {
@@ -482,7 +524,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3106,
 			"numberOfStandsTaken": 1930,
-			"numberOfAway": 518,
+			"numberOfAway": 493,
+			"numberOfAbsent": 25,
 			"numberOfIdleVotes": 658
 		},
 		"voteTypes": {
@@ -493,9 +536,10 @@
 			"fjarvist (erl.)": 25
 		},
 		"votePercentages": {
-			"standsTaken": 62.1,
-			"idle": 21.2,
-			"away": 16.7
+			"standsTaken": 62.14,
+			"idle": 21.18,
+			"away": 15.87,
+			"absent": 0.8
 		}
 	},
 	"705": {
@@ -504,7 +548,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3091,
 			"numberOfStandsTaken": 2106,
-			"numberOfAway": 308,
+			"numberOfAway": 268,
+			"numberOfAbsent": 40,
 			"numberOfIdleVotes": 677
 		},
 		"voteTypes": {
@@ -517,9 +562,10 @@
 			"fjarvist (erl.)": 3
 		},
 		"votePercentages": {
-			"standsTaken": 68.1,
+			"standsTaken": 68.13,
 			"idle": 21.9,
-			"away": 10
+			"away": 8.67,
+			"absent": 1.29
 		}
 	},
 	"706": {
@@ -528,7 +574,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3020,
 			"numberOfStandsTaken": 2379,
-			"numberOfAway": 629,
+			"numberOfAway": 593,
+			"numberOfAbsent": 36,
 			"numberOfIdleVotes": 12
 		},
 		"voteTypes": {
@@ -540,9 +587,10 @@
 			"fjarvist": 9
 		},
 		"votePercentages": {
-			"standsTaken": 78.8,
+			"standsTaken": 78.77,
 			"idle": 0.4,
-			"away": 20.8
+			"away": 19.64,
+			"absent": 1.19
 		}
 	},
 	"707": {
@@ -551,7 +599,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2619,
 			"numberOfStandsTaken": 1955,
-			"numberOfAway": 661,
+			"numberOfAway": 337,
+			"numberOfAbsent": 324,
 			"numberOfIdleVotes": 3
 		},
 		"voteTypes": {
@@ -564,9 +613,10 @@
 			"fjarvist (veik.)": 9
 		},
 		"votePercentages": {
-			"standsTaken": 74.6,
-			"idle": 0.1,
-			"away": 25.2
+			"standsTaken": 74.65,
+			"idle": 0.11,
+			"away": 12.87,
+			"absent": 12.37
 		}
 	},
 	"708": {
@@ -575,7 +625,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2716,
 			"numberOfStandsTaken": 1679,
-			"numberOfAway": 499,
+			"numberOfAway": 464,
+			"numberOfAbsent": 35,
 			"numberOfIdleVotes": 538
 		},
 		"voteTypes": {
@@ -587,9 +638,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 61.8,
-			"idle": 19.8,
-			"away": 18.4
+			"standsTaken": 61.82,
+			"idle": 19.81,
+			"away": 17.08,
+			"absent": 1.29
 		}
 	},
 	"712": {
@@ -598,7 +650,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3104,
 			"numberOfStandsTaken": 1567,
-			"numberOfAway": 940,
+			"numberOfAway": 915,
+			"numberOfAbsent": 25,
 			"numberOfIdleVotes": 597
 		},
 		"voteTypes": {
@@ -610,9 +663,10 @@
 			"fjarvist": 15
 		},
 		"votePercentages": {
-			"standsTaken": 50.5,
-			"idle": 19.2,
-			"away": 30.3
+			"standsTaken": 50.48,
+			"idle": 19.23,
+			"away": 29.48,
+			"absent": 0.81
 		}
 	},
 	"714": {
@@ -621,7 +675,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3074,
 			"numberOfStandsTaken": 1943,
-			"numberOfAway": 547,
+			"numberOfAway": 467,
+			"numberOfAbsent": 80,
 			"numberOfIdleVotes": 584
 		},
 		"voteTypes": {
@@ -633,9 +688,10 @@
 			"fjarvist (erl.)": 9
 		},
 		"votePercentages": {
-			"standsTaken": 63.2,
+			"standsTaken": 63.21,
 			"idle": 19,
-			"away": 17.8
+			"away": 15.19,
+			"absent": 2.6
 		}
 	},
 	"715": {
@@ -644,7 +700,8 @@
 		"voteSummary": {
 			"numberOfVotes": 1233,
 			"numberOfStandsTaken": 799,
-			"numberOfAway": 173,
+			"numberOfAway": 155,
+			"numberOfAbsent": 18,
 			"numberOfIdleVotes": 261
 		},
 		"voteTypes": {
@@ -656,8 +713,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 64.8,
-			"idle": 21.2,
-			"away": 14
+			"idle": 21.17,
+			"away": 12.57,
+			"absent": 1.46
 		}
 	},
 	"719": {
@@ -666,7 +724,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3117,
 			"numberOfStandsTaken": 1688,
-			"numberOfAway": 763,
+			"numberOfAway": 718,
+			"numberOfAbsent": 45,
 			"numberOfIdleVotes": 666
 		},
 		"voteTypes": {
@@ -678,9 +737,10 @@
 			"fjarvist (erl.)": 8
 		},
 		"votePercentages": {
-			"standsTaken": 54.2,
-			"idle": 21.4,
-			"away": 24.5
+			"standsTaken": 54.15,
+			"idle": 21.37,
+			"away": 23.03,
+			"absent": 1.44
 		}
 	},
 	"721": {
@@ -689,7 +749,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3006,
 			"numberOfStandsTaken": 2573,
-			"numberOfAway": 430,
+			"numberOfAway": 262,
+			"numberOfAbsent": 168,
 			"numberOfIdleVotes": 3
 		},
 		"voteTypes": {
@@ -703,7 +764,8 @@
 		"votePercentages": {
 			"standsTaken": 85.6,
 			"idle": 0.1,
-			"away": 14.3
+			"away": 8.72,
+			"absent": 5.59
 		}
 	},
 	"722": {
@@ -712,7 +774,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2300,
 			"numberOfStandsTaken": 1243,
-			"numberOfAway": 1055,
+			"numberOfAway": 673,
+			"numberOfAbsent": 382,
 			"numberOfIdleVotes": 2
 		},
 		"voteTypes": {
@@ -724,9 +787,10 @@
 			"greiðir ekki atkvæði": 2
 		},
 		"votePercentages": {
-			"standsTaken": 54,
-			"idle": 0.1,
-			"away": 45.9
+			"standsTaken": 54.04,
+			"idle": 0.09,
+			"away": 29.26,
+			"absent": 16.61
 		}
 	},
 	"726": {
@@ -735,7 +799,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3102,
 			"numberOfStandsTaken": 1777,
-			"numberOfAway": 1323,
+			"numberOfAway": 993,
+			"numberOfAbsent": 330,
 			"numberOfIdleVotes": 2
 		},
 		"voteTypes": {
@@ -747,9 +812,10 @@
 			"greiðir ekki atkvæði": 2
 		},
 		"votePercentages": {
-			"standsTaken": 57.3,
-			"idle": 0.1,
-			"away": 42.6
+			"standsTaken": 57.29,
+			"idle": 0.06,
+			"away": 32.01,
+			"absent": 10.64
 		}
 	},
 	"728": {
@@ -758,7 +824,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3085,
 			"numberOfStandsTaken": 1549,
-			"numberOfAway": 496,
+			"numberOfAway": 346,
+			"numberOfAbsent": 150,
 			"numberOfIdleVotes": 1040
 		},
 		"voteTypes": {
@@ -771,9 +838,10 @@
 			"fjarvist": 47
 		},
 		"votePercentages": {
-			"standsTaken": 50.2,
-			"idle": 33.7,
-			"away": 16.1
+			"standsTaken": 50.21,
+			"idle": 33.71,
+			"away": 11.22,
+			"absent": 4.86
 		}
 	},
 	"729": {
@@ -782,7 +850,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3014,
 			"numberOfStandsTaken": 1644,
-			"numberOfAway": 1366,
+			"numberOfAway": 1304,
+			"numberOfAbsent": 62,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -795,9 +864,10 @@
 			"fjarvist": 9
 		},
 		"votePercentages": {
-			"standsTaken": 54.5,
-			"idle": 0.1,
-			"away": 45.3
+			"standsTaken": 54.55,
+			"idle": 0.13,
+			"away": 43.26,
+			"absent": 2.06
 		}
 	},
 	"730": {
@@ -806,7 +876,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3097,
 			"numberOfStandsTaken": 2061,
-			"numberOfAway": 410,
+			"numberOfAway": 387,
+			"numberOfAbsent": 23,
 			"numberOfIdleVotes": 626
 		},
 		"voteTypes": {
@@ -818,9 +889,10 @@
 			"fjarvist": 8
 		},
 		"votePercentages": {
-			"standsTaken": 66.5,
-			"idle": 20.2,
-			"away": 13.2
+			"standsTaken": 66.55,
+			"idle": 20.21,
+			"away": 12.5,
+			"absent": 0.74
 		}
 	},
 	"737": {
@@ -830,6 +902,7 @@
 			"numberOfVotes": 164,
 			"numberOfStandsTaken": 106,
 			"numberOfAway": 19,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 39
 		},
 		"voteTypes": {
@@ -839,9 +912,10 @@
 			"nei": 2
 		},
 		"votePercentages": {
-			"standsTaken": 64.6,
-			"idle": 23.8,
-			"away": 11.6
+			"standsTaken": 64.63,
+			"idle": 23.78,
+			"away": 11.59,
+			"absent": 0
 		}
 	},
 	"934": {
@@ -850,7 +924,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3032,
 			"numberOfStandsTaken": 2572,
-			"numberOfAway": 460,
+			"numberOfAway": 446,
+			"numberOfAbsent": 14,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -861,9 +936,10 @@
 			"fjarvist (veik.)": 5
 		},
 		"votePercentages": {
-			"standsTaken": 84.8,
+			"standsTaken": 84.83,
 			"idle": 0,
-			"away": 15.2
+			"away": 14.71,
+			"absent": 0.46
 		}
 	},
 	"999": {
@@ -873,6 +949,7 @@
 			"numberOfVotes": 312,
 			"numberOfStandsTaken": 296,
 			"numberOfAway": 12,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -882,9 +959,10 @@
 			"greiðir ekki atkvæði": 4
 		},
 		"votePercentages": {
-			"standsTaken": 94.9,
-			"idle": 1.3,
-			"away": 3.8
+			"standsTaken": 94.87,
+			"idle": 1.28,
+			"away": 3.85,
+			"absent": 0
 		}
 	},
 	"1002": {
@@ -894,6 +972,7 @@
 			"numberOfVotes": 28,
 			"numberOfStandsTaken": 4,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 24
 		},
 		"voteTypes": {
@@ -901,9 +980,10 @@
 			"greiðir ekki atkvæði": 24
 		},
 		"votePercentages": {
-			"standsTaken": 14.3,
-			"idle": 85.7,
-			"away": 0
+			"standsTaken": 14.29,
+			"idle": 85.71,
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1012": {
@@ -912,7 +992,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2045,
-			"numberOfAway": 363,
+			"numberOfAway": 290,
+			"numberOfAbsent": 73,
 			"numberOfIdleVotes": 711
 		},
 		"voteTypes": {
@@ -924,9 +1005,10 @@
 			"fjarvist": 68
 		},
 		"votePercentages": {
-			"standsTaken": 65.6,
+			"standsTaken": 65.57,
 			"idle": 22.8,
-			"away": 11.6
+			"away": 9.3,
+			"absent": 2.34
 		}
 	},
 	"1018": {
@@ -935,7 +1017,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2163,
 			"numberOfStandsTaken": 1706,
-			"numberOfAway": 393,
+			"numberOfAway": 359,
+			"numberOfAbsent": 34,
 			"numberOfIdleVotes": 64
 		},
 		"voteTypes": {
@@ -947,9 +1030,10 @@
 			"fjarvist (erl.)": 27
 		},
 		"votePercentages": {
-			"standsTaken": 78.9,
-			"idle": 3,
-			"away": 18.2
+			"standsTaken": 78.87,
+			"idle": 2.96,
+			"away": 16.6,
+			"absent": 1.57
 		}
 	},
 	"1031": {
@@ -958,7 +1042,8 @@
 		"voteSummary": {
 			"numberOfVotes": 1923,
 			"numberOfStandsTaken": 1285,
-			"numberOfAway": 124,
+			"numberOfAway": 115,
+			"numberOfAbsent": 9,
 			"numberOfIdleVotes": 514
 		},
 		"voteTypes": {
@@ -970,9 +1055,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 66.8,
-			"idle": 26.7,
-			"away": 6.4
+			"standsTaken": 66.82,
+			"idle": 26.73,
+			"away": 5.98,
+			"absent": 0.47
 		}
 	},
 	"1046": {
@@ -982,6 +1068,7 @@
 			"numberOfVotes": 86,
 			"numberOfStandsTaken": 85,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -990,9 +1077,10 @@
 			"fjarverandi": 1
 		},
 		"votePercentages": {
-			"standsTaken": 98.8,
+			"standsTaken": 98.84,
 			"idle": 0,
-			"away": 1.2
+			"away": 1.16,
+			"absent": 0
 		}
 	},
 	"1157": {
@@ -1002,6 +1090,7 @@
 			"numberOfVotes": 3112,
 			"numberOfStandsTaken": 2493,
 			"numberOfAway": 587,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 32
 		},
 		"voteTypes": {
@@ -1011,9 +1100,10 @@
 			"greiðir ekki atkvæði": 32
 		},
 		"votePercentages": {
-			"standsTaken": 80.1,
-			"idle": 1,
-			"away": 18.9
+			"standsTaken": 80.11,
+			"idle": 1.03,
+			"away": 18.86,
+			"absent": 0
 		}
 	},
 	"1158": {
@@ -1022,7 +1112,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2611,
 			"numberOfStandsTaken": 1314,
-			"numberOfAway": 747,
+			"numberOfAway": 665,
+			"numberOfAbsent": 82,
 			"numberOfIdleVotes": 550
 		},
 		"voteTypes": {
@@ -1035,9 +1126,10 @@
 			"fjarvist (veik.)": 8
 		},
 		"votePercentages": {
-			"standsTaken": 50.3,
-			"idle": 21.1,
-			"away": 28.6
+			"standsTaken": 50.33,
+			"idle": 21.06,
+			"away": 25.47,
+			"absent": 3.14
 		}
 	},
 	"1159": {
@@ -1046,7 +1138,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3117,
 			"numberOfStandsTaken": 2197,
-			"numberOfAway": 248,
+			"numberOfAway": 243,
+			"numberOfAbsent": 5,
 			"numberOfIdleVotes": 672
 		},
 		"voteTypes": {
@@ -1057,9 +1150,10 @@
 			"fjarvist (erl.)": 5
 		},
 		"votePercentages": {
-			"standsTaken": 70.5,
-			"idle": 21.6,
-			"away": 8
+			"standsTaken": 70.48,
+			"idle": 21.56,
+			"away": 7.8,
+			"absent": 0.16
 		}
 	},
 	"1160": {
@@ -1068,7 +1162,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3107,
 			"numberOfStandsTaken": 2157,
-			"numberOfAway": 914,
+			"numberOfAway": 538,
+			"numberOfAbsent": 376,
 			"numberOfIdleVotes": 36
 		},
 		"voteTypes": {
@@ -1080,9 +1175,10 @@
 			"greiðir ekki atkvæði": 36
 		},
 		"votePercentages": {
-			"standsTaken": 69.4,
-			"idle": 1.2,
-			"away": 29.4
+			"standsTaken": 69.42,
+			"idle": 1.16,
+			"away": 17.32,
+			"absent": 12.1
 		}
 	},
 	"1161": {
@@ -1091,7 +1187,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2831,
-			"numberOfAway": 273,
+			"numberOfAway": 227,
+			"numberOfAbsent": 46,
 			"numberOfIdleVotes": 15
 		},
 		"voteTypes": {
@@ -1104,9 +1201,10 @@
 			"fjarvist (veik.)": 13
 		},
 		"votePercentages": {
-			"standsTaken": 90.8,
-			"idle": 0.5,
-			"away": 8.8
+			"standsTaken": 90.77,
+			"idle": 0.48,
+			"away": 7.28,
+			"absent": 1.47
 		}
 	},
 	"1162": {
@@ -1116,6 +1214,7 @@
 			"numberOfVotes": 3115,
 			"numberOfStandsTaken": 2753,
 			"numberOfAway": 347,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 15
 		},
 		"voteTypes": {
@@ -1125,9 +1224,10 @@
 			"greiðir ekki atkvæði": 15
 		},
 		"votePercentages": {
-			"standsTaken": 88.4,
-			"idle": 0.5,
-			"away": 11.1
+			"standsTaken": 88.38,
+			"idle": 0.48,
+			"away": 11.14,
+			"absent": 0
 		}
 	},
 	"1163": {
@@ -1136,7 +1236,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2656,
 			"numberOfStandsTaken": 2093,
-			"numberOfAway": 557,
+			"numberOfAway": 363,
+			"numberOfAbsent": 194,
 			"numberOfIdleVotes": 6
 		},
 		"voteTypes": {
@@ -1149,8 +1250,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 78.8,
-			"idle": 0.2,
-			"away": 21
+			"idle": 0.23,
+			"away": 13.67,
+			"absent": 7.3
 		}
 	},
 	"1164": {
@@ -1159,7 +1261,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3047,
 			"numberOfStandsTaken": 2664,
-			"numberOfAway": 383,
+			"numberOfAway": 336,
+			"numberOfAbsent": 47,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1170,9 +1273,10 @@
 			"fjarvist (veik.)": 2
 		},
 		"votePercentages": {
-			"standsTaken": 87.4,
+			"standsTaken": 87.43,
 			"idle": 0,
-			"away": 12.6
+			"away": 11.03,
+			"absent": 1.54
 		}
 	},
 	"1165": {
@@ -1181,7 +1285,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2820,
-			"numberOfAway": 289,
+			"numberOfAway": 247,
+			"numberOfAbsent": 42,
 			"numberOfIdleVotes": 10
 		},
 		"voteTypes": {
@@ -1193,9 +1298,10 @@
 			"fjarvist": 8
 		},
 		"votePercentages": {
-			"standsTaken": 90.4,
-			"idle": 0.3,
-			"away": 9.3
+			"standsTaken": 90.41,
+			"idle": 0.32,
+			"away": 7.92,
+			"absent": 1.35
 		}
 	},
 	"1166": {
@@ -1204,7 +1310,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2905,
 			"numberOfStandsTaken": 1598,
-			"numberOfAway": 229,
+			"numberOfAway": 194,
+			"numberOfAbsent": 35,
 			"numberOfIdleVotes": 1078
 		},
 		"voteTypes": {
@@ -1215,9 +1322,10 @@
 			"fjarvist": 35
 		},
 		"votePercentages": {
-			"standsTaken": 55,
-			"idle": 37.1,
-			"away": 7.9
+			"standsTaken": 55.01,
+			"idle": 37.11,
+			"away": 6.68,
+			"absent": 1.2
 		}
 	},
 	"1167": {
@@ -1226,7 +1334,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3112,
 			"numberOfStandsTaken": 2577,
-			"numberOfAway": 523,
+			"numberOfAway": 463,
+			"numberOfAbsent": 60,
 			"numberOfIdleVotes": 12
 		},
 		"voteTypes": {
@@ -1239,9 +1348,10 @@
 			"fjarvist": 43
 		},
 		"votePercentages": {
-			"standsTaken": 82.8,
-			"idle": 0.4,
-			"away": 16.8
+			"standsTaken": 82.81,
+			"idle": 0.39,
+			"away": 14.88,
+			"absent": 1.93
 		}
 	},
 	"1169": {
@@ -1250,7 +1360,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3107,
 			"numberOfStandsTaken": 2424,
-			"numberOfAway": 679,
+			"numberOfAway": 458,
+			"numberOfAbsent": 221,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -1262,9 +1373,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 78,
-			"idle": 0.1,
-			"away": 21.9
+			"standsTaken": 78.02,
+			"idle": 0.13,
+			"away": 14.74,
+			"absent": 7.11
 		}
 	},
 	"1170": {
@@ -1273,7 +1385,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3112,
 			"numberOfStandsTaken": 2736,
-			"numberOfAway": 372,
+			"numberOfAway": 245,
+			"numberOfAbsent": 127,
 			"numberOfIdleVotes": 4
 		},
 		"voteTypes": {
@@ -1285,9 +1398,10 @@
 			"fjarvist": 10
 		},
 		"votePercentages": {
-			"standsTaken": 87.9,
-			"idle": 0.1,
-			"away": 12
+			"standsTaken": 87.92,
+			"idle": 0.13,
+			"away": 7.87,
+			"absent": 4.08
 		}
 	},
 	"1171": {
@@ -1296,7 +1410,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3116,
 			"numberOfStandsTaken": 2043,
-			"numberOfAway": 401,
+			"numberOfAway": 358,
+			"numberOfAbsent": 43,
 			"numberOfIdleVotes": 672
 		},
 		"voteTypes": {
@@ -1308,9 +1423,10 @@
 			"fjarvist": 17
 		},
 		"votePercentages": {
-			"standsTaken": 65.6,
-			"idle": 21.6,
-			"away": 12.9
+			"standsTaken": 65.56,
+			"idle": 21.57,
+			"away": 11.49,
+			"absent": 1.38
 		}
 	},
 	"1172": {
@@ -1319,7 +1435,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3100,
 			"numberOfStandsTaken": 1772,
-			"numberOfAway": 729,
+			"numberOfAway": 495,
+			"numberOfAbsent": 234,
 			"numberOfIdleVotes": 599
 		},
 		"voteTypes": {
@@ -1332,9 +1449,10 @@
 			"fjarvist (erl.)": 9
 		},
 		"votePercentages": {
-			"standsTaken": 57.2,
-			"idle": 19.3,
-			"away": 23.5
+			"standsTaken": 57.16,
+			"idle": 19.32,
+			"away": 15.97,
+			"absent": 7.55
 		}
 	},
 	"1173": {
@@ -1343,7 +1461,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3059,
 			"numberOfStandsTaken": 2705,
-			"numberOfAway": 329,
+			"numberOfAway": 301,
+			"numberOfAbsent": 28,
 			"numberOfIdleVotes": 25
 		},
 		"voteTypes": {
@@ -1355,9 +1474,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 88.4,
-			"idle": 0.8,
-			"away": 10.8
+			"standsTaken": 88.43,
+			"idle": 0.82,
+			"away": 9.84,
+			"absent": 0.92
 		}
 	},
 	"1174": {
@@ -1366,7 +1486,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2642,
-			"numberOfAway": 472,
+			"numberOfAway": 388,
+			"numberOfAbsent": 84,
 			"numberOfIdleVotes": 5
 		},
 		"voteTypes": {
@@ -1379,9 +1500,10 @@
 			"fjarvist": 45
 		},
 		"votePercentages": {
-			"standsTaken": 84.7,
-			"idle": 0.2,
-			"away": 15.1
+			"standsTaken": 84.71,
+			"idle": 0.16,
+			"away": 12.44,
+			"absent": 2.69
 		}
 	},
 	"1175": {
@@ -1390,7 +1512,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2748,
-			"numberOfAway": 365,
+			"numberOfAway": 230,
+			"numberOfAbsent": 135,
 			"numberOfIdleVotes": 6
 		},
 		"voteTypes": {
@@ -1403,9 +1526,10 @@
 			"fjarvist (veik.)": 9
 		},
 		"votePercentages": {
-			"standsTaken": 88.1,
-			"idle": 0.2,
-			"away": 11.7
+			"standsTaken": 88.11,
+			"idle": 0.19,
+			"away": 7.37,
+			"absent": 4.33
 		}
 	},
 	"1176": {
@@ -1414,7 +1538,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3117,
 			"numberOfStandsTaken": 2692,
-			"numberOfAway": 423,
+			"numberOfAway": 329,
+			"numberOfAbsent": 94,
 			"numberOfIdleVotes": 2
 		},
 		"voteTypes": {
@@ -1425,9 +1550,10 @@
 			"fjarvist": 94
 		},
 		"votePercentages": {
-			"standsTaken": 86.4,
-			"idle": 0.1,
-			"away": 13.6
+			"standsTaken": 86.37,
+			"idle": 0.06,
+			"away": 10.56,
+			"absent": 3.02
 		}
 	},
 	"1177": {
@@ -1436,7 +1562,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3031,
 			"numberOfStandsTaken": 2686,
-			"numberOfAway": 315,
+			"numberOfAway": 268,
+			"numberOfAbsent": 47,
 			"numberOfIdleVotes": 30
 		},
 		"voteTypes": {
@@ -1447,9 +1574,10 @@
 			"fjarvist (erl.)": 47
 		},
 		"votePercentages": {
-			"standsTaken": 88.6,
-			"idle": 1,
-			"away": 10.4
+			"standsTaken": 88.62,
+			"idle": 0.99,
+			"away": 8.84,
+			"absent": 1.55
 		}
 	},
 	"1178": {
@@ -1458,7 +1586,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3117,
 			"numberOfStandsTaken": 2941,
-			"numberOfAway": 176,
+			"numberOfAway": 47,
+			"numberOfAbsent": 129,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1468,9 +1597,10 @@
 			"fjarverandi": 47
 		},
 		"votePercentages": {
-			"standsTaken": 94.4,
+			"standsTaken": 94.35,
 			"idle": 0,
-			"away": 5.6
+			"away": 1.51,
+			"absent": 4.14
 		}
 	},
 	"1179": {
@@ -1479,7 +1609,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3106,
 			"numberOfStandsTaken": 2832,
-			"numberOfAway": 258,
+			"numberOfAway": 131,
+			"numberOfAbsent": 127,
 			"numberOfIdleVotes": 16
 		},
 		"voteTypes": {
@@ -1492,9 +1623,10 @@
 			"fjarvist (erl.)": 2
 		},
 		"votePercentages": {
-			"standsTaken": 91.2,
-			"idle": 0.5,
-			"away": 8.3
+			"standsTaken": 91.18,
+			"idle": 0.52,
+			"away": 4.22,
+			"absent": 4.09
 		}
 	},
 	"1180": {
@@ -1503,7 +1635,8 @@
 		"voteSummary": {
 			"numberOfVotes": 3119,
 			"numberOfStandsTaken": 2779,
-			"numberOfAway": 338,
+			"numberOfAway": 196,
+			"numberOfAbsent": 142,
 			"numberOfIdleVotes": 2
 		},
 		"voteTypes": {
@@ -1517,8 +1650,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 89.1,
-			"idle": 0.1,
-			"away": 10.8
+			"idle": 0.06,
+			"away": 6.28,
+			"absent": 4.55
 		}
 	},
 	"1181": {
@@ -1527,7 +1661,8 @@
 		"voteSummary": {
 			"numberOfVotes": 2946,
 			"numberOfStandsTaken": 2150,
-			"numberOfAway": 780,
+			"numberOfAway": 441,
+			"numberOfAbsent": 339,
 			"numberOfIdleVotes": 16
 		},
 		"voteTypes": {
@@ -1540,9 +1675,10 @@
 			"fjarvist": 78
 		},
 		"votePercentages": {
-			"standsTaken": 73,
-			"idle": 0.5,
-			"away": 26.5
+			"standsTaken": 72.98,
+			"idle": 0.54,
+			"away": 14.97,
+			"absent": 11.51
 		}
 	},
 	"1183": {
@@ -1552,6 +1688,7 @@
 			"numberOfVotes": 18,
 			"numberOfStandsTaken": 16,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 1
 		},
 		"voteTypes": {
@@ -1561,9 +1698,10 @@
 			"fjarverandi": 1
 		},
 		"votePercentages": {
-			"standsTaken": 88.9,
-			"idle": 5.6,
-			"away": 5.6
+			"standsTaken": 88.89,
+			"idle": 5.56,
+			"away": 5.56,
+			"absent": 0
 		}
 	},
 	"1186": {
@@ -1572,7 +1710,8 @@
 		"voteSummary": {
 			"numberOfVotes": 393,
 			"numberOfStandsTaken": 307,
-			"numberOfAway": 18,
+			"numberOfAway": 17,
+			"numberOfAbsent": 1,
 			"numberOfIdleVotes": 68
 		},
 		"voteTypes": {
@@ -1583,9 +1722,10 @@
 			"fjarvist": 1
 		},
 		"votePercentages": {
-			"standsTaken": 78.1,
+			"standsTaken": 78.12,
 			"idle": 17.3,
-			"away": 4.6
+			"away": 4.33,
+			"absent": 0.25
 		}
 	},
 	"1188": {
@@ -1595,6 +1735,7 @@
 			"numberOfVotes": 13,
 			"numberOfStandsTaken": 13,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1603,7 +1744,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1199": {
@@ -1613,6 +1755,7 @@
 			"numberOfVotes": 301,
 			"numberOfStandsTaken": 152,
 			"numberOfAway": 95,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 54
 		},
 		"voteTypes": {
@@ -1623,8 +1766,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 50.5,
-			"idle": 17.9,
-			"away": 31.6
+			"idle": 17.94,
+			"away": 31.56,
+			"absent": 0
 		}
 	},
 	"1201": {
@@ -1634,6 +1778,7 @@
 			"numberOfVotes": 15,
 			"numberOfStandsTaken": 10,
 			"numberOfAway": 5,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1642,9 +1787,10 @@
 			"fjarverandi": 5
 		},
 		"votePercentages": {
-			"standsTaken": 66.7,
+			"standsTaken": 66.67,
 			"idle": 0,
-			"away": 33.3
+			"away": 33.33,
+			"absent": 0
 		}
 	},
 	"1202": {
@@ -1654,6 +1800,7 @@
 			"numberOfVotes": 202,
 			"numberOfStandsTaken": 201,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1664,7 +1811,8 @@
 		"votePercentages": {
 			"standsTaken": 99.5,
 			"idle": 0,
-			"away": 0.5
+			"away": 0.5,
+			"absent": 0
 		}
 	},
 	"1203": {
@@ -1674,6 +1822,7 @@
 			"numberOfVotes": 925,
 			"numberOfStandsTaken": 919,
 			"numberOfAway": 6,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1682,9 +1831,10 @@
 			"fjarverandi": 6
 		},
 		"votePercentages": {
-			"standsTaken": 99.4,
+			"standsTaken": 99.35,
 			"idle": 0,
-			"away": 0.6
+			"away": 0.65,
+			"absent": 0
 		}
 	},
 	"1211": {
@@ -1694,6 +1844,7 @@
 			"numberOfVotes": 77,
 			"numberOfStandsTaken": 75,
 			"numberOfAway": 2,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1704,7 +1855,8 @@
 		"votePercentages": {
 			"standsTaken": 97.4,
 			"idle": 0,
-			"away": 2.6
+			"away": 2.6,
+			"absent": 0
 		}
 	},
 	"1212": {
@@ -1714,6 +1866,7 @@
 			"numberOfVotes": 80,
 			"numberOfStandsTaken": 53,
 			"numberOfAway": 27,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1722,9 +1875,10 @@
 			"fjarverandi": 27
 		},
 		"votePercentages": {
-			"standsTaken": 66.3,
+			"standsTaken": 66.25,
 			"idle": 0,
-			"away": 33.8
+			"away": 33.75,
+			"absent": 0
 		}
 	},
 	"1213": {
@@ -1734,6 +1888,7 @@
 			"numberOfVotes": 100,
 			"numberOfStandsTaken": 79,
 			"numberOfAway": 13,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 8
 		},
 		"voteTypes": {
@@ -1745,7 +1900,8 @@
 		"votePercentages": {
 			"standsTaken": 79,
 			"idle": 8,
-			"away": 13
+			"away": 13,
+			"absent": 0
 		}
 	},
 	"1214": {
@@ -1754,7 +1910,8 @@
 		"voteSummary": {
 			"numberOfVotes": 1183,
 			"numberOfStandsTaken": 692,
-			"numberOfAway": 186,
+			"numberOfAway": 184,
+			"numberOfAbsent": 2,
 			"numberOfIdleVotes": 305
 		},
 		"voteTypes": {
@@ -1767,8 +1924,9 @@
 		},
 		"votePercentages": {
 			"standsTaken": 58.5,
-			"idle": 25.8,
-			"away": 15.7
+			"idle": 25.78,
+			"away": 15.55,
+			"absent": 0.17
 		}
 	},
 	"1215": {
@@ -1778,6 +1936,7 @@
 			"numberOfVotes": 34,
 			"numberOfStandsTaken": 9,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 24
 		},
 		"voteTypes": {
@@ -1787,9 +1946,10 @@
 			"greiðir ekki atkvæði": 24
 		},
 		"votePercentages": {
-			"standsTaken": 26.5,
-			"idle": 70.6,
-			"away": 2.9
+			"standsTaken": 26.47,
+			"idle": 70.59,
+			"away": 2.94,
+			"absent": 0
 		}
 	},
 	"1218": {
@@ -1799,6 +1959,7 @@
 			"numberOfVotes": 214,
 			"numberOfStandsTaken": 177,
 			"numberOfAway": 3,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 34
 		},
 		"voteTypes": {
@@ -1808,9 +1969,10 @@
 			"nei": 24
 		},
 		"votePercentages": {
-			"standsTaken": 82.7,
-			"idle": 15.9,
-			"away": 1.4
+			"standsTaken": 82.71,
+			"idle": 15.89,
+			"away": 1.4,
+			"absent": 0
 		}
 	},
 	"1221": {
@@ -1820,6 +1982,7 @@
 			"numberOfVotes": 388,
 			"numberOfStandsTaken": 385,
 			"numberOfAway": 3,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1828,9 +1991,10 @@
 			"nei": 18
 		},
 		"votePercentages": {
-			"standsTaken": 99.2,
+			"standsTaken": 99.23,
 			"idle": 0,
-			"away": 0.8
+			"away": 0.77,
+			"absent": 0
 		}
 	},
 	"1235": {
@@ -1840,6 +2004,7 @@
 			"numberOfVotes": 58,
 			"numberOfStandsTaken": 45,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 13
 		},
 		"voteTypes": {
@@ -1848,9 +2013,10 @@
 			"greiðir ekki atkvæði": 13
 		},
 		"votePercentages": {
-			"standsTaken": 77.6,
-			"idle": 22.4,
-			"away": 0
+			"standsTaken": 77.59,
+			"idle": 22.41,
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1236": {
@@ -1860,6 +2026,7 @@
 			"numberOfVotes": 1,
 			"numberOfStandsTaken": 1,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1868,7 +2035,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1237": {
@@ -1878,6 +2046,7 @@
 			"numberOfVotes": 1,
 			"numberOfStandsTaken": 1,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1886,7 +2055,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1238": {
@@ -1896,6 +2066,7 @@
 			"numberOfVotes": 2,
 			"numberOfStandsTaken": 1,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1905,7 +2076,8 @@
 		"votePercentages": {
 			"standsTaken": 50,
 			"idle": 0,
-			"away": 50
+			"away": 50,
+			"absent": 0
 		}
 	},
 	"1240": {
@@ -1915,6 +2087,7 @@
 			"numberOfVotes": 2,
 			"numberOfStandsTaken": 2,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1923,7 +2096,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1241": {
@@ -1933,6 +2107,7 @@
 			"numberOfVotes": 45,
 			"numberOfStandsTaken": 34,
 			"numberOfAway": 2,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 9
 		},
 		"voteTypes": {
@@ -1941,9 +2116,10 @@
 			"greiðir ekki atkvæði": 9
 		},
 		"votePercentages": {
-			"standsTaken": 75.6,
+			"standsTaken": 75.56,
 			"idle": 20,
-			"away": 4.4
+			"away": 4.44,
+			"absent": 0
 		}
 	},
 	"1242": {
@@ -1953,6 +2129,7 @@
 			"numberOfVotes": 7,
 			"numberOfStandsTaken": 7,
 			"numberOfAway": 0,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 0
 		},
 		"voteTypes": {
@@ -1961,7 +2138,8 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
-			"away": 0
+			"away": 0,
+			"absent": 0
 		}
 	},
 	"1243": {
@@ -1971,6 +2149,7 @@
 			"numberOfVotes": 106,
 			"numberOfStandsTaken": 67,
 			"numberOfAway": 1,
+			"numberOfAbsent": 0,
 			"numberOfIdleVotes": 38
 		},
 		"voteTypes": {
@@ -1980,9 +2159,10 @@
 			"fjarverandi": 1
 		},
 		"votePercentages": {
-			"standsTaken": 63.2,
-			"idle": 35.8,
-			"away": 0.9
+			"standsTaken": 63.21,
+			"idle": 35.85,
+			"away": 0.94,
+			"absent": 0
 		}
 	}
 }

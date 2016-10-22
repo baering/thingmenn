@@ -24,3 +24,7 @@
 .Colors--away {
   color: salmon;
 }
+
+.Colors--absent {
+  color: #DD673C;
+}
