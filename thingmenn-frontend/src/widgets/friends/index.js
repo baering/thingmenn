@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import { formatPercentage } from '../../utils'
 
 import './styles.css'
 
@@ -18,7 +19,7 @@ const Friends = ({
        {friends.map((friend) => (
          [
            <dt><Link to={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</Link></dt>,
-           <dd>{friend.votes} ({friend.similarity}%)</dd>
+           <dd>{friend.votes} ({formatPercentage(friend.similarity)})</dd>
          ]
        ))}
      </dl>

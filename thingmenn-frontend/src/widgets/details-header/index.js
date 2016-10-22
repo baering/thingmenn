@@ -1,4 +1,6 @@
 import React from 'react'
+import { formatTime, formatPercentage } from '../../utils'
+
 import './styles.css'
 
 const DetailsHeader = ({
@@ -12,20 +14,13 @@ const DetailsHeader = ({
   subjectSummary,
   voteSummary,
 }) => {
+  const { standsTaken, idle } = voteSummary.votePercentages
 
-  let timeInStand = 0;
+  let timeInStand = 0
   if (speechSummary && speechSummary.Samtals) {
-    let minutes = parseFloat(speechSummary.Samtals.minutes)
-    if (minutes !== 0) {
-      if (minutes <= 60) {
-        timeInStand = `${Math.round(minutes)}min`;
-      } else {
-        timeInStand = `${parseFloat(minutes/60).toFixed(1)}klst`;
-      }
-    } else {
-      timeInStand = `Aldrei`;
-    }
+    timeInStand = speechSummary.Samtals.minutes
   }
+  let attendance = standsTaken + idle
 
   return (
     <div className="DetailsHeader">
@@ -43,15 +38,15 @@ const DetailsHeader = ({
       </div>
       <div className="DetailsHeader-stats">
         <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{voteSummary.voteSummary.numberOfVotes}</p>
-          <h1 className="DetailsHeader-statsHeading">Atkvæði</h1>
+          <p className="DetailsHeader-statsText">{formatPercentage(attendance)}</p>
+          <h1 className="DetailsHeader-statsHeading">Mæting</h1>
         </div>
         <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{voteSummary.votePercentages.standsTaken}%</p>
+          <p className="DetailsHeader-statsText">{formatPercentage(standsTaken)}</p>
           <h1 className="DetailsHeader-statsHeading">Afstaða</h1>
         </div>
         <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{timeInStand}</p>
+          <p className="DetailsHeader-statsText">{formatTime(timeInStand)}</p>
           <h1 className="DetailsHeader-statsHeading">í Ræðustól</h1>
         </div>
       </div>

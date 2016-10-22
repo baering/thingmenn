@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactHighcharts from 'react-highcharts';
+import ReactHighcharts from 'react-highcharts'
+import { formatPercentage } from '../../utils'
 
 import './styles.css'
 
@@ -22,6 +23,10 @@ const chartConfig = (voteSummary) => {
     subtitle: {
       text: ''
     },
+    lang: {
+      decimalPoint: ',',
+      thousandsSep: '.'
+    },
     plotOptions: {
       series: {
         dataLabels: {
@@ -31,8 +36,9 @@ const chartConfig = (voteSummary) => {
       }
     },
     tooltip: {
-      headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-      pointFormat: '<b>{point.y:.2f}% {point.name}</b> ({point.amount} atkvæði)<br/>'
+      formatter: function () {
+        return `<b>${formatPercentage(this.point.y)} ${this.point.name}</b> (${this.point.amount} atkvæði)`
+      }
     },
     series: [{
       name: voteSummary.name,

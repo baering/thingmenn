@@ -1,20 +1,7 @@
 import React from 'react'
+import { formatTime } from '../../utils'
+
 import './styles.css'
-
-const fixTime = (timeValue) => {
-  let minutes = parseFloat(timeValue)
-
-  if (minutes === 0) {
-    return 'Aldrei'
-  }
-
-  if (minutes <= 60) {
-    return `${Math.round(minutes)} mín.`
-  }
-
-  let hours = parseFloat(minutes/60)
-  return `${hours.toFixed(1).replace('.', ',')} klst.`
-}
 
 const Speeches = ({
   title,
@@ -24,7 +11,7 @@ const Speeches = ({
       .filter((key) => key !== 'Samtals')
       .map((key) => ({
           id: key,
-          time: fixTime(speechSummary[key].minutes),
+          time: formatTime(speechSummary[key].minutes),
           count: speechSummary[key].count,
         }))
 
