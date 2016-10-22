@@ -1,0 +1,20 @@
+.PartyFilter {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.PartyFilter .PartyBadge {
+  transform: scale(.75);
+  position: relative;
+  top: -3px;
+  left: 0;
+}
+
+.PartyFilter .ActiveParty .PartyBadge {
+  opacity: 1;
+}
+
+.PartyFilter .PartyBadge {
+  opacity: .2;
+}

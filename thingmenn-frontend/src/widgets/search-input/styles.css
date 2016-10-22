@@ -10,7 +10,7 @@
 
 @media (min-width: 950px) {
   .Search-input {
-    flex: 0 1 17rem;
+    flex: 0   1 100rem;
     margin: 0;
     margin-left: auto;
   }
