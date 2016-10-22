@@ -13,11 +13,11 @@
 			"occurance": 114
 		},
 		{
-			"noun": "forsætisnefnd",
+			"noun": "skýrsla",
 			"occurance": 113
 		},
 		{
-			"noun": "skýrsla",
+			"noun": "forsætisnefnd",
 			"occurance": 113
 		},
 		{
@@ -119,7 +119,7 @@
 			"occurance": 177
 		},
 		{
-			"noun": "sveitarfélag",
+			"noun": "þingsályktunartillaga",
 			"occurance": 175
 		}
 	],
@@ -223,11 +223,11 @@
 			"occurance": 130
 		},
 		{
-			"noun": "sjálfstæðisflokkur",
+			"noun": "stjórnsýsla",
 			"occurance": 128
 		},
 		{
-			"noun": "stjórnsýsla",
+			"noun": "sjálfstæðisflokkur",
 			"occurance": 128
 		},
 		{
@@ -235,11 +235,11 @@
 			"occurance": 127
 		},
 		{
-			"noun": "greinargerð",
+			"noun": "sveitarfélag",
 			"occurance": 123
 		},
 		{
-			"noun": "sveitarfélag",
+			"noun": "greinargerð",
 			"occurance": 123
 		},
 		{
@@ -285,11 +285,11 @@
 			"occurance": 353
 		},
 		{
-			"noun": "utanríkismálanefnd",
+			"noun": "skýrsla",
 			"occurance": 325
 		},
 		{
-			"noun": "skýrsla",
+			"noun": "utanríkismálanefnd",
 			"occurance": 325
 		},
 		{
@@ -525,10 +525,6 @@
 			"occurance": 208
 		},
 		{
-			"noun": "viðkomandi",
-			"occurance": 200
-		},
-		{
 			"noun": "stjórnarandstaða",
 			"occurance": 188
 		},
@@ -555,6 +551,10 @@
 		{
 			"noun": "tækifæri",
 			"occurance": 148
+		},
+		{
+			"noun": "markaður",
+			"occurance": 142
 		}
 	],
 	"658": [
@@ -657,11 +657,11 @@
 			"occurance": 151
 		},
 		{
-			"noun": "evrópusamband",
+			"noun": "áhyggja",
 			"occurance": 149
 		},
 		{
-			"noun": "áhyggja",
+			"noun": "evrópusamband",
 			"occurance": 149
 		},
 		{
@@ -677,7 +677,7 @@
 			"occurance": 132
 		},
 		{
-			"noun": "rammaáætlun",
+			"noun": "bú",
 			"occurance": 131
 		}
 	],
@@ -739,7 +739,7 @@
 			"occurance": 210
 		},
 		{
-			"noun": "seðlabanki",
+			"noun": "skýrsla",
 			"occurance": 200
 		}
 	],
@@ -785,10 +785,6 @@
 			"occurance": 188
 		},
 		{
-			"noun": "viðkomandi",
-			"occurance": 173
-		},
-		{
 			"noun": "áætlun",
 			"occurance": 163
 		},
@@ -803,6 +799,10 @@
 		{
 			"noun": "skóli",
 			"occurance": 150
+		},
+		{
+			"noun": "samfélagið",
+			"occurance": 147
 		}
 	],
 	"686": [
@@ -847,11 +847,11 @@
 			"occurance": 76
 		},
 		{
-			"noun": "bent",
+			"noun": "gildi",
 			"occurance": 71
 		},
 		{
-			"noun": "gildi",
+			"noun": "bent",
 			"occurance": 71
 		},
 		{
@@ -863,7 +863,7 @@
 			"occurance": 66
 		},
 		{
-			"noun": "samstarf",
+			"noun": "vilji",
 			"occurance": 65
 		}
 	],
@@ -1041,11 +1041,11 @@
 			"occurance": 269
 		},
 		{
-			"noun": "rannsókn",
+			"noun": "skýrsla",
 			"occurance": 255
 		},
 		{
-			"noun": "skýrsla",
+			"noun": "rannsókn",
 			"occurance": 255
 		},
 		{
@@ -1165,15 +1165,15 @@
 			"occurance": 80
 		},
 		{
-			"noun": "fjármunir",
-			"occurance": 76
-		},
-		{
 			"noun": "samstarf",
 			"occurance": 76
 		},
 		{
-			"noun": "stjórnvald",
+			"noun": "fjármunir",
+			"occurance": 76
+		},
+		{
+			"noun": "dreifbýli",
 			"occurance": 72
 		}
 	],
@@ -1215,11 +1215,11 @@
 			"occurance": 44
 		},
 		{
-			"noun": "síða",
+			"noun": "skóli",
 			"occurance": 40
 		},
 		{
-			"noun": "skóli",
+			"noun": "síða",
 			"occurance": 40
 		},
 		{
@@ -1591,15 +1591,15 @@
 			"occurance": 110
 		},
 		{
+			"noun": "ferðamaður",
+			"occurance": 103
+		},
+		{
 			"noun": "uppbygging",
 			"occurance": 103
 		},
 		{
 			"noun": "sveitarfélag",
-			"occurance": 103
-		},
-		{
-			"noun": "ferðamaður",
 			"occurance": 103
 		},
 		{
@@ -1761,11 +1761,11 @@
 			"occurance": 72
 		},
 		{
-			"noun": "almenningur",
+			"noun": "auðlind",
 			"occurance": 64
 		},
 		{
-			"noun": "auðlind",
+			"noun": "almenningur",
 			"occurance": 64
 		},
 		{
@@ -1913,11 +1913,11 @@
 			"occurance": 73
 		},
 		{
-			"noun": "málefni",
+			"noun": "barn",
 			"occurance": 71
 		},
 		{
-			"noun": "barn",
+			"noun": "málefni",
 			"occurance": 71
 		}
 	],
@@ -2017,11 +2017,11 @@
 			"occurance": 126
 		},
 		{
-			"noun": "gjald",
+			"noun": "rannsókn",
 			"occurance": 122
 		},
 		{
-			"noun": "rannsókn",
+			"noun": "gjald",
 			"occurance": 122
 		},
 		{
@@ -2029,11 +2029,11 @@
 			"occurance": 116
 		},
 		{
-			"noun": "vara",
+			"noun": "kostnaður",
 			"occurance": 110
 		},
 		{
-			"noun": "kostnaður",
+			"noun": "vara",
 			"occurance": 110
 		},
 		{
@@ -2075,11 +2075,11 @@
 			"occurance": 168
 		},
 		{
-			"noun": "samfélag",
+			"noun": "þjóðaratkvæðagreiðsla",
 			"occurance": 160
 		},
 		{
-			"noun": "þjóðaratkvæðagreiðsla",
+			"noun": "samfélag",
 			"occurance": 160
 		},
 		{
@@ -2149,11 +2149,11 @@
 			"occurance": 96
 		},
 		{
-			"noun": "fjármagn",
+			"noun": "evrópusamband",
 			"occurance": 94
 		},
 		{
-			"noun": "evrópusamband",
+			"noun": "fjármagn",
 			"occurance": 94
 		},
 		{
@@ -2343,11 +2343,11 @@
 			"occurance": 53
 		},
 		{
-			"noun": "stjórnvald",
+			"noun": "ferðamaður",
 			"occurance": 52
 		},
 		{
-			"noun": "ferðamaður",
+			"noun": "stjórnvald",
 			"occurance": 52
 		},
 		{
@@ -2443,11 +2443,11 @@
 			"occurance": 16
 		},
 		{
-			"noun": "sveitarfélag",
+			"noun": "evrópa",
 			"occurance": 15
 		},
 		{
-			"noun": "evrópa",
+			"noun": "sveitarfélag",
 			"occurance": 15
 		},
 		{
@@ -2455,7 +2455,15 @@
 			"occurance": 13
 		},
 		{
+			"noun": "samfélagið",
+			"occurance": 12
+		},
+		{
 			"noun": "foreldrar",
+			"occurance": 12
+		},
+		{
+			"noun": "háskóli",
 			"occurance": 12
 		},
 		{
@@ -2464,14 +2472,6 @@
 		},
 		{
 			"noun": "fjárlag",
-			"occurance": 12
-		},
-		{
-			"noun": "háskóli",
-			"occurance": 12
-		},
-		{
-			"noun": "samfélagið",
 			"occurance": 12
 		},
 		{
@@ -2551,11 +2551,11 @@
 			"occurance": 79
 		},
 		{
-			"noun": "skattur",
+			"noun": "evrópusamband",
 			"occurance": 64
 		},
 		{
-			"noun": "evrópusamband",
+			"noun": "skattur",
 			"occurance": 64
 		},
 		{
@@ -2587,11 +2587,11 @@
 			"occurance": 51
 		},
 		{
-			"noun": "vörugjald",
+			"noun": "áfengi",
 			"occurance": 49
 		},
 		{
-			"noun": "áfengi",
+			"noun": "vörugjald",
 			"occurance": 49
 		},
 		{
@@ -2919,11 +2919,11 @@
 			"occurance": 50
 		},
 		{
-			"noun": "viðræða",
+			"noun": "almannahagsmunir",
 			"occurance": 44
 		},
 		{
-			"noun": "almannahagsmunir",
+			"noun": "viðræða",
 			"occurance": 44
 		},
 		{
@@ -2947,11 +2947,11 @@
 			"occurance": 32
 		},
 		{
-			"noun": "hagsmunir",
+			"noun": "þjóðaratkvæðagreiðsla",
 			"occurance": 31
 		},
 		{
-			"noun": "þjóðaratkvæðagreiðsla",
+			"noun": "hagsmunir",
 			"occurance": 31
 		},
 		{
@@ -2963,15 +2963,15 @@
 			"occurance": 27
 		},
 		{
+			"noun": "áhyggja",
+			"occurance": 27
+		},
+		{
 			"noun": "afstaða",
 			"occurance": 27
 		},
 		{
-			"noun": "stjórnvald",
-			"occurance": 27
-		},
-		{
-			"noun": "ákveða",
+			"noun": "seðlabanki",
 			"occurance": 27
 		}
 	],
@@ -3033,7 +3033,7 @@
 			"occurance": 80
 		},
 		{
-			"noun": "fjármálastofnun",
+			"noun": "lán",
 			"occurance": 77
 		}
 	],
@@ -3171,11 +3171,11 @@
 			"occurance": 131
 		},
 		{
-			"noun": "sveitarfélag",
+			"noun": "fjárlaganefnd",
 			"occurance": 92
 		},
 		{
-			"noun": "fjárlaganefnd",
+			"noun": "sveitarfélag",
 			"occurance": 92
 		},
 		{
@@ -3249,11 +3249,11 @@
 			"occurance": 34
 		},
 		{
-			"noun": "bæt",
+			"noun": "áætlun",
 			"occurance": 33
 		},
 		{
-			"noun": "áætlun",
+			"noun": "bæt",
 			"occurance": 33
 		},
 		{
@@ -3261,11 +3261,11 @@
 			"occurance": 30
 		},
 		{
-			"noun": "gjald",
+			"noun": "bíll",
 			"occurance": 29
 		},
 		{
-			"noun": "bíll",
+			"noun": "gjald",
 			"occurance": 29
 		},
 		{
@@ -3277,11 +3277,11 @@
 			"occurance": 26
 		},
 		{
-			"noun": "innviðir",
+			"noun": "uppbygging",
 			"occurance": 25
 		},
 		{
-			"noun": "uppbygging",
+			"noun": "innviðir",
 			"occurance": 25
 		}
 	],
@@ -3327,11 +3327,11 @@
 			"occurance": 251
 		},
 		{
-			"noun": "pírati",
+			"noun": "evrópusamband",
 			"occurance": 233
 		},
 		{
-			"noun": "evrópusamband",
+			"noun": "pírati",
 			"occurance": 233
 		},
 		{
@@ -3393,10 +3393,6 @@
 			"occurance": 41
 		},
 		{
-			"noun": "vara",
-			"occurance": 35
-		},
-		{
 			"noun": "vandamál",
 			"occurance": 35
 		},
@@ -3405,7 +3401,11 @@
 			"occurance": 35
 		},
 		{
-			"noun": "skýrsla",
+			"noun": "vara",
+			"occurance": 35
+		},
+		{
+			"noun": "staðgöngumóðir",
 			"occurance": 34
 		}
 	],
@@ -3451,19 +3451,19 @@
 			"occurance": 49
 		},
 		{
-			"noun": "evrópuráðið",
-			"occurance": 49
-		},
-		{
 			"noun": "íslenska",
 			"occurance": 49
 		},
 		{
-			"noun": "flóttamaður",
-			"occurance": 47
+			"noun": "evrópuráðið",
+			"occurance": 49
 		},
 		{
 			"noun": "banki",
+			"occurance": 47
+		},
+		{
+			"noun": "flóttamaður",
 			"occurance": 47
 		},
 		{
@@ -3587,11 +3587,11 @@
 			"occurance": 76
 		},
 		{
-			"noun": "evrópa",
+			"noun": "málefni",
 			"occurance": 70
 		},
 		{
-			"noun": "málefni",
+			"noun": "evrópa",
 			"occurance": 70
 		}
 	],
@@ -3641,11 +3641,11 @@
 			"occurance": 108
 		},
 		{
-			"noun": "samráð",
+			"noun": "mannréttindi",
 			"occurance": 108
 		},
 		{
-			"noun": "mannréttindi",
+			"noun": "samráð",
 			"occurance": 108
 		},
 		{
@@ -3711,11 +3711,11 @@
 			"occurance": 46
 		},
 		{
-			"noun": "bót",
+			"noun": "veiðigjald",
 			"occurance": 41
 		},
 		{
-			"noun": "veiðigjald",
+			"noun": "bót",
 			"occurance": 41
 		}
 	],
@@ -3733,11 +3733,11 @@
 			"occurance": 91
 		},
 		{
-			"noun": "barn",
+			"noun": "samningur",
 			"occurance": 71
 		},
 		{
-			"noun": "samningur",
+			"noun": "barn",
 			"occurance": 71
 		},
 		{
@@ -3807,19 +3807,19 @@
 			"occurance": 40
 		},
 		{
-			"noun": "skóli",
-			"occurance": 39
-		},
-		{
 			"noun": "norræna",
 			"occurance": 39
 		},
 		{
-			"noun": "ríkissjóður",
-			"occurance": 37
+			"noun": "skóli",
+			"occurance": 39
 		},
 		{
 			"noun": "akureyri",
+			"occurance": 37
+		},
+		{
+			"noun": "ríkissjóður",
 			"occurance": 37
 		},
 		{
@@ -3907,11 +3907,11 @@
 	],
 	"1177": [
 		{
-			"noun": "lán",
+			"noun": "lífeyrissjóður",
 			"occurance": 96
 		},
 		{
-			"noun": "lífeyrissjóður",
+			"noun": "lán",
 			"occurance": 96
 		},
 		{
@@ -3985,11 +3985,11 @@
 			"occurance": 145
 		},
 		{
-			"noun": "þjóð",
+			"noun": "atvinnulíf",
 			"occurance": 136
 		},
 		{
-			"noun": "atvinnulíf",
+			"noun": "þjóð",
 			"occurance": 136
 		},
 		{
@@ -4109,11 +4109,11 @@
 			"occurance": 36
 		},
 		{
-			"noun": "heimili",
+			"noun": "bæt",
 			"occurance": 34
 		},
 		{
-			"noun": "bæt",
+			"noun": "heimili",
 			"occurance": 34
 		},
 		{
@@ -4133,11 +4133,11 @@
 			"occurance": 29
 		},
 		{
-			"noun": "sjúkraskrá",
+			"noun": "íslendingur",
 			"occurance": 27
 		},
 		{
-			"noun": "íslendingur",
+			"noun": "sjúkraskrá",
 			"occurance": 27
 		},
 		{
@@ -4183,11 +4183,11 @@
 			"occurance": 33
 		},
 		{
-			"noun": "þingsályktunartillaga",
+			"noun": "framtíð",
 			"occurance": 32
 		},
 		{
-			"noun": "framtíð",
+			"noun": "þingsályktunartillaga",
 			"occurance": 32
 		},
 		{
@@ -4249,11 +4249,11 @@
 			"occurance": 22
 		},
 		{
-			"noun": "barn",
+			"noun": "almannaréttur",
 			"occurance": 21
 		},
 		{
-			"noun": "almannaréttur",
+			"noun": "barn",
 			"occurance": 21
 		},
 		{
@@ -4269,11 +4269,11 @@
 			"occurance": 18
 		},
 		{
-			"noun": "samfélagið",
+			"noun": "frelsi",
 			"occurance": 17
 		},
 		{
-			"noun": "frelsi",
+			"noun": "samfélagið",
 			"occurance": 17
 		}
 	],
@@ -4893,7 +4893,7 @@
 			"occurance": 48
 		},
 		{
-			"noun": "banki",
+			"noun": "samfélagið",
 			"occurance": 47
 		}
 	],
@@ -4911,19 +4911,19 @@
 			"occurance": 18
 		},
 		{
-			"noun": "verðbólga",
-			"occurance": 17
-		},
-		{
 			"noun": "þjóð",
 			"occurance": 17
 		},
 		{
-			"noun": "fjárlag",
-			"occurance": 16
+			"noun": "verðbólga",
+			"occurance": 17
 		},
 		{
 			"noun": "borg",
+			"occurance": 16
+		},
+		{
+			"noun": "fjárlag",
 			"occurance": 16
 		},
 		{
@@ -4939,6 +4939,10 @@
 			"occurance": 15
 		},
 		{
+			"noun": "íbúð",
+			"occurance": 14
+		},
+		{
 			"noun": "nám",
 			"occurance": 14
 		},
@@ -4947,15 +4951,11 @@
 			"occurance": 14
 		},
 		{
-			"noun": "íbúð",
-			"occurance": 14
-		},
-		{
-			"noun": "nemandi",
+			"noun": "umboðsmaður",
 			"occurance": 13
 		},
 		{
-			"noun": "vandamál",
+			"noun": "munur",
 			"occurance": 13
 		}
 	],
@@ -5213,19 +5213,15 @@
 			"occurance": 6
 		},
 		{
-			"noun": "vinnumarkaður",
-			"occurance": 5
-		},
-		{
 			"noun": "atvinnuleysi",
 			"occurance": 5
 		},
 		{
-			"noun": "aðgangur",
-			"occurance": 4
+			"noun": "vinnumarkaður",
+			"occurance": 5
 		},
 		{
-			"noun": "egilsstaðir",
+			"noun": "innanríkisráðherra",
 			"occurance": 4
 		},
 		{
@@ -5233,19 +5229,31 @@
 			"occurance": 4
 		},
 		{
-			"noun": "innanríkisráðherra",
+			"noun": "egilsstaðir",
 			"occurance": 4
 		},
 		{
+			"noun": "aðgangur",
+			"occurance": 4
+		},
+		{
+			"noun": "aldur",
+			"occurance": 3
+		},
+		{
+			"noun": "skýrsla",
+			"occurance": 3
+		},
+		{
+			"noun": "kona",
+			"occurance": 3
+		},
+		{
+			"noun": "skattur",
+			"occurance": 3
+		},
+		{
 			"noun": "borg",
-			"occurance": 3
-		},
-		{
-			"noun": "harpa",
-			"occurance": 3
-		},
-		{
-			"noun": "par",
 			"occurance": 3
 		},
 		{
@@ -5257,15 +5265,7 @@
 			"occurance": 3
 		},
 		{
-			"noun": "skattur",
-			"occurance": 3
-		},
-		{
-			"noun": "áhyggja",
-			"occurance": 3
-		},
-		{
-			"noun": "eftirlaun",
+			"noun": "par",
 			"occurance": 3
 		}
 	],

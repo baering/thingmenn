@@ -87,11 +87,11 @@
 			"occurance": 1890
 		},
 		{
-			"noun": "ríkissjóður",
+			"noun": "sjálfstæðisflokkur",
 			"occurance": 1765
 		},
 		{
-			"noun": "sjálfstæðisflokkur",
+			"noun": "ríkissjóður",
 			"occurance": 1765
 		},
 		{
@@ -301,11 +301,11 @@
 			"occurance": 563
 		},
 		{
-			"noun": "íslenska",
+			"noun": "þjónusta",
 			"occurance": 551
 		},
 		{
-			"noun": "þjónusta",
+			"noun": "íslenska",
 			"occurance": 551
 		}
 	],
