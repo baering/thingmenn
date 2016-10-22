@@ -78,7 +78,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="Details-item">
-            <Words divider="4" title="Mest talað um" words={nouns} />
+            <Words divider="8" title="Mest talað um" words={nouns} />
           </div>
 
           <div className="Details-item Details-item--large">
