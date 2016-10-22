@@ -75,7 +75,7 @@ function getTopPartyNouns(nounSummary) {
       const occuranceB = nounSummary[partyName][b]
 
       return occuranceB - occuranceA
-    }).slice(0, 20).map(noun => {
+    }).slice(0, 15).map(noun => {
       return {
         noun,
         occurance: nounSummary[partyName][noun]
@@ -207,7 +207,7 @@ export default function createMpNounLookup() {
   writeToFile(mpNounLookupMap, 'data/export/mp-noun-lookup.json', true)
 
   const topPartyNouns = getTopPartyNouns(partyNounCounters)
-  writeToFile(topPartyNouns, 'data/export/party-noun-lookup-wip.json', true)
+  writeToFile(topPartyNouns, 'data/export/party-noun-lookup.json', true)
 
   console.log('Wrote mp-nouns to file')
 

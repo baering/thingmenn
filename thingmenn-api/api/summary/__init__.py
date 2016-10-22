@@ -88,11 +88,10 @@ def get_mp_nouns(mp_id):
     return make_json_response(summary_for_mp)
 
 def get_party_nouns(party_id):
-    if party_id not in party_lookup:
+    if party_id not in party_noun_lookup:
         return make_error('Not found')
 
-    party = parties[party_lookup[party_id]]
-    summary_for_party = party_noun_lookup[party['name']]
+    summary_for_party = party_noun_lookup[party_id]
     return make_json_response(summary_for_party)
 
 def get_mp_speech_statistics(mp_id):
