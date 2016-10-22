@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router'
 import { formatPercentage } from '../../utils'
 
+import PartyBadge from '../partybadge'
+
 import './styles.css'
 
 const Friends = ({
@@ -18,7 +20,10 @@ const Friends = ({
        <dd>{subTitle}</dd>
        {friends.map((friend) => (
          [
-           <dt><Link to={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</Link></dt>,
+           <dt>
+             <PartyBadge party={friend.mp.partySlug} className="Friends-badge" />
+             <Link to={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</Link>
+            </dt>,
            <dd>{friend.votes} ({formatPercentage(friend.similarity)})</dd>
          ]
        ))}

@@ -1,9 +1,6 @@
 .PartyBadge {
-  position: absolute;
   width: 2.66rem;
   height: 2.66rem;
-  right: 1rem;
-  bottom: 1rem;
   border-radius: 50%;
   background-color: #FFF;
   background-size: 50%;

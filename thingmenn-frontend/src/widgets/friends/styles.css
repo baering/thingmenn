@@ -38,11 +38,17 @@
 }
 
 .Friends-list dt:not(:first-child)::before {
-  content: counter(friends) ".";
-  counter-increment: friends;
   margin-right: 0.422rem;
 }
 
 .Friends-list dd {
   text-align: right;
+}
+
+.Friends-badge {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  width: 1.5rem;
 }

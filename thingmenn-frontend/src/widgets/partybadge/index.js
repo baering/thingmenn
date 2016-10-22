@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles.css'
 
-const PartyBadge = ({party}) => {
+const PartyBadge = ({party, className}) => {
   return (
-    <div className='PartyBadge' data-party={party}
+    <div className={`PartyBadge ${className}`} data-party={party}
       style={{
         backgroundImage: `url(/images/parties/${party}.svg)`
       }}
@@ -13,7 +13,8 @@ const PartyBadge = ({party}) => {
 }
 
 PartyBadge.propTypes = {
-  party: React.PropTypes.string
+  party: React.PropTypes.string,
+  className: React.PropTypes.string,
 }
 
 export default PartyBadge

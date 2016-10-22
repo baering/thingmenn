@@ -5,6 +5,8 @@ import ListItemImage from '../list-item-image'
 import ListItemContent from '../list-item-content'
 import PartyBadge from '../partybadge'
 
+import './styles.css'
+
 const Mp = ({
   id,
   name,
@@ -15,7 +17,7 @@ const Mp = ({
   return (
     <ListItem url={`/thingmenn/${id}`}>
       <ListItemImage path={imagePath} cover={true}>
-        <PartyBadge party={partySlug}/>
+        <PartyBadge party={partySlug} className="Mp-badge"/>
       </ListItemImage>
       <ListItemContent title={name} />
     </ListItem>
