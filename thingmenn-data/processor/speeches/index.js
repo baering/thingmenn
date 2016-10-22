@@ -110,8 +110,14 @@ export default function createMpNounLookup() {
   allSpeeches.forEach(term => {
     term.speeches.forEach(mpSpeeches => {
       const currentMpId = mpSpeeches.mpId
-      mpNounLookup[currentMpId] = {}
-      mpSubjectOccuranceMap[currentMpId] = {}
+
+      if (!mpNounLookup[currentMpId]) {
+        mpNounLookup[currentMpId] = {}
+      }
+
+      if (!mpSubjectOccuranceMap[currentMpId]) {
+        mpSubjectOccuranceMap[currentMpId] = {}
+      }
 
       mpSpeeches.speeches.forEach(speech => {
         const cleanedSpeech = speech.replace(/\n/g, ' ')
