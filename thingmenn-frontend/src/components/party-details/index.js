@@ -1,7 +1,7 @@
 import React from 'react';
 
-import PartyService from '../../services/party-service'
-import PartySummaryService from '../../services/party-summary-service'
+import partyService from '../../services/party-service'
+import partySummaryService from '../../services/party-summary-service'
 
 import DetailsHeader from '../../widgets/details-header'
 import Piechart from '../../widgets/piechart'
@@ -16,15 +16,12 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
-    this.partyService = new PartyService()
-    this.partySummaryService = new PartySummaryService()
-
     this.state = {
-      party: this.partyService.getPartyDetailsIfCached(),
-      voteSummary: this.partySummaryService.getPartyVotesIfCached(),
-      subjectSummary: this.partySummaryService.getPartySubjectsIfCached(),
-      nouns: this.partySummaryService.getPartyNounsIfCached(),
-      speechSummary: this.partySummaryService.getPartySpeechesIfCached(),
+      party: {},
+      voteSummary: { voteSummary: {}, votePercentages: [] },
+      subjectSummary: [],
+      nouns: [],
+      speechSummary: {},
     }
   }
 
@@ -34,27 +31,27 @@ export default class Mps extends React.Component {
       return;
     }
 
-    this.partyService.getPartyDetails(partyId)
+    partyService.getPartyDetails(partyId)
       .then(party => {
         this.setState({ party })
       })
 
-    this.partySummaryService.getPartyVotes(partyId)
+    partySummaryService.getPartyVotes(partyId)
       .then(voteSummary => {
         this.setState({ voteSummary })
       })
 
-    this.partySummaryService.getPartySubjects(partyId)
+    partySummaryService.getPartySubjects(partyId)
       .then(subjectSummary => {
         this.setState({ subjectSummary })
       })
 
-    this.partySummaryService.getPartyNouns(partyId)
+    partySummaryService.getPartyNouns(partyId)
       .then(nouns => {
         this.setState({ nouns })
       })
 
-    this.partySummaryService.getPartySpeeches(partyId)
+    partySummaryService.getPartySpeeches(partyId)
       .then(speechSummary => {
         this.setState({ speechSummary })
       })

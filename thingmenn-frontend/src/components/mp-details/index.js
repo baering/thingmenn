@@ -17,12 +17,10 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
-    const { mpId } = this.props.params
-
     this.state = {
       mp: [],
-      voteSummary: { standsTaken: 0, votePercentages: [], voteSummary: [] },
-      speechSummary: [],
+      voteSummary: { votePercentages: [], voteSummary: [] },
+      speechSummary: {},
       subjectSummary: [],
       nouns: [],
       similarMps: [],

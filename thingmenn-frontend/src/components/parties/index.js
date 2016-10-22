@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PartyService from '../../services/party-service'
+import partyService from '../../services/party-service'
 
 import Party from '../../widgets/party'
 import List from '../../widgets/list'
@@ -11,20 +11,16 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
-    this.partyService = new PartyService()
-
     this.state = {
-      parties: this.partyService.getPartiesIfCached(),
+      parties: [],
     }
   }
 
   componentDidMount() {
-    if (!this.state.parties.length) {
-      this.partyService.getParties()
-        .then(parties => {
-          this.setState({ parties })
-        })
-    }
+    partyService.getParties()
+      .then(parties => {
+        this.setState({ parties })
+      })
   }
 
   render() {

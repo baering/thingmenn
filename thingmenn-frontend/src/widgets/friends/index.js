@@ -17,7 +17,7 @@ const Friends = ({
   return (
     <div className="Friends">
       <h1 className="Friends-heading heading">
-        {icon ? [<span className={`typcn typcn-group-outline icon-${isDisplayingFriends ? 'friend' : 'enemy'}`}></span>,<span> </span>] : null}
+        {icon ? <span><span key="icon-1" className={`typcn typcn-group-outline icon-${isDisplayingFriends ? 'friend' : 'enemy'}`}></span> </span>: null}
         {title}
       </h1>
       <dl className="Friends-list">
@@ -25,11 +25,11 @@ const Friends = ({
        <dd>{subTitle}</dd>
        {friends.map((friend) => (
          [
-           <dt>
+           <dt key={friend.mp.id}>
              <PartyBadge party={friend.mp.partySlug} className="Friends-badge" />
              <Link to={`/thingmenn/${friend.mp.id}`}>{friend.mp.name}</Link>
             </dt>,
-           <dd>{valueFormatter(friend)}</dd>
+           <dd key={friend.mp.id + '-value'}>{valueFormatter(friend)}</dd>
          ]
        ))}
      </dl>
