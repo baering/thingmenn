@@ -16,7 +16,8 @@ export default class Mps extends React.Component {
     this.mpService = new MpService()
     this.state = {
       mps: this.mpService.getMpsIfCached(),
-      searchInput: ''
+      searchInput: '',
+      sortByParty: false,
     }
   }
 
@@ -41,16 +42,38 @@ export default class Mps extends React.Component {
           this.setState({ mps })
         })
     }
+    this.setSorting(this.props)
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setSorting(nextProps)
+  }
+
+  setSorting(props) {
+    const { query } = props.location
+    const sortByParty = query.rada === 'flokkar'
+    this.setState({ sortByParty })
+  }
+
+  sortItem(mp1, mp2) {
+    if (this.state.sortByParty) {
+      return mp1.party.localeCompare(mp2.party)
+    }
+    return mp1.name.localeCompare(mp2.name)
   }
 
   render() {
-    const { mps, searchInput } = this.state
+    const { mps, searchInput, sortByParty } = this.state
+
+    const items = mps.filter(this.searchFilter)
+        .sort(this.sortItem.bind(this))
+
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} />
+        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
         <List>
-          {mps.filter(this.searchFilter).map(mp => (
+          {items.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
         </List>

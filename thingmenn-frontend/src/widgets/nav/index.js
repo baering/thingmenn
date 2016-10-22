@@ -7,7 +7,7 @@ class Nav extends React.Component {
     return (
       <nav className="Nav">
         <div className="Nav-top">
-          <IndexLink to='/' className="Nav-title" activeClassName="is-active">Þingmenn<span className='u-hiddenSmall'><span className='Nav-titleDot'>.</span>is</span></IndexLink>
+          <IndexLink to="/" className="Nav-title" activeClassName="is-active">Þingmenn<span className='u-hiddenSmall'><span className='Nav-titleDot'>.</span>is</span></IndexLink>
         </div>
         <IndexLink to="/" className="Nav-item" activeClassName="is-active"><span className="typcn typcn-user-outline"></span> Þingmenn</IndexLink>
         <Link to="/thingflokkar" className="Nav-item" activeClassName="is-active"><span className="typcn typcn-group-outline"></span> Þingflokkar</Link>
