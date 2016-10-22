@@ -1,7 +1,7 @@
 import React from 'react';
 
-import MpService from '../../services/mp-service'
-import MpSummaryService from '../../services/mp-summary-service'
+import mpService from '../../services/mp-service'
+import mpSummaryService from '../../services/mp-summary-service'
 
 import ColorLegend from '../../widgets/color-legend'
 import DetailsHeader from '../../widgets/details-header'
@@ -17,23 +17,20 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
-    this.mpService = new MpService()
-    this.mpSummaryService = new MpSummaryService()
-
     const { mpId } = this.props.params
 
     this.state = {
-      mp: this.mpService.getMpDetailsIfCached(mpId),
-      voteSummary: this.mpSummaryService.getMpVotesIfCached(mpId),
-      speechSummary: this.mpSummaryService.getMpSpeechesIfCached(mpId),
-      subjectSummary: this.mpSummaryService.getMpSubjectsIfCached(mpId),
-      nouns: this.mpSummaryService.getMpNounsIfCached(mpId),
-      similarMps: this.mpService.getSimilarMpsIfCached(mpId),
-      differentMps: this.mpService.getDifferentMpsIfCached(mpId),
+      mp: [],
+      voteSummary: { standsTaken: 0, votePercentages: [], voteSummary: [] },
+      speechSummary: [],
+      subjectSummary: [],
+      nouns: [],
+      similarMps: [],
+      differentMps: [],
     }
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.getData()
   }
 
@@ -46,37 +43,37 @@ export default class Mps extends React.Component {
 
     if (this.state.mp.id === mpId) return;
 
-    this.mpService.getMpDetails(mpId)
+    mpService.getMpDetails(mpId)
       .then(mp => {
         this.setState({ mp })
       })
 
-    this.mpSummaryService.getMpVotes(mpId)
+    mpSummaryService.getMpVotes(mpId)
       .then(voteSummary => {
         this.setState({ voteSummary })
       })
 
-    this.mpSummaryService.getMpSubjects(mpId)
+    mpSummaryService.getMpSubjects(mpId)
       .then(subjectSummary => {
         this.setState({ subjectSummary })
       })
 
-    this.mpSummaryService.getMpNouns(mpId)
+    mpSummaryService.getMpNouns(mpId)
       .then(nouns => {
         this.setState({ nouns })
       })
 
-    this.mpSummaryService.getMpSpeeches(mpId)
+    mpSummaryService.getMpSpeeches(mpId)
       .then(speechSummary => {
         this.setState({ speechSummary })
       })
 
-    this.mpService.getSimilarMps(mpId)
+    mpService.getSimilarMps(mpId)
       .then(similarMps => {
         this.setState({ similarMps })
       })
 
-    this.mpService.getDifferentMps(mpId)
+    mpService.getDifferentMps(mpId)
       .then(differentMps => {
         this.setState({ differentMps })
       })

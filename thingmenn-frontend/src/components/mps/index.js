@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MpService from '../../services/mp-service'
+import mpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
 import SubNav from '../../widgets/subnav'
 import List from '../../widgets/list'
@@ -13,9 +13,8 @@ export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
-    this.mpService = new MpService()
     this.state = {
-      mps: this.mpService.getMpsIfCached(),
+      mps: [],
       searchInput: '',
       sortByParty: false,
     }
@@ -35,13 +34,11 @@ export default class Mps extends React.Component {
     return mp
   }
 
-  componentDidMount() {
-    if (!this.state.mps.length) {
-      this.mpService.getMps()
-        .then(mps => {
-          this.setState({ mps })
-        })
-    }
+  componentWillMount() {
+    mpService.getMps()
+      .then(mps => {
+        this.setState({ mps })
+      })
     this.setSorting(this.props)
   }
 

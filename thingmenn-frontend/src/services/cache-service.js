@@ -19,7 +19,7 @@ class CacheService {
           }).then(jsonData => {
             this.setKeyToCache(url, jsonData)
             resolve(jsonData)
-          })
+          }).catch(error => reject(error))
       }
     })
   }
