@@ -1,6 +1,8 @@
 import React from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
+import analytics from './utility/analytics'
+
 import App from './components/app'
 import Mps from './components/mps'
 import MpDetails from './components/mp-details'
@@ -10,7 +12,9 @@ import About from './components/about'
 import NotFound from './components/not-found'
 
 function onRouterUpdate() {
-  const { action } = this.state.location
+  const { action, pathname } = this.state.location
+
+  analytics.pageview(pathname)
 
   if (action === 'PUSH') {
     window.scrollTo(0, 0)
