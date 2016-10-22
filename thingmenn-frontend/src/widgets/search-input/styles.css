@@ -5,7 +5,12 @@
   flex: 1 1 100%;
   font-size: inherit;
   margin: 1rem 0;
+  outline: none;
   padding: 0.75rem;
+}
+
+.Search-input:focus {
+  box-shadow: 0 0 3px 0 rgba(6, 171, 220, 0.5);
 }
 
 @media (min-width: 950px) {
