@@ -8,6 +8,7 @@ import Mps from './components/mps'
 import MpDetails from './components/mp-details'
 import Parties from './components/parties'
 import PartyDetails from './components/party-details'
+import Totals from './components/totals'
 import About from './components/about'
 import NotFound from './components/not-found'
 
@@ -37,6 +38,7 @@ const Routes = (props) => (
       <Route path="/thingmenn/:mpId" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path="/thingflokkar/:partyId" component={PartyDetails} />
+      <Route path="/samantekt" component={Totals} />
       <Route path="/um" component={About} />
       <Route path="*" component={NotFound} />
     </Route>
