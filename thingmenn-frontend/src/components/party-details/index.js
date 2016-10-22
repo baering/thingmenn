@@ -5,6 +5,7 @@ import PartySummaryService from '../../services/party-summary-service'
 
 import DetailsHeader from '../../widgets/details-header'
 import Piechart from '../../widgets/piechart'
+import BarChart from '../../widgets/bar-chart'
 import ColorLegend from '../../widgets/color-legend'
 import Words from '../../widgets/words'
 import Speeches from '../../widgets/speeches'
@@ -21,7 +22,7 @@ export default class Mps extends React.Component {
     this.state = {
       party: this.partyService.getPartyDetailsIfCached(),
       voteSummary: this.partySummaryService.getPartyVotesIfCached(),
-      // subjectSummary: this.partySummaryService.getPartySubjectsIfCached(),
+      subjectSummary: this.partySummaryService.getPartySubjectsIfCached(),
       nouns: this.partySummaryService.getPartyNounsIfCached(),
       speechSummary: this.partySummaryService.getPartySpeechesIfCached(),
     }
@@ -29,44 +30,38 @@ export default class Mps extends React.Component {
 
   componentDidMount() {
     const { partyId } = this.props.params
-    if (!this.state.party.id) {
-      this.partyService.getPartyDetails(partyId)
-        .then(party => {
-          this.setState({ party })
-        })
+    if (partyId === this.state.party.id) {
+      return;
     }
 
-    if (!this.state.voteSummary.voteSummary.numberOfVotes) {
-      this.partySummaryService.getPartyVotes(partyId)
-        .then(voteSummary => {
-          this.setState({ voteSummary })
-        })
-    }
+    this.partyService.getPartyDetails(partyId)
+      .then(party => {
+        this.setState({ party })
+      })
 
-    // if (!this.state.subjectSummary.length) {
-    //   this.partySummaryService.getPartySubjects(partyId)
-    //     .then(subjectSummary => {
-    //       this.setState({ subjectSummary })
-    //     })
-    // }
+    this.partySummaryService.getPartyVotes(partyId)
+      .then(voteSummary => {
+        this.setState({ voteSummary })
+      })
 
-    if (!this.state.nouns.length) {
-      this.partySummaryService.getPartyNouns(partyId)
-        .then(nouns => {
-          this.setState({ nouns })
-        })
-    }
+    this.partySummaryService.getPartySubjects(partyId)
+      .then(subjectSummary => {
+        this.setState({ subjectSummary })
+      })
 
-    if (!this.state.speechSummary.Samtals) {
-      this.partySummaryService.getPartySpeeches(partyId)
-        .then(speechSummary => {
-          this.setState({ speechSummary })
-        })
-    }
+    this.partySummaryService.getPartyNouns(partyId)
+      .then(nouns => {
+        this.setState({ nouns })
+      })
+
+    this.partySummaryService.getPartySpeeches(partyId)
+      .then(speechSummary => {
+        this.setState({ speechSummary })
+      })
   }
 
   render() {
-    const { party, voteSummary, nouns, speechSummary } = this.state
+    const { party, voteSummary, nouns, speechSummary, subjectSummary } = this.state
 
     return (
       <div className="fill">
@@ -88,6 +83,14 @@ export default class Mps extends React.Component {
 
           <div className="Details-item Details-item--large">
             <Speeches title="Skipting ræðutíma" speechSummary={speechSummary} />
+          </div>
+
+          <div className="Details-item Details-item--large">
+            <h1 className="heading">Atkvæðaskipting eftir efnisflokkum</h1>
+            <ColorLegend/>
+            {subjectSummary.map(subject => (
+              <BarChart subjectSummary={subject} key={subject.subject} />
+            ))}
           </div>
         </div>
       </div>

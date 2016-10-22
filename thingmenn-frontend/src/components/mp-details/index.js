@@ -129,7 +129,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="Details-item Details-item--large">
-            <h1 className='heading'>Atkvæðaskipting eftir efnisflokkum</h1>
+            <h1 className="heading">Atkvæðaskipting eftir efnisflokkum</h1>
             <ColorLegend/>
             {subjectSummary.map(subject => (
               <BarChart subjectSummary={subject} key={subject.subject} />
