@@ -64,7 +64,7 @@
     border-bottom: 1px solid #313131;
     font-size: 1rem;
   }
-  .Nav-item:first-of-type:not(.is-active) {
+  .Nav-item:first-of-type {
     border-top: 1px solid #313131;
   }
 }
