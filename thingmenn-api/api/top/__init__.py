@@ -28,7 +28,7 @@ def get_top_mp_attendance():
 
 @cache.cached(timeout=top_cache_timeout)
 def get_bottom_mp_attendance():
-    return make_json_response(mp_top_attendance[-10:])
+    return make_json_response(mp_top_attendance[-10:][::-1])
 
 @cache.cached(timeout=top_cache_timeout)
 def get_top_mp_minutes_talked():
@@ -36,7 +36,7 @@ def get_top_mp_minutes_talked():
 
 @cache.cached(timeout=top_cache_timeout)
 def get_bottom_mp_minutes_talked():
-    return make_json_response(mp_top_minutes_talked[-10:])
+    return make_json_response(mp_top_minutes_talked[-10:][::-1])
 
 @cache.cached(timeout=top_cache_timeout)
 def get_top_mp_stands_taken():
@@ -44,4 +44,4 @@ def get_top_mp_stands_taken():
 
 @cache.cached(timeout=top_cache_timeout)
 def get_bottom_mp_stands_taken():
-    return make_json_response(mp_top_stands_taken[-10:])
+    return make_json_response(mp_top_stands_taken[-10:][::-1])
