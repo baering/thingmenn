@@ -11,14 +11,24 @@ import PartyDetails from './components/party-details'
 import About from './components/about'
 import NotFound from './components/not-found'
 
+let lastState
+
 function onRouterUpdate() {
   const { action, pathname } = this.state.location
 
-  analytics.pageview(pathname)
+  const lastPathname = lastState ? lastState.pathname : null
+  const navigatingToNewPath = lastPathname !== pathname
 
-  if (action === 'PUSH') {
+  if (navigatingToNewPath) {
+    analytics.pageview(pathname)
+    console.log('New path, sent page view')
+  }
+
+  if (action === 'PUSH' && navigatingToNewPath) {
     window.scrollTo(0, 0)
   }
+
+  lastState = this.state.location
 }
 
 const Routes = (props) => (
