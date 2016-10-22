@@ -20,7 +20,7 @@
 			"standsTaken": 80.36,
 			"idle": 0.25,
 			"away": 15.04,
-			"absent": 15.04
+			"absent": 4.35
 		}
 	},
 	"Samfylkingin": {
@@ -44,7 +44,7 @@
 			"standsTaken": 51.68,
 			"idle": 18.49,
 			"away": 27.12,
-			"absent": 27.12
+			"absent": 2.72
 		}
 	},
 	"Sjálfstæðisflokkur": {
@@ -68,7 +68,7 @@
 			"standsTaken": 78.35,
 			"idle": 0.64,
 			"away": 16.47,
-			"absent": 16.47
+			"absent": 4.54
 		}
 	},
 	"Píratar": {
@@ -92,7 +92,7 @@
 			"standsTaken": 54.36,
 			"idle": 33.47,
 			"away": 9.69,
-			"absent": 9.69
+			"absent": 2.48
 		}
 	},
 	"Vinstri hreyfingin – grænt framboð": {
@@ -116,7 +116,7 @@
 			"standsTaken": 57.5,
 			"idle": 19.04,
 			"away": 17.23,
-			"absent": 17.23
+			"absent": 6.23
 		}
 	},
 	"Björt framtíð": {
@@ -140,7 +140,7 @@
 			"standsTaken": 62.03,
 			"idle": 20.6,
 			"away": 15.04,
-			"absent": 15.04
+			"absent": 2.33
 		}
 	}
 }

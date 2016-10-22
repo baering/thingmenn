@@ -56,7 +56,7 @@ function calculateVotePercentages(partyNames, voteSummary) {
       standsTaken: parseFloat((standsTaken * 100).toFixed(2)),
       idle: parseFloat((idle * 100).toFixed(2)),
       away: parseFloat((away * 100).toFixed(2)),
-      absent: parseFloat((away * 100).toFixed(2)),
+      absent: parseFloat((absent * 100).toFixed(2)),
     }
   })
 }
