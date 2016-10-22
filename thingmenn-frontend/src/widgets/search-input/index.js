@@ -4,7 +4,7 @@ import './styles.css'
 export default class SearchInput extends React.Component {
   render() {
     return (
-      <input placeholder="Sía" className="Search-input" onChange={this.props.handleSearchInput} />
+      <input placeholder="Sía" value={this.props.value} className="Search-input" onChange={this.props.handleSearchInput} />
     )
   }
 }
