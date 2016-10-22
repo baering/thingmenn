@@ -1,6 +1,7 @@
 .About {
   height: 100%;
   margin: 1rem;
+  margin-bottom: 0;
   padding: 1rem;
   background: white;
 }
@@ -11,4 +12,5 @@
   color: #333;
   line-height: 1.75;
   font-size: 1.1rem;
-  font-weight: 300;}
+  font-weight: 300;
+}
