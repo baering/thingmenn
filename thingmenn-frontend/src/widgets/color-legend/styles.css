@@ -28,3 +28,13 @@
 .Colors--absent {
   color: #DD673C;
 }
+
+@media (max-width: 450px) {
+  .Details-item:not(.Details-item--large) .Colors {
+    flex-wrap: wrap;
+  }
+  .Details-item:not(.Details-item--large) .Colors div {
+    flex: 0 1 50%;
+    padding: 1rem 0;
+  }
+}
