@@ -3,8 +3,10 @@
 import logging
 from flask import Flask
 from api import router
+from api.cache import cache
 
 app = Flask(__name__)
+cache.init_app(app)
 
 @app.route('/')
 def hello():
