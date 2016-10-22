@@ -495,19 +495,6 @@
 	},
 	{
 		"mp": {
-			"id": "688",
-			"name": "Jón Gunnarsson",
-			"slug": "jon_gunnarsson",
-			"party": "Sjálfstæðisflokkur",
-			"partySlug": "sjalfstaedisflokkur",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
-		},
-		"standsTaken": 69.5
-	},
-	{
-		"mp": {
 			"id": "693",
 			"name": "Ragnheiður E. Árnadóttir",
 			"slug": "ragnheidur_e_arnadottir",
@@ -518,6 +505,19 @@
 			"description": "Alþingismaður Suðvesturkjördæmis 2007–2009, alþingismaður Suðurkjördæmis síðan 2009 (Sjálfstæðisflokkur)."
 		},
 		"standsTaken": 69.56
+	},
+	{
+		"mp": {
+			"id": "688",
+			"name": "Jón Gunnarsson",
+			"slug": "jon_gunnarsson",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/688/688-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Suðvesturkjördæmis síðan 2007 (Sjálfstæðisflokkur)."
+		},
+		"standsTaken": 69.5
 	},
 	{
 		"mp": {
@@ -778,19 +778,6 @@
 			"description": "Alþingismaður Suðvesturkjördæmis síðan 2003 (Samfylkingin)."
 		},
 		"standsTaken": 64.57
-	},
-	{
-		"mp": {
-			"id": "683",
-			"name": "Guðbjartur Hannesson",
-			"slug": "gudbjartur_hannesson",
-			"party": "Samfylkingin",
-			"partySlug": "samfylkingin",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Norðvesturkjördæmis 2007–2015 (Samfylkingin)."
-		},
-		"standsTaken": 73.69
 	},
 	{
 		"mp": {

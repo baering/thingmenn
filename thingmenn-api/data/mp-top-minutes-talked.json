@@ -261,19 +261,6 @@
 	},
 	{
 		"mp": {
-			"id": "683",
-			"name": "Guðbjartur Hannesson",
-			"slug": "gudbjartur_hannesson",
-			"party": "Samfylkingin",
-			"partySlug": "samfylkingin",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/683/683-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Norðvesturkjördæmis 2007–2015 (Samfylkingin)."
-		},
-		"minutesTalked": 2082.7200000000003
-	},
-	{
-		"mp": {
 			"id": "1159",
 			"name": "Brynhildur Pétursdóttir",
 			"slug": "brynhildur_petursdottir",
