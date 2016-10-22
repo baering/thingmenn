@@ -83,12 +83,6 @@ a {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .u-hiddenSmall {
-    display: none;
-  }
-}
-
 .u-link {
   color: #06ABDC;
 }

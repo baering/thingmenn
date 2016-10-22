@@ -16,23 +16,30 @@
   line-height: 2.5;
 }
 
-.Friends-list > dt,
+.Friends-list dt,
 .Friends-list dd {
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
-  flex: 0 1 50%;
   font-size: 0.9rem;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
 
-.Friends-list > dt:first-of-type,
+.Friends-list dt {
+  flex: 1 1 60%;
+}
+
+.Friends-list dd {
+  flex: 0 1 40%;
+}
+
+.Friends-list dt:first-of-type,
 .Friends-list dd:first-of-type {
   border: 0;
   font-size: 1rem;
   font-weight: 500;
 }
 
-.Friends-list > dt:last-of-type,
+.Friends-list dt:last-of-type,
 .Friends-list dd:last-of-type {
   border: 0;
 }
