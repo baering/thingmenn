@@ -7,6 +7,8 @@ import List from '../../widgets/list'
 
 import './styles.css';
 
+let searchString = ''
+
 export default class Mps extends React.Component {
   constructor(props) {
     super(props)
@@ -14,7 +16,22 @@ export default class Mps extends React.Component {
     this.mpService = new MpService()
     this.state = {
       mps: this.mpService.getMpsIfCached(),
+      searchInput: ''
     }
+  }
+
+  handleSearchInput = (evt) => {
+    searchString = evt.target.value
+    this.setState({
+      searchInput: searchString
+    })
+  }
+
+  searchFilter(mp) {
+    if (searchString.length) {
+      return (mp.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1)
+    }
+    return mp
   }
 
   componentDidMount() {
@@ -27,14 +44,13 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { mps } = this.state
-
+    const { mps, searchInput } = this.state
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <SubNav />
+        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} />
         <List>
-          {mps.map(mp => (
+          {mps.filter(this.searchFilter).map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
         </List>
