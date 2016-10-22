@@ -20,7 +20,7 @@ const DetailsHeader = ({
   if (speechSummary && speechSummary.Samtals) {
     timeInStand = speechSummary.Samtals.minutes
   }
-  let attendance = standsTaken + idle
+  let attendance = parseFloat(standsTaken) + parseFloat(idle)
 
   return (
     <div className="DetailsHeader">
