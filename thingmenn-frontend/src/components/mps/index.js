@@ -1,4 +1,5 @@
 import React from 'react';
+import sortInternational from 'sort-international'
 
 import mpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
@@ -53,18 +54,11 @@ export default class Mps extends React.Component {
     this.setState({ sortByParty, searchInput })
   }
 
-  sortItem(mp1, mp2) {
-    if (this.state.sortByParty) {
-      return mp1.party.localeCompare(mp2.party)
-    }
-    return mp1.name.localeCompare(mp2.name)
-  }
-
   render() {
     const { mps, sortByParty } = this.state
 
     const items = mps.filter(this.searchFilter.bind(this))
-        .sort(this.sortItem.bind(this))
+      .sort(sortInternational(sortByParty ? 'party' : 'name'))
 
     return (
       <div className="fill">
