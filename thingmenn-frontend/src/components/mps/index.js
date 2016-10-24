@@ -10,12 +10,35 @@ import './styles.css'
 
 let searchInput = ''
 
+/**
+ * Partition MPs into lists, ordered by name or party AND name.
+ * @param {Array} mps
+ * @returns {{byName: Array.<T>, byParty: Array.<T>}}
+ */
+function createMpPartition(mps) {
+  const compareFn = sortInternational('name')
+  const partition = mps.reduce((parties, mp) => {
+    parties[mp.party] = parties[mp.party] || []
+    parties[mp.party].push(mp)
+    return parties
+  }, {})
+
+  const sortParty = party => partition[party].sort(compareFn)
+  const byParty = [].concat([], ...Object.keys(partition).sort(compareFn).map(sortParty))
+  const byName = mps.sort(compareFn)
+
+  return { byName, byParty }
+}
+
 export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      mps: [],
+      mps: {
+        byName: [],
+        byParty: [],
+      },
       searchInput: '',
       sortByParty: false,
     }
@@ -28,7 +51,7 @@ export default class Mps extends React.Component {
     })
   }
 
-  searchFilter(mp) {
+  searchFilter = (mp) => {
     const { searchInput } = this.state
     if (searchInput) {
       return (mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1)
@@ -36,11 +59,11 @@ export default class Mps extends React.Component {
     return mp
   }
 
+
   componentWillMount() {
     mpService.getMps()
-      .then(mps => {
-        this.setState({ mps })
-      })
+      .then(createMpPartition)
+      .then(mps => this.setState({ mps }))
     this.setSorting(this.props)
   }
 
@@ -56,16 +79,14 @@ export default class Mps extends React.Component {
 
   render() {
     const { mps, sortByParty } = this.state
-
-    const items = mps.filter(this.searchFilter.bind(this))
-      .sort(sortInternational(sortByParty ? 'party' : 'name'))
+    const allMPs = mps[sortByParty ? 'byParty' : 'byName'].filter(this.searchFilter)
 
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
         <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
         <List>
-          {items.map(mp => (
+          {allMPs.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
         </List>
