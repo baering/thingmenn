@@ -297,6 +297,4 @@ export default function createVoteSummary() {
 
   writeToFile(sortedSimilarMpLookup, 'data/export/mp-similar-votes.json', true)
   writeToFile(sortedDifferentMpLookup, 'data/export/mp-different-votes.json', true)
-
-  writeToFile(reducedLookup, 'data/term/lookup-temp.json', true)
 }

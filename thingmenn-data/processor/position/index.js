@@ -4,7 +4,7 @@ const mps = loadFile('data/mps.json')
 const subjects = loadFile('data/subjects-for-term.json')
 const allVotesForTerm = loadFile('data/all-votes-for-term.json')
 
-console.log('Loaded all data needed, derp!')
+console.log('Position processor: all data loaded')
 
 const globalVoteTypes = {}
 const uniqueSubjectsMap = {}
