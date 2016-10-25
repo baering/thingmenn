@@ -3,7 +3,7 @@
   padding: 1rem;
   background: white;
 }
-@media (min-width: 678px) {
+@media (min-width: 768px) {
   .About {
     margin: 2rem;
   }
