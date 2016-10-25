@@ -31,7 +31,6 @@ body {
 
 @media (min-width: 1615px) {
   body {
-    border-radius: 6px;
     margin: 1rem auto;
   }
 }
@@ -50,10 +49,13 @@ a {
 @media (min-width: 768px) {
   .contain {
     flex-wrap: nowrap;
-    border-radius: 3px;
   }
 }
-
+@media (min-width: 1615px) {
+  .contain {
+    border-radius: 6px;
+  }
+}
 .Main {
   width: 100%;
 }
