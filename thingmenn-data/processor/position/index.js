@@ -1,8 +1,8 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
-const mps = loadFile('data/mps.json')
+const mps = loadFile('data/export/mps.json')
 const subjects = loadFile('data/subjects-for-term.json')
-const allVotesForTerm = loadFile('data/all-votes-for-term.json')
+const allVotesForTerm = loadFile('data/term/all-votes.json')
 
 console.log('Position processor: all data loaded')
 

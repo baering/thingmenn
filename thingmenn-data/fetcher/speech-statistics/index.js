@@ -59,7 +59,7 @@ async function fetchAllSpeechAnalytics(mps, lthings) {
 }
 
 async function getMps(lthing) {
-  let mps = loadFile('data/mps.json')
+  let mps = loadFile('data/export/mps.json')
   if (mps !== null) {
     return mps
   }

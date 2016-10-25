@@ -114,7 +114,7 @@ async function getMps(lthing) {
 }
 
 async function fetchSpeechesFromAllMps() {
-  const lthings = [144, 145]
+  const lthings = [143, 144, 145]
   const mps = await getMps(lthings[lthings.length - 1])
   const mpSpeeches = await fetchSpeeches(mps, lthings)
   return mpSpeeches

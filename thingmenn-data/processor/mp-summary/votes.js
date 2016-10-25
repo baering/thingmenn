@@ -74,7 +74,7 @@ export default function createVoteSummary() {
     mpToPartyLookup[mp.id] = mp.party
     mpLookup[mp.id] = mp
   })
-  const allVotesForTerm = loadFile('data/all-votes-for-term.json')
+  const allVotesForTerm = loadFile('data/term/all-votes.json')
 
   const reducedLookup = createLookup(allVotesForTerm)
 
