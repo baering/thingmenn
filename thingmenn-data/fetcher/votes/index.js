@@ -101,7 +101,6 @@ async function fetchData() {
     console.log('Done..\n')
   }
 
-  // const allVotes = await fetchMpVotes(mpIds)
   console.log('Fetched votes, example: ')
   console.log(allVotes[0].votes[0])
   return allVotes
