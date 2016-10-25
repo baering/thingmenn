@@ -8,7 +8,7 @@ const Words = ({
   words,
   divider
 }) => {
-  const wordList = words
+  const wordSubstitution = words
     .map(function(word) {
       word.noun = changeWords[word.noun] || word.noun
       return word
@@ -17,7 +17,7 @@ const Words = ({
     <div className="Words">
      <h3 className='Words-heading heading'>{title}</h3>
      <dl className="Words-list">
-       {wordList.map((word) => (
+       {wordSubstitution.map((word) => (
          [
            <dt>{word.noun}</dt>,
            <dd><div style={{width: `${word.occurance/divider}px`}}>&nbsp;</div><span className="bottom-to-top"><span>{word.occurance}</span></span></dd>
