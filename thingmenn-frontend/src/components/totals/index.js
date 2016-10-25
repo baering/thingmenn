@@ -6,40 +6,32 @@ import { formatPercentage, formatTime } from '../../utils'
 import Friends from '../../widgets/friends'
 
 export default class Totals extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      topMpsAttendance: [],
-      bottomMpsAttendance: [],
-      topMpsStands: [],
-      bottomMpsStands: [],
-      topMpMinutesTalked: [],
-      bottomMpMinutesTalked: [],
-    }
-  }
-
   async componentDidMount() {
-    const topMpsAttendance = await totalsService.getTopMpsAttendance()
-    this.setState({ topMpsAttendance })
+    const [topMpsAttendance, bottomMpsAttendance, topMpsStands, bottomMpsStands, topMpMinutesTalked, bottomMpMinutesTalked] =
+        await Promise.all([
+          totalsService.getTopMpsAttendance(),
+          totalsService.getBottomMpsAttendance(),
+          totalsService.getTopMpsStands(),
+          totalsService.getBottomMpsStands(),
+          totalsService.getTopMpsMinutes(),
+          totalsService.getBottomMpsMinutes(),
+        ])
 
-    const bottomMpsAttendance = await totalsService.getBottomMpsAttendance()
-    this.setState({ bottomMpsAttendance })
-
-    const topMpsStands = await totalsService.getTopMpsStands()
-    this.setState({ topMpsStands })
-
-    const bottomMpsStands = await totalsService.getBottomMpsStands()
-    this.setState({ bottomMpsStands })
-
-    const topMpMinutesTalked = await totalsService.getTopMpsMinutes()
-    this.setState({ topMpMinutesTalked })
-
-    const bottomMpMinutesTalked = await totalsService.getBottomMpsMinutes()
-    this.setState({ bottomMpMinutesTalked })
+    this.setState({
+      topMpsAttendance,
+      bottomMpsAttendance,
+      topMpsStands,
+      bottomMpsStands,
+      topMpMinutesTalked,
+      bottomMpMinutesTalked,
+    })
   }
 
   render() {
+    if (!this.state) {
+      return null
+    }
+
     const {
       topMpsAttendance,
       bottomMpsAttendance,
