@@ -8,22 +8,16 @@ import List from '../../widgets/list'
 import './styles.css';
 
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      parties: [],
-    }
-  }
-
-  componentDidMount() {
-    partyService.getParties()
-      .then(parties => {
-        this.setState({ parties })
-      })
+  async componentDidMount() {
+    const parties = await partyService.getParties()
+    this.setState({ parties })
   }
 
   render() {
+    if (!this.state) {
+      return null
+    }
+
     const { parties } = this.state
 
     return (

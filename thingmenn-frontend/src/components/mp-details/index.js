@@ -14,20 +14,6 @@ import BarChart from '../../widgets/bar-chart'
 import './styles.css'
 
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      mp: [],
-      voteSummary: { votePercentages: [], voteSummary: [] },
-      speechSummary: {},
-      subjectSummary: [],
-      nouns: [],
-      similarMps: [],
-      differentMps: [],
-    }
-  }
-
   componentWillMount() {
     this.getData()
   }
@@ -36,48 +22,38 @@ export default class Mps extends React.Component {
     this.getData(nextProps.routeParams.mpId)
   }
 
-  getData(id) {
+  async getData(id) {
     const mpId = id || this.props.params.mpId
 
-    if (this.state.mp.id === mpId) return;
+    if (this.state && this.state.mp.id === mpId) return;
 
-    mpService.getMpDetails(mpId)
-      .then(mp => {
-        this.setState({ mp })
-      })
+    const [mp, voteSummary, subjectSummary, nouns, speechSummary, similarMps, differentMps] =
+        await Promise.all([
+          mpService.getMpDetails(mpId),
+          mpSummaryService.getMpVotes(mpId),
+          mpSummaryService.getMpSubjects(mpId),
+          mpSummaryService.getMpNouns(mpId),
+          mpSummaryService.getMpSpeeches(mpId),
+          mpService.getSimilarMps(mpId),
+          mpService.getDifferentMps(mpId),
+        ])
 
-    mpSummaryService.getMpVotes(mpId)
-      .then(voteSummary => {
-        this.setState({ voteSummary })
-      })
-
-    mpSummaryService.getMpSubjects(mpId)
-      .then(subjectSummary => {
-        this.setState({ subjectSummary })
-      })
-
-    mpSummaryService.getMpNouns(mpId)
-      .then(nouns => {
-        this.setState({ nouns })
-      })
-
-    mpSummaryService.getMpSpeeches(mpId)
-      .then(speechSummary => {
-        this.setState({ speechSummary })
-      })
-
-    mpService.getSimilarMps(mpId)
-      .then(similarMps => {
-        this.setState({ similarMps })
-      })
-
-    mpService.getDifferentMps(mpId)
-      .then(differentMps => {
-        this.setState({ differentMps })
-      })
+    this.setState({
+      mp,
+      voteSummary,
+      subjectSummary,
+      nouns,
+      speechSummary,
+      similarMps,
+      differentMps
+    })
   }
 
   render() {
+    if (!this.state) {
+      return null
+    }
+
     const {
       mp,
       voteSummary,

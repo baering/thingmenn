@@ -13,51 +13,35 @@ import Speeches from '../../widgets/speeches'
 import './styles.css';
 
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      party: {},
-      voteSummary: { voteSummary: {}, votePercentages: [] },
-      subjectSummary: [],
-      nouns: [],
-      speechSummary: {},
-    }
-  }
-
-  componentDidMount() {
+  async componentDidMount() {
     const { partyId } = this.props.params
-    if (partyId === this.state.party.id) {
+    if (this.state && partyId === this.state.party.id) {
       return;
     }
 
-    partyService.getPartyDetails(partyId)
-      .then(party => {
-        this.setState({ party })
-      })
+    const [party, voteSummary, subjectSummary, nouns, speechSummary] =
+        await Promise.all([
+          partyService.getPartyDetails(partyId),
+          partySummaryService.getPartyVotes(partyId),
+          partySummaryService.getPartySubjects(partyId),
+          partySummaryService.getPartyNouns(partyId),
+          partySummaryService.getPartySpeeches(partyId),
+        ])
 
-    partySummaryService.getPartyVotes(partyId)
-      .then(voteSummary => {
-        this.setState({ voteSummary })
-      })
-
-    partySummaryService.getPartySubjects(partyId)
-      .then(subjectSummary => {
-        this.setState({ subjectSummary })
-      })
-
-    partySummaryService.getPartyNouns(partyId)
-      .then(nouns => {
-        this.setState({ nouns })
-      })
-
-    partySummaryService.getPartySpeeches(partyId)
-      .then(speechSummary => {
-        this.setState({ speechSummary })
-      })
+    this.setState({
+      party,
+      voteSummary,
+      subjectSummary,
+      nouns,
+      speechSummary,
+    })
   }
 
   render() {
+    if (!this.state) {
+      return null
+    }
+
     const { party, voteSummary, nouns, speechSummary, subjectSummary } = this.state
 
     return (

@@ -19,36 +19,24 @@ export default class Totals extends React.Component {
     }
   }
 
-  componentDidMount() {
-    totalsService.getTopMpsAttendance()
-      .then(topMpsAttendance => {
-        this.setState({ topMpsAttendance })
-      })
+  async componentDidMount() {
+    const topMpsAttendance = await totalsService.getTopMpsAttendance()
+    this.setState({ topMpsAttendance })
 
-    totalsService.getBottomMpsAttendance()
-      .then(bottomMpsAttendance => {
-        this.setState({ bottomMpsAttendance })
-      })
+    const bottomMpsAttendance = await totalsService.getBottomMpsAttendance()
+    this.setState({ bottomMpsAttendance })
 
-    totalsService.getTopMpsStands()
-      .then(topMpsStands => {
-        this.setState({ topMpsStands })
-      })
+    const topMpsStands = await totalsService.getTopMpsStands()
+    this.setState({ topMpsStands })
 
-    totalsService.getBottomMpsStands()
-      .then(bottomMpsStands => {
-        this.setState({ bottomMpsStands })
-      })
+    const bottomMpsStands = await totalsService.getBottomMpsStands()
+    this.setState({ bottomMpsStands })
 
-    totalsService.getTopMpsMinutes()
-      .then(topMpMinutesTalked => {
-        this.setState({ topMpMinutesTalked })
-      })
+    const topMpMinutesTalked = await totalsService.getTopMpsMinutes()
+    this.setState({ topMpMinutesTalked })
 
-    totalsService.getBottomMpsMinutes()
-      .then(bottomMpMinutesTalked => {
-        this.setState({ bottomMpMinutesTalked })
-      })
+    const bottomMpMinutesTalked = await totalsService.getBottomMpsMinutes()
+    this.setState({ bottomMpMinutesTalked })
   }
 
   render() {

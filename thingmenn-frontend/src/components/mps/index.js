@@ -10,16 +10,6 @@ import './styles.css'
 let searchInput = ''
 
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      mps: [],
-      searchInput: '',
-      sortByParty: false,
-    }
-  }
-
   handleSearchInput = (evt) => {
     searchInput = evt.target.value
     this.setState({
@@ -35,11 +25,9 @@ export default class Mps extends React.Component {
     return mp
   }
 
-  componentWillMount() {
-    mpService.getMps()
-      .then(mps => {
-        this.setState({ mps })
-      })
+  async componentWillMount() {
+    const mps = await mpService.getMps()
+    this.setState({ mps })
     this.setSorting(this.props)
   }
 
@@ -61,6 +49,10 @@ export default class Mps extends React.Component {
   }
 
   render() {
+    if (!this.state) {
+      return null
+    }
+
     const { mps, sortByParty } = this.state
 
     const items = mps.filter(this.searchFilter.bind(this))
