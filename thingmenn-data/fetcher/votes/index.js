@@ -103,6 +103,7 @@ async function fetchData() {
 
   console.log('Fetched votes, example: ')
   console.log(allVotes[0].votes[0])
+  writeToFile(allVotes, 'data/term/all-votes.json')
   return allVotes
 }
 

@@ -74,6 +74,7 @@ export default async function fetch() {
 
   const statistics = await fetchAllSpeechAnalytics(mps, lthings)
   writeToFile(statistics, 'data/term/mp-speech-statistics.json', true)
+  return statistics
 }
 
 // export default async function testFetch() {
