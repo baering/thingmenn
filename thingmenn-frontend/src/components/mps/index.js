@@ -25,7 +25,7 @@ export default class Mps extends React.Component {
     return mp
   }
 
-  async componentWillMount() {
+  async componentDidMount() {
     const mps = await mpService.getMps()
     this.setState({ mps })
     this.setSorting(this.props)

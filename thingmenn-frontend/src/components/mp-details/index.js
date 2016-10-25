@@ -14,7 +14,7 @@ import BarChart from '../../widgets/bar-chart'
 import './styles.css'
 
 export default class Mps extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     this.getData()
   }
 
