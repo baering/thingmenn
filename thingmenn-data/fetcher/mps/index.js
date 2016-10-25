@@ -53,6 +53,10 @@ function parseMpDescription(htmlObj) {
 }
 
 function isSubstitute(htmlObj) {
+  // TODO: This is fine for now, only one term
+  // But in future, refactor to use xml service
+  // http://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=mpId
+  // <þing>145</þing>
   return htmlObj('.person').text().indexOf('Varaþingmaður') !== -1
 }
 
@@ -113,7 +117,7 @@ function parseMpIds(html) {
   return mpIds
 }
 
-async function fetchMpList(lthing) {
+async function fetchMpList(lthing, mpLookup) {
   const url = `${mpListUrl}?lthing=${lthing}`
   const html = await fetchHtml(url)
 
@@ -122,25 +126,37 @@ async function fetchMpList(lthing) {
   for (let i = 0; i < mpIds.length; i++) {
     const mpId = mpIds[i]
 
-    const mp = await fetchMpDetails(mpId)
-    mps.push(mp)
+    if (!mpLookup[mpId]) {
+      console.log(`Fetching mp ${mpId}`)
+      const mp = await fetchMpDetails(mpId)
+      mps.push(mp)
+    }
   }
 
   return mps
 }
 
-async function fetch(lthing = 145) {
+async function fetch() {
+  const lthings = [145, 144, 143]
   try {
-    console.log('Fetching mps')
-    const mps = await fetchMpList(lthing)
-    mps.forEach(mp => {
-      if (mp.imagePath.indexOf('undefined') !== -1) {
-        mp.imagePath = 'http://thingmenn.is/images/unknown_user.png'
-      }
-    })
-    console.log('Done\n\nExample:')
+    const mpLookup = {}
+    for (const lthing of lthings) {
+      console.log(`Fetching from lthing ${lthing}`)
+      const mpsForLthing = await fetchMpList(lthing, mpLookup)
+      console.log('Done')
+      mpsForLthing.forEach(mp => {
+        if (!mpLookup[mp.id]) {
+          mpLookup[mp.id] = mp
+        }
+      })
+    }
+    const mpIds = Object.keys(mpLookup)
+    const mps = mpIds.map(mpId => mpLookup[mpId])
+
+    console.log('All done\n\nExample:')
     console.log(mps[0])
     writeToFile(mps, 'data/export/mps.json', true)
+
     return mps
   } catch (e) {
     console.log(`Error: ${e}`)
