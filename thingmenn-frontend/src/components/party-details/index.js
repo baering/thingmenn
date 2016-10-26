@@ -13,11 +13,18 @@ import Speeches from '../../widgets/speeches'
 import './styles.css';
 
 export default class Mps extends React.Component {
-  async componentDidMount() {
-    const { partyId } = this.props.params
-    if (this.state && partyId === this.state.party.id) {
-      return;
+  componentDidMount() {
+    this.getData()
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.params.partyId !== this.props.params.partyId) {
+      this.getData()
     }
+  }
+
+  async getData() {
+    const { partyId } = this.props.params
 
     const [party, voteSummary, subjectSummary, nouns, speechSummary] =
         await Promise.all([

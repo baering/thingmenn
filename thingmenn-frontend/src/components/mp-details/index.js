@@ -18,14 +18,14 @@ export default class Mps extends React.Component {
     this.getData()
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.getData(nextProps.routeParams.mpId)
+  componentDidUpdate(prevProps) {
+    if (prevProps.params.mpId !== this.props.params.mpId) {
+      this.getData()
+    }
   }
 
   async getData(id) {
-    const mpId = id || this.props.params.mpId
-
-    if (this.state && this.state.mp.id === mpId) return;
+    const { mpId } = this.props.params
 
     const [mp, voteSummary, subjectSummary, nouns, speechSummary, similarMps, differentMps] =
         await Promise.all([
