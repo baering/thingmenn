@@ -8,7 +8,7 @@ import createTopCharts from './top-charts'
 
 import { getProcessArguments } from '../utility/process'
 
-const defaultItems = ['mps', 'speeches', 'speechStatistics', 'speeches', 'parties']
+const defaultItems = ['mps', 'speeches', 'speechStatistics', 'positions', 'top']
 
 function process(config) {
   if (config.mps) {
