@@ -300,6 +300,19 @@
 	},
 	{
 		"mp": {
+			"id": "1168",
+			"name": "Jón Þór Ólafsson",
+			"slug": "jon_thor_olafsson",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1168/1168-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Píratar)."
+		},
+		"minutesTalked": 1647.98
+	},
+	{
+		"mp": {
 			"id": "687",
 			"name": "Illugi Gunnarsson",
 			"slug": "illugi_gunnarsson",
@@ -508,6 +521,19 @@
 	},
 	{
 		"mp": {
+			"id": "679",
+			"name": "Árni Þór Sigurðsson",
+			"slug": "arni_thor_sigurdsson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/679/679-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2007–2014 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 917.21
+	},
+	{
+		"mp": {
 			"id": "1161",
 			"name": "Elsa Lára Arnardóttir",
 			"slug": "elsa_lara_arnardottir",
@@ -570,6 +596,19 @@
 			"description": "Alþingismaður Suðurkjördæmis síðan 2013 (Framsóknarflokkur)."
 		},
 		"minutesTalked": 809.0600000000001
+	},
+	{
+		"mp": {
+			"id": "477",
+			"name": "Pétur H. Blöndal",
+			"slug": "petur_h_blondal",
+			"party": "Sjálfstæðisflokkur",
+			"partySlug": "sjalfstaedisflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/477/477-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykvíkinga 1995–2003, alþingismaður Reykjavíkurkjördæmis suður 2003–2007, alþingismaður  Reykjavíkurkjördæmis norður 2007–2013, alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Sjálfstæðisflokkur)."
+		},
+		"minutesTalked": 808.62
 	},
 	{
 		"mp": {
