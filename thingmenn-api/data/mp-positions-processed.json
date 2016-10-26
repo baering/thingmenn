@@ -915,6 +915,402 @@
 			}
 		}
 	],
+	"477": [
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 325,
+					"percentage": 98.48
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 1.52
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 40,
+					"percentage": 97.56
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.44
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 40,
+					"percentage": 97.56
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.44
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 40,
+					"percentage": 97.56
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.44
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 38,
+					"percentage": 97.44
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.56
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 71,
+					"percentage": 97.26
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 2.74
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 747,
+					"percentage": 96.26
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 0.39
+				},
+				"away": {
+					"occurance": 26,
+					"percentage": 3.35
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 47,
+					"percentage": 95.92
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 4.08
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 19,
+					"percentage": 95
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 5
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 44,
+					"percentage": 93.62
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 6.38
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 12,
+					"percentage": 92.31
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 7.69
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 117,
+					"percentage": 92.13
+				},
+				"away": {
+					"occurance": 10,
+					"percentage": 7.87
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 131,
+					"percentage": 90.97
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 9.03
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 322,
+					"percentage": 90.45
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 0.84
+				},
+				"away": {
+					"occurance": 31,
+					"percentage": 8.71
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 253,
+					"percentage": 90.04
+				},
+				"away": {
+					"occurance": 28,
+					"percentage": 9.96
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 89,
+					"percentage": 89.9
+				},
+				"away": {
+					"occurance": 10,
+					"percentage": 10.1
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 204,
+					"percentage": 89.87
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 1.32
+				},
+				"away": {
+					"occurance": 20,
+					"percentage": 8.81
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 40,
+					"percentage": 88.89
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 11.11
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 78,
+					"percentage": 88.64
+				},
+				"away": {
+					"occurance": 10,
+					"percentage": 11.36
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 93,
+					"percentage": 87.74
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 12.26
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 85.71
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 14.29
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 23,
+					"percentage": 85.19
+				},
+				"away": {
+					"occurance": 4,
+					"percentage": 14.81
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 84.62
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 15.38
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 49,
+					"percentage": 84.48
+				},
+				"away": {
+					"occurance": 9,
+					"percentage": 15.52
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 78.79
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 21.21
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 18,
+					"percentage": 78.26
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 21.74
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 42,
+					"percentage": 75
+				},
+				"away": {
+					"occurance": 14,
+					"percentage": 25
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 45.45
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 54.55
+				}
+			}
+		},
+		{
+			"subject": "Íþróttir og æskulýðsmál",
+			"voteSplit": {
+				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
 	"557": [
 		{
 			"subject": "Trúfélög og trúarbrögð",
@@ -4890,6 +5286,257 @@
 			}
 		}
 	],
+	"662": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 18,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 61.54
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 38.46
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 16.67
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 83.33
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 16.67
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 83.33
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"idle": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"idle": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"idle": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"676": [
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 30.77
+				},
+				"away": {
+					"occurance": 9,
+					"percentage": 69.23
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 28.57
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 7.14
+				},
+				"away": {
+					"occurance": 9,
+					"percentage": 64.29
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 25
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 12.5
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 62.5
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 25
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 75
+				}
+			}
+		}
+	],
 	"678": [
 		{
 			"subject": "Íþróttir og æskulýðsmál",
@@ -5388,6 +6035,417 @@
 				"away": {
 					"occurance": 508,
 					"percentage": 28.62
+				}
+			}
+		}
+	],
+	"679": [
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 41,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 31,
+					"percentage": 96.88
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 3.13
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 95.65
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 4.35
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 93.75
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 89,
+					"percentage": 91.75
+				},
+				"away": {
+					"occurance": 8,
+					"percentage": 8.25
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 43,
+					"percentage": 91.49
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 4.26
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 4.26
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 90.91
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 9.09
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 68,
+					"percentage": 90.67
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 9.33
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 88
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 4
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 8
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 83.87
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 16.13
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 83.33
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 16.67
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 108,
+					"percentage": 82.44
+				},
+				"away": {
+					"occurance": 23,
+					"percentage": 17.56
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 14,
+					"percentage": 82.35
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 11.76
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 5.88
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 9,
+					"percentage": 81.82
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 18.18
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 51,
+					"percentage": 80.95
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 12.7
+				},
+				"away": {
+					"occurance": 4,
+					"percentage": 6.35
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 54,
+					"percentage": 80.6
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 19.4
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 23,
+					"percentage": 79.31
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 20.69
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 119,
+					"percentage": 76.77
+				},
+				"idle": {
+					"occurance": 24,
+					"percentage": 15.48
+				},
+				"away": {
+					"occurance": 12,
+					"percentage": 7.74
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 76.47
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 23.53
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 153,
+					"percentage": 73.21
+				},
+				"idle": {
+					"occurance": 27,
+					"percentage": 12.92
+				},
+				"away": {
+					"occurance": 29,
+					"percentage": 13.88
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 140,
+					"percentage": 70.35
+				},
+				"idle": {
+					"occurance": 46,
+					"percentage": 23.12
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 6.53
+				}
+			}
+		},
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 70.27
+				},
+				"idle": {
+					"occurance": 10,
+					"percentage": 27.03
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.7
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 70
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 30
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 12,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 258,
+					"percentage": 65.65
+				},
+				"idle": {
+					"occurance": 105,
+					"percentage": 26.72
+				},
+				"away": {
+					"occurance": 30,
+					"percentage": 7.63
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 21,
+					"percentage": 58.33
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 22.22
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 19.44
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 12,
+					"percentage": 48
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 32
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 20
 				}
 			}
 		}
@@ -17714,6 +18772,291 @@
 			}
 		}
 	],
+	"1001": [
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 88.89
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 11.11
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 87.5
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 12.5
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 85.71
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 14.29
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 71.43
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 28.57
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 57,
+					"percentage": 64.77
+				},
+				"idle": {
+					"occurance": 22,
+					"percentage": 25
+				},
+				"away": {
+					"occurance": 9,
+					"percentage": 10.23
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 19,
+					"percentage": 54.29
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 8.57
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 37.14
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 53.33
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 46.67
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 25,
+					"percentage": 53.19
+				},
+				"idle": {
+					"occurance": 9,
+					"percentage": 19.15
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 27.66
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 95,
+					"percentage": 50.53
+				},
+				"idle": {
+					"occurance": 79,
+					"percentage": 42.02
+				},
+				"away": {
+					"occurance": 14,
+					"percentage": 7.45
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 42.86
+				},
+				"away": {
+					"occurance": 4,
+					"percentage": 57.14
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 41.67
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 58.33
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 25
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 75
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 18.18
+				},
+				"away": {
+					"occurance": 18,
+					"percentage": 81.82
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 10.53
+				},
+				"away": {
+					"occurance": 17,
+					"percentage": 89.47
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"away": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
 	"1002": [
 		{
 			"subject": "Alþjóðasamningar og utanríkismál",
@@ -19433,6 +20776,162 @@
 				"away": {
 					"occurance": 1,
 					"percentage": 9.09
+				}
+			}
+		}
+	],
+	"1130": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 34,
+					"percentage": 29.31
+				},
+				"idle": {
+					"occurance": 80,
+					"percentage": 68.97
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 1.72
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1149": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 16,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 9,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
 				}
 			}
 		}
@@ -24574,6 +26073,503 @@
 				"away": {
 					"occurance": 3,
 					"percentage": 37.5
+				}
+			}
+		}
+	],
+	"1168": [
+		{
+			"subject": "Trúfélög og trúarbrögð",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Íþróttir og æskulýðsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 83.33
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 16.67
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 73.33
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 6.67
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 20
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 32,
+					"percentage": 59.26
+				},
+				"idle": {
+					"occurance": 20,
+					"percentage": 37.04
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 3.7
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 57,
+					"percentage": 47.11
+				},
+				"idle": {
+					"occurance": 47,
+					"percentage": 38.84
+				},
+				"away": {
+					"occurance": 17,
+					"percentage": 14.05
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 23,
+					"percentage": 46
+				},
+				"idle": {
+					"occurance": 27,
+					"percentage": 54
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 51,
+					"percentage": 43.97
+				},
+				"idle": {
+					"occurance": 55,
+					"percentage": 47.41
+				},
+				"away": {
+					"occurance": 10,
+					"percentage": 8.62
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 30,
+					"percentage": 29.13
+				},
+				"idle": {
+					"occurance": 24,
+					"percentage": 23.3
+				},
+				"away": {
+					"occurance": 49,
+					"percentage": 47.57
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 26.83
+				},
+				"idle": {
+					"occurance": 50,
+					"percentage": 60.98
+				},
+				"away": {
+					"occurance": 10,
+					"percentage": 12.2
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 48,
+					"percentage": 24
+				},
+				"idle": {
+					"occurance": 105,
+					"percentage": 52.5
+				},
+				"away": {
+					"occurance": 47,
+					"percentage": 23.5
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 16,
+					"percentage": 23.19
+				},
+				"idle": {
+					"occurance": 45,
+					"percentage": 65.22
+				},
+				"away": {
+					"occurance": 8,
+					"percentage": 11.59
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 72,
+					"percentage": 23
+				},
+				"idle": {
+					"occurance": 184,
+					"percentage": 58.79
+				},
+				"away": {
+					"occurance": 57,
+					"percentage": 18.21
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 18.03
+				},
+				"idle": {
+					"occurance": 39,
+					"percentage": 63.93
+				},
+				"away": {
+					"occurance": 11,
+					"percentage": 18.03
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 17.78
+				},
+				"idle": {
+					"occurance": 23,
+					"percentage": 51.11
+				},
+				"away": {
+					"occurance": 14,
+					"percentage": 31.11
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 166,
+					"percentage": 17.22
+				},
+				"idle": {
+					"occurance": 683,
+					"percentage": 70.85
+				},
+				"away": {
+					"occurance": 115,
+					"percentage": 11.93
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 60,
+					"percentage": 15.38
+				},
+				"idle": {
+					"occurance": 307,
+					"percentage": 78.72
+				},
+				"away": {
+					"occurance": 23,
+					"percentage": 5.9
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 15
+				},
+				"idle": {
+					"occurance": 14,
+					"percentage": 70
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 15
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 66,
+					"percentage": 12.99
+				},
+				"idle": {
+					"occurance": 396,
+					"percentage": 77.95
+				},
+				"away": {
+					"occurance": 46,
+					"percentage": 9.06
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 12.5
+				},
+				"idle": {
+					"occurance": 13,
+					"percentage": 81.25
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 12.2
+				},
+				"idle": {
+					"occurance": 70,
+					"percentage": 85.37
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 2.44
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 13,
+					"percentage": 11.3
+				},
+				"idle": {
+					"occurance": 87,
+					"percentage": 75.65
+				},
+				"away": {
+					"occurance": 15,
+					"percentage": 13.04
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 9.84
+				},
+				"idle": {
+					"occurance": 29,
+					"percentage": 47.54
+				},
+				"away": {
+					"occurance": 26,
+					"percentage": 42.62
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 36,
+					"percentage": 9.16
+				},
+				"idle": {
+					"occurance": 310,
+					"percentage": 78.88
+				},
+				"away": {
+					"occurance": 47,
+					"percentage": 11.96
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 9.09
+				},
+				"idle": {
+					"occurance": 153,
+					"percentage": 69.55
+				},
+				"away": {
+					"occurance": 47,
+					"percentage": 21.36
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 7.25
+				},
+				"idle": {
+					"occurance": 48,
+					"percentage": 69.57
+				},
+				"away": {
+					"occurance": 16,
+					"percentage": 23.19
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 6.93
+				},
+				"idle": {
+					"occurance": 81,
+					"percentage": 80.2
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 12.87
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 6.71
+				},
+				"idle": {
+					"occurance": 94,
+					"percentage": 63.09
+				},
+				"away": {
+					"occurance": 45,
+					"percentage": 30.2
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 3.33
+				},
+				"idle": {
+					"occurance": 29,
+					"percentage": 96.67
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 2.67
+				},
+				"idle": {
+					"occurance": 72,
+					"percentage": 96
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.33
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"idle": {
+					"occurance": 53,
+					"percentage": 89.83
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 10.17
 				}
 			}
 		}
@@ -30500,6 +32496,7 @@
 			}
 		}
 	],
+	"1185": [],
 	"1186": [
 		{
 			"subject": "Heilbrigðismál",
@@ -30863,6 +32860,53 @@
 			}
 		}
 	],
+	"1187": [
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
 	"1188": [
 		{
 			"subject": "Alþjóðasamningar og utanríkismál",
@@ -30996,6 +33040,60 @@
 				"standsTaken": {
 					"occurance": 1,
 					"percentage": 100
+				}
+			}
+		}
+	],
+	"1196": [
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 85.71
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 14.29
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 70
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 30
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 70
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 30
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 66.67
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 33.33
 				}
 			}
 		}
@@ -31368,6 +33466,26 @@
 			"subject": "Ferðaþjónusta",
 			"voteSplit": {
 				"away": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1200": [
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
 					"occurance": 1,
 					"percentage": 100
 				}
@@ -32089,6 +34207,480 @@
 				"away": {
 					"occurance": 1,
 					"percentage": 6.25
+				}
+			}
+		}
+	],
+	"1204": [
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 90.91
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 9.09
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 60
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 40
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 33.33
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 66.67
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 33.33
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 66.67
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 33.33
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 66.67
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"idle": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1205": [
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 95.24
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 4.76
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 17,
+					"percentage": 89.47
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 10.53
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 88.89
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 11.11
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 83.33
+				},
+				"idle": {
+					"occurance": 2,
+					"percentage": 11.11
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 5.56
+				}
+			}
+		}
+	],
+	"1208": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 50
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 50
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 50
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 50
+				}
+			}
+		}
+	],
+	"1209": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 9,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
 				}
 			}
 		}
@@ -33369,6 +35961,296 @@
 			}
 		}
 	],
+	"1217": [
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 82,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 50,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 34,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 21,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 16,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 14,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 9,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 5,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 94,
+					"percentage": 98.95
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.05
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 91,
+					"percentage": 98.91
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.09
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 59,
+					"percentage": 98.33
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.67
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 115,
+					"percentage": 98.29
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 1.71
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 39,
+					"percentage": 97.5
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.5
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 34,
+					"percentage": 94.44
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 5.56
+				}
+			}
+		},
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 32,
+					"percentage": 94.12
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 5.88
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 93.75
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 90.91
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 9.09
+				}
+			}
+		}
+	],
 	"1218": [
 		{
 			"subject": "Menningarmál",
@@ -33671,6 +36553,44 @@
 			}
 		}
 	],
+	"1219": [
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		}
+	],
 	"1221": [
 		{
 			"subject": "Alþjóðasamningar og utanríkismál",
@@ -33953,6 +36873,1331 @@
 				"away": {
 					"occurance": 1,
 					"percentage": 11.11
+				}
+			}
+		}
+	],
+	"1222": [
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 20,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 17,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 10,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 93.75
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 92.5
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 7.5
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 85.71
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 14.29
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 33,
+					"percentage": 84.62
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 15.38
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 25,
+					"percentage": 83.33
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 16.67
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Tölvu- og upplýsingamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 17,
+					"percentage": 56.67
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 43.33
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 56.41
+				},
+				"away": {
+					"occurance": 17,
+					"percentage": 43.59
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 9,
+					"percentage": 40.91
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 59.09
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 7.14
+				},
+				"away": {
+					"occurance": 13,
+					"percentage": 92.86
+				}
+			}
+		}
+	],
+	"1224": [
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 85.71
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 14.29
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 66.67
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 33.33
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 50
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 50
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 50
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 50
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 42.86
+				},
+				"away": {
+					"occurance": 4,
+					"percentage": 57.14
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"away": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"away": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1230": [
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 19,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 16,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 96.3
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 3.7
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 45,
+					"percentage": 93.75
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 19,
+					"percentage": 90.48
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 9.52
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 14,
+					"percentage": 87.5
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 12.5
+				}
+			}
+		}
+	],
+	"1231": [
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1233": [
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 47,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 30,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 28,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Trúfélög og trúarbrögð",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 19,
+					"percentage": 95
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 5
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 14,
+					"percentage": 93.33
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.67
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 65,
+					"percentage": 89.04
+				},
+				"idle": {
+					"occurance": 6,
+					"percentage": 8.22
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 2.74
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 8,
+					"percentage": 88.89
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 11.11
+				}
+			}
+		},
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 86.05
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 11.63
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.33
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 156,
+					"percentage": 83.87
+				},
+				"idle": {
+					"occurance": 25,
+					"percentage": 13.44
+				},
+				"away": {
+					"occurance": 5,
+					"percentage": 2.69
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 126,
+					"percentage": 83.44
+				},
+				"idle": {
+					"occurance": 16,
+					"percentage": 10.6
+				},
+				"away": {
+					"occurance": 9,
+					"percentage": 5.96
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 25,
+					"percentage": 83.33
+				},
+				"idle": {
+					"occurance": 4,
+					"percentage": 13.33
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 3.33
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 23,
+					"percentage": 82.14
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 10.71
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 7.14
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 59,
+					"percentage": 78.67
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 6.67
+				},
+				"away": {
+					"occurance": 11,
+					"percentage": 14.67
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 33,
+					"percentage": 78.57
+				},
+				"idle": {
+					"occurance": 7,
+					"percentage": 16.67
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 4.76
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 77.78
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 22.22
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 38,
+					"percentage": 76
+				},
+				"away": {
+					"occurance": 12,
+					"percentage": 24
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 12,
+					"percentage": 75
+				},
+				"idle": {
+					"occurance": 3,
+					"percentage": 18.75
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 6.25
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 33,
+					"percentage": 73.33
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 2.22
+				},
+				"away": {
+					"occurance": 11,
+					"percentage": 24.44
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 79,
+					"percentage": 70.54
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 7.14
+				},
+				"away": {
+					"occurance": 25,
+					"percentage": 22.32
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 59,
+					"percentage": 70.24
+				},
+				"idle": {
+					"occurance": 9,
+					"percentage": 10.71
+				},
+				"away": {
+					"occurance": 16,
+					"percentage": 19.05
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 36,
+					"percentage": 58.06
+				},
+				"idle": {
+					"occurance": 18,
+					"percentage": 29.03
+				},
+				"away": {
+					"occurance": 8,
+					"percentage": 12.9
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 11,
+					"percentage": 57.89
+				},
+				"idle": {
+					"occurance": 1,
+					"percentage": 5.26
+				},
+				"away": {
+					"occurance": 7,
+					"percentage": 36.84
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 54.55
+				},
+				"idle": {
+					"occurance": 5,
+					"percentage": 45.45
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 1,
+					"percentage": 50
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 50
+				}
+			}
+		},
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 22,
+					"percentage": 48.89
+				},
+				"idle": {
+					"occurance": 20,
+					"percentage": 44.44
+				},
+				"away": {
+					"occurance": 3,
+					"percentage": 6.67
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 18.18
+				},
+				"idle": {
+					"occurance": 4,
+					"percentage": 18.18
+				},
+				"away": {
+					"occurance": 14,
+					"percentage": 63.64
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"idle": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		}
+	],
+	"1234": [
+		{
+			"subject": "Atvinnumál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Orkumál og auðlindir",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 34,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Byggðamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 27,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Mengun",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 26,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Landbúnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 17,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Menningarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Norræn málefni",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 7,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Ferðaþjónusta",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðiseftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 6,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Iðnaður",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Trúfélög og trúarbrögð",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Stjórnkerfi og stjórnarskipunarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Alþingi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 2,
+					"percentage": 100
+				}
+			}
+		},
+		{
+			"subject": "Sveitarstjórnarmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 97.37
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2.63
+				}
+			}
+		},
+		{
+			"subject": "Persónuleg réttindi",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 13,
+					"percentage": 92.86
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 7.14
+				}
+			}
+		},
+		{
+			"subject": "Umhverfisstjórn og náttúruvernd",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 49,
+					"percentage": 92.45
+				},
+				"idle": {
+					"occurance": 4,
+					"percentage": 7.55
+				}
+			}
+		},
+		{
+			"subject": "Heilbrigðismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 12,
+					"percentage": 92.31
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 7.69
+				}
+			}
+		},
+		{
+			"subject": "Alþjóðasamningar og utanríkismál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 70,
+					"percentage": 88.61
+				},
+				"idle": {
+					"occurance": 8,
+					"percentage": 10.13
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.27
+				}
+			}
+		},
+		{
+			"subject": "Samgöngur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 28,
+					"percentage": 87.5
+				},
+				"idle": {
+					"occurance": 4,
+					"percentage": 12.5
+				}
+			}
+		},
+		{
+			"subject": "Félagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 48,
+					"percentage": 85.71
+				},
+				"idle": {
+					"occurance": 7,
+					"percentage": 12.5
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 1.79
+				}
+			}
+		},
+		{
+			"subject": "Viðskipti",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 103,
+					"percentage": 79.23
+				},
+				"idle": {
+					"occurance": 25,
+					"percentage": 19.23
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 1.54
+				}
+			}
+		},
+		{
+			"subject": "Skattar og tollar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 37,
+					"percentage": 74
+				},
+				"idle": {
+					"occurance": 12,
+					"percentage": 24
+				},
+				"away": {
+					"occurance": 1,
+					"percentage": 2
+				}
+			}
+		},
+		{
+			"subject": "Fjárreiður ríkisins",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 117,
+					"percentage": 72.67
+				},
+				"idle": {
+					"occurance": 38,
+					"percentage": 23.6
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 3.73
+				}
+			}
+		},
+		{
+			"subject": "Dómstólar og réttarfar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 29,
+					"percentage": 61.7
+				},
+				"idle": {
+					"occurance": 16,
+					"percentage": 34.04
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 4.26
+				}
+			}
+		},
+		{
+			"subject": "Löggæsla og eftirlit",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 40,
+					"percentage": 61.54
+				},
+				"idle": {
+					"occurance": 23,
+					"percentage": 35.38
+				},
+				"away": {
+					"occurance": 2,
+					"percentage": 3.08
+				}
+			}
+		},
+		{
+			"subject": "Efnahagsmál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 13,
+					"percentage": 59.09
+				},
+				"idle": {
+					"occurance": 9,
+					"percentage": 40.91
+				}
+			}
+		},
+		{
+			"subject": "Almannatryggingar",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 4,
+					"percentage": 50
+				},
+				"idle": {
+					"occurance": 4,
+					"percentage": 50
+				}
+			}
+		},
+		{
+			"subject": "Sjávarútvegur",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 15,
+					"percentage": 45.45
+				},
+				"idle": {
+					"occurance": 12,
+					"percentage": 36.36
+				},
+				"away": {
+					"occurance": 6,
+					"percentage": 18.18
+				}
+			}
+		},
+		{
+			"subject": "Menntamál",
+			"voteSplit": {
+				"standsTaken": {
+					"occurance": 3,
+					"percentage": 33.33
+				},
+				"idle": {
+					"occurance": 6,
+					"percentage": 66.67
 				}
 			}
 		}

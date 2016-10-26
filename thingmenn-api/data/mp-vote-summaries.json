@@ -47,6 +47,29 @@
 			"absent": 10.23
 		}
 	},
+	"477": {
+		"id": "477",
+		"name": "Pétur H. Blöndal",
+		"voteSummary": {
+			"numberOfVotes": 1422,
+			"numberOfStandsTaken": 1332,
+			"numberOfAway": 87,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"já": 1204,
+			"nei": 128,
+			"fjarverandi": 87,
+			"greiðir ekki atkvæði": 3
+		},
+		"votePercentages": {
+			"standsTaken": 93.67,
+			"idle": 0.21,
+			"away": 6.12,
+			"absent": 0
+		}
+	},
 	"557": {
 		"id": "557",
 		"name": "Steingrímur J. Sigfússon",
@@ -266,6 +289,51 @@
 			"absent": 0.81
 		}
 	},
+	"662": {
+		"id": "662",
+		"name": "Mörður Árnason",
+		"voteSummary": {
+			"numberOfVotes": 28,
+			"numberOfStandsTaken": 21,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 7
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 7,
+			"já": 20,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 75,
+			"idle": 25,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"676": {
+		"id": "676",
+		"name": "Álfheiður Ingadóttir",
+		"voteSummary": {
+			"numberOfVotes": 22,
+			"numberOfStandsTaken": 9,
+			"numberOfAway": 12,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 1
+		},
+		"voteTypes": {
+			"fjarverandi": 12,
+			"já": 8,
+			"greiðir ekki atkvæði": 1,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 40.91,
+			"idle": 4.55,
+			"away": 54.55,
+			"absent": 0
+		}
+	},
 	"678": {
 		"id": "678",
 		"name": "Árni Páll Árnason",
@@ -290,6 +358,31 @@
 			"idle": 20.27,
 			"away": 28.98,
 			"absent": 0.37
+		}
+	},
+	"679": {
+		"id": "679",
+		"name": "Árni Þór Sigurðsson",
+		"voteSummary": {
+			"numberOfVotes": 798,
+			"numberOfStandsTaken": 586,
+			"numberOfAway": 51,
+			"numberOfAbsent": 16,
+			"numberOfIdleVotes": 145
+		},
+		"voteTypes": {
+			"já": 517,
+			"greiðir ekki atkvæði": 145,
+			"fjarverandi": 51,
+			"nei": 69,
+			"fjarvist (erl.)": 7,
+			"fjarvist": 9
+		},
+		"votePercentages": {
+			"standsTaken": 73.43,
+			"idle": 18.17,
+			"away": 6.39,
+			"absent": 2.01
 		}
 	},
 	"683": {
@@ -965,6 +1058,29 @@
 			"absent": 0
 		}
 	},
+	"1001": {
+		"id": "1001",
+		"name": "Ólafur Þór Gunnarsson",
+		"voteSummary": {
+			"numberOfVotes": 281,
+			"numberOfStandsTaken": 141,
+			"numberOfAway": 52,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 88
+		},
+		"voteTypes": {
+			"já": 127,
+			"fjarverandi": 52,
+			"greiðir ekki atkvæði": 88,
+			"nei": 14
+		},
+		"votePercentages": {
+			"standsTaken": 50.18,
+			"idle": 31.32,
+			"away": 18.51,
+			"absent": 0
+		}
+	},
 	"1002": {
 		"id": "1002",
 		"name": "Anna Margrét Guðjónsdóttir",
@@ -1080,6 +1196,50 @@
 			"standsTaken": 98.84,
 			"idle": 0,
 			"away": 1.16,
+			"absent": 0
+		}
+	},
+	"1130": {
+		"id": "1130",
+		"name": "Lúðvík Geirsson",
+		"voteSummary": {
+			"numberOfVotes": 118,
+			"numberOfStandsTaken": 35,
+			"numberOfAway": 3,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 80
+		},
+		"voteTypes": {
+			"já": 31,
+			"greiðir ekki atkvæði": 80,
+			"fjarverandi": 3,
+			"nei": 4
+		},
+		"votePercentages": {
+			"standsTaken": 29.66,
+			"idle": 67.8,
+			"away": 2.54,
+			"absent": 0
+		}
+	},
+	"1149": {
+		"id": "1149",
+		"name": "Eyrún Ingibjörg Sigþórsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 26,
+			"numberOfStandsTaken": 26,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 25,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
 			"absent": 0
 		}
 	},
@@ -1352,6 +1512,30 @@
 			"idle": 0.39,
 			"away": 14.88,
 			"absent": 1.93
+		}
+	},
+	"1168": {
+		"id": "1168",
+		"name": "Jón Þór Ólafsson",
+		"voteSummary": {
+			"numberOfVotes": 1830,
+			"numberOfStandsTaken": 392,
+			"numberOfAway": 205,
+			"numberOfAbsent": 9,
+			"numberOfIdleVotes": 1224
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 1224,
+			"já": 314,
+			"nei": 78,
+			"fjarverandi": 205,
+			"fjarvist (veik.)": 9
+		},
+		"votePercentages": {
+			"standsTaken": 21.42,
+			"idle": 66.89,
+			"away": 11.2,
+			"absent": 0.49
 		}
 	},
 	"1169": {
@@ -1704,6 +1888,24 @@
 			"absent": 0
 		}
 	},
+	"1185": {
+		"id": "1185",
+		"name": "Edward H. Huijbens",
+		"voteSummary": {
+			"numberOfVotes": 0,
+			"numberOfStandsTaken": 0,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {},
+		"votePercentages": {
+			"standsTaken": null,
+			"idle": null,
+			"away": null,
+			"absent": null
+		}
+	},
 	"1186": {
 		"id": "1186",
 		"name": "Brynhildur S. Björnsdóttir",
@@ -1728,6 +1930,26 @@
 			"absent": 0.25
 		}
 	},
+	"1187": {
+		"id": "1187",
+		"name": "Þorsteinn Magnússon",
+		"voteSummary": {
+			"numberOfVotes": 5,
+			"numberOfStandsTaken": 5,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 5
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
 	"1188": {
 		"id": "1188",
 		"name": "Freyja Haraldsdóttir",
@@ -1744,6 +1966,27 @@
 		"votePercentages": {
 			"standsTaken": 100,
 			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1196": {
+		"id": "1196",
+		"name": "Sigrún Gunnarsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 10,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 3,
+			"já": 10
+		},
+		"votePercentages": {
+			"standsTaken": 76.92,
+			"idle": 23.08,
 			"away": 0,
 			"absent": 0
 		}
@@ -1768,6 +2011,26 @@
 			"standsTaken": 50.5,
 			"idle": 17.94,
 			"away": 31.56,
+			"absent": 0
+		}
+	},
+	"1200": {
+		"id": "1200",
+		"name": "Björk Vilhelmsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
 			"absent": 0
 		}
 	},
@@ -1834,6 +2097,91 @@
 			"standsTaken": 99.35,
 			"idle": 0,
 			"away": 0.65,
+			"absent": 0
+		}
+	},
+	"1204": {
+		"id": "1204",
+		"name": "Guðlaug Elísabet Finnsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 19,
+			"numberOfStandsTaken": 16,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 3,
+			"já": 16
+		},
+		"votePercentages": {
+			"standsTaken": 84.21,
+			"idle": 15.79,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1205": {
+		"id": "1205",
+		"name": "Oddgeir Ágúst Ottesen",
+		"voteSummary": {
+			"numberOfVotes": 41,
+			"numberOfStandsTaken": 38,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"já": 38,
+			"fjarverandi": 1,
+			"greiðir ekki atkvæði": 2
+		},
+		"votePercentages": {
+			"standsTaken": 92.68,
+			"idle": 4.88,
+			"away": 2.44,
+			"absent": 0
+		}
+	},
+	"1208": {
+		"id": "1208",
+		"name": "Jóhanna Kristín Björnsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 12,
+			"numberOfStandsTaken": 11,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 11,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 91.67,
+			"idle": 0,
+			"away": 8.33,
+			"absent": 0
+		}
+	},
+	"1209": {
+		"id": "1209",
+		"name": "Ingibjörg Óðinsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 17,
+			"numberOfStandsTaken": 17,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 16,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
 			"absent": 0
 		}
 	},
@@ -1952,6 +2300,28 @@
 			"absent": 0
 		}
 	},
+	"1217": {
+		"id": "1217",
+		"name": "Ólöf Pálína Úlfarsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 280,
+			"numberOfStandsTaken": 275,
+			"numberOfAway": 5,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 261,
+			"nei": 14,
+			"fjarverandi": 5
+		},
+		"votePercentages": {
+			"standsTaken": 98.21,
+			"idle": 0,
+			"away": 1.79,
+			"absent": 0
+		}
+	},
 	"1218": {
 		"id": "1218",
 		"name": "Halldóra Mogensen",
@@ -1975,6 +2345,27 @@
 			"absent": 0
 		}
 	},
+	"1219": {
+		"id": "1219",
+		"name": "Jón Árnason",
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 13,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 11,
+			"nei": 2
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
 	"1221": {
 		"id": "1221",
 		"name": "Anna María Elíasdóttir",
@@ -1994,6 +2385,136 @@
 			"standsTaken": 99.23,
 			"idle": 0,
 			"away": 0.77,
+			"absent": 0
+		}
+	},
+	"1222": {
+		"id": "1222",
+		"name": "Sveinbjörg Birna Sveinbjörnsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 99,
+			"numberOfStandsTaken": 76,
+			"numberOfAway": 23,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 71,
+			"fjarverandi": 23,
+			"nei": 5
+		},
+		"votePercentages": {
+			"standsTaken": 76.77,
+			"idle": 0,
+			"away": 23.23,
+			"absent": 0
+		}
+	},
+	"1224": {
+		"id": "1224",
+		"name": "Eyrún Eyþórsdóttir",
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 8,
+			"numberOfAway": 5,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"fjarverandi": 5,
+			"já": 8
+		},
+		"votePercentages": {
+			"standsTaken": 61.54,
+			"idle": 0,
+			"away": 38.46,
+			"absent": 0
+		}
+	},
+	"1230": {
+		"id": "1230",
+		"name": "Sigurður Örn Ágústsson",
+		"voteSummary": {
+			"numberOfVotes": 72,
+			"numberOfStandsTaken": 69,
+			"numberOfAway": 3,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 69,
+			"fjarverandi": 3
+		},
+		"votePercentages": {
+			"standsTaken": 95.83,
+			"idle": 0,
+			"away": 4.17,
+			"absent": 0
+		}
+	},
+	"1231": {
+		"id": "1231",
+		"name": "Áslaug María Friðriksdóttir",
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1233": {
+		"id": "1233",
+		"name": "Eldar Ástþórsson",
+		"voteSummary": {
+			"numberOfVotes": 408,
+			"numberOfStandsTaken": 322,
+			"numberOfAway": 37,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 49
+		},
+		"voteTypes": {
+			"já": 301,
+			"fjarverandi": 37,
+			"greiðir ekki atkvæði": 49,
+			"nei": 21
+		},
+		"votePercentages": {
+			"standsTaken": 78.92,
+			"idle": 12.01,
+			"away": 9.07,
+			"absent": 0
+		}
+	},
+	"1234": {
+		"id": "1234",
+		"name": "Andrés Ingi Jónsson",
+		"voteSummary": {
+			"numberOfVotes": 318,
+			"numberOfStandsTaken": 251,
+			"numberOfAway": 9,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 58
+		},
+		"voteTypes": {
+			"já": 226,
+			"greiðir ekki atkvæði": 58,
+			"nei": 25,
+			"fjarverandi": 9
+		},
+		"votePercentages": {
+			"standsTaken": 78.93,
+			"idle": 18.24,
+			"away": 2.83,
 			"absent": 0
 		}
 	},

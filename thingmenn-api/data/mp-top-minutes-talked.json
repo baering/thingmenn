@@ -300,6 +300,19 @@
 	},
 	{
 		"mp": {
+			"id": "1168",
+			"name": "Jón Þór Ólafsson",
+			"slug": "jon_thor_olafsson",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1168/1168-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Píratar)."
+		},
+		"minutesTalked": 1647.98
+	},
+	{
+		"mp": {
 			"id": "687",
 			"name": "Illugi Gunnarsson",
 			"slug": "illugi_gunnarsson",
@@ -505,6 +518,19 @@
 			"description": "Alþingismaður Norðvesturkjördæmis síðan 2009 (Framsóknarflokkur)."
 		},
 		"minutesTalked": 926.76
+	},
+	{
+		"mp": {
+			"id": "679",
+			"name": "Árni Þór Sigurðsson",
+			"slug": "arni_thor_sigurdsson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/679/679-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2007–2014 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"minutesTalked": 917.21
 	},
 	{
 		"mp": {
