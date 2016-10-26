@@ -53,19 +53,6 @@
 	},
 	{
 		"mp": {
-			"id": "477",
-			"name": "Pétur H. Blöndal",
-			"slug": "petur_h_blondal",
-			"party": "Sjálfstæðisflokkur",
-			"partySlug": "sjalfstaedisflokkur",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/477/477-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Reykvíkinga 1995–2003, alþingismaður Reykjavíkurkjördæmis suður 2003–2007, alþingismaður  Reykjavíkurkjördæmis norður 2007–2013, alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Sjálfstæðisflokkur)."
-		},
-		"attendance": 93.88
-	},
-	{
-		"mp": {
 			"id": "1180",
 			"name": "Þórunn Egilsdóttir",
 			"slug": "thorunn_egilsdottir",

@@ -17,7 +17,7 @@ different_mp_votes = {}
 
 def shouldShowMp(mp):
     isSubstitute = mp['isSubstitute']
-    isAlive = mp['id'] != '683'
+    isAlive = mp['id'] != '683' and mp['id'] != '477'
 
     return not isSubstitute and isAlive
 
