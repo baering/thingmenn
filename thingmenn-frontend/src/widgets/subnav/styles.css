@@ -1,6 +1,7 @@
 .SubNav {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 0 1 100%;
   flex-wrap: wrap;
   padding: 1rem 1.777rem;
@@ -8,6 +9,13 @@
   border: 0;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
 }
+
+@media (min-width: 768px) {
+  .SubNav {
+    justify-content: initial;
+  }
+}
+
 
 @media (min-width: 950px) {
   .SubNav {
@@ -19,9 +27,29 @@
   color: #444;
   margin-right: 1.777rem;
   height: 100%;
+  margin-top: 1rem;
   padding: 5px 10px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.2px;
+}
+
+.SubNav-item:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .SubNav-item {
+    font-size: 1.1rem;
+  }
+  .SubNav-item:last-child {
+    margin-right: inherit;
+  }
+}
+
+@media (min-width: 950px) {
+  .SubNav-item {
+    margin-top: 0;
+  }
 }
 
 .SubNav-item.is-active {

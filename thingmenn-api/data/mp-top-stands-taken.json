@@ -352,6 +352,19 @@
 	},
 	{
 		"mp": {
+			"id": "679",
+			"name": "Árni Þór Sigurðsson",
+			"slug": "arni_thor_sigurdsson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/679/679-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2007–2014 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"standsTaken": 73.43
+	},
+	{
+		"mp": {
 			"id": "1181",
 			"name": "Elín Hirst",
 			"slug": "elin_hirst",
@@ -817,5 +830,18 @@
 			"description": "Alþingismaður Reykvíkinga 1995–2003 (Alþýðubandalagið og óháðir, Óháðir, Vinstri hreyfingin – grænt framboð), alþingismaður Reykjavíkurkjördæmis suður 2003–2007, alþingismaður Suðvesturkjördæmis síðan 2007 (Vinstri hreyfingin – grænt framboð)."
 		},
 		"standsTaken": 24.79
+	},
+	{
+		"mp": {
+			"id": "1168",
+			"name": "Jón Þór Ólafsson",
+			"slug": "jon_thor_olafsson",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1168/1168-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Píratar)."
+		},
+		"standsTaken": 21.42
 	}
 ]

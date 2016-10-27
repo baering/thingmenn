@@ -2,7 +2,7 @@ import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
 
 import fetchMps from '../mps'
-import { loadFile } from '../../utility/file'
+import { loadFile, writeToFile } from '../../utility/file'
 
 const mpListUrl = 'http://www.althingi.is/thingmenn/althingismenn/'
 const mpVoteUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/?nfaerslunr='
@@ -76,7 +76,7 @@ async function fetchMpVotes(ids, lthing) {
 }
 
 async function getMps(lthing) {
-  let mps = loadFile('data/mps.json')
+  let mps = loadFile('data/export/mps.json')
   if (mps !== null) {
     return mps
   }
@@ -101,9 +101,9 @@ async function fetchData() {
     console.log('Done..\n')
   }
 
-  // const allVotes = await fetchMpVotes(mpIds)
   console.log('Fetched votes, example: ')
   console.log(allVotes[0].votes[0])
+  writeToFile(allVotes, 'data/term/all-votes.json')
   return allVotes
 }
 

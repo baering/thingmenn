@@ -1,36 +1,43 @@
-import fetchVotes from './votes'
-import fetchSpeeches from './speeches'
-import { writeToFile } from '../utility/file'
-
-// fetchVotes()
-//   .then(data => {
-//     console.log('Successfully fetched votes')
-//     writeToFile(data, 'data/all-votes-for-term.json')
-//   }).catch(error => {
-//     console.log(`There was an error: ${error}`)
-//   })
-//
-// fetchSpeeches().then(speeches => {
-//   console.log('Successfully fetched all speeches')
-//   writeToFile(speeches, 'data/term/speeches-for-term.json')
-//   }).catch((error) => console.log(`There was an error: ${error}`))
+// import { writeToFile } from '../utility/file'
+import { getProcessArguments } from '../utility/process'
 
 import fetchMps from './mps'
+import fetchVotes from './votes'
+import fetchSubjects from './subjects'
+import fetchSpeechStatistics from './speech-statistics'
+// TODO: add analyzer to the repo
+// import fetchSpeeches from './speeches'
 
-fetchMps()
-  .then(mps => {
-    console.log('Success')
-  })
+const defaultItems = ['mps', 'votes', 'subjects', 'speechStatistics', 'speeches']
 
-// import fetchSubjects from './subjects'
-//
-// fetchSubjects()
-//   .then(wasASuccess => {
-//     console.log('Done', wasASuccess)
-//   }).catch(error => console.log(`Error: ${error}`))
+async function fetch(config) {
+  if (config.mps) {
+    console.log('Fetching mps')
+    await fetchMps()
+  }
 
-// import fetchSpeechStatistics from './speech-statistics'
-// fetchSpeechStatistics()
-//   .then(wasASuccess => {
-//     console.log('Done', wasASuccess)
-//   })
+  if (config.votes) {
+    console.log('Fetching votes')
+    await fetchVotes()
+  }
+
+  if (config.subjects) {
+    console.log('Fetching subjects')
+    await fetchSubjects()
+  }
+
+  if (config.speechStatistics) {
+    console.log('Fetching speech statistics')
+    await fetchSpeechStatistics()
+  }
+
+  if (config.speeches) {
+    // TODO: add analyzer to the repo
+    console.log('Would be speeches, but needs analyzer')
+    // const speeches = await fetchSpeeches()
+    // writeToFile(data, 'data/all-votes-for-term.json')
+  }
+}
+
+const itemsToFetch = getProcessArguments(defaultItems)
+fetch(itemsToFetch)

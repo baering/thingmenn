@@ -1,146 +1,146 @@
 {
-	"Framsóknarflokkur": {
+	"Sjálfstæðisflokkur": {
 		"voteSummary": {
-			"numberOfAway": 8849,
-			"numberOfAbsent": 2558,
-			"numberOfIdleVotes": 150,
-			"numberOfStandsTaken": 47295,
-			"numberOfVotes": 58852
+			"numberOfAway": 9592,
+			"numberOfAbsent": 2618,
+			"numberOfIdleVotes": 374,
+			"numberOfStandsTaken": 46677,
+			"numberOfVotes": 59261
 		},
 		"voteTypes": {
-			"já": 43532,
-			"fjarverandi": 8849,
-			"nei": 3763,
+			"já": 43006,
+			"nei": 3671,
+			"fjarverandi": 9592,
+			"fjarvist (erl.)": 1179,
+			"fjarvist": 1119,
+			"greiðir ekki atkvæði": 374,
+			"fjarvist (veik.)": 320
+		},
+		"votePercentages": {
+			"standsTaken": 78.77,
+			"idle": 0.63,
+			"away": 16.19,
+			"absent": 4.42
+		}
+	},
+	"Samfylkingin": {
+		"voteSummary": {
+			"numberOfAway": 7575,
+			"numberOfAbsent": 760,
+			"numberOfIdleVotes": 5249,
+			"numberOfStandsTaken": 14487,
+			"numberOfVotes": 28071
+		},
+		"voteTypes": {
+			"já": 13618,
+			"fjarverandi": 7575,
+			"greiðir ekki atkvæði": 5249,
+			"nei": 869,
+			"fjarvist": 467,
+			"fjarvist (erl.)": 283,
+			"fjarvist (veik.)": 10
+		},
+		"votePercentages": {
+			"standsTaken": 51.61,
+			"idle": 18.7,
+			"away": 26.99,
+			"absent": 2.71
+		}
+	},
+	"Vinstri hreyfingin – grænt framboð": {
+		"voteSummary": {
+			"numberOfAway": 3644,
+			"numberOfAbsent": 1287,
+			"numberOfIdleVotes": 4177,
+			"numberOfStandsTaken": 12725,
+			"numberOfVotes": 21833
+		},
+		"voteTypes": {
+			"fjarverandi": 3644,
+			"já": 11547,
+			"greiðir ekki atkvæði": 4177,
+			"nei": 1178,
+			"fjarvist": 560,
+			"fjarvist (erl.)": 712,
+			"fjarvist (veik.)": 15
+		},
+		"votePercentages": {
+			"standsTaken": 58.28,
+			"idle": 19.13,
+			"away": 16.69,
+			"absent": 5.89
+		}
+	},
+	"Framsóknarflokkur": {
+		"voteSummary": {
+			"numberOfAway": 8878,
+			"numberOfAbsent": 2558,
+			"numberOfIdleVotes": 150,
+			"numberOfStandsTaken": 47675,
+			"numberOfVotes": 59261
+		},
+		"voteTypes": {
+			"já": 43891,
+			"nei": 3784,
+			"fjarverandi": 8878,
 			"fjarvist (erl.)": 1754,
 			"greiðir ekki atkvæði": 150,
 			"fjarvist": 691,
 			"fjarvist (veik.)": 113
 		},
 		"votePercentages": {
-			"standsTaken": 80.36,
+			"standsTaken": 80.45,
 			"idle": 0.25,
-			"away": 15.04,
-			"absent": 4.35
-		}
-	},
-	"Samfylkingin": {
-		"voteSummary": {
-			"numberOfAway": 7572,
-			"numberOfAbsent": 760,
-			"numberOfIdleVotes": 5162,
-			"numberOfStandsTaken": 14430,
-			"numberOfVotes": 27924
-		},
-		"voteTypes": {
-			"já": 13566,
-			"greiðir ekki atkvæði": 5162,
-			"fjarverandi": 7572,
-			"nei": 864,
-			"fjarvist (erl.)": 283,
-			"fjarvist (veik.)": 10,
-			"fjarvist": 467
-		},
-		"votePercentages": {
-			"standsTaken": 51.68,
-			"idle": 18.49,
-			"away": 27.12,
-			"absent": 2.72
-		}
-	},
-	"Sjálfstæðisflokkur": {
-		"voteSummary": {
-			"numberOfAway": 9501,
-			"numberOfAbsent": 2618,
-			"numberOfIdleVotes": 369,
-			"numberOfStandsTaken": 45194,
-			"numberOfVotes": 57682
-		},
-		"voteTypes": {
-			"já": 41653,
-			"nei": 3541,
-			"fjarverandi": 9501,
-			"greiðir ekki atkvæði": 369,
-			"fjarvist (erl.)": 1179,
-			"fjarvist": 1119,
-			"fjarvist (veik.)": 320
-		},
-		"votePercentages": {
-			"standsTaken": 78.35,
-			"idle": 0.64,
-			"away": 16.47,
-			"absent": 4.54
-		}
-	},
-	"Píratar": {
-		"voteSummary": {
-			"numberOfAway": 729,
-			"numberOfAbsent": 187,
-			"numberOfIdleVotes": 2519,
-			"numberOfStandsTaken": 4092,
-			"numberOfVotes": 7527
-		},
-		"voteTypes": {
-			"greiðir ekki atkvæði": 2519,
-			"já": 3752,
-			"fjarverandi": 729,
-			"nei": 340,
-			"fjarvist (veik.)": 88,
-			"fjarvist": 83,
-			"fjarvist (erl.)": 16
-		},
-		"votePercentages": {
-			"standsTaken": 54.36,
-			"idle": 33.47,
-			"away": 9.69,
-			"absent": 2.48
-		}
-	},
-	"Vinstri hreyfingin – grænt framboð": {
-		"voteSummary": {
-			"numberOfAway": 3515,
-			"numberOfAbsent": 1271,
-			"numberOfIdleVotes": 3885,
-			"numberOfStandsTaken": 11730,
-			"numberOfVotes": 20401
-		},
-		"voteTypes": {
-			"já": 10661,
-			"greiðir ekki atkvæði": 3885,
-			"nei": 1069,
-			"fjarverandi": 3515,
-			"fjarvist (erl.)": 705,
-			"fjarvist": 551,
-			"fjarvist (veik.)": 15
-		},
-		"votePercentages": {
-			"standsTaken": 57.5,
-			"idle": 19.04,
-			"away": 17.23,
-			"absent": 6.23
+			"away": 14.98,
+			"absent": 4.32
 		}
 	},
 	"Björt framtíð": {
 		"voteSummary": {
-			"numberOfAway": 2748,
+			"numberOfAway": 2785,
 			"numberOfAbsent": 425,
-			"numberOfIdleVotes": 3765,
-			"numberOfStandsTaken": 11336,
-			"numberOfVotes": 18274
+			"numberOfIdleVotes": 3820,
+			"numberOfStandsTaken": 11684,
+			"numberOfVotes": 18714
 		},
 		"voteTypes": {
-			"já": 10756,
-			"greiðir ekki atkvæði": 3765,
-			"fjarverandi": 2748,
-			"nei": 580,
+			"já": 11083,
+			"greiðir ekki atkvæði": 3820,
+			"fjarverandi": 2785,
+			"nei": 601,
 			"fjarvist (erl.)": 126,
 			"fjarvist": 277,
 			"fjarvist (veik.)": 22
 		},
 		"votePercentages": {
-			"standsTaken": 62.03,
-			"idle": 20.6,
-			"away": 15.04,
-			"absent": 2.33
+			"standsTaken": 62.43,
+			"idle": 20.41,
+			"away": 14.88,
+			"absent": 2.27
+		}
+	},
+	"Píratar": {
+		"voteSummary": {
+			"numberOfAway": 934,
+			"numberOfAbsent": 196,
+			"numberOfIdleVotes": 3743,
+			"numberOfStandsTaken": 4484,
+			"numberOfVotes": 9357
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 3743,
+			"fjarverandi": 934,
+			"nei": 418,
+			"já": 4066,
+			"fjarvist (veik.)": 97,
+			"fjarvist (erl.)": 16,
+			"fjarvist": 83
+		},
+		"votePercentages": {
+			"standsTaken": 47.92,
+			"idle": 40,
+			"away": 9.98,
+			"absent": 2.09
 		}
 	}
 }

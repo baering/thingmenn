@@ -1,3 +1,15 @@
+# Thingmenn Frontend Quickstart
+
+```bash
+npm i
+npm start
+```
+
+By default it fetches data from the production api. Change the `apiUrl` in [src/config.js](src/config.js) to
+connect to a different API.
+
+# `create-react-app` Readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.  
@@ -99,7 +111,7 @@ For the project to build, **these files must exist with exact filenames**:
 
 You can delete or rename the other files.
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.  
+You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.
 You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
 
 Only files inside `public` can be used from `public/index.html`.  

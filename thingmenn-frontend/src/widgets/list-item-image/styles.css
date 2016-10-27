@@ -21,7 +21,8 @@
   background-size: cover;
 }
 
-.ListItemImage-image:hover {
+.ListItemImage-image:hover,
+a:hover .ListItemImage-image {
   transform: scale(1.05) translateZ(0);
   opacity: 1;
 }

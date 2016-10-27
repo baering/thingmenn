@@ -59,7 +59,7 @@ async function fetchAllSpeechAnalytics(mps, lthings) {
 }
 
 async function getMps(lthing) {
-  let mps = loadFile('data/mps.json')
+  let mps = loadFile('data/export/mps.json')
   if (mps !== null) {
     return mps
   }
@@ -74,6 +74,7 @@ export default async function fetch() {
 
   const statistics = await fetchAllSpeechAnalytics(mps, lthings)
   writeToFile(statistics, 'data/term/mp-speech-statistics.json', true)
+  return statistics
 }
 
 // export default async function testFetch() {

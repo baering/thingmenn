@@ -1,7 +1,7 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
 let mps = loadFile('data/export/mps.json')
-mps = mps.filter(mp => !mp.isSubstitute && mp.id !== '683')
+mps = mps.filter(mp => !mp.isSubstitute && mp.id !== '683' && mp.id !== '477')
 const mpVoteSummary = loadFile('data/export/mp-vote-summaries.json')
 const mpSpeechStatistics = loadFile('data/export/mp-speech-statistics.json')
 

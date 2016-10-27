@@ -1,23 +1,46 @@
-// import createFriendLookup from './votes'
-import { writeToFile } from '../utility/file'
-
-// const friendLookup = createFriendLookup()
-// writeToFile(friendLookup, 'data/friend-lookup.json', true)
-
+import createMpSummary from './mp-summary'
+import createMpPositionLookup from './position'
+// TODO: add analyzer to the repo
 // import createMpNounLookup from './speeches'
-// createMpNounLookup()
-
-// import createMpPositionLookup from './position'
-// createMpPositionLookup()
-
-// import createMpSummary from './mp-summary'
-// createMpSummary()
-
-// import createPartySummaries from './parties'
-// createPartySummaries()
-
-// import createMpSpeechStatisticSummary from './speech-statistics'
-// createMpSpeechStatisticSummary()
-
+import createMpSpeechStatisticSummary from './speech-statistics'
+import createPartySummaries from './parties'
 import createTopCharts from './top-charts'
-createTopCharts()
+
+import { getProcessArguments } from '../utility/process'
+
+const defaultItems = ['mps', 'speeches', 'speechStatistics', 'positions', 'top']
+
+function process(config) {
+  if (config.mps) {
+    console.log('Processing mps')
+    createMpSummary()
+  }
+
+  if (config.speeches) {
+    console.log('Processing mp nouns')
+    // createMpNounLookup()
+  }
+
+  if (config.speechStatistics) {
+    console.log('Processing speech statistics')
+    createMpSpeechStatisticSummary()
+  }
+
+  if (config.position) {
+    console.log('Processing mp positions')
+    createMpPositionLookup()
+  }
+
+  if (config.parties) {
+    console.log('Processing parties')
+    createPartySummaries()
+  }
+
+  if (config.top) {
+    console.log('Processing top charts')
+    createTopCharts()
+  }
+}
+
+const itemsToProcess = getProcessArguments(defaultItems)
+process(itemsToProcess)

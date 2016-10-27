@@ -2,7 +2,7 @@
   background: #E9EEF2;
   display: flex;
   flex-wrap: wrap;
-  padding: 0.563rem;
+  padding: 1rem;
 }
 
 .Details-item {
@@ -12,6 +12,10 @@
   margin-bottom: 1rem;
   padding: 1.5rem 2rem;
   width: 100%;
+}
+
+.Details-item:last-child {
+  margin-bottom: 0;
 }
 
 .Details-heading {

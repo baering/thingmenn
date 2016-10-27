@@ -87,8 +87,6 @@ function getTopPartyNouns(nounSummary) {
 }
 
 export default function createMpNounLookup() {
-  // const allMpSpeeches = loadFile('data/all-speeches.json')
-
   const allSpeeches = [
     {
       lthing: 143,
@@ -121,7 +119,6 @@ export default function createMpNounLookup() {
 
       mpSpeeches.speeches.forEach(speech => {
         const cleanedSpeech = speech.replace(/\n/g, ' ')
-        // cleanedSpeech = speech.replace(/\.|\?|!/g, '')
         const nouns = cleanedSpeech.split(' ').map(word => cleanWord(word))
 
         nouns.filter(word => wordIsOfInterest(word)).forEach(noun => {

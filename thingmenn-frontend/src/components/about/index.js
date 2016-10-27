@@ -14,7 +14,7 @@ export default class About extends React.Component {
 
           <h2>Hvaðan koma gögnin?</h2>
           <p>Öll gögn eru sótt af vef Alþingis og skiptast þau niður í tvo meginflokka: <a className="u-link" href="http://www.althingi.is/altext/cv/is/atkvaedaskra/" target="_blank">atkvæðaskrá</a> og <a className="u-link" href="http://www.althingi.is/altext/cv/is/raedur/" target="_blank">ræður eftir þingum</a>.</p>
-          <p>Gögnin eru sótt sjálfkrafa, hver einasta undirsíða fyrir alla þingmenn er skoðuð og gögnum breytt yfir á form sem þægilegt er fyrir tölvu að vinna úr þeim.</p>
+          <p>Gögnin eru sótt sjálfkrafa, hver einasta undirsíða fyrir <a className="u-link" href="http://www.althingi.is/thingmenn/althingismenn/" target="_blank">alla þingmenn</a> er skoðuð og gögnum breytt yfir á form sem þægilegt er fyrir tölvu að vinna úr þeim.</p>
           <p>Því næst er byrjað að vinna úr gögnunum, þau flokkuð og skoðuð fyrir hvern þingmann. Eftir að hafa unnið úr þeim fyrir hvern þingmann eru upplýsingum safnað saman til þess að fá gögn fyrir þingflokkana.</p>
 
           <h2>Verkefnið</h2>

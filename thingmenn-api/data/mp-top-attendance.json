@@ -66,6 +66,19 @@
 	},
 	{
 		"mp": {
+			"id": "679",
+			"name": "Árni Þór Sigurðsson",
+			"slug": "arni_thor_sigurdsson",
+			"party": "Vinstri hreyfingin – grænt framboð",
+			"partySlug": "vinstri-hreyfingin-graent-frambod",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/679/679-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis norður 2007–2014 (Vinstri hreyfingin – grænt framboð)."
+		},
+		"attendance": 93.61
+	},
+	{
+		"mp": {
 			"id": "1166",
 			"name": "Helgi Hrafn Gunnarsson",
 			"slug": "helgi_hrafn_gunnarsson",
@@ -248,6 +261,19 @@
 	},
 	{
 		"mp": {
+			"id": "1168",
+			"name": "Jón Þór Ólafsson",
+			"slug": "jon_thor_olafsson",
+			"party": "Píratar",
+			"partySlug": "piratar",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1168/1168-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2013–2015 (Píratar)."
+		},
+		"attendance": 88.8
+	},
+	{
+		"mp": {
 			"id": "728",
 			"name": "Birgitta Jónsdóttir",
 			"slug": "birgitta_jonsdottir",
@@ -391,19 +417,6 @@
 	},
 	{
 		"mp": {
-			"id": "1167",
-			"name": "Jóhanna María Sigmundsdóttir",
-			"slug": "johanna_maria_sigmundsdottir",
-			"party": "Framsóknarflokkur",
-			"partySlug": "framsoknarflokkur",
-			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
-			"isSubstitute": false,
-			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
-		},
-		"attendance": 85.12
-	},
-	{
-		"mp": {
 			"id": "650",
 			"name": "Birgir Ármannsson",
 			"slug": "birgir_armannsson",
@@ -412,6 +425,19 @@
 			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/650/650-220.jpg",
 			"isSubstitute": false,
 			"description": "Alþingismaður Reykjavíkurkjördæmis suður 2003–2013, alþingismaður Reykjavíkurkjördæmis norður síðan 2013 (Sjálfstæðisflokkur)."
+		},
+		"attendance": 85.12
+	},
+	{
+		"mp": {
+			"id": "1167",
+			"name": "Jóhanna María Sigmundsdóttir",
+			"slug": "johanna_maria_sigmundsdottir",
+			"party": "Framsóknarflokkur",
+			"partySlug": "framsoknarflokkur",
+			"imagePath": "http://www.althingi.is/myndir/thingmenn-cache/1167/1167-220.jpg",
+			"isSubstitute": false,
+			"description": "Alþingismaður Norðvesturkjördæmis síðan 2013 (Framsóknarflokkur)."
 		},
 		"attendance": 85.12
 	},
