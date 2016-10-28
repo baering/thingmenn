@@ -1,5 +1,5 @@
 import React from 'react';
-import sortInternational from 'sort-international'
+import icelandic from 'sort-international'
 
 import mpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
@@ -10,35 +10,12 @@ import './styles.css'
 
 let searchInput = ''
 
-/**
- * Partition MPs into lists, ordered by name or party AND name.
- * @param {Array} mps
- * @returns {{byName: Array.<T>, byParty: Array.<T>}}
- */
-function createMpPartition(mps) {
-  const compareFn = sortInternational('name')
-  const partition = mps.reduce((parties, mp) => {
-    parties[mp.party] = parties[mp.party] || []
-    parties[mp.party].push(mp)
-    return parties
-  }, {})
-
-  const sortParty = party => partition[party].sort(compareFn)
-  const byParty = [].concat([], ...Object.keys(partition).sort(compareFn).map(sortParty))
-  const byName = mps.sort(compareFn)
-
-  return { byName, byParty }
-}
-
 export default class Mps extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      mps: {
-        byName: [],
-        byParty: [],
-      },
+      mps: [],
       searchInput: '',
       sortByParty: false,
     }
@@ -59,11 +36,8 @@ export default class Mps extends React.Component {
     return mp
   }
 
-
   componentWillMount() {
-    mpService.getMps()
-      .then(createMpPartition)
-      .then(mps => this.setState({ mps }))
+    this.getMps()
     this.setSorting(this.props)
   }
 
@@ -77,16 +51,32 @@ export default class Mps extends React.Component {
     this.setState({ sortByParty, searchInput })
   }
 
-  render() {
-    const { mps, sortByParty } = this.state
-    const allMPs = mps[sortByParty ? 'byParty' : 'byName'].filter(this.searchFilter)
+  async getMps() {
+    const data = await mpService.getMps()
+    const mps = data.map(mp => ({ ...mp, partyKey: `${mp.party}${mp.name}` }))
+    this.setState({ mps })
+  }
 
+  get mpList() {
+    const { mps, sortByParty } = this.state
+    const list = mps
+      .filter(this.searchFilter)
+      .sort(icelandic(sortByParty ? 'partyKey' : 'name'))
+    return list
+  }
+
+  render() {
+    const { sortByParty } = this.state
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
+        <SubNav
+          handleSearchInput={this.handleSearchInput}
+          searchInput={searchInput}
+          sortByParty={sortByParty}
+        />
         <List>
-          {allMPs.map(mp => (
+          {this.mpList.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
         </List>
