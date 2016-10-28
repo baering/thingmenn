@@ -11,14 +11,10 @@ import './styles.css'
 let searchInput = ''
 
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      mps: [],
-      searchInput: '',
-      sortByParty: false,
-    }
+  state = {
+    mps: [],
+    searchInput: '',
+    sortByParty: false,
   }
 
   handleSearchInput = (evt) => {
