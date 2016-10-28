@@ -8,8 +8,6 @@ import List from '../../widgets/list'
 
 import './styles.css'
 
-let searchInput = ''
-
 export default class Mps extends React.Component {
   state = {
     mps: [],
@@ -18,10 +16,8 @@ export default class Mps extends React.Component {
   }
 
   handleSearchInput = (evt) => {
-    searchInput = evt.target.value
-    this.setState({
-      searchInput
-    })
+    const searchInput = evt.target.value
+    this.setState({ searchInput })
   }
 
   searchFilter = (mp) => {
@@ -44,7 +40,7 @@ export default class Mps extends React.Component {
   setSorting(props) {
     const { query } = props.location
     const sortByParty = query.rada === 'flokkar'
-    this.setState({ sortByParty, searchInput })
+    this.setState({ sortByParty })
   }
 
   async getMps() {
@@ -62,7 +58,7 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { sortByParty } = this.state
+    const { sortByParty, searchInput } = this.state
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
