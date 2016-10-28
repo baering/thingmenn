@@ -1,4 +1,5 @@
 import React from 'react';
+import icelandic from 'sort-international'
 
 import mpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
@@ -7,39 +8,25 @@ import List from '../../widgets/list'
 
 import './styles.css'
 
-let searchInput = ''
-
 export default class Mps extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      mps: [],
-      searchInput: '',
-      sortByParty: false,
-    }
+  state = {
+    mps: [],
+    searchInput: '',
+    sortByParty: false,
   }
 
   handleSearchInput = (evt) => {
-    searchInput = evt.target.value
-    this.setState({
-      searchInput
-    })
+    const searchInput = evt.target.value
+    this.setState({ searchInput })
   }
 
-  searchFilter(mp) {
+  searchFilter = (mp) => {
     const { searchInput } = this.state
-    if (searchInput) {
-      return (mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1)
-    }
-    return mp
+    return mp.name.toLowerCase().includes(searchInput.toLowerCase())
   }
 
-  componentWillMount() {
-    mpService.getMps()
-      .then(mps => {
-        this.setState({ mps })
-      })
+  componentDidMount() {
+    this.getMps()
     this.setSorting(this.props)
   }
 
@@ -50,28 +37,35 @@ export default class Mps extends React.Component {
   setSorting(props) {
     const { query } = props.location
     const sortByParty = query.rada === 'flokkar'
-    this.setState({ sortByParty, searchInput })
+    this.setState({ sortByParty })
   }
 
-  sortItem(mp1, mp2) {
-    if (this.state.sortByParty) {
-      return mp1.party.localeCompare(mp2.party)
-    }
-    return mp1.name.localeCompare(mp2.name)
+  async getMps() {
+    const data = await mpService.getMps()
+    const mps = data.map(mp => ({ ...mp, partyKey: `${mp.party}${mp.name}` }))
+    this.setState({ mps })
+  }
+
+  get mpList() {
+    const { mps, sortByParty } = this.state
+    const list = mps
+      .filter(this.searchFilter)
+      .sort(icelandic(sortByParty ? 'partyKey' : 'name'))
+    return list
   }
 
   render() {
-    const { mps, sortByParty } = this.state
-
-    const items = mps.filter(this.searchFilter.bind(this))
-        .sort(this.sortItem.bind(this))
-
+    const { sortByParty, searchInput } = this.state
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
+        <SubNav
+          handleSearchInput={this.handleSearchInput}
+          searchInput={searchInput}
+          sortByParty={sortByParty}
+        />
         <List>
-          {items.map(mp => (
+          {this.mpList.map(mp => (
             <Mp key={mp.id} {...mp} />
           ))}
         </List>
