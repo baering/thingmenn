@@ -22,10 +22,7 @@ export default class Mps extends React.Component {
 
   searchFilter = (mp) => {
     const { searchInput } = this.state
-    if (searchInput) {
-      return (mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1)
-    }
-    return mp
+    return mp.name.toLowerCase().includes(searchInput.toLowerCase())
   }
 
   componentWillMount() {
