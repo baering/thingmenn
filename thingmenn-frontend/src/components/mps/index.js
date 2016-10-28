@@ -25,7 +25,7 @@ export default class Mps extends React.Component {
     return mp.name.toLowerCase().includes(searchInput.toLowerCase())
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.getMps()
     this.setSorting(this.props)
   }
