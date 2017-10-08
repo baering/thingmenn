@@ -9,11 +9,12 @@ import fetchSpeechStatistics from './speech-statistics'
 // import fetchSpeeches from './speeches'
 
 const defaultItems = ['mps', 'votes', 'subjects', 'speechStatistics', 'speeches']
+const lthings = [147, 146, 145, 144, 143]
 
 async function fetch(config) {
   if (config.mps) {
     console.log('Fetching mps')
-    await fetchMps()
+    await fetchMps(lthings)
   }
 
   if (config.votes) {

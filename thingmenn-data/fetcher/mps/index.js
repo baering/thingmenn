@@ -1,9 +1,10 @@
-import cheerio from 'cheerio'
-import { fetchHtml } from '../../utility/html'
+import { fetchXml } from '../../utility/xml'
 import { writeToFile } from '../../utility/file'
-
-const mpListUrl = 'http://www.althingi.is/altext/cv/is/atkvaedaskra/'
-const mpDetailsUrl = 'http://www.althingi.is/altext/cv/is/?nfaerslunr='
+import {
+  urlForMpsInLthing,
+  urlForMpLthings,
+  urlForMpHistory,
+} from '../urls'
 
 const letters = 'abcdefghijklmnoprstuvwxyz'
 
@@ -20,45 +21,14 @@ const icelandicLetterToAscii = {
   ö: 'o',
 }
 
-const partyNameToSlug = {
-  'Björt framtíð': 'bjort-framtid',
-  Framsóknarflokkur: 'framsoknarflokkur',
-  Píratar: 'piratar',
-  Samfylkingin: 'samfylkingin',
-  Sjálfstæðisflokkur: 'sjalfstaedisflokkur',
-  'Vinstri hreyfingin – grænt framboð': 'vinstri-hreyfingin-graent-frambod',
-}
-
-function parseMpParty(htmlObj) {
-  if (htmlObj('.office').length) {
-    const parts = htmlObj('.office li:contains("Þingflokkur")')
-    parts.children().remove()
-    return parts.text().trim()
-  }
-
-  const description = htmlObj('.person p').text()
-
-  if (description.length > 0) {
-    return description.split('(')[1].split(')')[0]
-  }
-  return 'Tókst ekki að sækja'
-}
-
-function parseMpDescription(htmlObj) {
-  const description = htmlObj('h3:contains("Þingseta")').next()
-  if (description.length) {
-    return description.text()
-  }
-  return ''
-}
-
-function isSubstitute(htmlObj) {
-  // TODO: This is fine for now, only one term
-  // But in future, refactor to use xml service
-  // http://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=mpId
-  // <þing>145</þing>
-  return htmlObj('.person').text().indexOf('Varaþingmaður') !== -1
-}
+// const partyNameToSlug = {
+//   'Björt framtíð': 'bjort-framtid',
+//   Framsóknarflokkur: 'framsoknarflokkur',
+//   Píratar: 'piratar',
+//   Samfylkingin: 'samfylkingin',
+//   Sjálfstæðisflokkur: 'sjalfstaedisflokkur',
+//   'Vinstri hreyfingin – grænt framboð': 'vinstri-hreyfingin-graent-frambod',
+// }
 
 function generateSlug(mpName) {
   const nameLowerCased = mpName.toLowerCase()
@@ -77,96 +47,121 @@ function generateSlug(mpName) {
   .join('')
 }
 
-function parseMpDetails(html, mpId) {
-  const htmlObj = cheerio.load(html)
-
-  const mpName = htmlObj('h1').text()
+function parseMpXmlBaseInfo(xml) {
+  const mpId = parseInt(xml.$.id, 10)
+  const mpName = xml.nafn[0]
   const slug = generateSlug(mpName)
-  const partyName = parseMpParty(htmlObj)
+
   return {
     id: mpId,
-    name: mpName,
+    mpName,
     slug,
-    party: partyName,
-    partySlug: partyNameToSlug[partyName],
-    imagePath: `http://www.althingi.is${htmlObj('.person img').attr('src')}`,
-    isSubstitute: isSubstitute(htmlObj),
-    description: parseMpDescription(htmlObj),
+    imagePath: `http://www.althingi.is/myndir/thingmenn-cache/${mpId}/${mpId}-220.jpg`,
   }
 }
 
-async function fetchMpDetails(mpId) {
-  const url = `${mpDetailsUrl}${mpId}`
-  const html = await fetchHtml(url)
-  return parseMpDetails(html, mpId)
-}
+function parseMpLthingXmlDetails(xml, lthing) {
+  for (const currentLthingInfo of xml.þingmaður.þingsetur[0].þingseta) {
+    const currentLthing = parseInt(currentLthingInfo.þing[0], 10)
 
-function parseMpIds(html) {
-  const htmlObj = cheerio.load(html)
-
-  const rows = htmlObj('.article .boxbody > ul li a')
-  const mpIds = []
-  rows.each(function parseMpRow() {
-    const element = htmlObj(this)
-
-    // ?nfaerslunr=MP_ID&lthing=LTHING_ID
-    const href = element.attr('href')
-    mpIds.push(href.split('nfaerslunr=')[1].split('&lthing=')[0])
-  })
-
-  return mpIds
-}
-
-async function fetchMpList(lthing, mpLookup) {
-  const url = `${mpListUrl}?lthing=${lthing}`
-  const html = await fetchHtml(url)
-
-  const mpIds = parseMpIds(html)
-  const mps = []
-  for (let i = 0; i < mpIds.length; i++) {
-    const mpId = mpIds[i]
-
-    if (!mpLookup[mpId]) {
-      console.log(`Fetching mp ${mpId}`)
-      const mp = await fetchMpDetails(mpId)
-      mps.push(mp)
+    if (currentLthing === lthing) {
+      return {
+        partyId: parseInt(currentLthingInfo.þingflokkur[0].$.id, 10),
+        isSubstitute: currentLthingInfo.tegund.indexOf('varamaður') !== -1,
+        constituencyId: parseInt(currentLthingInfo.kjördæmi[0].$.id, 10),
+      }
     }
   }
 
-  return mps
+  return {}
 }
 
-async function fetch() {
-  const lthings = [145, 144, 143]
-  try {
-    const mpLookup = {}
-    for (const lthing of lthings) {
-      console.log(`Fetching from lthing ${lthing}`)
-      const mpsForLthing = await fetchMpList(lthing, mpLookup)
-      console.log('Done')
-      mpsForLthing.forEach(mp => {
-        if (!mpLookup[mp.id]) {
-          mpLookup[mp.id] = mp
+async function fetchMpLthingInfo(mpId, lthing) {
+  const url = urlForMpLthings(mpId)
+  const xml = await fetchXml(url)
+  return parseMpLthingXmlDetails(xml, lthing)
+}
+
+function formDescriptionFromKeys(mpHistory, keys) {
+  return keys.reduce((description, key) => {
+    const keyValue = mpHistory[key].trim()
+    if (description.length > 0) {
+      return `${description} ${keyValue}`
+    }
+    return keyValue
+  }, '').trim()
+}
+
+function parseMpHistoryDetails(xml) {
+  const {
+    menntun,
+    starfsferill,
+    félagsmál,
+    þingmennska,
+    varaþingmennska,
+    ráðherra,
+  } = xml.þingmaður.lífshlaup[0]
+
+  const history = {
+    education: menntun[0],
+    career: starfsferill[0],
+    social: félagsmál[0],
+    asMp: þingmennska[0],
+    asSubstitudeMp: varaþingmennska[0],
+    asMinister: ráðherra[0],
+  }
+
+  return {
+    asPerson: formDescriptionFromKeys(history, ['education', 'career', 'social']),
+    asMp: formDescriptionFromKeys(history, ['asSubstitudeMp', 'asMp', 'asMinister']),
+  }
+}
+
+async function fetchMpHistory(mpId) {
+  const url = urlForMpHistory(mpId)
+  const xml = await fetchXml(url)
+  return parseMpHistoryDetails(xml)
+}
+
+async function getMpDetails(xml, lthing) {
+  const mpBaseInfo = parseMpXmlBaseInfo(xml, lthing)
+  const mpLthingInfo = await fetchMpLthingInfo(mpBaseInfo.id, lthing)
+  const mpHistory = await fetchMpHistory(mpBaseInfo.id)
+
+  return { ...mpBaseInfo, lthings: [{ ...mpLthingInfo, lthing }], description: mpHistory }
+}
+
+async function fetch(lthings) {
+  if (lthings.length === 0) {
+    throw new Error('no lthings in fetcher/mps')
+  }
+
+  const mps = {}
+
+  for (const lthing of lthings) {
+    const mpsUrl = urlForMpsInLthing(lthing)
+    const mpsAsXml = await fetchXml(mpsUrl)
+
+    for (const mp of mpsAsXml.þingmannalisti.þingmaður) {
+      const details = await getMpDetails(mp, lthing)
+
+      if (!mps[details.id]) {
+        mps[details.id] = details
+      } else {
+        if (mps[details.id].lthings === undefined) {
+          mps[details.id].lthings = []
         }
-      })
+        mps[details.id].lthings = mps[details.id].lthings.concat(details.lthings)
+      }
     }
-    const mpIds = Object.keys(mpLookup)
-    const mps = mpIds.map(mpId => mpLookup[mpId])
-
-    console.log('All done\n\nExample:')
-    console.log(mps[0])
-    writeToFile(mps, 'data/export/mps.json', true)
-
-    return mps
-  } catch (e) {
-    console.log(`Error: ${e}`)
-    return []
   }
-}
 
-async function testFetch() {
-  const mp = await fetchMpDetails(656)
-  console.log(mp)
+  console.log(mps)
+  const mpIds = Object.keys(mps).map(mpId => parseInt(mpId, 10))
+
+  const result = mpIds.map(mpId => mps[mpId])
+  writeToFile(result, 'data/export/mps-v2.json', true)
+  return result
 }
 
 export default fetch
