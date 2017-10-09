@@ -156,11 +156,10 @@ async function fetch(lthings) {
     }
   }
 
-  console.log(mps)
   const mpIds = Object.keys(mps).map(mpId => parseInt(mpId, 10))
 
   const result = mpIds.map(mpId => mps[mpId])
-  writeToFile(result, 'data/export/mps-v2.json', true)
+  writeToFile(result, 'data/v2/mps.json', true)
   return result
 }
 

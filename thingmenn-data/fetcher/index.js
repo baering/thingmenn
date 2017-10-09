@@ -9,7 +9,7 @@ import fetchSpeechStatistics from './speech-statistics'
 // import fetchSpeeches from './speeches'
 
 const defaultItems = ['mps', 'votes', 'subjects', 'speechStatistics', 'speeches']
-const lthings = [147, 146, 145, 144, 143]
+const lthings = [145, 144, 143]
 
 async function fetch(config) {
   if (config.mps) {
@@ -19,7 +19,7 @@ async function fetch(config) {
 
   if (config.votes) {
     console.log('Fetching votes')
-    await fetchVotes()
+    await fetchVotes(lthings)
   }
 
   if (config.subjects) {

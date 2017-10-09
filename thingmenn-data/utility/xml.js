@@ -26,6 +26,6 @@ export async function fetchXml(url) {
 
   cache[url] = result
 
-  console.log(`fetchXml (requested)\t${url}`)
+  console.log(`fetchXml (request)\t${url}`)
   return result
 }
