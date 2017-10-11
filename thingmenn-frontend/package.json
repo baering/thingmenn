@@ -10,6 +10,7 @@
     "highcharts": "^5.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "prop-types": "^15.6.0",
     "react-ga": "^2.1.2",
     "react-highcharts": "^10.0.0",
     "react-router": "^2.8.1",

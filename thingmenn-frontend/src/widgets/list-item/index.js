@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import PropTypes from "prop-types";
 
 import './styles.css'
 
@@ -15,8 +16,8 @@ const ListItem = ({
 }
 
 ListItem.propTypes = {
-  url: React.PropTypes.string,
-  children: React.PropTypes.node,
+  url: PropTypes.string,
+  children: PropTypes.node,
 }
 
 export default ListItem

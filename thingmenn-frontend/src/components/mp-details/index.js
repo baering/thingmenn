@@ -1,21 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import mpService from '../../services/mp-service'
-import mpSummaryService from '../../services/mp-summary-service'
+import mpService from "../../services/mp-service";
+import mpSummaryService from "../../services/mp-summary-service";
 
-import ColorLegend from '../../widgets/color-legend'
-import DetailsHeader from '../../widgets/details-header'
-import Friends from '../../widgets/friends'
-import Piechart from '../../widgets/piechart'
-import Words from '../../widgets/words'
-import Speeches from '../../widgets/speeches'
-import BarChart from '../../widgets/bar-chart'
+import { Tab, TabBar } from "../tabs";
 
-import './styles.css'
+import ColorLegend from "../../widgets/color-legend";
+import DetailsHeader from "../../widgets/details-header";
+import Friends from "../../widgets/friends";
+import Piechart from "../../widgets/piechart";
+import Words from "../../widgets/words";
+import Speeches from "../../widgets/speeches";
+import BarChart from "../../widgets/bar-chart";
+
+import "./styles.css";
 
 export default class Mps extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       mp: [],
@@ -24,57 +26,50 @@ export default class Mps extends React.Component {
       subjectSummary: [],
       nouns: [],
       similarMps: [],
-      differentMps: [],
-    }
+      differentMps: []
+    };
   }
 
   componentWillMount() {
-    this.getData()
+    this.getData();
   }
 
   componentWillReceiveProps(nextProps) {
-    this.getData(nextProps.routeParams.mpId)
+    this.getData(nextProps.routeParams.mpId);
   }
 
   getData(id) {
-    const mpId = id || this.props.params.mpId
+    const mpId = id || this.props.params.mpId;
 
     if (this.state.mp.id === mpId) return;
 
-    mpService.getMpDetails(mpId)
-      .then(mp => {
-        this.setState({ mp })
-      })
+    mpService.getMpDetails(mpId).then(mp => {
+      this.setState({ mp });
+    });
 
-    mpSummaryService.getMpVotes(mpId)
-      .then(voteSummary => {
-        this.setState({ voteSummary })
-      })
+    mpSummaryService.getMpVotes(mpId).then(voteSummary => {
+      this.setState({ voteSummary });
+    });
 
-    mpSummaryService.getMpSubjects(mpId)
-      .then(subjectSummary => {
-        this.setState({ subjectSummary })
-      })
+    mpSummaryService.getMpSubjects(mpId).then(subjectSummary => {
+      this.setState({ subjectSummary });
+    });
 
-    mpSummaryService.getMpNouns(mpId)
-      .then(nouns => {
-        this.setState({ nouns })
-      })
+    mpSummaryService.getMpNouns(mpId).then(nouns => {
+      this.setState({ nouns });
+    });
 
-    mpSummaryService.getMpSpeeches(mpId)
-      .then(speechSummary => {
-        this.setState({ speechSummary })
-      })
+    mpSummaryService.getMpSpeeches(mpId).then(speechSummary => {
+      this.setState({ speechSummary });
+    });
 
-    mpService.getSimilarMps(mpId)
-      .then(similarMps => {
-        this.setState({ similarMps })
-      })
+    mpService.getSimilarMps(mpId).then(similarMps => {
+      this.setState({ similarMps });
+    });
 
-    mpService.getDifferentMps(mpId)
-      .then(differentMps => {
-        this.setState({ differentMps })
-      })
+    mpService.getDifferentMps(mpId).then(differentMps => {
+      this.setState({ differentMps });
+    });
   }
 
   render() {
@@ -85,52 +80,61 @@ export default class Mps extends React.Component {
       subjectSummary,
       nouns,
       similarMps,
-      differentMps,
-    } = this.state
+      differentMps
+    } = this.state;
     return (
       <div className="fill">
-        <DetailsHeader speechSummary={speechSummary} voteSummary={voteSummary} {...mp} />
+        <DetailsHeader
+          speechSummary={speechSummary}
+          voteSummary={voteSummary}
+          {...mp}
+        />
+        <TabBar />
+        <Tab>
+          <div className="Details">
+            <div className="Details-item">
+              <h1 className="heading">Skipting atkvæða</h1>
+              <Piechart voteSummary={voteSummary} />
+              <ColorLegend includeAbsent={true} />
+            </div>
 
-        <div className='Details'>
-          <div className="Details-item">
-          <h1 className="heading">Skipting atkvæða</h1>
-            <Piechart voteSummary={voteSummary} />
-            <ColorLegend includeAbsent={true} />
-          </div>
+            <div className="Details-item">
+              <Words divider="3" title="Mest talað um" words={nouns} />
+            </div>
 
-          <div className="Details-item">
-            <Words divider="3" title="Mest talað um" words={nouns} />
-          </div>
+            <div className="Details-item Details-item--large">
+              <Speeches
+                title="Skipting ræðutíma"
+                speechSummary={speechSummary}
+              />
+            </div>
 
-          <div className="Details-item Details-item--large">
-            <Speeches title="Skipting ræðutíma" speechSummary={speechSummary} />
-          </div>
+            <div className="Details-item">
+              <Friends
+                title="Samherjar"
+                subTitle="Eins greidd atkvæði"
+                friends={similarMps.slice(0, 10)}
+                isDisplayingFriends={true}
+              />
+            </div>
 
-          <div className="Details-item">
-            <Friends
-              title="Samherjar"
-              subTitle="Eins greidd atkvæði"
-              friends={similarMps.slice(0, 10)}
-              isDisplayingFriends={true}
-            />
-          </div>
+            <div className="Details-item">
+              <Friends
+                title="Mótherjar"
+                subTitle="Ólík greidd atkvæði"
+                friends={differentMps.slice(0, 10)}
+              />
+            </div>
 
-          <div className="Details-item">
-            <Friends
-              title="Mótherjar"
-              subTitle="Ólík greidd atkvæði"
-              friends={differentMps.slice(0, 10)}
-            />
+            <div className="Details-item Details-item--large">
+              <h1 className="heading">Atkvæðaskipting eftir efnisflokkum</h1>
+              <ColorLegend />
+              {subjectSummary.map(subject => (
+                <BarChart subjectSummary={subject} key={subject.subject} />
+              ))}
+            </div>
           </div>
-
-          <div className="Details-item Details-item--large">
-            <h1 className="heading">Atkvæðaskipting eftir efnisflokkum</h1>
-            <ColorLegend/>
-            {subjectSummary.map(subject => (
-              <BarChart subjectSummary={subject} key={subject.subject} />
-            ))}
-          </div>
-        </div>
+        </Tab>
       </div>
     );
   }

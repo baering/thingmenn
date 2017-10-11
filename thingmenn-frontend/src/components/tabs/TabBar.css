@@ -1,0 +1,25 @@
+.TabBar {
+  display: flex;
+  background: #FFF;
+  position: relative;
+}
+
+.TabBar-item {
+  flex: 1;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.TabBar-item:not(.is-active):not(:hover) {
+  color: rgba(0,0,0,0.5);
+}
+
+.TabBar-item + .TabBar-item {
+  border-left: 1px solid rgba(44, 63, 80, 0.2);
+}
+
+.TabBar-item.is-active {
+  background: #f8fafb;
+  font-weight: 500;
+  color: #333;
+}

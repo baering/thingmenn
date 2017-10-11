@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 import './styles.css'
 
 const ListItemContent = ({
@@ -16,8 +17,8 @@ const ListItemContent = ({
 }
 
 ListItemContent.propTypes = {
-  title: React.PropTypes.string,
-  description: React.PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
 }
 
 export default ListItemContent

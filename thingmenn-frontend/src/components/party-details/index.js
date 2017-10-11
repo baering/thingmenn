@@ -2,7 +2,7 @@ import React from 'react';
 
 import partyService from '../../services/party-service'
 import partySummaryService from '../../services/party-summary-service'
-
+import { TabBar } from '../tabs'
 import DetailsHeader from '../../widgets/details-header'
 import Piechart from '../../widgets/piechart'
 import BarChart from '../../widgets/bar-chart'
@@ -66,6 +66,7 @@ export default class Mps extends React.Component {
           speechSummary={speechSummary}
           voteSummary={voteSummary}
           {...party} />
+          <TabBar />
 
         <div className='Details'>
           <div className="Details-item">

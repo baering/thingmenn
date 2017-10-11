@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import PropTypes from "prop-types";
 import { formatPercentage } from '../../utils'
 
 import PartyBadge from '../partybadge'
@@ -38,9 +39,9 @@ const Friends = ({
 }
 
 Friends.propTypes = {
-  title: React.PropTypes.string,
-  subTitle: React.PropTypes.string,
-  friends: React.PropTypes.array,
+  title: PropTypes.string,
+  subTitle: PropTypes.string,
+  friends: PropTypes.array,
 }
 
 export default Friends
