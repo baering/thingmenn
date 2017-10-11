@@ -37,3 +37,15 @@ export function urlForVotes(votingId) {
 
   return `http://www.althingi.is/altext/xml/atkvaedagreidslur/atkvaedagreidsla/?numer=${votingId}`
 }
+
+export function urlForCase(caseId, lthing) {
+  if (isNaN(caseId)) {
+    throw new Error('caseId is not a number')
+  }
+
+  if (isNaN(lthing)) {
+    throw new Error('lthing is not a number')
+  }
+
+  return `http://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=${lthing}&malnr=${caseId}`
+}

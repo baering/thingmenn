@@ -5,21 +5,54 @@ import { writeToFile } from '../../utility/file'
 import {
   urlForLthingVoting,
   urlForVotes,
+  urlForCase,
 } from '../urls'
 
-function parseCasesFromVotings(votings) {
+function getCase(caseId, lthing) {
+  const url = urlForCase(caseId, lthing)
+  return fetchXml(url)
+}
+
+async function getCaseClassification(caseId, lthing) {
+  const xml = await getCase(caseId, lthing)
+
+  const sectionIds = []
+  const subjectIds = []
+
+  xml.þingmál.efnisflokkar[0].yfirflokkur.forEach(section => {
+    sectionIds.push(parseInt(section.$.id, 10))
+    section.efnisflokkur.forEach(subject => {
+      subjectIds.push(parseInt(subject.$.id, 10))
+    })
+  })
+
+  return { sectionIds, subjectIds }
+}
+
+async function parseCasesFromVotings(votings) {
   const caseLookup = {}
   const cases = []
 
   for (const voting of votings) {
     const caseId = voting.$.málsnúmer
+    const lthing = voting.$.þingnúmer
     if (!caseLookup[caseId]) {
-      cases.push({
-        id: voting.$.málsnúmer,
+      let classification = null
+      try {
+        classification = await getCaseClassification(caseId, lthing)
+      } catch (e) {
+        classification = { sectionIds: [], subjectIds: [] }
+      }
+
+      const newCase = {
+        id: caseId,
         category: voting.$.málsflokkur,
-        lthing: voting.$.þingnúmer,
+        lthing,
         name: voting.mál[0].málsheiti[0],
-      })
+        classification,
+      }
+
+      cases.push(newCase)
       caseLookup[caseId] = true
     }
   }
@@ -68,7 +101,7 @@ async function getVotesFromVotings(votings) {
 async function parseLthingVotings(xml) {
   const rawVotings = xml.atkvæðagreiðslur.atkvæðagreiðsla
 
-  const cases = parseCasesFromVotings(rawVotings)
+  const cases = await parseCasesFromVotings(rawVotings)
   const votings = formatVotings(rawVotings)
   const votes = await getVotesFromVotings(votings)
 
