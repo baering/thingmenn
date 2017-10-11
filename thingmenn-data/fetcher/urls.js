@@ -49,3 +49,7 @@ export function urlForCase(caseId, lthing) {
 
   return `http://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=${lthing}&malnr=${caseId}`
 }
+
+export function urlForClassifications() {
+  return 'http://www.althingi.is/altext/xml/efnisflokkar/'
+}

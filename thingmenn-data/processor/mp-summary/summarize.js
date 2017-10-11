@@ -124,6 +124,6 @@ export default function process() {
     )
   }
 
-  writeToFile(sortedSimilarMpLookupsByLthing, 'data/export-v2/mp-similar-votes.json', true)
-  writeToFile(sortedDifferentMpLookupsByLthing, 'data/export-v2/mp-different-votes.json', true)
+  writeToFile(sortedSimilarMpLookupsByLthing, 'data/export-v2/mp-similar-votes-by-lthing.json', true)
+  writeToFile(sortedDifferentMpLookupsByLthing, 'data/export-v2/mp-different-votes-by-lthing.json', true)
 }

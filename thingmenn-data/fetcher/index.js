@@ -1,14 +1,13 @@
-// import { writeToFile } from '../utility/file'
 import { getProcessArguments } from '../utility/process'
 
 import fetchMps from './mps'
 import fetchVotes from './votes'
-import fetchSubjects from './subjects'
+import fetchClassifications from './classifications'
 import fetchSpeechStatistics from './speech-statistics'
 // TODO: add analyzer to the repo
 // import fetchSpeeches from './speeches'
 
-const defaultItems = ['mps', 'votes', 'subjects', 'speechStatistics', 'speeches']
+const defaultItems = ['mps', 'votes', 'classifications', 'speechStatistics', 'speeches']
 const lthings = [145, 144, 143]
 
 async function fetch(config) {
@@ -22,9 +21,9 @@ async function fetch(config) {
     await fetchVotes(lthings)
   }
 
-  if (config.subjects) {
-    console.log('Fetching subjects')
-    await fetchSubjects()
+  if (config.classifications) {
+    console.log('Fetching classifications')
+    await fetchClassifications()
   }
 
   if (config.speechStatistics) {
