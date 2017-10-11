@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 import ReactHighcharts from 'react-highcharts'
 import { formatPercentage } from '../../utils'
 
@@ -82,7 +83,7 @@ const Piechart = ({
 }
 
 Piechart.propTypes = {
-  voteSummary: React.PropTypes.object
+  voteSummary: PropTypes.object
 }
 
 export default Piechart

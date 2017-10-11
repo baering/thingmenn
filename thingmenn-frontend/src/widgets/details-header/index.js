@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 import { formatTime, formatPercentage } from '../../utils'
 
 import './styles.css'
@@ -55,10 +56,10 @@ const DetailsHeader = ({
 }
 
 DetailsHeader.propTypes = {
-  id: React.PropTypes.string,
-  name: React.PropTypes.string,
-  profilePicture: React.PropTypes.string,
-  party: React.PropTypes.string,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  profilePicture: PropTypes.string,
+  party: PropTypes.string,
 }
 
 export default DetailsHeader

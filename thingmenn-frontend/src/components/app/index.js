@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 import Nav from '../../widgets/nav'
 import Footer from '../../widgets/footer'
@@ -26,5 +27,5 @@ export default class App extends React.Component {
 }
 
 App.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
 }
