@@ -6,6 +6,7 @@ import {
   createVoteSummary,
   createSimilarVoteLookup,
   createSortedMpVoteSimilarityLookup,
+  createTotalSimilarVoteLookup,
 } from './helpers'
 
 const mps = loadFile('data/v2/mps.json')
@@ -109,23 +110,10 @@ export default function process() {
   const sortedSimilarMpLookupsByLthing = {}
   const sortedDifferentMpLookupsByLthing = {}
 
-  const mpTotalSimilarVotes = {}
+  const mpTotalSimilarVotes = createTotalSimilarVoteLookup(similarMpLookup, lthings)
+  const mpTotalDifferentVotes = createTotalSimilarVoteLookup(differentMpLookup, lthings)
 
   for (const lthing of lthings) {
-    Object.keys(similarMpLookup[lthing]).forEach(mpId => {
-      if (mpTotalSimilarVotes[mpId] === undefined) {
-        mpTotalSimilarVotes[mpId] = {}
-      }
-
-      Object.keys(similarMpLookup[lthing][mpId]).forEach(similarMpId => {
-        if (mpTotalSimilarVotes[mpId][similarMpId] === undefined) {
-          mpTotalSimilarVotes[mpId][similarMpId] = 0
-        }
-
-        mpTotalSimilarVotes[mpId][similarMpId] += similarMpLookup[lthing][mpId][similarMpId]
-      })
-    })
-
     sortedSimilarMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
       similarMpLookup[lthing],
       mpLookup,
@@ -145,7 +133,15 @@ export default function process() {
     mpVoteCounter,
   )
 
+  const sortedTotalDifferentVotes = createSortedMpVoteSimilarityLookup(
+    mpTotalDifferentVotes,
+    mpLookup,
+    mpVoteCounter,
+  )
+
   writeToFile(sortedMpTotalSimilarVotes, 'data/export-v2/total/mp-similar-votes.json', true)
+  writeToFile(sortedTotalDifferentVotes, 'data/export-v2/total/mp-different-votes.json', true)
+
   writeToFile(sortedSimilarMpLookupsByLthing, 'data/export-v2/by-lthing/mp-similar-votes.json', true)
   writeToFile(sortedDifferentMpLookupsByLthing, 'data/export-v2/by-lthing/mp-different-votes.json', true)
 }

@@ -159,3 +159,24 @@ export function createSortedMpVoteSimilarityLookup(lookup, mpLookup, mpVoteSumma
 
   return result
 }
+
+export function createTotalSimilarVoteLookup(lookup, lthings) {
+  const totalLookup = {}
+  for (const lthing of lthings) {
+    Object.keys(lookup[lthing]).forEach(mpId => {
+      if (totalLookup[mpId] === undefined) {
+        totalLookup[mpId] = {}
+      }
+
+      Object.keys(lookup[lthing][mpId]).forEach(similarMpId => {
+        if (totalLookup[mpId][similarMpId] === undefined) {
+          totalLookup[mpId][similarMpId] = 0
+        }
+
+        totalLookup[mpId][similarMpId] += lookup[lthing][mpId][similarMpId]
+      })
+    })
+  }
+
+  return totalLookup
+}
