@@ -160,6 +160,21 @@ async function fetch(lthings) {
 
   const result = mpIds.map(mpId => mps[mpId])
   writeToFile(result, 'data/v2/mps.json', true)
+
+  const mpsByLthing = {}
+  for (const mp of result) {
+    for (const lthingInfo of mp.lthings) {
+      const { lthing } = lthingInfo
+      if (mpsByLthing[lthing] === undefined) {
+        mpsByLthing[lthing] = []
+      }
+
+      mpsByLthing[lthing].push(mp.id)
+    }
+  }
+
+  writeToFile(mpsByLthing, 'data/v2/mps-by-lthing.json', true)
+
   return result
 }
 
