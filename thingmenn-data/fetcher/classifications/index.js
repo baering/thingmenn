@@ -49,6 +49,7 @@ async function fetch() {
   const classifications = await fetchClassifications()
 
   writeToFile(classifications, 'data/export-v2/classifications.json', true)
+  writeToFile(classifications, 'data/v2/classifications.json', true)
 }
 
 export default fetch

@@ -26,7 +26,7 @@ function process(config) {
     createMpSpeechStatisticSummary()
   }
 
-  if (config.position) {
+  if (config.positions) {
     console.log('Processing mp positions')
     createMpPositionLookup()
   }

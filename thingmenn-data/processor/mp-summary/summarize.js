@@ -6,7 +6,6 @@ import {
   createVoteSummary,
   createSimilarVoteLookup,
   createSortedMpVoteSimilarityLookup,
-
 } from './helpers'
 
 const mps = loadFile('data/v2/mps.json')
