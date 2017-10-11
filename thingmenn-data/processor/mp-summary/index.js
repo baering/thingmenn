@@ -1,6 +1,5 @@
-import { loadFile, writeToFile } from '../../utility/file'
-import createVoteSummary from './votes'
+import summarize from './summarize'
 
 export default function createMpSummary() {
-  createVoteSummary()
+  summarize()
 }

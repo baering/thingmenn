@@ -164,12 +164,15 @@ async function fetch(lthings) {
   const mpsByLthing = {}
   for (const mp of result) {
     for (const lthingInfo of mp.lthings) {
-      const { lthing } = lthingInfo
+      const { lthing, partyId } = lthingInfo
       if (mpsByLthing[lthing] === undefined) {
         mpsByLthing[lthing] = []
       }
 
-      mpsByLthing[lthing].push(mp.id)
+      mpsByLthing[lthing].push({
+        id: mp.id,
+        partyId,
+      })
     }
   }
 
