@@ -1,9 +1,18 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
+import {
+  initializeVoteCounterIfNeeded,
+  incrementVoteType,
+  createVoteSummary,
+  createSimilarVoteLookup,
+  createSortedMpVoteSimilarityLookup,
+
+} from './helpers'
+
 const mps = loadFile('data/v2/mps.json')
-const mpIndexLookup = {}
-mps.forEach((mp, index) => {
-  mpIndexLookup[mp.id] = index
+const mpLookup = {}
+mps.forEach((mp) => {
+  mpLookup[mp.id] = mp
 })
 
 const mpsByLthing = loadFile('data/v2/mps-by-lthing.json')
@@ -20,61 +29,6 @@ Object.keys(mpsByLthing).forEach(lthing => {
 })
 
 const votings = loadFile('data/v2/votings.json')
-
-function createVoteSummary(voteSummary, id) {
-  const summary = voteSummary[id]
-  Object.keys(summary.voteTypes).forEach(voteType => {
-    const numberOfVotesForType = summary.voteTypes[voteType]
-
-    if (voteType === 'já' || voteType === 'nei') {
-      summary.voteSummary.numberOfStandsTaken += numberOfVotesForType
-    } else if (voteType === 'greiðir ekki atkvæði') {
-      summary.voteSummary.numberOfIdleVotes += numberOfVotesForType
-    } else if (voteType === 'fjarverandi') {
-      summary.voteSummary.numberOfAway += numberOfVotesForType
-    } else {
-      summary.voteSummary.numberOfAbsent += numberOfVotesForType
-    }
-
-    summary.voteSummary.numberOfVotes += numberOfVotesForType
-  })
-
-  const numberOfVotes = summary.voteSummary.numberOfVotes
-  const standsTaken = summary.voteSummary.numberOfStandsTaken / numberOfVotes
-  const idle = summary.voteSummary.numberOfIdleVotes / numberOfVotes
-  const away = summary.voteSummary.numberOfAway / numberOfVotes
-  const absent = summary.voteSummary.numberOfAbsent / numberOfVotes
-  summary.votePercentages = {
-    standsTaken: parseFloat((standsTaken * 100).toFixed(2)),
-    idle: parseFloat((idle * 100).toFixed(2)),
-    away: parseFloat((away * 100).toFixed(2)),
-    absent: parseFloat((absent * 100).toFixed(2)),
-  }
-}
-
-function initializeVoteCounterIfNeeded(counter, id) {
-  if (counter[id] === undefined) {
-    counter[id] = {
-      id,
-      voteSummary: {
-        numberOfVotes: 0,
-        numberOfStandsTaken: 0,
-        numberOfAway: 0,
-        numberOfAbsent: 0,
-        numberOfIdleVotes: 0,
-      },
-      voteTypes: {},
-    }
-  }
-}
-
-function incrementVoteType(counter, voteType) {
-  if (counter[voteType] === undefined) {
-    counter[voteType] = 0
-  }
-
-  counter[voteType] += 1
-}
 
 export default function process() {
   const mpVoteLogByLthing = {}
@@ -150,4 +104,26 @@ export default function process() {
   writeToFile(mpByLthingVoteCounter, 'data/export-v2/mp-vote-summaries-by-lthing.json', true)
   writeToFile(partyVoteCounter, 'data/export-v2/party-vote-summaries.json', true)
   writeToFile(partyByLthingVoteCounter, 'data/export-v2/party-vote-summaries-by-lthing.json', true)
+
+  const { similarMpLookup, differentMpLookup } = createSimilarVoteLookup(mps, mpVoteLogByLthing)
+
+  const sortedSimilarMpLookupsByLthing = {}
+  const sortedDifferentMpLookupsByLthing = {}
+
+  for (const lthing of lthings) {
+    sortedSimilarMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
+      similarMpLookup[lthing],
+      mpLookup,
+      mpByLthingVoteCounter[lthing],
+    )
+
+    sortedDifferentMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
+      differentMpLookup[lthing],
+      mpLookup,
+      mpByLthingVoteCounter[lthing]
+    )
+  }
+
+  writeToFile(sortedSimilarMpLookupsByLthing, 'data/export-v2/mp-similar-votes.json', true)
+  writeToFile(sortedDifferentMpLookupsByLthing, 'data/export-v2/mp-different-votes.json', true)
 }
