@@ -53,3 +53,23 @@ export function urlForCase(caseId, lthing) {
 export function urlForClassifications() {
   return 'http://www.althingi.is/altext/xml/efnisflokkar/'
 }
+
+export function urlForDocuments(lthing) {
+  if (isNaN(lthing)) {
+    throw new Error('lthing is not a number')
+  }
+
+  return `http://www.althingi.is/altext/xml/thingskjol/?lthing=${lthing}`
+}
+
+export function urlForDocumentDetails(lthing, documentId) {
+  if (isNaN(lthing)) {
+    throw new Error('lthing is not a number')
+  }
+
+  if (isNaN(documentId)) {
+    throw new Error('documentId is not a number')
+  }
+
+  return `http://www.althingi.is/altext/xml/thingskjol/thingskjal/?lthing=${lthing}&skjalnr=${documentId}`
+}

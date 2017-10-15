@@ -1,7 +1,6 @@
 import cheerio from 'cheerio'
 import { fetchHtml } from '../../utility/html'
 import { loadFile, writeToFile } from '../../utility/file'
-import fetchMps from '../mps'
 
 const baseUrl = 'http://www.althingi.is/thingstorf/raedur/raedur-thingmanna-eftir-thingum/?'
 
@@ -23,7 +22,8 @@ function parseSpeechAnalyticsRow(row, summary) {
 }
 
 function parseMpSpeechAnalytics(htmlObj) {
-  const infoTableRows = htmlObj('h2:contains("Yfirlit yfir") table tbody tr')
+  const tableHeadingSelector = 'h2:contains("Yfirlit yfir")'
+  const infoTableRows = htmlObj(`${tableHeadingSelector} + table tbody tr`)
 
   const summary = {}
   infoTableRows.each(function parseRow() {
@@ -45,39 +45,25 @@ async function fetchMpSpeechAnalytics(mpId, lthing = 145) {
   }
 }
 
-async function fetchAllSpeechAnalytics(mps, lthings) {
+async function fetchAllSpeechAnalytics(mpsByLthings, lthings) {
   const statistics = {}
   for (const lthing of lthings) {
     console.log(`Fetching lthing ${lthing}`)
     statistics[lthing] = {}
-    for (const mp of mps) {
-      console.log(`MP: ${mp.name}`)
-      statistics[lthing][mp.id] = await fetchMpSpeechAnalytics(mp.id, lthing)
+    const mpsInLthing = mpsByLthings[lthing]
+    for (const mp of mpsInLthing) {
+      console.log(`MP: ${mp.id}`)
+      const data = await fetchMpSpeechAnalytics(mp.id, lthing)
+      statistics[lthing][mp.id] = data
     }
   }
   return statistics
 }
 
-async function getMps(lthing) {
-  let mps = loadFile('data/export/mps.json')
-  if (mps !== null) {
-    return mps
-  }
+export default async function fetch(lthings) {
+  const mpsByLthings = loadFile('data/v2/mps-by-lthing.json')
 
-  mps = await fetchMps(lthing)
-  return mps
-}
-
-export default async function fetch() {
-  const lthings = [143, 144, 145]
-  const mps = await getMps(lthings[lthings.length - 1])
-
-  const statistics = await fetchAllSpeechAnalytics(mps, lthings)
-  writeToFile(statistics, 'data/term/mp-speech-statistics.json', true)
+  const statistics = await fetchAllSpeechAnalytics(mpsByLthings, lthings)
+  writeToFile(statistics, 'data/v2/mp-speech-statistics.json', true)
   return statistics
 }
-
-// export default async function testFetch() {
-//   const statistics = await fetchMpSpeechAnalytics(678, 145)
-//   console.log(statistics)
-// }

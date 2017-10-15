@@ -28,7 +28,7 @@ async function fetch(config) {
 
   if (config.speechStatistics) {
     console.log('Fetching speech statistics')
-    await fetchSpeechStatistics()
+    await fetchSpeechStatistics(lthings)
   }
 
   if (config.speeches) {
