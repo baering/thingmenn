@@ -7,8 +7,9 @@ import fetchSpeechStatistics from './speech-statistics'
 // TODO: add analyzer to the repo
 // import fetchSpeeches from './speeches'
 import fetchDocuments from './documents'
+import fetchSpeechClassifications from './speech-classifications'
 
-const defaultItems = ['mps', 'votes', 'classifications', 'speechStatistics', 'speeches']
+const defaultItems = ['mps', 'votes', 'classifications', 'speechStatistics', 'speechClassifications', 'speeches']
 const lthings = [145, 144, 143]
 
 async function fetch(config) {
@@ -30,6 +31,11 @@ async function fetch(config) {
   if (config.speechStatistics) {
     console.log('Fetching speech statistics')
     await fetchSpeechStatistics(lthings)
+  }
+
+  if (config.speechClassifications) {
+    console.log('Fetching speech classifications')
+    await fetchSpeechClassifications(lthings)
   }
 
   if (config.speeches) {

@@ -73,3 +73,11 @@ export function urlForDocumentDetails(lthing, documentId) {
 
   return `http://www.althingi.is/altext/xml/thingskjol/thingskjal/?lthing=${lthing}&skjalnr=${documentId}`
 }
+
+export function urlForSpeeches(lthing) {
+  if (isNaN(lthing)) {
+    throw new Error('lthing is not a number')
+  }
+
+  return `http://www.althingi.is/altext/xml/raedulisti/?lthing=${lthing}`
+}
