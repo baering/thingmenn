@@ -34,8 +34,8 @@ async function parseCasesFromVotings(votings) {
   const cases = []
 
   for (const voting of votings) {
-    const caseId = voting.$.málsnúmer
-    const lthing = voting.$.þingnúmer
+    const caseId = parseInt(voting.$.málsnúmer, 10)
+    const lthing = parseInt(voting.$.þingnúmer, 10)
     if (!caseLookup[caseId]) {
       let classification = null
       try {
