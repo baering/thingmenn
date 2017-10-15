@@ -1,8 +1,8 @@
 import { loadFile, writeToFile } from '../../utility/file'
 
 import {
-  generateMpPositionsByLthing,
-  generateSortedMpPositionsByLthing,
+  generateMpVotePositionsByLthing,
+  generateMpSpeechPositionsByLthing,
 } from './helpers'
 
 const classifications = loadFile('data/v2/classifications.json')
@@ -18,6 +18,7 @@ classifications.subjects.forEach(subject => {
 })
 
 const votings = loadFile('data/v2/votings.json')
+const speechClassificiatonsByLthing = loadFile('data/v2/speech-classifications-by-lthing.json')
 
 const caseClassificationLookup = {}
 Object.keys(votings).forEach(lthing => {
@@ -29,13 +30,19 @@ Object.keys(votings).forEach(lthing => {
 })
 
 export default async function process() {
-  const mpPositionsByLthing = generateMpPositionsByLthing(
+  const mpVotePositionsByLthing = generateMpVotePositionsByLthing(
     votings,
     caseClassificationLookup,
     sectionLookup
   )
 
-  const sortedMpPositionsByLthing = generateSortedMpPositionsByLthing(mpPositionsByLthing)
+  writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
 
-  writeToFile(sortedMpPositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
+  const mpSpeechPositionsByLthing = generateMpSpeechPositionsByLthing(
+    speechClassificiatonsByLthing,
+    caseClassificationLookup,
+    sectionLookup,
+  )
+
+  writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
 }

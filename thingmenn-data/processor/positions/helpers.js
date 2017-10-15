@@ -7,48 +7,7 @@ function getVoteKeyType(vote) {
   return 'away'
 }
 
-export function generateMpPositionsByLthing(votings, caseClassificationLookup, sectionLookup) {
-  const mpPositionsByLthing = {}
-
-  Object.keys(votings).forEach(lthing => {
-    const votesForLthing = votings[lthing].votes
-
-    votesForLthing.forEach(voteInfo => {
-      const { vote, mpId, caseId } = voteInfo
-
-      if (mpPositionsByLthing[lthing] === undefined) {
-        mpPositionsByLthing[lthing] = {}
-      }
-
-      if (mpPositionsByLthing[lthing][mpId] === undefined) {
-        mpPositionsByLthing[lthing][mpId] = {}
-      }
-
-      const voteKeyType = getVoteKeyType(vote)
-      const caseClassifications = caseClassificationLookup[lthing][caseId]
-
-      caseClassifications.sectionIds.forEach(sectionId => {
-        const sectionName = sectionLookup[sectionId].name
-        if (mpPositionsByLthing[lthing][mpId][sectionId] === undefined) {
-          mpPositionsByLthing[lthing][mpId][sectionId] = {
-            name: sectionName,
-            voteSplit: {},
-          }
-        }
-
-        if (mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] === undefined) {
-          mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] = 0
-        }
-
-        mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] += 1
-      })
-    })
-  })
-
-  return mpPositionsByLthing
-}
-
-export function generateSortedMpPositionsByLthing(mpPositionsByLthing) {
+function generateSortedMpVotePositionsByLthing(mpPositionsByLthing) {
   const sortedMpPositionsByLthing = {}
 
   Object.keys(mpPositionsByLthing).forEach(lthing => {
@@ -96,4 +55,102 @@ export function generateSortedMpPositionsByLthing(mpPositionsByLthing) {
   })
 
   return sortedMpPositionsByLthing
+}
+
+export function generateMpVotePositionsByLthing(votings, caseClassificationLookup, sectionLookup) {
+  const mpPositionsByLthing = {}
+
+  Object.keys(votings).forEach(lthing => {
+    const votesForLthing = votings[lthing].votes
+
+    votesForLthing.forEach(voteInfo => {
+      const { vote, mpId, caseId } = voteInfo
+
+      if (mpPositionsByLthing[lthing] === undefined) {
+        mpPositionsByLthing[lthing] = {}
+      }
+
+      if (mpPositionsByLthing[lthing][mpId] === undefined) {
+        mpPositionsByLthing[lthing][mpId] = {}
+      }
+
+      const voteKeyType = getVoteKeyType(vote)
+      const caseClassifications = caseClassificationLookup[lthing][caseId]
+
+      caseClassifications.sectionIds.forEach(sectionId => {
+        const sectionName = sectionLookup[sectionId].name
+        if (mpPositionsByLthing[lthing][mpId][sectionId] === undefined) {
+          mpPositionsByLthing[lthing][mpId][sectionId] = {
+            name: sectionName,
+            voteSplit: {},
+          }
+        }
+
+        if (mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] === undefined) {
+          mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] = 0
+        }
+
+        mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteKeyType] += 1
+      })
+    })
+  })
+
+  return generateSortedMpVotePositionsByLthing(mpPositionsByLthing)
+}
+
+function generateSortedMpSpeechPositionsByLthing(mpSpeechPositionsByLthing) {
+  const sortedMpPositionsByLthing = {}
+
+  Object.keys(mpSpeechPositionsByLthing).forEach(lthing => {
+    sortedMpPositionsByLthing[lthing] = {}
+
+    Object.keys(mpSpeechPositionsByLthing[lthing]).forEach(mpId => {
+      const sectionIds = Object.keys(mpSpeechPositionsByLthing[lthing][mpId])
+      sortedMpPositionsByLthing[lthing][mpId] = sectionIds.map(sectionId =>
+        mpSpeechPositionsByLthing[lthing][mpId][sectionId]
+      ).sort((a, b) => b.speechCount - a.speechCount)
+    })
+  })
+
+  return sortedMpPositionsByLthing
+}
+
+export function generateMpSpeechPositionsByLthing(
+  speechClassificationsByLthing,
+  caseClassificationLookup,
+  sectionLookup
+) {
+  const mpPositionsByLthing = {}
+
+  Object.keys(speechClassificationsByLthing).forEach(lthing => {
+    mpPositionsByLthing[lthing] = {}
+
+    for (const speech of speechClassificationsByLthing[lthing]) {
+      const { mp } = speech
+      if (mpPositionsByLthing[lthing][mp.id] === undefined) {
+        mpPositionsByLthing[lthing][mp.id] = {}
+      }
+
+      const currentCase = speech.case
+      const caseClassifications = caseClassificationLookup[lthing][currentCase.id]
+
+      if (caseClassifications === undefined) {
+        continue
+      }
+
+      caseClassifications.sectionIds.forEach(sectionId => {
+        const sectionName = sectionLookup[sectionId].name
+        if (mpPositionsByLthing[lthing][mp.id][sectionId] === undefined) {
+          mpPositionsByLthing[lthing][mp.id][sectionId] = {
+            name: sectionName,
+            speechCount: 0,
+          }
+        }
+
+        mpPositionsByLthing[lthing][mp.id][sectionId].speechCount += 1
+      })
+    }
+  })
+
+  return generateSortedMpSpeechPositionsByLthing(mpPositionsByLthing)
 }
