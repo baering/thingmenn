@@ -37,5 +37,5 @@ export default async function process() {
 
   const sortedMpPositionsByLthing = generateSortedMpPositionsByLthing(mpPositionsByLthing)
 
-  writeToFile(sortedMpPositionsByLthing, 'data/export-v2/by-lthing/mp-positions.json', true)
+  writeToFile(sortedMpPositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
 }

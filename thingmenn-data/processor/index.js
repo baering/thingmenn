@@ -1,5 +1,5 @@
 import createMpSummary from './mp-summary'
-import createMpPositionLookup from './position'
+import createMpPositionLookup from './positions'
 // TODO: add analyzer to the repo
 // import createMpNounLookup from './speeches'
 import createMpSpeechStatisticSummary from './speech-statistics'
