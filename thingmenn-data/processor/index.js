@@ -5,12 +5,25 @@ import createMpPositionLookup from './positions'
 import createMpSpeechStatisticSummary from './speech-statistics'
 import createPartySummaries from './parties'
 import createTopCharts from './top-charts'
+import createCaseSummaries from './documents'
 
 import { getProcessArguments } from '../utility/process'
 
-const defaultItems = ['mps', 'speeches', 'speechStatistics', 'positions', 'top']
+const defaultItems = [
+  'documents',
+  'mps',
+  'positions',
+  'speeches',
+  'speechStatistics',
+  'top',
+]
 
 function process(config) {
+  if (config.documents) {
+    console.log('Processing documents')
+    createCaseSummaries()
+  }
+
   if (config.mps) {
     console.log('Processing mps')
     createMpSummary()

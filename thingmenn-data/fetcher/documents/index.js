@@ -9,6 +9,12 @@ import {
 // http://www.althingi.is/thingstorf/ymsar-leidbeiningar/um-skjol-og-raedur/
 
 function parsePresentersNormally(presenters) {
+  if (presenters[0].flutningsmaður.length > 1) {
+    return presenters[0].flutningsmaður.map(presenter => ({
+      id: parseInt(presenter.$.id, 10),
+    }))
+  }
+
   return presenters.map(presenter => ({
     id: parseInt(presenter.flutningsmaður[0].$.id, 10),
   }))
@@ -16,9 +22,16 @@ function parsePresentersNormally(presenters) {
 
 function parsePresentersAsAComittee(presenters) {
   const comittee = presenters[0].nefnd[0]
-  return comittee.flutningsmaður.map(presenter => ({
-    id: presenter.id,
-  }))
+  return comittee.flutningsmaður.map(presenter => {
+    let id = presenter.id
+    if (id === undefined) {
+      id = presenter.$.id
+    }
+
+    return {
+      id: parseInt(id, 10),
+    }
+  })
 }
 
 function parsePresenters(xml) {
@@ -39,12 +52,15 @@ function parseDocument(xml, lthing, documentId) {
     presenters = null
   }
 
+  const caseId = xml.þingskjal.málalisti[0].mál[0].$.málsnúmer
+
   return {
     id: documentId,
     lthing,
     issuedAt: documentInfo.útbýting[0],
     type: documentInfo.skjalategund[0],
     presenters,
+    caseId: parseInt(caseId, 10),
   }
 }
 
@@ -78,6 +94,9 @@ async function fetch(lthings) {
   if (!lthings) {
     throw new Error('missing lthings for document fetcher')
   }
+
+  // const doc = await fetchDocument(145, 160)
+  // console.log(doc)
 
   const documentsByLthing = {}
 
