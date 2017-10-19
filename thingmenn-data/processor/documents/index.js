@@ -60,21 +60,24 @@ export default function process() {
         const presenterType = index === 0 ? 'presenter' : 'coPresenter'
 
         if (isBill) {
-          mpCasesByLthing[lthing][presenter.id].summary[presenterType].numberOfBills += 1
-          mpCasesTotal[presenter.id].summary[presenterType].numberOfBills += 1
+          mpCasesByLthing[lthing][presenter.id].summary.bills[presenterType].count += 1
+          mpCasesByLthing[lthing][presenter.id].summary.bills.total += 1
+          mpCasesTotal[presenter.id].summary.bills[presenterType].count += 1
+          mpCasesTotal[presenter.id].summary.bills.total += 1
         } else if (isMotion) {
-          mpCasesByLthing[lthing][presenter.id].summary[presenterType].numberOfMotions += 1
-          mpCasesTotal[presenter.id].summary[presenterType].numberOfMotions += 1
+          mpCasesByLthing[lthing][presenter.id].summary.motions[presenterType].count += 1
+          mpCasesByLthing[lthing][presenter.id].summary.motions.total += 1
+          mpCasesTotal[presenter.id].summary.motions[presenterType].count += 1
+          mpCasesTotal[presenter.id].summary.motions.total += 1
         } else if (isInquiry) {
-          mpCasesByLthing[lthing][presenter.id].summary[presenterType].numberOfInquiriesAsked += 1
-          mpCasesTotal[presenter.id].summary[presenterType].numberOfInquiriesAsked += 1
+          mpCasesByLthing[lthing][presenter.id].summary.inquiries.asked += 1
+          mpCasesTotal[presenter.id].summary.inquiries.asked += 1
         } else if (isInquiryAnswer) {
-          mpCasesByLthing[lthing][presenter.id].summary[presenterType].numberOfInquiriesAnswered += 1
-          mpCasesTotal[presenter.id].summary[presenterType].numberOfInquiriesAnswered += 1
+          mpCasesByLthing[lthing][presenter.id].summary.inquiries.answered += 1
+          mpCasesByLthing[lthing][presenter.id].summary.inquiries.total += 1
+          mpCasesTotal[presenter.id].summary.inquiries.answered += 1
+          mpCasesTotal[presenter.id].summary.inquiries.total += 1
         }
-
-        mpCasesByLthing[lthing][presenter.id].summary[presenterType].total += 1
-        mpCasesTotal[presenter.id].summary[presenterType].total += 1
       })
     }
   })

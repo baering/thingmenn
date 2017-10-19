@@ -10,18 +10,27 @@ export function isOfCaseType(documentType) {
 export function getEmptySummary() {
   return {
     summary: {
-      presenter: {
-        numberOfBills: 0,
-        numberOfMotions: 0,
-        numberOfInquiriesAsked: 0,
-        numberOfInquiriesAnswered: 0,
+      bills: {
+        presenter: {
+          count: 0,
+        },
+        coPresenter: {
+          count: 0,
+        },
         total: 0,
       },
-      coPresenter: {
-        numberOfBills: 0,
-        numberOfMotions: 0,
-        numberOfInquiriesAsked: 0,
-        numberOfInquiriesAnswered: 0,
+      motions: {
+        presenter: {
+          count: 0,
+        },
+        coPresenter: {
+          count: 0,
+        },
+        total: 0,
+      },
+      inquiries: {
+        asked: 0,
+        answered: 0,
         total: 0,
       },
     },
