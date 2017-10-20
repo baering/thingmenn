@@ -2,15 +2,6 @@ import {
   getMpToPartyLookup,
 } from '../helpers'
 
-export function isOfCaseType(documentType) {
-  if (documentType.indexOf('frumvarp') !== -1) {
-    return true
-  } else if (documentType.indexOf('þáltill') !== -1) {
-    return true
-  }
-  return false
-}
-
 export function getEmptySummary() {
   return {
     summary: {
@@ -46,7 +37,7 @@ const MOTION = 'motion'
 const INQUIRY = 'inquiry'
 const INQUIRY_ANSWER = 'inquiryAnswer'
 
-const documentTypes = {
+export const documentTypesOfInterest = {
   'frumvarp nefndar': BILL,
   'fsp. til munnl. svars': INQUIRY,
   'fsp. til skrifl. svars': INQUIRY,
@@ -56,6 +47,23 @@ const documentTypes = {
   stjórnarfrumvarp: BILL,
   stjórnartillaga: MOTION,
   svar: INQUIRY_ANSWER,
+}
+
+export function documentIsOfInterest(doc, options = {}) {
+  const documentHasPresenters = doc.presenters && doc.presenters.length
+
+  if (!documentHasPresenters) {
+    return false
+  }
+
+  const isBill = documentTypesOfInterest[doc.type] === BILL
+  const isMotion = documentTypesOfInterest[doc.type] === MOTION
+
+  if (options.ignoreInquiries) {
+    return isBill || isMotion
+  }
+
+  return documentTypesOfInterest[doc.type]
 }
 
 export function generateMpDocumentSummaries(documents) {
@@ -68,20 +76,16 @@ export function generateMpDocumentSummaries(documents) {
     mpDocumentsByLthing[lthing] = {}
 
     for (const doc of documents[lthing]) {
-      const isBill = documentTypes[doc.type] === BILL
-      const isMotion = documentTypes[doc.type] === MOTION
-      const isInquiry = documentTypes[doc.type] === INQUIRY
-      const isInquiryAnswer = documentTypes[doc.type] === INQUIRY_ANSWER
-
       allTypes[doc.type] = true
 
-      if (!(isBill || isMotion || isInquiry || isInquiryAnswer)) {
+      if (!documentIsOfInterest(doc)) {
         continue
       }
 
-      if (!doc.presenters) {
-        continue
-      }
+      const isBill = documentTypesOfInterest[doc.type] === BILL
+      const isMotion = documentTypesOfInterest[doc.type] === MOTION
+      const isInquiry = documentTypesOfInterest[doc.type] === INQUIRY
+      const isInquiryAnswer = documentTypesOfInterest[doc.type] === INQUIRY_ANSWER
 
       doc.presenters.forEach((presenter, index) => {
         if (mpDocumentsByLthing[lthing][presenter.id] === undefined) {

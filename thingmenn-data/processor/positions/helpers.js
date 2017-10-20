@@ -2,6 +2,10 @@ import {
   getMpToPartyLookup,
 } from '../helpers'
 
+import {
+  documentIsOfInterest,
+} from '../documents/helpers'
+
 function getVoteKeyType(vote) {
   if (vote === 'já' || vote === 'nei') {
     return 'standsTaken'
@@ -225,24 +229,24 @@ export function generatePartyVotePositions(
   }
 }
 
-function generateSortedSpeechPositions(positions) {
+function generateSortedPositions(positions) {
   const sortedPositions = {}
 
   Object.keys(positions).forEach(id => {
     const sectionIds = Object.keys(positions[id])
     sortedPositions[id] = sectionIds.map(sectionId =>
       positions[id][sectionId]
-    ).sort((a, b) => b.speechCount - a.speechCount)
+    ).sort((a, b) => b.count - a.count)
   })
 
   return sortedPositions
 }
 
-function generateSortedSpeechPositionsByLthing(speechPositionsByLthing) {
+function generateSortedPositionsByLthing(speechPositionsByLthing) {
   const sortedPositionsByLthing = {}
 
   Object.keys(speechPositionsByLthing).forEach(lthing => {
-    sortedPositionsByLthing[lthing] = generateSortedSpeechPositions(
+    sortedPositionsByLthing[lthing] = generateSortedPositions(
       speechPositionsByLthing[lthing]
     )
   })
@@ -283,30 +287,30 @@ export function generateMpSpeechPositions(
         if (mpPositionsByLthing[lthing][mp.id][sectionId] === undefined) {
           mpPositionsByLthing[lthing][mp.id][sectionId] = {
             name: sectionName,
-            speechCount: 0,
+            count: 0,
           }
         }
 
         if (mpPositionsTotal[mp.id][sectionId] === undefined) {
           mpPositionsTotal[mp.id][sectionId] = {
             name: sectionName,
-            speechCount: 0,
+            count: 0,
           }
         }
 
-        mpPositionsByLthing[lthing][mp.id][sectionId].speechCount += 1
-        mpPositionsTotal[mp.id][sectionId].speechCount += 1
+        mpPositionsByLthing[lthing][mp.id][sectionId].count += 1
+        mpPositionsTotal[mp.id][sectionId].count += 1
       })
     }
   })
 
   return {
-    mpSpeechPositionsByLthing: generateSortedSpeechPositionsByLthing(mpPositionsByLthing),
-    mpSpeechPositionsTotal: generateSortedSpeechPositions(mpPositionsTotal),
+    mpSpeechPositionsByLthing: generateSortedPositionsByLthing(mpPositionsByLthing),
+    mpSpeechPositionsTotal: generateSortedPositions(mpPositionsTotal),
   }
 }
 
-export function generatePartySpeechPositions(mpSpeechPositionsByLthing) {
+export function generatePartyPositions(mpSpeechPositionsByLthing) {
   const partyPositionsByLthing = {}
   const partyPositionsTotal = {}
 
@@ -326,7 +330,7 @@ export function generatePartySpeechPositions(mpSpeechPositionsByLthing) {
         partyPositionsTotal[mpPartyId] = {}
       }
 
-      mpSpeechPositionsByLthing[lthing][mpId].forEach(({ name, speechCount }) => {
+      mpSpeechPositionsByLthing[lthing][mpId].forEach(({ name, count }) => {
         if (partyPositionsByLthing[lthing][mpPartyId][name] === undefined) {
           partyPositionsByLthing[lthing][mpPartyId][name] = {}
         }
@@ -334,18 +338,130 @@ export function generatePartySpeechPositions(mpSpeechPositionsByLthing) {
         if (partyPositionsTotal[mpPartyId][name] === undefined) {
           partyPositionsTotal[mpPartyId][name] = {
             name,
-            speechCount: 0,
+            count: 0,
           }
         }
 
-        partyPositionsByLthing[lthing][mpPartyId][name].speechCount += speechCount
-        partyPositionsTotal[mpPartyId][name].speechCount += speechCount
+        partyPositionsByLthing[lthing][mpPartyId][name].count += count
+        partyPositionsTotal[mpPartyId][name].count += count
       })
     })
   })
 
   return {
-    partySpeechPositionsByLthing: generateSortedSpeechPositionsByLthing(partyPositionsByLthing),
-    partySpeechPositionsTotal: generateSortedSpeechPositions(partyPositionsTotal),
+    byLthing: generateSortedPositionsByLthing(partyPositionsByLthing),
+    total: generateSortedPositions(partyPositionsTotal),
+  }
+}
+
+function findOriginalDocument(doc, lthing, documentLookup, numberOfCalls = 0) {
+  if (numberOfCalls > 50) {
+    console.log('findOriginalDocument tried to exceed allowed call stack size')
+    return null
+  }
+
+  if (doc.id === doc.caseId) {
+    return doc
+  }
+  return findOriginalDocument(
+    documentLookup[lthing][doc.caseId],
+    lthing,
+    documentLookup,
+    numberOfCalls + 1
+  )
+}
+
+export function generateMpDocumentPositions(
+  documents,
+  caseClassificationLookup,
+  sectionLookup
+) {
+  const mpPositionsByLthing = {}
+  const mpPositionsTotal = {}
+
+  const documentIgnoreOptions = {
+    ignoreInquiries: true,
+  }
+
+  let failCount = 0
+  let totalCount = 0
+
+  const documentLookup = {}
+  Object.keys(documents).forEach(lthing => {
+    documentLookup[lthing] = {}
+    documents[lthing].forEach(doc => {
+      documentLookup[lthing][doc.id] = doc
+    })
+  })
+
+  Object.keys(documents).forEach(lthing => {
+    mpPositionsByLthing[lthing] = {}
+
+    for (const doc of documents[lthing]) {
+      let documentToUse = doc
+      if (!documentIsOfInterest(documentToUse, documentIgnoreOptions)) {
+        continue
+      }
+
+      totalCount += 1
+
+      let caseClassifications = caseClassificationLookup[lthing][documentToUse.caseId]
+      if (caseClassifications === undefined) {
+        const correctDoc = findOriginalDocument(doc, lthing, documentLookup)
+
+        if (correctDoc === null) {
+          continue
+        }
+
+        if (!documentIsOfInterest(correctDoc, documentIgnoreOptions)) {
+          continue
+        }
+
+        documentToUse = correctDoc
+        caseClassifications = caseClassificationLookup[lthing][correctDoc.id]
+
+        if (caseClassifications === undefined) {
+          failCount += 1
+          continue
+        }
+      }
+
+      documentToUse.presenters.forEach(presenter => {
+        if (mpPositionsByLthing[lthing][presenter.id] === undefined) {
+          mpPositionsByLthing[lthing][presenter.id] = {}
+        }
+
+        if (mpPositionsTotal[presenter.id] === undefined) {
+          mpPositionsTotal[presenter.id] = {}
+        }
+
+        caseClassifications.sectionIds.forEach(sectionId => {
+          const sectionName = sectionLookup[sectionId].name
+          if (mpPositionsByLthing[lthing][presenter.id][sectionId] === undefined) {
+            mpPositionsByLthing[lthing][presenter.id][sectionId] = {
+              name: sectionName,
+              count: 0,
+            }
+          }
+
+          if (mpPositionsTotal[presenter.id][sectionId] === undefined) {
+            mpPositionsTotal[presenter.id][sectionId] = {
+              name: sectionName,
+              count: 0,
+            }
+          }
+
+          mpPositionsByLthing[lthing][presenter.id][sectionId].count += 1
+          mpPositionsTotal[presenter.id][sectionId].count += 1
+        })
+      })
+    }
+  })
+
+  console.log('Failed classifications: ', failCount, 'out of', totalCount)
+
+  return {
+    mpDocumentPositionsByLthing: generateSortedPositionsByLthing(mpPositionsByLthing),
+    mpDocumentPositionsTotal: generateSortedPositions(mpPositionsTotal),
   }
 }
