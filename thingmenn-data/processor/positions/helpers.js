@@ -12,7 +12,6 @@ function getVoteKeyType(vote) {
 }
 
 function generateSortedVotePositions(positions) {
-  console.log('generating sorted positions')
   const sortedVotePositions = {}
   Object.keys(positions).forEach(id => {
     const caseIds = Object.keys(positions[id])
@@ -58,7 +57,6 @@ function generateSortedVotePositions(positions) {
 }
 
 function generateSortedVotePositionsByLthing(positionsByLthing) {
-  console.log('generating sorted positions by lthing')
   const sortedPositionsByLthing = {}
 
   Object.keys(positionsByLthing).forEach(lthing => {
@@ -70,10 +68,10 @@ function generateSortedVotePositionsByLthing(positionsByLthing) {
   return sortedPositionsByLthing
 }
 
-export function generateMpVotePositions(
+function generateRawMpVotePositionsByLthing(
   votings,
   caseClassificationLookup,
-  sectionLookup
+  sectionLookup,
 ) {
   const mpPositionsByLthing = {}
 
@@ -112,7 +110,20 @@ export function generateMpVotePositions(
     })
   })
 
-  // const mpToPartyLookup = getMpToPartyLookup()
+  return mpPositionsByLthing
+}
+
+export function generateMpVotePositions(
+  votings,
+  caseClassificationLookup,
+  sectionLookup
+) {
+  const mpPositionsByLthing = generateRawMpVotePositionsByLthing(
+    votings,
+    caseClassificationLookup,
+    sectionLookup,
+  )
+
   const mpPositionsTotal = {}
 
   Object.keys(mpPositionsByLthing).forEach(lthing => {
@@ -146,17 +157,72 @@ export function generateMpVotePositions(
   }
 }
 
-export function generatePartyVotePositions(mpPositionsByLthing) {
-  const partyVotePositionsByLthing = {}
-  const partyVotePositionsTotal = {}
+export function generatePartyVotePositions(
+  votings,
+  caseClassificationLookup,
+  sectionLookup,
+) {
+  const partyPositionsByLthing = {}
+  const partyPositionsTotal = {}
+
+  const mpToPartyId = getMpToPartyLookup()
+
+  const mpPositionsByLthing = generateRawMpVotePositionsByLthing(
+    votings,
+    caseClassificationLookup,
+    sectionLookup,
+  )
 
   Object.keys(mpPositionsByLthing).forEach(lthing => {
-    partyVotePositionsByLthing[lthing] = {}
+    partyPositionsByLthing[lthing] = {}
+    Object.keys(mpPositionsByLthing[lthing]).forEach(mpId => {
+      const mpPartyId = mpToPartyId[lthing][mpId]
 
-    mpPositionsByLthing[lthing].forEach(votePositions => {
+      if (partyPositionsByLthing[lthing][mpPartyId] === undefined) {
+        partyPositionsByLthing[lthing][mpPartyId] = {}
+      }
 
+      if (partyPositionsTotal[mpPartyId] === undefined) {
+        partyPositionsTotal[mpPartyId] = {}
+      }
+
+      Object.keys(mpPositionsByLthing[lthing][mpId]).forEach(sectionId => {
+        if (partyPositionsByLthing[lthing][mpPartyId][sectionId] === undefined) {
+          partyPositionsByLthing[lthing][mpPartyId][sectionId] = {
+            name: sectionLookup[sectionId].name,
+            voteSplit: {},
+          }
+        }
+
+        if (partyPositionsTotal[mpPartyId][sectionId] === undefined) {
+          partyPositionsTotal[mpPartyId][sectionId] = {
+            name: sectionLookup[sectionId].name,
+            voteSplit: {},
+          }
+        }
+
+        Object.keys(mpPositionsByLthing[lthing][mpId][sectionId].voteSplit).forEach(voteType => {
+          if (partyPositionsByLthing[lthing][mpPartyId][sectionId].voteSplit[voteType] === undefined) {
+            partyPositionsByLthing[lthing][mpPartyId][sectionId].voteSplit[voteType] = 0
+          }
+
+          if (partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] === undefined) {
+            partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] = 0
+          }
+
+          const value = mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteType]
+
+          partyPositionsByLthing[lthing][mpPartyId][sectionId].voteSplit[voteType] += value
+          partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] += value
+        })
+      })
     })
   })
+
+  return {
+    partyVotePositionsByLthing: generateSortedVotePositionsByLthing(partyPositionsByLthing),
+    partyVotePositionsTotal: generateSortedVotePositions(partyPositionsTotal),
+  }
 }
 
 function generateSortedMpSpeechPositionsByLthing(mpSpeechPositionsByLthing) {

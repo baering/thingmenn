@@ -31,31 +31,35 @@ Object.keys(votings).forEach(lthing => {
 })
 
 export default async function process() {
+  // const {
+  //   mpVotePositionsByLthing,
+  //   mpVotePositionsTotal,
+  // } = generateMpVotePositions(
+  //   votings,
+  //   caseClassificationLookup,
+  //   sectionLookup
+  // )
+  //
+  // writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
+  // writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
+
   const {
-    mpVotePositionsByLthing,
-    mpVotePositionsTotal,
-  } = generateMpVotePositions(
+    partyVotePositionsByLthing,
+    partyVotePositionsTotal,
+  } = generatePartyVotePositions(
     votings,
     caseClassificationLookup,
     sectionLookup
   )
 
-  writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
-  writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
-
-  // const {
-  //   partyVotePositionsByLthing,
-  //   partyVotePositionsTotal,
-  // } = generatePartyVotePositions(mpVotePositionsByLthing)
+  writeToFile(partyVotePositionsByLthing, 'data/export-v2/by-lthing/party-vote-positions.json', true)
+  writeToFile(partyVotePositionsTotal, 'data/export-v2/total/party-vote-positions.json', true)
   //
-  // writeToFile(partyVotePositionsByLthing, 'data/export-v2/by-lthing/party-vote-positions.json', true)
-  // writeToFile(partyVotePositionsTotal, 'data/export-v2/total/party-vote-positions.json', true)
-
-  const mpSpeechPositionsByLthing = generateMpSpeechPositionsByLthing(
-    speechClassificiatonsByLthing,
-    caseClassificationLookup,
-    sectionLookup,
-  )
-
-  writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
+  // const mpSpeechPositionsByLthing = generateMpSpeechPositionsByLthing(
+  //   speechClassificiatonsByLthing,
+  //   caseClassificationLookup,
+  //   sectionLookup,
+  // )
+  //
+  // writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
 }
