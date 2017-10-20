@@ -225,21 +225,29 @@ export function generatePartyVotePositions(
   }
 }
 
-function generateSortedMpSpeechPositionsByLthing(mpSpeechPositionsByLthing) {
-  const sortedMpPositionsByLthing = {}
+function generateSortedSpeechPositions(positions) {
+  const sortedPositions = {}
 
-  Object.keys(mpSpeechPositionsByLthing).forEach(lthing => {
-    sortedMpPositionsByLthing[lthing] = {}
-
-    Object.keys(mpSpeechPositionsByLthing[lthing]).forEach(mpId => {
-      const sectionIds = Object.keys(mpSpeechPositionsByLthing[lthing][mpId])
-      sortedMpPositionsByLthing[lthing][mpId] = sectionIds.map(sectionId =>
-        mpSpeechPositionsByLthing[lthing][mpId][sectionId]
-      ).sort((a, b) => b.speechCount - a.speechCount)
-    })
+  Object.keys(positions).forEach(id => {
+    const sectionIds = Object.keys(positions[id])
+    sortedPositions[id] = sectionIds.map(sectionId =>
+      positions[id][sectionId]
+    ).sort((a, b) => b.speechCount - a.speechCount)
   })
 
-  return sortedMpPositionsByLthing
+  return sortedPositions
+}
+
+function generateSortedSpeechPositionsByLthing(speechPositionsByLthing) {
+  const sortedPositionsByLthing = {}
+
+  Object.keys(speechPositionsByLthing).forEach(lthing => {
+    sortedPositionsByLthing[lthing] = generateSortedSpeechPositions(
+      speechPositionsByLthing[lthing]
+    )
+  })
+
+  return sortedPositionsByLthing
 }
 
 export function generateMpSpeechPositionsByLthing(
@@ -248,6 +256,7 @@ export function generateMpSpeechPositionsByLthing(
   sectionLookup
 ) {
   const mpPositionsByLthing = {}
+  const mpPositionsTotal = {}
 
   Object.keys(speechClassificationsByLthing).forEach(lthing => {
     mpPositionsByLthing[lthing] = {}
@@ -256,6 +265,10 @@ export function generateMpSpeechPositionsByLthing(
       const { mp } = speech
       if (mpPositionsByLthing[lthing][mp.id] === undefined) {
         mpPositionsByLthing[lthing][mp.id] = {}
+      }
+
+      if (mpPositionsTotal[mp.id] === undefined) {
+        mpPositionsTotal[mp.id] = {}
       }
 
       const currentCase = speech.case
@@ -274,10 +287,21 @@ export function generateMpSpeechPositionsByLthing(
           }
         }
 
+        if (mpPositionsTotal[mp.id][sectionId] === undefined) {
+          mpPositionsTotal[mp.id][sectionId] = {
+            name: sectionName,
+            speechCount: 0,
+          }
+        }
+
         mpPositionsByLthing[lthing][mp.id][sectionId].speechCount += 1
+        mpPositionsTotal[mp.id][sectionId].speechCount += 1
       })
     }
   })
 
-  return generateSortedMpSpeechPositionsByLthing(mpPositionsByLthing)
+  return {
+    mpSpeechPositionsByLthing: generateSortedSpeechPositionsByLthing(mpPositionsByLthing),
+    mpSpeechPositionsTotal: generateSortedSpeechPositions(mpPositionsTotal),
+  }
 }

@@ -4,6 +4,7 @@ import {
   generateMpVotePositions,
   generatePartyVotePositions,
   generateMpSpeechPositionsByLthing,
+  generatePartySpeechPositionsByLthing,
 } from './helpers'
 
 const classifications = loadFile('data/v2/classifications.json')
@@ -31,17 +32,17 @@ Object.keys(votings).forEach(lthing => {
 })
 
 export default async function process() {
-  // const {
-  //   mpVotePositionsByLthing,
-  //   mpVotePositionsTotal,
-  // } = generateMpVotePositions(
-  //   votings,
-  //   caseClassificationLookup,
-  //   sectionLookup
-  // )
-  //
-  // writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
-  // writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
+  const {
+    mpVotePositionsByLthing,
+    mpVotePositionsTotal,
+  } = generateMpVotePositions(
+    votings,
+    caseClassificationLookup,
+    sectionLookup
+  )
+
+  writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
+  writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
 
   const {
     partyVotePositionsByLthing,
@@ -54,12 +55,16 @@ export default async function process() {
 
   writeToFile(partyVotePositionsByLthing, 'data/export-v2/by-lthing/party-vote-positions.json', true)
   writeToFile(partyVotePositionsTotal, 'data/export-v2/total/party-vote-positions.json', true)
-  //
-  // const mpSpeechPositionsByLthing = generateMpSpeechPositionsByLthing(
-  //   speechClassificiatonsByLthing,
-  //   caseClassificationLookup,
-  //   sectionLookup,
-  // )
-  //
-  // writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
+
+  const {
+    mpSpeechPositionsByLthing,
+    mpSpeechPositionsTotal,
+  } = generateMpSpeechPositionsByLthing(
+    speechClassificiatonsByLthing,
+    caseClassificationLookup,
+    sectionLookup,
+  )
+
+  writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
+  writeToFile(mpSpeechPositionsTotal, 'data/export-v2/total/mp-speech-positions.json', true)
 }
