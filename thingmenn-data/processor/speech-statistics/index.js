@@ -3,20 +3,33 @@ import { loadFile, writeToFile } from '../../utility/file'
 const mpSpeechAnalytics = loadFile('data/v2/mp-speech-statistics.json')
 
 export default function process() {
-  const mpSpeechAnalyticsSummary = {}
+  const mpSpeechSummaryByLthing = {}
+  const mpSpeechSummaryTotal = {}
 
   const lthings = Object.keys(mpSpeechAnalytics)
   lthings.forEach(lthing => {
-    const mpIds = Object.keys(mpSpeechAnalytics[lthing])
-    mpIds.forEach(mpId => {
-      if (!mpSpeechAnalyticsSummary[mpId]) {
-        mpSpeechAnalyticsSummary[mpId] = {}
+    mpSpeechSummaryByLthing[lthing] = {}
+
+    Object.keys(mpSpeechAnalytics[lthing]).forEach(mpId => {
+      if (mpSpeechSummaryByLthing[lthing][mpId] === undefined) {
+        mpSpeechSummaryByLthing[lthing][mpId] = {}
+      }
+
+      if (mpSpeechSummaryTotal[mpId] === undefined) {
+        mpSpeechSummaryTotal[mpId] = {}
       }
 
       const labels = Object.keys(mpSpeechAnalytics[lthing][mpId])
       labels.forEach(label => {
-        if (!mpSpeechAnalyticsSummary[mpId][label]) {
-          mpSpeechAnalyticsSummary[mpId][label] = {
+        if (mpSpeechSummaryByLthing[lthing][mpId][label] === undefined) {
+          mpSpeechSummaryByLthing[lthing][mpId][label] = {
+            count: 0,
+            minutes: 0,
+          }
+        }
+
+        if (!mpSpeechSummaryTotal[mpId][label]) {
+          mpSpeechSummaryTotal[mpId][label] = {
             count: 0,
             minutes: 0,
           }
@@ -24,13 +37,18 @@ export default function process() {
 
         const countForLabel = mpSpeechAnalytics[lthing][mpId][label].count
         const minutesForLabel = mpSpeechAnalytics[lthing][mpId][label].minutes
+
         if (countForLabel) {
-          mpSpeechAnalyticsSummary[mpId][label].count += countForLabel
-          mpSpeechAnalyticsSummary[mpId][label].minutes += minutesForLabel
+          mpSpeechSummaryByLthing[lthing][mpId][label].count += countForLabel
+          mpSpeechSummaryByLthing[lthing][mpId][label].minutes += minutesForLabel
+
+          mpSpeechSummaryTotal[mpId][label].count += countForLabel
+          mpSpeechSummaryTotal[mpId][label].minutes += minutesForLabel
         }
       })
     })
   })
 
-  writeToFile(mpSpeechAnalyticsSummary, 'data/export-v2/mp-speech-statistics.json', true)
+  writeToFile(mpSpeechSummaryByLthing, 'data/export-v2/by-lthing/mp-speech-summaries.json', true)
+  writeToFile(mpSpeechSummaryTotal, 'data/export-v2/total/mp-speech-summaries.json', true)
 }
