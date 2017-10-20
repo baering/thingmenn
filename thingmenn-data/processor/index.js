@@ -1,9 +1,6 @@
 import createMpSummary from './mp-summary'
 import createMpPositionLookup from './positions'
-// TODO: add analyzer to the repo
-// import createMpNounLookup from './speeches'
 import createMpSpeechStatisticSummary from './speech-statistics'
-import createPartySummaries from './parties'
 import createTopCharts from './top-charts'
 import createCaseSummaries from './documents'
 
@@ -29,11 +26,6 @@ function process(config) {
     createMpSummary()
   }
 
-  if (config.speeches) {
-    console.log('Processing mp nouns')
-    // createMpNounLookup()
-  }
-
   if (config.speechStatistics) {
     console.log('Processing speech statistics')
     createMpSpeechStatisticSummary()
@@ -42,11 +34,6 @@ function process(config) {
   if (config.positions) {
     console.log('Processing mp positions')
     createMpPositionLookup()
-  }
-
-  if (config.parties) {
-    console.log('Processing parties')
-    createPartySummaries()
   }
 
   if (config.top) {
