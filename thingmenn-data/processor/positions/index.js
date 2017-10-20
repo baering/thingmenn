@@ -3,8 +3,8 @@ import { loadFile, writeToFile } from '../../utility/file'
 import {
   generateMpVotePositions,
   generatePartyVotePositions,
-  generateMpSpeechPositionsByLthing,
-  generatePartySpeechPositionsByLthing,
+  generateMpSpeechPositions,
+  generatePartySpeechPositions,
 } from './helpers'
 
 const classifications = loadFile('data/v2/classifications.json')
@@ -32,34 +32,34 @@ Object.keys(votings).forEach(lthing => {
 })
 
 export default async function process() {
-  const {
-    mpVotePositionsByLthing,
-    mpVotePositionsTotal,
-  } = generateMpVotePositions(
-    votings,
-    caseClassificationLookup,
-    sectionLookup
-  )
-
-  writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
-  writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
-
-  const {
-    partyVotePositionsByLthing,
-    partyVotePositionsTotal,
-  } = generatePartyVotePositions(
-    votings,
-    caseClassificationLookup,
-    sectionLookup
-  )
-
-  writeToFile(partyVotePositionsByLthing, 'data/export-v2/by-lthing/party-vote-positions.json', true)
-  writeToFile(partyVotePositionsTotal, 'data/export-v2/total/party-vote-positions.json', true)
+  // const {
+  //   mpVotePositionsByLthing,
+  //   mpVotePositionsTotal,
+  // } = generateMpVotePositions(
+  //   votings,
+  //   caseClassificationLookup,
+  //   sectionLookup
+  // )
+  //
+  // writeToFile(mpVotePositionsByLthing, 'data/export-v2/by-lthing/mp-vote-positions.json', true)
+  // writeToFile(mpVotePositionsTotal, 'data/export-v2/total/mp-vote-positions.json', true)
+  //
+  // const {
+  //   partyVotePositionsByLthing,
+  //   partyVotePositionsTotal,
+  // } = generatePartyVotePositions(
+  //   votings,
+  //   caseClassificationLookup,
+  //   sectionLookup
+  // )
+  //
+  // writeToFile(partyVotePositionsByLthing, 'data/export-v2/by-lthing/party-vote-positions.json', true)
+  // writeToFile(partyVotePositionsTotal, 'data/export-v2/total/party-vote-positions.json', true)
 
   const {
     mpSpeechPositionsByLthing,
     mpSpeechPositionsTotal,
-  } = generateMpSpeechPositionsByLthing(
+  } = generateMpSpeechPositions(
     speechClassificiatonsByLthing,
     caseClassificationLookup,
     sectionLookup,
@@ -67,4 +67,14 @@ export default async function process() {
 
   writeToFile(mpSpeechPositionsByLthing, 'data/export-v2/by-lthing/mp-speech-positions.json', true)
   writeToFile(mpSpeechPositionsTotal, 'data/export-v2/total/mp-speech-positions.json', true)
+
+  const {
+    partySpeechPositionsByLthing,
+    partySpeechPositionsTotal,
+  } = generatePartySpeechPositions(
+    mpSpeechPositionsByLthing
+  )
+
+  writeToFile(partySpeechPositionsByLthing, 'data/export-v2/by-lthing/party-speech-positions.json', true)
+  writeToFile(partySpeechPositionsTotal, 'data/export-v2/total/party-speech-positions.json', true)
 }

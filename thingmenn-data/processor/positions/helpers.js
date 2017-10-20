@@ -250,7 +250,7 @@ function generateSortedSpeechPositionsByLthing(speechPositionsByLthing) {
   return sortedPositionsByLthing
 }
 
-export function generateMpSpeechPositionsByLthing(
+export function generateMpSpeechPositions(
   speechClassificationsByLthing,
   caseClassificationLookup,
   sectionLookup
@@ -303,5 +303,49 @@ export function generateMpSpeechPositionsByLthing(
   return {
     mpSpeechPositionsByLthing: generateSortedSpeechPositionsByLthing(mpPositionsByLthing),
     mpSpeechPositionsTotal: generateSortedSpeechPositions(mpPositionsTotal),
+  }
+}
+
+export function generatePartySpeechPositions(mpSpeechPositionsByLthing) {
+  const partyPositionsByLthing = {}
+  const partyPositionsTotal = {}
+
+  const mpToPartyId = getMpToPartyLookup()
+
+  Object.keys(mpSpeechPositionsByLthing).forEach(lthing => {
+    partyPositionsByLthing[lthing] = {}
+
+    Object.keys(mpSpeechPositionsByLthing[lthing]).forEach(mpId => {
+      const mpPartyId = mpToPartyId[lthing][mpId]
+
+      if (partyPositionsByLthing[lthing][mpPartyId] === undefined) {
+        partyPositionsByLthing[lthing][mpPartyId] = {}
+      }
+
+      if (partyPositionsTotal[mpPartyId] === undefined) {
+        partyPositionsTotal[mpPartyId] = {}
+      }
+
+      mpSpeechPositionsByLthing[lthing][mpId].forEach(({ name, speechCount }) => {
+        if (partyPositionsByLthing[lthing][mpPartyId][name] === undefined) {
+          partyPositionsByLthing[lthing][mpPartyId][name] = {}
+        }
+
+        if (partyPositionsTotal[mpPartyId][name] === undefined) {
+          partyPositionsTotal[mpPartyId][name] = {
+            name,
+            speechCount: 0,
+          }
+        }
+
+        partyPositionsByLthing[lthing][mpPartyId][name].speechCount += speechCount
+        partyPositionsTotal[mpPartyId][name].speechCount += speechCount
+      })
+    })
+  })
+
+  return {
+    partySpeechPositionsByLthing: generateSortedSpeechPositionsByLthing(partyPositionsByLthing),
+    partySpeechPositionsTotal: generateSortedSpeechPositions(partyPositionsTotal),
   }
 }
