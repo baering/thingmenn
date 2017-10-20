@@ -1,3 +1,7 @@
+import {
+  getMpToPartyLookup,
+} from '../helpers'
+
 function getVoteKeyType(vote) {
   if (vote === 'já' || vote === 'nei') {
     return 'standsTaken'
@@ -7,57 +11,70 @@ function getVoteKeyType(vote) {
   return 'away'
 }
 
-function generateSortedMpVotePositionsByLthing(mpPositionsByLthing) {
-  const sortedMpPositionsByLthing = {}
+function generateSortedVotePositions(positions) {
+  console.log('generating sorted positions')
+  const sortedVotePositions = {}
+  Object.keys(positions).forEach(id => {
+    const caseIds = Object.keys(positions[id])
+    sortedVotePositions[id] = caseIds.map(caseId => {
+      const currentCase = positions[id][caseId]
 
-  Object.keys(mpPositionsByLthing).forEach(lthing => {
-    sortedMpPositionsByLthing[lthing] = {}
+      const voteTypes = Object.keys(currentCase.voteSplit)
+      let totalVotes = 0
 
-    Object.keys(mpPositionsByLthing[lthing]).forEach(mpId => {
-      const caseIds = Object.keys(mpPositionsByLthing[lthing][mpId])
-      sortedMpPositionsByLthing[lthing][mpId] = caseIds.map(caseId => {
-        const currentCase = mpPositionsByLthing[lthing][mpId][caseId]
-
-        const voteTypes = Object.keys(currentCase.voteSplit)
-        let totalVotes = 0
-
-        voteTypes.forEach(voteType => {
-          totalVotes += currentCase.voteSplit[voteType]
-        })
-
-        voteTypes.forEach(voteType => {
-          const votesForType = currentCase.voteSplit[voteType]
-          const occurance = votesForType / totalVotes
-          currentCase.voteSplit[voteType] = {
-            occurance: votesForType,
-            percentage: parseFloat((occurance * 100).toFixed(2)),
-          }
-        })
-
-        return {
-          name: currentCase.name,
-          voteSplit: currentCase.voteSplit,
-        }
-      }).sort((a, b) => {
-        const aStandsTaken = a.voteSplit.standsTaken
-        const bStandsTaken = b.voteSplit.standsTaken
-
-        if (aStandsTaken && bStandsTaken) {
-          return bStandsTaken.percentage - aStandsTaken.percentage
-        } else if (aStandsTaken && !bStandsTaken) {
-          return -1
-        } else if (!aStandsTaken && bStandsTaken) {
-          return 1
-        }
-        return 0
+      voteTypes.forEach(voteType => {
+        totalVotes += currentCase.voteSplit[voteType]
       })
+
+      voteTypes.forEach(voteType => {
+        const votesForType = currentCase.voteSplit[voteType]
+        const occurance = votesForType / totalVotes
+        currentCase.voteSplit[voteType] = {
+          occurance: votesForType,
+          percentage: parseFloat((occurance * 100).toFixed(2)),
+        }
+      })
+
+      return {
+        name: currentCase.name,
+        voteSplit: currentCase.voteSplit,
+      }
+    }).sort((a, b) => {
+      const aStandsTaken = a.voteSplit.standsTaken
+      const bStandsTaken = b.voteSplit.standsTaken
+
+      if (aStandsTaken && bStandsTaken) {
+        return bStandsTaken.percentage - aStandsTaken.percentage
+      } else if (aStandsTaken && !bStandsTaken) {
+        return -1
+      } else if (!aStandsTaken && bStandsTaken) {
+        return 1
+      }
+      return 0
     })
   })
 
-  return sortedMpPositionsByLthing
+  return sortedVotePositions
 }
 
-export function generateMpVotePositionsByLthing(votings, caseClassificationLookup, sectionLookup) {
+function generateSortedVotePositionsByLthing(positionsByLthing) {
+  console.log('generating sorted positions by lthing')
+  const sortedPositionsByLthing = {}
+
+  Object.keys(positionsByLthing).forEach(lthing => {
+    sortedPositionsByLthing[lthing] = generateSortedVotePositions(
+      positionsByLthing[lthing],
+    )
+  })
+
+  return sortedPositionsByLthing
+}
+
+export function generateMpVotePositions(
+  votings,
+  caseClassificationLookup,
+  sectionLookup
+) {
   const mpPositionsByLthing = {}
 
   Object.keys(votings).forEach(lthing => {
@@ -95,7 +112,51 @@ export function generateMpVotePositionsByLthing(votings, caseClassificationLooku
     })
   })
 
-  return generateSortedMpVotePositionsByLthing(mpPositionsByLthing)
+  // const mpToPartyLookup = getMpToPartyLookup()
+  const mpPositionsTotal = {}
+
+  Object.keys(mpPositionsByLthing).forEach(lthing => {
+    Object.keys(mpPositionsByLthing[lthing]).forEach(mpId => {
+      if (mpPositionsTotal[mpId] === undefined) {
+        mpPositionsTotal[mpId] = {}
+      }
+      Object.keys(mpPositionsByLthing[lthing][mpId]).forEach(sectionId => {
+        if (mpPositionsTotal[mpId][sectionId] === undefined) {
+          mpPositionsTotal[mpId][sectionId] = {
+            name: sectionLookup[sectionId].name,
+            voteSplit: {},
+          }
+        }
+
+        Object.keys(mpPositionsByLthing[lthing][mpId][sectionId].voteSplit).forEach(voteType => {
+          if (mpPositionsTotal[mpId][sectionId].voteSplit[voteType] === undefined) {
+            mpPositionsTotal[mpId][sectionId].voteSplit[voteType] = 0
+          }
+
+          const value = mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteType]
+          mpPositionsTotal[mpId][sectionId].voteSplit[voteType] += value
+        })
+      })
+    })
+  })
+
+  return {
+    mpVotePositionsByLthing: generateSortedVotePositionsByLthing(mpPositionsByLthing),
+    mpVotePositionsTotal: generateSortedVotePositions(mpPositionsTotal),
+  }
+}
+
+export function generatePartyVotePositions(mpPositionsByLthing) {
+  const partyVotePositionsByLthing = {}
+  const partyVotePositionsTotal = {}
+
+  Object.keys(mpPositionsByLthing).forEach(lthing => {
+    partyVotePositionsByLthing[lthing] = {}
+
+    mpPositionsByLthing[lthing].forEach(votePositions => {
+
+    })
+  })
 }
 
 function generateSortedMpSpeechPositionsByLthing(mpSpeechPositionsByLthing) {

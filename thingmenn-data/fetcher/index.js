@@ -9,7 +9,15 @@ import fetchSpeechStatistics from './speech-statistics'
 import fetchDocuments from './documents'
 import fetchSpeechClassifications from './speech-classifications'
 
-const defaultItems = ['mps', 'votes', 'classifications', 'speechStatistics', 'speechClassifications', 'speeches']
+const defaultItems = [
+  'classifications',
+  'documents',
+  'mps',
+  'speechClassifications',
+  'speeches',
+  'speechStatistics',
+  'votes',
+]
 const lthings = [145, 144, 143]
 
 async function fetch(config) {
