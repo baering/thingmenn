@@ -1,4 +1,5 @@
 import createMpSummary from './mp-summary'
+import createLthings from './lthings'
 import createMpPositionLookup from './positions'
 import createMpSpeechStatisticSummary from './speech-statistics'
 import createTopCharts from './top-charts'
@@ -13,6 +14,7 @@ const defaultItems = [
   'speeches',
   'speechStatistics',
   'top',
+  'lthings',
 ]
 
 function process(config) {
@@ -24,6 +26,11 @@ function process(config) {
   if (config.mps) {
     console.log('Processing mps')
     createMpSummary()
+  }
+
+  if (config.lthings) {
+    console.log('Processing mps')
+    createLthings()
   }
 
   if (config.speechStatistics) {

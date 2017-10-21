@@ -7,6 +7,8 @@ from api.summary import get_mp_vote_positions_by_lthing, get_mp_speech_positions
 from api.summary import get_party_vote_summary_by_lthing, get_party_speech_summary_by_lthing, get_party_document_summary_by_lthing
 from api.summary import get_party_vote_positions_by_lthing, get_party_speech_positions_by_lthing, get_party_document_positions_by_lthing
 
+from api.lthings import get_lthings
+
 from api.top import get_top_mp_attendance, get_bottom_mp_attendance, get_top_mp_minutes_talked, get_bottom_mp_minutes_talked, get_top_mp_stands_taken, get_bottom_mp_stands_taken
 
 from flask import blueprints
@@ -50,3 +52,5 @@ api.add_url_rule('/api/top/stands/mps', 'get_top_mp_stands_taken', get_top_mp_st
 api.add_url_rule('/api/bottom/attendance/mps', 'get_bottom_mp_attendance', get_bottom_mp_attendance)
 api.add_url_rule('/api/bottom/minutes/mps', 'get_bottom_mp_minutes_talked', get_bottom_mp_minutes_talked)
 api.add_url_rule('/api/bottom/stands/mps', 'get_bottom_mp_stands_taken', get_bottom_mp_stands_taken)
+
+api.add_url_rule('/api/lthings', 'get_lthings', get_lthings)
