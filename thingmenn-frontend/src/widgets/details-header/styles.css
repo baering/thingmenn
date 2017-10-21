@@ -48,8 +48,9 @@
 .DetailsHeader-bio {
   display: flex;
   flex-direction: column;
-  flex: 0 1 auto;
+  flex: 1;
   padding: 1rem;
+  padding-top: 0;
 }
 
 .DetailsHeader-bioName {

@@ -2,12 +2,12 @@ import { apiUrl } from '../config'
 import CacheService from './cache-service'
 
 class PartyService extends CacheService {
-  getParties() {
-    return this.fetchData(`${apiUrl}/api/parties`)
+  getPartiesByLthing(lthing = 'allt') {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/parties`)
   }
 
-  getPartyDetails(partyId) {
-    return this.fetchData(`${apiUrl}/api/parties/${partyId}`)
+  getPartyDetailsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/parties/${mpId}`)
   }
 }
 

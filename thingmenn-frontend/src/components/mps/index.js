@@ -14,6 +14,7 @@ export default class Mps extends React.Component {
     super(props)
 
     this.state = {
+      lthing: null,
       mps: [],
       searchInput: '',
       sortByParty: false,
@@ -36,7 +37,7 @@ export default class Mps extends React.Component {
   }
 
   componentWillMount() {
-    mpService.getMps()
+    mpService.getMpsByLthing()
       .then(mps => {
         this.setState({ mps })
       })
@@ -50,7 +51,7 @@ export default class Mps extends React.Component {
   setSorting(props) {
     const { query } = props.location
     const sortByParty = query.rada === 'flokkar'
-    this.setState({ sortByParty, searchInput })
+    this.setState(() => ({ sortByParty, searchInput }))
   }
 
   sortItem(mp1, mp2) {

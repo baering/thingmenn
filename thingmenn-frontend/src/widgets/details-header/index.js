@@ -23,7 +23,7 @@ const DetailsHeader = ({
           <h1 className="DetailsHeader-bioName">
             {mpName} <p className="Main-subheader"></p>
           </h1>
-          <p className="DetailsHeader-bioText">{asPerson}</p>
+          <p className="DetailsHeader-bioText">{asMp}</p>
         </div>
       </div>
     </div>
