@@ -23,7 +23,7 @@ api.add_url_rule('/api/lthing/<string:lthing>/mps/<int:mp_id>/similar', 'get_sim
 api.add_url_rule('/api/lthing/<string:lthing>/mps/<int:mp_id>/different', 'get_different_mps_by_lthing', get_different_mps_by_lthing)
 
 api.add_url_rule('/api/lthing/allt/parties', 'list_parties', get_parties)
-api.add_url_rule('/api/lthings/allt/parties/<string:party_id>', 'get_party', get_party_by_id)
+api.add_url_rule('/api/lthing/allt/parties/<string:party_id>', 'get_party', get_party_by_id)
 
 # mp summaries by lthing
 api.add_url_rule('/api/lthing/<string:lthing>/summary/votes/mp/<string:mp_id>', 'get_mp_vote_summary_by_lthing', get_mp_vote_summary_by_lthing)
