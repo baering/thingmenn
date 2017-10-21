@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import './styles.css'
 
 export default class SearchInput extends React.Component {
@@ -10,5 +12,5 @@ export default class SearchInput extends React.Component {
 }
 
 SearchInput.PropTypes = {
-  handleSearchInput: React.PropTypes.function,
+  handleSearchInput: PropTypes.function,
 }

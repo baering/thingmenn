@@ -30,8 +30,8 @@ const Words = ({
 }
 
 Words.propTypes = {
-  title: React.PropTypes.string,
-  words: React.PropTypes.array,
+  title: PropTypes.string,
+  words: PropTypes.array,
 }
 
 export default Words

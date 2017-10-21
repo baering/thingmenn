@@ -2,9 +2,9 @@ import React from 'react'
 import './styles.css'
 
 const BarChart = ({
-  subjectSummary
+  sectionSummary
 }) => {
-  const { subject, voteSplit } = subjectSummary
+  const { name, voteSplit } = sectionSummary
 
   let standsTaken = 0;
   let standsTakenOccurance;
@@ -30,7 +30,7 @@ const BarChart = ({
 
   return (
     <div className="Barchart">
-      <div className="Barchart-topic"><strong>{subject}</strong></div>
+      <div className="Barchart-topic"><strong>{name}</strong></div>
       <div className="Barchart-bar">
         <div className="Barchart-segment Barchart--standsTaken" style={{width: standsTaken + '%'}}>{standsTakenOccurance}</div>
         <div className="Barchart-segment Barchart--idle" style={{width: idle + '%'}}>{idleOccurance}</div>

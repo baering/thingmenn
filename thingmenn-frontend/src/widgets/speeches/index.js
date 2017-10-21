@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { formatTime } from '../../utils'
 
 import './styles.css'
@@ -31,8 +33,8 @@ const Speeches = ({
 }
 
 Speeches.propTypes = {
-  title: React.PropTypes.string,
-  speechSummary: React.PropTypes.object,
+  title: PropTypes.string,
+  speechSummary: PropTypes.any,
 }
 
 export default Speeches

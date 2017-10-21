@@ -5,36 +5,57 @@
 .Topics-tabs {
   display: flex;
   justify-content: space-around;
-  background: #e9eef2;
+  background: #f8fafb;
   margin-bottom: 1rem;
 }
 
 .Topics-tab {
-  padding: 1rem;
+  padding: 1.25rem 1rem;
   text-align: center;
   flex: 1;
+  position: relative;
+}
+
+.Topics-tab.is-active {
+  background: #32394c;
+  color: white;
+}
+
+.Topics-tab.is-active::after {
+  content: '';
+  width: 10px;
+  background: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 10px;
+  margin: 0 auto;
+  transform: translateY(50%) rotateZ(45deg);
 }
 
 .Topic {
   display: none;
-  padding: 0 1rem;
+  padding: 1rem 2rem;
 }
 
 .Topic.is-active {
   display: block;
 }
 
-.Topic-column {
+.Topic-column:not(:last-child) {
   /* background: pink; */
-  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e9eef2;
 }
 
-.Topic-column:last-child {
-  margin-bottom: 0;
-}
 
 .Topic-heading {
   font-size: 1.333rem;
-  margin: 1rem 0;
-  padding: 2rem 0 1rem;  
+  margin: 2rem 1em 3rem;
+}
+
+.Topic-column:first-child .Topic-heading {
+  margin-top: 1rem;
 }

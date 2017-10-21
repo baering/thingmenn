@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import ListItem from '../list-item'
 import ListItemImage from '../list-item-image'
@@ -18,9 +19,9 @@ const Party = ({
 }
 
 Party.propTypes = {
-  id: React.PropTypes.string,
-  name: React.PropTypes.string,
-  imagePath: React.PropTypes.string,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  imagePath: PropTypes.string,
 }
 
 export default Party

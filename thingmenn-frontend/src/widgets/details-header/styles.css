@@ -29,7 +29,7 @@
   display: flex;
   flex: 1 1 100%;
   font-size: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 @media (min-width: 1234px) {
@@ -48,8 +48,9 @@
 .DetailsHeader-bio {
   display: flex;
   flex-direction: column;
-  flex: 0 1 auto;
+  flex: 1;
   padding: 1rem;
+  padding-top: 0;
 }
 
 .DetailsHeader-bioName {
@@ -59,6 +60,7 @@
 
 .DetailsHeader-bioText {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.666;
   font-size: 1rem;
   font-weight: 300;
 }

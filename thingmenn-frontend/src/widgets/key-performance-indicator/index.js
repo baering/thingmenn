@@ -2,7 +2,7 @@ import React from 'react'
 import { formatTime, formatPercentage } from '../../utils'
 import './styles.css'
 
-const KPI = ({ voteSummary, speechSummary }) => {
+const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
   const { standsTaken, away } = voteSummary.votePercentages
   let timeInStand = 0
   if (speechSummary && speechSummary.Samtals) {
@@ -12,32 +12,33 @@ const KPI = ({ voteSummary, speechSummary }) => {
 
   return (
     <div className="KPI">
-      <div className="DetailsHeader-stats">
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">
+      <div className="KPI-stats">
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">
             {formatPercentage(attendance)}
           </p>
-          <h1 className="DetailsHeader-statsHeading">Mæting</h1>
+          <h1 className="KPI-statsHeading">Mæting*</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">
             {formatPercentage(standsTaken)}
           </p>
-          <h1 className="DetailsHeader-statsHeading">Afstaða</h1>
+          <h1 className="KPI-statsHeading">Afstaða*</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{formatTime(timeInStand)}</p>
-          <h1 className="DetailsHeader-statsHeading">í Ræðustól</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{formatTime(timeInStand)}</p>
+          <h1 className="KPI-statsHeading">í Ræðustól</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">100%</p>
-          <h1 className="DetailsHeader-statsHeading">Til í tuskið</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.bills.total}</p>
+          <h1 className="KPI-statsHeading">Frumvörp</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">25.55%</p>
-          <h1 className="DetailsHeader-statsHeading">Árangur</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.motions.total}</p>
+          <h1 className="KPI-statsHeading">Þingsályktunartillögur</h1>
         </div>
       </div>
+      <p className="KPI-smallprint">* í atkvæðagreiðslum</p>
     </div>
   )
 }

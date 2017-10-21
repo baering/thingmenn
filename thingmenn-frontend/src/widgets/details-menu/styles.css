@@ -16,17 +16,27 @@
 .DetailsMenu-itemLink {
   padding: 1.5rem 1rem;
   width: 100%;
+  position: relative;
   height: 100%;
 }
 
+.DetailsMenu-itemLink.is-active::after {
+  content: '';
+  width: 10px;
+  background: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 10px;
+  margin: 0 auto;
+  transform: translateY(50%) rotateZ(45deg);
+}
+
 .DetailsMenu-itemLink.is-active {
-  background: #d8e5ef;
+  color: white;
+  background: #32394C;
 }
-
-.DetailsMenu-itemLink:not(.is-active):hover {
-  background: #e2ecf3;
-}
-
 
 .DetailsMenu-year {
   display: none;

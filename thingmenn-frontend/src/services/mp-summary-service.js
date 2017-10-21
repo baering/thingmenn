@@ -2,20 +2,40 @@ import { apiUrl } from '../config'
 import CacheService from './cache-service'
 
 class MpSummaryService extends CacheService {
-  getMpVotes(mpId) {
-    return this.fetchData(`${apiUrl}/api/summary/votes/mp/${mpId}`)
+  getMpVoteSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/votes/mp/${mpId}`,
+    )
   }
 
-  getMpSubjects(mpId) {
-    return this.fetchData(`${apiUrl}/api/summary/subjects/mp/${mpId}`)
+  getMpSpeechSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/speeches/mp/${mpId}`,
+    )
   }
 
-  getMpSpeeches(mpId) {
-    return this.fetchData(`${apiUrl}/api/summary/speeches/mp/${mpId}`)
+  getMpDocumentSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/documents/mp/${mpId}`,
+    )
   }
 
-  getMpNouns(mpId) {
-    return this.fetchData(`${apiUrl}/api/summary/nouns/mp/${mpId}`)
+  getMpVotePositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
+    )
+  }
+
+  getMpSpeechPositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/speeches/mp/${mpId}`,
+    )
+  }
+
+  getMpDocumentPositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
+    )
   }
 }
 

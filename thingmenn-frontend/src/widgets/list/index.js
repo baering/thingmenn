@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './styles.css'
 
 const List = ({
@@ -12,7 +13,7 @@ const List = ({
 }
 
 List.propTypes = {
-  children: React.PropTypes.node,
+  children: PropTypes.node,
 }
 
 export default List
