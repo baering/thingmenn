@@ -363,11 +363,23 @@ function findOriginalDocument(doc, lthing, documentLookup, numberOfCalls = 0) {
     return null
   }
 
+  if (doc === undefined) {
+    return null
+  }
+
   if (doc.id === doc.caseId) {
     return doc
   }
+
+  let nextLevel = null
+  try {
+    nextLevel = documentLookup[lthing][doc.caseId]
+  } catch (e) {
+    return nextLevel
+  }
+
   return findOriginalDocument(
-    documentLookup[lthing][doc.caseId],
+    nextLevel,
     lthing,
     documentLookup,
     numberOfCalls + 1
