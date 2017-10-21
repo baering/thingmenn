@@ -162,7 +162,6 @@ export default class Mps extends React.Component {
                     <BarChart subjectSummary={subject} key={subject.subject} />
                   ))}
                 </div>
-                <ColorLegend includeAbsent />
               </Topic>
               <Topic active={activeTab === 1}>
                 <div className="Topic-column">

@@ -26,8 +26,11 @@
     letter-spacing: 1px;
   }
 }
-@media (min-width: 1234px) {
+@media (min-width: 768px) {
   .Nav {
+    top: 0;
+    left: 0;
+    position: fixed;
     width: 18rem;
     max-width: 18rem;
     min-height: 100%;

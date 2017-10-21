@@ -59,6 +59,11 @@ a {
 .Main {
   width: 100%;
 }
+@media (min-width: 768px) {
+  .Main {
+    padding-left: 18rem;
+  }
+}
 .fill {
   width: 100%;
   min-height: calc(100vh - 75px);
