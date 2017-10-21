@@ -10,9 +10,8 @@ from api.cache import cache
 mp_cache_timeout = 1800
 
 mps = []
-mps_by_lthing = {}
 mp_lookup = {}
-mp_by_lthing_lookup = {}
+mps_by_lthing = {}
 
 similar_mp_votes = {}
 similar_mp_votes_by_lthing = {}
@@ -30,20 +29,21 @@ with open(path.dirname(__file__) + '/../../data/v2/mps.json', 'r') as mpFile:
         mp_lookup[mp['id']] = index
 
 with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as mpFile:
-    mps_by_lthing = json.loads(mpFile.read())
-    for lthing in mps_by_lthing:
+    mpsByLthing = json.loads(mpFile.read())
+    for lthing in mpsByLthing:
         lthingAsInt = int(lthing)
-        mp_by_lthing_lookup[lthingAsInt] = []
-        for index, mp in enumerate(mps_by_lthing[lthing]):
-            mpDetails = mps[mp_lookup[mp['id']]]
-            mp_by_lthing_lookup[lthingAsInt].append(mpDetails)
+        mps_by_lthing[lthingAsInt] = []
+        for index, mp in enumerate(mpsByLthing[lthing]):
+            mpIdAsInt = int(mp['id'])
+            mpDetails = mps[mp_lookup[mpIdAsInt]]
+            mps_by_lthing[lthingAsInt].append(mpDetails)
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
 
 with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-similar-votes.json', 'r') as f:
     similarMpVotesByLthing = json.loads(f.read())
-    for lthing in mps_by_lthing:
+    for lthing in similarMpVotesByLthing:
         lthingAsInt = int(lthing)
         similar_mp_votes_by_lthing[lthingAsInt] = {}
         for mpId in similarMpVotesByLthing[lthing]:
@@ -56,7 +56,7 @@ with open(path.dirname(__file__) + '/../../data/v2/total/mp-different-votes.json
 
 with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-different-votes.json', 'r') as f:
     differentMpVotesByLthing = json.loads(f.read())
-    for lthing in mps_by_lthing:
+    for lthing in similarMpVotesByLthing:
         lthingAsInt = int(lthing)
         different_mp_votes_by_lthing[lthingAsInt] = {}
         for mpId in differentMpVotesByLthing[lthing]:
@@ -71,7 +71,7 @@ def get_mps():
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_mps_by_lthing(lthing):
-    return make_json_response(mp_by_lthing_lookup[lthing])
+    return make_json_response(mps_by_lthing[lthing])
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_mp_by_id(mp_id):
@@ -83,10 +83,11 @@ def get_mp_by_id(mp_id):
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_similar_mps(mp_id):
-    if mp_id not in similar_mp_votes:
+    mpIdAsString = str(mp_id)
+    if mpIdAsString not in similar_mp_votes:
         return make_error('Not found')
 
-    return make_json_response(similar_mp_votes[mp_id])
+    return make_json_response(similar_mp_votes[mpIdAsString])
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_similar_mps_by_lthing(lthing, mp_id):
@@ -100,10 +101,11 @@ def get_similar_mps_by_lthing(lthing, mp_id):
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_different_mps(mp_id):
-    if mp_id not in different_mp_votes:
+    mpIdAsString = str(mp_id)
+    if mpIdAsString not in different_mp_votes:
         return make_error('Not found')
 
-    return make_json_response(different_mp_votes[mp_id])
+    return make_json_response(different_mp_votes[mpIdAsString])
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_different_mps_by_lthing(lthing, mp_id):
