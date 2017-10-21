@@ -10,7 +10,9 @@ from api.cache import cache
 mp_cache_timeout = 1800
 
 mps = []
-lookup = {}
+mpsByLthing = {}
+mpLookup = {}
+mpByLthingLookup = {}
 
 similar_mp_votes = {}
 different_mp_votes = {}
@@ -21,11 +23,19 @@ def shouldShowMp(mp):
 
     return not isSubstitute and isAlive
 
-with open(path.dirname(__file__) + '/../../data/mps.json', 'r') as mpFile:
+with open(path.dirname(__file__) + '/../../data/v2/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
-    mps = [mp for mp in mps if shouldShowMp(mp) is True]
     for index, mp in enumerate(mps):
-        lookup[int(mp['id'])] = index
+        mpLookup[mp['id']] = index
+
+with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as mpFile:
+    mpsByLthing = json.loads(mpFile.read())
+    for lthing in mpsByLthing:
+        lthingAsInt = int(lthing)
+        mpByLthingLookup[lthingAsInt] = []
+        for index, mp in enumerate(mpsByLthing[lthing]):
+            mpDetails = mps[mpLookup[mp['id']]]
+            mpByLthingLookup[lthingAsInt].append(mpDetails)
 
 with open(path.dirname(__file__) + '/../../data/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
@@ -36,15 +46,18 @@ with open(path.dirname(__file__) + '/../../data/mp-different-votes.json', 'r') a
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_mps():
-    print 'getting mps'
     return make_json_response(mps)
 
 @cache.cached(timeout=mp_cache_timeout)
+def get_mps_by_lthing(lthing):
+    return make_json_response(mpByLthingLookup[lthing])
+
+@cache.cached(timeout=mp_cache_timeout)
 def get_mp_by_id(mp_id):
-    if mp_id not in lookup:
+    if mp_id not in mpLookup:
         return make_error('Not found')
 
-    mp_index = lookup[mp_id]
+    mp_index = mpLookup[mp_id]
     return make_json_response(mps[mp_index])
 
 @cache.cached(timeout=mp_cache_timeout)

@@ -1,4 +1,4 @@
-from api.mps import get_mps, get_mp_by_id, get_similar_mps, get_different_mps
+from api.mps import get_mps, get_mps_by_lthing, get_mp_by_id, get_similar_mps, get_different_mps
 from api.parties import get_parties, get_party_by_id
 from api.summary import get_mp_vote_summary, get_party_vote_summary, get_mp_subject_summary, get_party_subject_summary, get_mp_nouns, get_party_nouns, get_mp_speech_statistics, get_party_speech_statistics
 from api.top import get_top_mp_attendance, get_bottom_mp_attendance, get_top_mp_minutes_talked, get_bottom_mp_minutes_talked, get_top_mp_stands_taken, get_bottom_mp_stands_taken
@@ -10,6 +10,7 @@ from flask import make_response
 api = blueprints.Blueprint('thingmenn-api', __name__)
 
 api.add_url_rule('/api/mps', 'list_mps', get_mps)
+api.add_url_rule('/api/mps/<int:lthing>', 'list_mps_by_lthing', get_mps_by_lthing)
 api.add_url_rule('/api/mps/<int:mp_id>', 'get_mp', get_mp_by_id)
 api.add_url_rule('/api/mps/<string:mp_id>/similar', 'get_similar_mps', get_similar_mps)
 api.add_url_rule('/api/mps/<string:mp_id>/different', 'get_different_mps', get_different_mps)
