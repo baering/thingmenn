@@ -24,7 +24,7 @@ export default class Mps extends React.Component {
     super(props)
 
     this.state = {
-      mp: {description: {}},
+      mp: { description: {} },
       lthing: null,
       voteSummary: { votePercentages: [], voteSummary: [] },
       speechSummary: [],
@@ -55,58 +55,67 @@ export default class Mps extends React.Component {
 
     mpService.getMpDetailsByLthing(mpId, lthingId).then(mp => {
       this.setState(() => ({
-        mp
+        mp,
       }))
     })
-    
-    mpSummaryService.getMpVoteSummaryByLthing(mpId, lthingId).then(voteSummary => {
-      this.setState(() => ({
-        voteSummary
-      }))
-    })
-    
-    mpSummaryService.getMpSpeechSummaryByLthing(mpId, lthingId).then(speechSummary => {
-      this.setState(() => ({
-        speechSummary
-      }))
-    })
-    
-    mpSummaryService.getMpDocumentSummaryByLthing(mpId, lthingId).then(documentSummary => {
-      this.setState(() => ({
-        documentSummary
-      }))
-    })
-    
-    mpSummaryService.getMpVotePositionsByLthing(mpId, lthingId).then(votePositions => {
-      this.setState(() => ({
-        votePositions
-      }))
 
-    })
-    
-    mpSummaryService.getMpSpeechPositionsByLthing(mpId, lthingId).then(speechPositions => {
-      this.setState(() => ({
-        speechPositions
-      }))
+    mpSummaryService
+      .getMpVoteSummaryByLthing(mpId, lthingId)
+      .then(voteSummary => {
+        this.setState(() => ({
+          voteSummary,
+        }))
+      })
 
-    })
-    
-    mpSummaryService.getMpDocumentPositionsByLthing(mpId, lthingId).then(documentPositions => {
-      this.setState(() => ({
-        documentPositions
-      }))
+    mpSummaryService
+      .getMpSpeechSummaryByLthing(mpId, lthingId)
+      .then(speechSummary => {
+        this.setState(() => ({
+          speechSummary,
+        }))
+      })
 
-    })
+    mpSummaryService
+      .getMpDocumentSummaryByLthing(mpId, lthingId)
+      .then(documentSummary => {
+        this.setState(() => ({
+          documentSummary,
+        }))
+      })
+
+    mpSummaryService
+      .getMpVotePositionsByLthing(mpId, lthingId)
+      .then(votePositions => {
+        this.setState(() => ({
+          votePositions,
+        }))
+      })
+
+    mpSummaryService
+      .getMpSpeechPositionsByLthing(mpId, lthingId)
+      .then(speechPositions => {
+        this.setState(() => ({
+          speechPositions,
+        }))
+      })
+
+    mpSummaryService
+      .getMpDocumentPositionsByLthing(mpId, lthingId)
+      .then(documentPositions => {
+        this.setState(() => ({
+          documentPositions,
+        }))
+      })
 
     mpService.getSimilarMpsByLthing(mpId, lthingId).then(similarMps => {
       this.setState(() => ({
-        similarMps
+        similarMps,
       }))
     })
 
     mpService.getDifferentMpsByLthing(mpId, lthingId).then(differentMps => {
       this.setState(() => ({
-        differentMps
+        differentMps,
       }))
     })
   }
@@ -130,7 +139,11 @@ export default class Mps extends React.Component {
         <DetailsMenu />
         <DetailsHeader {...mp} />
         <div className="Details">
-          <KPI voteSummary={voteSummary} speechSummary={speechSummary} documentSummary={documentSummary}  />
+          <KPI
+            voteSummary={voteSummary}
+            speechSummary={speechSummary}
+            documentSummary={documentSummary}
+          />
           <div className="Details-item">
             <Friends
               title="Samherjar"
@@ -147,24 +160,16 @@ export default class Mps extends React.Component {
               friends={differentMps.slice(0, 10)}
             />
           </div>
-          <div className="Details-item Details-item--large">
+          <div className="Details-item Details-item--large Details-item--no-padding">
             <Topics>
-              {( activeTab ) => (
+              {activeTab => (
                 <span>
                   <Topic active={activeTab === 0}>
-                    <div className="Topic-column">
-                      <h1 className="Topic-heading">Skipting ræðutíma </h1>
-                      <Speeches speechSummary={speechSummary} />
-                    </div>
-                    <div className="Topic-column">
-                      <h1 className="Topic-heading">Mest talað um</h1>
-                    </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">
                         Atkvæðaskipting eftir efnisflokkum
                       </h1>
                       <ColorLegend />
-                      {console.log(votePositions)}
                       {votePositions.map(sectionSummary => (
                         <BarChart
                           sectionSummary={sectionSummary}
@@ -172,11 +177,20 @@ export default class Mps extends React.Component {
                         />
                       ))}
                     </div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Vote summary</h1>
+
+                      <Piechart voteSummary={voteSummary} />
+                      <ColorLegend includeAbsent />
+                    </div>
                   </Topic>
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
-                      <Piechart voteSummary={voteSummary} />
-                      <ColorLegend includeAbsent />
+                      <h1 className="Topic-heading">Skipting ræðutíma </h1>
+                      <Speeches speechSummary={speechSummary} />
+                    </div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Mest talað um</h1>
                     </div>
                   </Topic>
                   <Topic active={activeTab === 2}>

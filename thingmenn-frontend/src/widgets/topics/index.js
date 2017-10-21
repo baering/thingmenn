@@ -4,10 +4,10 @@ import './styles.css'
 
 const topics = [
   {
-    title: 'Ræður',
+    title: 'Atkvæði',
   },
   {
-    title: 'Atkvæði',
+    title: 'Ræður',
   },
   {
     title: 'Þingskjöl',
@@ -40,7 +40,7 @@ class Topics extends Component {
           {topics.map((topic, index) => (
             <a
               href="#"
-              className="Topics-tab"
+              className={classNames("Topics-tab", activeTab === index && 'is-active')}
               onClick={evt => this.handleChangingTabs(evt, index)}
             >
               {topic.title}

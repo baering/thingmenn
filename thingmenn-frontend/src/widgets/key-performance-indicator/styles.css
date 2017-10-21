@@ -7,11 +7,19 @@
   font-family: 'Lora', serif;
   font-size: 1.777rem;
   margin: 1rem;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 }
 
-.DetailsHeader-stats {
-  background: #f8fafb;
+.KPI-smallprint {
+  font-size: 13px;
+  display: block;
+  margin-left: auto;
+  padding-right: 2rem;
+  color: #adadad;
+  font-style: italic;
+}
+
+.KPI-stats {
   border: 0;
   display: flex;
   flex: 0 1 auto;
@@ -23,13 +31,14 @@
 }
 
 @media (min-width: 1234px) {
-  .DetailsHeader-stats {
+  .KPI-stats {
     background: none;
     padding: 2rem;
+    padding-bottom: 1rem;
   }
 }
 
-.DetailsHeader-statsItem {
+.KPI-statsItem {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -38,21 +47,21 @@
 }
 
 @media (min-width: 1234px) {
-  .DetailsHeader-statsItem {
+  .KPI-statsItem {
     margin-right: 2.25rem;
   }
-  .DetailsHeader-statsItem:last-child {
+  .KPI-statsItem:last-child {
     margin-right: 0;
   }
 }
 
-.DetailsHeader-statsHeading {
+.KPI-statsHeading {
   color: #51575a;
   font-size: 1rem;
   font-style: italic;
 }
 
-.DetailsHeader-statsText {
+.KPI-statsText {
   color: #06ABDC;
   font-size: 2rem;
   text-shadow: 0 2px 0 #FFF;

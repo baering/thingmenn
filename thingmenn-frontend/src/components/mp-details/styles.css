@@ -10,12 +10,12 @@
   border-bottom: 3px solid rgba(44, 63, 80, 0.12);
   flex: auto;
   margin-bottom: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 2rem;
   width: 100%;
 }
 
-.Details-item:last-child {
-  margin-bottom: 0;
+.Details-item--no-padding {
+  padding: 0;
 }
 
 .Details-heading {
@@ -33,6 +33,6 @@
 
   .Details-item.Details-item--large {
     margin: 1rem;
-    width: calc(100% - 2rem);
+    /* width: calc(100% - 2rem); */
   }
 }

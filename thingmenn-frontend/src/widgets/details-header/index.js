@@ -21,7 +21,7 @@ const DetailsHeader = ({
         />
         <div className="DetailsHeader-bio">
           <h1 className="DetailsHeader-bioName">
-            {mpName} <p className="Main-subheader">Ehh</p>
+            {mpName} <p className="Main-subheader"></p>
           </h1>
           <p className="DetailsHeader-bioText">{asPerson}</p>
         </div>

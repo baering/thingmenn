@@ -12,33 +12,33 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
 
   return (
     <div className="KPI">
-      <div className="DetailsHeader-stats">
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">
+      <div className="KPI-stats">
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">
             {formatPercentage(attendance)}
           </p>
-          <h1 className="DetailsHeader-statsHeading">Mæting*</h1>
+          <h1 className="KPI-statsHeading">Mæting*</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">
             {formatPercentage(standsTaken)}
           </p>
-          <h1 className="DetailsHeader-statsHeading">Afstaða*</h1>
+          <h1 className="KPI-statsHeading">Afstaða*</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{formatTime(timeInStand)}</p>
-          <h1 className="DetailsHeader-statsHeading">í Ræðustól</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{formatTime(timeInStand)}</p>
+          <h1 className="KPI-statsHeading">í Ræðustól</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{documentSummary.summary && documentSummary.summary.bills.total}</p>
-          <h1 className="DetailsHeader-statsHeading">frumvörp</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.bills.total}</p>
+          <h1 className="KPI-statsHeading">frumvörp</h1>
         </div>
-        <div className="DetailsHeader-statsItem">
-          <p className="DetailsHeader-statsText">{documentSummary.summary && documentSummary.summary.motions.total}</p>
-          <h1 className="DetailsHeader-statsHeading">Þingsályktunartillögur</h1>
+        <div className="KPI-statsItem">
+          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.motions.total}</p>
+          <h1 className="KPI-statsHeading">Þingsályktunartillögur</h1>
         </div>
       </div>
-      <p>* í atkvæðagreiðslur</p>
+      <p className="KPI-smallprint">* í atkvæðagreiðslum</p>
     </div>
   )
 }
