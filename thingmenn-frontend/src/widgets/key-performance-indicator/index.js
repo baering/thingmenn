@@ -31,7 +31,7 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
         </div>
         <div className="KPI-statsItem">
           <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.bills.total}</p>
-          <h1 className="KPI-statsHeading">frumvörp</h1>
+          <h1 className="KPI-statsHeading">Frumvörp</h1>
         </div>
         <div className="KPI-statsItem">
           <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.motions.total}</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './styles.css'
 
 const DetailsHeader = ({
@@ -8,7 +9,7 @@ const DetailsHeader = ({
   lthings,
   imagePath,
 }) => {
-  const { asMp, asPerson } = description
+  const { asMp } = description
 
   return (
     <div className="DetailsHeader">
@@ -31,9 +32,11 @@ const DetailsHeader = ({
 }
 
 DetailsHeader.propTypes = {
-  id: React.PropTypes.string,
-  name: React.PropTypes.string,
-  profilePicture: React.PropTypes.string,
+  id: PropTypes.number,
+  mpName: PropTypes.string,
+  lthings: PropTypes.any,
+  imagePath: PropTypes.string,
+  description: PropTypes.any,
 }
 
 export default DetailsHeader

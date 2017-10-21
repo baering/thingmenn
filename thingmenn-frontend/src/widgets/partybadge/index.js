@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import './styles.css'
 
 const PartyBadge = ({party, className}) => {
@@ -13,8 +15,8 @@ const PartyBadge = ({party, className}) => {
 }
 
 PartyBadge.propTypes = {
-  party: React.PropTypes.string,
-  className: React.PropTypes.string,
+  party: PropTypes.string,
+  className: PropTypes.string,
 }
 
 export default PartyBadge
