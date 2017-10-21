@@ -13,27 +13,53 @@ mp_vote_summary = {}
 mp_speech_summary = {}
 mp_document_summary = {}
 
+mp_vote_summary_by_lthing = {}
+mp_speech_summary_by_lthing = {}
+mp_document_summary_by_lthing = {}
+
 mp_vote_positions = {}
 mp_speech_positions = {}
 mp_document_positions = {}
 
+mp_vote_positions_by_lthing = {}
+mp_speech_positions_by_lthing = {}
+mp_document_positions_by_lthing = {}
+
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-vote-summaries.json', 'r') as f:
     mp_vote_summary = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-vote-summaries.json', 'r') as f:
+    mp_vote_summary_by_lthing = json.loads(f.read())
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-speech-summaries.json', 'r') as f:
     mp_speech_summary = json.loads(f.read())
 
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-speech-summaries.json', 'r') as f:
+    mp_speech_summary_by_lthing = json.loads(f.read())
+
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-document-summaries.json', 'r') as f:
     mp_document_summary = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-document-summaries.json', 'r') as f:
+    mp_document_summary_by_lthing = json.loads(f.read())
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-vote-positions.json', 'r') as f:
     mp_vote_positions = json.loads(f.read())
 
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-vote-positions.json', 'r') as f:
+    mp_vote_positions_by_lthing = json.loads(f.read())
+
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-speech-positions.json', 'r') as f:
     mp_speech_positions = json.loads(f.read())
 
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-speech-positions.json', 'r') as f:
+    mp_speech_positions_by_lthing = json.loads(f.read())
+
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-document-positions.json', 'r') as f:
     mp_document_positions = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-document-positions.json', 'r') as f:
+    mp_document_positions_by_lthing = json.loads(f.read())
 
 parties = []
 party_lookup = {}
@@ -70,35 +96,68 @@ with open(path.dirname(__file__) + '/../../data/v2/total/party-document-position
     party_document_positions = json.loads(f.read())
 
 
-def get_summary(summary, mp_id):
-    if mp_id not in summary:
+def get_summary(summary, entityId):
+    if entityId not in summary:
         return make_error('Not found')
 
-    return make_json_response(summary[mp_id])
+    return make_json_response(summary[entityId])
+
+def get_summary_by_lthing(summary, lthing, entityId):
+    if lthing not in summary:
+        return make_error('Not found')
+
+    if entityId not in summary[lthing]:
+        return make_error('Not found')
+
+    return make_json_response(summary[lthing][entityId])
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_summary(mp_id):
     return get_summary(mp_vote_summary, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
+def get_mp_vote_summary_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_vote_summary_by_lthing, lthing, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_summary(mp_id):
     return get_summary(mp_speech_summary, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_mp_speech_summary_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_speech_summary_by_lthing, lthing, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_summary(mp_id):
     return get_summary(mp_document_summary, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
+def get_mp_document_summary_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_document_summary_by_lthing, lthing, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_positions(mp_id):
     return get_summary(mp_vote_positions, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_mp_vote_positions_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_vote_positions_by_lthing, lthing, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_positions(mp_id):
     return get_summary(mp_speech_positions, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
+def get_mp_speech_positions_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_speech_positions_by_lthing, lthing, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_positions(mp_id):
     return get_summary(mp_document_positions, mp_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_mp_document_positions_by_lthing(mp_id, lthing):
+    return get_summary_by_lthing(mp_document_positions_by_lthing, lthing, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_vote_summary(party_id):

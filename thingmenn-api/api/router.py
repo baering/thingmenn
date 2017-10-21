@@ -3,7 +3,9 @@ from api.mps import get_mps_by_lthing, get_mp_by_id_by_lthing, get_similar_mps_b
 from api.parties import get_parties, get_party_by_id
 
 from api.summary import get_mp_vote_summary, get_mp_speech_summary, get_mp_document_summary
+from api.summary import get_mp_vote_summary_by_lthing, get_mp_speech_summary_by_lthing, get_mp_document_summary_by_lthing
 from api.summary import get_mp_vote_positions, get_mp_speech_positions, get_mp_document_positions
+from api.summary import get_mp_vote_positions_by_lthing, get_mp_speech_positions_by_lthing, get_mp_document_positions_by_lthing
 from api.summary import get_party_vote_summary, get_party_speech_summary, get_party_document_summary
 from api.summary import get_party_vote_positions, get_party_speech_positions, get_party_document_positions
 
@@ -33,10 +35,20 @@ api.add_url_rule('/api/summary/votes/mp/<string:mp_id>', 'get_mp_vote_summary', 
 api.add_url_rule('/api/summary/speeches/mp/<string:mp_id>', 'get_mp_speech_summary', get_mp_speech_summary)
 api.add_url_rule('/api/summary/documents/mp/<string:mp_id>', 'get_mp_document_summary', get_mp_document_summary)
 
+# mp summaries by lthing
+api.add_url_rule('/api/lthing/<string:lthing>/summary/votes/mp/<string:mp_id>', 'get_mp_vote_summary_by_lthing', get_mp_vote_summary_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/summary/speeches/mp/<string:mp_id>', 'get_mp_speech_summary_by_lthing', get_mp_speech_summary_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/summary/documents/mp/<string:mp_id>', 'get_mp_document_summary_by_lthing', get_mp_document_summary_by_lthing)
+
 # mp positions total
 api.add_url_rule('/api/positions/votes/mp/<string:mp_id>', 'get_mp_vote_positions', get_mp_vote_positions)
 api.add_url_rule('/api/positions/speeches/mp/<string:mp_id>', 'get_mp_speech_positions', get_mp_speech_positions)
 api.add_url_rule('/api/positions/documents/mp/<string:mp_id>', 'get_mp_document_positions', get_mp_document_positions)
+
+# mp positions by lthing
+api.add_url_rule('/api/lthing/<string:lthing>/positions/votes/mp/<string:mp_id>', 'get_mp_vote_positions_by_lthing', get_mp_vote_positions_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/positions/speeches/mp/<string:mp_id>', 'get_mp_speech_positions_by_lthing', get_mp_speech_positions_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/positions/documents/mp/<string:mp_id>', 'get_mp_document_positions_by_lthing', get_mp_document_positions_by_lthing)
 
 # party summaries total
 api.add_url_rule('/api/summary/votes/party/<string:party_id>', 'get_party_vote_summary', get_party_vote_summary)
