@@ -37,28 +37,40 @@ with open(path.dirname(__file__) + '/../../data/v2/total/mp-document-positions.j
 
 parties = []
 party_lookup = {}
-party_vote_summary_lookup = {}
-party_vote_positions_lookup = {}
+
+party_vote_summary = {}
 party_speech_summary = {}
+party_document_summary = {}
+
+party_vote_positions = {}
+party_speech_positions = {}
+party_document_positions = {}
 
 with open(path.dirname(__file__) + '/../../data/parties.json', 'r') as f:
     parties = json.loads(f.read())
     for index, party in enumerate(parties):
         party_lookup[party['id']] = index
 
-party_vote_summary_lookup = {}
-
 with open(path.dirname(__file__) + '/../../data/v2/total/party-vote-summaries.json', 'r') as f:
-    party_vote_summary_lookup = json.loads(f.read())
-
-with open(path.dirname(__file__) + '/../../data/v2/total/party-vote-positions.json', 'r') as f:
-    party_vote_positions_lookup = json.loads(f.read())
+    party_vote_summary = json.loads(f.read())
 
 with open(path.dirname(__file__) + '/../../data/v2/total/party-speech-summaries.json', 'r') as f:
     party_speech_summary = json.loads(f.read())
 
+with open(path.dirname(__file__) + '/../../data/v2/total/party-document-summaries.json', 'r') as f:
+    party_document_summary = json.loads(f.read())
 
-def get_mp_summary(summary, mp_id):
+with open(path.dirname(__file__) + '/../../data/v2/total/party-vote-positions.json', 'r') as f:
+    party_vote_positions = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/total/party-speech-positions.json', 'r') as f:
+    party_speech_positions = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/total/party-document-positions.json', 'r') as f:
+    party_document_positions = json.loads(f.read())
+
+
+def get_summary(summary, mp_id):
     if mp_id not in summary:
         return make_error('Not found')
 
@@ -66,67 +78,48 @@ def get_mp_summary(summary, mp_id):
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_summary(mp_id):
-    return get_mp_summary(mp_vote_summary, mp_id)
+    return get_summary(mp_vote_summary, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_summary(mp_id):
-    return get_mp_summary(mp_speech_summary, mp_id)
+    return get_summary(mp_speech_summary, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_summary(mp_id):
-    return get_mp_summary(mp_document_summary, mp_id)
+    return get_summary(mp_document_summary, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_positions(mp_id):
-    return get_mp_summary(mp_vote_positions, mp_id)
+    return get_summary(mp_vote_positions, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_positions(mp_id):
-    return get_mp_summary(mp_speech_positions, mp_id)
+    return get_summary(mp_speech_positions, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_positions(mp_id):
-    return get_mp_summary(mp_document_positions, mp_id)
-
+    return get_summary(mp_document_positions, mp_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_vote_summary(party_id):
-    if party_id not in party_lookup:
-        return make_error('Not found')
-
-    party_index = party_lookup[party_id]
-    party = parties[party_index]
-    summary_for_party = party_vote_summary_lookup[party['name']]
-    return make_json_response(summary_for_party)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_vote_positions(party_id):
-    if party_id not in party_vote_positions_lookup:
-        return make_error('Not found')
-
-    summary_for_party = party_vote_positions_lookup[party_id]
-    return make_json_response(summary_for_party)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_nouns(mp_id):
-    if mp_id not in mp_noun_lookup:
-        return make_error('Not found')
-
-    summary_for_mp = mp_noun_lookup[mp_id]
-    return make_json_response(summary_for_mp)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_nouns(party_id):
-    if party_id not in party_noun_lookup:
-        return make_error('Not found')
-
-    summary_for_party = party_noun_lookup[party_id]
-    return make_json_response(summary_for_party)
+    return get_summary(party_vote_summary, party_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_speech_summary(party_id):
-    if party_id not in party_speech_summary:
-        return make_error('Not found')
+    return get_summary(party_speech_summary, party_id)
 
-    summary_for_party = party_speech_summary[party_id]
-    return make_json_response(summary_for_party)
+@cache.cached(timeout=summary_cache_timeout)
+def get_party_document_summary(party_id):
+    return get_summary(party_document_summary, party_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_party_vote_positions(party_id):
+    return get_summary(party_vote_positions, party_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_party_speech_positions(party_id):
+    return get_summary(party_speech_positions, party_id)
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_party_document_positions(party_id):
+    return get_summary(party_document_positions, party_id)
