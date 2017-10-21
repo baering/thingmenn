@@ -15,13 +15,14 @@ mpLookup = {}
 mpByLthingLookup = {}
 
 similar_mp_votes = {}
+similar_mp_votes_by_lthing = {}
 different_mp_votes = {}
+different_mp_votes_by_lthing = {}
 
 def shouldShowMp(mp):
-    isSubstitute = mp['isSubstitute']
-    isAlive = mp['id'] != '683' and mp['id'] != '477'
+    onlySubstitute = mp['onlySubstitute']
 
-    return not isSubstitute and isAlive
+    return not onlySubstitute
 
 with open(path.dirname(__file__) + '/../../data/v2/mps.json', 'r') as mpFile:
     mps = json.loads(mpFile.read())
@@ -37,10 +38,10 @@ with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as 
             mpDetails = mps[mpLookup[mp['id']]]
             mpByLthingLookup[lthingAsInt].append(mpDetails)
 
-with open(path.dirname(__file__) + '/../../data/mp-similar-votes.json', 'r') as f:
+with open(path.dirname(__file__) + '/../../data/v2/total/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
 
-with open(path.dirname(__file__) + '/../../data/mp-different-votes.json', 'r') as f:
+with open(path.dirname(__file__) + '/../../data/v2/total/mp-different-votes.json', 'r') as f:
     different_mp_votes = json.loads(f.read())
 
 

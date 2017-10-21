@@ -10,8 +10,8 @@ from flask import make_response
 api = blueprints.Blueprint('thingmenn-api', __name__)
 
 api.add_url_rule('/api/mps', 'list_mps', get_mps)
-api.add_url_rule('/api/mps/<int:lthing>', 'list_mps_by_lthing', get_mps_by_lthing)
 api.add_url_rule('/api/mps/<int:mp_id>', 'get_mp', get_mp_by_id)
+api.add_url_rule('/api/mps/lthing/<int:lthing>', 'list_mps_by_lthing', get_mps_by_lthing)
 api.add_url_rule('/api/mps/<string:mp_id>/similar', 'get_similar_mps', get_similar_mps)
 api.add_url_rule('/api/mps/<string:mp_id>/different', 'get_different_mps', get_different_mps)
 
