@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetch": "node index.js --debug",
+    "fetch": "node index.js --max_old_space_size=8000 --debug",
     "process": "node process.js --debug"
   },
   "author": "",

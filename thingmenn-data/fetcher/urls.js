@@ -81,3 +81,7 @@ export function urlForSpeeches(lthing) {
 
   return `http://www.althingi.is/altext/xml/raedulisti/?lthing=${lthing}`
 }
+
+export function urlForLthings() {
+  return 'http://www.althingi.is/altext/xml/loggjafarthing/'
+}

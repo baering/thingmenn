@@ -1,6 +1,8 @@
+import { writeToFile } from '../utility/file'
 import { getProcessArguments } from '../utility/process'
 
 import fetchMps from './mps'
+import fetchLthings from './lthings'
 import fetchVotes from './votes'
 import fetchClassifications from './classifications'
 import fetchSpeechStatistics from './speech-statistics'
@@ -11,17 +13,23 @@ const defaultItems = [
   'classifications',
   'documents',
   'mps',
+  'lthings',
   'speechClassifications',
-  'speeches',
   'speechStatistics',
   'votes',
 ]
-const lthings = [145, 144, 143]
+const lthings = [147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
 
 async function fetch(config) {
   if (config.mps) {
     console.log('Fetching mps')
     await fetchMps(lthings)
+  }
+
+  if (config.lthings) {
+    console.log('Fetching lthings')
+    await fetchLthings(lthings)
+    writeToFile(lthings, 'data/v2/lthings-used.json', true)
   }
 
   if (config.votes) {

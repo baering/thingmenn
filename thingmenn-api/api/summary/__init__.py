@@ -122,20 +122,23 @@ with open(path.dirname(__file__) + '/../../data/v2/by-lthing/party-document-posi
     party_document_positions_by_lthing = json.loads(f.read())
 
 
-def get_summary(summary, entityId):
-    if entityId not in summary:
+def get_summary(summary, entity_id):
+    if entity_id not in summary:
         return make_error('Not found')
 
-    return make_json_response(summary[entityId])
+    return make_json_response(summary[entity_id])
 
-def get_summary_by_lthing(summary, lthing, entityId):
-    if lthing not in summary:
+def get_summary_by_lthing(summary, summary_by_lthing, lthing, entity_id):
+    if lthing == 'allt':
+        return get_summary(summary, entity_id)
+
+    if lthing not in summary_by_lthing:
         return make_error('Not found')
 
-    if entityId not in summary[lthing]:
+    if entity_id not in summary_by_lthing[lthing]:
         return make_error('Not found')
 
-    return make_json_response(summary[lthing][entityId])
+    return make_json_response(summary_by_lthing[lthing][entity_id])
 
 # MP
 
@@ -145,93 +148,114 @@ def get_mp_vote_summary(mp_id):
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_summary_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_vote_summary_by_lthing, lthing, mp_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_speech_summary(mp_id):
-    return get_summary(mp_speech_summary, mp_id)
+    return get_summary_by_lthing(
+        mp_vote_summary,
+        mp_vote_summary_by_lthing,
+        lthing,
+        mp_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_summary_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_speech_summary_by_lthing, lthing, mp_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_document_summary(mp_id):
-    return get_summary(mp_document_summary, mp_id)
+    return get_summary_by_lthing(
+        mp_speech_summary,
+        mp_speech_summary_by_lthing,
+        lthing,
+        mp_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_summary_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_document_summary_by_lthing, lthing, mp_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_vote_positions(mp_id):
-    return get_summary(mp_vote_positions, mp_id)
+    return get_summary_by_lthing(
+        mp_document_summary,
+        mp_document_summary_by_lthing,
+        lthing,
+        mp_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_vote_positions_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_vote_positions_by_lthing, lthing, mp_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_speech_positions(mp_id):
-    return get_summary(mp_speech_positions, mp_id)
+    return get_summary_by_lthing(
+        mp_vote_positions,
+        mp_vote_positions_by_lthing,
+        lthing,
+        mp_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_speech_positions_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_speech_positions_by_lthing, lthing, mp_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_mp_document_positions(mp_id):
-    return get_summary(mp_document_positions, mp_id)
+    return get_summary_by_lthing(
+        mp_speech_positions,
+        mp_speech_positions_by_lthing,
+        lthing,
+        mp_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_mp_document_positions_by_lthing(mp_id, lthing):
-    return get_summary_by_lthing(mp_document_positions_by_lthing, lthing, mp_id)
+    return get_summary_by_lthing(
+        mp_document_positions,
+        mp_document_positions_by_lthing,
+        lthing,
+        mp_id
+    )
 
 # Party
+
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_vote_summary(party_id):
     return get_summary(party_vote_summary, party_id)
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_vote_summary_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_vote_summary_by_lthing, lthing, party_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_speech_summary(party_id):
-    return get_summary(party_speech_summary, party_id)
+    return get_summary_by_lthing(
+        party_vote_summary,
+        party_vote_summary_by_lthing,
+        lthing,
+        party_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_speech_summary_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_speech_summary_by_lthing, lthing, party_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_document_summary(party_id):
-    return get_summary(party_document_summary, party_id)
+    return get_summary_by_lthing(
+        party_speech_summary,
+        party_speech_summary_by_lthing,
+        lthing,
+        party_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_document_summary_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_document_summary_by_lthing, lthing, party_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_vote_positions(party_id):
-    return get_summary(party_vote_positions, party_id)
+    return get_summary_by_lthing(
+        party_document_summary,
+        party_document_summary_by_lthing,
+        lthing,
+        party_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_vote_positions_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_vote_positions_by_lthing, lthing, party_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_speech_positions(party_id):
-    return get_summary(party_speech_positions, party_id)
+    return get_summary_by_lthing(
+        party_vote_positions,
+        party_vote_positions_by_lthing,
+        lthing,
+        party_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_speech_positions_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_speech_positions_by_lthing, lthing, party_id)
-
-@cache.cached(timeout=summary_cache_timeout)
-def get_party_document_positions(party_id):
-    return get_summary(party_document_positions, party_id)
+    return get_summary_by_lthing(
+        party_speech_positions,
+        party_speech_positions_by_lthing,
+        lthing,
+        party_id
+    )
 
 @cache.cached(timeout=summary_cache_timeout)
 def get_party_document_positions_by_lthing(party_id, lthing):
-    return get_summary_by_lthing(party_document_positions_by_lthing, lthing, party_id)
+    return get_summary_by_lthing(
+        party_document_positions,
+        party_document_positions_by_lthing,
+        lthing,
+        party_id
+    )

@@ -75,9 +75,10 @@ def get_mps():
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_mps_by_lthing(lthing):
+    if lthing == u'allt':
+        return make_json_response(mps)
     return make_json_response(mps_by_lthing[lthing])
 
-@cache.cached(timeout=mp_cache_timeout)
 def get_mp_by_id(mp_id):
     if mp_id not in mp_lookup:
         return make_error('Not found')
@@ -89,6 +90,9 @@ def get_mp_by_id(mp_id):
 def get_mp_by_id_by_lthing(lthing, mp_id):
     # TODO: Make this function return only the lthing info for this
     #       mp for the current lthing
+    if lthing == u'allt':
+        return get_mp_by_id(mp_id)
+
     if lthing not in mp_lookup_by_lthing:
         return make_error('Not found')
 
@@ -98,7 +102,6 @@ def get_mp_by_id_by_lthing(lthing, mp_id):
     mp_index = mp_lookup[mp_id]
     return make_json_response(mps[mp_index])
 
-@cache.cached(timeout=mp_cache_timeout)
 def get_similar_mps(mp_id):
     mpIdAsString = str(mp_id)
     if mpIdAsString not in similar_mp_votes:
@@ -108,6 +111,9 @@ def get_similar_mps(mp_id):
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_similar_mps_by_lthing(lthing, mp_id):
+    if lthing == u'allt':
+        return get_similar_mps(mp_id)
+
     if lthing not in similar_mp_votes_by_lthing:
         return make_error('Not found')
 
@@ -116,7 +122,6 @@ def get_similar_mps_by_lthing(lthing, mp_id):
 
     return make_json_response(similar_mp_votes_by_lthing[lthing][mp_id])
 
-@cache.cached(timeout=mp_cache_timeout)
 def get_different_mps(mp_id):
     mpIdAsString = str(mp_id)
     if mpIdAsString not in different_mp_votes:
@@ -126,6 +131,9 @@ def get_different_mps(mp_id):
 
 @cache.cached(timeout=mp_cache_timeout)
 def get_different_mps_by_lthing(lthing, mp_id):
+    if lthing == u'allt':
+        return get_different_mps(mp_id)
+
     if lthing not in different_mp_votes_by_lthing:
         return make_error('Not found')
 
