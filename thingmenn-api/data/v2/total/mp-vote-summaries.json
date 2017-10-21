@@ -1,0 +1,2491 @@
+{
+	"124": {
+		"id": 124,
+		"voteSummary": {
+			"numberOfVotes": 3114,
+			"numberOfStandsTaken": 2923,
+			"numberOfAway": 90,
+			"numberOfAbsent": 101,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"fjarverandi": 90,
+			"já": 2702,
+			"nei": 221,
+			"boðaði fjarvist": 101
+		},
+		"votePercentages": {
+			"standsTaken": 93.87,
+			"idle": 0,
+			"away": 2.89,
+			"absent": 3.24
+		}
+	},
+	"396": {
+		"id": 396,
+		"voteSummary": {
+			"numberOfVotes": 3139,
+			"numberOfStandsTaken": 1615,
+			"numberOfAway": 715,
+			"numberOfAbsent": 319,
+			"numberOfIdleVotes": 490
+		},
+		"voteTypes": {
+			"já": 1543,
+			"fjarverandi": 715,
+			"nei": 72,
+			"greiðir ekki atkvæði": 490,
+			"boðaði fjarvist": 319
+		},
+		"votePercentages": {
+			"standsTaken": 51.45,
+			"idle": 15.61,
+			"away": 22.78,
+			"absent": 10.16
+		}
+	},
+	"477": {
+		"id": 477,
+		"voteSummary": {
+			"numberOfVotes": 1427,
+			"numberOfStandsTaken": 1337,
+			"numberOfAway": 87,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"já": 1209,
+			"fjarverandi": 87,
+			"nei": 128,
+			"greiðir ekki atkvæði": 3
+		},
+		"votePercentages": {
+			"standsTaken": 93.69,
+			"idle": 0.21,
+			"away": 6.1,
+			"absent": 0
+		}
+	},
+	"557": {
+		"id": 557,
+		"voteSummary": {
+			"numberOfVotes": 3139,
+			"numberOfStandsTaken": 1789,
+			"numberOfAway": 393,
+			"numberOfAbsent": 448,
+			"numberOfIdleVotes": 509
+		},
+		"voteTypes": {
+			"já": 1657,
+			"boðaði fjarvist": 448,
+			"nei": 132,
+			"greiðir ekki atkvæði": 509,
+			"fjarverandi": 393
+		},
+		"votePercentages": {
+			"standsTaken": 56.99,
+			"idle": 16.22,
+			"away": 12.52,
+			"absent": 14.27
+		}
+	},
+	"630": {
+		"id": 630,
+		"voteSummary": {
+			"numberOfVotes": 2841,
+			"numberOfStandsTaken": 701,
+			"numberOfAway": 1349,
+			"numberOfAbsent": 472,
+			"numberOfIdleVotes": 319
+		},
+		"voteTypes": {
+			"fjarverandi": 1349,
+			"boðaði fjarvist": 472,
+			"greiðir ekki atkvæði": 319,
+			"já": 586,
+			"nei": 115
+		},
+		"votePercentages": {
+			"standsTaken": 24.67,
+			"idle": 11.23,
+			"away": 47.48,
+			"absent": 16.61
+		}
+	},
+	"631": {
+		"id": 631,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 1363,
+			"numberOfAway": 1280,
+			"numberOfAbsent": 162,
+			"numberOfIdleVotes": 335
+		},
+		"voteTypes": {
+			"fjarverandi": 1280,
+			"já": 1286,
+			"boðaði fjarvist": 162,
+			"greiðir ekki atkvæði": 335,
+			"nei": 77
+		},
+		"votePercentages": {
+			"standsTaken": 43.41,
+			"idle": 10.67,
+			"away": 40.76,
+			"absent": 5.16
+		}
+	},
+	"650": {
+		"id": 650,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2553,
+			"numberOfAway": 465,
+			"numberOfAbsent": 69,
+			"numberOfIdleVotes": 53
+		},
+		"voteTypes": {
+			"fjarverandi": 465,
+			"já": 2378,
+			"boðaði fjarvist": 69,
+			"nei": 175,
+			"greiðir ekki atkvæði": 53
+		},
+		"votePercentages": {
+			"standsTaken": 81.31,
+			"idle": 1.69,
+			"away": 14.81,
+			"absent": 2.2
+		}
+	},
+	"652": {
+		"id": 652,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2246,
+			"numberOfAway": 752,
+			"numberOfAbsent": 140,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"boðaði fjarvist": 140,
+			"fjarverandi": 752,
+			"já": 2055,
+			"nei": 191,
+			"greiðir ekki atkvæði": 2
+		},
+		"votePercentages": {
+			"standsTaken": 71.53,
+			"idle": 0.06,
+			"away": 23.95,
+			"absent": 4.46
+		}
+	},
+	"653": {
+		"id": 653,
+		"voteSummary": {
+			"numberOfVotes": 2,
+			"numberOfStandsTaken": 2,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 2
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"656": {
+		"id": 656,
+		"voteSummary": {
+			"numberOfVotes": 3135,
+			"numberOfStandsTaken": 2247,
+			"numberOfAway": 717,
+			"numberOfAbsent": 131,
+			"numberOfIdleVotes": 40
+		},
+		"voteTypes": {
+			"fjarverandi": 717,
+			"já": 2069,
+			"boðaði fjarvist": 131,
+			"nei": 178,
+			"greiðir ekki atkvæði": 40
+		},
+		"votePercentages": {
+			"standsTaken": 71.67,
+			"idle": 1.28,
+			"away": 22.87,
+			"absent": 4.18
+		}
+	},
+	"658": {
+		"id": 658,
+		"voteSummary": {
+			"numberOfVotes": 3126,
+			"numberOfStandsTaken": 1391,
+			"numberOfAway": 1096,
+			"numberOfAbsent": 43,
+			"numberOfIdleVotes": 596
+		},
+		"voteTypes": {
+			"já": 1300,
+			"fjarverandi": 1096,
+			"greiðir ekki atkvæði": 596,
+			"boðaði fjarvist": 43,
+			"nei": 91
+		},
+		"votePercentages": {
+			"standsTaken": 44.5,
+			"idle": 19.07,
+			"away": 35.06,
+			"absent": 1.38
+		}
+	},
+	"660": {
+		"id": 660,
+		"voteSummary": {
+			"numberOfVotes": 2855,
+			"numberOfStandsTaken": 1378,
+			"numberOfAway": 1010,
+			"numberOfAbsent": 23,
+			"numberOfIdleVotes": 444
+		},
+		"voteTypes": {
+			"já": 1285,
+			"fjarverandi": 1010,
+			"nei": 93,
+			"greiðir ekki atkvæði": 444,
+			"boðaði fjarvist": 23
+		},
+		"votePercentages": {
+			"standsTaken": 48.27,
+			"idle": 15.55,
+			"away": 35.38,
+			"absent": 0.81
+		}
+	},
+	"662": {
+		"id": 662,
+		"voteSummary": {
+			"numberOfVotes": 28,
+			"numberOfStandsTaken": 21,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 7
+		},
+		"voteTypes": {
+			"já": 20,
+			"nei": 1,
+			"greiðir ekki atkvæði": 7
+		},
+		"votePercentages": {
+			"standsTaken": 75,
+			"idle": 25,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"676": {
+		"id": 676,
+		"voteSummary": {
+			"numberOfVotes": 22,
+			"numberOfStandsTaken": 9,
+			"numberOfAway": 12,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 1
+		},
+		"voteTypes": {
+			"nei": 1,
+			"já": 8,
+			"fjarverandi": 12,
+			"greiðir ekki atkvæði": 1
+		},
+		"votePercentages": {
+			"standsTaken": 40.91,
+			"idle": 4.55,
+			"away": 54.55,
+			"absent": 0
+		}
+	},
+	"678": {
+		"id": 678,
+		"voteSummary": {
+			"numberOfVotes": 3006,
+			"numberOfStandsTaken": 1516,
+			"numberOfAway": 869,
+			"numberOfAbsent": 15,
+			"numberOfIdleVotes": 606
+		},
+		"voteTypes": {
+			"fjarverandi": 869,
+			"nei": 100,
+			"já": 1416,
+			"greiðir ekki atkvæði": 606,
+			"boðaði fjarvist": 15
+		},
+		"votePercentages": {
+			"standsTaken": 50.43,
+			"idle": 20.16,
+			"away": 28.91,
+			"absent": 0.5
+		}
+	},
+	"679": {
+		"id": 679,
+		"voteSummary": {
+			"numberOfVotes": 802,
+			"numberOfStandsTaken": 588,
+			"numberOfAway": 52,
+			"numberOfAbsent": 16,
+			"numberOfIdleVotes": 146
+		},
+		"voteTypes": {
+			"já": 517,
+			"boðaði fjarvist": 16,
+			"greiðir ekki atkvæði": 146,
+			"nei": 71,
+			"fjarverandi": 52
+		},
+		"votePercentages": {
+			"standsTaken": 73.32,
+			"idle": 18.2,
+			"away": 6.48,
+			"absent": 2
+		}
+	},
+	"683": {
+		"id": 683,
+		"voteSummary": {
+			"numberOfVotes": 1844,
+			"numberOfStandsTaken": 883,
+			"numberOfAway": 487,
+			"numberOfAbsent": 75,
+			"numberOfIdleVotes": 399
+		},
+		"voteTypes": {
+			"fjarverandi": 487,
+			"boðaði fjarvist": 75,
+			"já": 812,
+			"nei": 71,
+			"greiðir ekki atkvæði": 399
+		},
+		"votePercentages": {
+			"standsTaken": 47.89,
+			"idle": 21.64,
+			"away": 26.41,
+			"absent": 4.07
+		}
+	},
+	"686": {
+		"id": 686,
+		"voteSummary": {
+			"numberOfVotes": 3049,
+			"numberOfStandsTaken": 1899,
+			"numberOfAway": 935,
+			"numberOfAbsent": 207,
+			"numberOfIdleVotes": 8
+		},
+		"voteTypes": {
+			"fjarverandi": 935,
+			"já": 1719,
+			"boðaði fjarvist": 207,
+			"nei": 180,
+			"greiðir ekki atkvæði": 8
+		},
+		"votePercentages": {
+			"standsTaken": 62.28,
+			"idle": 0.26,
+			"away": 30.67,
+			"absent": 6.79
+		}
+	},
+	"687": {
+		"id": 687,
+		"voteSummary": {
+			"numberOfVotes": 3134,
+			"numberOfStandsTaken": 2111,
+			"numberOfAway": 953,
+			"numberOfAbsent": 66,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"já": 1936,
+			"boðaði fjarvist": 66,
+			"fjarverandi": 953,
+			"nei": 175,
+			"greiðir ekki atkvæði": 4
+		},
+		"votePercentages": {
+			"standsTaken": 67.36,
+			"idle": 0.13,
+			"away": 30.41,
+			"absent": 2.11
+		}
+	},
+	"688": {
+		"id": 688,
+		"voteSummary": {
+			"numberOfVotes": 3139,
+			"numberOfStandsTaken": 2054,
+			"numberOfAway": 957,
+			"numberOfAbsent": 125,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"já": 1862,
+			"fjarverandi": 957,
+			"nei": 192,
+			"boðaði fjarvist": 125,
+			"greiðir ekki atkvæði": 3
+		},
+		"votePercentages": {
+			"standsTaken": 65.43,
+			"idle": 0.1,
+			"away": 30.49,
+			"absent": 3.98
+		}
+	},
+	"690": {
+		"id": 690,
+		"voteSummary": {
+			"numberOfVotes": 3040,
+			"numberOfStandsTaken": 1779,
+			"numberOfAway": 508,
+			"numberOfAbsent": 176,
+			"numberOfIdleVotes": 577
+		},
+		"voteTypes": {
+			"fjarverandi": 508,
+			"já": 1587,
+			"boðaði fjarvist": 176,
+			"nei": 192,
+			"greiðir ekki atkvæði": 577
+		},
+		"votePercentages": {
+			"standsTaken": 58.52,
+			"idle": 18.98,
+			"away": 16.71,
+			"absent": 5.79
+		}
+	},
+	"691": {
+		"id": 691,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2400,
+			"numberOfAway": 546,
+			"numberOfAbsent": 190,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"boðaði fjarvist": 190,
+			"já": 2198,
+			"nei": 202,
+			"fjarverandi": 546,
+			"greiðir ekki atkvæði": 4
+		},
+		"votePercentages": {
+			"standsTaken": 76.43,
+			"idle": 0.13,
+			"away": 17.39,
+			"absent": 6.05
+		}
+	},
+	"693": {
+		"id": 693,
+		"voteSummary": {
+			"numberOfVotes": 3139,
+			"numberOfStandsTaken": 2054,
+			"numberOfAway": 957,
+			"numberOfAbsent": 122,
+			"numberOfIdleVotes": 6
+		},
+		"voteTypes": {
+			"fjarverandi": 957,
+			"já": 1873,
+			"boðaði fjarvist": 122,
+			"nei": 181,
+			"greiðir ekki atkvæði": 6
+		},
+		"votePercentages": {
+			"standsTaken": 65.43,
+			"idle": 0.19,
+			"away": 30.49,
+			"absent": 3.89
+		}
+	},
+	"694": {
+		"id": 694,
+		"voteSummary": {
+			"numberOfVotes": 3080,
+			"numberOfStandsTaken": 2419,
+			"numberOfAway": 352,
+			"numberOfAbsent": 251,
+			"numberOfIdleVotes": 58
+		},
+		"voteTypes": {
+			"fjarverandi": 352,
+			"já": 2227,
+			"boðaði fjarvist": 251,
+			"nei": 192,
+			"greiðir ekki atkvæði": 58
+		},
+		"votePercentages": {
+			"standsTaken": 78.54,
+			"idle": 1.88,
+			"away": 11.43,
+			"absent": 8.15
+		}
+	},
+	"703": {
+		"id": 703,
+		"voteSummary": {
+			"numberOfVotes": 2860,
+			"numberOfStandsTaken": 2135,
+			"numberOfAway": 509,
+			"numberOfAbsent": 205,
+			"numberOfIdleVotes": 11
+		},
+		"voteTypes": {
+			"já": 1939,
+			"boðaði fjarvist": 205,
+			"fjarverandi": 509,
+			"nei": 196,
+			"greiðir ekki atkvæði": 11
+		},
+		"votePercentages": {
+			"standsTaken": 74.65,
+			"idle": 0.38,
+			"away": 17.8,
+			"absent": 7.17
+		}
+	},
+	"704": {
+		"id": 704,
+		"voteSummary": {
+			"numberOfVotes": 3127,
+			"numberOfStandsTaken": 1941,
+			"numberOfAway": 502,
+			"numberOfAbsent": 25,
+			"numberOfIdleVotes": 659
+		},
+		"voteTypes": {
+			"já": 1822,
+			"fjarverandi": 502,
+			"nei": 119,
+			"greiðir ekki atkvæði": 659,
+			"boðaði fjarvist": 25
+		},
+		"votePercentages": {
+			"standsTaken": 62.07,
+			"idle": 21.07,
+			"away": 16.05,
+			"absent": 0.8
+		}
+	},
+	"705": {
+		"id": 705,
+		"voteSummary": {
+			"numberOfVotes": 3108,
+			"numberOfStandsTaken": 2116,
+			"numberOfAway": 273,
+			"numberOfAbsent": 41,
+			"numberOfIdleVotes": 678
+		},
+		"voteTypes": {
+			"já": 1971,
+			"fjarverandi": 273,
+			"nei": 145,
+			"greiðir ekki atkvæði": 678,
+			"boðaði fjarvist": 41
+		},
+		"votePercentages": {
+			"standsTaken": 68.08,
+			"idle": 21.81,
+			"away": 8.78,
+			"absent": 1.32
+		}
+	},
+	"706": {
+		"id": 706,
+		"voteSummary": {
+			"numberOfVotes": 3039,
+			"numberOfStandsTaken": 2394,
+			"numberOfAway": 597,
+			"numberOfAbsent": 36,
+			"numberOfIdleVotes": 12
+		},
+		"voteTypes": {
+			"fjarverandi": 597,
+			"já": 2186,
+			"nei": 208,
+			"greiðir ekki atkvæði": 12,
+			"boðaði fjarvist": 36
+		},
+		"votePercentages": {
+			"standsTaken": 78.78,
+			"idle": 0.39,
+			"away": 19.64,
+			"absent": 1.18
+		}
+	},
+	"707": {
+		"id": 707,
+		"voteSummary": {
+			"numberOfVotes": 2634,
+			"numberOfStandsTaken": 1968,
+			"numberOfAway": 338,
+			"numberOfAbsent": 325,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"boðaði fjarvist": 325,
+			"já": 1835,
+			"fjarverandi": 338,
+			"nei": 133,
+			"greiðir ekki atkvæði": 3
+		},
+		"votePercentages": {
+			"standsTaken": 74.72,
+			"idle": 0.11,
+			"away": 12.83,
+			"absent": 12.34
+		}
+	},
+	"708": {
+		"id": 708,
+		"voteSummary": {
+			"numberOfVotes": 2737,
+			"numberOfStandsTaken": 1694,
+			"numberOfAway": 467,
+			"numberOfAbsent": 38,
+			"numberOfIdleVotes": 538
+		},
+		"voteTypes": {
+			"já": 1596,
+			"fjarverandi": 467,
+			"greiðir ekki atkvæði": 538,
+			"nei": 98,
+			"boðaði fjarvist": 38
+		},
+		"votePercentages": {
+			"standsTaken": 61.89,
+			"idle": 19.66,
+			"away": 17.06,
+			"absent": 1.39
+		}
+	},
+	"712": {
+		"id": 712,
+		"voteSummary": {
+			"numberOfVotes": 3125,
+			"numberOfStandsTaken": 1578,
+			"numberOfAway": 925,
+			"numberOfAbsent": 25,
+			"numberOfIdleVotes": 597
+		},
+		"voteTypes": {
+			"fjarverandi": 925,
+			"já": 1467,
+			"boðaði fjarvist": 25,
+			"nei": 111,
+			"greiðir ekki atkvæði": 597
+		},
+		"votePercentages": {
+			"standsTaken": 50.5,
+			"idle": 19.1,
+			"away": 29.6,
+			"absent": 0.8
+		}
+	},
+	"714": {
+		"id": 714,
+		"voteSummary": {
+			"numberOfVotes": 3095,
+			"numberOfStandsTaken": 1957,
+			"numberOfAway": 473,
+			"numberOfAbsent": 80,
+			"numberOfIdleVotes": 585
+		},
+		"voteTypes": {
+			"já": 1777,
+			"fjarverandi": 473,
+			"nei": 180,
+			"greiðir ekki atkvæði": 585,
+			"boðaði fjarvist": 80
+		},
+		"votePercentages": {
+			"standsTaken": 63.23,
+			"idle": 18.9,
+			"away": 15.28,
+			"absent": 2.58
+		}
+	},
+	"715": {
+		"id": 715,
+		"voteSummary": {
+			"numberOfVotes": 1239,
+			"numberOfStandsTaken": 803,
+			"numberOfAway": 155,
+			"numberOfAbsent": 18,
+			"numberOfIdleVotes": 263
+		},
+		"voteTypes": {
+			"já": 761,
+			"nei": 42,
+			"fjarverandi": 155,
+			"greiðir ekki atkvæði": 263,
+			"boðaði fjarvist": 18
+		},
+		"votePercentages": {
+			"standsTaken": 64.81,
+			"idle": 21.23,
+			"away": 12.51,
+			"absent": 1.45
+		}
+	},
+	"719": {
+		"id": 719,
+		"voteSummary": {
+			"numberOfVotes": 3138,
+			"numberOfStandsTaken": 1698,
+			"numberOfAway": 729,
+			"numberOfAbsent": 45,
+			"numberOfIdleVotes": 666
+		},
+		"voteTypes": {
+			"já": 1589,
+			"fjarverandi": 729,
+			"nei": 109,
+			"greiðir ekki atkvæði": 666,
+			"boðaði fjarvist": 45
+		},
+		"votePercentages": {
+			"standsTaken": 54.11,
+			"idle": 21.22,
+			"away": 23.23,
+			"absent": 1.43
+		}
+	},
+	"721": {
+		"id": 721,
+		"voteSummary": {
+			"numberOfVotes": 3027,
+			"numberOfStandsTaken": 2590,
+			"numberOfAway": 265,
+			"numberOfAbsent": 169,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"já": 2371,
+			"fjarverandi": 265,
+			"boðaði fjarvist": 169,
+			"nei": 219,
+			"greiðir ekki atkvæði": 3
+		},
+		"votePercentages": {
+			"standsTaken": 85.56,
+			"idle": 0.1,
+			"away": 8.75,
+			"absent": 5.58
+		}
+	},
+	"722": {
+		"id": 722,
+		"voteSummary": {
+			"numberOfVotes": 2311,
+			"numberOfStandsTaken": 1250,
+			"numberOfAway": 677,
+			"numberOfAbsent": 382,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"já": 1111,
+			"fjarverandi": 677,
+			"boðaði fjarvist": 382,
+			"nei": 139,
+			"greiðir ekki atkvæði": 2
+		},
+		"votePercentages": {
+			"standsTaken": 54.09,
+			"idle": 0.09,
+			"away": 29.29,
+			"absent": 16.53
+		}
+	},
+	"726": {
+		"id": 726,
+		"voteSummary": {
+			"numberOfVotes": 3123,
+			"numberOfStandsTaken": 1789,
+			"numberOfAway": 1000,
+			"numberOfAbsent": 332,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"fjarverandi": 1000,
+			"boðaði fjarvist": 332,
+			"já": 1653,
+			"nei": 136,
+			"greiðir ekki atkvæði": 2
+		},
+		"votePercentages": {
+			"standsTaken": 57.28,
+			"idle": 0.06,
+			"away": 32.02,
+			"absent": 10.63
+		}
+	},
+	"728": {
+		"id": 728,
+		"voteSummary": {
+			"numberOfVotes": 3103,
+			"numberOfStandsTaken": 1562,
+			"numberOfAway": 350,
+			"numberOfAbsent": 152,
+			"numberOfIdleVotes": 1039
+		},
+		"voteTypes": {
+			"fjarverandi": 350,
+			"greiðir ekki atkvæði": 1039,
+			"já": 1397,
+			"boðaði fjarvist": 152,
+			"nei": 165
+		},
+		"votePercentages": {
+			"standsTaken": 50.34,
+			"idle": 33.48,
+			"away": 11.28,
+			"absent": 4.9
+		}
+	},
+	"729": {
+		"id": 729,
+		"voteSummary": {
+			"numberOfVotes": 3035,
+			"numberOfStandsTaken": 1660,
+			"numberOfAway": 1309,
+			"numberOfAbsent": 62,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"boðaði fjarvist": 62,
+			"já": 1504,
+			"fjarverandi": 1309,
+			"nei": 156,
+			"greiðir ekki atkvæði": 4
+		},
+		"votePercentages": {
+			"standsTaken": 54.7,
+			"idle": 0.13,
+			"away": 43.13,
+			"absent": 2.04
+		}
+	},
+	"730": {
+		"id": 730,
+		"voteSummary": {
+			"numberOfVotes": 3118,
+			"numberOfStandsTaken": 2077,
+			"numberOfAway": 392,
+			"numberOfAbsent": 23,
+			"numberOfIdleVotes": 626
+		},
+		"voteTypes": {
+			"fjarverandi": 392,
+			"já": 1883,
+			"greiðir ekki atkvæði": 626,
+			"nei": 194,
+			"boðaði fjarvist": 23
+		},
+		"votePercentages": {
+			"standsTaken": 66.61,
+			"idle": 20.08,
+			"away": 12.57,
+			"absent": 0.74
+		}
+	},
+	"737": {
+		"id": 737,
+		"voteSummary": {
+			"numberOfVotes": 167,
+			"numberOfStandsTaken": 108,
+			"numberOfAway": 20,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 39
+		},
+		"voteTypes": {
+			"nei": 4,
+			"greiðir ekki atkvæði": 39,
+			"já": 104,
+			"fjarverandi": 20
+		},
+		"votePercentages": {
+			"standsTaken": 64.67,
+			"idle": 23.35,
+			"away": 11.98,
+			"absent": 0
+		}
+	},
+	"934": {
+		"id": 934,
+		"voteSummary": {
+			"numberOfVotes": 3049,
+			"numberOfStandsTaken": 2583,
+			"numberOfAway": 452,
+			"numberOfAbsent": 14,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 2383,
+			"nei": 200,
+			"fjarverandi": 452,
+			"boðaði fjarvist": 14
+		},
+		"votePercentages": {
+			"standsTaken": 84.72,
+			"idle": 0,
+			"away": 14.82,
+			"absent": 0.46
+		}
+	},
+	"999": {
+		"id": 999,
+		"voteSummary": {
+			"numberOfVotes": 316,
+			"numberOfStandsTaken": 300,
+			"numberOfAway": 12,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"já": 269,
+			"nei": 31,
+			"greiðir ekki atkvæði": 4,
+			"fjarverandi": 12
+		},
+		"votePercentages": {
+			"standsTaken": 94.94,
+			"idle": 1.27,
+			"away": 3.8,
+			"absent": 0
+		}
+	},
+	"1001": {
+		"id": 1001,
+		"voteSummary": {
+			"numberOfVotes": 281,
+			"numberOfStandsTaken": 141,
+			"numberOfAway": 52,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 88
+		},
+		"voteTypes": {
+			"já": 127,
+			"greiðir ekki atkvæði": 88,
+			"fjarverandi": 52,
+			"nei": 14
+		},
+		"votePercentages": {
+			"standsTaken": 50.18,
+			"idle": 31.32,
+			"away": 18.51,
+			"absent": 0
+		}
+	},
+	"1002": {
+		"id": 1002,
+		"voteSummary": {
+			"numberOfVotes": 32,
+			"numberOfStandsTaken": 7,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 24
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 24,
+			"já": 5,
+			"nei": 2,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 21.88,
+			"idle": 75,
+			"away": 3.13,
+			"absent": 0
+		}
+	},
+	"1012": {
+		"id": 1012,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2064,
+			"numberOfAway": 290,
+			"numberOfAbsent": 74,
+			"numberOfIdleVotes": 712
+		},
+		"voteTypes": {
+			"já": 1874,
+			"fjarverandi": 290,
+			"greiðir ekki atkvæði": 712,
+			"nei": 190,
+			"boðaði fjarvist": 74
+		},
+		"votePercentages": {
+			"standsTaken": 65.73,
+			"idle": 22.68,
+			"away": 9.24,
+			"absent": 2.36
+		}
+	},
+	"1018": {
+		"id": 1018,
+		"voteSummary": {
+			"numberOfVotes": 2181,
+			"numberOfStandsTaken": 1718,
+			"numberOfAway": 365,
+			"numberOfAbsent": 34,
+			"numberOfIdleVotes": 64
+		},
+		"voteTypes": {
+			"já": 1568,
+			"nei": 150,
+			"fjarverandi": 365,
+			"greiðir ekki atkvæði": 64,
+			"boðaði fjarvist": 34
+		},
+		"votePercentages": {
+			"standsTaken": 78.77,
+			"idle": 2.93,
+			"away": 16.74,
+			"absent": 1.56
+		}
+	},
+	"1031": {
+		"id": 1031,
+		"voteSummary": {
+			"numberOfVotes": 1940,
+			"numberOfStandsTaken": 1294,
+			"numberOfAway": 119,
+			"numberOfAbsent": 13,
+			"numberOfIdleVotes": 514
+		},
+		"voteTypes": {
+			"já": 1181,
+			"greiðir ekki atkvæði": 514,
+			"nei": 113,
+			"fjarverandi": 119,
+			"boðaði fjarvist": 13
+		},
+		"votePercentages": {
+			"standsTaken": 66.7,
+			"idle": 26.49,
+			"away": 6.13,
+			"absent": 0.67
+		}
+	},
+	"1046": {
+		"id": 1046,
+		"voteSummary": {
+			"numberOfVotes": 90,
+			"numberOfStandsTaken": 88,
+			"numberOfAway": 2,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 82,
+			"nei": 6,
+			"fjarverandi": 2
+		},
+		"votePercentages": {
+			"standsTaken": 97.78,
+			"idle": 0,
+			"away": 2.22,
+			"absent": 0
+		}
+	},
+	"1130": {
+		"id": 1130,
+		"voteSummary": {
+			"numberOfVotes": 118,
+			"numberOfStandsTaken": 35,
+			"numberOfAway": 3,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 80
+		},
+		"voteTypes": {
+			"já": 31,
+			"fjarverandi": 3,
+			"greiðir ekki atkvæði": 80,
+			"nei": 4
+		},
+		"votePercentages": {
+			"standsTaken": 29.66,
+			"idle": 67.8,
+			"away": 2.54,
+			"absent": 0
+		}
+	},
+	"1149": {
+		"id": 1149,
+		"voteSummary": {
+			"numberOfVotes": 26,
+			"numberOfStandsTaken": 26,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 25,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1157": {
+		"id": 1157,
+		"voteSummary": {
+			"numberOfVotes": 3131,
+			"numberOfStandsTaken": 2510,
+			"numberOfAway": 589,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 32
+		},
+		"voteTypes": {
+			"já": 2309,
+			"nei": 201,
+			"greiðir ekki atkvæði": 32,
+			"fjarverandi": 589
+		},
+		"votePercentages": {
+			"standsTaken": 80.17,
+			"idle": 1.02,
+			"away": 18.81,
+			"absent": 0
+		}
+	},
+	"1158": {
+		"id": 1158,
+		"voteSummary": {
+			"numberOfVotes": 2626,
+			"numberOfStandsTaken": 1322,
+			"numberOfAway": 672,
+			"numberOfAbsent": 82,
+			"numberOfIdleVotes": 550
+		},
+		"voteTypes": {
+			"já": 1240,
+			"fjarverandi": 672,
+			"boðaði fjarvist": 82,
+			"nei": 82,
+			"greiðir ekki atkvæði": 550
+		},
+		"votePercentages": {
+			"standsTaken": 50.34,
+			"idle": 20.94,
+			"away": 25.59,
+			"absent": 3.12
+		}
+	},
+	"1159": {
+		"id": 1159,
+		"voteSummary": {
+			"numberOfVotes": 3138,
+			"numberOfStandsTaken": 2209,
+			"numberOfAway": 249,
+			"numberOfAbsent": 5,
+			"numberOfIdleVotes": 675
+		},
+		"voteTypes": {
+			"já": 2107,
+			"fjarverandi": 249,
+			"nei": 102,
+			"greiðir ekki atkvæði": 675,
+			"boðaði fjarvist": 5
+		},
+		"votePercentages": {
+			"standsTaken": 70.4,
+			"idle": 21.51,
+			"away": 7.93,
+			"absent": 0.16
+		}
+	},
+	"1160": {
+		"id": 1160,
+		"voteSummary": {
+			"numberOfVotes": 3128,
+			"numberOfStandsTaken": 2175,
+			"numberOfAway": 541,
+			"numberOfAbsent": 376,
+			"numberOfIdleVotes": 36
+		},
+		"voteTypes": {
+			"fjarverandi": 541,
+			"já": 1994,
+			"boðaði fjarvist": 376,
+			"greiðir ekki atkvæði": 36,
+			"nei": 181
+		},
+		"votePercentages": {
+			"standsTaken": 69.53,
+			"idle": 1.15,
+			"away": 17.3,
+			"absent": 12.02
+		}
+	},
+	"1161": {
+		"id": 1161,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2851,
+			"numberOfAway": 228,
+			"numberOfAbsent": 46,
+			"numberOfIdleVotes": 15
+		},
+		"voteTypes": {
+			"já": 2630,
+			"fjarverandi": 228,
+			"nei": 221,
+			"greiðir ekki atkvæði": 15,
+			"boðaði fjarvist": 46
+		},
+		"votePercentages": {
+			"standsTaken": 90.8,
+			"idle": 0.48,
+			"away": 7.26,
+			"absent": 1.46
+		}
+	},
+	"1162": {
+		"id": 1162,
+		"voteSummary": {
+			"numberOfVotes": 3136,
+			"numberOfStandsTaken": 2773,
+			"numberOfAway": 348,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 15
+		},
+		"voteTypes": {
+			"já": 2552,
+			"nei": 221,
+			"fjarverandi": 348,
+			"greiðir ekki atkvæði": 15
+		},
+		"votePercentages": {
+			"standsTaken": 88.42,
+			"idle": 0.48,
+			"away": 11.1,
+			"absent": 0
+		}
+	},
+	"1163": {
+		"id": 1163,
+		"voteSummary": {
+			"numberOfVotes": 2676,
+			"numberOfStandsTaken": 2105,
+			"numberOfAway": 371,
+			"numberOfAbsent": 194,
+			"numberOfIdleVotes": 6
+		},
+		"voteTypes": {
+			"já": 1945,
+			"boðaði fjarvist": 194,
+			"nei": 160,
+			"fjarverandi": 371,
+			"greiðir ekki atkvæði": 6
+		},
+		"votePercentages": {
+			"standsTaken": 78.66,
+			"idle": 0.22,
+			"away": 13.86,
+			"absent": 7.25
+		}
+	},
+	"1164": {
+		"id": 1164,
+		"voteSummary": {
+			"numberOfVotes": 3068,
+			"numberOfStandsTaken": 2679,
+			"numberOfAway": 342,
+			"numberOfAbsent": 47,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 2459,
+			"fjarverandi": 342,
+			"boðaði fjarvist": 47,
+			"nei": 220
+		},
+		"votePercentages": {
+			"standsTaken": 87.32,
+			"idle": 0,
+			"away": 11.15,
+			"absent": 1.53
+		}
+	},
+	"1165": {
+		"id": 1165,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2838,
+			"numberOfAway": 250,
+			"numberOfAbsent": 42,
+			"numberOfIdleVotes": 10
+		},
+		"voteTypes": {
+			"já": 2605,
+			"boðaði fjarvist": 42,
+			"nei": 233,
+			"fjarverandi": 250,
+			"greiðir ekki atkvæði": 10
+		},
+		"votePercentages": {
+			"standsTaken": 90.38,
+			"idle": 0.32,
+			"away": 7.96,
+			"absent": 1.34
+		}
+	},
+	"1166": {
+		"id": 1166,
+		"voteSummary": {
+			"numberOfVotes": 2925,
+			"numberOfStandsTaken": 1615,
+			"numberOfAway": 197,
+			"numberOfAbsent": 35,
+			"numberOfIdleVotes": 1078
+		},
+		"voteTypes": {
+			"fjarverandi": 197,
+			"boðaði fjarvist": 35,
+			"já": 1483,
+			"greiðir ekki atkvæði": 1078,
+			"nei": 132
+		},
+		"votePercentages": {
+			"standsTaken": 55.21,
+			"idle": 36.85,
+			"away": 6.74,
+			"absent": 1.2
+		}
+	},
+	"1167": {
+		"id": 1167,
+		"voteSummary": {
+			"numberOfVotes": 3132,
+			"numberOfStandsTaken": 2590,
+			"numberOfAway": 466,
+			"numberOfAbsent": 64,
+			"numberOfIdleVotes": 12
+		},
+		"voteTypes": {
+			"fjarverandi": 466,
+			"já": 2391,
+			"nei": 199,
+			"boðaði fjarvist": 64,
+			"greiðir ekki atkvæði": 12
+		},
+		"votePercentages": {
+			"standsTaken": 82.69,
+			"idle": 0.38,
+			"away": 14.88,
+			"absent": 2.04
+		}
+	},
+	"1168": {
+		"id": 1168,
+		"voteSummary": {
+			"numberOfVotes": 1845,
+			"numberOfStandsTaken": 403,
+			"numberOfAway": 208,
+			"numberOfAbsent": 9,
+			"numberOfIdleVotes": 1225
+		},
+		"voteTypes": {
+			"fjarverandi": 208,
+			"greiðir ekki atkvæði": 1225,
+			"nei": 79,
+			"já": 324,
+			"boðaði fjarvist": 9
+		},
+		"votePercentages": {
+			"standsTaken": 21.84,
+			"idle": 66.4,
+			"away": 11.27,
+			"absent": 0.49
+		}
+	},
+	"1169": {
+		"id": 1169,
+		"voteSummary": {
+			"numberOfVotes": 3125,
+			"numberOfStandsTaken": 2435,
+			"numberOfAway": 459,
+			"numberOfAbsent": 227,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"já": 2235,
+			"fjarverandi": 459,
+			"nei": 200,
+			"boðaði fjarvist": 227,
+			"greiðir ekki atkvæði": 4
+		},
+		"votePercentages": {
+			"standsTaken": 77.92,
+			"idle": 0.13,
+			"away": 14.69,
+			"absent": 7.26
+		}
+	},
+	"1170": {
+		"id": 1170,
+		"voteSummary": {
+			"numberOfVotes": 3133,
+			"numberOfStandsTaken": 2756,
+			"numberOfAway": 246,
+			"numberOfAbsent": 127,
+			"numberOfIdleVotes": 4
+		},
+		"voteTypes": {
+			"fjarverandi": 246,
+			"já": 2553,
+			"boðaði fjarvist": 127,
+			"nei": 203,
+			"greiðir ekki atkvæði": 4
+		},
+		"votePercentages": {
+			"standsTaken": 87.97,
+			"idle": 0.13,
+			"away": 7.85,
+			"absent": 4.05
+		}
+	},
+	"1171": {
+		"id": 1171,
+		"voteSummary": {
+			"numberOfVotes": 3137,
+			"numberOfStandsTaken": 2058,
+			"numberOfAway": 360,
+			"numberOfAbsent": 45,
+			"numberOfIdleVotes": 674
+		},
+		"voteTypes": {
+			"fjarverandi": 360,
+			"já": 1945,
+			"greiðir ekki atkvæði": 674,
+			"boðaði fjarvist": 45,
+			"nei": 113
+		},
+		"votePercentages": {
+			"standsTaken": 65.6,
+			"idle": 21.49,
+			"away": 11.48,
+			"absent": 1.43
+		}
+	},
+	"1172": {
+		"id": 1172,
+		"voteSummary": {
+			"numberOfVotes": 3121,
+			"numberOfStandsTaken": 1785,
+			"numberOfAway": 502,
+			"numberOfAbsent": 234,
+			"numberOfIdleVotes": 600
+		},
+		"voteTypes": {
+			"já": 1694,
+			"fjarverandi": 502,
+			"nei": 91,
+			"greiðir ekki atkvæði": 600,
+			"boðaði fjarvist": 234
+		},
+		"votePercentages": {
+			"standsTaken": 57.19,
+			"idle": 19.22,
+			"away": 16.08,
+			"absent": 7.5
+		}
+	},
+	"1173": {
+		"id": 1173,
+		"voteSummary": {
+			"numberOfVotes": 3078,
+			"numberOfStandsTaken": 2722,
+			"numberOfAway": 303,
+			"numberOfAbsent": 28,
+			"numberOfIdleVotes": 25
+		},
+		"voteTypes": {
+			"já": 2495,
+			"fjarverandi": 303,
+			"nei": 227,
+			"boðaði fjarvist": 28,
+			"greiðir ekki atkvæði": 25
+		},
+		"votePercentages": {
+			"standsTaken": 88.43,
+			"idle": 0.81,
+			"away": 9.84,
+			"absent": 0.91
+		}
+	},
+	"1174": {
+		"id": 1174,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2658,
+			"numberOfAway": 391,
+			"numberOfAbsent": 86,
+			"numberOfIdleVotes": 5
+		},
+		"voteTypes": {
+			"já": 2435,
+			"fjarverandi": 391,
+			"boðaði fjarvist": 86,
+			"nei": 223,
+			"greiðir ekki atkvæði": 5
+		},
+		"votePercentages": {
+			"standsTaken": 84.65,
+			"idle": 0.16,
+			"away": 12.45,
+			"absent": 2.74
+		}
+	},
+	"1175": {
+		"id": 1175,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2764,
+			"numberOfAway": 232,
+			"numberOfAbsent": 138,
+			"numberOfIdleVotes": 6
+		},
+		"voteTypes": {
+			"fjarverandi": 232,
+			"boðaði fjarvist": 138,
+			"já": 2557,
+			"nei": 207,
+			"greiðir ekki atkvæði": 6
+		},
+		"votePercentages": {
+			"standsTaken": 88.03,
+			"idle": 0.19,
+			"away": 7.39,
+			"absent": 4.39
+		}
+	},
+	"1176": {
+		"id": 1176,
+		"voteSummary": {
+			"numberOfVotes": 3138,
+			"numberOfStandsTaken": 2709,
+			"numberOfAway": 333,
+			"numberOfAbsent": 94,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"fjarverandi": 333,
+			"já": 2497,
+			"nei": 212,
+			"greiðir ekki atkvæði": 2,
+			"boðaði fjarvist": 94
+		},
+		"votePercentages": {
+			"standsTaken": 86.33,
+			"idle": 0.06,
+			"away": 10.61,
+			"absent": 3
+		}
+	},
+	"1177": {
+		"id": 1177,
+		"voteSummary": {
+			"numberOfVotes": 3051,
+			"numberOfStandsTaken": 2704,
+			"numberOfAway": 268,
+			"numberOfAbsent": 49,
+			"numberOfIdleVotes": 30
+		},
+		"voteTypes": {
+			"já": 2479,
+			"boðaði fjarvist": 49,
+			"nei": 225,
+			"fjarverandi": 268,
+			"greiðir ekki atkvæði": 30
+		},
+		"votePercentages": {
+			"standsTaken": 88.63,
+			"idle": 0.98,
+			"away": 8.78,
+			"absent": 1.61
+		}
+	},
+	"1178": {
+		"id": 1178,
+		"voteSummary": {
+			"numberOfVotes": 3138,
+			"numberOfStandsTaken": 2959,
+			"numberOfAway": 49,
+			"numberOfAbsent": 130,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 2742,
+			"boðaði fjarvist": 130,
+			"nei": 217,
+			"fjarverandi": 49
+		},
+		"votePercentages": {
+			"standsTaken": 94.3,
+			"idle": 0,
+			"away": 1.56,
+			"absent": 4.14
+		}
+	},
+	"1179": {
+		"id": 1179,
+		"voteSummary": {
+			"numberOfVotes": 3127,
+			"numberOfStandsTaken": 2852,
+			"numberOfAway": 132,
+			"numberOfAbsent": 127,
+			"numberOfIdleVotes": 16
+		},
+		"voteTypes": {
+			"já": 2615,
+			"fjarverandi": 132,
+			"nei": 237,
+			"greiðir ekki atkvæði": 16,
+			"boðaði fjarvist": 127
+		},
+		"votePercentages": {
+			"standsTaken": 91.21,
+			"idle": 0.51,
+			"away": 4.22,
+			"absent": 4.06
+		}
+	},
+	"1180": {
+		"id": 1180,
+		"voteSummary": {
+			"numberOfVotes": 3140,
+			"numberOfStandsTaken": 2799,
+			"numberOfAway": 197,
+			"numberOfAbsent": 142,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"fjarverandi": 197,
+			"já": 2579,
+			"nei": 220,
+			"boðaði fjarvist": 142,
+			"greiðir ekki atkvæði": 2
+		},
+		"votePercentages": {
+			"standsTaken": 89.14,
+			"idle": 0.06,
+			"away": 6.27,
+			"absent": 4.52
+		}
+	},
+	"1181": {
+		"id": 1181,
+		"voteSummary": {
+			"numberOfVotes": 2967,
+			"numberOfStandsTaken": 2163,
+			"numberOfAway": 444,
+			"numberOfAbsent": 344,
+			"numberOfIdleVotes": 16
+		},
+		"voteTypes": {
+			"já": 2033,
+			"boðaði fjarvist": 344,
+			"fjarverandi": 444,
+			"nei": 130,
+			"greiðir ekki atkvæði": 16
+		},
+		"votePercentages": {
+			"standsTaken": 72.9,
+			"idle": 0.54,
+			"away": 14.96,
+			"absent": 11.59
+		}
+	},
+	"1183": {
+		"id": 1183,
+		"voteSummary": {
+			"numberOfVotes": 18,
+			"numberOfStandsTaken": 16,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 1
+		},
+		"voteTypes": {
+			"já": 15,
+			"greiðir ekki atkvæði": 1,
+			"nei": 1,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 88.89,
+			"idle": 5.56,
+			"away": 5.56,
+			"absent": 0
+		}
+	},
+	"1186": {
+		"id": 1186,
+		"voteSummary": {
+			"numberOfVotes": 393,
+			"numberOfStandsTaken": 307,
+			"numberOfAway": 17,
+			"numberOfAbsent": 1,
+			"numberOfIdleVotes": 68
+		},
+		"voteTypes": {
+			"já": 292,
+			"greiðir ekki atkvæði": 68,
+			"boðaði fjarvist": 1,
+			"fjarverandi": 17,
+			"nei": 15
+		},
+		"votePercentages": {
+			"standsTaken": 78.12,
+			"idle": 17.3,
+			"away": 4.33,
+			"absent": 0.25
+		}
+	},
+	"1187": {
+		"id": 1187,
+		"voteSummary": {
+			"numberOfVotes": 5,
+			"numberOfStandsTaken": 5,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 5
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1188": {
+		"id": 1188,
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 13,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 13
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1196": {
+		"id": 1196,
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 10,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 3,
+			"já": 10
+		},
+		"votePercentages": {
+			"standsTaken": 76.92,
+			"idle": 23.08,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1199": {
+		"id": 1199,
+		"voteSummary": {
+			"numberOfVotes": 301,
+			"numberOfStandsTaken": 152,
+			"numberOfAway": 95,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 54
+		},
+		"voteTypes": {
+			"fjarverandi": 95,
+			"já": 138,
+			"greiðir ekki atkvæði": 54,
+			"nei": 14
+		},
+		"votePercentages": {
+			"standsTaken": 50.5,
+			"idle": 17.94,
+			"away": 31.56,
+			"absent": 0
+		}
+	},
+	"1200": {
+		"id": 1200,
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1201": {
+		"id": 1201,
+		"voteSummary": {
+			"numberOfVotes": 15,
+			"numberOfStandsTaken": 10,
+			"numberOfAway": 5,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 8,
+			"fjarverandi": 5,
+			"nei": 2
+		},
+		"votePercentages": {
+			"standsTaken": 66.67,
+			"idle": 0,
+			"away": 33.33,
+			"absent": 0
+		}
+	},
+	"1202": {
+		"id": 1202,
+		"voteSummary": {
+			"numberOfVotes": 203,
+			"numberOfStandsTaken": 202,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 198,
+			"nei": 4,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 99.51,
+			"idle": 0,
+			"away": 0.49,
+			"absent": 0
+		}
+	},
+	"1203": {
+		"id": 1203,
+		"voteSummary": {
+			"numberOfVotes": 933,
+			"numberOfStandsTaken": 926,
+			"numberOfAway": 7,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"nei": 89,
+			"já": 837,
+			"fjarverandi": 7
+		},
+		"votePercentages": {
+			"standsTaken": 99.25,
+			"idle": 0,
+			"away": 0.75,
+			"absent": 0
+		}
+	},
+	"1204": {
+		"id": 1204,
+		"voteSummary": {
+			"numberOfVotes": 19,
+			"numberOfStandsTaken": 16,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 3
+		},
+		"voteTypes": {
+			"greiðir ekki atkvæði": 3,
+			"já": 16
+		},
+		"votePercentages": {
+			"standsTaken": 84.21,
+			"idle": 15.79,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1205": {
+		"id": 1205,
+		"voteSummary": {
+			"numberOfVotes": 41,
+			"numberOfStandsTaken": 38,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 2
+		},
+		"voteTypes": {
+			"já": 38,
+			"greiðir ekki atkvæði": 2,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 92.68,
+			"idle": 4.88,
+			"away": 2.44,
+			"absent": 0
+		}
+	},
+	"1208": {
+		"id": 1208,
+		"voteSummary": {
+			"numberOfVotes": 12,
+			"numberOfStandsTaken": 11,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 11,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 91.67,
+			"idle": 0,
+			"away": 8.33,
+			"absent": 0
+		}
+	},
+	"1209": {
+		"id": 1209,
+		"voteSummary": {
+			"numberOfVotes": 18,
+			"numberOfStandsTaken": 18,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 16,
+			"nei": 2
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1211": {
+		"id": 1211,
+		"voteSummary": {
+			"numberOfVotes": 79,
+			"numberOfStandsTaken": 77,
+			"numberOfAway": 2,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 72,
+			"fjarverandi": 2,
+			"nei": 5
+		},
+		"votePercentages": {
+			"standsTaken": 97.47,
+			"idle": 0,
+			"away": 2.53,
+			"absent": 0
+		}
+	},
+	"1212": {
+		"id": 1212,
+		"voteSummary": {
+			"numberOfVotes": 82,
+			"numberOfStandsTaken": 55,
+			"numberOfAway": 27,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 44,
+			"nei": 11,
+			"fjarverandi": 27
+		},
+		"votePercentages": {
+			"standsTaken": 67.07,
+			"idle": 0,
+			"away": 32.93,
+			"absent": 0
+		}
+	},
+	"1213": {
+		"id": 1213,
+		"voteSummary": {
+			"numberOfVotes": 101,
+			"numberOfStandsTaken": 78,
+			"numberOfAway": 14,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 9
+		},
+		"voteTypes": {
+			"fjarverandi": 14,
+			"já": 76,
+			"greiðir ekki atkvæði": 9,
+			"nei": 2
+		},
+		"votePercentages": {
+			"standsTaken": 77.23,
+			"idle": 8.91,
+			"away": 13.86,
+			"absent": 0
+		}
+	},
+	"1214": {
+		"id": 1214,
+		"voteSummary": {
+			"numberOfVotes": 1189,
+			"numberOfStandsTaken": 696,
+			"numberOfAway": 185,
+			"numberOfAbsent": 3,
+			"numberOfIdleVotes": 305
+		},
+		"voteTypes": {
+			"nei": 27,
+			"greiðir ekki atkvæði": 305,
+			"já": 669,
+			"fjarverandi": 185,
+			"boðaði fjarvist": 3
+		},
+		"votePercentages": {
+			"standsTaken": 58.54,
+			"idle": 25.65,
+			"away": 15.56,
+			"absent": 0.25
+		}
+	},
+	"1215": {
+		"id": 1215,
+		"voteSummary": {
+			"numberOfVotes": 37,
+			"numberOfStandsTaken": 12,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 24
+		},
+		"voteTypes": {
+			"já": 7,
+			"nei": 5,
+			"greiðir ekki atkvæði": 24,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 32.43,
+			"idle": 64.86,
+			"away": 2.7,
+			"absent": 0
+		}
+	},
+	"1217": {
+		"id": 1217,
+		"voteSummary": {
+			"numberOfVotes": 280,
+			"numberOfStandsTaken": 275,
+			"numberOfAway": 5,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 261,
+			"fjarverandi": 5,
+			"nei": 14
+		},
+		"votePercentages": {
+			"standsTaken": 98.21,
+			"idle": 0,
+			"away": 1.79,
+			"absent": 0
+		}
+	},
+	"1218": {
+		"id": 1218,
+		"voteSummary": {
+			"numberOfVotes": 215,
+			"numberOfStandsTaken": 177,
+			"numberOfAway": 4,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 34
+		},
+		"voteTypes": {
+			"já": 153,
+			"greiðir ekki atkvæði": 34,
+			"fjarverandi": 4,
+			"nei": 24
+		},
+		"votePercentages": {
+			"standsTaken": 82.33,
+			"idle": 15.81,
+			"away": 1.86,
+			"absent": 0
+		}
+	},
+	"1219": {
+		"id": 1219,
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 13,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"nei": 2,
+			"já": 11
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1221": {
+		"id": 1221,
+		"voteSummary": {
+			"numberOfVotes": 397,
+			"numberOfStandsTaken": 394,
+			"numberOfAway": 3,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"fjarverandi": 3,
+			"já": 370,
+			"nei": 24
+		},
+		"votePercentages": {
+			"standsTaken": 99.24,
+			"idle": 0,
+			"away": 0.76,
+			"absent": 0
+		}
+	},
+	"1222": {
+		"id": 1222,
+		"voteSummary": {
+			"numberOfVotes": 104,
+			"numberOfStandsTaken": 81,
+			"numberOfAway": 23,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 73,
+			"fjarverandi": 23,
+			"nei": 8
+		},
+		"votePercentages": {
+			"standsTaken": 77.88,
+			"idle": 0,
+			"away": 22.12,
+			"absent": 0
+		}
+	},
+	"1224": {
+		"id": 1224,
+		"voteSummary": {
+			"numberOfVotes": 13,
+			"numberOfStandsTaken": 8,
+			"numberOfAway": 5,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 8,
+			"fjarverandi": 5
+		},
+		"votePercentages": {
+			"standsTaken": 61.54,
+			"idle": 0,
+			"away": 38.46,
+			"absent": 0
+		}
+	},
+	"1230": {
+		"id": 1230,
+		"voteSummary": {
+			"numberOfVotes": 72,
+			"numberOfStandsTaken": 69,
+			"numberOfAway": 3,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 69,
+			"fjarverandi": 3
+		},
+		"votePercentages": {
+			"standsTaken": 95.83,
+			"idle": 0,
+			"away": 4.17,
+			"absent": 0
+		}
+	},
+	"1231": {
+		"id": 1231,
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1233": {
+		"id": 1233,
+		"voteSummary": {
+			"numberOfVotes": 413,
+			"numberOfStandsTaken": 326,
+			"numberOfAway": 38,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 49
+		},
+		"voteTypes": {
+			"fjarverandi": 38,
+			"já": 303,
+			"nei": 23,
+			"greiðir ekki atkvæði": 49
+		},
+		"votePercentages": {
+			"standsTaken": 78.93,
+			"idle": 11.86,
+			"away": 9.2,
+			"absent": 0
+		}
+	},
+	"1234": {
+		"id": 1234,
+		"voteSummary": {
+			"numberOfVotes": 318,
+			"numberOfStandsTaken": 251,
+			"numberOfAway": 9,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 58
+		},
+		"voteTypes": {
+			"já": 226,
+			"fjarverandi": 9,
+			"greiðir ekki atkvæði": 58,
+			"nei": 25
+		},
+		"votePercentages": {
+			"standsTaken": 78.93,
+			"idle": 18.24,
+			"away": 2.83,
+			"absent": 0
+		}
+	},
+	"1235": {
+		"id": 1235,
+		"voteSummary": {
+			"numberOfVotes": 57,
+			"numberOfStandsTaken": 45,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 12
+		},
+		"voteTypes": {
+			"já": 44,
+			"nei": 1,
+			"greiðir ekki atkvæði": 12
+		},
+		"votePercentages": {
+			"standsTaken": 78.95,
+			"idle": 21.05,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1236": {
+		"id": 1236,
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1237": {
+		"id": 1237,
+		"voteSummary": {
+			"numberOfVotes": 1,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 1
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1238": {
+		"id": 1238,
+		"voteSummary": {
+			"numberOfVotes": 2,
+			"numberOfStandsTaken": 1,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"fjarverandi": 1,
+			"nei": 1
+		},
+		"votePercentages": {
+			"standsTaken": 50,
+			"idle": 0,
+			"away": 50,
+			"absent": 0
+		}
+	},
+	"1240": {
+		"id": 1240,
+		"voteSummary": {
+			"numberOfVotes": 2,
+			"numberOfStandsTaken": 2,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 2
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1241": {
+		"id": 1241,
+		"voteSummary": {
+			"numberOfVotes": 45,
+			"numberOfStandsTaken": 34,
+			"numberOfAway": 2,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 9
+		},
+		"voteTypes": {
+			"já": 34,
+			"greiðir ekki atkvæði": 9,
+			"fjarverandi": 2
+		},
+		"votePercentages": {
+			"standsTaken": 75.56,
+			"idle": 20,
+			"away": 4.44,
+			"absent": 0
+		}
+	},
+	"1242": {
+		"id": 1242,
+		"voteSummary": {
+			"numberOfVotes": 7,
+			"numberOfStandsTaken": 7,
+			"numberOfAway": 0,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 0
+		},
+		"voteTypes": {
+			"já": 7
+		},
+		"votePercentages": {
+			"standsTaken": 100,
+			"idle": 0,
+			"away": 0,
+			"absent": 0
+		}
+	},
+	"1243": {
+		"id": 1243,
+		"voteSummary": {
+			"numberOfVotes": 106,
+			"numberOfStandsTaken": 67,
+			"numberOfAway": 1,
+			"numberOfAbsent": 0,
+			"numberOfIdleVotes": 38
+		},
+		"voteTypes": {
+			"já": 60,
+			"greiðir ekki atkvæði": 38,
+			"nei": 7,
+			"fjarverandi": 1
+		},
+		"votePercentages": {
+			"standsTaken": 63.21,
+			"idle": 35.85,
+			"away": 0.94,
+			"absent": 0
+		}
+	}
+}

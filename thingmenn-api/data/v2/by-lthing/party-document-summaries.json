@@ -1,0 +1,548 @@
+{
+	"143": {
+		"2": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 47
+					},
+					"coPresenter": {
+						"count": 113
+					},
+					"total": 160
+				},
+				"motions": {
+					"presenter": {
+						"count": 30
+					},
+					"coPresenter": {
+						"count": 113
+					},
+					"total": 143
+				},
+				"inquiries": {
+					"asked": 48,
+					"answered": 91,
+					"total": 91
+				}
+			}
+		},
+		"23": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 13
+					},
+					"coPresenter": {
+						"count": 35
+					},
+					"total": 48
+				},
+				"motions": {
+					"presenter": {
+						"count": 23
+					},
+					"coPresenter": {
+						"count": 100
+					},
+					"total": 123
+				},
+				"inquiries": {
+					"asked": 88,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"35": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 86
+					},
+					"coPresenter": {
+						"count": 62
+					},
+					"total": 148
+				},
+				"motions": {
+					"presenter": {
+						"count": 22
+					},
+					"coPresenter": {
+						"count": 106
+					},
+					"total": 128
+				},
+				"inquiries": {
+					"asked": 27,
+					"answered": 145,
+					"total": 145
+				}
+			}
+		},
+		"38": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 9
+					},
+					"coPresenter": {
+						"count": 47
+					},
+					"total": 56
+				},
+				"motions": {
+					"presenter": {
+						"count": 18
+					},
+					"coPresenter": {
+						"count": 116
+					},
+					"total": 134
+				},
+				"inquiries": {
+					"asked": 98,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"43": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 6
+					},
+					"coPresenter": {
+						"count": 30
+					},
+					"total": 36
+				},
+				"motions": {
+					"presenter": {
+						"count": 5
+					},
+					"coPresenter": {
+						"count": 37
+					},
+					"total": 42
+				},
+				"inquiries": {
+					"asked": 32,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"44": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 11
+					},
+					"coPresenter": {
+						"count": 62
+					},
+					"total": 73
+				},
+				"motions": {
+					"presenter": {
+						"count": 11
+					},
+					"coPresenter": {
+						"count": 103
+					},
+					"total": 114
+				},
+				"inquiries": {
+					"asked": 12,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		}
+	},
+	"144": {
+		"2": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 63
+					},
+					"coPresenter": {
+						"count": 101
+					},
+					"total": 164
+				},
+				"motions": {
+					"presenter": {
+						"count": 33
+					},
+					"coPresenter": {
+						"count": 114
+					},
+					"total": 147
+				},
+				"inquiries": {
+					"asked": 49,
+					"answered": 125,
+					"total": 125
+				}
+			}
+		},
+		"23": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 17
+					},
+					"coPresenter": {
+						"count": 34
+					},
+					"total": 51
+				},
+				"motions": {
+					"presenter": {
+						"count": 23
+					},
+					"coPresenter": {
+						"count": 96
+					},
+					"total": 119
+				},
+				"inquiries": {
+					"asked": 134,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"35": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 81
+					},
+					"coPresenter": {
+						"count": 73
+					},
+					"total": 154
+				},
+				"motions": {
+					"presenter": {
+						"count": 17
+					},
+					"coPresenter": {
+						"count": 90
+					},
+					"total": 107
+				},
+				"inquiries": {
+					"asked": 42,
+					"answered": 184,
+					"total": 184
+				}
+			}
+		},
+		"38": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 9
+					},
+					"coPresenter": {
+						"count": 58
+					},
+					"total": 67
+				},
+				"motions": {
+					"presenter": {
+						"count": 18
+					},
+					"coPresenter": {
+						"count": 117
+					},
+					"total": 135
+				},
+				"inquiries": {
+					"asked": 137,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"43": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 12
+					},
+					"coPresenter": {
+						"count": 49
+					},
+					"total": 61
+				},
+				"motions": {
+					"presenter": {
+						"count": 10
+					},
+					"coPresenter": {
+						"count": 53
+					},
+					"total": 63
+				},
+				"inquiries": {
+					"asked": 83,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"44": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 11
+					},
+					"coPresenter": {
+						"count": 89
+					},
+					"total": 100
+				},
+				"motions": {
+					"presenter": {
+						"count": 11
+					},
+					"coPresenter": {
+						"count": 88
+					},
+					"total": 99
+				},
+				"inquiries": {
+					"asked": 23,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"undefined": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 13
+					},
+					"coPresenter": {
+						"count": 0
+					},
+					"total": 13
+				},
+				"motions": {
+					"presenter": {
+						"count": 1
+					},
+					"coPresenter": {
+						"count": 0
+					},
+					"total": 1
+				},
+				"inquiries": {
+					"asked": 0,
+					"answered": 34,
+					"total": 34
+				}
+			}
+		}
+	},
+	"145": {
+		"2": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 51
+					},
+					"coPresenter": {
+						"count": 134
+					},
+					"total": 185
+				},
+				"motions": {
+					"presenter": {
+						"count": 50
+					},
+					"coPresenter": {
+						"count": 169
+					},
+					"total": 219
+				},
+				"inquiries": {
+					"asked": 88,
+					"answered": 101,
+					"total": 101
+				}
+			}
+		},
+		"23": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 19
+					},
+					"coPresenter": {
+						"count": 56
+					},
+					"total": 75
+				},
+				"motions": {
+					"presenter": {
+						"count": 36
+					},
+					"coPresenter": {
+						"count": 164
+					},
+					"total": 200
+				},
+				"inquiries": {
+					"asked": 164,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"35": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 89
+					},
+					"coPresenter": {
+						"count": 112
+					},
+					"total": 201
+				},
+				"motions": {
+					"presenter": {
+						"count": 28
+					},
+					"coPresenter": {
+						"count": 106
+					},
+					"total": 134
+				},
+				"inquiries": {
+					"asked": 38,
+					"answered": 151,
+					"total": 151
+				}
+			}
+		},
+		"38": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 17
+					},
+					"coPresenter": {
+						"count": 111
+					},
+					"total": 128
+				},
+				"motions": {
+					"presenter": {
+						"count": 25
+					},
+					"coPresenter": {
+						"count": 150
+					},
+					"total": 175
+				},
+				"inquiries": {
+					"asked": 79,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"43": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 13
+					},
+					"coPresenter": {
+						"count": 55
+					},
+					"total": 68
+				},
+				"motions": {
+					"presenter": {
+						"count": 9
+					},
+					"coPresenter": {
+						"count": 74
+					},
+					"total": 83
+				},
+				"inquiries": {
+					"asked": 30,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"44": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 19
+					},
+					"coPresenter": {
+						"count": 149
+					},
+					"total": 168
+				},
+				"motions": {
+					"presenter": {
+						"count": 19
+					},
+					"coPresenter": {
+						"count": 138
+					},
+					"total": 157
+				},
+				"inquiries": {
+					"asked": 43,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"undefined": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 29
+					},
+					"coPresenter": {
+						"count": 0
+					},
+					"total": 29
+				},
+				"motions": {
+					"presenter": {
+						"count": 8
+					},
+					"coPresenter": {
+						"count": 0
+					},
+					"total": 8
+				},
+				"inquiries": {
+					"asked": 0,
+					"answered": 75,
+					"total": 75
+				}
+			}
+		}
+	}
+}

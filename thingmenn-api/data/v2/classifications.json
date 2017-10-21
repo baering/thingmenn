@@ -1,0 +1,430 @@
+{
+	"sections": [
+		{
+			"id": "1",
+			"name": "Atvinnuvegir"
+		},
+		{
+			"id": "3",
+			"name": "Erlend samskipti"
+		},
+		{
+			"id": "2",
+			"name": "Hagstjórn"
+		},
+		{
+			"id": "4",
+			"name": "Heilsa og heilbrigði"
+		},
+		{
+			"id": "6",
+			"name": "Lög og réttur"
+		},
+		{
+			"id": "5",
+			"name": "Mennta- og menningarmál"
+		},
+		{
+			"id": "11",
+			"name": "Samfélagsmál"
+		},
+		{
+			"id": "7",
+			"name": "Samgöngumál"
+		},
+		{
+			"id": "8",
+			"name": "Stjórnarskipan og stjórnsýsla"
+		},
+		{
+			"id": "9",
+			"name": "Trúmál og kirkja"
+		},
+		{
+			"id": "10",
+			"name": "Umhverfismál"
+		}
+	],
+	"subjects": [
+		{
+			"id": "1",
+			"name": "Ferðaþjónusta",
+			"tags": [
+				"skemmtistaðir",
+				"veitinga- og gistihús"
+			]
+		},
+		{
+			"id": "2",
+			"name": "Iðnaður",
+			"tags": [
+				"framleiðsla á tæknibúnaði",
+				"heimilisiðnaður",
+				"smáiðnaður",
+				"stóriðja "
+			]
+		},
+		{
+			"id": "3",
+			"name": "Landbúnaður",
+			"tags": [
+				"fiskeldi",
+				"landgræðsla",
+				"skógrækt"
+			]
+		},
+		{
+			"id": "4",
+			"name": "Sjávarútvegur",
+			"tags": [
+				"fiskveiðar",
+				"fiskveiðistjórn",
+				"fiskvinnsla",
+				"hafrannsóknir",
+				"hvalveiðar"
+			]
+		},
+		{
+			"id": "34",
+			"name": "Tölvu- og upplýsingamál",
+			"tags": [
+				"gagnagrunnar",
+				"hugbúnaðargerð",
+				"margmiðlun",
+				"Netið sem upplýsingamiðill"
+			]
+		},
+		{
+			"id": "5",
+			"name": "Viðskipti",
+			"tags": [
+				"bankar",
+				"einkaleyfi",
+				"lán",
+				"neytendamál",
+				"samkeppni",
+				"sjóðir",
+				"starfsleyfi",
+				"starfsumhverfi",
+				"vátryggingar",
+				"verðbréf",
+				"verslun",
+				"vörumerki",
+				"þjónusta"
+			]
+		},
+		{
+			"id": "32",
+			"name": "Alþjóðasamningar og utanríkismál",
+			"tags": [
+				"alþjóðlegir samningar og sáttmálar",
+				"alþjóðastofnanir",
+				"EES",
+				"EFTA",
+				"Evrópusambandið",
+				"skuldbindingar Íslands á alþjóðavettvangi"
+			]
+		},
+		{
+			"id": "10",
+			"name": "Norræn málefni",
+			"tags": [
+				"Norðurlandaráð",
+				"Norðurlandasamvinna",
+				"vestnorrænt samstarf"
+			]
+		},
+		{
+			"id": "7",
+			"name": "Efnahagsmál",
+			"tags": [
+				"gengi",
+				"gjaldeyrismál",
+				"gjaldmiðlar",
+				"hagskýrslur",
+				"vaxtamál",
+				"vísitölur"
+			]
+		},
+		{
+			"id": "6",
+			"name": "Fjárreiður ríkisins",
+			"tags": [
+				"fjárlög",
+				"lánamál ríkisins",
+				"opinberar stofnanir",
+				"ríkiseignir og opinberar framkvæmdir",
+				"ríkisreikningur",
+				"ríkisrekstur"
+			]
+		},
+		{
+			"id": "8",
+			"name": "Skattar og tollar",
+			"tags": [
+				"þjónustugjöld ríkisfyrirtækja og -stofnana og önnur gjöld"
+			]
+		},
+		{
+			"id": "16",
+			"name": "Heilbrigðiseftirlit",
+			"tags": [
+				"dýraeftirlit",
+				"dýralækningar",
+				"dýrasjúkdómar",
+				"matvælaeftirlit"
+			]
+		},
+		{
+			"id": "17",
+			"name": "Heilbrigðismál",
+			"tags": [
+				"áfengis- og fíkniefnavarnir",
+				"farsóttir",
+				"heilbrigðisstofnanir og læknisþjónusta",
+				"heilsuvernd",
+				"lyf",
+				"mæðravernd og ungbarnaeftirlit"
+			]
+		},
+		{
+			"id": "22",
+			"name": "Dómstólar og réttarfar",
+			"tags": [
+				"dómsmál",
+				"félagsdómur",
+				"héraðsdómur",
+				"Hæstiréttur",
+				"Lagasafn",
+				"landsdómur",
+				"Lögbirtingarblað",
+				"Stjórnartíðindi"
+			]
+		},
+		{
+			"id": "21",
+			"name": "Löggæsla og eftirlit",
+			"tags": [
+				"almannavarnir",
+				"bifreiðaeftirlit",
+				"dómtúlkar og skjalaþýðendur",
+				"fangelsi",
+				"framkvæmd áfengislöggjafar",
+				"happdrætti og fjársafnanir",
+				"landhelgisgæsla",
+				"lögregla",
+				"lögsagnarumdæmi",
+				"skipulagsskrár",
+				"skotvopn",
+				"slysavarnir",
+				"umferðarmál",
+				"útlendingaeftirlit"
+			]
+		},
+		{
+			"id": "33",
+			"name": "Persónuleg réttindi",
+			"tags": [
+				"erfðamál",
+				"eignarréttur",
+				"hjúskaparmál",
+				"mannréttindi",
+				"ríkisborgararéttur og lögræði",
+				"persónuvernd",
+				"sifjaréttindi",
+				"ættleiðingar"
+			]
+		},
+		{
+			"id": "18",
+			"name": "Íþróttir og æskulýðsmál",
+			"tags": []
+		},
+		{
+			"id": "19",
+			"name": "Menningarmál",
+			"tags": [
+				"fjölmiðlar",
+				"höfundarréttur",
+				"Íslandssaga",
+				"íslensk tunga",
+				"listir",
+				"mannanöfn",
+				"RÚV",
+				"skjaldarmerki",
+				"söfn",
+				"þjóðfáninn",
+				"þjóðsöngurinn",
+				"örnefni"
+			]
+		},
+		{
+			"id": "20",
+			"name": "Menntamál",
+			"tags": [
+				"endurmenntun",
+				"fræðslumál",
+				"kennsla",
+				"námslán",
+				"námsmenn",
+				"rannsóknir",
+				"skólar",
+				"vísindi"
+			]
+		},
+		{
+			"id": "11",
+			"name": "Almannatryggingar",
+			"tags": [
+				"ellilífeyrir",
+				"fæðingarorlof",
+				"meðlagsgreiðslur",
+				"slysabætur",
+				"örorkubætur "
+			]
+		},
+		{
+			"id": "12",
+			"name": "Atvinnumál",
+			"tags": [
+				"atvinnuástand og -horfur",
+				"atvinnuleyfi",
+				"atvinnuleysi",
+				"opinberir starfsmenn",
+				"vinnueftirlit"
+			]
+		},
+		{
+			"id": "13",
+			"name": "Byggðamál",
+			"tags": [
+				"byggðaþróun",
+				"jafnrétti byggða",
+				"verðjöfnun"
+			]
+		},
+		{
+			"id": "15",
+			"name": "Félagsmál",
+			"tags": [
+				"börn",
+				"félagsleg aðstoð",
+				"fjölskyldumál",
+				"frjáls félagasamtök",
+				"jafnréttismál",
+				"húsnæðismál",
+				"kaup og kjör",
+				"lífeyrissjóðir",
+				"málefni aldraðra og öryrkja",
+				"orlofsmál",
+				"stéttarfélög",
+				"verkalýðsmál",
+				"vinnudeilur"
+			]
+		},
+		{
+			"id": "23",
+			"name": "Fjarskipti og póstmál",
+			"tags": [
+				"bandbreidd",
+				"breiðband",
+				"dreifikerfi útvarps og sjónvarps",
+				"gervihnettir",
+				"ljósleiðarar",
+				"símamál",
+				"samgöngu- og flutningsgeta Netsins",
+				"sæstrengur "
+			]
+		},
+		{
+			"id": "24",
+			"name": "Samgöngur",
+			"tags": [
+				" flugmál",
+				"hafnir",
+				"siglingar",
+				"skipaeftirlit",
+				"skipulag samgangna",
+				"vegamál",
+				"vitar"
+			]
+		},
+		{
+			"id": "25",
+			"name": "Alþingi",
+			"tags": []
+		},
+		{
+			"id": "26",
+			"name": "Stjórnkerfi og stjórnarskipunarmál",
+			"tags": [
+				"forseti",
+				"kjördæmi",
+				"kosningar",
+				"ríkisstjórn",
+				"stjórnarskrá",
+				"stjórnmálaflokkar"
+			]
+		},
+		{
+			"id": "14",
+			"name": "Sveitarstjórnarmál",
+			"tags": [
+				"sveitarfélög",
+				"verkaskipting ríkis og sveitarfélaga"
+			]
+		},
+		{
+			"id": "28",
+			"name": "Trúfélög og trúarbrögð",
+			"tags": [
+				"trúarsöfnuðir aðrir en þjóðkirkjan",
+				"trúfræði"
+			]
+		},
+		{
+			"id": "27",
+			"name": "Þjóðkirkjan",
+			"tags": []
+		},
+		{
+			"id": "29",
+			"name": "Mengun",
+			"tags": [
+				"eftirlit með úrgangi",
+				"hollustuvernd",
+				"holræsamál",
+				" mengunarvarnir"
+			]
+		},
+		{
+			"id": "30",
+			"name": "Orkumál og auðlindir",
+			"tags": [
+				"eldsneyti",
+				"hitaveitur",
+				"námur",
+				"rafveitur",
+				"virkjanir"
+			]
+		},
+		{
+			"id": "31",
+			"name": "Umhverfisstjórn og náttúruvernd",
+			"tags": [
+				"brunavarnir",
+				"byggingarmál",
+				"dýravernd",
+				"endurvinnsla",
+				"friðlönd",
+				"landmælingar",
+				"ofanflóðavarnir",
+				"sjómælingar",
+				"skipulagsmál",
+				"umhverfismat",
+				"veðurathuganir",
+				"þjóðgarðar og náttúruhamfarir."
+			]
+		}
+	]
+}
