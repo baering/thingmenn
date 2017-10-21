@@ -4,12 +4,18 @@ import fetchMps from './mps'
 import fetchVotes from './votes'
 import fetchClassifications from './classifications'
 import fetchSpeechStatistics from './speech-statistics'
-// TODO: add analyzer to the repo
-// import fetchSpeeches from './speeches'
 import fetchDocuments from './documents'
 import fetchSpeechClassifications from './speech-classifications'
 
-const defaultItems = ['mps', 'votes', 'classifications', 'speechStatistics', 'speechClassifications', 'speeches']
+const defaultItems = [
+  'classifications',
+  'documents',
+  'mps',
+  'speechClassifications',
+  'speeches',
+  'speechStatistics',
+  'votes',
+]
 const lthings = [145, 144, 143]
 
 async function fetch(config) {
@@ -36,13 +42,6 @@ async function fetch(config) {
   if (config.speechClassifications) {
     console.log('Fetching speech classifications')
     await fetchSpeechClassifications(lthings)
-  }
-
-  if (config.speeches) {
-    // TODO: add analyzer to the repo
-    console.log('Would be speeches, but needs analyzer')
-    // const speeches = await fetchSpeeches()
-    // writeToFile(data, 'data/all-votes-for-term.json')
   }
 
   if (config.documents) {
