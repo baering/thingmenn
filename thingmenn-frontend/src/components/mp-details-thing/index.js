@@ -31,7 +31,6 @@ export default class Mps extends React.Component {
       nouns: [],
       similarMps: [],
       differentMps: [],
-      activeTab: 0,
     }
   }
 
@@ -77,14 +76,6 @@ export default class Mps extends React.Component {
     })
   }
 
-  handleChangingTabs(evt, id) {
-    evt.preventDefault()
-
-    this.setState(() => ({
-      activeTab: id,
-    }))
-  }
-
   render() {
     const {
       activeTab,
@@ -120,58 +111,43 @@ export default class Mps extends React.Component {
             />
           </div>
           <div className="Details-item Details-item--large">
-            <div className="Topics">
-              <div className="Topics-tabs">
-                <a
-                  href="#"
-                  className="Topics-tab"
-                  onClick={evt => this.handleChangingTabs(evt, 0)}
-                >
-                  Ræður
-                </a>
-                <a
-                  href="#"
-                  className="Topics-tab"
-                  onClick={evt => this.handleChangingTabs(evt, 1)}
-                >
-                  Atkvæði
-                </a>
-                <a
-                  href="#"
-                  className="Topics-tab"
-                  onClick={evt => this.handleChangingTabs(evt, 2)}
-                >
-                  Þingskjöl
-                </a>
-              </div>
-              <Topic active={activeTab === 0}>
-                <div className="Topic-column">
-                  <h1 className="Topic-heading">Skipting ræðutíma </h1>
-                  <Speeches speechSummary={speechSummary} />
-                </div>
-                <div className="Topic-column">
-                  <h1 className="Topic-heading">Mest talað um</h1>
-                  <Words divider="3" words={nouns} />
-                </div>
-                <div className="Topic-column">
-                  <h1 className="Topic-heading">
-                    Atkvæðaskipting eftir efnisflokkum
-                  </h1>
-                  <ColorLegend />
-                  {subjectSummary.map(subject => (
-                    <BarChart subjectSummary={subject} key={subject.subject} />
-                  ))}
-                </div>
-              </Topic>
-              <Topic active={activeTab === 1}>
-                <div className="Topic-column">
-                  <Piechart voteSummary={voteSummary} />
-                </div>
-              </Topic>
-              <Topic active={activeTab === 2}>
-                <div className="Topic-column">Nothing</div>
-              </Topic>
-            </div>
+            <Topics>
+              {( activeTab ) => (
+                <span>
+                  <Topic active={activeTab === 0}>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Skipting ræðutíma </h1>
+                      <Speeches speechSummary={speechSummary} />
+                    </div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Mest talað um</h1>
+                      <Words divider="3" words={nouns} />
+                    </div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">
+                        Atkvæðaskipting eftir efnisflokkum
+                      </h1>
+                      <ColorLegend />
+                      {subjectSummary.map(subject => (
+                        <BarChart
+                          subjectSummary={subject}
+                          key={subject.subject}
+                        />
+                      ))}
+                    </div>
+                  </Topic>
+                  <Topic active={activeTab === 1}>
+                    <div className="Topic-column">
+                      <Piechart voteSummary={voteSummary} />
+                      <ColorLegend includeAbsent />
+                    </div>
+                  </Topic>
+                  <Topic active={activeTab === 2}>
+                    <div className="Topic-column">Nothing</div>
+                  </Topic>
+                </span>
+              )}
+            </Topics>
           </div>
         </div>
       </div>
