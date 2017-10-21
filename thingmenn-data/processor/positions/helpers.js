@@ -332,7 +332,10 @@ export function generatePartyPositions(mpSpeechPositionsByLthing) {
 
       mpSpeechPositionsByLthing[lthing][mpId].forEach(({ name, count }) => {
         if (partyPositionsByLthing[lthing][mpPartyId][name] === undefined) {
-          partyPositionsByLthing[lthing][mpPartyId][name] = {}
+          partyPositionsByLthing[lthing][mpPartyId][name] = {
+            name,
+            count: 0,
+          }
         }
 
         if (partyPositionsTotal[mpPartyId][name] === undefined) {
