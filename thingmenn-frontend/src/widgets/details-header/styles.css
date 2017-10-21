@@ -59,6 +59,7 @@
 
 .DetailsHeader-bioText {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.666;
   font-size: 1rem;
   font-weight: 300;
 }

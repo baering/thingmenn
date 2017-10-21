@@ -37,7 +37,7 @@ const Routes = (props) => (
     <Route path="/" component={App}>
       <IndexRoute component={Mps} />
       <Route path="/thingmenn/:mpId" component={MpDetails} />
-      <Route path="/thingmenn/:mpId/test" component={MpDetailsThing} />
+      <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetailsThing} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path="/thingflokkar/:partyId" component={PartyDetails} />
       <Route path="/samantekt" component={Totals} />
