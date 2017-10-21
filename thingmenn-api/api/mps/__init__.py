@@ -10,8 +10,10 @@ from api.cache import cache
 mp_cache_timeout = 1800
 
 mps = []
-mp_lookup = {}
 mps_by_lthing = {}
+
+mp_lookup = {}
+mp_lookup_by_lthing = {}
 
 similar_mp_votes = {}
 similar_mp_votes_by_lthing = {}
@@ -33,10 +35,12 @@ with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as 
     for lthing in mpsByLthing:
         lthingAsInt = int(lthing)
         mps_by_lthing[lthingAsInt] = []
+        mp_lookup_by_lthing[lthingAsInt] = {}
         for index, mp in enumerate(mpsByLthing[lthing]):
             mpIdAsInt = int(mp['id'])
             mpDetails = mps[mp_lookup[mpIdAsInt]]
             mps_by_lthing[lthingAsInt].append(mpDetails)
+            mp_lookup_by_lthing[lthingAsInt][mpIdAsInt] = mpDetails
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
@@ -76,6 +80,19 @@ def get_mps_by_lthing(lthing):
 @cache.cached(timeout=mp_cache_timeout)
 def get_mp_by_id(mp_id):
     if mp_id not in mp_lookup:
+        return make_error('Not found')
+
+    mp_index = mp_lookup[mp_id]
+    return make_json_response(mps[mp_index])
+
+@cache.cached(timeout=mp_cache_timeout)
+def get_mp_by_id_by_lthing(lthing, mp_id):
+    # TODO: Make this function return only the lthing info for this
+    #       mp for the current lthing
+    if lthing not in mp_lookup_by_lthing:
+        return make_error('Not found')
+
+    if mp_id not in mp_lookup_by_lthing[lthing]:
         return make_error('Not found')
 
     mp_index = mp_lookup[mp_id]
