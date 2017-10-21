@@ -47,11 +47,22 @@ with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-similar-votes.js
         lthingAsInt = int(lthing)
         similar_mp_votes_by_lthing[lthingAsInt] = {}
         for mpId in similarMpVotesByLthing[lthing]:
+            mpIdAsInt = int(mpId)
             mpSimilarVotes = similarMpVotesByLthing[lthing][mpId]
-            similar_mp_votes_by_lthing[lthingAsInt][mpId] = mpSimilarVotes
+            similar_mp_votes_by_lthing[lthingAsInt][mpIdAsInt] = mpSimilarVotes
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-different-votes.json', 'r') as f:
     different_mp_votes = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-different-votes.json', 'r') as f:
+    differentMpVotesByLthing = json.loads(f.read())
+    for lthing in mps_by_lthing:
+        lthingAsInt = int(lthing)
+        different_mp_votes_by_lthing[lthingAsInt] = {}
+        for mpId in differentMpVotesByLthing[lthing]:
+            mpIdAsInt = int(mpId)
+            mpSimilarVotes = differentMpVotesByLthing[lthing][mpId]
+            different_mp_votes_by_lthing[lthingAsInt][mpIdAsInt] = mpSimilarVotes
 
 
 @cache.cached(timeout=mp_cache_timeout)
@@ -93,3 +104,13 @@ def get_different_mps(mp_id):
         return make_error('Not found')
 
     return make_json_response(different_mp_votes[mp_id])
+
+@cache.cached(timeout=mp_cache_timeout)
+def get_different_mps_by_lthing(lthing, mp_id):
+    if lthing not in different_mp_votes_by_lthing:
+        return make_error('Not found')
+
+    if mp_id not in different_mp_votes_by_lthing[lthing]:
+        return make_error('Not found')
+
+    return make_json_response(different_mp_votes_by_lthing[lthing][mp_id])
