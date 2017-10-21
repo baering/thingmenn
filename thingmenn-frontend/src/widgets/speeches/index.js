@@ -34,7 +34,7 @@ const Speeches = ({
 
 Speeches.propTypes = {
   title: PropTypes.string,
-  speechSummary: PropTypes.object,
+  speechSummary: PropTypes.any,
 }
 
 export default Speeches

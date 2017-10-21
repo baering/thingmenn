@@ -31,7 +31,7 @@ class Topics extends Component {
   }
 
   render() {
-    const { children, onChange } = this.props
+    const { children } = this.props
     const { activeTab } = this.state
 
     return (
@@ -39,6 +39,7 @@ class Topics extends Component {
         <div className="Topics-tabs">
           {topics.map((topic, index) => (
             <a
+              key={topic.title}
               href="#"
               className={classNames("Topics-tab", activeTab === index && 'is-active')}
               onClick={evt => this.handleChangingTabs(evt, index)}
