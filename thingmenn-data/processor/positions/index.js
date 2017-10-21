@@ -32,7 +32,7 @@ Object.keys(votings).forEach(lthing => {
   })
 })
 
-export default async function process() {
+export default function process() {
   const {
     mpVotePositionsByLthing,
     mpVotePositionsTotal,

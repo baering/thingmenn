@@ -11,9 +11,8 @@ const defaultItems = [
   'documents',
   'mps',
   'positions',
-  'speeches',
   'speechStatistics',
-  'top',
+  // 'top',
   'lthings',
 ]
 
@@ -29,7 +28,7 @@ function process(config) {
   }
 
   if (config.lthings) {
-    console.log('Processing mps')
+    console.log('Processing lthings')
     createLthings()
   }
 
