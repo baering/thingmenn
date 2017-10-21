@@ -86,7 +86,7 @@ function parseVotes(xml) {
 
 async function fetchVotesFromVoting(votingId) {
   const url = urlForVotes(votingId)
-  const xml = await fetchXml(url)
+  const xml = await fetchXml(url, false)
   return parseVotes(xml)
 }
 
@@ -114,7 +114,7 @@ async function parseLthingVotings(xml) {
 
 async function fetchVotingsForLthing(lthing) {
   const url = urlForLthingVoting(lthing)
-  const xml = await fetchXml(url)
+  const xml = await fetchXml(url, false)
   return await parseLthingVotings(xml)
 }
 

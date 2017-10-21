@@ -16,8 +16,8 @@ function parseXmlPromiseWrapper(xml) {
   })
 }
 
-export async function fetchXml(url) {
-  if (cache[url]) {
+export async function fetchXml(url, shouldCache = true) {
+  if (shouldCache && cache[url]) {
     console.log(`fetchXml (cached):\t${url}`)
     return cache[url]
   }
@@ -38,6 +38,9 @@ export async function fetchXml(url) {
     }
   }
   const result = await parseXmlPromiseWrapper(xml.data)
-  cache[url] = result
+
+  if (shouldCache) {
+    cache[url] = result
+  }
   return result
 }
