@@ -1,0 +1,66 @@
+.KPI {
+  flex: 0 1 100%;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Lora', serif;
+  font-size: 1.777rem;
+  margin: 1rem;
+  padding: 1rem 0;
+}
+
+.DetailsHeader-stats {
+  background: #f8fafb;
+  border: 0;
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: space-around;
+  margin: auto;
+  max-width: initial;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+@media (min-width: 1234px) {
+  .DetailsHeader-stats {
+    background: none;
+    padding: 2rem;
+  }
+}
+
+.DetailsHeader-statsItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0;
+}
+
+@media (min-width: 1234px) {
+  .DetailsHeader-statsItem {
+    margin-right: 2.25rem;
+  }
+  .DetailsHeader-statsItem:last-child {
+    margin-right: 0;
+  }
+}
+
+.DetailsHeader-statsHeading {
+  color: #51575a;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.DetailsHeader-statsText {
+  color: #06ABDC;
+  font-size: 2rem;
+  text-shadow: 0 2px 0 #FFF;
+}
+
+@media (min-width: 768px) {
+  .Main-statsText {
+    font-size: 2.5rem;
+    text-transform: none;
+  }
+}

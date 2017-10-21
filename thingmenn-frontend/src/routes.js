@@ -6,6 +6,7 @@ import analytics from './utility/analytics'
 import App from './components/app'
 import Mps from './components/mps'
 import MpDetails from './components/mp-details'
+import MpDetailsThing from './components/mp-details-thing'
 import Parties from './components/parties'
 import PartyDetails from './components/party-details'
 import Totals from './components/totals'
@@ -36,6 +37,7 @@ const Routes = (props) => (
     <Route path="/" component={App}>
       <IndexRoute component={Mps} />
       <Route path="/thingmenn/:mpId" component={MpDetails} />
+      <Route path="/thingmenn/:mpId/test" component={MpDetailsThing} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path="/thingflokkar/:partyId" component={PartyDetails} />
       <Route path="/samantekt" component={Totals} />

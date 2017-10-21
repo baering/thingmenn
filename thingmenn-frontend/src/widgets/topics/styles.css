@@ -1,0 +1,39 @@
+.Topics {
+  flex: 0 1 100%;
+}
+
+.Topics-tabs {
+  display: flex;
+  justify-content: space-around;
+  background: #e9eef2;
+  margin-bottom: 1rem;
+}
+
+.Topics-tab {
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+}
+
+.Topic {
+  display: none;
+}
+
+.Topic.is-active {
+  display: block;
+}
+
+.Topic-column {
+  /* background: pink; */
+  margin-bottom: 3rem;
+}
+
+.Topic-column:last-child {
+  margin-bottom: 0;
+}
+
+.Topic-heading {
+  font-size: 1.333rem;
+  margin: 1rem 0;
+  padding: 2rem 0 1rem;  
+}

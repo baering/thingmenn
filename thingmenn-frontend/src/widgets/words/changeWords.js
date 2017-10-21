@@ -7,5 +7,5 @@ export const changeWords = {
   'gjald': 'gjöld',
   'haft': 'höft',
   'fjárlag': 'fjárlög',
-  'stjórnvald' : 'stjórnvöld'
+  'stjórnvald': 'stjórnvöld'
 }

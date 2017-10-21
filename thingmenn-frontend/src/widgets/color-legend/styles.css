@@ -1,13 +1,13 @@
 .Colors {
   display: flex;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .Details-item--large .Colors {
     width: 70%;
     margin-bottom: 5px;
     margin-left: auto;
   }
-}
+} */
 .Colors div {
   flex: 1;
   text-align: center;

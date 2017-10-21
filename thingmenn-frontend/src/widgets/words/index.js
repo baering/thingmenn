@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { changeWords } from './changeWords.js'
 
 import './styles.css'
