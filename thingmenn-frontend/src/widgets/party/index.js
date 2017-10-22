@@ -7,11 +7,13 @@ import ListItemContent from '../list-item-content'
 
 const Party = ({
   id,
-  name,
   imagePath,
+  lthing,
+  name,
 }) => {
+  const url = `/thingflokkar/${id}/thing/allt`
   return (
-    <ListItem url={`/thingflokkar/${id}`}>
+    <ListItem url={url}>
       <ListItemImage path={imagePath}></ListItemImage>
       <ListItemContent title={name} />
     </ListItem>
