@@ -18,7 +18,7 @@ export function getMpToPartyLookup() {
   mpToPartyLookup.allt = {}
   mps.forEach(mp => {
     if (mp.lthings && mp.lthings.length) {
-      mpToPartyLookup.allt[mp.id] = mp.lthings[0].lthing
+      mpToPartyLookup.allt[mp.id] = mp.lthings[0].partyId
     }
   })
 
