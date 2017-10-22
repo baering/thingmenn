@@ -22,7 +22,7 @@ export default class PartyDetails extends React.Component {
     super(props)
 
     this.state = {
-      party: {},
+      party: { lthings: [] },
       lthing: null,
       lthings: [],
       lthingLookup: {},
@@ -48,11 +48,7 @@ export default class PartyDetails extends React.Component {
     const partyId = id || this.props.params.partyId
     const lthingId = lthing || this.props.params.lthing
 
-    if (partyId === this.state.party.id) {
-      return
-    }
-
-    partyService.getPartyDetailsByLthing(partyId, lthingId).then(party => {
+    partyService.getPartyDetailsByLthing(partyId, 'allt').then(party => {
       this.setState(() => ({ party }))
     })
 
@@ -114,6 +110,27 @@ export default class PartyDetails extends React.Component {
     })
   }
 
+  generateLthingList(party, lthings, lthingLookup) {
+    const initialList = [
+      {
+        name: 'Samtölur',
+        url: `/thingflokkar/${party.id}/thing/allt`,
+      }
+    ]
+
+    if (!party.lthings.length || !lthings.length) {
+      return initialList
+    }
+
+    const lthingsFormatted = party.lthings.map(lthingInfo => ({
+      year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
+      thing: lthingInfo.lthing,
+      url: `/thingflokkar/${party.id}/thing/${lthingInfo.lthing}`
+    }))
+
+    return initialList.concat(lthingsFormatted)
+  }
+
   render() {
     const {
       party,
@@ -130,7 +147,7 @@ export default class PartyDetails extends React.Component {
 
     return (
       <div className="fill">
-        <DetailsMenu />
+        <DetailsMenu menuItems={this.generateLthingList(party, lthings, lthingLookup)}/>
         <DetailsHeader
           speechSummary={speechSummary}
           voteSummary={voteSummary}
