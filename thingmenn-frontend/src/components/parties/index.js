@@ -54,7 +54,7 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <h1 className="title">Allir þingflokkar</h1>
-        <List>{parties.map(party => <Party key={party.id} lthing={this.props.params.lthing} {...party} />)}</List>
+        <List>{parties.map(party => <Party key={party.id} lthing={lthings || this.props.params.lthing} {...party} />)}</List>
       </div>
     )
   }
