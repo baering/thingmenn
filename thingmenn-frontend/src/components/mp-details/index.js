@@ -235,7 +235,7 @@ export default class MpDetails extends React.Component {
                       <Items divider={0.4} items={documentPositions} />
                     </div>
                     <div className="Topic-column">
-                      <h1 className="Topic-heading">Þingskjöl</h1>
+                      <h1 className="Topic-heading">Skipting þingskjala</h1>
                       <Documents documentSummary={documentSummary} />
                     </div>
                   </Topic>
