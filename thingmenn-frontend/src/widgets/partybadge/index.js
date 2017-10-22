@@ -15,7 +15,7 @@ const PartyBadge = ({party, className}) => {
 }
 
 PartyBadge.propTypes = {
-  party: PropTypes.string,
+  party: PropTypes.number,
   className: PropTypes.string,
 }
 
