@@ -4,6 +4,7 @@ import mpService from '../../services/mp-service'
 import Mp from '../../widgets/mp'
 import SubNav from '../../widgets/subnav'
 import List from '../../widgets/list'
+import DetailsMenu from '../../widgets/details-menu'
 
 import './styles.css'
 
@@ -70,6 +71,7 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
+        <DetailsMenu />
         <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
         <List>
           {items.map(mp => (
