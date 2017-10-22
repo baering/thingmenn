@@ -1,5 +1,3 @@
-// TODO: Create a HOC instead of copying mp-details.
-
 import React from 'react'
 
 import mpService from '../../services/mp-service'
@@ -14,7 +12,6 @@ import DetailsHeader from '../../widgets/details-header'
 import DetailsMenu from '../../widgets/details-menu'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
-import Words from '../../widgets/words'
 import Speeches from '../../widgets/speeches'
 import BarChart from '../../widgets/bar-chart'
 
@@ -184,6 +181,7 @@ export default class Mps extends React.Component {
               title="Samherjar"
               subTitle="Eins greidd atkvæði"
               friends={similarMps.slice(0, 10)}
+              lthing={lthing}
               isDisplayingFriends={true}
             />
           </div>

@@ -29,7 +29,7 @@ const DetailsHeader = ({
 }
 
 DetailsHeader.propTypes = {
-  id: PropTypes.number,
+  id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   mpName: PropTypes.string,
   imagePath: PropTypes.string,
   description: PropTypes.any,
