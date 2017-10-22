@@ -37,7 +37,7 @@ const Friends = ({
         <dd>{subTitle}</dd>
         {friends.map(friend => [
           <dt key={friend.mp.id}>
-            <PartyBadge party={friend.mp.partySlug} className="Friends-badge" />
+            <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
             <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing || 'allt'}`}>
               {friend.mp.name}
             </Link>
