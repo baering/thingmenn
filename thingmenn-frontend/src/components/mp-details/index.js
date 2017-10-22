@@ -3,6 +3,7 @@
 import React from 'react'
 
 import mpService from '../../services/mp-service'
+import totalsService from '../../services/totals-service'
 import mpSummaryService from '../../services/mp-summary-service'
 
 import KPI from '../../widgets/key-performance-indicator'
@@ -24,8 +25,10 @@ export default class Mps extends React.Component {
     super(props)
 
     this.state = {
-      mp: { description: {} },
+      mp: { description: {}, lthings: [] },
       lthing: null,
+      lthings: [],
+      lthingLookup: {},
       voteSummary: { votePercentages: [], voteSummary: [] },
       speechSummary: [],
       documentSummary: [],
@@ -118,12 +121,44 @@ export default class Mps extends React.Component {
         differentMps,
       }))
     })
+
+    totalsService.getLthings().then(lthings => {
+      const lthingLookup = {}
+      lthings.forEach(lthing => lthingLookup[lthing.id] = lthing)
+      this.setState(() => ({
+        lthings,
+        lthingLookup,
+      }))
+    })
+  }
+
+  generateLthingList(mp, lthings, lthingLookup) {
+    const initialList = [
+      {
+        name: 'Samtölur',
+        url: `/thingmenn/${mp.id}/thing/allt`,
+      }
+    ]
+
+    if (!mp.lthings.length || !lthings.length) {
+      return initialList
+    }
+
+    const lthingsFormatted = mp.lthings.map(lthingInfo => ({
+      year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
+      thing: lthingInfo.lthing,
+      url: `/thingmenn/${mp.id}/thing/${lthingInfo.lthing}`
+    }))
+
+    return initialList.concat(lthingsFormatted)
   }
 
   render() {
     const {
       mp,
       lthing,
+      lthings,
+      lthingLookup,
       voteSummary,
       speechSummary,
       documentSummary,
@@ -136,7 +171,7 @@ export default class Mps extends React.Component {
 
     return (
       <div className="fill">
-        <DetailsMenu />
+        <DetailsMenu menuItems={this.generateLthingList(mp, lthings, lthingLookup)} />
         <DetailsHeader {...mp} />
         <div className="Details">
           <KPI
