@@ -17,6 +17,7 @@ const Friends = ({
     `${friend.votes} (${formatPercentage(friend.similarity)})`,
   icon = true,
 }) => {
+  console.log(friends)
   return (
     <div className="Friends">
       <h1 className="Friends-heading heading">
