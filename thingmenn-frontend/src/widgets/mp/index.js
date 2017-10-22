@@ -13,8 +13,7 @@ const Mp = ({
   imagePath,
   lthing,
   name,
-  party,
-  partySlug,
+  partyId,
 }) => {
   let url = `/thingmenn/${id}/thing/allt`
   if (lthing) {
@@ -23,7 +22,7 @@ const Mp = ({
   return (
     <ListItem url={url}>
       <ListItemImage path={imagePath} cover={true}>
-        <PartyBadge party={partySlug} className="Mp-badge"/>
+        <PartyBadge party={partyId} className="Mp-badge"/>
       </ListItemImage>
       <ListItemContent title={name} />
     </ListItem>
@@ -34,7 +33,7 @@ Mp.propTypes = {
   id: PropTypes.any,
   name: PropTypes.string,
   profilePicture: PropTypes.string,
-  party: PropTypes.string,
+  partyId: PropTypes.number,
 }
 
 export default Mp
