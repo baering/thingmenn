@@ -3,7 +3,6 @@ import React from 'react';
 import mpService from '../../services/mp-service'
 import totalService from '../../services/totals-service'
 import Mp from '../../widgets/mp'
-import SubNav from '../../widgets/subnav'
 import List from '../../widgets/list'
 import DetailsMenu from '../../widgets/details-menu'
 
@@ -102,7 +101,6 @@ export default class Mps extends React.Component {
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
         <DetailsMenu menuItems={lthingsToRender}/>
-        <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
         <List>
           {items.map(mp => (
             <Mp key={mp.id} lthing={lthing} {...mp} />
