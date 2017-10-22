@@ -26,7 +26,7 @@ const Mp = ({
 }
 
 Mp.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.any,
   name: PropTypes.string,
   profilePicture: PropTypes.string,
   party: PropTypes.string,

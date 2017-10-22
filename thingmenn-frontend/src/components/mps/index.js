@@ -56,9 +56,9 @@ export default class Mps extends React.Component {
 
   sortItem(mp1, mp2) {
     if (this.state.sortByParty) {
-      return mp1.party.localeCompare(mp2.party)
+      return mp1.party.localeCompare(mp2.partyId)
     }
-    return mp1.name.localeCompare(mp2.name)
+    return mp1.mpName.localeCompare(mp2.mpName)
   }
 
   render() {
