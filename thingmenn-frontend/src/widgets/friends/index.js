@@ -16,39 +16,36 @@ const Friends = ({
   valueFormatter = friend =>
     `${friend.votes} (${formatPercentage(friend.similarity)})`,
   icon = true,
-}) => {
-  console.log(friends)
-  return (
-    <div className="Friends">
-      <h1 className="Friends-heading heading">
-        {icon ? (
-          <span>
-            <span
-              key="icon-1"
-              className={`typcn typcn-group-outline icon-${isDisplayingFriends
-                ? 'friend'
-                : 'enemy'}`}
-            />{' '}
-          </span>
-        ) : null}
-        {title}
-      </h1>
-      <dl className="Friends-list">
-        <dt>Nafn</dt>
-        <dd>{subTitle}</dd>
-        {friends.map(friend => [
-          <dt key={friend.mp.id}>
-            <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
-            <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing || 'allt'}`}>
-              {friend.mp.name}
-            </Link>
-          </dt>,
-          <dd key={friend.mp.id + '-value'}>{valueFormatter(friend)}</dd>,
-        ])}
-      </dl>
-    </div>
-  )
-}
+}) => (
+  <div className="Friends">
+    <h1 className="Friends-heading heading">
+      {icon ? (
+        <span>
+          <span
+            key="icon-1"
+            className={`typcn typcn-group-outline icon-${isDisplayingFriends
+              ? 'friend'
+              : 'enemy'}`}
+          />{' '}
+        </span>
+      ) : null}
+      {title}
+    </h1>
+    <dl className="Friends-list">
+      <dt>Nafn</dt>
+      <dd>{subTitle}</dd>
+      {friends.map(friend => [
+        <dt key={friend.mp.id}>
+          <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
+          <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing || 'allt'}`}>
+            {friend.mp.name}
+          </Link>
+        </dt>,
+        <dd key={friend.mp.id + '-value'}>{valueFormatter(friend)}</dd>,
+      ])}
+    </dl>
+  </div>
+)
 
 Friends.propTypes = {
   title: PropTypes.string,
