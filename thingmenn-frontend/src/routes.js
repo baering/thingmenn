@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Router, Route, IndexRedirect, browserHistory } from 'react-router'
 
 import analytics from './utility/analytics'
 
@@ -34,7 +34,7 @@ function onRouterUpdate() {
 const Routes = (props) => (
   <Router onUpdate={onRouterUpdate} history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Mps} />
+      <IndexRedirect to="/thing/allt" />
       <Route path="/thing/:lthing" component={Mps} />
       <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
