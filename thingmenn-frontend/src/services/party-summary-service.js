@@ -34,7 +34,7 @@ class PartySummaryService extends CacheService {
 
   getPartyDocumentPositionsByLthing(mpId, lthing = 'allt') {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/party/${mpId}`,
+      `${apiUrl}/api/lthing/${lthing}/positions/documents/party/${mpId}`,
     )
   }
 }

@@ -18,7 +18,7 @@ import Items from '../../widgets/items'
 
 import '../mp-details/styles.css'
 
-export default class Mps extends React.Component {
+export default class MpDetails extends React.Component {
   constructor(props) {
     super(props)
 

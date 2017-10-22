@@ -6,8 +6,8 @@ class PartyService extends CacheService {
     return this.fetchData(`${apiUrl}/api/lthing/${lthing}/parties`)
   }
 
-  getPartyDetailsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/parties/${mpId}`)
+  getPartyDetailsByLthing(partyId, lthing = 'allt') {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/parties/${partyId}`)
   }
 }
 
