@@ -68,6 +68,10 @@
   }
 }
 
+.DetailsMenu-itemLink:hover {
+  background: #f0f1f5;
+}
+
 .DetailsMenu-item:not(:first-child) .DetailsMenu-itemLink:not(.is-active) {
   border-left: 1px solid #d9e3ea;
 }
@@ -78,7 +82,7 @@
 .DetailsMenu-itemLink.is-active::after {
   content: '';
   width: 10px;
-  background: inherit;
+  background:#06a9dc;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -91,6 +95,7 @@
 .DetailsMenu-itemLink.is-active {
   color: white;
   background: #32394C;
+  border-bottom: 4px solid #06a9dc;
 }
 
 .DetailsMenu-year {

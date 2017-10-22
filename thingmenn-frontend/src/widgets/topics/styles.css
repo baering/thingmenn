@@ -16,6 +16,17 @@
   position: relative;
 }
 
+.Topics-tab:not(:first-child):not(.is-active) {
+  border-left: 1px solid #e9eef3;
+}
+.Topics-tab:not(:last-child):not(.is-active) {
+  border-right: 1px solid #FFF;
+}
+
+.Topics-tab:hover {
+  background: #fefefe;
+}
+
 .Topics-tab.is-active {
   background: #32394c;
   color: white;
