@@ -201,7 +201,7 @@ export default class Mps extends React.Component {
                   <Topic active={activeTab === 0}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">
-                        Atkvæðaskipting eftir flokkum
+                        Skipting atkvæða eftir flokkum
                       </h1>
                       <ColorLegend />
                       {votePositions.map(sectionSummary => (
@@ -221,7 +221,7 @@ export default class Mps extends React.Component {
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
-                      <Items title="" divider={3} items={speechPositions} />
+                      <Items divider={3} items={speechPositions} />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting ræðutíma</h1>
@@ -231,7 +231,7 @@ export default class Mps extends React.Component {
                   <Topic active={activeTab === 2}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
-                      <Items title="" divider={0.4} items={documentPositions} />
+                      <Items divider={0.4} items={documentPositions} />
                     </div>
                   </Topic>
                 </span>

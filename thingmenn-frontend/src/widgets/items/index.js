@@ -4,13 +4,11 @@ import PropTypes from 'prop-types'
 import './styles.css'
 
 const Items = ({
-  title,
   items,
   divider
 }) => {
   return (
     <div className="Items">
-     <h3 className='Items-heading heading'>{title}</h3>
      <dl className="Items-list">
        {items.map((item) => (
          [
@@ -24,7 +22,6 @@ const Items = ({
 }
 
 Items.propTypes = {
-  title: PropTypes.string,
   items: PropTypes.array,
 }
 
