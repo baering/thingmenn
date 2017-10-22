@@ -30,6 +30,12 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .ListItem {
+    width: calc(16.66667% - 2rem);
+  }
+}
+
 .ListItem[href^='/thingflokkar/']  .ListItemImage-image {
   padding-bottom: 100%;
   background-size: 70%;
