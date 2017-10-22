@@ -46,3 +46,9 @@
     width: calc(33.333% - 2rem);
   }
 }
+
+@media (min-width: 1234px) {
+  .ListItem[href^='/thingflokkar/'] {
+    width: calc(25% - 2rem);
+  }
+}
