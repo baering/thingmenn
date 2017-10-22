@@ -1,16 +1,44 @@
+.DetailsMenu {
+  padding-bottom: 67px;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.DetailsMenu::-webkit-scrollbar {
+    width: auto;
+    height: 0.5rem;
+  }
+ 
+.DetailsMenu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+}
+ 
+.DetailsMenu::-webkit-scrollbar-thumb {
+  background-color: slategray;
+  outline: 1px solid rgba(44, 63, 80, 0.2);
+}
+
 .DetailsMenu > ul {
   display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
   justify-content: space-around;
   background: white;
   border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+
 }
 
 .DetailsMenu-item {
   background: #e9eef2;
   display: flex;
   justify-content: center;
-  flex: 1;
+  flex: none;
   text-align: center;
+  max-width: 300px;
+  min-width: 200px;
+  height: 67px;
 }
 
 .DetailsMenu-itemLink {
@@ -18,6 +46,13 @@
   width: 100%;
   position: relative;
   height: 100%;
+}
+
+.DetailsMenu-item:not(:first-child) .DetailsMenu-itemLink:not(.is-active) {
+  border-left: 1px solid #d9e3ea;
+}
+.DetailsMenu-item:not(:last-child) .DetailsMenu-itemLink:not(.is-active) {
+  border-right: 1px solid rgb(243, 244, 245);
 }
 
 .DetailsMenu-itemLink.is-active::after {

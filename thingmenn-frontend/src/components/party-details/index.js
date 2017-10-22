@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import partyService from '../../services/party-service'
 import partySummaryService from '../../services/party-summary-service'
@@ -10,7 +10,7 @@ import ColorLegend from '../../widgets/color-legend'
 import Words from '../../widgets/words'
 import Speeches from '../../widgets/speeches'
 
-import './styles.css';
+import './styles.css'
 
 export default class Mps extends React.Component {
   constructor(props) {
@@ -28,48 +28,50 @@ export default class Mps extends React.Component {
   componentDidMount() {
     const { partyId } = this.props.params
     if (partyId === this.state.party.id) {
-      return;
+      return
     }
 
-    partyService.getPartyDetails(partyId)
-      .then(party => {
-        this.setState({ party })
-      })
+    partyService.getPartyDetails(partyId).then(party => {
+      this.setState({ party })
+    })
 
-    partySummaryService.getPartyVotes(partyId)
-      .then(voteSummary => {
-        this.setState({ voteSummary })
-      })
+    partySummaryService.getPartyVotes(partyId).then(voteSummary => {
+      this.setState({ voteSummary })
+    })
 
-    partySummaryService.getPartySubjects(partyId)
-      .then(subjectSummary => {
-        this.setState({ subjectSummary })
-      })
+    partySummaryService.getPartySubjects(partyId).then(subjectSummary => {
+      this.setState({ subjectSummary })
+    })
 
-    partySummaryService.getPartyNouns(partyId)
-      .then(nouns => {
-        this.setState({ nouns })
-      })
+    partySummaryService.getPartyNouns(partyId).then(nouns => {
+      this.setState({ nouns })
+    })
 
-    partySummaryService.getPartySpeeches(partyId)
-      .then(speechSummary => {
-        this.setState({ speechSummary })
-      })
+    partySummaryService.getPartySpeeches(partyId).then(speechSummary => {
+      this.setState({ speechSummary })
+    })
   }
 
   render() {
-    const { party, voteSummary, nouns, speechSummary, subjectSummary } = this.state
+    const {
+      party,
+      voteSummary,
+      nouns,
+      speechSummary,
+      subjectSummary,
+    } = this.state
 
     return (
       <div className="fill">
         <DetailsHeader
           speechSummary={speechSummary}
           voteSummary={voteSummary}
-          {...party} />
+          {...party}
+        />
 
-        <div className='Details'>
+        <div className="Details">
           <div className="Details-item">
-          <h1 className="heading">Skipting atkvæða</h1>
+            <h1 className="heading">Skipting atkvæða</h1>
             <Piechart voteSummary={voteSummary} />
             <ColorLegend includeAbsent={true} />
           </div>
@@ -84,13 +86,13 @@ export default class Mps extends React.Component {
 
           <div className="Details-item Details-item--large">
             <h1 className="heading">Atkvæðaskipting eftir efnisflokkum</h1>
-            <ColorLegend/>
+            <ColorLegend />
             {subjectSummary.map(subject => (
               <BarChart subjectSummary={subject} key={subject.subject} />
             ))}
           </div>
         </div>
       </div>
-    );
+    )
   }
 }

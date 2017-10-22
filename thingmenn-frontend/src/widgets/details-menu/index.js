@@ -5,7 +5,7 @@ import './styles.css'
 
 const testMenu = [
   {
-    name: 'Yfirlit',
+    name: 'Samtölur',
     url: '/thingmenn/1158/test',
   },
   {
@@ -24,16 +24,36 @@ const testMenu = [
     url: '/asd',
   },
   {
-    thing: 'blabla',
-    year: 'blabla',
-    url: '/blabla',
+    thing: '145',
+    year: '2016',
+    url: '/asd',
+  },
+  {
+    thing: '144',
+    year: '2015',
+    url: '/asd',
+  },
+  {
+    thing: '143',
+    year: '2015',
+    url: '/asd',
+  },
+  {
+    thing: '142',
+    year: '2014',
+    url: '/asd',
+  },
+  {
+    thing: '141',
+    year: '2014',
+    url: '/asd',
   },
 ]
 
 const DetailsMenu = ({ menuItems = testMenu, isActive }) => (
   <nav className="DetailsMenu">
     <ul>
-      {menuItems.slice(0, 4).map((item, index) => {
+      {menuItems.map((item, index) => {
         const isFirst = index === 0
         return (
           <li className={classNames('DetailsMenu-item')} key={isFirst ? 'overview' : item.thing}>
@@ -42,7 +62,7 @@ const DetailsMenu = ({ menuItems = testMenu, isActive }) => (
               className="DetailsMenu-itemLink"
               activeClassName="is-active"
             >
-              {isFirst ? 'Yfirlit' : `Þing ${item.thing}`}
+              {isFirst ? 'Samtölur' : `Þing ${item.thing}`}
               <span className="DetailsMenu-year">{item.year && ` (${item.year})`}</span>
             </Link>
           </li>
