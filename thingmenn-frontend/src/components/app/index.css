@@ -28,12 +28,6 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1615px) {
-  body {
-    margin: 1rem auto;
-  }
-}
-
 a {
   text-decoration: none;
   color: initial;
