@@ -131,10 +131,27 @@ export default class PartyDetails extends React.Component {
     return initialList.concat(lthingsFormatted)
   }
 
+  getDividerSize(tabName, lthing) {
+    if (lthing === 'allt') {
+      if (tabName === 'speeches') {
+        return 15
+      } else if (tabName === 'documents') {
+        return 3
+      }
+    }
+
+    if (tabName === 'speeches') {
+      return 3
+    } else if (tabName === 'documents') {
+      return 0.4
+    }
+
+    return 1
+  }
+
   render() {
     const {
       party,
-      lthing,
       lthings,
       lthingLookup,
       voteSummary,
@@ -144,6 +161,8 @@ export default class PartyDetails extends React.Component {
       speechPositions,
       documentPositions,
     } = this.state
+
+    const lthing = this.props.params.lthing
 
     return (
       <div className="fill">
@@ -191,7 +210,7 @@ export default class PartyDetails extends React.Component {
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
-                      <Items divider={15} items={speechPositions} />
+                      <Items divider={this.getDividerSize('speeches', lthing)} items={speechPositions} />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting ræðutíma</h1>
@@ -201,7 +220,7 @@ export default class PartyDetails extends React.Component {
                   <Topic active={activeTab === 2}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
-                      <Items divider={3} items={documentPositions} />
+                      <Items divider={this.getDividerSize('documents', lthing)} items={documentPositions} />
                     </div>
                   </Topic>
                 </span>

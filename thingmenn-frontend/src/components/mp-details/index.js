@@ -152,10 +152,27 @@ export default class MpDetails extends React.Component {
     return initialList.concat(lthingsFormatted)
   }
 
+  getDividerSize(tabName, lthing) {
+    if (lthing === 'allt') {
+      if (tabName === 'speeches') {
+        return 3
+      } else if (tabName === 'documents') {
+        return 0.4
+      }
+    }
+
+    if (tabName === 'speeches') {
+      return 0.5
+    } else if (tabName === 'documents') {
+      return 0.1
+    }
+
+    return 1
+  }
+
   render() {
     const {
       mp,
-      lthing,
       lthings,
       lthingLookup,
       voteSummary,
@@ -167,6 +184,8 @@ export default class MpDetails extends React.Component {
       similarMps,
       differentMps,
     } = this.state
+
+    const lthing = this.props.params.lthing
 
     return (
       <div className="fill">
@@ -222,7 +241,7 @@ export default class MpDetails extends React.Component {
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
-                      <Items divider={3} items={speechPositions} />
+                      <Items divider={this.getDividerSize('speeches', lthing)} items={speechPositions} />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting ræðutíma</h1>
@@ -232,7 +251,7 @@ export default class MpDetails extends React.Component {
                   <Topic active={activeTab === 2}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
-                      <Items divider={0.4} items={documentPositions} />
+                      <Items divider={this.getDividerSize('documents', lthing)} items={documentPositions} />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting þingskjala</h1>
