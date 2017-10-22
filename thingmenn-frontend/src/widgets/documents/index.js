@@ -11,47 +11,50 @@ const Documents = ({ documentSummary }) => {
   }
   return (
     <div className="Documents">
+      <h2>1. flutningsmaður</h2>
       <div className="Documents-items">
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">{documentSummary.summary.bills.presenter.count}</p>
           <h1 className="Documents-statsHeading">
-            Frumvörp sem 1. flutningsmaður
+            Frumvörp
           </h1>
         </div>
         <div className="Documents-item" key={document.id}>
-          <p className="Documents-statsText">{documentSummary.summary.bills.coPresenter.count}</p>
+          <p className="Documents-statsText">{documentSummary.summary.motions.presenter.count}</p>
           <h1 className="Documents-statsHeading">
-            Frumvörp sem meðflutningsmaður
+            Þingsályktunartillögur
           </h1>
         </div>
       </div>
 
+      <h2>Meðflutningsmaður</h2>
       <div className="Documents-items">
         <div className="Documents-item" key={document.id}>
-          <p className="Documents-statsText">{documentSummary.summary.motions.presenter.count}</p>
+          <p className="Documents-statsText">{documentSummary.summary.motions.coPresenter.count}</p>
           <h1 className="Documents-statsHeading">
-            Þingsályktunartillögur sem 1. flutningsmaður
+            Frumvörp
           </h1>
         </div>
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">{documentSummary.summary.motions.coPresenter.count}</p>
           <h1 className="Documents-statsHeading">
-            Þingsályktunartillögur sem meðflutningsmaður
+            Þingsályktunartillögur
           </h1>
         </div>
       </div>
 
+      <h2>Fyrirspurnir</h2>
       <div className="Documents-items">
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">{documentSummary.summary.inquiries.asked}</p>
           <h1 className="Documents-statsHeading">
-            Fyrirspurnir
+            Spurningar
           </h1>
         </div>
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">{documentSummary.summary.inquiries.answered}</p>
           <h1 className="Documents-statsHeading">
-            Fyrirspurnum svarað
+            Svör
           </h1>
         </div>
       </div>
