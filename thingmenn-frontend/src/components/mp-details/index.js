@@ -13,6 +13,7 @@ import DetailsMenu from '../../widgets/details-menu'
 import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
 import Speeches from '../../widgets/speeches'
+import Documents from '../../widgets/documents'
 import BarChart from '../../widgets/bar-chart'
 import Items from '../../widgets/items'
 
@@ -232,6 +233,10 @@ export default class MpDetails extends React.Component {
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
                       <Items divider={0.4} items={documentPositions} />
+                    </div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Þingskjöl</h1>
+                      <Documents documentSummary={documentSummary} />
                     </div>
                   </Topic>
                 </span>
