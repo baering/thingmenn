@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   flex: 1 1 100%;
-  background: #32394C;
+  background: #32394c;
   padding: 1rem;
 }
 
@@ -62,7 +62,7 @@
   padding: 0.5rem;
   font-size: 1rem;
   color: #fdfdff;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
 }
 @media (min-width: 425px) {
   .Nav-item {
@@ -72,14 +72,13 @@
 }
 @media (min-width: 768px) {
   .Nav-item {
-
     padding: 1rem 0;
     border-bottom: 1px solid #313131;
     border-left: 4px solid transparent;
     font-size: 1rem;
     text-indent: 1rem;
   }
-  .Nav-item:first-of-type   {
+  .Nav-item:first-of-type {
     border-top: 1px solid #313131;
   }
 }
@@ -90,7 +89,7 @@
 }
 .Nav-item > span {
   font-size: 1.333rem;
-  color: #06ABDC;
+  color: #06abdc;
 }
 
 @media (min-width: 768px) {
@@ -99,14 +98,13 @@
   }
 }
 .Nav-item.is-active {
-
 }
 
 @media (min-width: 768px) {
   .Nav-item.is-active {
     background: #212324;
     color: #fdfdff;
-    border-left-color: #06ABDC;
+    border-left-color: #06abdc;
   }
 }
 
@@ -116,5 +114,22 @@
 }
 
 .Nav-titleDot {
-  color: #06ABDC;
+  color: #06abdc;
+}
+
+.Nav-footnote {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .Nav-footnote {
+    display: block;
+    color: #f8fafb;
+    align-self: center;
+    margin-top: auto;
+    padding-bottom: 1rem;
+    opacity: 0.5;
+    font-size: 0.85rem;
+    font-weight: 300;
+  }
 }

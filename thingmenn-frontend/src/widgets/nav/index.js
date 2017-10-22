@@ -13,6 +13,7 @@ class Nav extends React.Component {
         <Link to="/thingflokkar" className="Nav-item" activeClassName="is-active"><span className="typcn typcn-group-outline"></span> Þingflokkar</Link>
         <Link to="/samantekt" className="Nav-item" activeClassName="is-active"><span className="typcn typcn-equals-outline"></span> Samantekt</Link>
         <Link to="/um" className="Nav-item" activeClassName="is-active"><span className="typcn typcn-info-large-outline"></span> Um verkefnið</Link>
+        <footer className="Nav-footnote">Útgáfa 2.0beta</footer>
       </nav>
     );
   }
