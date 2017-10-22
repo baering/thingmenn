@@ -18,9 +18,9 @@ from flask import make_response
 api = blueprints.Blueprint('thingmenn-api', __name__)
 
 api.add_url_rule('/api/lthing/<string:lthing>/mps/', 'list_mps_by_lthing', get_mps_by_lthing)
-api.add_url_rule('/api/lthing/<string:lthing>/mps/<int:mp_id>', 'get_mp_by_lthing', get_mp_by_id_by_lthing)
-api.add_url_rule('/api/lthing/<string:lthing>/mps/<int:mp_id>/similar', 'get_similar_mps_by_lthing', get_similar_mps_by_lthing)
-api.add_url_rule('/api/lthing/<string:lthing>/mps/<int:mp_id>/different', 'get_different_mps_by_lthing', get_different_mps_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/mps/<string:mp_id>', 'get_mp_by_lthing', get_mp_by_id_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/mps/<string:mp_id>/similar', 'get_similar_mps_by_lthing', get_similar_mps_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/mps/<string:mp_id>/different', 'get_different_mps_by_lthing', get_different_mps_by_lthing)
 
 api.add_url_rule('/api/lthing/allt/parties', 'list_parties', get_parties)
 api.add_url_rule('/api/lthing/allt/parties/<string:party_id>', 'get_party', get_party_by_id)
