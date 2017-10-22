@@ -10,6 +10,14 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
   }
   let attendance = 100 - parseFloat(away)
 
+  let bills = 0
+  let motions = 0
+  if (documentSummary && documentSummary.summary) {
+    bills = documentSummary.summary.bills.total
+    motions = documentSummary.summary.motions.total
+  }
+
+
   return (
     <div className="KPI">
       <div className="KPI-stats">
@@ -30,11 +38,11 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
           <h1 className="KPI-statsHeading">í Ræðustól</h1>
         </div>
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.bills.total}</p>
+          <p className="KPI-statsText">{bills}</p>
           <h1 className="KPI-statsHeading">Frumvörp</h1>
         </div>
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">{documentSummary.summary && documentSummary.summary.motions.total}</p>
+          <p className="KPI-statsText">{motions}</p>
           <h1 className="KPI-statsHeading">Þingsályktunartillögur</h1>
         </div>
       </div>
