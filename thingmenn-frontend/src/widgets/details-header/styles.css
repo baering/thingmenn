@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   font-family: 'Lora', serif;
   font-size: 1.777rem;
-  margin: 0.563rem;
+  margin: 1rem;
+  margin-bottom: 0;
 }
 
 @media (min-width: 1234px) {
@@ -29,6 +30,10 @@
   display: flex;
   flex: 1 1 100%;
   font-size: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
   padding: 2rem;
 }
 

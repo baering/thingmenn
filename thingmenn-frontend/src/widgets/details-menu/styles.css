@@ -1,8 +1,14 @@
 .DetailsMenu {
-  padding-bottom: 67px;
+  padding-bottom: 50px;
   position: relative;
   overflow-y: hidden;
   overflow-x: scroll;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu {
+    padding-bottom: 67px;
+  }
 }
 
 .DetailsMenu::-webkit-scrollbar {
@@ -36,16 +42,30 @@
   justify-content: center;
   flex: none;
   text-align: center;
-  max-width: 300px;
-  min-width: 200px;
-  height: 67px;
+  max-width: 200px;
+  min-width: 100px;
+  height: 50px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu-item {
+    max-width: 300px;
+    min-width: 200px;
+    height: 67px;    
+  }
 }
 
 .DetailsMenu-itemLink {
   padding: 1.5rem 1rem;
   width: 100%;
   position: relative;
-  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu-itemLink {
+    height: 100%;
+  }
 }
 
 .DetailsMenu-item:not(:first-child) .DetailsMenu-itemLink:not(.is-active) {

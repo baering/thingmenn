@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import { Link } from 'react-router'
 import './styles.css'
+
 const testMenu = [
   {
     name: 'Samtölur',
