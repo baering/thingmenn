@@ -16,7 +16,6 @@
 }
 
 .Items-list > dt {
-  text-transform: capitalize;
   border-right:  1px solid rgba(44, 63, 80, 0.15);
 }
 
