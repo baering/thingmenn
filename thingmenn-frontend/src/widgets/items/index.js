@@ -10,7 +10,7 @@ const Items = ({
   return (
     <div className="Items">
      <dl className="Items-list">
-       {items.map((item) => (
+       {items && items instanceof Array && items.map((item) => (
          [
            <dt>{item.name}</dt>,
            <dd><div style={{width: `${item.count/divider}px`}}>&nbsp;</div><span className="bottom-to-top"><span>{item.count}</span></span></dd>
