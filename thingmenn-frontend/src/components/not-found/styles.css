@@ -2,17 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  font-size: 35vw;
+  font-size: 60vw;
   color: white;
   background: url('/images/althingi.jpg') 100%/cover;
+}
+
+@media (min-width: 768px) {
+  .not-found {
+    height: 100vh;
+    font-size: 35vw;
+  }
 }
 
 .not-found .travolta {
   position: absolute;
   bottom: 0;
-  width: 40vw;
-  height: 40vw;
+  width: 60vw;
+  height: 60vw;
   background: url('https://i.imgur.com/35xkavm.gif') 100% 100%/cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  .not-found .travolta {
+    width: 40vw;
+    height: 40vw;
+  }
 }
