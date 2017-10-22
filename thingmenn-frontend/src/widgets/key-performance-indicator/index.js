@@ -46,7 +46,7 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
           <h1 className="KPI-statsHeading">Þingsályktunartillögur</h1>
         </div>
       </div>
-      <p className="KPI-smallprint">* í atkvæðagreiðslum</p>
+      <p className="KPI-smallprint">* atkvæðagreiðslur</p>
     </div>
   )
 }
