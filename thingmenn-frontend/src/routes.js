@@ -35,6 +35,7 @@ const Routes = (props) => (
   <Router onUpdate={onRouterUpdate} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Mps} />
+      <Route path="/thing/:lthing" component={Mps} />
       <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path='/thingflokkar/:partyId/thing/:lthing' component={PartyDetails} />

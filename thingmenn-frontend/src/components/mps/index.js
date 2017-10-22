@@ -38,9 +38,10 @@ export default class Mps extends React.Component {
   }
 
   componentWillMount() {
-    mpService.getMpsByLthing()
+    const lthing = this.props.params.lthing
+    mpService.getMpsByLthing(lthing)
       .then(mps => {
-        this.setState({ mps })
+        this.setState(() => ({ mps, lthing }))
       })
     this.setSorting(this.props)
   }
@@ -63,7 +64,7 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { mps, sortByParty } = this.state
+    const { mps, sortByParty, lthing } = this.state
 
     const items = mps.filter(this.searchFilter.bind(this))
         .sort(this.sortItem.bind(this))
@@ -75,7 +76,7 @@ export default class Mps extends React.Component {
         <SubNav handleSearchInput={this.handleSearchInput} searchInput={searchInput} sortByParty={sortByParty} />
         <List>
           {items.map(mp => (
-            <Mp key={mp.id} {...mp} />
+            <Mp key={mp.id} lthing={lthing} {...mp} />
           ))}
         </List>
       </div>

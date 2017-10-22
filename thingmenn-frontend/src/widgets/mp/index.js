@@ -10,13 +10,18 @@ import './styles.css'
 
 const Mp = ({
   id,
-  name,
   imagePath,
+  lthing,
+  name,
   party,
-  partySlug
+  partySlug,
 }) => {
+  let url = `/thingmenn/${id}/thing/allt`
+  if (lthing) {
+    url = `/thingmenn/${id}/thing/${lthing}`
+  }
   return (
-    <ListItem url={`/thingmenn/${id}`}>
+    <ListItem url={url}>
       <ListItemImage path={imagePath} cover={true}>
         <PartyBadge party={partySlug} className="Mp-badge"/>
       </ListItemImage>
