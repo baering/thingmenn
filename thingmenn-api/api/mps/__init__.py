@@ -20,16 +20,37 @@ similar_mp_votes_by_lthing = {}
 different_mp_votes = {}
 different_mp_votes_by_lthing = {}
 
-def shouldShowMp(mp):
-    onlySubstitute = mp['onlySubstitute']
+def setOnlySubstitute(mp):
+    wasMp = False
+    for lthingInfo in mp['lthings']:
+        if not lthingInfo['isSubstitute']:
+            wasMp = True
 
-    return not onlySubstitute
+    mp['onlySubstitute'] = not wasMp
+
+def setPartyId(mp, lthing):
+    if lthing == u'allt':
+        if len(mp['lthings']):
+            mp['partyId'] = mp['lthings'][0]['partyId']
+            return True
+    else:
+        for lthingInfo in mp['lthings']:
+            if lthingInfo['lthing'] == int(lthing):
+                mp['partyId'] = lthingInfo['partyId']
+                return True
+
+    return False
 
 with open(path.dirname(__file__) + '/../../data/v2/mps.json', 'r') as mpFile:
-    mps = json.loads(mpFile.read())
-    for mp in mps:
+    allMps = json.loads(mpFile.read())
+    for mp in allMps:
         mpId = str(mp['id'])
+        setOnlySubstitute(mp)
+        if not setPartyId(mp, u'allt'):
+            print 'No party set for ', mp['id']
         mp_lookup[mpId] = mp
+
+    mps = [mp for mp in allMps if not mp['onlySubstitute']]
 
 with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as mpFile:
     mpsByLthing = json.loads(mpFile.read())
@@ -38,9 +59,14 @@ with open(path.dirname(__file__) + '/../../data/v2/mps-by-lthing.json', 'r') as 
         mps_by_lthing[lthing] = []
         for mp in mpsByLthing[lthing]:
             mpId = str(mp['id'])
-            mpDetails = mp_lookup[mpId]
+            mpDetails = mp_lookup[mpId].copy()
+            if not setPartyId(mpDetails, lthing):
+                print 'No party set for ', mpDetails['id']
+
             mp_lookup_by_lthing[lthing][mpId] = mpDetails
-            mps_by_lthing[lthing].append(mpDetails)
+
+            if not mpDetails['onlySubstitute']:
+                mps_by_lthing[lthing].append(mpDetails)
 
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-similar-votes.json', 'r') as f:
     similar_mp_votes = json.loads(f.read())
@@ -62,7 +88,7 @@ def get_mps():
 def get_mps_by_lthing(lthing):
     if lthing == u'allt':
         return make_json_response(mps)
-    return make_json_response(mps_by_lthing[int(lthing)])
+    return make_json_response(mps_by_lthing[lthing])
 
 def get_mp_by_id(mp_id):
     if mp_id not in mp_lookup:
