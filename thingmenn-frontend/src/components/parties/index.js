@@ -5,16 +5,8 @@ import totalService from '../../services/totals-service'
 
 import Party from '../../widgets/party'
 import List from '../../widgets/list'
-import DetailsMenu from '../../widgets/details-menu'
 
 import './styles.css'
-
-const initialLthingsMenuList = [
-  {
-    name: 'Samtölur',
-    url: 'thingflokkar/thing/allt',
-  }
-]
 
 export default class Mps extends React.Component {
   constructor(props) {

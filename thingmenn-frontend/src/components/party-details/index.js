@@ -134,7 +134,6 @@ export default class PartyDetails extends React.Component {
   render() {
     const {
       party,
-      lthing,
       lthings,
       lthingLookup,
       voteSummary,

@@ -25,7 +25,6 @@ export default class Mps extends React.Component {
     this.state = {
       lthing: null,
       mps: [],
-      lthing: null,
       lthings: [],
       searchInput: '',
       sortByParty: false,

@@ -1,7 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
-import { formatTime } from '../../utils'
 
 import './styles.css'
 
