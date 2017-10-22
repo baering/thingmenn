@@ -6,11 +6,8 @@ const DetailsHeader = ({
   id,
   mpName,
   description,
-  lthings,
   imagePath,
 }) => {
-  const { asMp } = description
-
   return (
     <div className="DetailsHeader">
       <div className="DetailsHeader-details">
@@ -24,7 +21,7 @@ const DetailsHeader = ({
           <h1 className="DetailsHeader-bioName">
             {mpName} <p className="Main-subheader"></p>
           </h1>
-          <p className="DetailsHeader-bioText">{asMp}</p>
+          <p className="DetailsHeader-bioText">{description}</p>
         </div>
       </div>
     </div>
@@ -34,7 +31,6 @@ const DetailsHeader = ({
 DetailsHeader.propTypes = {
   id: PropTypes.number,
   mpName: PropTypes.string,
-  lthings: PropTypes.any,
   imagePath: PropTypes.string,
   description: PropTypes.any,
 }

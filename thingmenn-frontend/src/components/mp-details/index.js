@@ -172,7 +172,7 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <DetailsMenu menuItems={this.generateLthingList(mp, lthings, lthingLookup)} />
-        <DetailsHeader {...mp} />
+        <DetailsHeader {...mp} description={mp.description.asMp} />
         <div className="Details">
           <KPI
             voteSummary={voteSummary}
