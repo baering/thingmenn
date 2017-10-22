@@ -79,23 +79,9 @@
   border-right: 1px solid rgb(243, 244, 245);
 }
 
-.DetailsMenu-itemLink.is-active::after {
-  content: '';
-  width: 10px;
-  background:#06a9dc;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 10px;
-  margin: 0 auto;
-  transform: translateY(50%) rotateZ(45deg);
-}
-
 .DetailsMenu-itemLink.is-active {
   color: white;
   background: #32394C;
-  border-bottom: 4px solid #06a9dc;
 }
 
 .DetailsMenu-year {

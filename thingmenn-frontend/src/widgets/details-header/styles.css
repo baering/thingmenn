@@ -11,7 +11,7 @@
 
 @media (min-width: 1234px) {
   .DetailsHeader {
-    margin: 0;
+    margin: 2rem 2rem 0;
   }
 }
 
@@ -34,7 +34,9 @@
 }
 
 @media (min-width: 768px) {
-  padding: 2rem;
+  .DetailsHeader-details {
+    padding: 2rem;
+  }
 }
 
 @media (min-width: 1234px) {
