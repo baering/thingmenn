@@ -34,7 +34,7 @@ class MpSummaryService extends CacheService {
 
   getMpDocumentPositionsByLthing(mpId, lthing = 'allt') {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
+      `${apiUrl}/api/lthing/${lthing}/positions/documents/mp/${mpId}`,
     )
   }
 }

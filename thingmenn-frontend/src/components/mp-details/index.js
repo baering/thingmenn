@@ -14,6 +14,7 @@ import Friends from '../../widgets/friends'
 import Piechart from '../../widgets/piechart'
 import Speeches from '../../widgets/speeches'
 import BarChart from '../../widgets/bar-chart'
+import Items from '../../widgets/items'
 
 import '../mp-details/styles.css'
 
@@ -200,7 +201,7 @@ export default class Mps extends React.Component {
                   <Topic active={activeTab === 0}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">
-                        Atkvæðaskipting eftir efnisflokkum
+                        Atkvæðaskipting eftir flokkum
                       </h1>
                       <ColorLegend />
                       {votePositions.map(sectionSummary => (
@@ -211,7 +212,7 @@ export default class Mps extends React.Component {
                       ))}
                     </div>
                     <div className="Topic-column">
-                      <h1 className="Topic-heading">Vote summary</h1>
+                      <h1 className="Topic-heading">Skipting atkvæða</h1>
 
                       <Piechart voteSummary={voteSummary} />
                       <ColorLegend includeAbsent />
@@ -219,15 +220,19 @@ export default class Mps extends React.Component {
                   </Topic>
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
-                      <h1 className="Topic-heading">Skipting ræðutíma </h1>
-                      <Speeches speechSummary={speechSummary} />
+                      <h1 className="Topic-heading">Ræður eftir flokkum</h1>
+                      <Items title="" divider={3} items={speechPositions} />
                     </div>
                     <div className="Topic-column">
-                      <h1 className="Topic-heading">Mest talað um</h1>
+                      <h1 className="Topic-heading">Skipting ræðutíma</h1>
+                      <Speeches speechSummary={speechSummary} />
                     </div>
                   </Topic>
                   <Topic active={activeTab === 2}>
-                    <div className="Topic-column">Nothing</div>
+                    <div className="Topic-column">
+                      <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
+                      <Items title="" divider={0.4} items={documentPositions} />
+                    </div>
                   </Topic>
                 </span>
               )}

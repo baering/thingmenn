@@ -7,7 +7,7 @@ import DetailsHeader from '../../widgets/details-header'
 import Piechart from '../../widgets/piechart'
 import BarChart from '../../widgets/bar-chart'
 import ColorLegend from '../../widgets/color-legend'
-import Words from '../../widgets/words'
+// import Words from '../../widgets/words'
 import Speeches from '../../widgets/speeches'
 
 import './styles.css'
@@ -83,7 +83,7 @@ export default class Mps extends React.Component {
           </div>
 
           <div className="Details-item">
-            <Words divider="12" title="Mest talað um" words={nouns} />
+            {/* <Words divider="12" title="Mest talað um" words={nouns} /> */}
           </div>
 
           <div className="Details-item Details-item--large">
