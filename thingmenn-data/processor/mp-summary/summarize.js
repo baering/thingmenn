@@ -118,12 +118,14 @@ export default function process() {
       similarMpLookup[lthing],
       mpLookup,
       mpByLthingVoteCounter[lthing],
+      lthing,
     )
 
     sortedDifferentMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
       differentMpLookup[lthing],
       mpLookup,
-      mpByLthingVoteCounter[lthing]
+      mpByLthingVoteCounter[lthing],
+      lthing,
     )
   }
 

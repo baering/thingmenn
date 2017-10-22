@@ -1,3 +1,5 @@
+import { getMpToPartyLookup } from '../helpers'
+
 export function initializeVoteCounterIfNeeded(counter, id) {
   if (counter[id] === undefined) {
     counter[id] = {
@@ -124,8 +126,10 @@ export function createSimilarVoteLookup(mps, mpVoteLogByLthing) {
   return { similarMpLookup, differentMpLookup }
 }
 
-export function createSortedMpVoteSimilarityLookup(lookup, mpLookup, mpVoteSummary) {
+export function createSortedMpVoteSimilarityLookup(lookup, mpLookup, mpVoteSummary, lthing = 'allt') {
   const mpIds = Object.keys(lookup)
+
+  const mpToPartyId = getMpToPartyLookup()
 
   const result = {}
   mpIds.forEach(mpId => {
@@ -150,6 +154,7 @@ export function createSortedMpVoteSimilarityLookup(lookup, mpLookup, mpVoteSumma
         mp: {
           id: mpLookup[otherMpId].id,
           name: mpLookup[otherMpId].mpName,
+          partyId: mpToPartyId[lthing][mpLookup[otherMpId].id],
         },
         votes,
         similarity: similarityPrecision,
