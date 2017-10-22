@@ -17,6 +17,13 @@
   }
 }
 
+.Documents-subheader {
+  font-size: 1.15rem;
+  font-style: italic;
+  text-align: center;
+  flex: 1 1 auto;
+  align-self: center;
+}
 .Documents-statsText {
   color: #06ABDC;
   font-size: 2rem;
