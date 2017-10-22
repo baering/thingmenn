@@ -12,7 +12,7 @@ const Mp = ({
   id,
   imagePath,
   lthing,
-  name,
+  mpName,
   partyId,
 }) => {
   let url = `/thingmenn/${id}/thing/allt`
@@ -24,7 +24,7 @@ const Mp = ({
       <ListItemImage path={imagePath} cover={true}>
         <PartyBadge party={partyId} className="Mp-badge"/>
       </ListItemImage>
-      <ListItemContent title={name} />
+      <ListItemContent title={mpName} />
     </ListItem>
   )
 }
