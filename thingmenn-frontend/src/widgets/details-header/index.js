@@ -21,7 +21,7 @@ const DetailsHeader = ({
           <h1 className="DetailsHeader-bioName">
             {mpName} <p className="Main-subheader"></p>
           </h1>
-          <p className="DetailsHeader-bioText">{description && description.asMp ? description.asMp : description}</p>
+          <p className="DetailsHeader-bioText">{description}</p>
         </div>
       </div>
     </div>
