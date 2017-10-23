@@ -12,7 +12,7 @@ let searchInput = ''
 
 const initialLthingsMenuList = [
   {
-    name: 'Samtölur',
+    name: 'Öll þing',
     url: '/thing/allt',
   }
 ]
