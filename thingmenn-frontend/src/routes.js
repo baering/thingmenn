@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Route, IndexRedirect, browserHistory } from 'react-router'
+import { Router, Route, IndexRedirect, Redirect, browserHistory } from 'react-router'
 
 import analytics from './utility/analytics'
 
@@ -39,6 +39,7 @@ const Routes = (props) => (
       <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path='/thingflokkar/:partyId/thing/:lthing' component={PartyDetails} />
+      <Redirect from='/samantekt' to="/samantekt/thing/146"/>
       <Route path="/samantekt/thing/:lthing" component={Totals} />
       <Route path="/um" component={About} />
       <Route path="*" component={NotFound} />
