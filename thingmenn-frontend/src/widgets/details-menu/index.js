@@ -56,6 +56,10 @@ const DetailsMenu = ({ menuItems = testMenu }) => (
     <ul>
       {menuItems.map((item, index) => {
         const isFirst = index === 0
+        let label = `Þing ${item.thing}`
+        if (isFirst && item.name) {
+          label = item.name
+        }
         return (
           <li className={classNames('DetailsMenu-item')} key={isFirst ? 'overview' : item.thing}>
             <Link
@@ -63,7 +67,7 @@ const DetailsMenu = ({ menuItems = testMenu }) => (
               className="DetailsMenu-itemLink"
               activeClassName="is-active"
             >
-              {isFirst ? 'Allt' : `Þing ${item.thing}`}
+              {label}
               <span className="DetailsMenu-year">{item.year && ` (${item.year})`}</span>
             </Link>
           </li>

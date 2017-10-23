@@ -1,5 +1,5 @@
 export const formatTime = (time) => {
-  if (!time) {
+  if (time === undefined) {
     return
   }
 
@@ -18,7 +18,7 @@ export const formatTime = (time) => {
 }
 
 export const formatPercentage = (number) => {
-  if (!number) {
+  if (number === undefined) {
     return
   }
 

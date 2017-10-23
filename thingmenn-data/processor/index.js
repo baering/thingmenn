@@ -12,7 +12,7 @@ const defaultItems = [
   'mps',
   'positions',
   'speechStatistics',
-  // 'top',
+  'top',
   'lthings',
 ]
 

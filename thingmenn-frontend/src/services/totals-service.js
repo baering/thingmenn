@@ -6,28 +6,28 @@ class TotalsService extends CacheService {
     return this.fetchData(`${apiUrl}/api/lthings`)
   }
 
-  getTopMpsAttendance() {
-    return this.fetchData(`${apiUrl}/api/top/attendance/mps`)
+  getTopMpsAttendanceByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/attendance/mps`)
   }
 
-  getBottomMpsAttendance() {
-    return this.fetchData(`${apiUrl}/api/bottom/attendance/mps`)
+  getBottomMpsAttendanceByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/attendance/mps`)
   }
 
-  getTopMpsStands() {
-    return this.fetchData(`${apiUrl}/api/top/stands/mps`)
+  getTopMpsStandsByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/stands/mps`)
   }
 
-  getBottomMpsStands() {
-    return this.fetchData(`${apiUrl}/api/bottom/stands/mps`)
+  getBottomMpsStandsByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/stands/mps`)
   }
 
-  getTopMpsMinutes() {
-    return this.fetchData(`${apiUrl}/api/top/minutes/mps`)
+  getTopMpsMinutesByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/minutes/mps`)
   }
 
-  getBottomMpsMinutes() {
-    return this.fetchData(`${apiUrl}/api/bottom/minutes/mps`)
+  getBottomMpsMinutesByLthing(lthing) {
+    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/minutes/mps`)
   }
 
 }
