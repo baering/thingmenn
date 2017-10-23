@@ -104,7 +104,7 @@ export default class Totals extends React.Component {
     return (
       <div className="fill">
         <DetailsMenu menuItems={this.generateLthingList(lthings, lthingLookup)} />
-        <h1 className="title">Samantekt <span className="Totals-smallprint">Unnin úr árunum 2013-2016</span></h1>
+        <h1 className="title">Samantekt <span className="Totals-smallprint">úr árunum 2007-2017</span></h1>
 
         <div className="Details">
           <div className="Details-item">
