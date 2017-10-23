@@ -45,12 +45,12 @@ api.add_url_rule('/api/lthing/<string:lthing>/positions/votes/party/<string:part
 api.add_url_rule('/api/lthing/<string:lthing>/positions/speeches/party/<string:party_id>', 'get_party_speech_positions_by_lthing', get_party_speech_positions_by_lthing)
 api.add_url_rule('/api/lthing/<string:lthing>/positions/documents/party/<string:party_id>', 'get_party_document_positions_by_lthing', get_party_document_positions_by_lthing)
 
-api.add_url_rule('/api/top/attendance/mps', 'get_top_mp_attendance', get_top_mp_attendance)
-api.add_url_rule('/api/top/minutes/mps', 'get_top_mp_minutes_talked', get_top_mp_minutes_talked)
-api.add_url_rule('/api/top/stands/mps', 'get_top_mp_stands_taken', get_top_mp_stands_taken)
+api.add_url_rule('/api/lthing/<string:lthing>/top/attendance/mps', 'get_top_mp_attendance', get_top_mp_attendance)
+api.add_url_rule('/api/lthing/<string:lthing>/top/minutes/mps', 'get_top_mp_minutes_talked', get_top_mp_minutes_talked)
+api.add_url_rule('/api/lthing/<string:lthing>/top/stands/mps', 'get_top_mp_stands_taken', get_top_mp_stands_taken)
 
-api.add_url_rule('/api/bottom/attendance/mps', 'get_bottom_mp_attendance', get_bottom_mp_attendance)
-api.add_url_rule('/api/bottom/minutes/mps', 'get_bottom_mp_minutes_talked', get_bottom_mp_minutes_talked)
-api.add_url_rule('/api/bottom/stands/mps', 'get_bottom_mp_stands_taken', get_bottom_mp_stands_taken)
+api.add_url_rule('/api/lthing/<string:lthing>/bottom/attendance/mps', 'get_bottom_mp_attendance', get_bottom_mp_attendance)
+api.add_url_rule('/api/lthing/<string:lthing>/bottom/minutes/mps', 'get_bottom_mp_minutes_talked', get_bottom_mp_minutes_talked)
+api.add_url_rule('/api/lthing/<string:lthing>/bottom/stands/mps', 'get_bottom_mp_stands_taken', get_bottom_mp_stands_taken)
 
 api.add_url_rule('/api/lthings', 'get_lthings', get_lthings)

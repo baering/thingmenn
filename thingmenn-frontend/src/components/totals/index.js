@@ -22,32 +22,33 @@ export default class Totals extends React.Component {
   }
 
   componentDidMount() {
-    totalsService.getTopMpsAttendance()
+    const lthing = 147
+    totalsService.getTopMpsAttendanceByLthing(lthing)
       .then(topMpsAttendance => {
         this.setState({ topMpsAttendance })
       })
 
-    totalsService.getBottomMpsAttendance()
+    totalsService.getBottomMpsAttendanceByLthing(lthing)
       .then(bottomMpsAttendance => {
         this.setState({ bottomMpsAttendance })
       })
 
-    totalsService.getTopMpsStands()
+    totalsService.getTopMpsStandsByLthing(lthing)
       .then(topMpsStands => {
         this.setState({ topMpsStands })
       })
 
-    totalsService.getBottomMpsStands()
+    totalsService.getBottomMpsStandsByLthing(lthing)
       .then(bottomMpsStands => {
         this.setState({ bottomMpsStands })
       })
 
-    totalsService.getTopMpsMinutes()
+    totalsService.getTopMpsMinutesByLthing(lthing)
       .then(topMpMinutesTalked => {
         this.setState({ topMpMinutesTalked })
       })
 
-    totalsService.getBottomMpsMinutes()
+    totalsService.getBottomMpsMinutesByLthing(lthing)
       .then(bottomMpMinutesTalked => {
         this.setState({ bottomMpMinutesTalked })
       })

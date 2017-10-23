@@ -1,0 +1,5775 @@
+{
+	"135": [
+		{
+			"mp": {
+				"id": 2,
+				"name": "Arnbjörg Sveinsdóttir"
+			},
+			"standsTaken": 98.54
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 98.02
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 96.16
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 96.03
+		},
+		{
+			"mp": {
+				"id": 663,
+				"name": "Sigurður Kári Kristjánsson"
+			},
+			"standsTaken": 94.87
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 92.66
+		},
+		{
+			"mp": {
+				"id": 560,
+				"name": "Sturla Böðvarsson"
+			},
+			"standsTaken": 92.6
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 91.85
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 89.63
+		},
+		{
+			"mp": {
+				"id": 141,
+				"name": "Ellert B. Schram"
+			},
+			"standsTaken": 89.17
+		},
+		{
+			"mp": {
+				"id": 162,
+				"name": "Geir H. Haarde"
+			},
+			"standsTaken": 87.63
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson"
+			},
+			"standsTaken": 86.92
+		},
+		{
+			"mp": {
+				"id": 685,
+				"name": "Gunnar Svavarsson"
+			},
+			"standsTaken": 86.78
+		},
+		{
+			"mp": {
+				"id": 681,
+				"name": "Björk Guðjónsdóttir"
+			},
+			"standsTaken": 86.66
+		},
+		{
+			"mp": {
+				"id": 407,
+				"name": "Lúðvík Bergvinsson"
+			},
+			"standsTaken": 86.31
+		},
+		{
+			"mp": {
+				"id": 677,
+				"name": "Ármann Kr. Ólafsson"
+			},
+			"standsTaken": 83.46
+		},
+		{
+			"mp": {
+				"id": 689,
+				"name": "Jón Magnússon"
+			},
+			"standsTaken": 83.25
+		},
+		{
+			"mp": {
+				"id": 221,
+				"name": "Ásta Möller"
+			},
+			"standsTaken": 82.88
+		},
+		{
+			"mp": {
+				"id": 682,
+				"name": "Grétar Mar Jónsson"
+			},
+			"standsTaken": 81.97
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 81.77
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 81.71
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 80.98
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 80.61
+		},
+		{
+			"mp": {
+				"id": 633,
+				"name": "Þórunn Sveinbjarnardóttir"
+			},
+			"standsTaken": 80.04
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 79.97
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 79.38
+		},
+		{
+			"mp": {
+				"id": 176,
+				"name": "Guðjón A. Kristjánsson"
+			},
+			"standsTaken": 78.81
+		},
+		{
+			"mp": {
+				"id": 379,
+				"name": "Kjartan Ólafsson"
+			},
+			"standsTaken": 78.68
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 77.24
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 77.01
+		},
+		{
+			"mp": {
+				"id": 700,
+				"name": "Herdís Þórðardóttir"
+			},
+			"standsTaken": 76.99
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 73.81
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 72.94
+		},
+		{
+			"mp": {
+				"id": 76,
+				"name": "Björn Bjarnason"
+			},
+			"standsTaken": 72.51
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 72.39
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 71.91
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 71.67
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 71.66
+		},
+		{
+			"mp": {
+				"id": 386,
+				"name": "Kristinn H. Gunnarsson"
+			},
+			"standsTaken": 71.64
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 68.2
+		},
+		{
+			"mp": {
+				"id": 695,
+				"name": "Steinunn Valdís Óskarsdóttir"
+			},
+			"standsTaken": 67.61
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 67.56
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 66.63
+		},
+		{
+			"mp": {
+				"id": 13,
+				"name": "Valgerður Sverrisdóttir"
+			},
+			"standsTaken": 66.37
+		},
+		{
+			"mp": {
+				"id": 383,
+				"name": "Kolbrún Halldórsdóttir"
+			},
+			"standsTaken": 65.11
+		},
+		{
+			"mp": {
+				"id": 264,
+				"name": "Ingibjörg Sólrún Gísladóttir"
+			},
+			"standsTaken": 64.57
+		},
+		{
+			"mp": {
+				"id": 684,
+				"name": "Guðfinna S. Bjarnadóttir"
+			},
+			"standsTaken": 62.73
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 61.15
+		},
+		{
+			"mp": {
+				"id": 134,
+				"name": "Einar Már Sigurðarson"
+			},
+			"standsTaken": 60.51
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 58.14
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 58.07
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 57.37
+		},
+		{
+			"mp": {
+				"id": 5,
+				"name": "Árni M. Mathiesen"
+			},
+			"standsTaken": 55.04
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 54.21
+		},
+		{
+			"mp": {
+				"id": 425,
+				"name": "Magnús Stefánsson"
+			},
+			"standsTaken": 50.67
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 49.91
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 49.14
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 48.26
+		},
+		{
+			"mp": {
+				"id": 680,
+				"name": "Bjarni Harðarson"
+			},
+			"standsTaken": 45.37
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 40.13
+		},
+		{
+			"mp": {
+				"id": 198,
+				"name": "Guðni Ágústsson"
+			},
+			"standsTaken": 32.62
+		},
+		{
+			"mp": {
+				"id": 373,
+				"name": "Karl V. Matthíasson"
+			},
+			"standsTaken": 29.37
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 8.17
+		}
+	],
+	"136": [
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 95.75
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 90.53
+		},
+		{
+			"mp": {
+				"id": 407,
+				"name": "Lúðvík Bergvinsson"
+			},
+			"standsTaken": 89.85
+		},
+		{
+			"mp": {
+				"id": 560,
+				"name": "Sturla Böðvarsson"
+			},
+			"standsTaken": 87.93
+		},
+		{
+			"mp": {
+				"id": 141,
+				"name": "Ellert B. Schram"
+			},
+			"standsTaken": 87.93
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 87.65
+		},
+		{
+			"mp": {
+				"id": 2,
+				"name": "Arnbjörg Sveinsdóttir"
+			},
+			"standsTaken": 84.36
+		},
+		{
+			"mp": {
+				"id": 680,
+				"name": "Bjarni Harðarson"
+			},
+			"standsTaken": 83.87
+		},
+		{
+			"mp": {
+				"id": 695,
+				"name": "Steinunn Valdís Óskarsdóttir"
+			},
+			"standsTaken": 83.81
+		},
+		{
+			"mp": {
+				"id": 684,
+				"name": "Guðfinna S. Bjarnadóttir"
+			},
+			"standsTaken": 83.45
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 82.72
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 82.69
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 78.33
+		},
+		{
+			"mp": {
+				"id": 681,
+				"name": "Björk Guðjónsdóttir"
+			},
+			"standsTaken": 77.91
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 77.64
+		},
+		{
+			"mp": {
+				"id": 221,
+				"name": "Ásta Möller"
+			},
+			"standsTaken": 76.13
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson"
+			},
+			"standsTaken": 75.58
+		},
+		{
+			"mp": {
+				"id": 379,
+				"name": "Kjartan Ólafsson"
+			},
+			"standsTaken": 75.17
+		},
+		{
+			"mp": {
+				"id": 633,
+				"name": "Þórunn Sveinbjarnardóttir"
+			},
+			"standsTaken": 74.62
+		},
+		{
+			"mp": {
+				"id": 76,
+				"name": "Björn Bjarnason"
+			},
+			"standsTaken": 74.62
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 73.94
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 73.94
+		},
+		{
+			"mp": {
+				"id": 663,
+				"name": "Sigurður Kári Kristjánsson"
+			},
+			"standsTaken": 73.25
+		},
+		{
+			"mp": {
+				"id": 685,
+				"name": "Gunnar Svavarsson"
+			},
+			"standsTaken": 71.6
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 69.24
+		},
+		{
+			"mp": {
+				"id": 700,
+				"name": "Herdís Þórðardóttir"
+			},
+			"standsTaken": 68.72
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 67.24
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 66.94
+		},
+		{
+			"mp": {
+				"id": 682,
+				"name": "Grétar Mar Jónsson"
+			},
+			"standsTaken": 66.12
+		},
+		{
+			"mp": {
+				"id": 689,
+				"name": "Jón Magnússon"
+			},
+			"standsTaken": 66.12
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 64.75
+		},
+		{
+			"mp": {
+				"id": 386,
+				"name": "Kristinn H. Gunnarsson"
+			},
+			"standsTaken": 64.61
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 64.06
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 63.65
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 62.15
+		},
+		{
+			"mp": {
+				"id": 702,
+				"name": "Helga Sigrún Harðardóttir"
+			},
+			"standsTaken": 62.03
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 61.32
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 60.77
+		},
+		{
+			"mp": {
+				"id": 5,
+				"name": "Árni M. Mathiesen"
+			},
+			"standsTaken": 60.36
+		},
+		{
+			"mp": {
+				"id": 264,
+				"name": "Ingibjörg Sólrún Gísladóttir"
+			},
+			"standsTaken": 60.24
+		},
+		{
+			"mp": {
+				"id": 373,
+				"name": "Karl V. Matthíasson"
+			},
+			"standsTaken": 60.17
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 60.03
+		},
+		{
+			"mp": {
+				"id": 13,
+				"name": "Valgerður Sverrisdóttir"
+			},
+			"standsTaken": 58.02
+		},
+		{
+			"mp": {
+				"id": 425,
+				"name": "Magnús Stefánsson"
+			},
+			"standsTaken": 57.34
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 57.2
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 56.38
+		},
+		{
+			"mp": {
+				"id": 134,
+				"name": "Einar Már Sigurðarson"
+			},
+			"standsTaken": 53.77
+		},
+		{
+			"mp": {
+				"id": 198,
+				"name": "Guðni Ágústsson"
+			},
+			"standsTaken": 52.94
+		},
+		{
+			"mp": {
+				"id": 176,
+				"name": "Guðjón A. Kristjánsson"
+			},
+			"standsTaken": 52.58
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 51.99
+		},
+		{
+			"mp": {
+				"id": 383,
+				"name": "Kolbrún Halldórsdóttir"
+			},
+			"standsTaken": 51.44
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 51.41
+		},
+		{
+			"mp": {
+				"id": 162,
+				"name": "Geir H. Haarde"
+			},
+			"standsTaken": 51.37
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 51.03
+		},
+		{
+			"mp": {
+				"id": 677,
+				"name": "Ármann Kr. Ólafsson"
+			},
+			"standsTaken": 49.79
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 49.66
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 49.32
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 49.25
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 48.42
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 48.01
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 46.78
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 44.86
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 43.07
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 41.56
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 27.71
+		}
+	],
+	"137": [
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 96.91
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 96.55
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 96.53
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 95.75
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 94.21
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 93.82
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 93.69
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 91.51
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 91.12
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 88.42
+		},
+		{
+			"mp": {
+				"id": 715,
+				"name": "Ólína Kjerúlf Þorvarðardóttir"
+			},
+			"standsTaken": 84.94
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 84.56
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 83.4
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 83.01
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 81.08
+		},
+		{
+			"mp": {
+				"id": 727,
+				"name": "Guðfríður Lilja Grétarsdóttir"
+			},
+			"standsTaken": 78.76
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 77.61
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 76.06
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 75.29
+		},
+		{
+			"mp": {
+				"id": 723,
+				"name": "Margrét Tryggvadóttir"
+			},
+			"standsTaken": 73.36
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 73.36
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 72.97
+		},
+		{
+			"mp": {
+				"id": 713,
+				"name": "Þór Saari"
+			},
+			"standsTaken": 72.06
+		},
+		{
+			"mp": {
+				"id": 695,
+				"name": "Steinunn Valdís Óskarsdóttir"
+			},
+			"standsTaken": 71.81
+		},
+		{
+			"mp": {
+				"id": 737,
+				"name": "Björn Valur Gíslason"
+			},
+			"standsTaken": 71.63
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 71.04
+		},
+		{
+			"mp": {
+				"id": 725,
+				"name": "Magnús Orri Schram"
+			},
+			"standsTaken": 71.04
+		},
+		{
+			"mp": {
+				"id": 711,
+				"name": "Lilja Mósesdóttir"
+			},
+			"standsTaken": 69.5
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 68.73
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 68.34
+		},
+		{
+			"mp": {
+				"id": 724,
+				"name": "Jónína Rós Guðmundsdóttir"
+			},
+			"standsTaken": 65.64
+		},
+		{
+			"mp": {
+				"id": 720,
+				"name": "Skúli Helgason"
+			},
+			"standsTaken": 64.86
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 64.09
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 60.23
+		},
+		{
+			"mp": {
+				"id": 717,
+				"name": "Sigmundur Ernir Rúnarsson"
+			},
+			"standsTaken": 59.85
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 59.46
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 58.69
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 57.92
+		},
+		{
+			"mp": {
+				"id": 710,
+				"name": "Tryggvi Þór Herbertsson"
+			},
+			"standsTaken": 57.14
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 56.37
+		},
+		{
+			"mp": {
+				"id": 709,
+				"name": "Þráinn Bertelsson"
+			},
+			"standsTaken": 55.6
+		},
+		{
+			"mp": {
+				"id": 633,
+				"name": "Þórunn Sveinbjarnardóttir"
+			},
+			"standsTaken": 54.44
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 52.9
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 52.51
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 52.12
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 50.97
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 50.58
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 48.26
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 44.79
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 44.02
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 43.24
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 41.31
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 40.54
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 40.54
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 38.61
+		},
+		{
+			"mp": {
+				"id": 718,
+				"name": "Ásbjörn Óttarsson"
+			},
+			"standsTaken": 38.61
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 34.75
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 34.75
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 31.27
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 28.96
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 22.39
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 21.24
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 18.15
+		}
+	],
+	"138": [
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 95.58
+		},
+		{
+			"mp": {
+				"id": 711,
+				"name": "Lilja Mósesdóttir"
+			},
+			"standsTaken": 94.92
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 93.33
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 90.59
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 89.83
+		},
+		{
+			"mp": {
+				"id": 725,
+				"name": "Magnús Orri Schram"
+			},
+			"standsTaken": 88.83
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 88.31
+		},
+		{
+			"mp": {
+				"id": 720,
+				"name": "Skúli Helgason"
+			},
+			"standsTaken": 87.79
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 87.61
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 86
+		},
+		{
+			"mp": {
+				"id": 737,
+				"name": "Björn Valur Gíslason"
+			},
+			"standsTaken": 84.5
+		},
+		{
+			"mp": {
+				"id": 717,
+				"name": "Sigmundur Ernir Rúnarsson"
+			},
+			"standsTaken": 84.33
+		},
+		{
+			"mp": {
+				"id": 715,
+				"name": "Ólína Kjerúlf Þorvarðardóttir"
+			},
+			"standsTaken": 83.31
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 82.04
+		},
+		{
+			"mp": {
+				"id": 724,
+				"name": "Jónína Rós Guðmundsdóttir"
+			},
+			"standsTaken": 81.75
+		},
+		{
+			"mp": {
+				"id": 695,
+				"name": "Steinunn Valdís Óskarsdóttir"
+			},
+			"standsTaken": 80.05
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 79.2
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 78.25
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 77.78
+		},
+		{
+			"mp": {
+				"id": 718,
+				"name": "Ásbjörn Óttarsson"
+			},
+			"standsTaken": 77.33
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 73.67
+		},
+		{
+			"mp": {
+				"id": 633,
+				"name": "Þórunn Sveinbjarnardóttir"
+			},
+			"standsTaken": 73.67
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 73.58
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 73.33
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 70.83
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 70.08
+		},
+		{
+			"mp": {
+				"id": 710,
+				"name": "Tryggvi Þór Herbertsson"
+			},
+			"standsTaken": 69.25
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 68.67
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 67
+		},
+		{
+			"mp": {
+				"id": 723,
+				"name": "Margrét Tryggvadóttir"
+			},
+			"standsTaken": 66.42
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 66.25
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 65.5
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 65.33
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 65.25
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 64.83
+		},
+		{
+			"mp": {
+				"id": 727,
+				"name": "Guðfríður Lilja Grétarsdóttir"
+			},
+			"standsTaken": 64.44
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 64.33
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 63.67
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 63.67
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 61.58
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 60.03
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 59.17
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 58.74
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 55.33
+		},
+		{
+			"mp": {
+				"id": 662,
+				"name": "Mörður Árnason"
+			},
+			"standsTaken": 55.02
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 54.36
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 53.08
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 52.75
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 50.92
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 50.75
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 47.52
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 47.33
+		},
+		{
+			"mp": {
+				"id": 709,
+				"name": "Þráinn Bertelsson"
+			},
+			"standsTaken": 45.83
+		},
+		{
+			"mp": {
+				"id": 713,
+				"name": "Þór Saari"
+			},
+			"standsTaken": 45.58
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 45
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 44.67
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 44.25
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 43.06
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 42.42
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 42.08
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 37.17
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 31.83
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 31.67
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 31.41
+		}
+	],
+	"139": [
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 95.51
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 92.46
+		},
+		{
+			"mp": {
+				"id": 724,
+				"name": "Jónína Rós Guðmundsdóttir"
+			},
+			"standsTaken": 90.93
+		},
+		{
+			"mp": {
+				"id": 633,
+				"name": "Þórunn Sveinbjarnardóttir"
+			},
+			"standsTaken": 90.68
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 89.43
+		},
+		{
+			"mp": {
+				"id": 725,
+				"name": "Magnús Orri Schram"
+			},
+			"standsTaken": 88.84
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 87.41
+		},
+		{
+			"mp": {
+				"id": 737,
+				"name": "Björn Valur Gíslason"
+			},
+			"standsTaken": 86.79
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 86.25
+		},
+		{
+			"mp": {
+				"id": 720,
+				"name": "Skúli Helgason"
+			},
+			"standsTaken": 85.08
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 84.83
+		},
+		{
+			"mp": {
+				"id": 662,
+				"name": "Mörður Árnason"
+			},
+			"standsTaken": 84.5
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 83.61
+		},
+		{
+			"mp": {
+				"id": 717,
+				"name": "Sigmundur Ernir Rúnarsson"
+			},
+			"standsTaken": 83.12
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 81.97
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 81.07
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 80.11
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 79.49
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 77.7
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 75.41
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 74.02
+		},
+		{
+			"mp": {
+				"id": 727,
+				"name": "Guðfríður Lilja Grétarsdóttir"
+			},
+			"standsTaken": 73.54
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 72.49
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 71.56
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 70.16
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 69.54
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 68.69
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 67.37
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 67.21
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 65.73
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 65.71
+		},
+		{
+			"mp": {
+				"id": 715,
+				"name": "Ólína Kjerúlf Þorvarðardóttir"
+			},
+			"standsTaken": 64.8
+		},
+		{
+			"mp": {
+				"id": 718,
+				"name": "Ásbjörn Óttarsson"
+			},
+			"standsTaken": 64.65
+		},
+		{
+			"mp": {
+				"id": 709,
+				"name": "Þráinn Bertelsson"
+			},
+			"standsTaken": 64.49
+		},
+		{
+			"mp": {
+				"id": 711,
+				"name": "Lilja Mósesdóttir"
+			},
+			"standsTaken": 62.22
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 61.23
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 60.99
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 57.06
+		},
+		{
+			"mp": {
+				"id": 710,
+				"name": "Tryggvi Þór Herbertsson"
+			},
+			"standsTaken": 55.79
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 55.56
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 54.62
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 54.17
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 53.15
+		},
+		{
+			"mp": {
+				"id": 723,
+				"name": "Margrét Tryggvadóttir"
+			},
+			"standsTaken": 52.76
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 52.47
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 52.37
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 49.21
+		},
+		{
+			"mp": {
+				"id": 713,
+				"name": "Þór Saari"
+			},
+			"standsTaken": 48.72
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 47.94
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 46.23
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 46.08
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 45.59
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 45.14
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 44.91
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 43.67
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 40.77
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 40.26
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 38.85
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 38.6
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 35.66
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 35.12
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 20.03
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 17.48
+		}
+	],
+	"140": [
+		{
+			"mp": {
+				"id": 724,
+				"name": "Jónína Rós Guðmundsdóttir"
+			},
+			"standsTaken": 96.49
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 95.36
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 95.25
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 92.05
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 90.82
+		},
+		{
+			"mp": {
+				"id": 715,
+				"name": "Ólína Kjerúlf Þorvarðardóttir"
+			},
+			"standsTaken": 89.68
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 88.88
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 87.41
+		},
+		{
+			"mp": {
+				"id": 1130,
+				"name": "Lúðvík Geirsson"
+			},
+			"standsTaken": 86.25
+		},
+		{
+			"mp": {
+				"id": 737,
+				"name": "Björn Valur Gíslason"
+			},
+			"standsTaken": 85.45
+		},
+		{
+			"mp": {
+				"id": 717,
+				"name": "Sigmundur Ernir Rúnarsson"
+			},
+			"standsTaken": 84.91
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 83.92
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 83.28
+		},
+		{
+			"mp": {
+				"id": 727,
+				"name": "Guðfríður Lilja Grétarsdóttir"
+			},
+			"standsTaken": 80.99
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 80.28
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 79.65
+		},
+		{
+			"mp": {
+				"id": 709,
+				"name": "Þráinn Bertelsson"
+			},
+			"standsTaken": 79.46
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 79.46
+		},
+		{
+			"mp": {
+				"id": 720,
+				"name": "Skúli Helgason"
+			},
+			"standsTaken": 78.64
+		},
+		{
+			"mp": {
+				"id": 725,
+				"name": "Magnús Orri Schram"
+			},
+			"standsTaken": 78.33
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 78.32
+		},
+		{
+			"mp": {
+				"id": 662,
+				"name": "Mörður Árnason"
+			},
+			"standsTaken": 75.54
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 73.82
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 73.58
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 73.48
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 71.41
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 70.02
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 67.01
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 64.49
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 58.51
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 58.1
+		},
+		{
+			"mp": {
+				"id": 711,
+				"name": "Lilja Mósesdóttir"
+			},
+			"standsTaken": 56.35
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 56.04
+		},
+		{
+			"mp": {
+				"id": 723,
+				"name": "Margrét Tryggvadóttir"
+			},
+			"standsTaken": 55.9
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 55.83
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 55.02
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 53.97
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 53.27
+		},
+		{
+			"mp": {
+				"id": 710,
+				"name": "Tryggvi Þór Herbertsson"
+			},
+			"standsTaken": 50.98
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 50.89
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 50.46
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 50.05
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 49.85
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 48.92
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 47.68
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 47.16
+		},
+		{
+			"mp": {
+				"id": 718,
+				"name": "Ásbjörn Óttarsson"
+			},
+			"standsTaken": 45.7
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 44.85
+		},
+		{
+			"mp": {
+				"id": 713,
+				"name": "Þór Saari"
+			},
+			"standsTaken": 43.61
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 41.66
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 39.32
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 39.22
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 39.11
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 38.8
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 38.49
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 38.39
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 38.01
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 35.71
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 35.6
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 31.27
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 28.59
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 26.11
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 24.56
+		}
+	],
+	"141": [
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 96.21
+		},
+		{
+			"mp": {
+				"id": 1001,
+				"name": "Ólafur Þór Gunnarsson"
+			},
+			"standsTaken": 96.02
+		},
+		{
+			"mp": {
+				"id": 1130,
+				"name": "Lúðvík Geirsson"
+			},
+			"standsTaken": 94.55
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 93.94
+		},
+		{
+			"mp": {
+				"id": 737,
+				"name": "Björn Valur Gíslason"
+			},
+			"standsTaken": 91.98
+		},
+		{
+			"mp": {
+				"id": 287,
+				"name": "Jóhanna Sigurðardóttir"
+			},
+			"standsTaken": 91.15
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 90.84
+		},
+		{
+			"mp": {
+				"id": 724,
+				"name": "Jónína Rós Guðmundsdóttir"
+			},
+			"standsTaken": 90.74
+		},
+		{
+			"mp": {
+				"id": 48,
+				"name": "Ásta R. Jóhannesdóttir"
+			},
+			"standsTaken": 90.02
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 89.4
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 88.17
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 88.07
+		},
+		{
+			"mp": {
+				"id": 676,
+				"name": "Álfheiður Ingadóttir"
+			},
+			"standsTaken": 88.07
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 84.88
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 81.28
+		},
+		{
+			"mp": {
+				"id": 725,
+				"name": "Magnús Orri Schram"
+			},
+			"standsTaken": 81.07
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 80.45
+		},
+		{
+			"mp": {
+				"id": 727,
+				"name": "Guðfríður Lilja Grétarsdóttir"
+			},
+			"standsTaken": 79.46
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 76.6
+		},
+		{
+			"mp": {
+				"id": 720,
+				"name": "Skúli Helgason"
+			},
+			"standsTaken": 75.31
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 74.09
+		},
+		{
+			"mp": {
+				"id": 662,
+				"name": "Mörður Árnason"
+			},
+			"standsTaken": 73.25
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 70.36
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 69.77
+		},
+		{
+			"mp": {
+				"id": 715,
+				"name": "Ólína Kjerúlf Þorvarðardóttir"
+			},
+			"standsTaken": 68.46
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 68.31
+		},
+		{
+			"mp": {
+				"id": 634,
+				"name": "Þuríður Backman"
+			},
+			"standsTaken": 62.55
+		},
+		{
+			"mp": {
+				"id": 717,
+				"name": "Sigmundur Ernir Rúnarsson"
+			},
+			"standsTaken": 61.01
+		},
+		{
+			"mp": {
+				"id": 723,
+				"name": "Margrét Tryggvadóttir"
+			},
+			"standsTaken": 59.7
+		},
+		{
+			"mp": {
+				"id": 653,
+				"name": "Björgvin G. Sigurðsson"
+			},
+			"standsTaken": 59.36
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 58.63
+		},
+		{
+			"mp": {
+				"id": 711,
+				"name": "Lilja Mósesdóttir"
+			},
+			"standsTaken": 52.37
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 52.06
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 49.28
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 48.87
+		},
+		{
+			"mp": {
+				"id": 530,
+				"name": "Siv Friðleifsdóttir"
+			},
+			"standsTaken": 46.09
+		},
+		{
+			"mp": {
+				"id": 675,
+				"name": "Atli Gíslason"
+			},
+			"standsTaken": 45.3
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 44.28
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 43.62
+		},
+		{
+			"mp": {
+				"id": 709,
+				"name": "Þráinn Bertelsson"
+			},
+			"standsTaken": 42.39
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 42.08
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 41.98
+		},
+		{
+			"mp": {
+				"id": 713,
+				"name": "Þór Saari"
+			},
+			"standsTaken": 41.18
+		},
+		{
+			"mp": {
+				"id": 718,
+				"name": "Ásbjörn Óttarsson"
+			},
+			"standsTaken": 40.91
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 40.38
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 39.81
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 39.24
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 37.86
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 37.55
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 36.42
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 33.85
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 33.23
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 33.02
+		},
+		{
+			"mp": {
+				"id": 371,
+				"name": "Jón Bjarnason"
+			},
+			"standsTaken": 29.73
+		},
+		{
+			"mp": {
+				"id": 651,
+				"name": "Birkir Jón Jónsson"
+			},
+			"standsTaken": 29.53
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 28.09
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 27.78
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 27.26
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 27.06
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 24.9
+		},
+		{
+			"mp": {
+				"id": 710,
+				"name": "Tryggvi Þór Herbertsson"
+			},
+			"standsTaken": 24.16
+		},
+		{
+			"mp": {
+				"id": 692,
+				"name": "Ólöf Nordal"
+			},
+			"standsTaken": 20.75
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 17.93
+		},
+		{
+			"mp": {
+				"id": 38,
+				"name": "Árni Johnsen"
+			},
+			"standsTaken": 10.29
+		}
+	],
+	"142": [
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson"
+			},
+			"standsTaken": 99.02
+		},
+		{
+			"mp": {
+				"id": 934,
+				"name": "Sigrún Magnúsdóttir"
+			},
+			"standsTaken": 98.04
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 95.1
+		},
+		{
+			"mp": {
+				"id": 1165,
+				"name": "Haraldur Einarsson"
+			},
+			"standsTaken": 95.1
+		},
+		{
+			"mp": {
+				"id": 1162,
+				"name": "Frosti Sigurjónsson"
+			},
+			"standsTaken": 91.23
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 91.18
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 91.18
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir"
+			},
+			"standsTaken": 90.2
+		},
+		{
+			"mp": {
+				"id": 1172,
+				"name": "Páll Valur Björnsson"
+			},
+			"standsTaken": 89.22
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 89.22
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 88.24
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson"
+			},
+			"standsTaken": 86.27
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 84.31
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 83.33
+		},
+		{
+			"mp": {
+				"id": 1181,
+				"name": "Elín Hirst"
+			},
+			"standsTaken": 83.33
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 82.35
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 82.35
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 82.35
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 81.37
+		},
+		{
+			"mp": {
+				"id": 1159,
+				"name": "Brynhildur Pétursdóttir"
+			},
+			"standsTaken": 81.37
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 80.39
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 79.55
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 79.41
+		},
+		{
+			"mp": {
+				"id": 1173,
+				"name": "Páll Jóhann Pálsson"
+			},
+			"standsTaken": 78.43
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 78.43
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 77.92
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 75.56
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 75.49
+		},
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 75.49
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 75.49
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 75.49
+		},
+		{
+			"mp": {
+				"id": 1167,
+				"name": "Jóhanna María Sigmundsdóttir"
+			},
+			"standsTaken": 75.49
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 72.55
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 71.57
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 71.43
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 70.59
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 70.59
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 69.61
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 69.61
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 68.83
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 67.65
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 66.67
+		},
+		{
+			"mp": {
+				"id": 1169,
+				"name": "Karl Garðarsson"
+			},
+			"standsTaken": 64.71
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 63.73
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson"
+			},
+			"standsTaken": 62.75
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 61.76
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 60.78
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 60.71
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 59.8
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 58.82
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 57.84
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 51.19
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 49.09
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 49.02
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 49.02
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 49.02
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 48.04
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 47.06
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 46.08
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 42.16
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson"
+			},
+			"standsTaken": 34.31
+		},
+		{
+			"mp": {
+				"id": 1163,
+				"name": "Hanna Birna Kristjánsdóttir"
+			},
+			"standsTaken": 25
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 19.05
+		}
+	],
+	"143": [
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 98.27
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson"
+			},
+			"standsTaken": 98.01
+		},
+		{
+			"mp": {
+				"id": 934,
+				"name": "Sigrún Magnúsdóttir"
+			},
+			"standsTaken": 97.46
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 97.46
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 96.6
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson"
+			},
+			"standsTaken": 96.19
+		},
+		{
+			"mp": {
+				"id": 1165,
+				"name": "Haraldur Einarsson"
+			},
+			"standsTaken": 95.96
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 95.84
+		},
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 94.34
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 93.65
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 93.53
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 93.03
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 92.08
+		},
+		{
+			"mp": {
+				"id": 1163,
+				"name": "Hanna Birna Kristjánsdóttir"
+			},
+			"standsTaken": 90.53
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 90.07
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 89.38
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 89.26
+		},
+		{
+			"mp": {
+				"id": 1162,
+				"name": "Frosti Sigurjónsson"
+			},
+			"standsTaken": 89.1
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir"
+			},
+			"standsTaken": 89.06
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 87.07
+		},
+		{
+			"mp": {
+				"id": 1173,
+				"name": "Páll Jóhann Pálsson"
+			},
+			"standsTaken": 85.23
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 85.13
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 84.53
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 82.83
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 82.64
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 82.45
+		},
+		{
+			"mp": {
+				"id": 1169,
+				"name": "Karl Garðarsson"
+			},
+			"standsTaken": 81.5
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 80.83
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 80.55
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 80.02
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 78.36
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 76.91
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 75.82
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 75.4
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 75.29
+		},
+		{
+			"mp": {
+				"id": 679,
+				"name": "Árni Þór Sigurðsson"
+			},
+			"standsTaken": 73.32
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 73.06
+		},
+		{
+			"mp": {
+				"id": 1167,
+				"name": "Jóhanna María Sigmundsdóttir"
+			},
+			"standsTaken": 71.48
+		},
+		{
+			"mp": {
+				"id": 1159,
+				"name": "Brynhildur Pétursdóttir"
+			},
+			"standsTaken": 71.13
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 71.13
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 70.67
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 70.67
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 69.04
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 67.9
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 67.4
+		},
+		{
+			"mp": {
+				"id": 1181,
+				"name": "Elín Hirst"
+			},
+			"standsTaken": 65.82
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 65.47
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 65.36
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 61.97
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 61.43
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 60.16
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 59.53
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 59.46
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 58.66
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson"
+			},
+			"standsTaken": 56.93
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 55.27
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 50.94
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 49.6
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 40.3
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 38.8
+		},
+		{
+			"mp": {
+				"id": 1172,
+				"name": "Páll Valur Björnsson"
+			},
+			"standsTaken": 35.42
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson"
+			},
+			"standsTaken": 25.9
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 22.86
+		}
+	],
+	"144": [
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 97.94
+		},
+		{
+			"mp": {
+				"id": 1167,
+				"name": "Jóhanna María Sigmundsdóttir"
+			},
+			"standsTaken": 94.6
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 94.52
+		},
+		{
+			"mp": {
+				"id": 934,
+				"name": "Sigrún Magnúsdóttir"
+			},
+			"standsTaken": 94.49
+		},
+		{
+			"mp": {
+				"id": 477,
+				"name": "Pétur H. Blöndal"
+			},
+			"standsTaken": 93.94
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 93.91
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir"
+			},
+			"standsTaken": 93.5
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 92.99
+		},
+		{
+			"mp": {
+				"id": 1173,
+				"name": "Páll Jóhann Pálsson"
+			},
+			"standsTaken": 92.35
+		},
+		{
+			"mp": {
+				"id": 1165,
+				"name": "Haraldur Einarsson"
+			},
+			"standsTaken": 91.98
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 91.88
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson"
+			},
+			"standsTaken": 91.17
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 90.25
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 89.52
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 89.03
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson"
+			},
+			"standsTaken": 87.82
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 86.8
+		},
+		{
+			"mp": {
+				"id": 1169,
+				"name": "Karl Garðarsson"
+			},
+			"standsTaken": 86.46
+		},
+		{
+			"mp": {
+				"id": 1162,
+				"name": "Frosti Sigurjónsson"
+			},
+			"standsTaken": 85.99
+		},
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 85.08
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 83.9
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 83.76
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 81.38
+		},
+		{
+			"mp": {
+				"id": 1163,
+				"name": "Hanna Birna Kristjánsdóttir"
+			},
+			"standsTaken": 81.38
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 80.02
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 79.85
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 78.5
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 75.53
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 75.53
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 75.17
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 75.03
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 73.52
+		},
+		{
+			"mp": {
+				"id": 1181,
+				"name": "Elín Hirst"
+			},
+			"standsTaken": 72.69
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 72.69
+		},
+		{
+			"mp": {
+				"id": 1159,
+				"name": "Brynhildur Pétursdóttir"
+			},
+			"standsTaken": 71.68
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 71.5
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 70.25
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 69.34
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 69.31
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir"
+			},
+			"standsTaken": 68.67
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 68.63
+		},
+		{
+			"mp": {
+				"id": 1172,
+				"name": "Páll Valur Björnsson"
+			},
+			"standsTaken": 65.69
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 65.43
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 63.65
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 63.17
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 62.74
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 60.61
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 57.77
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 55.46
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 53.2
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson"
+			},
+			"standsTaken": 52.92
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 52.08
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 51.75
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 51.6
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 50.4
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 47.95
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 45.46
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 44.05
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 39.59
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 37.56
+		},
+		{
+			"mp": {
+				"id": 683,
+				"name": "Guðbjartur Hannesson"
+			},
+			"standsTaken": 32.41
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 21.51
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson"
+			},
+			"standsTaken": 18.27
+		}
+	],
+	"145": [
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson"
+			},
+			"standsTaken": 97.98
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 92.7
+		},
+		{
+			"mp": {
+				"id": 1162,
+				"name": "Frosti Sigurjónsson"
+			},
+			"standsTaken": 89.84
+		},
+		{
+			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson"
+			},
+			"standsTaken": 88.98
+		},
+		{
+			"mp": {
+				"id": 1173,
+				"name": "Páll Jóhann Pálsson"
+			},
+			"standsTaken": 87.55
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson"
+			},
+			"standsTaken": 86.73
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 86.58
+		},
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 86.04
+		},
+		{
+			"mp": {
+				"id": 1165,
+				"name": "Haraldur Einarsson"
+			},
+			"standsTaken": 85.42
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 84.88
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir"
+			},
+			"standsTaken": 83.01
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 82.93
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 82
+		},
+		{
+			"mp": {
+				"id": 1167,
+				"name": "Jóhanna María Sigmundsdóttir"
+			},
+			"standsTaken": 81.17
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 78.67
+		},
+		{
+			"mp": {
+				"id": 1181,
+				"name": "Elín Hirst"
+			},
+			"standsTaken": 78.58
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen"
+			},
+			"standsTaken": 78.43
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 77.27
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 75.87
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 74.4
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 73.31
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 71.3
+		},
+		{
+			"mp": {
+				"id": 694,
+				"name": "Ragnheiður Ríkharðsdóttir"
+			},
+			"standsTaken": 71.06
+		},
+		{
+			"mp": {
+				"id": 1163,
+				"name": "Hanna Birna Kristjánsdóttir"
+			},
+			"standsTaken": 69.59
+		},
+		{
+			"mp": {
+				"id": 705,
+				"name": "Valgerður Bjarnadóttir"
+			},
+			"standsTaken": 69.45
+		},
+		{
+			"mp": {
+				"id": 1169,
+				"name": "Karl Garðarsson"
+			},
+			"standsTaken": 69.05
+		},
+		{
+			"mp": {
+				"id": 1159,
+				"name": "Brynhildur Pétursdóttir"
+			},
+			"standsTaken": 68.92
+		},
+		{
+			"mp": {
+				"id": 934,
+				"name": "Sigrún Magnúsdóttir"
+			},
+			"standsTaken": 68.76
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 67.13
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 66.8
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 66.25
+		},
+		{
+			"mp": {
+				"id": 1172,
+				"name": "Páll Valur Björnsson"
+			},
+			"standsTaken": 65.01
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir"
+			},
+			"standsTaken": 64.39
+		},
+		{
+			"mp": {
+				"id": 704,
+				"name": "Guðmundur Steingrímsson"
+			},
+			"standsTaken": 64.23
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 64
+		},
+		{
+			"mp": {
+				"id": 706,
+				"name": "Vigdís Hauksdóttir"
+			},
+			"standsTaken": 63.46
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 63.15
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 62.1
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason"
+			},
+			"standsTaken": 61.69
+		},
+		{
+			"mp": {
+				"id": 1214,
+				"name": "Ásta Guðrún Helgadóttir"
+			},
+			"standsTaken": 58.66
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 57.64
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 57.1
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson"
+			},
+			"standsTaken": 55.82
+		},
+		{
+			"mp": {
+				"id": 396,
+				"name": "Kristján L. Möller"
+			},
+			"standsTaken": 55.36
+		},
+		{
+			"mp": {
+				"id": 693,
+				"name": "Ragnheiður E. Árnadóttir"
+			},
+			"standsTaken": 54.77
+		},
+		{
+			"mp": {
+				"id": 708,
+				"name": "Róbert Marshall"
+			},
+			"standsTaken": 54.62
+		},
+		{
+			"mp": {
+				"id": 712,
+				"name": "Sigríður Ingibjörg Ingadóttir"
+			},
+			"standsTaken": 52.91
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 52.38
+		},
+		{
+			"mp": {
+				"id": 631,
+				"name": "Össur Skarphéðinsson"
+			},
+			"standsTaken": 50.58
+		},
+		{
+			"mp": {
+				"id": 687,
+				"name": "Illugi Gunnarsson"
+			},
+			"standsTaken": 50.35
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 50
+		},
+		{
+			"mp": {
+				"id": 678,
+				"name": "Árni Páll Árnason"
+			},
+			"standsTaken": 48.75
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 47.76
+		},
+		{
+			"mp": {
+				"id": 660,
+				"name": "Katrín Júlíusdóttir"
+			},
+			"standsTaken": 45.59
+		},
+		{
+			"mp": {
+				"id": 686,
+				"name": "Höskuldur Þórhallsson"
+			},
+			"standsTaken": 44.53
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 42.74
+		},
+		{
+			"mp": {
+				"id": 658,
+				"name": "Helgi Hjörvar"
+			},
+			"standsTaken": 41.97
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 37.34
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 37.26
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 34.06
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 28.91
+		},
+		{
+			"mp": {
+				"id": 630,
+				"name": "Ögmundur Jónasson"
+			},
+			"standsTaken": 15.06
+		}
+	],
+	"146": [
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson"
+			},
+			"standsTaken": 99.12
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 98.25
+		},
+		{
+			"mp": {
+				"id": 1256,
+				"name": "Teitur Björn Einarsson"
+			},
+			"standsTaken": 98.25
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 98.03
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 98.03
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 98.03
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason"
+			},
+			"standsTaken": 97.59
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir"
+			},
+			"standsTaken": 96.83
+		},
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 96.49
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 95.92
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir"
+			},
+			"standsTaken": 95.6
+		},
+		{
+			"mp": {
+				"id": 1267,
+				"name": "Nichole Leigh Mosty"
+			},
+			"standsTaken": 95.15
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir"
+			},
+			"standsTaken": 93.99
+		},
+		{
+			"mp": {
+				"id": 1248,
+				"name": "Benedikt Jóhannesson"
+			},
+			"standsTaken": 93.64
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 93.45
+		},
+		{
+			"mp": {
+				"id": 1266,
+				"name": "Páll Magnússon"
+			},
+			"standsTaken": 93.42
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 93.14
+		},
+		{
+			"mp": {
+				"id": 1269,
+				"name": "Theodóra S. Þorsteinsdóttir"
+			},
+			"standsTaken": 92.32
+		},
+		{
+			"mp": {
+				"id": 1264,
+				"name": "Jóna Sólveig Elínardóttir"
+			},
+			"standsTaken": 92.09
+		},
+		{
+			"mp": {
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson"
+			},
+			"standsTaken": 91.61
+		},
+		{
+			"mp": {
+				"id": 1254,
+				"name": "Þorsteinn Víglundsson"
+			},
+			"standsTaken": 91.23
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 90.89
+		},
+		{
+			"mp": {
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson"
+			},
+			"standsTaken": 90.44
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 90.35
+		},
+		{
+			"mp": {
+				"id": 1251,
+				"name": "Pawel Bartoszek"
+			},
+			"standsTaken": 89.04
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 88.89
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 87.28
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen"
+			},
+			"standsTaken": 86.04
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 85.09
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 84.87
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir"
+			},
+			"standsTaken": 83.77
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 82.68
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 82.25
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson"
+			},
+			"standsTaken": 79.61
+		},
+		{
+			"mp": {
+				"id": 1274,
+				"name": "Einar Brynjólfsson"
+			},
+			"standsTaken": 77.66
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 76.97
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson"
+			},
+			"standsTaken": 76.92
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir"
+			},
+			"standsTaken": 76.8
+		},
+		{
+			"mp": {
+				"id": 1268,
+				"name": "Smári McCarthy"
+			},
+			"standsTaken": 76.34
+		},
+		{
+			"mp": {
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir"
+			},
+			"standsTaken": 76.04
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 75.66
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson"
+			},
+			"standsTaken": 74.89
+		},
+		{
+			"mp": {
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson"
+			},
+			"standsTaken": 74.89
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 73.85
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir"
+			},
+			"standsTaken": 73.68
+		},
+		{
+			"mp": {
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé"
+			},
+			"standsTaken": 73.29
+		},
+		{
+			"mp": {
+				"id": 1215,
+				"name": "Björn Leví Gunnarsson"
+			},
+			"standsTaken": 72.37
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 68.3
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 68.28
+		},
+		{
+			"mp": {
+				"id": 1218,
+				"name": "Halldóra Mogensen"
+			},
+			"standsTaken": 68.2
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 65.76
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 65.63
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 65.57
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 65.13
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 64.91
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 64.84
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 59.19
+		},
+		{
+			"mp": {
+				"id": 1214,
+				"name": "Ásta Guðrún Helgadóttir"
+			},
+			"standsTaken": 57.24
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson"
+			},
+			"standsTaken": 56.29
+		},
+		{
+			"mp": {
+				"id": 1262,
+				"name": "Gunnar Hrafn Jónsson"
+			},
+			"standsTaken": 56.03
+		},
+		{
+			"mp": {
+				"id": 1253,
+				"name": "Eva Pandora Baldursdóttir"
+			},
+			"standsTaken": 50
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 45.18
+		}
+	],
+	"147": [
+		{
+			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1274,
+				"name": "Einar Brynjólfsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1269,
+				"name": "Theodóra S. Þorsteinsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 703,
+				"name": "Eygló Harðardóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1267,
+				"name": "Nichole Leigh Mosty"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 721,
+				"name": "Unnur Brá Konráðsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1262,
+				"name": "Gunnar Hrafn Jónsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 728,
+				"name": "Birgitta Jónsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1256,
+				"name": "Teitur Björn Einarsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1253,
+				"name": "Eva Pandora Baldursdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1161,
+				"name": "Elsa Lára Arnardóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1171,
+				"name": "Óttarr Proppé"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1248,
+				"name": "Benedikt Jóhannesson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1177,
+				"name": "Vilhjálmur Bjarnason"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1214,
+				"name": "Ásta Guðrún Helgadóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1218,
+				"name": "Halldóra Mogensen"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1279,
+				"name": "Hildur Sverrisdóttir"
+			},
+			"standsTaken": 100
+		},
+		{
+			"mp": {
+				"id": 1215,
+				"name": "Björn Leví Gunnarsson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1251,
+				"name": "Pawel Bartoszek"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1254,
+				"name": "Þorsteinn Víglundsson"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1268,
+				"name": "Smári McCarthy"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1266,
+				"name": "Páll Magnússon"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 1264,
+				"name": "Jóna Sólveig Elínardóttir"
+			},
+			"standsTaken": 93.75
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir"
+			},
+			"standsTaken": 87.5
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson"
+			},
+			"standsTaken": 81.25
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir"
+			},
+			"standsTaken": 81.25
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir"
+			},
+			"standsTaken": 25
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson"
+			},
+			"standsTaken": 12.5
+		},
+		{
+			"mp": {
+				"id": 1158,
+				"name": "Björt Ólafsdóttir"
+			},
+			"standsTaken": 12.5
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson"
+			},
+			"standsTaken": 12.5
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson"
+			},
+			"standsTaken": 12.5
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson"
+			},
+			"standsTaken": 0
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson"
+			},
+			"standsTaken": 0
+		}
+	]
+}
