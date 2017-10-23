@@ -1,4 +1,7 @@
 import { loadFile, writeToFile } from '../../utility/file'
+import { getMpToPartyLookup } from '../helpers'
+
+const mpToPartyLookup = getMpToPartyLookup()
 
 function getMpAttendance(mp, mpVoteSummary) {
   if (mpVoteSummary[mp.id] === undefined) {
@@ -81,6 +84,7 @@ export default function process() {
         mpsByLthingLookup[lthing].push({
           id: mpDetails.id,
           name: mpDetails.mpName,
+          partyId: mpToPartyLookup[lthing][mpDetails.id],
         })
       }
     })

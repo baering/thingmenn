@@ -3,441 +3,504 @@
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 98.54
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 98.02
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 96.16
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 96.03
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"standsTaken": 94.87
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 92.66
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"standsTaken": 92.6
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 91.85
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 89.63
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"standsTaken": 89.17
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"standsTaken": 87.63
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"standsTaken": 86.92
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"standsTaken": 86.78
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 86.66
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"standsTaken": 86.31
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"standsTaken": 83.46
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"standsTaken": 83.25
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"standsTaken": 82.88
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"standsTaken": 81.97
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 81.77
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 81.71
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 80.98
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 80.61
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 80.04
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 79.97
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 79.38
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"standsTaken": 78.81
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"standsTaken": 78.68
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 77.24
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 77.01
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"standsTaken": 76.99
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 73.81
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 72.94
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 72.51
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 72.39
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 71.91
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 71.67
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 71.66
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"standsTaken": 71.64
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 68.2
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 67.61
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 67.56
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 66.63
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 66.37
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 65.11
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"standsTaken": 64.57
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 62.73
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 61.15
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"standsTaken": 60.51
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 58.14
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 58.07
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 57.37
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"standsTaken": 55.04
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 54.21
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"standsTaken": 50.67
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 49.91
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 49.14
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 48.26
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"standsTaken": 45.37
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 40.13
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"standsTaken": 32.62
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"standsTaken": 29.37
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 8.17
 		}
@@ -446,455 +509,520 @@
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 95.75
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 90.53
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"standsTaken": 89.85
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"standsTaken": 87.93
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"standsTaken": 87.93
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 87.65
 		},
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 84.36
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"standsTaken": 83.87
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 83.81
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 83.45
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 82.72
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 82.69
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 78.33
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 77.91
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 77.64
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"standsTaken": 76.13
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"standsTaken": 75.58
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"standsTaken": 75.17
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 74.62
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 74.62
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 73.94
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 73.94
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"standsTaken": 73.25
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"standsTaken": 71.6
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 69.24
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"standsTaken": 68.72
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 67.24
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 66.94
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"standsTaken": 66.12
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"standsTaken": 66.12
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 64.75
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"standsTaken": 64.61
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 64.06
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 63.65
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 62.15
 		},
 		{
 			"mp": {
 				"id": 702,
-				"name": "Helga Sigrún Harðardóttir"
+				"name": "Helga Sigrún Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 62.03
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 61.32
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 60.77
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"standsTaken": 60.36
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"standsTaken": 60.24
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"standsTaken": 60.17
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 60.03
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 58.02
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"standsTaken": 57.34
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 57.2
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 56.38
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"standsTaken": 53.77
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"standsTaken": 52.94
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"standsTaken": 52.58
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 51.99
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 51.44
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 51.41
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"standsTaken": 51.37
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 51.03
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"standsTaken": 49.79
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 49.66
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 49.32
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 49.25
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 48.42
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 48.01
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 46.78
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 44.86
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 43.07
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 41.56
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 27.71
 		}
@@ -903,441 +1031,504 @@
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 96.91
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 96.55
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 96.53
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 95.75
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 94.21
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 93.82
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 93.69
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"standsTaken": 91.51
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 91.12
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 88.42
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 84.94
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 84.56
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 83.4
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 83.01
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 81.08
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 78.76
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 77.61
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 76.06
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"standsTaken": 75.29
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 41
 			},
 			"standsTaken": 73.36
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 73.36
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 72.97
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 41
 			},
 			"standsTaken": 72.06
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 71.81
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 71.63
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 71.04
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"standsTaken": 71.04
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 69.5
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 68.73
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 41
 			},
 			"standsTaken": 68.34
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 65.64
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"standsTaken": 64.86
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 64.09
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 60.23
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"standsTaken": 59.85
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 59.46
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 58.69
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 57.92
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 57.14
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 56.37
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 41
 			},
 			"standsTaken": 55.6
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 54.44
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 52.9
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 52.51
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 52.12
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 50.97
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 50.58
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 48.26
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 44.79
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"standsTaken": 44.02
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 43.24
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 41.31
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 40.54
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 40.54
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 38.61
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"standsTaken": 38.61
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 34.75
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 34.75
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 31.27
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 28.96
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 22.39
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 21.24
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 18.15
 		}
@@ -1346,448 +1537,512 @@
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 95.58
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 94.92
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 93.33
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"standsTaken": 90.59
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 89.83
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"standsTaken": 88.83
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 88.31
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"standsTaken": 87.79
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 87.61
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 86
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 84.5
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"standsTaken": 84.33
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 83.31
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 82.04
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 81.75
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 80.05
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 79.2
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 78.25
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 77.78
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"standsTaken": 77.33
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 73.67
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 73.67
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 73.58
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 73.33
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 70.83
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 70.08
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 69.25
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 68.67
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 67
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"standsTaken": 66.42
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 66.25
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 65.5
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 65.33
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 65.25
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 64.83
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 64.44
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 64.33
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 63.67
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"standsTaken": 63.67
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 61.58
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"standsTaken": 60.03
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 59.17
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 58.74
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 55.33
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 55.02
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 54.36
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 53.08
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 52.75
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 50.92
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 50.75
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 47.52
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 47.33
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 17
 			},
 			"standsTaken": 45.83
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"standsTaken": 45.58
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 45
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 44.67
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 44.25
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 43.06
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 42.42
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"standsTaken": 42.08
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 37.17
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 31.83
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 31.67
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 31.41
 		}
@@ -1796,441 +2051,504 @@
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 95.51
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 92.46
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 90.93
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 90.68
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 89.43
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"standsTaken": 88.84
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 87.41
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 86.79
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 86.25
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"standsTaken": 85.08
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 84.83
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 84.5
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 83.61
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"standsTaken": 83.12
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 81.97
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 81.07
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 80.11
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"standsTaken": 79.49
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 77.7
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 75.41
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 74.02
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 73.54
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 72.49
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 71.56
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 70.16
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 69.54
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 68.69
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 67.37
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 67.21
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 65.73
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 65.71
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 64.8
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"standsTaken": 64.65
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"standsTaken": 64.49
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 62.22
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 61.23
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 60.99
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"standsTaken": 57.06
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 55.79
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 55.56
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 54.62
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 54.17
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"standsTaken": 53.15
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"standsTaken": 52.76
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 52.47
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 52.37
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 49.21
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"standsTaken": 48.72
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 47.94
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 46.23
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 46.08
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 45.59
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 45.14
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 44.91
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 43.67
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 40.77
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 40.26
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"standsTaken": 38.85
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 38.6
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 35.66
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 35.12
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 20.03
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 17.48
 		}
@@ -2239,441 +2557,504 @@
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 96.49
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 95.36
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 95.25
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 92.05
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 90.82
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 89.68
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 88.88
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 87.41
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"standsTaken": 86.25
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 85.45
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"standsTaken": 84.91
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 83.92
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 83.28
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 80.99
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 80.28
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 79.65
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"standsTaken": 79.46
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 79.46
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"standsTaken": 78.64
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"standsTaken": 78.33
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 78.32
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 75.54
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 73.82
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 73.58
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"standsTaken": 73.48
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 71.41
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 70.02
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 67.01
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 64.49
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 58.51
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 58.1
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"standsTaken": 56.35
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 56.04
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"standsTaken": 55.9
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 55.83
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 55.02
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 53.97
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 53.27
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 50.98
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"standsTaken": 50.89
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 50.46
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 50.05
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 49.85
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 48.92
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 47.68
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 47.16
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"standsTaken": 45.7
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"standsTaken": 44.85
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"standsTaken": 43.61
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 41.66
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"standsTaken": 39.32
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 39.22
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 39.11
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 38.8
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 38.49
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 38.39
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 38.01
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 35.71
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 35.6
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 31.27
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 28.59
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 26.11
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 24.56
 		}
@@ -2682,448 +3063,512 @@
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 96.21
 		},
 		{
 			"mp": {
 				"id": 1001,
-				"name": "Ólafur Þór Gunnarsson"
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
 			},
 			"standsTaken": 96.02
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"standsTaken": 94.55
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 93.94
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"standsTaken": 91.98
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 91.15
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 90.84
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 90.74
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 90.02
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 89.4
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 88.17
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 88.07
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 88.07
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 84.88
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 81.28
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"standsTaken": 81.07
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 80.45
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 79.46
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 76.6
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"standsTaken": 75.31
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"standsTaken": 74.09
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 73.25
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 70.36
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 69.77
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 68.46
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 68.31
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"standsTaken": 62.55
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"standsTaken": 61.01
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"standsTaken": 59.7
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"standsTaken": 59.36
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 58.63
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"standsTaken": 52.37
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 52.06
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 49.28
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 48.87
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 46.09
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"standsTaken": 45.3
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 44.28
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 43.62
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"standsTaken": 42.39
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 42.08
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"standsTaken": 41.98
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"standsTaken": 41.18
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"standsTaken": 40.91
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 40.38
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"standsTaken": 39.81
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 39.24
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 37.86
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 37.55
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 36.42
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 33.85
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 33.23
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 33.02
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"standsTaken": 29.73
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"standsTaken": 29.53
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 28.09
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 27.78
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 27.26
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 27.06
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 24.9
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 24.16
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"standsTaken": 20.75
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 17.93
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"standsTaken": 10.29
 		}
@@ -3132,441 +3577,504 @@
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"standsTaken": 99.02
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 98.04
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 95.1
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"standsTaken": 95.1
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"standsTaken": 91.23
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 91.18
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 91.18
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 90.2
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"standsTaken": 89.22
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 89.22
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 88.24
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"standsTaken": 86.27
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 84.31
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 83.33
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"standsTaken": 83.33
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 82.35
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 82.35
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 82.35
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 81.37
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 81.37
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 80.39
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"standsTaken": 79.55
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 79.41
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"standsTaken": 78.43
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 78.43
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 77.92
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"standsTaken": 75.56
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 75.49
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 75.49
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 75.49
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 75.49
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 75.49
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 72.55
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 71.57
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 71.43
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 70.59
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 70.59
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 69.61
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 69.61
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 68.83
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 67.65
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 66.67
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"standsTaken": 64.71
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 63.73
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 62.75
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 61.76
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 60.78
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 60.71
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 59.8
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 58.82
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 57.84
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 51.19
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 49.09
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 49.02
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 49.02
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 49.02
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 48.04
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 47.06
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 46.08
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 42.16
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"standsTaken": 34.31
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 25
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 19.05
 		}
@@ -3575,441 +4083,504 @@
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 98.27
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"standsTaken": 98.01
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 97.46
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 97.46
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 96.6
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"standsTaken": 96.19
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"standsTaken": 95.96
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 95.84
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 94.34
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 93.65
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 93.53
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 93.03
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 92.08
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 90.53
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 90.07
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 89.38
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 89.26
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"standsTaken": 89.1
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 89.06
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 87.07
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"standsTaken": 85.23
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 85.13
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 84.53
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 82.83
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 82.64
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 82.45
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"standsTaken": 81.5
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 80.83
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 80.55
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 80.02
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 78.36
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 76.91
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 75.82
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 75.4
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 75.29
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"standsTaken": 73.32
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 73.06
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 71.48
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 71.13
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 71.13
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 70.67
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 70.67
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"standsTaken": 69.04
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 67.9
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 67.4
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"standsTaken": 65.82
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 65.47
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 65.36
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"standsTaken": 61.97
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 61.43
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 60.16
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 59.53
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 59.46
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 58.66
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 56.93
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 55.27
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 50.94
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 49.6
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 40.3
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 38.8
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"standsTaken": 35.42
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"standsTaken": 25.9
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 22.86
 		}
@@ -4018,441 +4589,504 @@
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 97.94
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 94.6
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 94.52
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 94.49
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"standsTaken": 93.94
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 93.91
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 93.5
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 92.99
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"standsTaken": 92.35
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"standsTaken": 91.98
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 91.88
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"standsTaken": 91.17
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 90.25
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 89.52
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 89.03
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"standsTaken": 87.82
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 86.8
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"standsTaken": 86.46
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"standsTaken": 85.99
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 85.08
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 83.9
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 83.76
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 81.38
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 81.38
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 80.02
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 79.85
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 78.5
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 75.53
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 75.53
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 75.17
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 75.03
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 73.52
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"standsTaken": 72.69
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 72.69
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 71.68
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"standsTaken": 71.5
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 70.25
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 69.34
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 69.31
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 68.67
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 68.63
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"standsTaken": 65.69
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 65.43
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 63.65
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 63.17
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 62.74
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 60.61
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 57.77
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 55.46
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"standsTaken": 53.2
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 52.92
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 52.08
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 51.75
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 51.6
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 50.4
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 47.95
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 45.46
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 44.05
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 39.59
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 37.56
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"standsTaken": 32.41
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 21.51
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"standsTaken": 18.27
 		}
@@ -4461,434 +5095,496 @@
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"standsTaken": 97.98
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 92.7
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"standsTaken": 89.84
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"standsTaken": 88.98
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"standsTaken": 87.55
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"standsTaken": 86.73
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 86.58
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 86.04
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"standsTaken": 85.42
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 84.88
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 83.01
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 82.93
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 82
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 81.17
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 78.67
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"standsTaken": 78.58
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"standsTaken": 78.43
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 77.27
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 75.87
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 74.4
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 73.31
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 71.3
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 71.06
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 69.59
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 69.45
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"standsTaken": 69.05
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 68.92
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 68.76
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 67.13
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 66.8
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 66.25
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"standsTaken": 65.01
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 64.39
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"standsTaken": 64.23
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 64
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 63.46
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 63.15
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 62.1
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"standsTaken": 61.69
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"standsTaken": 58.66
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 57.64
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 57.1
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 55.82
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"standsTaken": 55.36
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 54.77
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"standsTaken": 54.62
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"standsTaken": 52.91
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 52.38
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"standsTaken": 50.58
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 50.35
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 50
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"standsTaken": 48.75
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 47.76
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"standsTaken": 45.59
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"standsTaken": 44.53
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 42.74
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"standsTaken": 41.97
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 37.34
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 37.26
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 34.06
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 28.91
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"standsTaken": 15.06
 		}
@@ -4897,434 +5593,496 @@
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 99.12
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 98.25
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"standsTaken": 98.25
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 98.03
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 98.03
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 98.03
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"standsTaken": 97.59
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 96.83
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 96.49
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 95.92
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 95.6
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"standsTaken": 95.15
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 93.99
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"standsTaken": 93.64
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 93.45
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"standsTaken": 93.42
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 93.14
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 92.32
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"standsTaken": 92.09
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"standsTaken": 91.61
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"standsTaken": 91.23
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 90.89
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"standsTaken": 90.44
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 90.35
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"standsTaken": 89.04
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 88.89
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 87.28
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"standsTaken": 86.04
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 85.09
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 84.87
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 83.77
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 82.68
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 82.25
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"standsTaken": 79.61
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"standsTaken": 77.66
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 76.97
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"standsTaken": 76.92
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 76.8
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"standsTaken": 76.34
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 76.04
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 75.66
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"standsTaken": 74.89
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"standsTaken": 74.89
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 73.85
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 73.68
 		},
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"standsTaken": 73.29
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 72.37
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 68.3
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 68.28
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"standsTaken": 68.2
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 65.76
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 65.63
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 65.57
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 65.13
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 64.91
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 64.84
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"standsTaken": 59.19
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"standsTaken": 57.24
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"standsTaken": 56.29
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"standsTaken": 56.03
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 50
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 45.18
 		}
@@ -5333,441 +6091,504 @@
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1279,
-				"name": "Hildur Sverrisdóttir"
+				"name": "Hildur Sverrisdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 100
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"standsTaken": 93.75
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"standsTaken": 87.5
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"standsTaken": 81.25
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"standsTaken": 81.25
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"standsTaken": 25
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"standsTaken": 12.5
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"standsTaken": 12.5
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"standsTaken": 12.5
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"standsTaken": 12.5
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"standsTaken": 0
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"standsTaken": 0
 		}

@@ -3,441 +3,504 @@
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1969.8
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 1550.7
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"minutesTalked": 1541
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 1394.17
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 1295.08
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1282.64
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"minutesTalked": 1048.78
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1012.89
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 974.02
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"minutesTalked": 922.15
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 877.82
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"minutesTalked": 852.84
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"minutesTalked": 726.32
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 641.45
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 630.94
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 575.11
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"minutesTalked": 555.87
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 540.56
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 537.45
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 535.39
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 522.42
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 500.87
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"minutesTalked": 497.1
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 467.17
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 465.73
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"minutesTalked": 460.67
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"minutesTalked": 440.71
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 437.78
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"minutesTalked": 408.11
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 405.8
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 402.37
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 382.25
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 382.23
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 361.7
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 346.69
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 336.9
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"minutesTalked": 311.24
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 311.08
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 303.87
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 299.64
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 291.16
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 290.23
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 290.19
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 263.55
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 263.27
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 259.39
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"minutesTalked": 259.23
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"minutesTalked": 242.21
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 237.73
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 234.33
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 233.22
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 230.6
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 229.07
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 214.95
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 201.7
 		},
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 168.21
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"minutesTalked": 159.26
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 158.17
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 143.91
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"minutesTalked": 137.15
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"minutesTalked": 106.8
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 71.69
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 28.15
 		}
@@ -446,455 +509,520 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 1320.73
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"minutesTalked": 1255.91
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1086.95
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1067.37
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"minutesTalked": 869.57
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 810.37
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 790.72
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"minutesTalked": 764.81
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 758.45
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"minutesTalked": 755.2
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"minutesTalked": 653.95
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 599.93
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"minutesTalked": 599.17
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 596.42
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 523.7
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"minutesTalked": 513.7
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 507.6
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 498.52
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 470.92
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 469.37
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 443.51
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 434.68
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 431.78
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 409.04
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 403.02
 		},
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 401.38
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"minutesTalked": 386.41
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 380.63
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 370.11
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 354.67
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 342.71
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 337
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 333.04
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 325.33
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 311.91
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 305.01
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"minutesTalked": 302.78
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 287.58
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 285.23
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"minutesTalked": 270.47
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 269.03
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 260.47
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 259.46
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 251.52
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 247.06
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 238.67
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 202.65
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"minutesTalked": 196.01
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 187.51
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 186.17
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 184.56
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 182.5
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"minutesTalked": 181.56
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 174.09
 		},
 		{
 			"mp": {
 				"id": 702,
-				"name": "Helga Sigrún Harðardóttir"
+				"name": "Helga Sigrún Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 171.97
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 171.58
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 148.08
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 142.19
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"minutesTalked": 130.94
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"minutesTalked": 129.58
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"minutesTalked": 128.93
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 127.69
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 125.75
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 119.51
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"minutesTalked": 77.75
 		}
@@ -903,441 +1031,504 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 683.17
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 670.58
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 647.4
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 507.51
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 501.32
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 418.48
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 414.76
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 408.34
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 401.78
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 390.93
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 389.22
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 389.17
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 367.57
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 345.73
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 337.2
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 333.97
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 305.46
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 284.48
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 267.07
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 263.91
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 249.04
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 244.31
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 239.55
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 215.92
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 212.09
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 208.46
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 206.03
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 190.2
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 41
 			},
 			"minutesTalked": 183.13
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 178.08
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 158.98
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 156.85
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 156.67
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 151.89
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 147.18
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"minutesTalked": 127.6
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 41
 			},
 			"minutesTalked": 124.58
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 120.38
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 115.17
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"minutesTalked": 110.02
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 105.82
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 102.85
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 41
 			},
 			"minutesTalked": 93.07
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 91.05
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 90.26
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 90.08
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 86.09
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 79.78
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 76.93
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 75.42
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 74.98
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 73.77
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 71.92
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 62.07
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 59.28
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 58.07
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 54.93
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"minutesTalked": 53.34
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 41
 			},
 			"minutesTalked": 52.58
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 51.23
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"minutesTalked": 45.2
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 42.95
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 29.29
 		}
@@ -1346,448 +1537,512 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 2145.29
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 1618.91
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1407.01
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1402.73
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1398.71
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 1370.34
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 1314.42
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1285.4
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 1232.71
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 1138.9
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"minutesTalked": 1127.61
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 963.91
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 954.71
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 949.4
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 912.29
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 871.6
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 871.26
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 867.27
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 857.76
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 810.9
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 728.39
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 661.05
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 644.38
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 643.34
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 634.2
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 603.1
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 526.67
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 507.48
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 495.35
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 486.81
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 482.62
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 470.82
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 470.68
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 468.51
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 462.43
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 459.81
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"minutesTalked": 436.79
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 435.27
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 425.21
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 421.51
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 382.4
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 376.57
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"minutesTalked": 375.4
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 370.69
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 359.99
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 350.02
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 342.01
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 17
 			},
 			"minutesTalked": 340.22
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 339.07
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 331.8
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"minutesTalked": 327.12
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 316.05
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 303.64
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 281.68
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 265.92
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 246.93
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 241.3
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 232.35
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"minutesTalked": 207.45
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 189.94
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 167.53
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 153.37
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 117.95
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 70.4
 		}
@@ -1796,441 +2051,504 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 2103.82
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1656.11
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1363.24
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 1344.52
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 1335.58
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 1313.03
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1121.56
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1109.68
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 934.16
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 902.6
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 866.71
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 830.95
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 811.88
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 783.54
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 762.66
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"minutesTalked": 733.97
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 730.29
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 724.77
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 722.35
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 715.28
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 696.16
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 682.49
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 652.14
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 625.47
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 617.97
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 560.82
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 559.51
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 525.48
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 522.12
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 507.35
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"minutesTalked": 492.53
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 475
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 472.04
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 464.09
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 453
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 434.57
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 417.01
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"minutesTalked": 408.95
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 408.11
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 398.7
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"minutesTalked": 386.05
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 360.64
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 350.17
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 345.26
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 343.59
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 331.03
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 322.14
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 321.39
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 313.7
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 303.96
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 302.73
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 286.08
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 218.94
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 201.53
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 190.11
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 182.03
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 172.38
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"minutesTalked": 162.74
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 161.91
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 154.42
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 141.25
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"minutesTalked": 108.85
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 76.45
 		}
@@ -2239,441 +2557,504 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 1976.43
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 1761.68
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 1501.69
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1444.11
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 1409.43
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1378.92
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1335.81
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1222.97
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 1179.83
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 1169.92
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1116.46
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1011.95
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 928.78
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 918.89
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 819.48
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 802.62
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 789.96
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 778.04
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 762.31
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 758.25
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 741.46
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"minutesTalked": 723.31
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 717.52
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 713.3
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 700.82
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 654.95
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 618.38
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 606.85
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"minutesTalked": 545.42
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 540.7
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 534.49
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 515.93
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 478.7
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 452.03
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 451.31
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 449.03
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 425.95
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 412.7
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 412.08
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 404.83
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 402.15
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 401.19
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"minutesTalked": 400.29
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 378.17
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 331.17
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 328.3
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 317.27
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 311.63
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 306.95
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 304.23
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 293.35
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 276.3
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"minutesTalked": 249.07
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"minutesTalked": 241.6
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 238.65
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 233.65
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"minutesTalked": 231.44
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 148.28
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"minutesTalked": 147.32
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 129.94
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 128.94
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"minutesTalked": 110.85
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 109.43
 		}
@@ -2682,448 +3063,512 @@
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1691.69
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 1538.05
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1385.36
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1308.35
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 1256.54
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 1025.32
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 958.3
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 867.23
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 815.99
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 759.3
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 759.15
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 751.83
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 726.03
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 675.03
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 618.45
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 599.77
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 591.14
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 539.25
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 538.99
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"minutesTalked": 508.88
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 496.2
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 492.85
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"minutesTalked": 478.53
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 475.68
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 456.61
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 454.2
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"minutesTalked": 422.95
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 420.02
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 410.07
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 407.44
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"minutesTalked": 402.34
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 398.87
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 392.4
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"minutesTalked": 381.28
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 378.77
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 363.1
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"minutesTalked": 350.88
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"minutesTalked": 334.66
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 321.48
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 314.55
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 304.65
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 304.56
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 303.36
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"minutesTalked": 302.38
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 301.8
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 282.86
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 272.77
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 243.47
 		},
 		{
 			"mp": {
 				"id": 1001,
-				"name": "Ólafur Þór Gunnarsson"
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
 			},
 			"minutesTalked": 238.88
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"minutesTalked": 228.73
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"minutesTalked": 228.62
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 198.57
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 185.54
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 178.47
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 174.4
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"minutesTalked": 171.34
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"minutesTalked": 170.96
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"minutesTalked": 168.94
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 133.95
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"minutesTalked": 131.8
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 114.01
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 99.98
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"minutesTalked": 98.9
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"minutesTalked": 58.44
 		}
@@ -3132,441 +3577,504 @@
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 428.51
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 376.64
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 305.15
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 297.88
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 289.06
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 268.37
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 249.67
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 231.61
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 218.99
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 213.12
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 195.12
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 190.57
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 187.74
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 186.6
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 183.18
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 180.47
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 165.52
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 162.68
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 138.77
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"minutesTalked": 114.73
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 108.46
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 104.36
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"minutesTalked": 104.02
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 104.02
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 103.28
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"minutesTalked": 94.6
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 86.22
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 72.56
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"minutesTalked": 68.85
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"minutesTalked": 67.84
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 65.83
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 64.97
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 63.06
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 59.79
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 57.21
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 53.75
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 52.88
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 52.72
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 51.4
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 47.8
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 45.74
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"minutesTalked": 37.99
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 36.49
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 34.98
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 33.12
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 30.42
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 28.18
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 27.15
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 26.03
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 25.83
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 24.97
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 23.65
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 23.12
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 22.62
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 20.38
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 20.17
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 20.13
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"minutesTalked": 19.29
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 14.67
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"minutesTalked": 12.47
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 10.53
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 8.55
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 7.21
 		}
@@ -3575,441 +4083,504 @@
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1603.48
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 1181.69
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1072.95
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 1060.93
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1031.05
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 948.88
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 945.29
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 943.06
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"minutesTalked": 917.21
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 873.44
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 836.64
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 803.07
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 768.95
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 761.05
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 760.9
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 738.63
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 665.38
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"minutesTalked": 658.98
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 612.7
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 600.06
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 578.25
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 567.9
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 552.49
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"minutesTalked": 485.14
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 422.65
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 416.22
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"minutesTalked": 384.86
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 375.7
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 374.25
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 367.91
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"minutesTalked": 359.5
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 347.38
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 344.73
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 294.1
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 292.16
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 268.14
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 263.88
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 249.25
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 246.24
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 245.49
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 229.16
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 227.23
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"minutesTalked": 222.75
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"minutesTalked": 207.85
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 206.14
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 201.31
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 197.99
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 170.59
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 161.88
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 159.32
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 154.35
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 138.45
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"minutesTalked": 125.73
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 112.72
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 108.9
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 105.79
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 104.32
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 95.06
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"minutesTalked": 85.48
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 78.66
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 75.56
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 67.57
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 54.4
 		}
@@ -4018,441 +4589,504 @@
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 2407.07
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1965.16
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 1824.04
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1654.43
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 1357.74
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1263.27
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1241.63
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 1169.89
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1167.14
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"minutesTalked": 1162.84
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 1162.35
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1145.88
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1085.57
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1052.8
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1023.84
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1023.4
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 1021.79
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 968.2
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"minutesTalked": 936.64
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 856.57
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 842.33
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"minutesTalked": 814.44
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 771.95
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"minutesTalked": 656.22
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 593.88
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 524.61
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 520.27
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 517.24
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 434.52
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 431.96
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 428.37
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 414.45
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 391.45
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 388.74
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"minutesTalked": 385.97
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"minutesTalked": 377.66
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"minutesTalked": 359
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 358.89
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"minutesTalked": 329.64
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 290.13
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 283.28
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 268.92
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 268.02
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 259.29
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 257.84
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 251.71
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 248.97
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 233.85
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 232.44
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 185.19
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 177.28
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 173.73
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 165.44
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 162.58
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 157.16
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 138.83
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 138.48
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 135.82
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 127.61
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 122.95
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 122.48
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 119
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"minutesTalked": 110.55
 		}
@@ -4461,441 +5095,504 @@
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 2054.66
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 1766.88
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 1743.15
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"minutesTalked": 1699.35
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 1551.86
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1526.6
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1491.33
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1431.42
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 1183.69
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1103.43
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 1097.87
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"minutesTalked": 1020.59
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 988.13
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"minutesTalked": 971.11
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 884.01
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 876.98
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"minutesTalked": 864.33
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 838.01
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"minutesTalked": 814.8
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 808.23
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"minutesTalked": 769.03
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 757.94
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"minutesTalked": 672.04
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"minutesTalked": 659.96
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 561.83
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 551.82
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 549.91
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"minutesTalked": 535.13
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 451.98
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"minutesTalked": 438.66
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"minutesTalked": 430.45
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 401.06
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"minutesTalked": 398.78
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 371.51
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 344.02
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 340.44
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 331.86
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 330.42
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 326.73
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 314.54
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 310.37
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"minutesTalked": 305.68
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"minutesTalked": 299.56
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 289.81
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 282.56
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 282.39
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 274.16
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 262.94
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 256.29
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 247.81
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 240.34
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 230.62
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"minutesTalked": 229.69
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 217.31
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 205.87
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"minutesTalked": 203.12
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 185.22
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"minutesTalked": 182.48
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 157.6
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"minutesTalked": 148.35
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 106.72
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 86.16
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"minutesTalked": 0
 		}
@@ -4904,434 +5601,496 @@
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"minutesTalked": 932.73
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 887.6
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 695.58
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 685.55
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"minutesTalked": 576.65
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 551.33
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"minutesTalked": 548.91
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 523.95
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 515.15
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"minutesTalked": 502.04
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 495
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 489.08
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 482.78
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 436.73
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 428.52
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 423.28
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 396.67
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 386.23
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 384.03
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"minutesTalked": 370.68
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"minutesTalked": 368.34
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 357.58
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 351.03
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 346.12
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 339.38
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"minutesTalked": 329.31
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"minutesTalked": 303.94
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"minutesTalked": 301.36
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 268.17
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"minutesTalked": 265.5
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 250.32
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"minutesTalked": 239.72
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 210.41
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"minutesTalked": 204.06
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 199.05
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 194.95
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 190.81
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"minutesTalked": 184
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"minutesTalked": 177.67
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 174.57
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"minutesTalked": 165.82
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"minutesTalked": 165.68
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 164.04
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 163.54
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"minutesTalked": 161.1
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 155.95
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 154.32
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 144.83
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 131
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 122.45
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 119.8
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"minutesTalked": 116.46
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 111.87
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 110.67
 		},
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 108.39
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 96.08
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 81.64
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 71.87
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"minutesTalked": 31.78
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 23.79
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"minutesTalked": 22.47
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 3.82
 		}
@@ -5340,441 +6099,504 @@
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 65.05
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"minutesTalked": 64.28
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"minutesTalked": 46.48
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"minutesTalked": 43.71
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 43.2
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 41.13
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 41.02
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 40.05
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"minutesTalked": 38.97
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"minutesTalked": 35.68
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"minutesTalked": 30.94
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"minutesTalked": 28.51
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 27.06
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"minutesTalked": 24.46
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"minutesTalked": 23.26
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"minutesTalked": 22.31
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 20.88
 		},
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"minutesTalked": 20.72
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"minutesTalked": 20.27
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"minutesTalked": 20.09
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 20.07
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"minutesTalked": 19.92
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 19.87
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"minutesTalked": 19.28
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 17.47
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 14.92
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 13.67
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"minutesTalked": 12.7
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 11.75
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"minutesTalked": 11.46
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"minutesTalked": 9.58
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 8.2
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"minutesTalked": 7.78
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"minutesTalked": 5.73
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"minutesTalked": 5.65
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 5.43
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"minutesTalked": 5.05
 		},
 		{
 			"mp": {
 				"id": 1279,
-				"name": "Hildur Sverrisdóttir"
+				"name": "Hildur Sverrisdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 4.38
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"minutesTalked": 4.05
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"minutesTalked": 3.82
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"minutesTalked": 2.55
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"minutesTalked": 2.07
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"minutesTalked": 1.3
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"minutesTalked": 0.97
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"minutesTalked": 0.83
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"minutesTalked": 0.52
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 0.38
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 0.02
 		},
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"minutesTalked": 0
 		}

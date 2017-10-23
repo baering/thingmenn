@@ -3,441 +3,504 @@
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"attendance": 99.77
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 99.13
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 98.87
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"attendance": 98.74
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 98.02
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 97.9
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 97.2
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 96.44
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"attendance": 95.92
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"attendance": 94.87
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 94.23
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 94.18
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"attendance": 93.76
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"attendance": 93.54
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 93.42
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"attendance": 93.36
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 92.78
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 92.63
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"attendance": 91.8
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"attendance": 91.3
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 90.22
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"attendance": 89.92
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"attendance": 89.78
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 89.03
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"attendance": 88.7
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"attendance": 87.89
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"attendance": 87.71000000000001
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"attendance": 87.36
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"attendance": 86.92
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"attendance": 86.48
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 85.82
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"attendance": 85.33
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"attendance": 84.97
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 84.51
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 83.99
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 82.88
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 82.76
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"attendance": 82.61
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"attendance": 82.12
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 81.77
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 80.49
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 80.1
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 80.02
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"attendance": 78.74
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 77.5
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"attendance": 77.22
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 76.74
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"attendance": 75.83
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 75.6
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 73.56
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 69.42
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"attendance": 68.03
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"attendance": 67.56
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"attendance": 66.34
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 65.46000000000001
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 63.16
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"attendance": 62.43
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 60.22
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 58.3
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 55
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"attendance": 51.72
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 48.74
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"attendance": 34.44
 		}
@@ -446,455 +509,520 @@
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 97.94
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 95.75
 		},
 		{
 			"mp": {
 				"id": 680,
-				"name": "Bjarni Harðarson"
+				"name": "Bjarni Harðarson",
+				"partyId": 2
 			},
 			"attendance": 93.55
 		},
 		{
 			"mp": {
 				"id": 560,
-				"name": "Sturla Böðvarsson"
+				"name": "Sturla Böðvarsson",
+				"partyId": 35
 			},
 			"attendance": 92.46
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 92.18
 		},
 		{
 			"mp": {
 				"id": 407,
-				"name": "Lúðvík Bergvinsson"
+				"name": "Lúðvík Bergvinsson",
+				"partyId": 38
 			},
 			"attendance": 92.04
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"attendance": 89.3
 		},
 		{
 			"mp": {
 				"id": 141,
-				"name": "Ellert B. Schram"
+				"name": "Ellert B. Schram",
+				"partyId": 38
 			},
 			"attendance": 89.16
 		},
 		{
 			"mp": {
 				"id": 2,
-				"name": "Arnbjörg Sveinsdóttir"
+				"name": "Arnbjörg Sveinsdóttir",
+				"partyId": 35
 			},
 			"attendance": 88.89
 		},
 		{
 			"mp": {
 				"id": 700,
-				"name": "Herdís Þórðardóttir"
+				"name": "Herdís Þórðardóttir",
+				"partyId": 35
 			},
 			"attendance": 88.48
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 88.34
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 88.2
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"attendance": 87.38
 		},
 		{
 			"mp": {
 				"id": 684,
-				"name": "Guðfinna S. Bjarnadóttir"
+				"name": "Guðfinna S. Bjarnadóttir",
+				"partyId": 35
 			},
 			"attendance": 87.17
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"attendance": 86.42
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 85.69
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 85.19
 		},
 		{
 			"mp": {
 				"id": 689,
-				"name": "Jón Magnússon"
+				"name": "Jón Magnússon",
+				"partyId": 32
 			},
 			"attendance": 84.5
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 84.22
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 84.22
 		},
 		{
 			"mp": {
 				"id": 681,
-				"name": "Björk Guðjónsdóttir"
+				"name": "Björk Guðjónsdóttir",
+				"partyId": 35
 			},
 			"attendance": 84.22
 		},
 		{
 			"mp": {
 				"id": 702,
-				"name": "Helga Sigrún Harðardóttir"
+				"name": "Helga Sigrún Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 83.81
 		},
 		{
 			"mp": {
 				"id": 221,
-				"name": "Ásta Möller"
+				"name": "Ásta Möller",
+				"partyId": 35
 			},
 			"attendance": 82.85
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 82.83
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 82.3
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 82.12
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 80.25
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 79.84
 		},
 		{
 			"mp": {
 				"id": 383,
-				"name": "Kolbrún Halldórsdóttir"
+				"name": "Kolbrún Halldórsdóttir",
+				"partyId": 23
 			},
 			"attendance": 79.56
 		},
 		{
 			"mp": {
 				"id": 682,
-				"name": "Grétar Mar Jónsson"
+				"name": "Grétar Mar Jónsson",
+				"partyId": 32
 			},
 			"attendance": 79.15
 		},
 		{
 			"mp": {
 				"id": 386,
-				"name": "Kristinn H. Gunnarsson"
+				"name": "Kristinn H. Gunnarsson",
+				"partyId": 32
 			},
 			"attendance": 77.5
 		},
 		{
 			"mp": {
 				"id": 76,
-				"name": "Björn Bjarnason"
+				"name": "Björn Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 77.09
 		},
 		{
 			"mp": {
 				"id": 379,
-				"name": "Kjartan Ólafsson"
+				"name": "Kjartan Ólafsson",
+				"partyId": 35
 			},
 			"attendance": 76.95
 		},
 		{
 			"mp": {
 				"id": 373,
-				"name": "Karl V. Matthíasson"
+				"name": "Karl V. Matthíasson",
+				"partyId": 38
 			},
 			"attendance": 76.63
 		},
 		{
 			"mp": {
 				"id": 685,
-				"name": "Gunnar Svavarsson"
+				"name": "Gunnar Svavarsson",
+				"partyId": 38
 			},
 			"attendance": 76.27
 		},
 		{
 			"mp": {
 				"id": 663,
-				"name": "Sigurður Kári Kristjánsson"
+				"name": "Sigurður Kári Kristjánsson",
+				"partyId": 35
 			},
 			"attendance": 75.86
 		},
 		{
 			"mp": {
 				"id": 13,
-				"name": "Valgerður Sverrisdóttir"
+				"name": "Valgerður Sverrisdóttir",
+				"partyId": 2
 			},
 			"attendance": 75.72
 		},
 		{
 			"mp": {
 				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson"
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
 			},
 			"attendance": 75.58
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 75.17
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 74.45
 		},
 		{
 			"mp": {
 				"id": 425,
-				"name": "Magnús Stefánsson"
+				"name": "Magnús Stefánsson",
+				"partyId": 2
 			},
 			"attendance": 74.21000000000001
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 70.92
 		},
 		{
 			"mp": {
 				"id": 176,
-				"name": "Guðjón A. Kristjánsson"
+				"name": "Guðjón A. Kristjánsson",
+				"partyId": 32
 			},
 			"attendance": 67.47999999999999
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 64.96000000000001
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 64.47
 		},
 		{
 			"mp": {
 				"id": 5,
-				"name": "Árni M. Mathiesen"
+				"name": "Árni M. Mathiesen",
+				"partyId": 35
 			},
 			"attendance": 63.1
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 62.78
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 61.32
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 60.49
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 60.3
 		},
 		{
 			"mp": {
 				"id": 264,
-				"name": "Ingibjörg Sólrún Gísladóttir"
+				"name": "Ingibjörg Sólrún Gísladóttir",
+				"partyId": 38
 			},
 			"attendance": 60.24
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 59.95
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 58.57
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 58.44
 		},
 		{
 			"mp": {
 				"id": 134,
-				"name": "Einar Már Sigurðarson"
+				"name": "Einar Már Sigurðarson",
+				"partyId": 38
 			},
 			"attendance": 57.89
 		},
 		{
 			"mp": {
 				"id": 677,
-				"name": "Ármann Kr. Ólafsson"
+				"name": "Ármann Kr. Ólafsson",
+				"partyId": 35
 			},
 			"attendance": 57.48
 		},
 		{
 			"mp": {
 				"id": 198,
-				"name": "Guðni Ágústsson"
+				"name": "Guðni Ágústsson",
+				"partyId": 2
 			},
 			"attendance": 56.86
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 55.69
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 53.09
 		},
 		{
 			"mp": {
 				"id": 162,
-				"name": "Geir H. Haarde"
+				"name": "Geir H. Haarde",
+				"partyId": 35
 			},
 			"attendance": 52.41
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 51.99
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 51.71
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 51.58
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 48.83
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 44.99
 		}
@@ -903,441 +1031,504 @@
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 98.46
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 98.07
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"attendance": 97.04
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 96.91
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 94.59
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 41
 			},
 			"attendance": 94.59
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 94.59
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 94.21
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"attendance": 93.82
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 41
 			},
 			"attendance": 93.05
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"attendance": 93.05
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 91.51
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"attendance": 89.36
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 89.19
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 88.8
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 88.42
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 88.03
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 88.03
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 87.64
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 87.26
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"attendance": 86.87
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 41
 			},
 			"attendance": 86.27
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"attendance": 85.33
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 83.4
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 83.4
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 83.01
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 82.63
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 81.08
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"attendance": 80.69
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 80.31
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 80.31
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 76.06
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 75.68
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 75.68
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 75.28999999999999
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 74.13
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 73.75
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"attendance": 73.36
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 41
 			},
 			"attendance": 72.59
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 71.81
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"attendance": 71.03999999999999
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 71.03999999999999
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 68.34
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"attendance": 66.02000000000001
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"attendance": 66.02000000000001
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"attendance": 65.25
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 62.55
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 61.39
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"attendance": 60.62
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"attendance": 60.23
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 59.85
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 59.85
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 59.07
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 55.98
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"attendance": 55.98
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 54.44
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 53.67
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 51.35
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 50.97
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 50.19
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 32.43000000000001
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 31.659999999999997
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 30.5
 		}
@@ -1346,448 +1537,512 @@
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"attendance": 97.75
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 96.5
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 95.58
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"attendance": 94.75
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 94.58
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 94
 		},
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"attendance": 93.92
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"attendance": 92.67
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"attendance": 92.29
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"attendance": 91.67
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 91.26
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"attendance": 89.27
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 88.75
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"attendance": 88.73
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 88.73
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"attendance": 88.46000000000001
 		},
 		{
 			"mp": {
 				"id": 695,
-				"name": "Steinunn Valdís Óskarsdóttir"
+				"name": "Steinunn Valdís Óskarsdóttir",
+				"partyId": 38
 			},
 			"attendance": 88.01
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"attendance": 87.92
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 87.08
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 86.5
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 86.5
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"attendance": 86.42
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 86.38
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 86.25
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 86
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 85.33
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 84.58
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 84.58
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"attendance": 84.5
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"attendance": 84.08
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 84.08
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 83.36
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 82.33
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 80.67
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 79.83
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 79.25
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 78.92
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 77.51
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 77.42
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 76.5
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"attendance": 76.42
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 76.17
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 74.67
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 74.08
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"attendance": 72.87
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 72.58
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 71.58
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 71.31
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 70.08
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 70
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"attendance": 69.58
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"attendance": 68.25
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 17
 			},
 			"attendance": 68.17
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 67.42
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 67.17
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 64.21000000000001
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 63.75
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 55.95
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"attendance": 55.24
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 54.83
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 51.33
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 49.67
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 46.75
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 41.5
 		}
@@ -1796,441 +2051,504 @@
 		{
 			"mp": {
 				"id": 633,
-				"name": "Þórunn Sveinbjarnardóttir"
+				"name": "Þórunn Sveinbjarnardóttir",
+				"partyId": 38
 			},
 			"attendance": 98.72
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 98.52
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 97.75
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 96.71
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"attendance": 95.71
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 95.42
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 95.42
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 95.03
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"attendance": 94.22
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 92.54
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"attendance": 92.54
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 91.06
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"attendance": 90.13
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"attendance": 89.58
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"attendance": 88.19
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 88.03
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"attendance": 87.96000000000001
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"attendance": 87.18
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 86.64
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 86.56
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"attendance": 86.36
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 85
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 84.69
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 84.4
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 84.07
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 83.92
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 83.84
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 81.37
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 80.59
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"attendance": 80.57
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 80.34
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 80.19
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 23
 			},
 			"attendance": 80.02
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"attendance": 79.98
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 79.19
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 77.62
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 77.6
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"attendance": 77.16
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"attendance": 76.77
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 76.14
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 75.84
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 23
 			},
 			"attendance": 75
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 74.71000000000001
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 74.13
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 74.05
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 73.5
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 73.19
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 71.9
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 71.55
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 70.24
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"attendance": 69.46000000000001
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 68.76
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 23
 			},
 			"attendance": 68.3
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 63.17
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 62.63
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 61.88
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 59.98
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 58.9
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 57.89
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 2
 			},
 			"attendance": 49.03
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 48.23
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 43.59
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 34.55
 		}
@@ -2239,441 +2557,504 @@
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 97.61
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"attendance": 97.32
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"attendance": 96.59
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 96.18
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 95.98
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 95.26
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 94.79
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 94.32
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 94.3
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"attendance": 94.22
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"attendance": 91.93
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 90.71000000000001
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 90.09
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"attendance": 89.57
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 89.23
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 89.16
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 88.99
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"attendance": 88.95
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 88.75
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 88.53999999999999
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"attendance": 88.24
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"attendance": 87.66
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 87.34
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 86.36
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"attendance": 86.17
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"attendance": 85.88
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 84.52
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 82.77
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 81.03
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"attendance": 80.8
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"attendance": 80.6
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"attendance": 80.28999999999999
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 80.28
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 80.19
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 79.88
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"attendance": 79.88
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"attendance": 78.99
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 78.64
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 77.4
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 77.3
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"attendance": 74.61
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 74.3
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 73.37
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 73.27
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"attendance": 73.26
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 72.24
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 69.76
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 67.82
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 67.08
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 65.72999999999999
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 63.98
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 63.88
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 63.16
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 63.16
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"attendance": 62.54
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 62.15
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 61.51
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 58.77
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 58.2
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 53.77
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 50.57
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 43.55
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 42.93
 		}
@@ -2682,448 +3063,512 @@
 		{
 			"mp": {
 				"id": 1001,
-				"name": "Ólafur Þór Gunnarsson"
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
 			},
 			"attendance": 97.51
 		},
 		{
 			"mp": {
 				"id": 287,
-				"name": "Jóhanna Sigurðardóttir"
+				"name": "Jóhanna Sigurðardóttir",
+				"partyId": 38
 			},
 			"attendance": 97.02
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 96.21
 		},
 		{
 			"mp": {
 				"id": 723,
-				"name": "Margrét Tryggvadóttir"
+				"name": "Margrét Tryggvadóttir",
+				"partyId": 42
 			},
 			"attendance": 95.99
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 95.81
 		},
 		{
 			"mp": {
 				"id": 1130,
-				"name": "Lúðvík Geirsson"
+				"name": "Lúðvík Geirsson",
+				"partyId": 38
 			},
 			"attendance": 94.86
 		},
 		{
 			"mp": {
 				"id": 48,
-				"name": "Ásta R. Jóhannesdóttir"
+				"name": "Ásta R. Jóhannesdóttir",
+				"partyId": 38
 			},
 			"attendance": 94.44
 		},
 		{
 			"mp": {
 				"id": 737,
-				"name": "Björn Valur Gíslason"
+				"name": "Björn Valur Gíslason",
+				"partyId": 23
 			},
 			"attendance": 93.21
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 92.08
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 92.08
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 91.36
 		},
 		{
 			"mp": {
 				"id": 724,
-				"name": "Jónína Rós Guðmundsdóttir"
+				"name": "Jónína Rós Guðmundsdóttir",
+				"partyId": 38
 			},
 			"attendance": 91.15
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 89.71000000000001
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 89.51
 		},
 		{
 			"mp": {
 				"id": 676,
-				"name": "Álfheiður Ingadóttir"
+				"name": "Álfheiður Ingadóttir",
+				"partyId": 23
 			},
 			"attendance": 89.2
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 88.89
 		},
 		{
 			"mp": {
 				"id": 675,
-				"name": "Atli Gíslason"
+				"name": "Atli Gíslason",
+				"partyId": 17
 			},
 			"attendance": 88.44
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 88.17
 		},
 		{
 			"mp": {
 				"id": 711,
-				"name": "Lilja Mósesdóttir"
+				"name": "Lilja Mósesdóttir",
+				"partyId": 17
 			},
 			"attendance": 87.76
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 85.97
 		},
 		{
 			"mp": {
 				"id": 725,
-				"name": "Magnús Orri Schram"
+				"name": "Magnús Orri Schram",
+				"partyId": 38
 			},
 			"attendance": 84.88
 		},
 		{
 			"mp": {
 				"id": 727,
-				"name": "Guðfríður Lilja Grétarsdóttir"
+				"name": "Guðfríður Lilja Grétarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 84.5
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 42
 			},
 			"attendance": 83.85
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 81.58
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 81.58
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 80.56
 		},
 		{
 			"mp": {
 				"id": 530,
-				"name": "Siv Friðleifsdóttir"
+				"name": "Siv Friðleifsdóttir",
+				"partyId": 2
 			},
 			"attendance": 80.14
 		},
 		{
 			"mp": {
 				"id": 662,
-				"name": "Mörður Árnason"
+				"name": "Mörður Árnason",
+				"partyId": 38
 			},
 			"attendance": 79.83
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 79.64
 		},
 		{
 			"mp": {
 				"id": 713,
-				"name": "Þór Saari"
+				"name": "Þór Saari",
+				"partyId": 42
 			},
 			"attendance": 79.52
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 78.26
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 38
 			},
 			"attendance": 76.62
 		},
 		{
 			"mp": {
 				"id": 720,
-				"name": "Skúli Helgason"
+				"name": "Skúli Helgason",
+				"partyId": 38
 			},
 			"attendance": 75.41
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 75.1
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 74.78999999999999
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 74.59
 		},
 		{
 			"mp": {
 				"id": 718,
-				"name": "Ásbjörn Óttarsson"
+				"name": "Ásbjörn Óttarsson",
+				"partyId": 35
 			},
 			"attendance": 72.26
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 71.4
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 71.09
 		},
 		{
 			"mp": {
 				"id": 634,
-				"name": "Þuríður Backman"
+				"name": "Þuríður Backman",
+				"partyId": 23
 			},
 			"attendance": 71.01
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 70.98
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 70.4
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 69.78
 		},
 		{
 			"mp": {
 				"id": 715,
-				"name": "Ólína Kjerúlf Þorvarðardóttir"
+				"name": "Ólína Kjerúlf Þorvarðardóttir",
+				"partyId": 38
 			},
 			"attendance": 69.73
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 68.93
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 68.11
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 68
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 64.4
 		},
 		{
 			"mp": {
 				"id": 717,
-				"name": "Sigmundur Ernir Rúnarsson"
+				"name": "Sigmundur Ernir Rúnarsson",
+				"partyId": 38
 			},
 			"attendance": 62.35
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 62.25
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 61.42
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 60.19
 		},
 		{
 			"mp": {
 				"id": 653,
-				"name": "Björgvin G. Sigurðsson"
+				"name": "Björgvin G. Sigurðsson",
+				"partyId": 38
 			},
 			"attendance": 59.57
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 55.35
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 17
 			},
 			"attendance": 55.25
 		},
 		{
 			"mp": {
 				"id": 371,
-				"name": "Jón Bjarnason"
+				"name": "Jón Bjarnason",
+				"partyId": 23
 			},
 			"attendance": 55.14
 		},
 		{
 			"mp": {
 				"id": 651,
-				"name": "Birkir Jón Jónsson"
+				"name": "Birkir Jón Jónsson",
+				"partyId": 2
 			},
 			"attendance": 53.29
 		},
 		{
 			"mp": {
 				"id": 692,
-				"name": "Ólöf Nordal"
+				"name": "Ólöf Nordal",
+				"partyId": 35
 			},
 			"attendance": 53
 		},
 		{
 			"mp": {
 				"id": 709,
-				"name": "Þráinn Bertelsson"
+				"name": "Þráinn Bertelsson",
+				"partyId": 23
 			},
 			"attendance": 51.85
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 49.49
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 47.33
 		},
 		{
 			"mp": {
 				"id": 710,
-				"name": "Tryggvi Þór Herbertsson"
+				"name": "Tryggvi Þór Herbertsson",
+				"partyId": 35
 			},
 			"attendance": 42.83
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 39.78
 		},
 		{
 			"mp": {
 				"id": 38,
-				"name": "Árni Johnsen"
+				"name": "Árni Johnsen",
+				"partyId": 35
 			},
 			"attendance": 22.120000000000005
 		}
@@ -3132,441 +3577,504 @@
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"attendance": 98.04
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 98.04
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"attendance": 98.04
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"attendance": 97.78
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"attendance": 97.06
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"attendance": 97.06
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 97.06
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"attendance": 96.08
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 96.08
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 96.08
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 96.08
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"attendance": 95.1
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 95.1
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 94.55
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 94.12
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.14
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 93.14
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.14
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 93.14
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 93.14
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 92.86
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"attendance": 92.16
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"attendance": 91.23
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 91.18
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 91.18
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 90.2
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"attendance": 90.2
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 90.2
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 89.22
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 89.22
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"attendance": 88.64
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 88.24
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 87.25
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 87.25
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 87.01
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"attendance": 86.27
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 86.27
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 84.31
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 84.31
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 83.33
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 82.35
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 82.35
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 81.37
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 80.52
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 79.41
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 79.41
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 77.45
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 75.49
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 75.32
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 72.55
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 72.55
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 72.55
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 72.55
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 71.57
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"attendance": 70.59
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 70.59
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 61.9
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 58.82
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 55.88
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 51.96
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"attendance": 25
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 25
 		}
@@ -3575,441 +4083,504 @@
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"attendance": 98.36
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"attendance": 98.27
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 98.27
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"attendance": 98.04
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 98.04
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 96.65
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 96.6
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"attendance": 96.42
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"attendance": 96.42
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"attendance": 95.61
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 95.27
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 94.69
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 94.34
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"attendance": 94.12
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"attendance": 94.04
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 93.88
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 93.88
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 93.76
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.65
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 93.62
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"attendance": 93.53
 		},
 		{
 			"mp": {
 				"id": 679,
-				"name": "Árni Þór Sigurðsson"
+				"name": "Árni Þór Sigurðsson",
+				"partyId": 23
 			},
 			"attendance": 93.52
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 92.49
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 92.32
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"attendance": 91.45
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 90.88
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 90.76
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 90.3
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 90.22
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 89.72
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 89.58
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"attendance": 89.56
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 89.26
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 89.15
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"attendance": 88.17
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 88.11
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 87.99
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 87.57
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 86.86
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 86.02
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 85.88
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 85.8
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"attendance": 85.58
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 85.12
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 84.99
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 84.99
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 84.92
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 84.06
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 83.72
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 83.28999999999999
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 83.26
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 78.82
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 77.94
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"attendance": 77.45
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 76.56
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 75.52
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 73.41
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"attendance": 72.28999999999999
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 67.55
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 66.94
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 65.36
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 64.96000000000001
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 27.83
 		}
@@ -4018,441 +4589,504 @@
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"attendance": 98.98
 		},
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"attendance": 98.58
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 98.56
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 96.75
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 96.26
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"attendance": 96.14
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"attendance": 95.62
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 95.23
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 95.12
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"attendance": 94.96
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 94.92
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"attendance": 94.49
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"attendance": 94.19
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 94.11
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 94.11
 		},
 		{
 			"mp": {
 				"id": 477,
-				"name": "Pétur H. Blöndal"
+				"name": "Pétur H. Blöndal",
+				"partyId": 35
 			},
 			"attendance": 93.94
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"attendance": 93.83
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.67
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 93.46
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 92.99
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"attendance": 92.28
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 92.08
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 91.86
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 91.47
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 90.56
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"attendance": 90.53
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 89.73
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 89.51
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 89.19
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 87.82
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 87.41
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 87.21000000000001
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"attendance": 86.7
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"attendance": 86.09
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 86.09
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 85.99
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 85.37
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 85.28
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 84.95
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 83.9
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 82.87
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 82.36
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"attendance": 81.94
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"attendance": 81.57
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 79.87
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 79.39
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"attendance": 79.28999999999999
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 77.36
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"attendance": 75.94
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 72.09
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 70.22
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 69.03999999999999
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 68.26
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 67.59
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 66.44
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 66.4
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 66.19
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 64.2
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 63.84
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 61.22
 		},
 		{
 			"mp": {
 				"id": 683,
-				"name": "Guðbjartur Hannesson"
+				"name": "Guðbjartur Hannesson",
+				"partyId": 38
 			},
 			"attendance": 59.3
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 55.33
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 44.04
 		}
@@ -4461,434 +5095,496 @@
 		{
 			"mp": {
 				"id": 1178,
-				"name": "Willum Þór Þórsson"
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
 			},
 			"attendance": 98.6
 		},
 		{
 			"mp": {
 				"id": 124,
-				"name": "Einar K. Guðfinnsson"
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
 			},
 			"attendance": 96.35
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 94.18
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 93.87
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"attendance": 93.57
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 92.86
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 92.4
 		},
 		{
 			"mp": {
 				"id": 1170,
-				"name": "Líneik Anna Sævarsdóttir"
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 91.93
 		},
 		{
 			"mp": {
 				"id": 1179,
-				"name": "Þorsteinn Sæmundsson"
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 2
 			},
 			"attendance": 91.62
 		},
 		{
 			"mp": {
 				"id": 705,
-				"name": "Valgerður Bjarnadóttir"
+				"name": "Valgerður Bjarnadóttir",
+				"partyId": 38
 			},
 			"attendance": 91.17
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 90.92
 		},
 		{
 			"mp": {
 				"id": 1162,
-				"name": "Frosti Sigurjónsson"
+				"name": "Frosti Sigurjónsson",
+				"partyId": 2
 			},
 			"attendance": 90.61
 		},
 		{
 			"mp": {
 				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson"
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 90.59
 		},
 		{
 			"mp": {
 				"id": 1173,
-				"name": "Páll Jóhann Pálsson"
+				"name": "Páll Jóhann Pálsson",
+				"partyId": 2
 			},
 			"attendance": 90.14
 		},
 		{
 			"mp": {
 				"id": 1165,
-				"name": "Haraldur Einarsson"
+				"name": "Haraldur Einarsson",
+				"partyId": 2
 			},
 			"attendance": 88.91
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 88.21000000000001
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 87.84
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 87.28
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 87.09
 		},
 		{
 			"mp": {
 				"id": 396,
-				"name": "Kristján L. Möller"
+				"name": "Kristján L. Möller",
+				"partyId": 38
 			},
 			"attendance": 86.65
 		},
 		{
 			"mp": {
 				"id": 1159,
-				"name": "Brynhildur Pétursdóttir"
+				"name": "Brynhildur Pétursdóttir",
+				"partyId": 44
 			},
 			"attendance": 86.56
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 86.19
 		},
 		{
 			"mp": {
 				"id": 1172,
-				"name": "Páll Valur Björnsson"
+				"name": "Páll Valur Björnsson",
+				"partyId": 44
 			},
 			"attendance": 86.03999999999999
 		},
 		{
 			"mp": {
 				"id": 1167,
-				"name": "Jóhanna María Sigmundsdóttir"
+				"name": "Jóhanna María Sigmundsdóttir",
+				"partyId": 2
 			},
 			"attendance": 85.76
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"attendance": 85.57
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 85.49
 		},
 		{
 			"mp": {
 				"id": 1181,
-				"name": "Elín Hirst"
+				"name": "Elín Hirst",
+				"partyId": 35
 			},
 			"attendance": 85.13
 		},
 		{
 			"mp": {
 				"id": 707,
-				"name": "Ásmundur Einar Daðason"
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
 			"attendance": 84.68
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"attendance": 84.36
 		},
 		{
 			"mp": {
 				"id": 694,
-				"name": "Ragnheiður Ríkharðsdóttir"
+				"name": "Ragnheiður Ríkharðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 84.17
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 84.01
 		},
 		{
 			"mp": {
 				"id": 704,
-				"name": "Guðmundur Steingrímsson"
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"attendance": 83.36
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 83.17
 		},
 		{
 			"mp": {
 				"id": 1163,
-				"name": "Hanna Birna Kristjánsdóttir"
+				"name": "Hanna Birna Kristjánsdóttir",
+				"partyId": 35
 			},
 			"attendance": 83.01
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 81.92
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 80.68
 		},
 		{
 			"mp": {
 				"id": 1169,
-				"name": "Karl Garðarsson"
+				"name": "Karl Garðarsson",
+				"partyId": 2
 			},
 			"attendance": 79.44
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 77.97
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 76.95
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 76.34
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 76.11
 		},
 		{
 			"mp": {
 				"id": 631,
-				"name": "Össur Skarphéðinsson"
+				"name": "Össur Skarphéðinsson",
+				"partyId": 38
 			},
 			"attendance": 75.02
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 73.24
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 72.23
 		},
 		{
 			"mp": {
 				"id": 712,
-				"name": "Sigríður Ingibjörg Ingadóttir"
+				"name": "Sigríður Ingibjörg Ingadóttir",
+				"partyId": 38
 			},
 			"attendance": 71.61
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 70.21000000000001
 		},
 		{
 			"mp": {
 				"id": 708,
-				"name": "Róbert Marshall"
+				"name": "Róbert Marshall",
+				"partyId": 44
 			},
 			"attendance": 69.74
 		},
 		{
 			"mp": {
 				"id": 934,
-				"name": "Sigrún Magnúsdóttir"
+				"name": "Sigrún Magnúsdóttir",
+				"partyId": 2
 			},
 			"attendance": 69.32
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 69.15
 		},
 		{
 			"mp": {
 				"id": 678,
-				"name": "Árni Páll Árnason"
+				"name": "Árni Páll Árnason",
+				"partyId": 38
 			},
 			"attendance": 67.94
 		},
 		{
 			"mp": {
 				"id": 706,
-				"name": "Vigdís Hauksdóttir"
+				"name": "Vigdís Hauksdóttir",
+				"partyId": 2
 			},
 			"attendance": 66.1
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 65.4
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 63.64
 		},
 		{
 			"mp": {
 				"id": 693,
-				"name": "Ragnheiður E. Árnadóttir"
+				"name": "Ragnheiður E. Árnadóttir",
+				"partyId": 35
 			},
 			"attendance": 63.3
 		},
 		{
 			"mp": {
 				"id": 660,
-				"name": "Katrín Júlíusdóttir"
+				"name": "Katrín Júlíusdóttir",
+				"partyId": 38
 			},
 			"attendance": 61.44
 		},
 		{
 			"mp": {
 				"id": 658,
-				"name": "Helgi Hjörvar"
+				"name": "Helgi Hjörvar",
+				"partyId": 38
 			},
 			"attendance": 59.27
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 57.19
 		},
 		{
 			"mp": {
 				"id": 686,
-				"name": "Höskuldur Þórhallsson"
+				"name": "Höskuldur Þórhallsson",
+				"partyId": 2
 			},
 			"attendance": 57.18
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 56.94
 		},
 		{
 			"mp": {
 				"id": 687,
-				"name": "Illugi Gunnarsson"
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 53.69
 		},
 		{
 			"mp": {
 				"id": 630,
-				"name": "Ögmundur Jónasson"
+				"name": "Ögmundur Jónasson",
+				"partyId": 23
 			},
 			"attendance": 53.33
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 31.239999999999995
 		}
@@ -4897,434 +5593,496 @@
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"attendance": 99.78
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"attendance": 99.78
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"attendance": 99.56
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"attendance": 99.55
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"attendance": 99.34
 		},
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"attendance": 99.12
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"attendance": 99.12
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"attendance": 98.9
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 98.68
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"attendance": 98.68
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"attendance": 98.68
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 98.46
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 98.46
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"attendance": 98.18
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 98.03
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 98.03
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 98.03
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 98.03
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 97.81
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"attendance": 97.8
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"attendance": 97.78
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"attendance": 97.78
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 97.74
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"attendance": 97.37
 		},
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 97.15
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"attendance": 96.89
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"attendance": 96.83
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"attendance": 96.71
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"attendance": 96.7
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"attendance": 96.38
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"attendance": 96.26
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 96.26
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 96.15
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"attendance": 96.05
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 95.92
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"attendance": 95.39
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 95.2
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 95.01
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"attendance": 94.48
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.86
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"attendance": 93.86
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 93.58
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 93.45
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 93.2
 		},
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"attendance": 92.05
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 91.11
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"attendance": 87.39
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 87.28
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 86.84
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 86.12
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 85.53
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 83.99
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 82.68
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"attendance": 80.03999999999999
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"attendance": 79.48
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 76.63
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 75.17
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"attendance": 65.07
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 64.84
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 54.61
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"attendance": 50
 		}
@@ -5333,441 +6091,504 @@
 		{
 			"mp": {
 				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir"
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 557,
-				"name": "Steingrímur J. Sigfússon"
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 650,
-				"name": "Birgir Ármannsson"
+				"name": "Birgir Ármannsson",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 652,
-				"name": "Bjarni Benediktsson"
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1276,
-				"name": "Hanna Katrín Friðriksson"
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1274,
-				"name": "Einar Brynjólfsson"
+				"name": "Einar Brynjólfsson",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 690,
-				"name": "Katrín Jakobsdóttir"
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir"
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 703,
-				"name": "Eygló Harðardóttir"
+				"name": "Eygló Harðardóttir",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir"
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 719,
-				"name": "Oddný G. Harðardóttir"
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 721,
-				"name": "Unnur Brá Konráðsdóttir"
+				"name": "Unnur Brá Konráðsdóttir",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1269,
-				"name": "Theodóra S. Þorsteinsdóttir"
+				"name": "Theodóra S. Þorsteinsdóttir",
+				"partyId": 44
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1268,
-				"name": "Smári McCarthy"
+				"name": "Smári McCarthy",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 728,
-				"name": "Birgitta Jónsdóttir"
+				"name": "Birgitta Jónsdóttir",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1267,
-				"name": "Nichole Leigh Mosty"
+				"name": "Nichole Leigh Mosty",
+				"partyId": 44
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé"
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 999,
-				"name": "Óli Björn Kárason"
+				"name": "Óli Björn Kárason",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir"
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1018,
-				"name": "Sigríður Á. Andersen"
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir"
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1264,
-				"name": "Jóna Sólveig Elínardóttir"
+				"name": "Jóna Sólveig Elínardóttir",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1128,
-				"name": "Logi Einarsson"
+				"name": "Logi Einarsson",
+				"partyId": 38
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1157,
-				"name": "Ásmundur Friðriksson"
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1262,
-				"name": "Gunnar Hrafn Jónsson"
+				"name": "Gunnar Hrafn Jónsson",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir"
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1161,
-				"name": "Elsa Lára Arnardóttir"
+				"name": "Elsa Lára Arnardóttir",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1257,
-				"name": "Guðjón S. Brjánsson"
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1168,
-				"name": "Jón Þór Ólafsson"
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1171,
-				"name": "Óttarr Proppé"
+				"name": "Óttarr Proppé",
+				"partyId": 44
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir"
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1256,
-				"name": "Teitur Björn Einarsson"
+				"name": "Teitur Björn Einarsson",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1176,
-				"name": "Vilhjálmur Árnason"
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1177,
-				"name": "Vilhjálmur Bjarnason"
+				"name": "Vilhjálmur Bjarnason",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1180,
-				"name": "Þórunn Egilsdóttir"
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson"
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1214,
-				"name": "Ásta Guðrún Helgadóttir"
+				"name": "Ásta Guðrún Helgadóttir",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1215,
-				"name": "Björn Leví Gunnarsson"
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1218,
-				"name": "Halldóra Mogensen"
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1234,
-				"name": "Andrés Ingi Jónsson"
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1244,
-				"name": "Lilja Alfreðsdóttir"
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1248,
-				"name": "Benedikt Jóhannesson"
+				"name": "Benedikt Jóhannesson",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1249,
-				"name": "Ari Trausti Guðmundsson"
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1250,
-				"name": "Jón Steindór Valdimarsson"
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1251,
-				"name": "Pawel Bartoszek"
+				"name": "Pawel Bartoszek",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1254,
-				"name": "Þorsteinn Víglundsson"
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1253,
-				"name": "Eva Pandora Baldursdóttir"
+				"name": "Eva Pandora Baldursdóttir",
+				"partyId": 43
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1279,
-				"name": "Hildur Sverrisdóttir"
+				"name": "Hildur Sverrisdóttir",
+				"partyId": 35
 			},
 			"attendance": 100
 		},
 		{
 			"mp": {
 				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir"
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 688,
-				"name": "Jón Gunnarsson"
+				"name": "Jón Gunnarsson",
+				"partyId": 35
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 1164,
-				"name": "Haraldur Benediktsson"
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir"
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 730,
-				"name": "Svandís Svavarsdóttir"
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 1266,
-				"name": "Páll Magnússon"
+				"name": "Páll Magnússon",
+				"partyId": 35
 			},
 			"attendance": 93.75
 		},
 		{
 			"mp": {
 				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson"
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
 			},
 			"attendance": 87.5
 		},
 		{
 			"mp": {
 				"id": 691,
-				"name": "Kristján Þór Júlíusson"
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
 			},
 			"attendance": 81.25
 		},
 		{
 			"mp": {
 				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir"
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
 			},
 			"attendance": 81.25
 		},
 		{
 			"mp": {
 				"id": 1039,
-				"name": "Bryndís Haraldsdóttir"
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
 			},
 			"attendance": 25
 		},
 		{
 			"mp": {
 				"id": 1158,
-				"name": "Björt Ólafsdóttir"
+				"name": "Björt Ólafsdóttir",
+				"partyId": 44
 			},
 			"attendance": 12.5
 		},
 		{
 			"mp": {
 				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson"
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
 			},
 			"attendance": 12.5
 		},
 		{
 			"mp": {
 				"id": 722,
-				"name": "Gunnar Bragi Sveinsson"
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 2
 			},
 			"attendance": 12.5
 		},
 		{
 			"mp": {
 				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson"
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
 			},
 			"attendance": 12.5
 		},
 		{
 			"mp": {
 				"id": 1160,
-				"name": "Brynjar Níelsson"
+				"name": "Brynjar Níelsson",
+				"partyId": 35
 			},
 			"attendance": 0
 		}
