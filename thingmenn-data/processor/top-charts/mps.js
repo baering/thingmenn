@@ -52,6 +52,9 @@ const mpsNotIncludedInTopCharts = {
   146: {
     692: true,
   },
+  145: {
+    683: true,
+  },
 }
 
 function hasDied(mp, lthing) {
