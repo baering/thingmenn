@@ -57,3 +57,8 @@
   color: white;
   border-radius: 20px;
 }
+
+.SubNav-item.is-disabled {
+    cursor: no-drop;
+    opacity: 0.2;
+}

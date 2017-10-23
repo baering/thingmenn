@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import ListItem from '../list-item'
 import ListItemImage from '../list-item-image'
@@ -9,26 +10,30 @@ import './styles.css'
 
 const Mp = ({
   id,
-  name,
   imagePath,
-  party,
-  partySlug
+  lthing,
+  mpName,
+  partyId,
 }) => {
+  let url = `/thingmenn/${id}/thing/allt`
+  if (lthing) {
+    url = `/thingmenn/${id}/thing/${lthing}`
+  }
   return (
-    <ListItem url={`/thingmenn/${id}`}>
+    <ListItem url={url}>
       <ListItemImage path={imagePath} cover={true}>
-        <PartyBadge party={partySlug} className="Mp-badge"/>
+        <PartyBadge party={partyId} className="Mp-badge"/>
       </ListItemImage>
-      <ListItemContent title={name} />
+      <ListItemContent title={mpName} />
     </ListItem>
   )
 }
 
 Mp.propTypes = {
-  id: React.PropTypes.string,
-  name: React.PropTypes.string,
-  profilePicture: React.PropTypes.string,
-  party: React.PropTypes.string,
+  id: PropTypes.any,
+  name: PropTypes.string,
+  profilePicture: PropTypes.string,
+  partyId: PropTypes.number,
 }
 
 export default Mp

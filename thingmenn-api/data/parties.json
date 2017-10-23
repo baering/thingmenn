@@ -1,39 +1,235 @@
 [
   {
-    "id": "bjort-framtid",
+    "id": "44",
     "name": "Björt framtíð",
-    "imagePath": "/images/parties/bjort-framtid.svg",
-    "about": "Björt framtíð er íslenskur stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson og Heiða Kristín Helgadóttir. Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015."
+    "imagePath": "/images/parties/44.svg",
+    "about": "Björt framtíð er íslenskur stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson og Heiða Kristín Helgadóttir. Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015.",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			}
+    ]
   },
   {
-    "id": "framsoknarflokkur",
+    "id": "2",
     "name": "Framsóknarflokkur",
-    "imagePath": "/images/parties/framsoknarflokkur.svg",
-    "about": "Framsóknarflokkurinn er íslenskur frjálslyndur félagshyggjuflokkur sem staðsetur sig á miðjunni. Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi."
+    "imagePath": "/images/parties/2.svg",
+    "about": "Framsóknarflokkurinn er íslenskur frjálslyndur félagshyggjuflokkur sem staðsetur sig á miðjunni. Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi.",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			},
+			{
+				"lthing": 141
+			},
+			{
+				"lthing": 140
+			},
+			{
+				"lthing": 139
+			},
+			{
+				"lthing": 138
+			},
+			{
+				"lthing": 137
+			},
+			{
+				"lthing": 136
+			},
+			{
+				"lthing": 135
+			}
+    ]
   },
   {
-    "id": "piratar",
+    "id": "43",
     "name": "Píratar",
-    "imagePath": "/images/parties/piratar.svg",
-    "about": "Píratar er íslenskur frjálslyndur miðjuflokkur, stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012. Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland)."
+    "imagePath": "/images/parties/43.svg",
+    "about": "Píratar er íslenskur frjálslyndur miðjuflokkur, stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012. Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland).",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			}
+    ]
   },
   {
-    "id": "samfylkingin",
+    "id": "38",
     "name": "Samfylkingin",
-    "imagePath": "/images/parties/samfylkingin.svg",
-    "about": "Samfylkingin er íslenskur stjórnmálaflokkur sem kennir sig við jafnaðarstefnu. Flokkurinn var stofnaður árið 2000 sem samruni fjögurra flokka til þess að vinna sem mótvægisafl við Sjálfstæðisflokkinn. Samfylkingin hefur frá stofnun almennt verið næst stærsti flokkur landsins ef litið er til kjörfylgis til þings og sveitarstjórna auk skráðra flokksmanna."
-
+    "imagePath": "/images/parties/38.svg",
+    "about": "Samfylkingin er íslenskur stjórnmálaflokkur sem kennir sig við jafnaðarstefnu. Flokkurinn var stofnaður árið 2000 sem samruni fjögurra flokka til þess að vinna sem mótvægisafl við Sjálfstæðisflokkinn. Samfylkingin hefur frá stofnun almennt verið næst stærsti flokkur landsins ef litið er til kjörfylgis til þings og sveitarstjórna auk skráðra flokksmanna.",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			},
+			{
+				"lthing": 141
+			},
+			{
+				"lthing": 140
+			},
+			{
+				"lthing": 139
+			},
+			{
+				"lthing": 138
+			},
+			{
+				"lthing": 137
+			},
+			{
+				"lthing": 136
+			},
+			{
+				"lthing": 135
+			}
+    ]
   },
   {
-    "id": "sjalfstaedisflokkur",
+    "id": "35",
     "name": "Sjálfstæðisflokkur",
-    "imagePath": "/images/parties/sjalfstaedisflokkur.svg",
-    "about": "Sjálfstæðisflokkurinn er íslenskur stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna."
+    "imagePath": "/images/parties/35.svg",
+    "about": "Sjálfstæðisflokkurinn er íslenskur stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna.",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			},
+			{
+				"lthing": 141
+			},
+			{
+				"lthing": 140
+			},
+			{
+				"lthing": 139
+			},
+			{
+				"lthing": 138
+			},
+			{
+				"lthing": 137
+			},
+			{
+				"lthing": 136
+			},
+			{
+				"lthing": 135
+			}
+    ]
   },
   {
-    "id": "vinstri-hreyfingin-graent-frambod",
+    "id": "45",
+    "name": "Viðreisn",
+    "imagePath": "/images/parties/45.svg",
+    "about": "Viðreisn er íslenskt stjórnmálaafl sem bauð sig fram í fyrsta skipti í Alþingiskosningum 2016. Samkvæmt stefnuviðmiðum Viðreisnar eru samtökin „nútímalegur, frjálslyndur flokkur sem hefur það að markmiði að berjast fyrir réttlátu samfélagi, stöðugu efnahagslífi og fjölbreyttum tækifærum. Áhersla er lögð á markaðslausnir, vestræna samvinnu, frelsi, jafnrétti og jafnan atkvæðisrétt fyrir alla“.",
+    "lthings": [
+			{
+				"lthing": 146
+			}
+    ]
+  },
+  {
+    "id": "23",
     "name": "Vinstri hreyfingin – grænt framboð",
-    "imagePath": "/images/parties/vinstri-hreyfingin-graent-frambod.svg",
-    "about": "Vinstrihreyfingin – grænt framboð er vinstrisinnuð stjórnmálahreyfing á Íslandi sem var stofnuð þann 6. febrúar 1999. Auk hefðbundinnar félagshyggju og sósíalisma á hún margt sameiginlegt með græningjaflokkum Evrópu í stefnu sinni."
+    "imagePath": "/images/parties/23.svg",
+    "about": "Vinstrihreyfingin – grænt framboð er vinstrisinnuð stjórnmálahreyfing á Íslandi sem var stofnuð þann 6. febrúar 1999. Auk hefðbundinnar félagshyggju og sósíalisma á hún margt sameiginlegt með græningjaflokkum Evrópu í stefnu sinni.",
+    "lthings": [
+			{
+				"lthing": 146
+			},
+			{
+				"lthing": 145
+			},
+			{
+				"lthing": 144
+			},
+			{
+				"lthing": 143
+			},
+			{
+				"lthing": 142
+			},
+			{
+				"lthing": 141
+			},
+			{
+				"lthing": 140
+			},
+			{
+				"lthing": 139
+			},
+			{
+				"lthing": 138
+			},
+			{
+				"lthing": 137
+			},
+			{
+				"lthing": 136
+			},
+			{
+				"lthing": 135
+			}
+    ]
   }
 ]

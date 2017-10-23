@@ -1,0 +1,112 @@
+.KPI {
+  flex: 0 1 100%;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Lora', serif;
+  position: relative;
+  font-size: 1.777rem;
+  margin-bottom: 1rem;
+}
+
+
+@media (min-width: 1234px) {
+  .KPI {
+    margin: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1234px) {
+  .DetailsMenu-item {
+    max-width: 300px;
+    min-width: 200px;
+    height: 67px;    
+  }
+}
+
+.KPI-smallprint {
+  font-size: 13px;
+  display: block;
+  margin-left: auto;
+  padding-right: 2rem;
+  color: #adadad;
+  font-style: italic;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media (min-width: 1234px) {
+  .KPI-smallprint {
+    position: initial;
+  }
+}
+
+.KPI-stats {
+  border: 0;
+  display: flex;
+  flex: 0 1 auto;
+
+  margin: auto;
+  max-width: initial;
+  padding: 1.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1234px) {
+  .KPI-stats {
+    flex-wrap: nowrap;
+    background: none;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.KPI-statsItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex: 0 1 50%;
+}
+
+@media (min-width: 768px) {
+  .KPI-statsItem {
+    flex: 0 1 33.333%;
+    /* margin-right: 2.25rem; */
+  }
+}
+
+@media (min-width: 1234px) {
+  .KPI-statsItem {
+    flex: 1;
+    margin: 0;
+    /* margin-right: 2.25rem; */
+  }
+  .KPI-statsItem:last-child {
+    /* margin-right: 0; */
+  }
+}
+
+.KPI-statsHeading {
+  color: #51575a;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.KPI-statsText {
+  color: #06ABDC;
+  font-size: 2rem;
+  text-shadow: 0 2px 0 #FFF;
+}
+
+@media (min-width: 768px) {
+  .Main-statsText {
+    font-size: 2.5rem;
+    text-transform: none;
+  }
+}

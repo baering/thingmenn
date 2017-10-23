@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import ListItem from '../list-item'
 import ListItemImage from '../list-item-image'
@@ -6,11 +7,13 @@ import ListItemContent from '../list-item-content'
 
 const Party = ({
   id,
-  name,
   imagePath,
+  lthing,
+  name,
 }) => {
+  const url = `/thingflokkar/${id}/thing/allt`
   return (
-    <ListItem url={`/thingflokkar/${id}`}>
+    <ListItem url={url}>
       <ListItemImage path={imagePath}></ListItemImage>
       <ListItemContent title={name} />
     </ListItem>
@@ -18,9 +21,9 @@ const Party = ({
 }
 
 Party.propTypes = {
-  id: React.PropTypes.string,
-  name: React.PropTypes.string,
-  imagePath: React.PropTypes.string,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  imagePath: PropTypes.string,
 }
 
 export default Party

@@ -2,20 +2,40 @@ import { apiUrl } from '../config'
 import CacheService from './cache-service'
 
 class PartySummaryService extends CacheService {
-  getPartyVotes(partyId) {
-    return this.fetchData(`${apiUrl}/api/summary/votes/party/${partyId}`)
+  getPartyVoteSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/votes/party/${mpId}`,
+    )
   }
 
-  getPartySubjects(partyId) {
-    return this.fetchData(`${apiUrl}/api/summary/subjects/party/${partyId}`)
+  getPartySpeechSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/speeches/party/${mpId}`,
+    )
   }
 
-  getPartySpeeches(partyId) {
-    return this.fetchData(`${apiUrl}/api/summary/speeches/party/${partyId}`)
+  getPartyDocumentSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/documents/party/${mpId}`,
+    )
   }
 
-  getPartyNouns(partyId) {
-    return this.fetchData(`${apiUrl}/api/summary/nouns/party/${partyId}`)
+  getPartyVotePositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/votes/party/${mpId}`,
+    )
+  }
+
+  getPartySpeechPositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/speeches/party/${mpId}`,
+    )
+  }
+
+  getPartyDocumentPositionsByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/positions/documents/party/${mpId}`,
+    )
   }
 }
 

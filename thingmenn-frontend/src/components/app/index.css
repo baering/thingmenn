@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -18,21 +18,15 @@
 }
 
 html, body {
+  box-sizing: inherit;
   min-height: 100%;
   line-height: 1.5;
 }
 
 body {
   background: #F2F2F2;
-  max-width: 1600px;
   color: #393D3F;
   margin: 0;
-}
-
-@media (min-width: 1615px) {
-  body {
-    margin: 1rem auto;
-  }
 }
 
 a {
@@ -58,6 +52,11 @@ a {
 }
 .Main {
   width: 100%;
+}
+@media (min-width: 768px) {
+  .Main {
+    padding-left: 18rem;
+  }
 }
 .fill {
   width: 100%;

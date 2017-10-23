@@ -30,6 +30,12 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .ListItem {
+    width: calc(16.66667% - 2rem);
+  }
+}
+
 .ListItem[href^='/thingflokkar/']  .ListItemImage-image {
   padding-bottom: 100%;
   background-size: 70%;
@@ -38,5 +44,11 @@
 @media (min-width: 768px) {
   .ListItem[href^='/thingflokkar/'] {
     width: calc(33.333% - 2rem);
+  }
+}
+
+@media (min-width: 1234px) {
+  .ListItem[href^='/thingflokkar/'] {
+    width: calc(25% - 2rem);
   }
 }

@@ -5,6 +5,8 @@ import { formatPercentage, formatTime } from '../../utils'
 
 import Friends from '../../widgets/friends'
 
+import './styles.css'
+
 export default class Totals extends React.Component {
   constructor(props) {
     super(props)
@@ -63,7 +65,7 @@ export default class Totals extends React.Component {
 
     return (
       <div className="fill">
-        <h1 className="title">Samantekt</h1>
+        <h1 className="title">Samantekt <span className="Totals-smallprint">Unnin úr árunum 2013-2016</span></h1>
 
         <div className="Details">
           <div className="Details-item">

@@ -1,41 +1,60 @@
-// import { writeToFile } from '../utility/file'
+import { writeToFile } from '../utility/file'
 import { getProcessArguments } from '../utility/process'
 
 import fetchMps from './mps'
+import fetchLthings from './lthings'
 import fetchVotes from './votes'
-import fetchSubjects from './subjects'
+import fetchClassifications from './classifications'
 import fetchSpeechStatistics from './speech-statistics'
-// TODO: add analyzer to the repo
-// import fetchSpeeches from './speeches'
+import fetchDocuments from './documents'
+import fetchSpeechClassifications from './speech-classifications'
 
-const defaultItems = ['mps', 'votes', 'subjects', 'speechStatistics', 'speeches']
+const defaultItems = [
+  'classifications',
+  'documents',
+  'mps',
+  'lthings',
+  'speechClassifications',
+  'speechStatistics',
+  'votes',
+]
+const lthings = [147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
 
 async function fetch(config) {
   if (config.mps) {
     console.log('Fetching mps')
-    await fetchMps()
+    await fetchMps(lthings)
+  }
+
+  if (config.lthings) {
+    console.log('Fetching lthings')
+    await fetchLthings(lthings)
+    writeToFile(lthings, 'data/v2/lthings-used.json', true)
   }
 
   if (config.votes) {
     console.log('Fetching votes')
-    await fetchVotes()
+    await fetchVotes(lthings)
   }
 
-  if (config.subjects) {
-    console.log('Fetching subjects')
-    await fetchSubjects()
+  if (config.classifications) {
+    console.log('Fetching classifications')
+    await fetchClassifications()
   }
 
   if (config.speechStatistics) {
     console.log('Fetching speech statistics')
-    await fetchSpeechStatistics()
+    await fetchSpeechStatistics(lthings)
   }
 
-  if (config.speeches) {
-    // TODO: add analyzer to the repo
-    console.log('Would be speeches, but needs analyzer')
-    // const speeches = await fetchSpeeches()
-    // writeToFile(data, 'data/all-votes-for-term.json')
+  if (config.speechClassifications) {
+    console.log('Fetching speech classifications')
+    await fetchSpeechClassifications(lthings)
+  }
+
+  if (config.documents) {
+    console.log('Fetching documents')
+    await fetchDocuments(lthings)
   }
 }
 

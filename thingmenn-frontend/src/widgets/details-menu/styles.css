@@ -1,0 +1,96 @@
+.DetailsMenu {
+  padding-bottom: 50px;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu {
+    padding-bottom: 67px;
+  }
+}
+
+.DetailsMenu::-webkit-scrollbar {
+    width: auto;
+    height: 0.5rem;
+  }
+ 
+.DetailsMenu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
+}
+ 
+.DetailsMenu::-webkit-scrollbar-thumb {
+  background-color: slategray;
+  outline: 1px solid rgba(44, 63, 80, 0.2);
+}
+
+.DetailsMenu > ul {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  justify-content: space-around;
+  background: white;
+  border-bottom: 1px solid rgba(44, 63, 80, 0.2);
+
+}
+
+.DetailsMenu-item {
+  background: #e9eef2;
+  display: flex;
+  justify-content: center;
+  flex: none;
+  text-align: center;
+  max-width: 200px;
+  min-width: 100px;
+  height: 50px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu-item {
+    max-width: 300px;
+    min-width: 200px;
+    height: 67px;    
+  }
+}
+
+.DetailsMenu-itemLink {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu-itemLink {
+    height: 100%;
+  }
+}
+
+.DetailsMenu-itemLink:hover {
+  background: #f0f1f5;
+}
+
+.DetailsMenu-item:not(:first-child) .DetailsMenu-itemLink:not(.is-active) {
+  border-left: 1px solid #d9e3ea;
+}
+.DetailsMenu-item:not(:last-child) .DetailsMenu-itemLink:not(.is-active) {
+  border-right: 1px solid rgb(243, 244, 245);
+}
+
+.DetailsMenu-itemLink.is-active {
+  color: white;
+  background: #32394C;
+}
+
+.DetailsMenu-year {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .DetailsMenu-year {    
+    display: initial;
+    font-style: italic;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import classNames from 'classnames'
 
 import './styles.css'
@@ -26,9 +27,9 @@ const ListItemImage = ({
 }
 
 ListItemImage.propTypes = {
-  path: React.PropTypes.string,
-  children: React.PropTypes.node,
-  cover: React.PropTypes.bool,
+  path: PropTypes.string,
+  children: PropTypes.node,
+  cover: PropTypes.bool,
 }
 
 export default ListItemImage

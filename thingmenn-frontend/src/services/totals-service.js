@@ -2,6 +2,10 @@ import { apiUrl } from '../config'
 import CacheService from './cache-service'
 
 class TotalsService extends CacheService {
+  getLthings() {
+    return this.fetchData(`${apiUrl}/api/lthings`)
+  }
+
   getTopMpsAttendance() {
     return this.fetchData(`${apiUrl}/api/top/attendance/mps`)
   }

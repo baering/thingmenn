@@ -1,24 +1,35 @@
 import createMpSummary from './mp-summary'
-import createMpPositionLookup from './position'
-// TODO: add analyzer to the repo
-// import createMpNounLookup from './speeches'
+import createLthings from './lthings'
+import createMpPositionLookup from './positions'
 import createMpSpeechStatisticSummary from './speech-statistics'
-import createPartySummaries from './parties'
 import createTopCharts from './top-charts'
+import createCaseSummaries from './documents'
 
 import { getProcessArguments } from '../utility/process'
 
-const defaultItems = ['mps', 'speeches', 'speechStatistics', 'positions', 'top']
+const defaultItems = [
+  'documents',
+  'mps',
+  'positions',
+  'speechStatistics',
+  // 'top',
+  'lthings',
+]
 
 function process(config) {
+  if (config.documents) {
+    console.log('Processing documents')
+    createCaseSummaries()
+  }
+
   if (config.mps) {
     console.log('Processing mps')
     createMpSummary()
   }
 
-  if (config.speeches) {
-    console.log('Processing mp nouns')
-    // createMpNounLookup()
+  if (config.lthings) {
+    console.log('Processing lthings')
+    createLthings()
   }
 
   if (config.speechStatistics) {
@@ -26,14 +37,9 @@ function process(config) {
     createMpSpeechStatisticSummary()
   }
 
-  if (config.position) {
+  if (config.positions) {
     console.log('Processing mp positions')
     createMpPositionLookup()
-  }
-
-  if (config.parties) {
-    console.log('Processing parties')
-    createPartySummaries()
   }
 
   if (config.top) {

@@ -8,6 +8,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "highcharts": "^5.0.0",
+    "prop-types": "^15.6.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-ga": "^2.1.2",
