@@ -45,6 +45,16 @@ function getTopMinutesTalked(mps, mpSpeechSummary) {
   }))
 }
 
+const mpsNotIncludedInTopCharts = {
+  146: {
+    692: true,
+  },
+}
+
+function hasDied(mp, lthing) {
+  return mpsNotIncludedInTopCharts[lthing] && mpsNotIncludedInTopCharts[lthing][mp.id]
+}
+
 function wasSubstituteInLthing(mp, lthing) {
   for (const lthingInfo of mp.lthings) {
     if (lthingInfo.lthing.toString() === lthing) {
@@ -67,7 +77,7 @@ export default function process() {
     mpsByLthing[lthing].forEach(mp => {
       const mpDetails = mpLookup[mp.id]
 
-      if (!wasSubstituteInLthing(mpDetails, lthing)) {
+      if (!wasSubstituteInLthing(mpDetails, lthing) && !hasDied(mp, lthing)) {
         mpsByLthingLookup[lthing].push({
           id: mpDetails.id,
           name: mpDetails.mpName,
