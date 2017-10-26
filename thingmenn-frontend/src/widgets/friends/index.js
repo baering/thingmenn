@@ -14,8 +14,9 @@ const Friends = ({
   isDisplayingFriends,
   lthing = 'allt',
   valueFormatter = friend =>
-    `${friend.votes} (${formatPercentage(friend.similarity)})`,
+  `${friend.votes} (${formatPercentage(friend.similarity)})`,
   icon = true,
+  smallPrint,
 }) => (
   <div className="Friends">
     <h1 className="Friends-heading heading">
@@ -33,7 +34,7 @@ const Friends = ({
     </h1>
     <dl className="Friends-list">
       <dt>Nafn</dt>
-      <dd>{subTitle}</dd>
+      <dd>{subTitle}{smallPrint && '*'}</dd>
       {friends.map(friend => [
         <dt key={friend.mp.id}>
           <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
@@ -44,6 +45,7 @@ const Friends = ({
         <dd key={friend.mp.id + '-value'}>{valueFormatter(friend)}</dd>,
       ])}
     </dl>
+    {smallPrint && <div className="Friends-smallprint">{smallPrint}</div>}
   </div>
 )
 

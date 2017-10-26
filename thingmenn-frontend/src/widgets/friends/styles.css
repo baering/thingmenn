@@ -74,3 +74,11 @@
   font-size: 1.333rem;
   margin-bottom: 1rem;
 }
+
+.Friends-smallprint {
+  font-size: 0.85rem;
+  text-align: right;
+  padding-top: 1rem;
+  opacity: 0.6;
+  font-style: italic;
+}

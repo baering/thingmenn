@@ -114,6 +114,7 @@ export default class Totals extends React.Component {
               friends={topMpsAttendance}
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.attendance)}
+              smallPrint="* atkvæðagreiðslur"
             />
           </div>
           <div className="Details-item">
@@ -123,6 +124,7 @@ export default class Totals extends React.Component {
               friends={bottomMpsAttendance}
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.attendance)}
+              smallPrint="* atkvæðagreiðslur"
             />
           </div>
           <div className="Details-item">
@@ -132,6 +134,7 @@ export default class Totals extends React.Component {
               friends={topMpsStands}
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.standsTaken)}
+              smallPrint="* atkvæðagreiðslur"
             />
           </div>
           <div className="Details-item">
@@ -141,6 +144,7 @@ export default class Totals extends React.Component {
               friends={bottomMpsStands}
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.standsTaken)}
+              smallPrint="* atkvæðagreiðslur"
             />
           </div>
           <div className="Details-item">
