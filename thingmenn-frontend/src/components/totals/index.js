@@ -82,7 +82,7 @@ export default class Totals extends React.Component {
       return []
     }
 
-    return lthings.slice(1, lthings.length).map(lthing => ({
+    return lthings.map(lthing => ({
       year: lthing.start.split('.')[2],
       thing: lthing.id,
       url: `/samantekt/thing/${lthing.id}`
