@@ -39,7 +39,7 @@ const Routes = (props) => (
       <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
       <Route path='/thingflokkar/:partyId/thing/:lthing' component={PartyDetails} />
-      <Redirect from='/samantekt' to="/samantekt/thing/146"/>
+      <Redirect from='/samantekt' to="/samantekt/thing/148"/>
       <Route path="/samantekt/thing/:lthing" component={Totals} />
       <Route path="/um" component={About} />
       <Route path="*" component={NotFound} />
