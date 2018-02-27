@@ -2098,8 +2098,8 @@
 				},
 				"inquiries": {
 					"asked": 1,
-					"answered": 1,
-					"total": 1
+					"answered": 24,
+					"total": 24
 				}
 			}
 		},
@@ -2179,8 +2179,8 @@
 				},
 				"inquiries": {
 					"asked": 0,
-					"answered": 0,
-					"total": 0
+					"answered": 8,
+					"total": 8
 				}
 			}
 		},
@@ -2206,8 +2206,253 @@
 				},
 				"inquiries": {
 					"asked": 1,
-					"answered": 1,
-					"total": 1
+					"answered": 11,
+					"total": 11
+				}
+			}
+		}
+	},
+	"148": {
+		"2": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 13
+					},
+					"coPresenter": {
+						"count": 20
+					},
+					"total": 33
+				},
+				"motions": {
+					"presenter": {
+						"count": 6
+					},
+					"coPresenter": {
+						"count": 27
+					},
+					"total": 33
+				},
+				"inquiries": {
+					"asked": 24,
+					"answered": 12,
+					"total": 12
+				}
+			}
+		},
+		"23": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 8
+					},
+					"coPresenter": {
+						"count": 23
+					},
+					"total": 31
+				},
+				"motions": {
+					"presenter": {
+						"count": 4
+					},
+					"coPresenter": {
+						"count": 23
+					},
+					"total": 27
+				},
+				"inquiries": {
+					"asked": 22,
+					"answered": 6,
+					"total": 6
+				}
+			}
+		},
+		"35": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 20
+					},
+					"coPresenter": {
+						"count": 23
+					},
+					"total": 43
+				},
+				"motions": {
+					"presenter": {
+						"count": 7
+					},
+					"coPresenter": {
+						"count": 18
+					},
+					"total": 25
+				},
+				"inquiries": {
+					"asked": 6,
+					"answered": 13,
+					"total": 13
+				}
+			}
+		},
+		"38": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 4
+					},
+					"coPresenter": {
+						"count": 47
+					},
+					"total": 51
+				},
+				"motions": {
+					"presenter": {
+						"count": 9
+					},
+					"coPresenter": {
+						"count": 41
+					},
+					"total": 50
+				},
+				"inquiries": {
+					"asked": 10,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"43": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 15
+					},
+					"coPresenter": {
+						"count": 102
+					},
+					"total": 117
+				},
+				"motions": {
+					"presenter": {
+						"count": 8
+					},
+					"coPresenter": {
+						"count": 54
+					},
+					"total": 62
+				},
+				"inquiries": {
+					"asked": 46,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"45": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 6
+					},
+					"coPresenter": {
+						"count": 38
+					},
+					"total": 44
+				},
+				"motions": {
+					"presenter": {
+						"count": 5
+					},
+					"coPresenter": {
+						"count": 21
+					},
+					"total": 26
+				},
+				"inquiries": {
+					"asked": 14,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"46": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 2
+					},
+					"coPresenter": {
+						"count": 22
+					},
+					"total": 24
+				},
+				"motions": {
+					"presenter": {
+						"count": 0
+					},
+					"coPresenter": {
+						"count": 13
+					},
+					"total": 13
+				},
+				"inquiries": {
+					"asked": 8,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"47": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 2
+					},
+					"coPresenter": {
+						"count": 19
+					},
+					"total": 21
+				},
+				"motions": {
+					"presenter": {
+						"count": 3
+					},
+					"coPresenter": {
+						"count": 23
+					},
+					"total": 26
+				},
+				"inquiries": {
+					"asked": 12,
+					"answered": 0,
+					"total": 0
+				}
+			}
+		},
+		"undefined": {
+			"summary": {
+				"bills": {
+					"presenter": {
+						"count": 4
+					},
+					"coPresenter": {
+						"count": 1
+					},
+					"total": 5
+				},
+				"motions": {
+					"presenter": {
+						"count": 0
+					},
+					"coPresenter": {
+						"count": 0
+					},
+					"total": 0
+				},
+				"inquiries": {
+					"asked": 0,
+					"answered": 2,
+					"total": 2
 				}
 			}
 		}

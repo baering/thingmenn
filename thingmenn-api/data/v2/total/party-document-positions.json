@@ -2,43 +2,43 @@
 	"2": [
 		{
 			"name": "Atvinnuvegir",
-			"count": 882
+			"count": 898
 		},
 		{
 			"name": "Hagstjórn",
-			"count": 836
+			"count": 850
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 637
+			"count": 669
 		},
 		{
 			"name": "Mennta- og menningarmál",
-			"count": 365
+			"count": 368
 		},
 		{
 			"name": "Umhverfismál",
-			"count": 327
+			"count": 328
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 312
+			"count": 320
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 301
+			"count": 308
 		},
 		{
 			"name": "Lög og réttur",
-			"count": 295
+			"count": 307
 		},
 		{
 			"name": "Heilsa og heilbrigði",
-			"count": 215
+			"count": 225
 		},
 		{
 			"name": "Samgöngumál",
-			"count": 211
+			"count": 215
 		},
 		{
 			"name": "Trúmál og kirkja",
@@ -90,43 +90,43 @@
 	"23": [
 		{
 			"name": "Atvinnuvegir",
-			"count": 865
+			"count": 875
 		},
 		{
 			"name": "Hagstjórn",
-			"count": 724
+			"count": 732
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 514
+			"count": 522
 		},
 		{
 			"name": "Lög og réttur",
-			"count": 417
+			"count": 431
 		},
 		{
 			"name": "Umhverfismál",
-			"count": 380
+			"count": 381
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 366
+			"count": 376
 		},
 		{
 			"name": "Mennta- og menningarmál",
-			"count": 330
+			"count": 336
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 303
+			"count": 307
 		},
 		{
 			"name": "Samgöngumál",
-			"count": 202
+			"count": 204
 		},
 		{
 			"name": "Heilsa og heilbrigði",
-			"count": 187
+			"count": 192
 		},
 		{
 			"name": "Trúmál og kirkja",
@@ -182,43 +182,43 @@
 	"35": [
 		{
 			"name": "Atvinnuvegir",
-			"count": 1434
+			"count": 1455
 		},
 		{
 			"name": "Hagstjórn",
-			"count": 1220
+			"count": 1246
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 878
-		},
-		{
-			"name": "Umhverfismál",
-			"count": 449
+			"count": 896
 		},
 		{
 			"name": "Lög og réttur",
-			"count": 448
+			"count": 463
 		},
 		{
-			"name": "Mennta- og menningarmál",
-			"count": 378
+			"name": "Umhverfismál",
+			"count": 454
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 372
+			"count": 386
+		},
+		{
+			"name": "Mennta- og menningarmál",
+			"count": 386
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 360
+			"count": 372
 		},
 		{
 			"name": "Samgöngumál",
-			"count": 256
+			"count": 259
 		},
 		{
 			"name": "Heilsa og heilbrigði",
-			"count": 218
+			"count": 219
 		},
 		{
 			"name": "Trúmál og kirkja",
@@ -228,43 +228,43 @@
 	"38": [
 		{
 			"name": "Atvinnuvegir",
-			"count": 1203
+			"count": 1220
 		},
 		{
 			"name": "Hagstjórn",
-			"count": 844
+			"count": 882
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 718
+			"count": 760
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 472
+			"count": 487
 		},
 		{
 			"name": "Lög og réttur",
-			"count": 457
+			"count": 475
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 447
+			"count": 452
 		},
 		{
 			"name": "Umhverfismál",
-			"count": 363
+			"count": 364
 		},
 		{
 			"name": "Mennta- og menningarmál",
-			"count": 321
+			"count": 333
 		},
 		{
 			"name": "Heilsa og heilbrigði",
-			"count": 264
+			"count": 287
 		},
 		{
 			"name": "Samgöngumál",
-			"count": 246
+			"count": 247
 		},
 		{
 			"name": "Trúmál og kirkja",
@@ -346,35 +346,35 @@
 	"43": [
 		{
 			"name": "Lög og réttur",
-			"count": 124
-		},
-		{
-			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 122
-		},
-		{
-			"name": "Hagstjórn",
-			"count": 118
-		},
-		{
-			"name": "Atvinnuvegir",
-			"count": 101
+			"count": 165
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 85
+			"count": 157
+		},
+		{
+			"name": "Hagstjórn",
+			"count": 150
+		},
+		{
+			"name": "Atvinnuvegir",
+			"count": 149
+		},
+		{
+			"name": "Stjórnarskipan og stjórnsýsla",
+			"count": 145
 		},
 		{
 			"name": "Mennta- og menningarmál",
-			"count": 58
+			"count": 79
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 42
+			"count": 48
 		},
 		{
 			"name": "Heilsa og heilbrigði",
-			"count": 24
+			"count": 33
 		},
 		{
 			"name": "Umhverfismál",
@@ -382,11 +382,11 @@
 		},
 		{
 			"name": "Samgöngumál",
-			"count": 11
+			"count": 12
 		},
 		{
 			"name": "Trúmál og kirkja",
-			"count": 6
+			"count": 12
 		}
 	],
 	"44": [
@@ -396,7 +396,7 @@
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 175
+			"count": 176
 		},
 		{
 			"name": "Atvinnuvegir",
@@ -404,7 +404,7 @@
 		},
 		{
 			"name": "Lög og réttur",
-			"count": 142
+			"count": 144
 		},
 		{
 			"name": "Mennta- og menningarmál",
@@ -437,28 +437,36 @@
 	],
 	"45": [
 		{
-			"name": "Hagstjórn",
-			"count": 38
+			"name": "Lög og réttur",
+			"count": 65
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 38
+			"count": 60
 		},
 		{
-			"name": "Lög og réttur",
-			"count": 30
+			"name": "Hagstjórn",
+			"count": 43
 		},
 		{
 			"name": "Atvinnuvegir",
-			"count": 26
+			"count": 30
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 20
+			"count": 28
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 10
+			"count": 15
+		},
+		{
+			"name": "Mennta- og menningarmál",
+			"count": 14
+		},
+		{
+			"name": "Heilsa og heilbrigði",
+			"count": 7
 		},
 		{
 			"name": "Samgöngumál",
@@ -467,20 +475,84 @@
 		{
 			"name": "Umhverfismál",
 			"count": 2
+		}
+	],
+	"46": [
+		{
+			"name": "Samfélagsmál",
+			"count": 14
+		},
+		{
+			"name": "Hagstjórn",
+			"count": 8
+		},
+		{
+			"name": "Erlend samskipti",
+			"count": 6
+		},
+		{
+			"name": "Lög og réttur",
+			"count": 5
 		},
 		{
 			"name": "Mennta- og menningarmál",
+			"count": 5
+		},
+		{
+			"name": "Stjórnarskipan og stjórnsýsla",
+			"count": 4
+		},
+		{
+			"name": "Atvinnuvegir",
 			"count": 2
 		},
 		{
 			"name": "Heilsa og heilbrigði",
 			"count": 1
+		},
+		{
+			"name": "Umhverfismál",
+			"count": 1
+		},
+		{
+			"name": "Samgöngumál",
+			"count": 1
+		}
+	],
+	"47": [
+		{
+			"name": "Samfélagsmál",
+			"count": 11
+		},
+		{
+			"name": "Atvinnuvegir",
+			"count": 8
+		},
+		{
+			"name": "Heilsa og heilbrigði",
+			"count": 8
+		},
+		{
+			"name": "Samgöngumál",
+			"count": 8
+		},
+		{
+			"name": "Hagstjórn",
+			"count": 7
+		},
+		{
+			"name": "Lög og réttur",
+			"count": 6
+		},
+		{
+			"name": "Stjórnarskipan og stjórnsýsla",
+			"count": 2
 		}
 	],
 	"undefined": [
 		{
 			"name": "Atvinnuvegir",
-			"count": 63
+			"count": 68
 		},
 		{
 			"name": "Lög og réttur",
@@ -488,30 +560,30 @@
 		},
 		{
 			"name": "Erlend samskipti",
-			"count": 51
+			"count": 52
 		},
 		{
 			"name": "Hagstjórn",
-			"count": 38
+			"count": 41
 		},
 		{
 			"name": "Samfélagsmál",
-			"count": 25
+			"count": 26
 		},
 		{
 			"name": "Stjórnarskipan og stjórnsýsla",
-			"count": 13
+			"count": 19
 		},
 		{
 			"name": "Samgöngumál",
 			"count": 10
 		},
 		{
-			"name": "Mennta- og menningarmál",
-			"count": 3
+			"name": "Umhverfismál",
+			"count": 8
 		},
 		{
-			"name": "Umhverfismál",
+			"name": "Mennta- og menningarmál",
 			"count": 3
 		},
 		{
