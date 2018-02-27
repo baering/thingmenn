@@ -3,8 +3,11 @@
     "id": "44",
     "name": "Björt framtíð",
     "imagePath": "/images/parties/44.svg",
-    "about": "Björt framtíð er íslenskur stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson og Heiða Kristín Helgadóttir. Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015.",
+    "about": "Björt framtíð er stjórnmálaflokkur, stofnaður árið 2012. Að stofnun flokksins komu Guðmundur Steingrímsson og Heiða Kristín Helgadóttir. Óttarr Proppé var kjörinn formaður Bjartrar framtíðar í september 2015.",
     "lthings": [
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
@@ -23,11 +26,28 @@
     ]
   },
   {
+    "id": "46",
+    "name": "Flokkur Fólksins",
+    "imagePath": "/images/parties/46.png",
+    "about": "Flokkur fólksins er stjórnmálaflokkur sem bauð fram í fyrsta sinn til Alþingiskosninganna 2016. Megin áherslur flokksins eru bætt lífsgæði fyrir fátæka og öryrkja.",
+    "lthings": [
+      {
+				"lthing": 148
+			}
+    ]
+  },
+  {
     "id": "2",
     "name": "Framsóknarflokkur",
     "imagePath": "/images/parties/2.svg",
-    "about": "Framsóknarflokkurinn er íslenskur frjálslyndur félagshyggjuflokkur sem staðsetur sig á miðjunni. Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi.",
+    "about": "Framsóknarflokkurinn er miðjuflokkur. Hann var stofnaður 16. desember 1916 við samruna Bændaflokksins og Óháðra bænda og er elsti starfandi stjórnmálaflokkurinn á Íslandi.",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
@@ -67,11 +87,28 @@
     ]
   },
   {
+    "id": "47",
+    "name": "Miðflokkurinn",
+    "imagePath": "/images/parties/47.png",
+    "about": "Miðflokkurinn er miðjuflokkur sem Sigmundur Davíð Gunnlaugsson stofnaði árið 2017 eftir að hann yfirgaf Framsóknarflokkinn. Samvinnuflokkurinn, nýtt stjórnmálaafl Björns Inga Hrafnssonar, gekk í kjölfarið til liðs við flokkinn.",
+    "lthings": [
+      {
+				"lthing": 148
+			}
+    ]
+  },
+  {
     "id": "43",
     "name": "Píratar",
     "imagePath": "/images/parties/43.svg",
-    "about": "Píratar er íslenskur frjálslyndur miðjuflokkur, stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012. Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland).",
+    "about": "Píratar er frjálslyndur miðjuflokkur, stofnaður árið 2012. Birgitta Jónsdóttir og Smári McCarthy tilkynntu upphaflega um fyrirhugað framboð og formlegur stofnfundur þess fór síðan fram laugardaginn 24. nóvember 2012. Á stofnfundinum voru samþykkt drög að lögum fyrir flokkinn og þar ákveðið að nafn hans skyldi vera Píratar (hjánefni Pirate Party Iceland).",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
@@ -93,8 +130,14 @@
     "id": "38",
     "name": "Samfylkingin",
     "imagePath": "/images/parties/38.svg",
-    "about": "Samfylkingin er íslenskur stjórnmálaflokkur sem kennir sig við jafnaðarstefnu. Flokkurinn var stofnaður árið 2000 sem samruni fjögurra flokka til þess að vinna sem mótvægisafl við Sjálfstæðisflokkinn. Samfylkingin hefur frá stofnun almennt verið næst stærsti flokkur landsins ef litið er til kjörfylgis til þings og sveitarstjórna auk skráðra flokksmanna.",
+    "about": "Samfylkingin er stjórnmálaflokkur sem kennir sig við jafnaðarstefnu. Flokkurinn var stofnaður árið 2000 sem samruni fjögurra flokka til þess að vinna sem mótvægisafl við Sjálfstæðisflokkinn. Samfylkingin hefur frá stofnun almennt verið næst stærsti flokkur landsins ef litið er til kjörfylgis til þings og sveitarstjórna auk skráðra flokksmanna.",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
@@ -137,8 +180,14 @@
     "id": "35",
     "name": "Sjálfstæðisflokkur",
     "imagePath": "/images/parties/35.svg",
-    "about": "Sjálfstæðisflokkurinn er íslenskur stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna.",
+    "about": "Sjálfstæðisflokkurinn er stjórnmálaflokkur sem kennir sig við hægristefnu. Sjálfstæðisflokkurinn hefur lengst af verið stærsti flokkur landsins sé miðað við kjörfylgi sem flokkurinn hefur fengið í kosningum bæði til þings og sveitarstjórna.",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
@@ -181,8 +230,14 @@
     "id": "45",
     "name": "Viðreisn",
     "imagePath": "/images/parties/45.svg",
-    "about": "Viðreisn er íslenskt stjórnmálaafl sem bauð sig fram í fyrsta skipti í Alþingiskosningum 2016. Samkvæmt stefnuviðmiðum Viðreisnar eru samtökin „nútímalegur, frjálslyndur flokkur sem hefur það að markmiði að berjast fyrir réttlátu samfélagi, stöðugu efnahagslífi og fjölbreyttum tækifærum. Áhersla er lögð á markaðslausnir, vestræna samvinnu, frelsi, jafnrétti og jafnan atkvæðisrétt fyrir alla“.",
+    "about": "Viðreisn er stjórnmálaafl sem bauð sig fram í fyrsta skipti í Alþingiskosningum 2016. Samkvæmt stefnuviðmiðum Viðreisnar eru samtökin „nútímalegur, frjálslyndur flokkur sem hefur það að markmiði að berjast fyrir réttlátu samfélagi, stöðugu efnahagslífi og fjölbreyttum tækifærum. Áhersla er lögð á markaðslausnir, vestræna samvinnu, frelsi, jafnrétti og jafnan atkvæðisrétt fyrir alla“.",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			}
@@ -194,6 +249,12 @@
     "imagePath": "/images/parties/23.svg",
     "about": "Vinstrihreyfingin – grænt framboð er vinstrisinnuð stjórnmálahreyfing á Íslandi sem var stofnuð þann 6. febrúar 1999. Auk hefðbundinnar félagshyggju og sósíalisma á hún margt sameiginlegt með græningjaflokkum Evrópu í stefnu sinni.",
     "lthings": [
+      {
+				"lthing": 148
+			},
+      {
+				"lthing": 147
+			},
 			{
 				"lthing": 146
 			},
