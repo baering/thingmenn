@@ -18,9 +18,10 @@ const defaultItems = [
   'speechStatistics',
   'votes',
 ]
-const lthings = [147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
+const lthings = [148, 147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
 
 async function fetch(config) {
+  console.log('fetching', config)
   if (config.mps) {
     console.log('Fetching mps')
     await fetchMps(lthings)
