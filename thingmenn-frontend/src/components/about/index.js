@@ -9,7 +9,7 @@ export default class About extends React.Component {
         <h1 className="title">Um verkefnið</h1>
         <div className="About">
           <h2>Um vefinn</h2>
-          <p>Á þessum vef finnur þú upplýsingar og tölfræði um þingmenn og þingflokka fyrir árin 2007 til 2017.</p>
+          <p>Á þessum vef finnur þú upplýsingar og tölfræði um þingmenn og þingflokka fyrir árin 2007 til 2018.</p>
           <p>Markmið vefsins er að sækja gögn sem finna má á vef <a className='u-link' href="http://www.althingi.is/altext/xml/">Alþingis</a>, vinna úr þeim og setja fram á skemmtilegan, fræðandi og helst af öllu hlutlausan máta.</p>
 
           <h2>Hvaðan koma gögnin?</h2>
