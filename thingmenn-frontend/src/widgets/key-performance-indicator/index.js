@@ -13,8 +13,8 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
   let bills = 0
   let motions = 0
   if (documentSummary && documentSummary.summary) {
-    bills = documentSummary.summary.bills.total
-    motions = documentSummary.summary.motions.total
+    bills = documentSummary.summary.bills.presenter.count
+    motions = documentSummary.summary.motions.presenter.count
   }
 
 
