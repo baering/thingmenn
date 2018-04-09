@@ -138046,13 +138046,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -138064,7 +138073,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -138073,7 +138082,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -138082,7 +138091,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -138091,12 +138100,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 152,
+						"percentage": 99.35
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 0.68
+						"percentage": 0.65
 					}
 				}
 			},
@@ -138105,11 +138114,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 8.33
+						"percentage": 5
 					},
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 19,
+						"percentage": 95
 					}
 				}
 			},
@@ -138132,12 +138141,12 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 6,
+						"percentage": 60
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 4,
+						"percentage": 40
 					}
 				}
 			},
@@ -138145,12 +138154,38 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
-						"percentage": 20
+						"occurance": 5,
+						"percentage": 17.24
 					},
 					"away": {
+						"occurance": 24,
+						"percentage": 82.76
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 3,
+						"percentage": 15
+					},
+					"away": {
+						"occurance": 17,
+						"percentage": 85
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
 						"occurance": 8,
-						"percentage": 80
+						"percentage": 88.89
+					},
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 11.11
 					}
 				}
 			},
@@ -138168,15 +138203,15 @@
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Erlend samskipti",
 				"voteSplit": {
+					"away": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
 					"standsTaken": {
 						"occurance": 1,
-						"percentage": 8.33
-					},
-					"away": {
-						"occurance": 11,
-						"percentage": 91.67
+						"percentage": 5.88
 					}
 				}
 			},
@@ -138184,17 +138219,17 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 5,
+						"percentage": 3.27
 					},
 					"away": {
-						"occurance": 144,
-						"percentage": 97.96
+						"occurance": 148,
+						"percentage": 96.73
 					}
 				}
 			},
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
@@ -138203,19 +138238,10 @@
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"away": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"away": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -138223,16 +138249,7 @@
 		],
 		"647": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -138241,37 +138258,15 @@
 				}
 			},
 			{
-				"name": "Umhverfismál",
+				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
-					},
-					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 16,
+						"percentage": 94.12
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 8.33
+						"percentage": 5.88
 					}
 				}
 			},
@@ -138289,15 +138284,67 @@
 				}
 			},
 			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"away": {
+						"occurance": 3,
+						"percentage": 9.68
+					},
+					"standsTaken": {
+						"occurance": 28,
+						"percentage": 90.32
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 18,
+						"percentage": 90
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 9,
+						"percentage": 90
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 10
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					}
+				}
+			},
+			{
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					}
 				}
 			},
@@ -138305,16 +138352,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
+						"occurance": 97,
+						"percentage": 63.4
 					},
 					"idle": {
 						"occurance": 54,
-						"percentage": 36.73
+						"percentage": 35.29
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 0.68
+						"occurance": 2,
+						"percentage": 1.31
 					}
 				}
 			}
@@ -138324,7 +138371,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -138333,7 +138380,7 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 147,
+						"occurance": 153,
 						"percentage": 100
 					}
 				}
@@ -138342,16 +138389,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -138360,7 +138407,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -138378,12 +138425,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -138391,12 +138438,25 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 85
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
 					}
 				}
 			}
@@ -138406,13 +138466,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -138424,12 +138493,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 143,
-						"percentage": 97.28
+						"occurance": 149,
+						"percentage": 97.39
 					},
 					"away": {
 						"occurance": 4,
-						"percentage": 2.72
+						"percentage": 2.61
 					}
 				}
 			},
@@ -138437,12 +138506,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -138450,25 +138519,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 8,
-						"percentage": 66.67
-					},
-					"away": {
-						"occurance": 4,
-						"percentage": 33.33
+						"percentage": 11.11
 					}
 				}
 			},
@@ -138476,12 +138532,12 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
+						"occurance": 8,
+						"percentage": 80
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 33.33
+						"percentage": 20
 					}
 				}
 			},
@@ -138497,11 +138553,37 @@
 						"percentage": 36.36
 					}
 				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 12,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 20
+					},
+					"idle": {
+						"occurance": 4,
+						"percentage": 20
+					}
+				}
 			}
 		],
 		"656": [
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -138513,12 +138595,25 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 10,
-						"percentage": 6.8
+						"occurance": 11,
+						"percentage": 7.19
 					},
 					"standsTaken": {
-						"occurance": 137,
-						"percentage": 93.2
+						"occurance": 142,
+						"percentage": 92.81
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 4,
+						"percentage": 13.79
+					},
+					"standsTaken": {
+						"occurance": 25,
+						"percentage": 86.21
 					}
 				}
 			},
@@ -138526,12 +138621,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 19,
-						"percentage": 79.17
+						"occurance": 26,
+						"percentage": 83.87
 					},
 					"away": {
 						"occurance": 5,
-						"percentage": 20.83
+						"percentage": 16.13
 					}
 				}
 			},
@@ -138539,17 +138634,17 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 71.43
+						"occurance": 7,
+						"percentage": 77.78
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 28.57
+						"percentage": 22.22
 					}
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
 						"occurance": 4,
@@ -138562,28 +138657,19 @@
 				}
 			},
 			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 4,
-						"percentage": 66.67
-					},
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 33.33
-					}
-				}
-			},
-			{
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 10,
+						"percentage": 50
 					},
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 25
+						"occurance": 9,
+						"percentage": 45
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -138603,15 +138689,24 @@
 		],
 		"688": [
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
 					"away": {
-						"occurance": 1,
-						"percentage": 14.29
+						"occurance": 3,
+						"percentage": 17.65
+					},
+					"standsTaken": {
+						"occurance": 14,
+						"percentage": 82.35
 					}
 				}
 			},
@@ -138619,12 +138714,25 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 18,
-						"percentage": 75
+						"occurance": 25,
+						"percentage": 80.65
 					},
 					"away": {
 						"occurance": 6,
-						"percentage": 25
+						"percentage": 19.35
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 77.78
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 22.22
 					}
 				}
 			},
@@ -138632,12 +138740,25 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 105,
-						"percentage": 71.43
+						"occurance": 109,
+						"percentage": 71.24
 					},
 					"away": {
-						"occurance": 42,
-						"percentage": 28.57
+						"occurance": 44,
+						"percentage": 28.76
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 9,
+						"percentage": 31.03
+					},
+					"standsTaken": {
+						"occurance": 20,
+						"percentage": 68.97
 					}
 				}
 			},
@@ -138645,25 +138766,16 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 5,
-						"percentage": 41.67
-					},
-					"standsTaken": {
 						"occurance": 7,
-						"percentage": 58.33
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 50
+						"percentage": 35
 					},
 					"standsTaken": {
-						"occurance": 3,
+						"occurance": 10,
 						"percentage": 50
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
 					}
 				}
 			},
@@ -138681,7 +138793,7 @@
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
 						"occurance": 6,
@@ -138692,15 +138804,6 @@
 						"percentage": 40
 					}
 				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
 			}
 		],
 		"690": [
@@ -138708,13 +138811,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -138726,12 +138838,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 145,
-						"percentage": 98.64
+						"occurance": 151,
+						"percentage": 98.69
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 1.36
+						"percentage": 1.31
 					}
 				}
 			},
@@ -138739,25 +138851,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
+						"occurance": 29,
+						"percentage": 93.55
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 8.33
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 6.45
 					}
 				}
 			},
@@ -138765,12 +138864,12 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 83.33
+						"occurance": 18,
+						"percentage": 90
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 16.67
+						"percentage": 10
 					}
 				}
 			},
@@ -138778,12 +138877,25 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 9,
+						"percentage": 90
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 10
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
 					}
 				}
 			},
@@ -138803,59 +138915,15 @@
 		],
 		"691": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
 						"occurance": 4,
-						"percentage": 2.72
+						"percentage": 2.61
 					},
 					"standsTaken": {
-						"occurance": 143,
-						"percentage": 97.28
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
+						"occurance": 149,
+						"percentage": 97.39
 					}
 				}
 			},
@@ -138863,25 +138931,38 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 8,
+						"percentage": 80
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"occurance": 2,
+						"percentage": 20
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 7,
+						"percentage": 77.78
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 25
+						"occurance": 2,
+						"percentage": 22.22
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 77.42
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 22.58
 					}
 				}
 			},
@@ -138895,43 +138976,69 @@
 					"away": {
 						"occurance": 3,
 						"percentage": 27.27
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 12,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 8,
+						"percentage": 40
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 51.72
+					},
+					"away": {
+						"occurance": 14,
+						"percentage": 48.28
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 23.53
+					},
+					"away": {
+						"occurance": 13,
+						"percentage": 76.47
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
 		],
 		"707": [
 			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 141,
-						"percentage": 95.92
+						"occurance": 147,
+						"percentage": 96.08
 					},
 					"away": {
 						"occurance": 6,
-						"percentage": 4.08
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 8.33
+						"percentage": 3.92
 					}
 				}
 			},
@@ -138939,25 +139046,25 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 7,
+						"percentage": 77.78
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 14.29
+						"occurance": 2,
+						"percentage": 22.22
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Lög og réttur",
 				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 25
-					},
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 24,
+						"percentage": 77.42
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 22.58
 					}
 				}
 			},
@@ -138975,15 +139082,15 @@
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 30
+						"occurance": 8,
+						"percentage": 40
 					},
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 70
+						"occurance": 12,
+						"percentage": 60
 					}
 				}
 			},
@@ -138991,19 +139098,54 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 4,
+						"percentage": 40
 					},
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 6,
+						"percentage": 60
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 17,
+						"percentage": 58.62
+					},
+					"standsTaken": {
+						"occurance": 12,
+						"percentage": 41.38
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 23.53
+					},
+					"away": {
+						"occurance": 13,
+						"percentage": 76.47
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
 		],
 		"714": [
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -139016,11 +139158,24 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 8.33
+						"percentage": 5
 					},
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 19,
+						"percentage": 95
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
 					}
 				}
 			},
@@ -139038,41 +139193,28 @@
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 20
-					},
-					"standsTaken": {
-						"occurance": 8,
-						"percentage": 80
-					}
-				}
-			},
-			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"away": {
 						"occurance": 5,
-						"percentage": 20.83
+						"percentage": 16.13
 					},
 					"standsTaken": {
-						"occurance": 19,
-						"percentage": 79.17
+						"occurance": 26,
+						"percentage": 83.87
 					}
 				}
 			},
 			{
-				"name": "Umhverfismál",
+				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"away": {
-						"occurance": 2,
-						"percentage": 33.33
+						"occurance": 5,
+						"percentage": 17.24
 					},
 					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
+						"occurance": 24,
+						"percentage": 82.76
 					}
 				}
 			},
@@ -139080,12 +139222,25 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 53,
-						"percentage": 36.05
+						"occurance": 54,
+						"percentage": 35.29
 					},
 					"standsTaken": {
-						"occurance": 94,
-						"percentage": 63.95
+						"occurance": 99,
+						"percentage": 64.71
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"away": {
+						"occurance": 5,
+						"percentage": 50
+					},
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 50
 					}
 				}
 			},
@@ -139093,12 +139248,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"away": {
-						"occurance": 4,
-						"percentage": 57.14
+						"occurance": 5,
+						"percentage": 55.56
 					},
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 42.86
+						"occurance": 4,
+						"percentage": 44.44
 					}
 				}
 			}
@@ -139108,13 +139263,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -139126,7 +139290,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -139135,7 +139299,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -139144,7 +139308,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -139162,12 +139326,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -139175,26 +139339,35 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
+						"occurance": 98,
+						"percentage": 64.05
 					},
 					"idle": {
 						"occurance": 53,
-						"percentage": 36.05
+						"percentage": 34.64
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 1.36
+						"percentage": 1.31
 					}
 				}
 			}
 		],
 		"722": [
 			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -139203,21 +139376,21 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 27,
+						"percentage": 93.1
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 8.33
+						"occurance": 2,
+						"percentage": 6.9
 					}
 				}
 			},
@@ -139235,45 +139408,19 @@
 				}
 			},
 			{
-				"name": "Lög og réttur",
+				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
+						"occurance": 18,
+						"percentage": 90
 					},
 					"away": {
-						"occurance": 4,
-						"percentage": 16.67
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 8,
-						"percentage": 80
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 20
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 82,
-						"percentage": 55.78
-					},
-					"away": {
-						"occurance": 38,
-						"percentage": 25.85
+						"occurance": 1,
+						"percentage": 5
 					},
 					"idle": {
-						"occurance": 27,
-						"percentage": 18.37
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -139282,70 +139429,56 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
-						"percentage": 100
+						"percentage": 11.76
+					},
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 88.24
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 87.1
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 12.9
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 85,
+						"percentage": 55.56
+					},
+					"away": {
+						"occurance": 38,
+						"percentage": 24.84
+					},
+					"idle": {
+						"occurance": 30,
+						"percentage": 19.61
 					}
 				}
 			}
 		],
 		"726": [
 			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 5,
-						"percentage": 3.4
+						"occurance": 7,
+						"percentage": 4.58
 					},
 					"standsTaken": {
-						"occurance": 142,
-						"percentage": 96.6
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 21,
-						"percentage": 87.5
-					},
-					"away": {
-						"occurance": 3,
-						"percentage": 12.5
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 20
-					},
-					"standsTaken": {
-						"occurance": 8,
-						"percentage": 80
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
-					},
-					"away": {
-						"occurance": 3,
-						"percentage": 25
+						"occurance": 146,
+						"percentage": 95.42
 					}
 				}
 			},
@@ -139363,15 +139496,41 @@
 				}
 			},
 			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 22,
+						"percentage": 70.97
+					},
+					"away": {
+						"occurance": 9,
+						"percentage": 29.03
+					}
+				}
+			},
+			{
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 5,
-						"percentage": 71.43
+						"percentage": 55.56
 					},
 					"away": {
-						"occurance": 2,
-						"percentage": 28.57
+						"occurance": 4,
+						"percentage": 44.44
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 11,
+						"percentage": 55
+					},
+					"away": {
+						"occurance": 9,
+						"percentage": 45
 					}
 				}
 			},
@@ -139379,23 +139538,25 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 7,
+						"percentage": 70
 					},
 					"standsTaken": {
 						"occurance": 3,
-						"percentage": 50
+						"percentage": 30
 					}
 				}
-			}
-		],
-		"729": [
+			},
 			{
 				"name": "Atvinnuvegir",
 				"voteSplit": {
+					"away": {
+						"occurance": 21,
+						"percentage": 72.41
+					},
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
+						"occurance": 8,
+						"percentage": 27.59
 					}
 				}
 			},
@@ -139404,16 +139565,57 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
+						"percentage": 11.76
+					},
+					"away": {
+						"occurance": 15,
+						"percentage": 88.24
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			}
+		],
+		"729": [
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 93.1
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.9
 					}
 				}
 			},
@@ -139431,32 +139633,19 @@
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
+					"standsTaken": {
+						"occurance": 18,
+						"percentage": 90
+					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
-					},
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 12.5
-					},
-					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
+						"percentage": 5
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 5
 					}
 				}
 			},
@@ -139464,12 +139653,42 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 9,
+						"percentage": 90
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 10
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					},
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"away": {
+						"occurance": 5,
+						"percentage": 16.13
+					},
+					"standsTaken": {
+						"occurance": 25,
+						"percentage": 80.65
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 3.23
 					}
 				}
 			},
@@ -139477,36 +139696,31 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 99,
-						"percentage": 67.35
+						"occurance": 101,
+						"percentage": 66.01
 					},
 					"away": {
-						"occurance": 4,
-						"percentage": 2.72
+						"occurance": 5,
+						"percentage": 3.27
 					},
 					"idle": {
-						"occurance": 44,
-						"percentage": 29.93
+						"occurance": 47,
+						"percentage": 30.72
 					}
 				}
 			}
 		],
 		"730": [
 			{
-				"name": "Atvinnuvegir",
+				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
+						"occurance": 148,
+						"percentage": 96.73
+					},
+					"away": {
+						"occurance": 5,
+						"percentage": 3.27
 					}
 				}
 			},
@@ -139514,60 +139728,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 0.68
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 16.67
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 11.11
 					}
 				}
 			},
@@ -139583,6 +139749,80 @@
 						"percentage": 18.18
 					}
 				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 80
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 20
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 23,
+						"percentage": 74.19
+					},
+					"away": {
+						"occurance": 8,
+						"percentage": 25.81
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 13,
+						"percentage": 65
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 35
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 13,
+						"percentage": 44.83
+					},
+					"away": {
+						"occurance": 16,
+						"percentage": 55.17
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 3,
+						"percentage": 17.65
+					},
+					"away": {
+						"occurance": 14,
+						"percentage": 82.35
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
 			}
 		],
 		"999": [
@@ -139590,13 +139830,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -139608,7 +139857,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -139617,16 +139866,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -139635,7 +139875,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -139653,31 +139893,35 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 152,
+						"percentage": 99.35
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 0.68
+						"percentage": 0.65
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 85
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
 					}
 				}
 			}
 		],
 		"1001": [
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
 						"percentage": 100
 					}
 				}
@@ -139686,7 +139930,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -139695,12 +139939,38 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 145,
-						"percentage": 98.64
+						"occurance": 149,
+						"percentage": 97.39
 					},
 					"away": {
-						"occurance": 2,
-						"percentage": 1.36
+						"occurance": 4,
+						"percentage": 2.61
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
 					}
 				}
 			},
@@ -139708,12 +139978,12 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"away": {
-						"occurance": 2,
-						"percentage": 20
+						"occurance": 5,
+						"percentage": 17.24
 					},
 					"standsTaken": {
-						"occurance": 8,
-						"percentage": 80
+						"occurance": 24,
+						"percentage": 82.76
 					}
 				}
 			},
@@ -139721,12 +139991,12 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 25
+						"occurance": 4,
+						"percentage": 20
 					},
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 16,
+						"percentage": 80
 					}
 				}
 			},
@@ -139747,12 +140017,12 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
-						"occurance": 2,
-						"percentage": 40
+						"occurance": 5,
+						"percentage": 55.56
 					},
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 60
+						"occurance": 4,
+						"percentage": 44.44
 					}
 				}
 			}
@@ -139762,13 +140032,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -139780,7 +140059,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -139789,7 +140068,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -139798,7 +140077,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -139807,7 +140086,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -139825,67 +140104,27 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 152,
+						"percentage": 99.35
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 0.68
+						"percentage": 0.65
 					}
 				}
 			}
 		],
 		"1018": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 5,
-						"percentage": 3.4
+						"occurance": 11,
+						"percentage": 7.19
 					},
 					"standsTaken": {
 						"occurance": 142,
-						"percentage": 96.6
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
+						"percentage": 92.81
 					}
 				}
 			},
@@ -139903,19 +140142,45 @@
 				}
 			},
 			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 13,
+						"percentage": 65
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 35
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 6,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 40
+					}
+				}
+			},
+			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 18,
-						"percentage": 75
+						"percentage": 58.06
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 12.5
+						"occurance": 10,
+						"percentage": 32.26
 					},
 					"idle": {
 						"occurance": 3,
-						"percentage": 12.5
+						"percentage": 9.68
 					}
 				}
 			},
@@ -139924,11 +140189,46 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 5,
-						"percentage": 71.43
+						"percentage": 55.56
 					},
 					"away": {
+						"occurance": 4,
+						"percentage": 44.44
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 10,
+						"percentage": 34.48
+					},
+					"away": {
+						"occurance": 19,
+						"percentage": 65.52
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
 						"occurance": 2,
-						"percentage": 28.57
+						"percentage": 11.76
+					},
+					"away": {
+						"occurance": 15,
+						"percentage": 88.24
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
@@ -139938,13 +140238,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -139956,7 +140265,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -139965,7 +140274,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -139974,12 +140283,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 151,
+						"percentage": 98.69
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 0.68
+						"occurance": 2,
+						"percentage": 1.31
 					}
 				}
 			},
@@ -139987,12 +140296,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -140000,12 +140309,12 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 16,
+						"percentage": 80
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 25
+						"occurance": 4,
+						"percentage": 20
 					}
 				}
 			},
@@ -140028,13 +140337,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -140046,7 +140364,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -140055,16 +140373,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -140073,7 +140382,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -140082,12 +140391,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 4,
+						"percentage": 2.61
 					},
 					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"occurance": 149,
+						"percentage": 97.39
 					}
 				}
 			},
@@ -140103,6 +140412,23 @@
 						"percentage": 9.09
 					}
 				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 18,
+						"percentage": 90
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
 			}
 		],
 		"1128": [
@@ -140110,13 +140436,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -140128,7 +140463,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -140137,7 +140472,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -140146,12 +140481,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -140160,11 +140495,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 3,
-						"percentage": 25
+						"percentage": 15
 					},
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 75
+						"occurance": 17,
+						"percentage": 85
 					}
 				}
 			},
@@ -140185,16 +140520,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 90,
-						"percentage": 61.22
+						"occurance": 96,
+						"percentage": 62.75
 					},
 					"away": {
 						"occurance": 5,
-						"percentage": 3.4
+						"percentage": 3.27
 					},
 					"idle": {
 						"occurance": 52,
-						"percentage": 35.37
+						"percentage": 33.99
 					}
 				}
 			}
@@ -140204,7 +140539,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -140213,16 +140548,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -140231,7 +140566,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -140249,12 +140584,29 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 95.65
+						"occurance": 29,
+						"percentage": 96.67
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.35
+						"percentage": 3.33
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 18,
+						"percentage": 90
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -140262,12 +140614,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					}
 				}
 			},
@@ -140275,40 +140627,66 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 99,
-						"percentage": 67.81
+						"occurance": 102,
+						"percentage": 67.11
 					},
 					"away": {
 						"occurance": 4,
-						"percentage": 2.74
+						"percentage": 2.63
 					},
 					"idle": {
-						"occurance": 43,
-						"percentage": 29.45
+						"occurance": 46,
+						"percentage": 30.26
 					}
 				}
 			}
 		],
 		"1157": [
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 9,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
 				"voteSplit": {
 					"away": {
-						"occurance": 1,
-						"percentage": 8.33
+						"occurance": 2,
+						"percentage": 11.76
 					},
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 15,
+						"percentage": 88.24
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 132,
+						"percentage": 86.27
+					},
+					"away": {
+						"occurance": 19,
+						"percentage": 12.42
+					},
+					"idle": {
+						"occurance": 2,
+						"percentage": 1.31
 					}
 				}
 			},
@@ -140316,29 +140694,25 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 21,
-						"percentage": 87.5
+						"occurance": 26,
+						"percentage": 83.87
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 12.5
+						"occurance": 5,
+						"percentage": 16.13
 					}
 				}
 			},
 			{
-				"name": "Hagstjórn",
+				"name": "Atvinnuvegir",
 				"voteSplit": {
-					"standsTaken": {
-						"occurance": 127,
-						"percentage": 86.39
-					},
 					"away": {
-						"occurance": 19,
-						"percentage": 12.93
+						"occurance": 5,
+						"percentage": 17.24
 					},
-					"idle": {
-						"occurance": 1,
-						"percentage": 0.68
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 82.76
 					}
 				}
 			},
@@ -140356,100 +140730,7 @@
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 30
-					},
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 70
-					}
-				}
-			},
-			{
 				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 33.33
-					},
-					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 50
-					},
-					"standsTaken": {
-						"occurance": 1,
-						"percentage": 50
-					}
-				}
-			}
-		],
-		"1160": [
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"away": {
-						"occurance": 4,
-						"percentage": 2.72
-					},
-					"standsTaken": {
-						"occurance": 143,
-						"percentage": 97.28
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
-					},
-					"idle": {
-						"occurance": 3,
-						"percentage": 12.5
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
@@ -140462,15 +140743,112 @@
 				}
 			},
 			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					},
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 75
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
+					}
+				}
+			}
+		],
+		"1160": [
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"away": {
+						"occurance": 4,
+						"percentage": 2.61
+					},
+					"standsTaken": {
+						"occurance": 148,
+						"percentage": 96.73
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 0.65
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 6.9
+					},
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 93.1
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 83.87
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 9.68
+					}
+				}
+			},
+			{
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
-						"percentage": 33.33
+						"percentage": 20
 					},
 					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
+						"occurance": 8,
+						"percentage": 80
 					}
 				}
 			},
@@ -140479,11 +140857,15 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 6,
-						"percentage": 50
+						"percentage": 30
 					},
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 50
+					},
+					"idle": {
+						"occurance": 4,
+						"percentage": 20
 					}
 				}
 			},
@@ -140503,19 +140885,10 @@
 		],
 		"1164": [
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -140524,12 +140897,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"occurance": 149,
+						"percentage": 97.39
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 4,
+						"percentage": 2.61
 					}
 				}
 			},
@@ -140537,25 +140910,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
-					},
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"percentage": 3.23
 					}
 				}
 			},
@@ -140573,15 +140933,15 @@
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 9,
-						"percentage": 90
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 10
+						"percentage": 11.11
 					}
 				}
 			},
@@ -140589,12 +140949,55 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"away": {
-						"occurance": 1,
-						"percentage": 50
+						"occurance": 2,
+						"percentage": 11.76
 					},
 					"standsTaken": {
+						"occurance": 15,
+						"percentage": 88.24
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 25,
+						"percentage": 86.21
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 13.79
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
 						"occurance": 1,
-						"percentage": 50
+						"percentage": 5
+					},
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 80
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 70
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 30
 					}
 				}
 			}
@@ -140604,13 +141007,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -140622,7 +141034,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -140631,7 +141043,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -140640,7 +141052,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -140649,7 +141061,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -140667,41 +141079,27 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 96,
-						"percentage": 65.31
+						"occurance": 101,
+						"percentage": 66.01
 					},
 					"idle": {
-						"occurance": 51,
-						"percentage": 34.69
+						"occurance": 52,
+						"percentage": 33.99
 					}
 				}
 			}
 		],
 		"1168": [
 			{
-				"name": "Atvinnuvegir",
+				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					},
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 100
+						"occurance": 19,
+						"percentage": 95
 					}
 				}
 			},
@@ -140710,37 +141108,28 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
-						"percentage": 8.33
+						"percentage": 6.45
 					},
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
+						"occurance": 29,
+						"percentage": 93.55
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Atvinnuvegir",
 				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
-					},
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 28.57
+						"occurance": 21,
+						"percentage": 72.41
 					},
-					"standsTaken": {
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					},
+					"idle": {
 						"occurance": 5,
-						"percentage": 71.43
+						"percentage": 17.24
 					}
 				}
 			},
@@ -140765,16 +141154,76 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 4,
+						"percentage": 2.61
 					},
 					"standsTaken": {
-						"occurance": 91,
-						"percentage": 61.9
+						"occurance": 96,
+						"percentage": 62.75
 					},
 					"idle": {
 						"occurance": 53,
-						"percentage": 36.05
+						"percentage": 34.64
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 6,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 30
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 10
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 10,
+						"percentage": 58.82
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					},
+					"idle": {
+						"occurance": 6,
+						"percentage": 35.29
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 3,
+						"percentage": 33.33
+					},
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 55.56
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"idle": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
@@ -140784,7 +141233,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -140793,8 +141242,176 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
 						"occurance": 2,
 						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 9,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 10,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 149,
+						"percentage": 97.39
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 2.61
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 30,
+						"percentage": 96.77
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 3.23
+					}
+				}
+			},
+			{
+				"name": "Samfélagsmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 1,
+						"percentage": 9.09
+					},
+					"standsTaken": {
+						"occurance": 10,
+						"percentage": 90.91
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					},
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 85
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			}
+		],
+		"1174": [
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Samfélagsmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 11,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 149,
+						"percentage": 97.39
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 2.61
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 29,
+						"percentage": 93.55
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
 					}
 				}
 			},
@@ -140803,16 +141420,11 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
+						"percentage": 77.78
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 22.22
 					}
 				}
 			},
@@ -140821,152 +141433,18 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 6,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"percentage": 60
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
-					},
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					}
-				}
-			},
-			{
-				"name": "Samfélagsmál",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 9.09
-					},
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 90.91
-					}
-				}
-			}
-		],
-		"1174": [
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Samfélagsmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
-					},
-					"away": {
-						"occurance": 3,
-						"percentage": 2.04
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 8.33
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"occurance": 4,
+						"percentage": 40
 					}
 				}
 			}
 		],
 		"1176": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -140978,25 +141456,25 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"occurance": 149,
+						"percentage": 97.39
 					},
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 4,
+						"percentage": 2.61
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Erlend samskipti",
 				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
 					"away": {
 						"occurance": 1,
-						"percentage": 8.33
-					},
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"percentage": 5.88
 					}
 				}
 			},
@@ -141017,12 +141495,42 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 21,
-						"percentage": 87.5
+						"occurance": 28,
+						"percentage": 90.32
 					},
 					"away": {
 						"occurance": 3,
-						"percentage": 12.5
+						"percentage": 9.68
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					},
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 85
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -141030,12 +141538,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 7,
+						"percentage": 77.78
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 14.29
+						"occurance": 2,
+						"percentage": 22.22
 					}
 				}
 			},
@@ -141043,12 +141551,12 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 6,
+						"percentage": 60
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"occurance": 4,
+						"percentage": 40
 					}
 				}
 			}
@@ -141058,7 +141566,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 147,
+						"occurance": 153,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -141067,7 +141584,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141076,16 +141593,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -141094,7 +141602,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -141110,6 +141618,78 @@
 			},
 			{
 				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 28,
+						"percentage": 96.55
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 3.45
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					},
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					}
+				}
+			}
+		],
+		"1179": [
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 9,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 9,
@@ -141122,65 +141702,19 @@
 				}
 			},
 			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 50
-					},
-					"standsTaken": {
-						"occurance": 1,
-						"percentage": 50
-					}
-				}
-			}
-		],
-		"1179": [
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
+						"occurance": 27,
+						"percentage": 87.1
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 4.17
+						"occurance": 3,
+						"percentage": 9.68
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 4.17
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 3.23
 					}
 				}
 			},
@@ -141188,29 +141722,12 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 8,
-						"percentage": 80
+						"occurance": 25,
+						"percentage": 86.21
 					},
 					"away": {
-						"occurance": 2,
-						"percentage": 20
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 99,
-						"percentage": 67.35
-					},
-					"away": {
-						"occurance": 3,
-						"percentage": 2.04
-					},
-					"idle": {
-						"occurance": 45,
-						"percentage": 30.61
+						"occurance": 4,
+						"percentage": 13.79
 					}
 				}
 			},
@@ -141218,12 +141735,33 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 58.33
+						"occurance": 14,
+						"percentage": 70
 					},
 					"away": {
 						"occurance": 5,
-						"percentage": 41.67
+						"percentage": 25
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 102,
+						"percentage": 66.67
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 1.96
+					},
+					"idle": {
+						"occurance": 48,
+						"percentage": 31.37
 					}
 				}
 			},
@@ -141246,16 +141784,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 147,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -141264,16 +141793,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -141282,7 +141811,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141297,15 +141826,41 @@
 				}
 			},
 			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 152,
+						"percentage": 99.35
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 0.65
+					}
+				}
+			},
+			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					},
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -141314,43 +141869,16 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					}
 				}
 			}
 		],
 		"1183": [
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 100
-					}
-				}
-			},
 			{
 				"name": "Samfélagsmál",
 				"voteSplit": {
@@ -141364,30 +141892,17 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 136,
-						"percentage": 93.15
+						"occurance": 138,
+						"percentage": 90.79
 					},
 					"away": {
-						"occurance": 10,
-						"percentage": 6.85
+						"occurance": 14,
+						"percentage": 9.21
 					}
 				}
 			},
 			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 8.7
-					},
-					"standsTaken": {
-						"occurance": 21,
-						"percentage": 91.3
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 9,
@@ -141400,15 +141915,76 @@
 				}
 			},
 			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 75
+					},
+					"away": {
+						"occurance": 5,
+						"percentage": 25
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"away": {
+						"occurance": 9,
+						"percentage": 30
+					},
+					"standsTaken": {
+						"occurance": 21,
+						"percentage": 70
+					}
+				}
+			},
+			{
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"away": {
-						"occurance": 2,
-						"percentage": 28.57
+						"occurance": 3,
+						"percentage": 33.33
 					},
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 71.43
+						"occurance": 6,
+						"percentage": 66.67
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 12,
+						"percentage": 41.38
+					},
+					"away": {
+						"occurance": 17,
+						"percentage": 58.62
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 3,
+						"percentage": 17.65
+					},
+					"away": {
+						"occurance": 14,
+						"percentage": 82.35
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
@@ -141418,13 +141994,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -141436,16 +142021,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141454,7 +142030,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -141472,12 +142048,25 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -141485,16 +142074,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 100,
-						"percentage": 68.03
+						"occurance": 103,
+						"percentage": 67.32
 					},
 					"away": {
 						"occurance": 4,
-						"percentage": 2.72
+						"percentage": 2.61
 					},
 					"idle": {
-						"occurance": 43,
-						"percentage": 29.25
+						"occurance": 46,
+						"percentage": 30.07
 					}
 				}
 			}
@@ -141504,13 +142093,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -141522,7 +142120,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141531,7 +142129,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -141540,7 +142138,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -141558,12 +142156,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					}
 				}
 			},
@@ -141571,28 +142169,19 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
+						"occurance": 98,
+						"percentage": 64.05
 					},
 					"idle": {
 						"occurance": 55,
-						"percentage": 37.41
+						"percentage": 35.95
 					}
 				}
 			}
 		],
 		"1218": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -141604,16 +142193,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 24,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141622,8 +142202,47 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 29,
+						"percentage": 93.55
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 93.1
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.9
 					}
 				}
 			},
@@ -141632,11 +142251,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
-						"percentage": 16.67
+						"percentage": 10
 					},
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 83.33
+						"occurance": 18,
+						"percentage": 90
 					}
 				}
 			},
@@ -141657,32 +142276,23 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
+						"occurance": 98,
+						"percentage": 64.05
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 0.68
+						"percentage": 0.65
 					},
 					"idle": {
 						"occurance": 54,
-						"percentage": 36.73
+						"percentage": 35.29
 					}
 				}
 			}
 		],
 		"1234": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -141691,19 +142301,10 @@
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -141712,16 +142313,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -141739,16 +142331,68 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 6,
-						"percentage": 4.08
+						"occurance": 7,
+						"percentage": 4.58
 					},
 					"standsTaken": {
-						"occurance": 139,
-						"percentage": 94.56
+						"occurance": 144,
+						"percentage": 94.12
 					},
 					"idle": {
 						"occurance": 2,
-						"percentage": 1.36
+						"percentage": 1.31
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 70
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 30
 					}
 				}
 			}
@@ -141758,7 +142402,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -141767,16 +142411,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 9,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -141794,115 +142438,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 5,
-						"percentage": 3.4
-					},
-					"standsTaken": {
-						"occurance": 142,
-						"percentage": 96.6
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"away": {
-						"occurance": 4,
-						"percentage": 16.67
-					},
-					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 42.86
-					},
-					"standsTaken": {
-						"occurance": 4,
-						"percentage": 57.14
-					}
-				}
-			}
-		],
-		"1249": [
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
 						"occurance": 6,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Samfélagsmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"percentage": 3.92
 					},
-					"away": {
-						"occurance": 3,
-						"percentage": 2.04
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
+						"occurance": 147,
+						"percentage": 96.08
 					}
 				}
 			},
@@ -141910,17 +142451,17 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
+						"occurance": 16,
+						"percentage": 94.12
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 8.33
+						"percentage": 5.88
 					}
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 9,
@@ -141931,20 +142472,46 @@
 						"percentage": 10
 					}
 				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"away": {
+						"occurance": 4,
+						"percentage": 12.9
+					},
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 87.1
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 3,
+						"percentage": 33.33
+					},
+					"standsTaken": {
+						"occurance": 6,
+						"percentage": 66.67
+					}
+				}
 			}
 		],
-		"1250": [
+		"1249": [
 			{
-				"name": "Atvinnuvegir",
+				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -141956,25 +142523,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -141983,7 +142532,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -142001,32 +142550,58 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 90,
-						"percentage": 61.22
-					},
-					"idle": {
-						"occurance": 56,
-						"percentage": 38.1
+						"occurance": 150,
+						"percentage": 98.04
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 0.68
-					}
-				}
-			}
-		],
-		"1252": [
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
+						"occurance": 3,
+						"percentage": 1.96
 					}
 				}
 			},
 			{
-				"name": "Erlend samskipti",
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 30,
+						"percentage": 96.77
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 3.23
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 28,
+						"percentage": 96.55
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 3.45
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			}
+		],
+		"1250": [
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -142038,21 +142613,8 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"away": {
-						"occurance": 5,
-						"percentage": 3.4
-					},
-					"standsTaken": {
-						"occurance": 142,
-						"percentage": 96.6
 					}
 				}
 			},
@@ -142060,12 +142622,8 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 8.33
+						"occurance": 31,
+						"percentage": 100
 					}
 				}
 			},
@@ -142073,12 +142631,8 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 16.67
+						"occurance": 20,
+						"percentage": 100
 					}
 				}
 			},
@@ -142086,12 +142640,162 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 10,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Samfélagsmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 11,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 28,
+						"percentage": 96.55
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 3.45
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 96,
+						"percentage": 62.75
+					},
+					"idle": {
+						"occurance": 56,
+						"percentage": 36.6
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 0.65
+					}
+				}
+			}
+		],
+		"1251": [
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 14,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			}
+		],
+		"1252": [
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"away": {
+						"occurance": 5,
+						"percentage": 3.27
+					},
+					"standsTaken": {
+						"occurance": 148,
+						"percentage": 96.73
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
 					}
 				}
 			},
@@ -142107,11 +142811,94 @@
 						"percentage": 18.18
 					}
 				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 80
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 20
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 77.42
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 22.58
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 13,
+						"percentage": 65
+					},
+					"away": {
+						"occurance": 7,
+						"percentage": 35
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 51.72
+					},
+					"away": {
+						"occurance": 14,
+						"percentage": 48.28
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 23.53
+					},
+					"away": {
+						"occurance": 13,
+						"percentage": 76.47
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
 			}
 		],
 		"1254": [
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -142124,11 +142911,24 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					},
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 6.9
+					},
+					"standsTaken": {
+						"occurance": 27,
+						"percentage": 93.1
 					}
 				}
 			},
@@ -142137,16 +142937,29 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					}
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
+						"occurance": 4,
+						"percentage": 20
+					},
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 80
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
@@ -142159,45 +142972,19 @@
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"away": {
-						"occurance": 4,
-						"percentage": 33.33
-					},
-					"standsTaken": {
-						"occurance": 8,
-						"percentage": 66.67
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 33.33
-					},
-					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
-					}
-				}
-			},
-			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 86,
-						"percentage": 58.5
+						"occurance": 92,
+						"percentage": 60.13
 					},
 					"away": {
 						"occurance": 3,
-						"percentage": 2.04
+						"percentage": 1.96
 					},
 					"idle": {
 						"occurance": 58,
-						"percentage": 39.46
+						"percentage": 37.91
 					}
 				}
 			},
@@ -142217,46 +143004,10 @@
 		],
 		"1255": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
 						"percentage": 100
 					}
 				}
@@ -142274,54 +143025,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 2,
-						"percentage": 1.36
+						"occurance": 3,
+						"percentage": 1.96
 					},
 					"standsTaken": {
-						"occurance": 145,
-						"percentage": 98.64
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
-					}
-				}
-			}
-		],
-		"1257": [
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
+						"occurance": 150,
+						"percentage": 98.04
 					}
 				}
 			},
@@ -142329,8 +143038,38 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
-						"percentage": 100
+						"occurance": 29,
+						"percentage": 93.55
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 88.24
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 11.76
 					}
 				}
 			},
@@ -142338,8 +143077,25 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
+						"occurance": 17,
+						"percentage": 85
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 82.76
+					},
+					"away": {
+						"occurance": 5,
+						"percentage": 17.24
 					}
 				}
 			},
@@ -142348,6 +143104,30 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 6,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 40
+					}
+				}
+			}
+		],
+		"1257": [
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
 						"percentage": 100
 					}
 				}
@@ -142362,30 +143142,28 @@
 				}
 			},
 			{
-				"name": "Hagstjórn",
+				"name": "Mennta- og menningarmál",
 				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 1.36
-					},
 					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
+						"occurance": 7,
+						"percentage": 87.5
 					},
-					"idle": {
-						"occurance": 53,
-						"percentage": 36.05
+					"away": {
+						"occurance": 1,
+						"percentage": 12.5
 					}
 				}
-			}
-		],
-		"1261": [
+			},
 			{
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 10,
-						"percentage": 100
+						"percentage": 76.92
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 23.08
 					}
 				}
 			},
@@ -142394,24 +143172,51 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
-						"percentage": 100
+						"percentage": 66.67
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 33.33
 					}
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
+						"occurance": 6,
+						"percentage": 66.67
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 33.33
 					}
 				}
 			},
 			{
-				"name": "Lög og réttur",
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"away": {
+						"occurance": 3,
+						"percentage": 2.01
+					},
+					"standsTaken": {
+						"occurance": 93,
+						"percentage": 62.42
+					},
+					"idle": {
+						"occurance": 53,
+						"percentage": 35.57
+					}
+				}
+			}
+		],
+		"1261": [
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -142420,25 +143225,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 146,
-						"percentage": 99.32
+						"occurance": 150,
+						"percentage": 98.04
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 0.68
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
+						"occurance": 3,
+						"percentage": 1.96
 					}
 				}
 			},
@@ -142456,35 +143248,15 @@
 				}
 			},
 			{
-				"name": "Umhverfismál",
+				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 28,
+						"percentage": 90.32
 					},
 					"away": {
-						"occurance": 1,
-						"percentage": 16.67
-					}
-				}
-			}
-		],
-		"1265": [
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
+						"occurance": 3,
+						"percentage": 9.68
 					}
 				}
 			},
@@ -142492,8 +143264,38 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 88.24
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 11.76
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 82.76
+					},
+					"away": {
+						"occurance": 5,
+						"percentage": 17.24
 					}
 				}
 			},
@@ -142501,8 +143303,16 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
+						"occurance": 16,
+						"percentage": 80
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					},
+					"idle": {
+						"occurance": 2,
+						"percentage": 10
 					}
 				}
 			},
@@ -142511,6 +143321,30 @@
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 6,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 40
+					}
+				}
+			}
+		],
+		"1265": [
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -142528,12 +143362,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
-						"percentage": 2.04
+						"occurance": 4,
+						"percentage": 2.61
 					},
 					"standsTaken": {
-						"occurance": 144,
-						"percentage": 97.96
+						"occurance": 149,
+						"percentage": 97.39
 					}
 				}
 			},
@@ -142541,12 +143375,64 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 70
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 30
 					}
 				}
 			}
@@ -142554,6 +143440,15 @@
 		"1266": [
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -142565,16 +143460,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 141,
-						"percentage": 95.92
+						"occurance": 145,
+						"percentage": 94.77
 					},
 					"away": {
-						"occurance": 5,
-						"percentage": 3.4
+						"occurance": 7,
+						"percentage": 4.58
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 0.68
+						"percentage": 0.65
 					}
 				}
 			},
@@ -142582,12 +143477,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
+						"occurance": 29,
+						"percentage": 93.55
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 8.33
+						"percentage": 6.45
 					}
 				}
 			},
@@ -142595,12 +143490,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					}
 				}
 			},
@@ -142608,12 +143503,12 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"away": {
-						"occurance": 4,
-						"percentage": 40
+						"occurance": 6,
+						"percentage": 20.69
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 60
+						"occurance": 23,
+						"percentage": 79.31
 					}
 				}
 			},
@@ -142621,12 +143516,16 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 5,
-						"percentage": 41.67
+						"occurance": 7,
+						"percentage": 35
 					},
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 58.33
+						"occurance": 10,
+						"percentage": 50
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
 					}
 				}
 			},
@@ -142634,11 +143533,11 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
-						"occurance": 3,
+						"occurance": 5,
 						"percentage": 50
 					},
 					"standsTaken": {
-						"occurance": 3,
+						"occurance": 5,
 						"percentage": 50
 					}
 				}
@@ -142662,7 +143561,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 13,
 						"percentage": 100
 					}
 				}
@@ -142671,7 +143570,7 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 3,
 						"percentage": 100
 					}
 				}
@@ -142680,7 +143579,7 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 8,
 						"percentage": 100
 					}
 				}
@@ -142698,7 +143597,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 15,
 						"percentage": 100
 					}
 				}
@@ -142707,7 +143606,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 9,
 						"percentage": 100
 					}
 				}
@@ -142725,12 +143624,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 100,
-						"percentage": 68.03
+						"occurance": 102,
+						"percentage": 68.46
 					},
 					"idle": {
 						"occurance": 47,
-						"percentage": 31.97
+						"percentage": 31.54
 					}
 				}
 			}
@@ -142740,7 +143639,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -142749,16 +143648,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -142767,7 +143666,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -142786,11 +143685,24 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 4.35
+						"percentage": 3.33
 					},
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 95.65
+						"occurance": 29,
+						"percentage": 96.67
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 19,
+						"percentage": 95
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
 					}
 				}
 			},
@@ -142799,11 +143711,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					}
 				}
 			},
@@ -142811,12 +143723,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 95,
-						"percentage": 65.07
+						"occurance": 99,
+						"percentage": 65.13
 					},
 					"idle": {
-						"occurance": 51,
-						"percentage": 34.93
+						"occurance": 52,
+						"percentage": 34.21
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 0.66
 					}
 				}
 			}
@@ -142826,12 +143742,12 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 3,
-						"percentage": 50
+						"occurance": 6,
+						"percentage": 66.67
 					},
 					"away": {
 						"occurance": 3,
-						"percentage": 50
+						"percentage": 33.33
 					}
 				}
 			},
@@ -142839,12 +143755,51 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
-						"percentage": 20
+						"occurance": 5,
+						"percentage": 38.46
 					},
 					"away": {
 						"occurance": 8,
+						"percentage": 61.54
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 66.67
+					},
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 33.33
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 3,
+						"percentage": 20
+					},
+					"away": {
+						"occurance": 12,
 						"percentage": 80
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 7,
+						"percentage": 87.5
+					},
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 12.5
 					}
 				}
 			},
@@ -142858,19 +143813,6 @@
 					"away": {
 						"occurance": 10,
 						"percentage": 90.91
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 1,
-						"percentage": 8.33
-					},
-					"away": {
-						"occurance": 11,
-						"percentage": 91.67
 					}
 				}
 			},
@@ -142891,58 +143833,22 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 4,
-						"percentage": 2.72
+						"occurance": 5,
+						"percentage": 3.36
 					},
 					"away": {
-						"occurance": 143,
-						"percentage": 97.28
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"away": {
-						"occurance": 7,
-						"percentage": 100
+						"occurance": 144,
+						"percentage": 96.64
 					}
 				}
 			}
 		],
 		"1324": [
 			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
 						"percentage": 100
 					}
 				}
@@ -142951,7 +143857,7 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 24,
+						"occurance": 31,
 						"percentage": 100
 					}
 				}
@@ -142960,7 +143866,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -142975,15 +143881,41 @@
 				}
 			},
 			{
-				"name": "Umhverfismál",
+				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
+						"occurance": 16,
+						"percentage": 94.12
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 16.67
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 26,
+						"percentage": 89.66
+					},
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
 					}
 				}
 			},
@@ -142991,12 +143923,29 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 93,
-						"percentage": 63.27
+						"occurance": 98,
+						"percentage": 64.05
 					},
 					"idle": {
 						"occurance": 54,
-						"percentage": 36.73
+						"percentage": 35.29
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 0.65
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 6,
+						"percentage": 60
+					},
+					"away": {
+						"occurance": 4,
+						"percentage": 40
 					}
 				}
 			}
@@ -143006,13 +143955,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -143024,21 +143982,8 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
 					}
 				}
 			},
@@ -143056,15 +144001,32 @@
 				}
 			},
 			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 18,
+						"percentage": 90
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			},
+			{
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
+						"occurance": 27,
+						"percentage": 87.1
 					},
 					"away": {
 						"occurance": 4,
-						"percentage": 16.67
+						"percentage": 12.9
 					}
 				}
 			},
@@ -143072,12 +144034,12 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 5,
-						"percentage": 71.43
+						"occurance": 7,
+						"percentage": 77.78
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 28.57
+						"percentage": 22.22
 					}
 				}
 			},
@@ -143085,43 +144047,21 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 65,
-						"percentage": 44.22
+						"occurance": 68,
+						"percentage": 44.44
 					},
 					"away": {
 						"occurance": 58,
-						"percentage": 39.46
+						"percentage": 37.91
 					},
 					"idle": {
-						"occurance": 24,
-						"percentage": 16.33
+						"occurance": 27,
+						"percentage": 17.65
 					}
 				}
 			}
 		],
 		"1327": [
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 8.33
-					},
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 91.67
-					}
-				}
-			},
 			{
 				"name": "Samfélagsmál",
 				"voteSplit": {
@@ -143136,15 +144076,15 @@
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Erlend samskipti",
 				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
-					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 15,
+						"percentage": 88.24
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 11.76
 					}
 				}
 			},
@@ -143153,20 +144093,284 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					},
 					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
+						"occurance": 27,
+						"percentage": 87.1
 					},
 					"idle": {
 						"occurance": 3,
-						"percentage": 12.5
+						"percentage": 9.68
 					}
 				}
 			},
 			{
 				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 5,
+						"percentage": 17.24
+					},
+					"standsTaken": {
+						"occurance": 24,
+						"percentage": 82.76
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"away": {
+						"occurance": 1,
+						"percentage": 5
+					},
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 80
+					},
+					"idle": {
+						"occurance": 3,
+						"percentage": 15
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 22.22
+					},
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 77.78
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 98,
+						"percentage": 64.05
+					},
+					"away": {
+						"occurance": 10,
+						"percentage": 6.54
+					},
+					"idle": {
+						"occurance": 45,
+						"percentage": 29.41
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 50
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 50
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"away": {
+						"occurance": 5,
+						"percentage": 50
+					},
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 50
+					}
+				}
+			}
+		],
+		"1328": [
+			{
+				"name": "Samfélagsmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 11,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 8,
+						"percentage": 88.89
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 25,
+						"percentage": 80.65
+					},
+					"away": {
+						"occurance": 6,
+						"percentage": 19.35
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 77.78
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 22.22
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 75
+					},
+					"away": {
+						"occurance": 5,
+						"percentage": 25
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 98,
+						"percentage": 64.05
+					},
+					"idle": {
+						"occurance": 54,
+						"percentage": 35.29
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 0.65
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 15,
+						"percentage": 51.72
+					},
+					"away": {
+						"occurance": 14,
+						"percentage": 48.28
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 23.53
+					},
+					"away": {
+						"occurance": 13,
+						"percentage": 76.47
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			}
+		],
+		"1329": [
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 9,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 29,
+						"percentage": 93.55
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 3,
+						"percentage": 10.34
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 3.45
+					},
+					"standsTaken": {
+						"occurance": 25,
+						"percentage": 86.21
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"away": {
 						"occurance": 2,
@@ -143175,150 +144379,6 @@
 					"standsTaken": {
 						"occurance": 8,
 						"percentage": 80
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 95,
-						"percentage": 64.63
-					},
-					"away": {
-						"occurance": 10,
-						"percentage": 6.8
-					},
-					"idle": {
-						"occurance": 42,
-						"percentage": 28.57
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 50
-					},
-					"standsTaken": {
-						"occurance": 3,
-						"percentage": 50
-					}
-				}
-			}
-		],
-		"1328": [
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 10,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Samfélagsmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 11,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 4.17
-					}
-				}
-			},
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 14.29
-					}
-				}
-			},
-			{
-				"name": "Hagstjórn",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 92,
-						"percentage": 62.59
-					},
-					"idle": {
-						"occurance": 54,
-						"percentage": 36.73
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 0.68
-					}
-				}
-			}
-		],
-		"1329": [
-			{
-				"name": "Mennta- og menningarmál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 7,
-						"percentage": 100
-					}
-				}
-			},
-			{
-				"name": "Lög og réttur",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
-					},
-					"away": {
-						"occurance": 2,
-						"percentage": 8.33
 					}
 				}
 			},
@@ -143340,54 +144400,15 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 4,
-						"percentage": 33.33
+						"percentage": 20
 					},
 					"standsTaken": {
-						"occurance": 8,
-						"percentage": 66.67
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 2,
-						"percentage": 33.33
-					},
-					"standsTaken": {
-						"occurance": 4,
-						"percentage": 66.67
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"away": {
-						"occurance": 3,
-						"percentage": 30
+						"occurance": 14,
+						"percentage": 70
 					},
 					"idle": {
-						"occurance": 1,
+						"occurance": 2,
 						"percentage": 10
-					},
-					"standsTaken": {
-						"occurance": 6,
-						"percentage": 60
-					}
-				}
-			},
-			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 1,
-						"percentage": 50
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 50
 					}
 				}
 			},
@@ -143395,16 +144416,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"away": {
-						"occurance": 27,
-						"percentage": 18.37
+						"occurance": 31,
+						"percentage": 20.26
 					},
 					"standsTaken": {
-						"occurance": 73,
-						"percentage": 49.66
+						"occurance": 75,
+						"percentage": 49.02
 					},
 					"idle": {
 						"occurance": 47,
-						"percentage": 31.97
+						"percentage": 30.72
 					}
 				}
 			}
@@ -143424,54 +144445,15 @@
 				}
 			},
 			{
-				"name": "Erlend samskipti",
-				"voteSplit": {
-					"away": {
-						"occurance": 1,
-						"percentage": 50
-					},
-					"standsTaken": {
-						"occurance": 1,
-						"percentage": 50
-					}
-				}
-			},
-			{
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"away": {
-						"occurance": 6,
-						"percentage": 50
+						"occurance": 12,
+						"percentage": 60
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 50
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"away": {
-						"occurance": 4,
-						"percentage": 66.67
-					},
-					"standsTaken": {
-						"occurance": 2,
-						"percentage": 33.33
-					}
-				}
-			},
-			{
-				"name": "Atvinnuvegir",
-				"voteSplit": {
-					"away": {
-						"occurance": 7,
-						"percentage": 70
-					},
-					"standsTaken": {
-						"occurance": 3,
-						"percentage": 30
+						"occurance": 8,
+						"percentage": 40
 					}
 				}
 			},
@@ -143479,12 +144461,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"away": {
-						"occurance": 17,
-						"percentage": 70.83
+						"occurance": 22,
+						"percentage": 70.97
 					},
 					"standsTaken": {
-						"occurance": 7,
-						"percentage": 29.17
+						"occurance": 9,
+						"percentage": 29.03
 					}
 				}
 			},
@@ -143492,12 +144474,51 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 39,
-						"percentage": 26.53
+						"occurance": 43,
+						"percentage": 28.1
 					},
 					"away": {
-						"occurance": 108,
-						"percentage": 73.47
+						"occurance": 110,
+						"percentage": 71.9
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"away": {
+						"occurance": 8,
+						"percentage": 80
+					},
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 20
+					}
+				}
+			},
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"away": {
+						"occurance": 24,
+						"percentage": 82.76
+					},
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 17.24
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"away": {
+						"occurance": 15,
+						"percentage": 88.24
+					},
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 11.76
 					}
 				}
 			},
@@ -143505,12 +144526,21 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"away": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"standsTaken": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"away": {
+						"occurance": 2,
+						"percentage": 100
 					}
 				}
 			}
@@ -143520,13 +144550,22 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
 				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 17,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -143538,7 +144577,7 @@
 				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 20,
 						"percentage": 100
 					}
 				}
@@ -143547,7 +144586,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -143566,11 +144605,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					},
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 30,
+						"percentage": 96.77
 					}
 				}
 			},
@@ -143579,11 +144618,11 @@
 				"voteSplit": {
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
 					},
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					}
 				}
 			},
@@ -143591,19 +144630,19 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 93,
-						"percentage": 63.27
+						"occurance": 99,
+						"percentage": 64.71
 					},
 					"idle": {
 						"occurance": 54,
-						"percentage": 36.73
+						"percentage": 35.29
 					}
 				}
 			}
 		],
 		"1332": [
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -143615,8 +144654,21 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 7,
+						"occurance": 9,
 						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
+					},
+					"away": {
+						"occurance": 1,
+						"percentage": 5.88
 					}
 				}
 			},
@@ -143624,17 +144676,21 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 23,
-						"percentage": 95.83
+						"occurance": 28,
+						"percentage": 90.32
 					},
 					"idle": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 6.45
 					}
 				}
 			},
 			{
-				"name": "Atvinnuvegir",
+				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 9,
@@ -143647,28 +144703,15 @@
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
-						"percentage": 83.33
+						"occurance": 26,
+						"percentage": 89.66
 					},
 					"away": {
-						"occurance": 2,
-						"percentage": 16.67
-					}
-				}
-			},
-			{
-				"name": "Umhverfismál",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 5,
-						"percentage": 83.33
-					},
-					"away": {
-						"occurance": 1,
-						"percentage": 16.67
+						"occurance": 3,
+						"percentage": 10.34
 					}
 				}
 			},
@@ -143686,19 +144729,36 @@
 				}
 			},
 			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 80
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 10
+					},
+					"idle": {
+						"occurance": 2,
+						"percentage": 10
+					}
+				}
+			},
+			{
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 99,
-						"percentage": 67.35
+						"occurance": 103,
+						"percentage": 67.32
 					},
 					"idle": {
-						"occurance": 42,
-						"percentage": 28.57
+						"occurance": 44,
+						"percentage": 28.76
 					},
 					"away": {
 						"occurance": 6,
-						"percentage": 4.08
+						"percentage": 3.92
 					}
 				}
 			}
@@ -143708,13 +144768,13 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Erlend samskipti",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
 						"occurance": 2,
@@ -143723,19 +144783,10 @@
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
-				"voteSplit": {
-					"standsTaken": {
-						"occurance": 12,
-						"percentage": 100
-					}
-				}
-			},
-			{
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -143750,15 +144801,41 @@
 				}
 			},
 			{
-				"name": "Mennta- og menningarmál",
+				"name": "Stjórnarskipan og stjórnsýsla",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 19,
+						"percentage": 95
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 5
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 94.12
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 5.88
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 77.78
+					},
+					"away": {
+						"occurance": 2,
+						"percentage": 22.22
 					}
 				}
 			},
@@ -143766,16 +144843,16 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 20,
-						"percentage": 83.33
+						"occurance": 23,
+						"percentage": 74.19
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 4.17
+						"percentage": 3.23
 					},
 					"idle": {
-						"occurance": 3,
-						"percentage": 12.5
+						"occurance": 7,
+						"percentage": 22.58
 					}
 				}
 			},
@@ -143783,12 +144860,12 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 91,
-						"percentage": 61.9
+						"occurance": 94,
+						"percentage": 61.44
 					},
 					"idle": {
-						"occurance": 56,
-						"percentage": 38.1
+						"occurance": 59,
+						"percentage": 38.56
 					}
 				}
 			}
@@ -143798,7 +144875,7 @@
 				"name": "Atvinnuvegir",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 10,
+						"occurance": 29,
 						"percentage": 100
 					}
 				}
@@ -143807,16 +144884,16 @@
 				"name": "Erlend samskipti",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 2,
+						"occurance": 17,
 						"percentage": 100
 					}
 				}
 			},
 			{
-				"name": "Stjórnarskipan og stjórnsýsla",
+				"name": "Heilsa og heilbrigði",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 12,
+						"occurance": 2,
 						"percentage": 100
 					}
 				}
@@ -143825,7 +144902,7 @@
 				"name": "Umhverfismál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
+						"occurance": 10,
 						"percentage": 100
 					}
 				}
@@ -143843,12 +144920,12 @@
 				"name": "Lög og réttur",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 22,
-						"percentage": 91.67
+						"occurance": 29,
+						"percentage": 93.55
 					},
 					"away": {
 						"occurance": 2,
-						"percentage": 8.33
+						"percentage": 6.45
 					}
 				}
 			},
@@ -143856,12 +144933,25 @@
 				"name": "Mennta- og menningarmál",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 6,
-						"percentage": 85.71
+						"occurance": 8,
+						"percentage": 88.89
 					},
 					"away": {
 						"occurance": 1,
-						"percentage": 14.29
+						"percentage": 11.11
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 80
+					},
+					"idle": {
+						"occurance": 4,
+						"percentage": 20
 					}
 				}
 			},
@@ -143869,16 +144959,16 @@
 				"name": "Hagstjórn",
 				"voteSplit": {
 					"standsTaken": {
-						"occurance": 85,
-						"percentage": 57.82
+						"occurance": 88,
+						"percentage": 57.52
 					},
 					"away": {
 						"occurance": 4,
-						"percentage": 2.72
+						"percentage": 2.61
 					},
 					"idle": {
-						"occurance": 58,
-						"percentage": 39.46
+						"occurance": 61,
+						"percentage": 39.87
 					}
 				}
 			}
@@ -143984,6 +145074,158 @@
 			}
 		],
 		"1347": [
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			}
+		],
+		"1351": [
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 14,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Umhverfismál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 3,
+						"percentage": 75
+					},
+					"idle": {
+						"occurance": 1,
+						"percentage": 25
+					}
+				}
+			}
+		],
+		"1353": [
+			{
+				"name": "Atvinnuvegir",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 16,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Hagstjórn",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 4,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Erlend samskipti",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 14,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Heilsa og heilbrigði",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 2,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Mennta- og menningarmál",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 1,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Lög og réttur",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 7,
+						"percentage": 100
+					}
+				}
+			},
+			{
+				"name": "Stjórnarskipan og stjórnsýsla",
+				"voteSplit": {
+					"standsTaken": {
+						"occurance": 5,
+						"percentage": 100
+					}
+				}
+			},
 			{
 				"name": "Umhverfismál",
 				"voteSplit": {
