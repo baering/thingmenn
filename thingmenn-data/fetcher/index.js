@@ -11,14 +11,15 @@ import fetchSpeechClassifications from './speech-classifications'
 
 const defaultItems = [
   'classifications',
-  'documents',
   'mps',
+  'votes',
+  'documents',
   'lthings',
   'speechClassifications',
   'speechStatistics',
-  'votes',
 ]
-const lthings = [148, 147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
+// const lthings = [148, 147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137, 136, 135]
+const lthings = [148]
 
 async function fetch(config) {
   console.log('fetching', config)

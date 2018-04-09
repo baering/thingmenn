@@ -1,5 +1,5 @@
 import { fetchXml } from '../../utility/xml'
-import { writeToFile } from '../../utility/file'
+import { writeToFile, loadFile } from '../../utility/file'
 import {
   urlForSpeeches,
 } from '../urls'
@@ -33,14 +33,17 @@ async function fetch(lthings) {
     throw new Error('missing lthings for speech classification fetcher')
   }
 
-  const speechesWithClassificationByLthing = {}
+  const resultFile = 'data/v2/speech-classifications-by-lthing.json'
+  const existingData = loadFile(resultFile)
+
+  const speechesWithClassificationByLthing = existingData || {}
 
   for (const lthing of lthings) {
     const speechesWithClassifications = await fetchSpeechesForLthing(lthing)
     speechesWithClassificationByLthing[lthing] = speechesWithClassifications
   }
 
-  writeToFile(speechesWithClassificationByLthing, 'data/v2/speech-classifications-by-lthing.json', true)
+  writeToFile(speechesWithClassificationByLthing, resultFile, true)
 }
 
 export default fetch

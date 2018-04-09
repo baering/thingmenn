@@ -1,6 +1,6 @@
 import { fetchXml } from '../../utility/xml'
 
-import { writeToFile } from '../../utility/file'
+import { writeToFile, loadFile } from '../../utility/file'
 
 import {
   urlForLthingVoting,
@@ -123,13 +123,16 @@ async function fetch(lthings) {
     throw new Error('no lthings in fetcher/votes')
   }
 
-  const votings = {}
+  const resultFile = 'data/v2/votings.json'
+  const existingData = loadFile(resultFile)
+
+  const votings = existingData || {}
   for (const lthing of lthings) {
     const lthingVotings = await fetchVotingsForLthing(lthing)
     votings[lthing] = lthingVotings
   }
 
-  writeToFile(votings, 'data/v2/votings.json', true)
+  writeToFile(votings, resultFile, true)
 }
 
 export default fetch

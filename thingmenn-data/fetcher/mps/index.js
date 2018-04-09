@@ -1,5 +1,5 @@
 import { fetchXml } from '../../utility/xml'
-import { writeToFile } from '../../utility/file'
+import { writeToFile, loadFile } from '../../utility/file'
 import {
   urlForMpsInLthing,
   urlForMpLthings,
@@ -136,7 +136,10 @@ async function fetch(lthings) {
     throw new Error('no lthings in fetcher/mps')
   }
 
-  const mps = {}
+  const resultFile = 'data/v2/mps.json'
+  const existingData = loadFile(resultFile)
+
+  const mps = existingData || {}
 
   for (const lthing of lthings) {
     const mpsUrl = urlForMpsInLthing(lthing)
@@ -159,7 +162,7 @@ async function fetch(lthings) {
   const mpIds = Object.keys(mps).map(mpId => parseInt(mpId, 10))
 
   const result = mpIds.map(mpId => mps[mpId])
-  writeToFile(result, 'data/v2/mps.json', true)
+  writeToFile(result, resultFile, true)
 
   const mpsByLthing = {}
   for (const mp of result) {

@@ -1,5 +1,5 @@
 import { fetchXml } from '../../utility/xml'
-import { writeToFile } from '../../utility/file'
+import { writeToFile, loadFile } from '../../utility/file'
 import {
   urlForDocuments,
   urlForDocumentDetails,
@@ -95,10 +95,10 @@ async function fetch(lthings) {
     throw new Error('missing lthings for document fetcher')
   }
 
-  // const doc = await fetchDocument(145, 160)
-  // console.log(doc)
+  const resultFile = 'data/v2/documents.json'
+  const existingData = loadFile(resultFile)
 
-  const documentsByLthing = {}
+  const documentsByLthing = existingData || {}
 
   for (const lthing of lthings) {
     const documents = await fetchDocumentsForLthing(lthing)
