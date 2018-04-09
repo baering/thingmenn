@@ -1,10 +1,11 @@
 import { fetchXml } from '../../utility/xml'
-import { writeToFile, loadFile } from '../../utility/file'
+import { writeToFile } from '../../utility/file'
 import {
   urlForMpsInLthing,
   urlForMpLthings,
   urlForMpHistory,
 } from '../urls'
+import { fetchExistingData } from '../utils'
 
 const letters = 'abcdefghijklmnoprstuvwxyz'
 
@@ -137,9 +138,15 @@ async function fetch(lthings) {
   }
 
   const resultFile = 'data/v2/mps.json'
-  const existingData = loadFile(resultFile)
+  const existingData = fetchExistingData(resultFile, lthings)
 
-  const mps = existingData || {}
+  const mps = {}
+
+  if (existingData) {
+    existingData.forEach((mp) => {
+      mps[mp.id] = mp
+    })
+  }
 
   for (const lthing of lthings) {
     const mpsUrl = urlForMpsInLthing(lthing)

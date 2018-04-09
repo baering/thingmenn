@@ -1,9 +1,10 @@
 import { fetchXml } from '../../utility/xml'
-import { writeToFile, loadFile } from '../../utility/file'
+import { writeToFile } from '../../utility/file'
 import {
   urlForDocuments,
   urlForDocumentDetails,
 } from '../urls'
+import { fetchExistingData } from '../utils'
 
 // Read more here:
 // http://www.althingi.is/thingstorf/ymsar-leidbeiningar/um-skjol-og-raedur/
@@ -96,7 +97,7 @@ async function fetch(lthings) {
   }
 
   const resultFile = 'data/v2/documents.json'
-  const existingData = loadFile(resultFile)
+  const existingData = fetchExistingData(resultFile, lthings, { resetCurrentLthings: true })
 
   const documentsByLthing = existingData || {}
 
