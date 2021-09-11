@@ -14,12 +14,14 @@ class CacheService {
         resolve(cached)
       } else {
         return fetch(url)
-          .then(response => {
+          .then((response) => {
             return response.json()
-          }).then(jsonData => {
+          })
+          .then((jsonData) => {
             this.setKeyToCache(url, jsonData)
             resolve(jsonData)
-          }).catch(error => reject(error))
+          })
+          .catch((error) => reject(error))
       }
     })
   }

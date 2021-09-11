@@ -20,7 +20,7 @@
   border-left: 1px solid #e9eef3;
 }
 .Topics-tab:not(:last-child):not(.is-active) {
-  border-right: 1px solid #FFF;
+  border-right: 1px solid #fff;
 }
 
 .Topics-tab:hover {
@@ -60,7 +60,6 @@
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #e9eef2;
 }
-
 
 .Topic-heading {
   font-size: 1.333rem;

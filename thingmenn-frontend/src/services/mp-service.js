@@ -15,7 +15,9 @@ class MpService extends CacheService {
   }
 
   getDifferentMpsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps/${mpId}/different`)
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/mps/${mpId}/different`,
+    )
   }
 }
 

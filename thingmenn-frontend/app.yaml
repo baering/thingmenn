@@ -2,42 +2,42 @@ runtime: python27
 threadsafe: true
 service: default
 
-default_expiration: "1m"
+default_expiration: '1m'
 
 handlers:
-- url: /(.*\.css)
-  mime_type: text/css
-  static_files: build/\1
-  upload: build/(.*\.css)
+  - url: /(.*\.css)
+    mime_type: text/css
+    static_files: build/\1
+    upload: build/(.*\.css)
 
-- url: /(.*\.js)
-  mime_type: text/javascript
-  static_files: build/\1
-  upload: build/(.*\.js)
+  - url: /(.*\.js)
+    mime_type: text/javascript
+    static_files: build/\1
+    upload: build/(.*\.js)
 
-- url: /(.*\.map)
-  mime_type: application/json
-  static_files: build/\1
-  upload: build/(.*\.map)
+  - url: /(.*\.map)
+    mime_type: application/json
+    static_files: build/\1
+    upload: build/(.*\.map)
 
-- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
-  static_files: build/\1
-  upload: build/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  - url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+    static_files: build/\1
+    upload: build/(.*\.(bmp|gif|ico|jpeg|jpg|png))
 
-- url: /(.*\.ico)
-  mime_type: image/x-icon
-  static_files: build/\1
-  upload: build/(.*\.ico)
-  expiration: "7d"
+  - url: /(.*\.ico)
+    mime_type: image/x-icon
+    static_files: build/\1
+    upload: build/(.*\.ico)
+    expiration: '7d'
 
-- url: /(.*\.(svg|svgz))
-  mime_type: image/svg+xml
-  static_files: build/\1
-  upload: build/(.*\.(svg|svgz))
+  - url: /(.*\.(svg|svgz))
+    mime_type: image/svg+xml
+    static_files: build/\1
+    upload: build/(.*\.(svg|svgz))
 
-- url: /.*
-  static_files: build/index.html
-  upload: build/index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
 
 skip_files:
   - ^(.*/)?#.*#$

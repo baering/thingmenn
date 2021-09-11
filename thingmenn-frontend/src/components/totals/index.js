@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import totalsService from '../../services/totals-service'
 import { formatPercentage, formatTime } from '../../utils'
@@ -35,44 +35,46 @@ export default class Totals extends React.Component {
   getData(lthing) {
     const lthingId = lthing || this.props.params.lthing
 
-    totalsService.getLthings()
-      .then(lthings => {
-        const lthingLookup = {}
-        lthings.forEach(lthing => lthingLookup[lthing.id] = lthing)
-        this.setState(() => ({
-          lthings,
-          lthingLookup,
-        }))
-      })
+    totalsService.getLthings().then((lthings) => {
+      const lthingLookup = {}
+      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
+      this.setState(() => ({
+        lthings,
+        lthingLookup,
+      }))
+    })
 
-
-    totalsService.getTopMpsAttendanceByLthing(lthingId)
-      .then(topMpsAttendance => {
+    totalsService
+      .getTopMpsAttendanceByLthing(lthingId)
+      .then((topMpsAttendance) => {
         this.setState(() => ({ topMpsAttendance }))
       })
 
-    totalsService.getBottomMpsAttendanceByLthing(lthingId)
-      .then(bottomMpsAttendance => {
+    totalsService
+      .getBottomMpsAttendanceByLthing(lthingId)
+      .then((bottomMpsAttendance) => {
         this.setState(() => ({ bottomMpsAttendance }))
       })
 
-    totalsService.getTopMpsStandsByLthing(lthingId)
-      .then(topMpsStands => {
-        this.setState(() => ({ topMpsStands }))
-      })
+    totalsService.getTopMpsStandsByLthing(lthingId).then((topMpsStands) => {
+      this.setState(() => ({ topMpsStands }))
+    })
 
-    totalsService.getBottomMpsStandsByLthing(lthingId)
-      .then(bottomMpsStands => {
+    totalsService
+      .getBottomMpsStandsByLthing(lthingId)
+      .then((bottomMpsStands) => {
         this.setState(() => ({ bottomMpsStands }))
       })
 
-    totalsService.getTopMpsMinutesByLthing(lthingId)
-      .then(topMpMinutesTalked => {
+    totalsService
+      .getTopMpsMinutesByLthing(lthingId)
+      .then((topMpMinutesTalked) => {
         this.setState(() => ({ topMpMinutesTalked }))
       })
 
-    totalsService.getBottomMpsMinutesByLthing(lthingId)
-      .then(bottomMpMinutesTalked => {
+    totalsService
+      .getBottomMpsMinutesByLthing(lthingId)
+      .then((bottomMpMinutesTalked) => {
         this.setState(() => ({ bottomMpMinutesTalked }))
       })
   }
@@ -82,10 +84,10 @@ export default class Totals extends React.Component {
       return []
     }
 
-    return lthings.map(lthing => ({
+    return lthings.map((lthing) => ({
       year: lthing.start.split('.')[2],
       thing: lthing.id,
-      url: `/samantekt/thing/${lthing.id}`
+      url: `/samantekt/thing/${lthing.id}`,
     }))
   }
 
@@ -103,7 +105,9 @@ export default class Totals extends React.Component {
 
     return (
       <div className="fill">
-        <DetailsMenu menuItems={this.generateLthingList(lthings, lthingLookup)} />
+        <DetailsMenu
+          menuItems={this.generateLthingList(lthings, lthingLookup)}
+        />
 
         <div className="Details">
           <div className="Details-item">
@@ -166,6 +170,6 @@ export default class Totals extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }

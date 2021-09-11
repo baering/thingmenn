@@ -1,40 +1,40 @@
-import React from "react";
+import React from 'react'
 import {
   Router,
   Route,
   IndexRedirect,
   Redirect,
   browserHistory,
-} from "react-router";
+} from 'react-router'
 
-import analytics from "./utility/analytics";
+import analytics from './utility/analytics'
 
-import App from "./components/app";
-import Mps from "./components/mps";
-import MpDetails from "./components/mp-details";
-import Parties from "./components/parties";
-import PartyDetails from "./components/party-details";
-import Totals from "./components/totals";
-import About from "./components/about";
-import NotFound from "./components/not-found";
+import App from './components/app'
+import Mps from './components/mps'
+import MpDetails from './components/mp-details'
+import Parties from './components/parties'
+import PartyDetails from './components/party-details'
+import Totals from './components/totals'
+import About from './components/about'
+import NotFound from './components/not-found'
 
-let lastState;
+let lastState
 
 function onRouterUpdate() {
-  const { action, pathname } = this.state.location;
+  const { action, pathname } = this.state.location
 
-  const lastPathname = lastState ? lastState.pathname : null;
-  const navigatingToNewPath = lastPathname !== pathname;
+  const lastPathname = lastState ? lastState.pathname : null
+  const navigatingToNewPath = lastPathname !== pathname
 
   if (navigatingToNewPath) {
-    analytics.pageview(pathname);
+    analytics.pageview(pathname)
   }
 
-  if (action === "PUSH" && navigatingToNewPath) {
-    window.scrollTo(0, 0);
+  if (action === 'PUSH' && navigatingToNewPath) {
+    window.scrollTo(0, 0)
   }
 
-  lastState = this.state.location;
+  lastState = this.state.location
 }
 
 const Routes = (props) => (
@@ -54,6 +54,6 @@ const Routes = (props) => (
       <Route path="*" component={NotFound} />
     </Route>
   </Router>
-);
+)
 
-export default Routes;
+export default Routes

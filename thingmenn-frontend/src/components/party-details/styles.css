@@ -26,11 +26,11 @@
   margin-bottom: 20px;
 }
 
-.party-details__introduction-name, .party-details__introduction-party {
+.party-details__introduction-name,
+.party-details__introduction-party {
   margin: 0;
   padding: 0;
 }
 
 .party-details__votes {
-
 }

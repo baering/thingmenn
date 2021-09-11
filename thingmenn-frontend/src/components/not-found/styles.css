@@ -6,7 +6,7 @@
   position: relative;
   font-size: 60vw;
   color: white;
-  background: url('/images/althingi.jpg') 100%/cover;
+  background: url('/images/althingi.jpg') 100% / cover;
 }
 
 @media (min-width: 768px) {
@@ -21,7 +21,7 @@
   bottom: 0;
   width: 60vw;
   height: 60vw;
-  background: url('https://i.imgur.com/35xkavm.gif') 100% 100%/cover no-repeat;
+  background: url('https://i.imgur.com/35xkavm.gif') 100% 100% / cover no-repeat;
 }
 
 @media (min-width: 768px) {

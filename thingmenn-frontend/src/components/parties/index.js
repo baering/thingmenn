@@ -30,14 +30,13 @@ export default class Mps extends React.Component {
   }
 
   getData(lthing) {
-    partyService.getPartiesByLthing(lthing).then(parties => {
+    partyService.getPartiesByLthing(lthing).then((parties) => {
       this.setState(() => ({ parties }))
     })
 
-    totalService.getLthings()
-      .then(lthings => {
-        this.setState(() => ({ lthings }))
-      })
+    totalService.getLthings().then((lthings) => {
+      this.setState(() => ({ lthings }))
+    })
   }
 
   render() {
@@ -46,7 +45,15 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <h1 className="title">Allir þingflokkar</h1>
-        <List>{parties.map(party => <Party key={party.id} lthing={lthings || this.props.params.lthing} {...party} />)}</List>
+        <List>
+          {parties.map((party) => (
+            <Party
+              key={party.id}
+              lthing={lthings || this.props.params.lthing}
+              {...party}
+            />
+          ))}
+        </List>
       </div>
     )
   }

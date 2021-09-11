@@ -1,5 +1,5 @@
 /* hide highcharts.com link */
-text[text-anchor=end] {
+text[text-anchor='end'] {
   display: none;
 }
 
@@ -8,6 +8,6 @@ text[text-anchor=end] {
 }
 
 .Chart-heading {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
 }

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import "./styles.css";
+import './styles.css'
 
 export default class About extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class About extends React.Component {
             þingflokka fyrir árin 2007 til 2021.
           </p>
           <p>
-            Markmið vefsins er að sækja gögn sem finna má á vef{" "}
+            Markmið vefsins er að sækja gögn sem finna má á vef{' '}
             <a className="u-link" href="http://www.althingi.is/altext/xml/">
               Alþingis
             </a>
@@ -38,7 +38,7 @@ export default class About extends React.Component {
 
           <h2>Verkefnið</h2>
           <p>
-            Þetta er verkefni eftir{" "}
+            Þetta er verkefni eftir{' '}
             <a
               className="u-link"
               href="http://twitter.com/baerinq"
@@ -49,11 +49,11 @@ export default class About extends React.Component {
             .
           </p>
           <p>
-            Sérstakar þakkir fá samstarfsfélagar mínir hjá{" "}
+            Sérstakar þakkir fá samstarfsfélagar mínir hjá{' '}
             <a className="u-link" href="http://aranja.com" target="_blank">
               Aranja
             </a>
-            ;<br />{" "}
+            ;<br />{' '}
             <a
               className="u-link"
               href="http://twitter.com/dbjcodes"
@@ -61,26 +61,26 @@ export default class About extends React.Component {
             >
               Davíð Bachmann Jóhannesson
             </a>
-            ,{" "}
+            ,{' '}
             <a
               className="u-link"
               href="http://twitter.com/herrhelms"
               target="_blank"
             >
               Sebastian Helms
-            </a>{" "}
-            og{" "}
+            </a>{' '}
+            og{' '}
             <a
               className="u-link"
               href="http://twitter.com/thorsteinsson"
               target="_blank"
             >
               Ægir Giraldo Þorsteinsson
-            </a>{" "}
+            </a>{' '}
             fyrir hjálp við útfærslu og hönnun á vefnum.
           </p>
           <p>
-            Ábendingar og hugmyndir eru vel þegnar á{" "}
+            Ábendingar og hugmyndir eru vel þegnar á{' '}
             <a className="u-link" href="mailto:thingmenn@aranja.com">
               thingmenn@aranja.com
             </a>
@@ -88,6 +88,6 @@ export default class About extends React.Component {
           </p>
         </div>
       </div>
-    );
+    )
   }
 }

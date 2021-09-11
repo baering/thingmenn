@@ -1,1 +1,1 @@
-export const apiUrl = 'http://api-dot-thingmenn.appspot.com'
+export const apiUrl = 'https://api-dot-thingmenn.appspot.com'

@@ -3,16 +3,13 @@ import PropTypes from 'prop-types'
 
 import './styles.css'
 
-const ListItemContent = ({
-  title,
-  description,
-}) => {
+const ListItemContent = ({ title, description }) => {
   return (
     <div className="ListItemContent">
       <h2 className="ListItemContent-title">{title}</h2>
-      {description ?
+      {description ? (
         <p className="ListItemContent-description">{description}</p>
-        : null}
+      ) : null}
     </div>
   )
 }

@@ -36,7 +36,7 @@
   }
 }
 
-.ListItem[href^='/thingflokkar/']  .ListItemImage-image {
+.ListItem[href^='/thingflokkar/'] .ListItemImage-image {
   padding-bottom: 100%;
   background-size: 70%;
 }

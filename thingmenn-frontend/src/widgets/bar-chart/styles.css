@@ -7,8 +7,8 @@
 }
 
 @media (min-width: 568px) {
-  .Barchart  {
-    background: rgba(0,0,0,0.04);
+  .Barchart {
+    background: rgba(0, 0, 0, 0.04);
   }
 }
 
@@ -23,7 +23,7 @@
 }
 
 @media (min-width: 568px) {
-  .Barchart-bar  {
+  .Barchart-bar {
     flex: 70%;
   }
 }
@@ -33,14 +33,14 @@
 }
 
 @media (min-width: 568px) {
-  .Barchart-topic  {
+  .Barchart-topic {
     flex: 30%;
     padding-left: 0.5rem;
   }
 }
 
 .Barchart-bar .Barchart-segment {
-  color: #FFF;
+  color: #fff;
   display: block;
   font-size: 0.85rem;
   height: 1.466rem;

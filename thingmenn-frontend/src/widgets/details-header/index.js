@@ -2,12 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './styles.css'
 
-const DetailsHeader = ({
-  id,
-  mpName,
-  description,
-  imagePath,
-}) => {
+const DetailsHeader = ({ id, mpName, description, imagePath }) => {
   return (
     <div className="DetailsHeader">
       <div className="DetailsHeader-details">

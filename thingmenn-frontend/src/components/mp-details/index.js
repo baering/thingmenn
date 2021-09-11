@@ -55,7 +55,7 @@ export default class MpDetails extends React.Component {
 
     if (this.state.mp.id === mpId) return
 
-    mpService.getMpDetailsByLthing(mpId, lthingId).then(mp => {
+    mpService.getMpDetailsByLthing(mpId, lthingId).then((mp) => {
       this.setState(() => ({
         mp,
       }))
@@ -63,7 +63,7 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpVoteSummaryByLthing(mpId, lthingId)
-      .then(voteSummary => {
+      .then((voteSummary) => {
         this.setState(() => ({
           voteSummary,
         }))
@@ -71,7 +71,7 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpSpeechSummaryByLthing(mpId, lthingId)
-      .then(speechSummary => {
+      .then((speechSummary) => {
         this.setState(() => ({
           speechSummary,
         }))
@@ -79,7 +79,7 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpDocumentSummaryByLthing(mpId, lthingId)
-      .then(documentSummary => {
+      .then((documentSummary) => {
         this.setState(() => ({
           documentSummary,
         }))
@@ -87,7 +87,7 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpVotePositionsByLthing(mpId, lthingId)
-      .then(votePositions => {
+      .then((votePositions) => {
         this.setState(() => ({
           votePositions,
         }))
@@ -95,7 +95,7 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpSpeechPositionsByLthing(mpId, lthingId)
-      .then(speechPositions => {
+      .then((speechPositions) => {
         this.setState(() => ({
           speechPositions,
         }))
@@ -103,27 +103,27 @@ export default class MpDetails extends React.Component {
 
     mpSummaryService
       .getMpDocumentPositionsByLthing(mpId, lthingId)
-      .then(documentPositions => {
+      .then((documentPositions) => {
         this.setState(() => ({
           documentPositions,
         }))
       })
 
-    mpService.getSimilarMpsByLthing(mpId, lthingId).then(similarMps => {
+    mpService.getSimilarMpsByLthing(mpId, lthingId).then((similarMps) => {
       this.setState(() => ({
         similarMps,
       }))
     })
 
-    mpService.getDifferentMpsByLthing(mpId, lthingId).then(differentMps => {
+    mpService.getDifferentMpsByLthing(mpId, lthingId).then((differentMps) => {
       this.setState(() => ({
         differentMps,
       }))
     })
 
-    totalsService.getLthings().then(lthings => {
+    totalsService.getLthings().then((lthings) => {
       const lthingLookup = {}
-      lthings.forEach(lthing => lthingLookup[lthing.id] = lthing)
+      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
       this.setState(() => ({
         lthings,
         lthingLookup,
@@ -136,17 +136,17 @@ export default class MpDetails extends React.Component {
       {
         name: 'Samtölur',
         url: `/thingmenn/${mp.id}/thing/allt`,
-      }
+      },
     ]
 
     if (!mp.lthings.length || !lthings.length) {
       return initialList
     }
 
-    const lthingsFormatted = mp.lthings.map(lthingInfo => ({
+    const lthingsFormatted = mp.lthings.map((lthingInfo) => ({
       year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
       thing: lthingInfo.lthing,
-      url: `/thingmenn/${mp.id}/thing/${lthingInfo.lthing}`
+      url: `/thingmenn/${mp.id}/thing/${lthingInfo.lthing}`,
     }))
 
     return initialList.concat(lthingsFormatted)
@@ -189,7 +189,9 @@ export default class MpDetails extends React.Component {
 
     return (
       <div className="fill">
-        <DetailsMenu menuItems={this.generateLthingList(mp, lthings, lthingLookup)} />
+        <DetailsMenu
+          menuItems={this.generateLthingList(mp, lthings, lthingLookup)}
+        />
         <DetailsHeader {...mp} description={mp.description.asMp} />
         <div className="Details">
           <KPI
@@ -216,7 +218,7 @@ export default class MpDetails extends React.Component {
           </div>
           <div className="Details-item Details-item--large Details-item--no-padding">
             <Topics>
-              {activeTab => (
+              {(activeTab) => (
                 <span>
                   <Topic active={activeTab === 0}>
                     <div className="Topic-column">
@@ -224,7 +226,7 @@ export default class MpDetails extends React.Component {
                         Skipting atkvæða eftir flokkum
                       </h1>
                       <ColorLegend />
-                      {votePositions.map(sectionSummary => (
+                      {votePositions.map((sectionSummary) => (
                         <BarChart
                           sectionSummary={sectionSummary}
                           key={sectionSummary.name}
@@ -241,7 +243,10 @@ export default class MpDetails extends React.Component {
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
-                      <Items divider={this.getDividerSize('speeches', lthing)} items={speechPositions} />
+                      <Items
+                        divider={this.getDividerSize('speeches', lthing)}
+                        items={speechPositions}
+                      />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting ræðutíma</h1>
@@ -251,7 +256,10 @@ export default class MpDetails extends React.Component {
                   <Topic active={activeTab === 2}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
-                      <Items divider={this.getDividerSize('documents', lthing)} items={documentPositions} />
+                      <Items
+                        divider={this.getDividerSize('documents', lthing)}
+                        items={documentPositions}
+                      />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting þingskjala</h1>

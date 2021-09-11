@@ -17,20 +17,15 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
     motions = documentSummary.summary.motions.presenter.count
   }
 
-
   return (
     <div className="KPI">
       <div className="KPI-stats">
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">
-            {formatPercentage(attendance)}
-          </p>
+          <p className="KPI-statsText">{formatPercentage(attendance)}</p>
           <h1 className="KPI-statsHeading">Mæting*</h1>
         </div>
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">
-            {formatPercentage(standsTaken)}
-          </p>
+          <p className="KPI-statsText">{formatPercentage(standsTaken)}</p>
           <h1 className="KPI-statsHeading">Afstaða*</h1>
         </div>
         <div className="KPI-statsItem">

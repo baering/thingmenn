@@ -13,8 +13,8 @@ const Friends = ({
   friends,
   isDisplayingFriends,
   lthing = 'allt',
-  valueFormatter = friend =>
-  `${friend.votes} (${formatPercentage(friend.similarity)})`,
+  valueFormatter = (friend) =>
+    `${friend.votes} (${formatPercentage(friend.similarity)})`,
   icon = true,
   smallPrint,
 }) => (
@@ -24,9 +24,9 @@ const Friends = ({
         <span>
           <span
             key="icon-1"
-            className={`typcn typcn-group-outline icon-${isDisplayingFriends
-              ? 'friend'
-              : 'enemy'}`}
+            className={`typcn typcn-group-outline icon-${
+              isDisplayingFriends ? 'friend' : 'enemy'
+            }`}
           />{' '}
         </span>
       ) : null}
@@ -34,8 +34,11 @@ const Friends = ({
     </h1>
     <dl className="Friends-list">
       <dt>Nafn</dt>
-      <dd>{subTitle}{smallPrint && '*'}</dd>
-      {friends.map(friend => [
+      <dd>
+        {subTitle}
+        {smallPrint && '*'}
+      </dd>
+      {friends.map((friend) => [
         <dt key={friend.mp.id}>
           <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
           <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing || 'allt'}`}>

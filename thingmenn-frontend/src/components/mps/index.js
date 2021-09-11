@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import mpService from '../../services/mp-service'
 import totalService from '../../services/totals-service'
@@ -14,7 +14,7 @@ const initialLthingsMenuList = [
   {
     name: 'Öll þing',
     url: '/thing/allt',
-  }
+  },
 ]
 
 export default class Mps extends React.Component {
@@ -44,28 +44,26 @@ export default class Mps extends React.Component {
   }
 
   getData(lthing) {
-    mpService.getMpsByLthing(lthing)
-      .then(mps => {
-        this.setState(() => ({ mps, lthing }))
-      })
+    mpService.getMpsByLthing(lthing).then((mps) => {
+      this.setState(() => ({ mps, lthing }))
+    })
 
-    totalService.getLthings()
-      .then(lthings => {
-        this.setState(() => ({ lthings }))
-      })
+    totalService.getLthings().then((lthings) => {
+      this.setState(() => ({ lthings }))
+    })
   }
 
   handleSearchInput = (evt) => {
     searchInput = evt.target.value
     this.setState({
-      searchInput
+      searchInput,
     })
   }
 
   searchFilter(mp) {
     const { searchInput } = this.state
     if (searchInput) {
-      return (mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1)
+      return mp.name.toLowerCase().indexOf(searchInput.toLowerCase()) !== -1
     }
     return mp
   }
@@ -86,13 +84,14 @@ export default class Mps extends React.Component {
   render() {
     const { mps, sortByParty, lthing, lthings } = this.state
 
-    const items = mps.filter(this.searchFilter.bind(this))
-        .sort(this.sortItem.bind(this))
+    const items = mps
+      .filter(this.searchFilter.bind(this))
+      .sort(this.sortItem.bind(this))
 
-    const lthingsFormatted = lthings.map(lthing => ({
+    const lthingsFormatted = lthings.map((lthing) => ({
       year: lthing.start.split('.')[2],
       thing: lthing.id,
-      url: `/thing/${lthing.id}`
+      url: `/thing/${lthing.id}`,
     }))
 
     const lthingsToRender = initialLthingsMenuList.concat(lthingsFormatted)
@@ -100,13 +99,13 @@ export default class Mps extends React.Component {
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <DetailsMenu menuItems={lthingsToRender}/>
+        <DetailsMenu menuItems={lthingsToRender} />
         <List>
-          {items.map(mp => (
+          {items.map((mp) => (
             <Mp key={mp.id} lthing={lthing} {...mp} />
           ))}
         </List>
       </div>
-    );
+    )
   }
 }

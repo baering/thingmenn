@@ -4,10 +4,7 @@ import { Link } from 'react-router'
 
 import './styles.css'
 
-const ListItem = ({
-  url,
-  children,
-}) => {
+const ListItem = ({ url, children }) => {
   return (
     <Link to={url} className="ListItem">
       {children}

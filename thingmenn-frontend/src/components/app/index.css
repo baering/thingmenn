@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -17,15 +19,16 @@
   }
 }
 
-html, body {
+html,
+body {
   box-sizing: inherit;
   min-height: 100%;
   line-height: 1.5;
 }
 
 body {
-  background: #F2F2F2;
-  color: #393D3F;
+  background: #f2f2f2;
+  color: #393d3f;
   margin: 0;
 }
 
@@ -85,7 +88,7 @@ a {
 }
 
 .u-link {
-  color: #068AB1;
+  color: #068ab1;
 }
 
 @media (min-width: 768px) {

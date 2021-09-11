@@ -4,23 +4,17 @@ import classNames from 'classnames'
 
 import './styles.css'
 
-const ListItemImage = ({
-  path,
-  children,
-  cover,
-}) => {
+const ListItemImage = ({ path, children, cover }) => {
   return (
-    <div
-      className="ListItemImage">
+    <div className="ListItemImage">
       <div
         className={classNames('ListItemImage-image', {
-          'ListItemImage-image--cover': cover
+          'ListItemImage-image--cover': cover,
         })}
         style={{
-          backgroundImage: `url(${path})`
+          backgroundImage: `url(${path})`,
         }}
-      >
-      </div>
+      ></div>
       {children}
     </div>
   )

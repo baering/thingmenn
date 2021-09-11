@@ -1,17 +1,15 @@
 import React from 'react'
 import './styles.css'
 
-const BarChart = ({
-  sectionSummary
-}) => {
+const BarChart = ({ sectionSummary }) => {
   const { name, voteSplit } = sectionSummary
 
-  let standsTaken = 0;
-  let standsTakenOccurance;
-  let idle = 0;
-  let idleOccurance;
-  let away = 0;
-  let awayOccurance;
+  let standsTaken = 0
+  let standsTakenOccurance
+  let idle = 0
+  let idleOccurance
+  let away = 0
+  let awayOccurance
 
   if (voteSplit.standsTaken) {
     standsTaken = voteSplit.standsTaken.percentage
@@ -30,11 +28,28 @@ const BarChart = ({
 
   return (
     <div className="Barchart">
-      <div className="Barchart-topic"><strong>{name}</strong></div>
+      <div className="Barchart-topic">
+        <strong>{name}</strong>
+      </div>
       <div className="Barchart-bar">
-        <div className="Barchart-segment Barchart--standsTaken" style={{width: standsTaken + '%'}}>{standsTakenOccurance}</div>
-        <div className="Barchart-segment Barchart--idle" style={{width: idle + '%'}}>{idleOccurance}</div>
-        <div className="Barchart-segment Barchart--away" style={{width: away + '%'}}>{awayOccurance}</div>
+        <div
+          className="Barchart-segment Barchart--standsTaken"
+          style={{ width: standsTaken + '%' }}
+        >
+          {standsTakenOccurance}
+        </div>
+        <div
+          className="Barchart-segment Barchart--idle"
+          style={{ width: idle + '%' }}
+        >
+          {idleOccurance}
+        </div>
+        <div
+          className="Barchart-segment Barchart--away"
+          style={{ width: away + '%' }}
+        >
+          {awayOccurance}
+        </div>
       </div>
     </div>
   )

@@ -5,17 +5,14 @@ import { formatTime } from '../../utils'
 
 import './styles.css'
 
-const Speeches = ({
-  title,
-  speechSummary,
-}) => {
+const Speeches = ({ title, speechSummary }) => {
   const speeches = Object.keys(speechSummary)
-      .filter((key) => key !== 'Samtals')
-      .map((key) => ({
-          id: key,
-          time: formatTime(speechSummary[key].minutes),
-          count: speechSummary[key].count,
-        }))
+    .filter((key) => key !== 'Samtals')
+    .map((key) => ({
+      id: key,
+      time: formatTime(speechSummary[key].minutes),
+      count: speechSummary[key].count,
+    }))
 
   return (
     <div className="Speeches">
@@ -24,11 +21,13 @@ const Speeches = ({
         {speeches.map((speech, index) => (
           <div className="Speeches-item" key={speech.id}>
             <p className="Speeches-statsText">{speech.time}</p>
-            <h1 className="Speeches-statsHeading">{speech.id} ({speech.count})</h1>
+            <h1 className="Speeches-statsHeading">
+              {speech.id} ({speech.count})
+            </h1>
           </div>
         ))}
-     </div>
-   </div>
+      </div>
+    </div>
   )
 }
 

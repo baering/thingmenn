@@ -10,7 +10,6 @@
   margin-bottom: 1rem;
 }
 
-
 @media (min-width: 1234px) {
   .KPI {
     margin: 1rem;
@@ -22,7 +21,7 @@
   .DetailsMenu-item {
     max-width: 300px;
     min-width: 200px;
-    height: 67px;    
+    height: 67px;
   }
 }
 
@@ -99,9 +98,9 @@
 }
 
 .KPI-statsText {
-  color: #06ABDC;
+  color: #06abdc;
   font-size: 2rem;
-  text-shadow: 0 2px 0 #FFF;
+  text-shadow: 0 2px 0 #fff;
 }
 
 @media (min-width: 768px) {

@@ -11,7 +11,9 @@ class TotalsService extends CacheService {
   }
 
   getBottomMpsAttendanceByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/attendance/mps`)
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/bottom/attendance/mps`,
+    )
   }
 
   getTopMpsStandsByLthing(lthing) {
@@ -29,7 +31,6 @@ class TotalsService extends CacheService {
   getBottomMpsMinutesByLthing(lthing) {
     return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/minutes/mps`)
   }
-
 }
 
 export default new TotalsService()

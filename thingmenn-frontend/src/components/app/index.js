@@ -14,15 +14,21 @@ export default class App extends React.Component {
 
     return (
       <div className="contain">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500|Lora" rel="stylesheet" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500|Lora"
+          rel="stylesheet"
+        />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css"
+          rel="stylesheet"
+        />
         <Nav />
         <main className="Main">
           {children}
           <Footer />
         </main>
       </div>
-    );
+    )
   }
 }
 

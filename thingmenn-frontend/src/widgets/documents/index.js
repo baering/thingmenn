@@ -6,7 +6,8 @@ const Documents = ({ documentSummary }) => {
   if (!(documentSummary && documentSummary.summary)) {
     return null
   }
-  return <div className="Documents">
+  return (
+    <div className="Documents">
       <div className="Documents-items">
         <h2 className="Documents-subheader">1. flutningsmaður</h2>
         <div className="Documents-item" key={document.id}>
@@ -24,7 +25,7 @@ const Documents = ({ documentSummary }) => {
       </div>
 
       <div className="Documents-items">
-      <h2 className="Documents-subheader">Meðflutningsmaður</h2>
+        <h2 className="Documents-subheader">Meðflutningsmaður</h2>
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">
             {documentSummary.summary.motions.coPresenter.count}
@@ -40,7 +41,7 @@ const Documents = ({ documentSummary }) => {
       </div>
 
       <div className="Documents-items">
-      <h2 className="Documents-subheader">Fyrirspurnir</h2>
+        <h2 className="Documents-subheader">Fyrirspurnir</h2>
         <div className="Documents-item" key={document.id}>
           <p className="Documents-statsText">
             {documentSummary.summary.inquiries.asked}
@@ -55,10 +56,9 @@ const Documents = ({ documentSummary }) => {
         </div>
       </div>
     </div>
+  )
 }
 
-Documents.propTypes = {
-
-}
+Documents.propTypes = {}
 
 export default Documents

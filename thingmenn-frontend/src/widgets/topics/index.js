@@ -41,8 +41,11 @@ class Topics extends Component {
             <a
               key={topic.title}
               href="#"
-              className={classNames("Topics-tab", activeTab === index && 'is-active')}
-              onClick={evt => this.handleChangingTabs(evt, index)}
+              className={classNames(
+                'Topics-tab',
+                activeTab === index && 'is-active',
+              )}
+              onClick={(evt) => this.handleChangingTabs(evt, index)}
             >
               {topic.title}
             </a>

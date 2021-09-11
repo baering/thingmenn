@@ -2,30 +2,30 @@
   width: 2.66rem;
   height: 2.66rem;
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: #fff;
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.PartyBadge[data-party="sjalfstaedisflokkur"] {
+.PartyBadge[data-party='sjalfstaedisflokkur'] {
   background-size: 75%;
 }
-.PartyBadge[data-party="samfylkingin"] {
+.PartyBadge[data-party='samfylkingin'] {
   background-size: 75%;
 }
-.PartyBadge[data-party="framsoknarflokkur"] {
+.PartyBadge[data-party='framsoknarflokkur'] {
   background-size: 60%;
 }
-.PartyBadge[data-party="piratar"] {
+.PartyBadge[data-party='piratar'] {
   background-size: 75%;
   background-position: 45% 50%;
 }
-.PartyBadge[data-party="bjort-framtid"] {
+.PartyBadge[data-party='bjort-framtid'] {
   background-size: 60%;
   background-position: 50% 60%;
 }
-.PartyBadge[data-party="vinstri-hreyfingin-graent-frambod"] {
+.PartyBadge[data-party='vinstri-hreyfingin-graent-frambod'] {
   background-size: 60%;
   background-position: 45% 50%;
 }
