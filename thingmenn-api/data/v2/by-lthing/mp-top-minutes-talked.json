@@ -2028,7 +2028,7 @@
 				"name": "Ásta R. Jóhannesdóttir",
 				"partyId": 38
 			},
-			"minutesTalked": 153.37
+			"minutesTalked": 154.13
 		},
 		{
 			"mp": {
@@ -3554,7 +3554,7 @@
 				"name": "Ásta R. Jóhannesdóttir",
 				"partyId": 38
 			},
-			"minutesTalked": 99.96
+			"minutesTalked": 100.26
 		},
 		{
 			"mp": {
@@ -3752,17 +3752,17 @@
 		},
 		{
 			"mp": {
-				"id": 704,
-				"name": "Guðmundur Steingrímsson",
-				"partyId": 44
+				"id": 687,
+				"name": "Illugi Gunnarsson",
+				"partyId": 35
 			},
 			"minutesTalked": 104.02
 		},
 		{
 			"mp": {
-				"id": 687,
-				"name": "Illugi Gunnarsson",
-				"partyId": 35
+				"id": 704,
+				"name": "Guðmundur Steingrímsson",
+				"partyId": 44
 			},
 			"minutesTalked": 104.02
 		},
@@ -3864,19 +3864,19 @@
 		},
 		{
 			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
+			},
+			"minutesTalked": 53.63
+		},
+		{
+			"mp": {
 				"id": 1170,
 				"name": "Líneik Anna Sævarsdóttir",
 				"partyId": 2
 			},
 			"minutesTalked": 52.88
-		},
-		{
-			"mp": {
-				"id": 124,
-				"name": "Einar K. Guðfinnsson",
-				"partyId": 35
-			},
-			"minutesTalked": 52.72
 		},
 		{
 			"mp": {
@@ -4462,7 +4462,7 @@
 				"name": "Einar K. Guðfinnsson",
 				"partyId": 35
 			},
-			"minutesTalked": 170.59
+			"minutesTalked": 170.99
 		},
 		{
 			"mp": {
@@ -4592,7 +4592,7 @@
 				"name": "Steingrímur J. Sigfússon",
 				"partyId": 23
 			},
-			"minutesTalked": 2407.07
+			"minutesTalked": 2407.53
 		},
 		{
 			"mp": {
@@ -4920,7 +4920,7 @@
 				"name": "Einar K. Guðfinnsson",
 				"partyId": 35
 			},
-			"minutesTalked": 270.87
+			"minutesTalked": 271.12
 		},
 		{
 			"mp": {
@@ -5378,7 +5378,7 @@
 				"name": "Björt Ólafsdóttir",
 				"partyId": 44
 			},
-			"minutesTalked": 340.44
+			"minutesTalked": 340.63
 		},
 		{
 			"mp": {
@@ -5502,19 +5502,19 @@
 		},
 		{
 			"mp": {
+				"id": 124,
+				"name": "Einar K. Guðfinnsson",
+				"partyId": 35
+			},
+			"minutesTalked": 231.4
+		},
+		{
+			"mp": {
 				"id": 1163,
 				"name": "Hanna Birna Kristjánsdóttir",
 				"partyId": 35
 			},
 			"minutesTalked": 230.62
-		},
-		{
-			"mp": {
-				"id": 124,
-				"name": "Einar K. Guðfinnsson",
-				"partyId": 35
-			},
-			"minutesTalked": 229.69
 		},
 		{
 			"mp": {
@@ -5586,7 +5586,7 @@
 				"name": "Þórunn Egilsdóttir",
 				"partyId": 2
 			},
-			"minutesTalked": 86.16
+			"minutesTalked": 86.91
 		}
 	],
 	"146": [
@@ -6052,7 +6052,7 @@
 				"name": "Unnur Brá Konráðsdóttir",
 				"partyId": 35
 			},
-			"minutesTalked": 71.87
+			"minutesTalked": 72.2
 		},
 		{
 			"mp": {
@@ -6474,16 +6474,64 @@
 		},
 		{
 			"mp": {
-				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson",
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson",
 				"partyId": 35
 			},
 			"minutesTalked": 0
 		},
 		{
 			"mp": {
-				"id": 1175,
-				"name": "Valgerður Gunnarsdóttir",
+				"id": 688,
+				"name": "Jón Gunnarsson",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 2
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson",
 				"partyId": 35
 			},
 			"minutesTalked": 0
@@ -6498,6 +6546,14 @@
 		},
 		{
 			"mp": {
+				"id": 1175,
+				"name": "Valgerður Gunnarsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
 				"id": 1177,
 				"name": "Vilhjálmur Bjarnason",
 				"partyId": 35
@@ -6506,8 +6562,16 @@
 		},
 		{
 			"mp": {
-				"id": 1160,
-				"name": "Brynjar Níelsson",
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 0
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson",
 				"partyId": 35
 			},
 			"minutesTalked": 0
@@ -6522,73 +6586,9 @@
 		},
 		{
 			"mp": {
-				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir",
-				"partyId": 23
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 691,
-				"name": "Kristján Þór Júlíusson",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 688,
-				"name": "Jón Gunnarsson",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 656,
-				"name": "Guðlaugur Þór Þórðarson",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 1157,
-				"name": "Ásmundur Friðriksson",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 1039,
-				"name": "Bryndís Haraldsdóttir",
-				"partyId": 35
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
 				"id": 1276,
 				"name": "Hanna Katrín Friðriksson",
 				"partyId": 45
-			},
-			"minutesTalked": 0
-		},
-		{
-			"mp": {
-				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson",
-				"partyId": 2
 			},
 			"minutesTalked": 0
 		}
@@ -6596,19 +6596,19 @@
 	"148": [
 		{
 			"mp": {
-				"id": 1166,
-				"name": "Helgi Hrafn Gunnarsson",
-				"partyId": 43
-			},
-			"minutesTalked": 752.84
-		},
-		{
-			"mp": {
 				"id": 1215,
 				"name": "Björn Leví Gunnarsson",
 				"partyId": 43
 			},
-			"minutesTalked": 646.69
+			"minutesTalked": 1028.21
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 970.21
 		},
 		{
 			"mp": {
@@ -6616,7 +6616,7 @@
 				"name": "Þorsteinn Víglundsson",
 				"partyId": 45
 			},
-			"minutesTalked": 573.5
+			"minutesTalked": 938.41
 		},
 		{
 			"mp": {
@@ -6624,15 +6624,7 @@
 				"name": "Bjarni Benediktsson",
 				"partyId": 35
 			},
-			"minutesTalked": 413.19
-		},
-		{
-			"mp": {
-				"id": 1334,
-				"name": "Ólafur Ísleifsson",
-				"partyId": 46
-			},
-			"minutesTalked": 329.45
+			"minutesTalked": 648.39
 		},
 		{
 			"mp": {
@@ -6640,7 +6632,15 @@
 				"name": "Willum Þór Þórsson",
 				"partyId": 2
 			},
-			"minutesTalked": 312.44
+			"minutesTalked": 629.99
+		},
+		{
+			"mp": {
+				"id": 1334,
+				"name": "Ólafur Ísleifsson",
+				"partyId": 46
+			},
+			"minutesTalked": 615.6
 		},
 		{
 			"mp": {
@@ -6648,7 +6648,7 @@
 				"name": "Þorsteinn Sæmundsson",
 				"partyId": 47
 			},
-			"minutesTalked": 297.01
+			"minutesTalked": 552.02
 		},
 		{
 			"mp": {
@@ -6656,79 +6656,7 @@
 				"name": "Smári McCarthy",
 				"partyId": 43
 			},
-			"minutesTalked": 294.57
-		},
-		{
-			"mp": {
-				"id": 719,
-				"name": "Oddný G. Harðardóttir",
-				"partyId": 38
-			},
-			"minutesTalked": 287.22
-		},
-		{
-			"mp": {
-				"id": 1250,
-				"name": "Jón Steindór Valdimarsson",
-				"partyId": 45
-			},
-			"minutesTalked": 262.28
-		},
-		{
-			"mp": {
-				"id": 1128,
-				"name": "Logi Einarsson",
-				"partyId": 38
-			},
-			"minutesTalked": 262.11
-		},
-		{
-			"mp": {
-				"id": 1129,
-				"name": "Birgir Þórarinsson",
-				"partyId": 47
-			},
-			"minutesTalked": 239.05
-		},
-		{
-			"mp": {
-				"id": 647,
-				"name": "Ágúst Ólafur Ágústsson",
-				"partyId": 38
-			},
-			"minutesTalked": 236.7
-		},
-		{
-			"mp": {
-				"id": 632,
-				"name": "Þorgerður K. Gunnarsdóttir",
-				"partyId": 45
-			},
-			"minutesTalked": 209.52
-		},
-		{
-			"mp": {
-				"id": 999,
-				"name": "Óli Björn Kárason",
-				"partyId": 35
-			},
-			"minutesTalked": 206.86
-		},
-		{
-			"mp": {
-				"id": 1012,
-				"name": "Bjarkey Olsen Gunnarsdóttir",
-				"partyId": 23
-			},
-			"minutesTalked": 206.16
-		},
-		{
-			"mp": {
-				"id": 1001,
-				"name": "Ólafur Þór Gunnarsson",
-				"partyId": 23
-			},
-			"minutesTalked": 200.49
+			"minutesTalked": 525.27
 		},
 		{
 			"mp": {
@@ -6736,31 +6664,71 @@
 				"name": "Gunnar Bragi Sveinsson",
 				"partyId": 47
 			},
-			"minutesTalked": 200.33
+			"minutesTalked": 506.05
 		},
 		{
 			"mp": {
-				"id": 726,
-				"name": "Sigurður Ingi Jóhannsson",
-				"partyId": 2
-			},
-			"minutesTalked": 197.27
-		},
-		{
-			"mp": {
-				"id": 1265,
-				"name": "Kolbeinn Óttarsson Proppé",
-				"partyId": 23
-			},
-			"minutesTalked": 196.15
-		},
-		{
-			"mp": {
-				"id": 729,
-				"name": "Sigmundur Davíð Gunnlaugsson",
+				"id": 1129,
+				"name": "Birgir Þórarinsson",
 				"partyId": 47
 			},
-			"minutesTalked": 194.49
+			"minutesTalked": 485.28
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 424.9
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 419.38
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason",
+				"partyId": 35
+			},
+			"minutesTalked": 412.81
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson",
+				"partyId": 38
+			},
+			"minutesTalked": 384.76
+		},
+		{
+			"mp": {
+				"id": 1001,
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
+			},
+			"minutesTalked": 377.78
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
+			},
+			"minutesTalked": 359.47
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 355.29
 		},
 		{
 			"mp": {
@@ -6768,39 +6736,23 @@
 				"name": "Helga Vala Helgadóttir",
 				"partyId": 38
 			},
-			"minutesTalked": 188.32
+			"minutesTalked": 351.72
 		},
 		{
 			"mp": {
-				"id": 730,
-				"name": "Svandís Svavarsdóttir",
-				"partyId": 23
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
 			},
-			"minutesTalked": 187.17
+			"minutesTalked": 349.48
 		},
 		{
 			"mp": {
-				"id": 1174,
-				"name": "Silja Dögg Gunnarsdóttir",
-				"partyId": 2
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 47
 			},
-			"minutesTalked": 170.73
-		},
-		{
-			"mp": {
-				"id": 690,
-				"name": "Katrín Jakobsdóttir",
-				"partyId": 23
-			},
-			"minutesTalked": 169.43
-		},
-		{
-			"mp": {
-				"id": 1218,
-				"name": "Halldóra Mogensen",
-				"partyId": 43
-			},
-			"minutesTalked": 168
+			"minutesTalked": 340.7
 		},
 		{
 			"mp": {
@@ -6808,71 +6760,15 @@
 				"name": "Sigríður Á. Andersen",
 				"partyId": 35
 			},
-			"minutesTalked": 163.33
+			"minutesTalked": 334.48
 		},
 		{
 			"mp": {
-				"id": 707,
-				"name": "Ásmundur Einar Daðason",
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson",
 				"partyId": 2
 			},
-			"minutesTalked": 149.61
-		},
-		{
-			"mp": {
-				"id": 1270,
-				"name": "Þórhildur Sunna Ævarsdóttir",
-				"partyId": 43
-			},
-			"minutesTalked": 142.82
-		},
-		{
-			"mp": {
-				"id": 1276,
-				"name": "Hanna Katrín Friðriksson",
-				"partyId": 45
-			},
-			"minutesTalked": 141.84
-		},
-		{
-			"mp": {
-				"id": 1168,
-				"name": "Jón Þór Ólafsson",
-				"partyId": 43
-			},
-			"minutesTalked": 141.62
-		},
-		{
-			"mp": {
-				"id": 1249,
-				"name": "Ari Trausti Guðmundsson",
-				"partyId": 23
-			},
-			"minutesTalked": 141.17
-		},
-		{
-			"mp": {
-				"id": 1039,
-				"name": "Bryndís Haraldsdóttir",
-				"partyId": 35
-			},
-			"minutesTalked": 140.35
-		},
-		{
-			"mp": {
-				"id": 1333,
-				"name": "Karl Gauti Hjaltason",
-				"partyId": 46
-			},
-			"minutesTalked": 138.84
-		},
-		{
-			"mp": {
-				"id": 1257,
-				"name": "Guðjón S. Brjánsson",
-				"partyId": 38
-			},
-			"minutesTalked": 129.06
+			"minutesTalked": 330.45
 		},
 		{
 			"mp": {
@@ -6880,87 +6776,71 @@
 				"name": "Bergþór Ólason",
 				"partyId": 47
 			},
-			"minutesTalked": 128.63
+			"minutesTalked": 328.29
 		},
 		{
 			"mp": {
-				"id": 1329,
-				"name": "Guðmundur Ingi Kristinsson",
+				"id": 690,
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 325.06
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 316.02
+		},
+		{
+			"mp": {
+				"id": 1333,
+				"name": "Karl Gauti Hjaltason",
 				"partyId": 46
 			},
-			"minutesTalked": 118.83
+			"minutesTalked": 304.3
 		},
 		{
 			"mp": {
-				"id": 1332,
-				"name": "Inga Sæland",
-				"partyId": 46
-			},
-			"minutesTalked": 114.29
-		},
-		{
-			"mp": {
-				"id": 1031,
-				"name": "Steinunn Þóra Árnadóttir",
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé",
 				"partyId": 23
 			},
-			"minutesTalked": 109.36
+			"minutesTalked": 285.29
 		},
 		{
 			"mp": {
-				"id": 1328,
-				"name": "Guðmundur Andri Thorsson",
-				"partyId": 38
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
 			},
-			"minutesTalked": 109.31
+			"minutesTalked": 277.8
 		},
 		{
 			"mp": {
-				"id": 1324,
-				"name": "Albertína Friðbjörg Elíasdóttir",
-				"partyId": 38
+				"id": 1218,
+				"name": "Halldóra Mogensen",
+				"partyId": 43
 			},
-			"minutesTalked": 103.53
+			"minutesTalked": 259.34
 		},
 		{
 			"mp": {
-				"id": 1203,
-				"name": "Sigurður Páll Jónsson",
-				"partyId": 47
+				"id": 707,
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
 			},
-			"minutesTalked": 100.23
+			"minutesTalked": 258.37
 		},
 		{
 			"mp": {
-				"id": 1252,
-				"name": "Þórdís Kolbrún R. Gylfadóttir",
-				"partyId": 35
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
 			},
-			"minutesTalked": 91.33
-		},
-		{
-			"mp": {
-				"id": 1234,
-				"name": "Andrés Ingi Jónsson",
-				"partyId": 23
-			},
-			"minutesTalked": 88.7
-		},
-		{
-			"mp": {
-				"id": 1160,
-				"name": "Brynjar Níelsson",
-				"partyId": 35
-			},
-			"minutesTalked": 88.26
-		},
-		{
-			"mp": {
-				"id": 714,
-				"name": "Lilja Rafney Magnúsdóttir",
-				"partyId": 23
-			},
-			"minutesTalked": 86.78
+			"minutesTalked": 252.62
 		},
 		{
 			"mp": {
@@ -6968,103 +6848,71 @@
 				"name": "Líneik Anna Sævarsdóttir",
 				"partyId": 2
 			},
-			"minutesTalked": 85.45
+			"minutesTalked": 242.89
 		},
 		{
 			"mp": {
-				"id": 1244,
-				"name": "Lilja Alfreðsdóttir",
-				"partyId": 2
+				"id": 1203,
+				"name": "Sigurður Páll Jónsson",
+				"partyId": 47
 			},
-			"minutesTalked": 80.91
+			"minutesTalked": 239.9
 		},
 		{
 			"mp": {
-				"id": 1164,
-				"name": "Haraldur Benediktsson",
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir",
 				"partyId": 35
 			},
-			"minutesTalked": 79.9
+			"minutesTalked": 238.6
 		},
 		{
 			"mp": {
-				"id": 557,
-				"name": "Steingrímur J. Sigfússon",
+				"id": 1328,
+				"name": "Guðmundur Andri Thorsson",
+				"partyId": 38
+			},
+			"minutesTalked": 233.61
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 231.95
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
+			},
+			"minutesTalked": 231.09
+		},
+		{
+			"mp": {
+				"id": 1329,
+				"name": "Guðmundur Ingi Kristinsson",
+				"partyId": 46
+			},
+			"minutesTalked": 231.08
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir",
 				"partyId": 23
 			},
-			"minutesTalked": 78.18
+			"minutesTalked": 230.5
 		},
 		{
 			"mp": {
-				"id": 688,
-				"name": "Jón Gunnarsson",
-				"partyId": 35
+				"id": 1168,
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
 			},
-			"minutesTalked": 77.81
-		},
-		{
-			"mp": {
-				"id": 650,
-				"name": "Birgir Ármannsson",
-				"partyId": 35
-			},
-			"minutesTalked": 77.3
-		},
-		{
-			"mp": {
-				"id": 1255,
-				"name": "Njáll Trausti Friðbertsson",
-				"partyId": 35
-			},
-			"minutesTalked": 72.02
-		},
-		{
-			"mp": {
-				"id": 1180,
-				"name": "Þórunn Egilsdóttir",
-				"partyId": 2
-			},
-			"minutesTalked": 67.69
-		},
-		{
-			"mp": {
-				"id": 1261,
-				"name": "Áslaug Arna Sigurbjörnsdóttir",
-				"partyId": 35
-			},
-			"minutesTalked": 64.23
-		},
-		{
-			"mp": {
-				"id": 1183,
-				"name": "Rósa Björk Brynjólfsdóttir",
-				"partyId": 23
-			},
-			"minutesTalked": 51.41
-		},
-		{
-			"mp": {
-				"id": 1157,
-				"name": "Ásmundur Friðriksson",
-				"partyId": 35
-			},
-			"minutesTalked": 50.48
-		},
-		{
-			"mp": {
-				"id": 1176,
-				"name": "Vilhjálmur Árnason",
-				"partyId": 35
-			},
-			"minutesTalked": 44.7
-		},
-		{
-			"mp": {
-				"id": 691,
-				"name": "Kristján Þór Júlíusson",
-				"partyId": 35
-			},
-			"minutesTalked": 43.36
+			"minutesTalked": 223.45
 		},
 		{
 			"mp": {
@@ -7072,15 +6920,143 @@
 				"name": "Guðlaugur Þór Þórðarson",
 				"partyId": 35
 			},
-			"minutesTalked": 42.29
+			"minutesTalked": 222.75
 		},
 		{
 			"mp": {
-				"id": 1326,
-				"name": "Anna Kolbrún Árnadóttir",
-				"partyId": 47
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
 			},
-			"minutesTalked": 37.15
+			"minutesTalked": 221.85
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
+			},
+			"minutesTalked": 198.67
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 196.03
+		},
+		{
+			"mp": {
+				"id": 1324,
+				"name": "Albertína Friðbjörg Elíasdóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 185.51
+		},
+		{
+			"mp": {
+				"id": 1332,
+				"name": "Inga Sæland",
+				"partyId": 46
+			},
+			"minutesTalked": 185.32
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
+			},
+			"minutesTalked": 181.95
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
+			},
+			"minutesTalked": 179.15
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 163.49
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 157.71
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
+			},
+			"minutesTalked": 146.07
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
+			},
+			"minutesTalked": 134.38
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson",
+				"partyId": 35
+			},
+			"minutesTalked": 120.45
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 113.88
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
+			},
+			"minutesTalked": 112.56
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson",
+				"partyId": 35
+			},
+			"minutesTalked": 111.42
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 106.83
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson",
+				"partyId": 35
+			},
+			"minutesTalked": 105.46
 		},
 		{
 			"mp": {
@@ -7088,7 +7064,31 @@
 				"name": "Halla Signý Kristjánsdóttir",
 				"partyId": 2
 			},
-			"minutesTalked": 26.57
+			"minutesTalked": 95.55
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 89.36
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 88.63
+		},
+		{
+			"mp": {
+				"id": 1326,
+				"name": "Anna Kolbrún Árnadóttir",
+				"partyId": 47
+			},
+			"minutesTalked": 79.72
 		},
 		{
 			"mp": {
@@ -7096,7 +7096,1533 @@
 				"name": "Páll Magnússon",
 				"partyId": 35
 			},
-			"minutesTalked": 20.46
+			"minutesTalked": 50.58
+		}
+	],
+	"149": [
+		{
+			"mp": {
+				"id": 1129,
+				"name": "Birgir Þórarinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 2468.81
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 47
+			},
+			"minutesTalked": 2192.34
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1614.68
+		},
+		{
+			"mp": {
+				"id": 1334,
+				"name": "Ólafur Ísleifsson",
+				"partyId": 46
+			},
+			"minutesTalked": 1544.94
+		},
+		{
+			"mp": {
+				"id": 1327,
+				"name": "Bergþór Ólason",
+				"partyId": 47
+			},
+			"minutesTalked": 1356.28
+		},
+		{
+			"mp": {
+				"id": 1254,
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
+			},
+			"minutesTalked": 1286.81
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1197.57
+		},
+		{
+			"mp": {
+				"id": 1215,
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 1186.74
+		},
+		{
+			"mp": {
+				"id": 1333,
+				"name": "Karl Gauti Hjaltason",
+				"partyId": 46
+			},
+			"minutesTalked": 1184.51
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
+			},
+			"minutesTalked": 973.67
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 908.74
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 906.28
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 896.37
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason",
+				"partyId": 35
+			},
+			"minutesTalked": 882.57
+		},
+		{
+			"mp": {
+				"id": 1331,
+				"name": "Helga Vala Helgadóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 873.47
+		},
+		{
+			"mp": {
+				"id": 1332,
+				"name": "Inga Sæland",
+				"partyId": 46
+			},
+			"minutesTalked": 858.34
+		},
+		{
+			"mp": {
+				"id": 1203,
+				"name": "Sigurður Páll Jónsson",
+				"partyId": 47
+			},
+			"minutesTalked": 834.34
+		},
+		{
+			"mp": {
+				"id": 1001,
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
+			},
+			"minutesTalked": 799.06
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 771.36
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 724.57
+		},
+		{
+			"mp": {
+				"id": 1329,
+				"name": "Guðmundur Ingi Kristinsson",
+				"partyId": 46
+			},
+			"minutesTalked": 715.77
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 695.69
+		},
+		{
+			"mp": {
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
+			},
+			"minutesTalked": 688.07
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
+			},
+			"minutesTalked": 656.47
+		},
+		{
+			"mp": {
+				"id": 1268,
+				"name": "Smári McCarthy",
+				"partyId": 43
+			},
+			"minutesTalked": 653.03
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson",
+				"partyId": 38
+			},
+			"minutesTalked": 645.15
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 607.57
+		},
+		{
+			"mp": {
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
+			},
+			"minutesTalked": 588.73
+		},
+		{
+			"mp": {
+				"id": 1326,
+				"name": "Anna Kolbrún Árnadóttir",
+				"partyId": 47
+			},
+			"minutesTalked": 574.07
+		},
+		{
+			"mp": {
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
+			},
+			"minutesTalked": 565.02
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
+			},
+			"minutesTalked": 553.63
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 550.52
+		},
+		{
+			"mp": {
+				"id": 1328,
+				"name": "Guðmundur Andri Thorsson",
+				"partyId": 38
+			},
+			"minutesTalked": 542.92
+		},
+		{
+			"mp": {
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
+			},
+			"minutesTalked": 534.86
+		},
+		{
+			"mp": {
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
+			},
+			"minutesTalked": 519.47
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
+			},
+			"minutesTalked": 493.82
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
+			},
+			"minutesTalked": 488.42
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 478.48
+		},
+		{
+			"mp": {
+				"id": 1330,
+				"name": "Halla Signý Kristjánsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 447.9
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 437.77
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
+			},
+			"minutesTalked": 432.81
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
+			},
+			"minutesTalked": 425.97
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 425.05
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
+			},
+			"minutesTalked": 407.12
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
+			},
+			"minutesTalked": 406.42
+		},
+		{
+			"mp": {
+				"id": 1324,
+				"name": "Albertína Friðbjörg Elíasdóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 387.28
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson",
+				"partyId": 35
+			},
+			"minutesTalked": 387
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 375.77
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
+			},
+			"minutesTalked": 364.35
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
+			},
+			"minutesTalked": 345.26
+		},
+		{
+			"mp": {
+				"id": 1218,
+				"name": "Halldóra Mogensen",
+				"partyId": 43
+			},
+			"minutesTalked": 335.23
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 333.59
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 322.22
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
+			},
+			"minutesTalked": 302.55
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 272.4
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
+			},
+			"minutesTalked": 257.24
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
+			},
+			"minutesTalked": 255.54
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 254.65
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 253.52
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson",
+				"partyId": 35
+			},
+			"minutesTalked": 252.03
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson",
+				"partyId": 35
+			},
+			"minutesTalked": 226.83
+		},
+		{
+			"mp": {
+				"id": 1266,
+				"name": "Páll Magnússon",
+				"partyId": 35
+			},
+			"minutesTalked": 214.08
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 151.9
+		}
+	],
+	"150": [
+		{
+			"mp": {
+				"id": 1129,
+				"name": "Birgir Þórarinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1849.21
+		},
+		{
+			"mp": {
+				"id": 1329,
+				"name": "Guðmundur Ingi Kristinsson",
+				"partyId": 46
+			},
+			"minutesTalked": 1498.89
+		},
+		{
+			"mp": {
+				"id": 1215,
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 1435.32
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 1230.65
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 1152.58
+		},
+		{
+			"mp": {
+				"id": 1333,
+				"name": "Karl Gauti Hjaltason",
+				"partyId": 47
+			},
+			"minutesTalked": 1040.53
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1005.96
+		},
+		{
+			"mp": {
+				"id": 1331,
+				"name": "Helga Vala Helgadóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 932.59
+		},
+		{
+			"mp": {
+				"id": 1001,
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
+			},
+			"minutesTalked": 792.82
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
+			},
+			"minutesTalked": 779.94
+		},
+		{
+			"mp": {
+				"id": 1254,
+				"name": "Þorsteinn Víglundsson",
+				"partyId": 45
+			},
+			"minutesTalked": 766.33
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
+			},
+			"minutesTalked": 741.02
+		},
+		{
+			"mp": {
+				"id": 1327,
+				"name": "Bergþór Ólason",
+				"partyId": 47
+			},
+			"minutesTalked": 691.69
+		},
+		{
+			"mp": {
+				"id": 1332,
+				"name": "Inga Sæland",
+				"partyId": 46
+			},
+			"minutesTalked": 677.6
+		},
+		{
+			"mp": {
+				"id": 1334,
+				"name": "Ólafur Ísleifsson",
+				"partyId": 47
+			},
+			"minutesTalked": 663.67
+		},
+		{
+			"mp": {
+				"id": 1203,
+				"name": "Sigurður Páll Jónsson",
+				"partyId": 47
+			},
+			"minutesTalked": 659.42
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson",
+				"partyId": 38
+			},
+			"minutesTalked": 657.58
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 651.1
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 637.75
+		},
+		{
+			"mp": {
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
+			},
+			"minutesTalked": 620.39
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 617.48
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 47
+			},
+			"minutesTalked": 594.64
+		},
+		{
+			"mp": {
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
+			},
+			"minutesTalked": 591.71
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 591.36
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 587.31
+		},
+		{
+			"mp": {
+				"id": 1268,
+				"name": "Smári McCarthy",
+				"partyId": 43
+			},
+			"minutesTalked": 581.89
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 23
+			},
+			"minutesTalked": 552.98
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
+			},
+			"minutesTalked": 551.16
+		},
+		{
+			"mp": {
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
+			},
+			"minutesTalked": 546.41
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
+			},
+			"minutesTalked": 538.2
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason",
+				"partyId": 35
+			},
+			"minutesTalked": 519.4
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 509.16
+		},
+		{
+			"mp": {
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
+			},
+			"minutesTalked": 496.71
+		},
+		{
+			"mp": {
+				"id": 1326,
+				"name": "Anna Kolbrún Árnadóttir",
+				"partyId": 47
+			},
+			"minutesTalked": 454.58
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 440.67
+		},
+		{
+			"mp": {
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
+			},
+			"minutesTalked": 439.94
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
+			},
+			"minutesTalked": 434.93
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
+			},
+			"minutesTalked": 433.8
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 426.32
+		},
+		{
+			"mp": {
+				"id": 1330,
+				"name": "Halla Signý Kristjánsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 414.02
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
+			},
+			"minutesTalked": 370.55
+		},
+		{
+			"mp": {
+				"id": 1218,
+				"name": "Halldóra Mogensen",
+				"partyId": 43
+			},
+			"minutesTalked": 369.86
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 360.08
+		},
+		{
+			"mp": {
+				"id": 1328,
+				"name": "Guðmundur Andri Thorsson",
+				"partyId": 38
+			},
+			"minutesTalked": 352.67
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 348.13
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 347.78
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 336.81
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
+			},
+			"minutesTalked": 316.9
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 251.38
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
+			},
+			"minutesTalked": 245.81
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 238.87
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
+			},
+			"minutesTalked": 238.51
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
+			},
+			"minutesTalked": 232.89
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson",
+				"partyId": 35
+			},
+			"minutesTalked": 229.54
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
+			},
+			"minutesTalked": 228.5
+		},
+		{
+			"mp": {
+				"id": 1387,
+				"name": "Þorbjörg Sigríður Gunnlaugsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 225.74
+		},
+		{
+			"mp": {
+				"id": 1324,
+				"name": "Albertína Friðbjörg Elíasdóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 214.24
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson",
+				"partyId": 35
+			},
+			"minutesTalked": 202.91
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 201.94
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
+			},
+			"minutesTalked": 197.08
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 173.54
+		},
+		{
+			"mp": {
+				"id": 1266,
+				"name": "Páll Magnússon",
+				"partyId": 35
+			},
+			"minutesTalked": 142.55
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson",
+				"partyId": 35
+			},
+			"minutesTalked": 75.52
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 21.9
+		}
+	],
+	"151": [
+		{
+			"mp": {
+				"id": 1129,
+				"name": "Birgir Þórarinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1640.1
+		},
+		{
+			"mp": {
+				"id": 1329,
+				"name": "Guðmundur Ingi Kristinsson",
+				"partyId": 46
+			},
+			"minutesTalked": 1387.89
+		},
+		{
+			"mp": {
+				"id": 1215,
+				"name": "Björn Leví Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 1293.41
+		},
+		{
+			"mp": {
+				"id": 652,
+				"name": "Bjarni Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 1089.82
+		},
+		{
+			"mp": {
+				"id": 1166,
+				"name": "Helgi Hrafn Gunnarsson",
+				"partyId": 43
+			},
+			"minutesTalked": 1067.7
+		},
+		{
+			"mp": {
+				"id": 1179,
+				"name": "Þorsteinn Sæmundsson",
+				"partyId": 47
+			},
+			"minutesTalked": 1043.07
+		},
+		{
+			"mp": {
+				"id": 1327,
+				"name": "Bergþór Ólason",
+				"partyId": 47
+			},
+			"minutesTalked": 1017.75
+		},
+		{
+			"mp": {
+				"id": 1234,
+				"name": "Andrés Ingi Jónsson",
+				"partyId": 17
+			},
+			"minutesTalked": 1016.18
+		},
+		{
+			"mp": {
+				"id": 729,
+				"name": "Sigmundur Davíð Gunnlaugsson",
+				"partyId": 47
+			},
+			"minutesTalked": 864.46
+		},
+		{
+			"mp": {
+				"id": 1333,
+				"name": "Karl Gauti Hjaltason",
+				"partyId": 47
+			},
+			"minutesTalked": 844.88
+		},
+		{
+			"mp": {
+				"id": 1250,
+				"name": "Jón Steindór Valdimarsson",
+				"partyId": 45
+			},
+			"minutesTalked": 814.82
+		},
+		{
+			"mp": {
+				"id": 1334,
+				"name": "Ólafur Ísleifsson",
+				"partyId": 47
+			},
+			"minutesTalked": 784.95
+		},
+		{
+			"mp": {
+				"id": 730,
+				"name": "Svandís Svavarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 780.82
+		},
+		{
+			"mp": {
+				"id": 719,
+				"name": "Oddný G. Harðardóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 763.05
+		},
+		{
+			"mp": {
+				"id": 1257,
+				"name": "Guðjón S. Brjánsson",
+				"partyId": 38
+			},
+			"minutesTalked": 735.49
+		},
+		{
+			"mp": {
+				"id": 1268,
+				"name": "Smári McCarthy",
+				"partyId": 43
+			},
+			"minutesTalked": 679.78
+		},
+		{
+			"mp": {
+				"id": 1332,
+				"name": "Inga Sæland",
+				"partyId": 46
+			},
+			"minutesTalked": 669.16
+		},
+		{
+			"mp": {
+				"id": 1203,
+				"name": "Sigurður Páll Jónsson",
+				"partyId": 47
+			},
+			"minutesTalked": 655.75
+		},
+		{
+			"mp": {
+				"id": 1039,
+				"name": "Bryndís Haraldsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 651.29
+		},
+		{
+			"mp": {
+				"id": 632,
+				"name": "Þorgerður K. Gunnarsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 649.22
+		},
+		{
+			"mp": {
+				"id": 1387,
+				"name": "Þorbjörg Sigríður Gunnlaugsdóttir",
+				"partyId": 45
+			},
+			"minutesTalked": 642.91
+		},
+		{
+			"mp": {
+				"id": 1331,
+				"name": "Helga Vala Helgadóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 640.32
+		},
+		{
+			"mp": {
+				"id": 690,
+				"name": "Katrín Jakobsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 634.26
+		},
+		{
+			"mp": {
+				"id": 1178,
+				"name": "Willum Þór Þórsson",
+				"partyId": 2
+			},
+			"minutesTalked": 621.17
+		},
+		{
+			"mp": {
+				"id": 1183,
+				"name": "Rósa Björk Brynjólfsdóttir",
+				"partyId": 17
+			},
+			"minutesTalked": 590.45
+		},
+		{
+			"mp": {
+				"id": 1001,
+				"name": "Ólafur Þór Gunnarsson",
+				"partyId": 23
+			},
+			"minutesTalked": 585.95
+		},
+		{
+			"mp": {
+				"id": 1328,
+				"name": "Guðmundur Andri Thorsson",
+				"partyId": 38
+			},
+			"minutesTalked": 568.9
+		},
+		{
+			"mp": {
+				"id": 1276,
+				"name": "Hanna Katrín Friðriksson",
+				"partyId": 45
+			},
+			"minutesTalked": 549.11
+		},
+		{
+			"mp": {
+				"id": 1160,
+				"name": "Brynjar Níelsson",
+				"partyId": 35
+			},
+			"minutesTalked": 480.76
+		},
+		{
+			"mp": {
+				"id": 707,
+				"name": "Ásmundur Einar Daðason",
+				"partyId": 2
+			},
+			"minutesTalked": 471.51
+		},
+		{
+			"mp": {
+				"id": 1249,
+				"name": "Ari Trausti Guðmundsson",
+				"partyId": 23
+			},
+			"minutesTalked": 468.05
+		},
+		{
+			"mp": {
+				"id": 722,
+				"name": "Gunnar Bragi Sveinsson",
+				"partyId": 47
+			},
+			"minutesTalked": 446.83
+		},
+		{
+			"mp": {
+				"id": 1012,
+				"name": "Bjarkey Olsen Gunnarsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 429.39
+		},
+		{
+			"mp": {
+				"id": 1326,
+				"name": "Anna Kolbrún Árnadóttir",
+				"partyId": 47
+			},
+			"minutesTalked": 426.9
+		},
+		{
+			"mp": {
+				"id": 650,
+				"name": "Birgir Ármannsson",
+				"partyId": 35
+			},
+			"minutesTalked": 424.16
+		},
+		{
+			"mp": {
+				"id": 1261,
+				"name": "Áslaug Arna Sigurbjörnsdóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 413.51
+		},
+		{
+			"mp": {
+				"id": 647,
+				"name": "Ágúst Ólafur Ágústsson",
+				"partyId": 38
+			},
+			"minutesTalked": 389.36
+		},
+		{
+			"mp": {
+				"id": 557,
+				"name": "Steingrímur J. Sigfússon",
+				"partyId": 23
+			},
+			"minutesTalked": 388.14
+		},
+		{
+			"mp": {
+				"id": 1330,
+				"name": "Halla Signý Kristjánsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 377.19
+		},
+		{
+			"mp": {
+				"id": 1018,
+				"name": "Sigríður Á. Andersen",
+				"partyId": 35
+			},
+			"minutesTalked": 372.59
+		},
+		{
+			"mp": {
+				"id": 1170,
+				"name": "Líneik Anna Sævarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 370.91
+		},
+		{
+			"mp": {
+				"id": 1265,
+				"name": "Kolbeinn Óttarsson Proppé",
+				"partyId": 23
+			},
+			"minutesTalked": 365.61
+		},
+		{
+			"mp": {
+				"id": 1128,
+				"name": "Logi Einarsson",
+				"partyId": 38
+			},
+			"minutesTalked": 358.83
+		},
+		{
+			"mp": {
+				"id": 726,
+				"name": "Sigurður Ingi Jóhannsson",
+				"partyId": 2
+			},
+			"minutesTalked": 343.32
+		},
+		{
+			"mp": {
+				"id": 1255,
+				"name": "Njáll Trausti Friðbertsson",
+				"partyId": 35
+			},
+			"minutesTalked": 333.15
+		},
+		{
+			"mp": {
+				"id": 1174,
+				"name": "Silja Dögg Gunnarsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 328.59
+		},
+		{
+			"mp": {
+				"id": 656,
+				"name": "Guðlaugur Þór Þórðarson",
+				"partyId": 35
+			},
+			"minutesTalked": 319.8
+		},
+		{
+			"mp": {
+				"id": 1252,
+				"name": "Þórdís Kolbrún R. Gylfadóttir",
+				"partyId": 35
+			},
+			"minutesTalked": 309.83
+		},
+		{
+			"mp": {
+				"id": 999,
+				"name": "Óli Björn Kárason",
+				"partyId": 35
+			},
+			"minutesTalked": 306.73
+		},
+		{
+			"mp": {
+				"id": 1244,
+				"name": "Lilja Alfreðsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 295.66
+		},
+		{
+			"mp": {
+				"id": 1031,
+				"name": "Steinunn Þóra Árnadóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 294.05
+		},
+		{
+			"mp": {
+				"id": 1270,
+				"name": "Þórhildur Sunna Ævarsdóttir",
+				"partyId": 43
+			},
+			"minutesTalked": 286.73
+		},
+		{
+			"mp": {
+				"id": 1176,
+				"name": "Vilhjálmur Árnason",
+				"partyId": 35
+			},
+			"minutesTalked": 278.4
+		},
+		{
+			"mp": {
+				"id": 714,
+				"name": "Lilja Rafney Magnúsdóttir",
+				"partyId": 23
+			},
+			"minutesTalked": 275.32
+		},
+		{
+			"mp": {
+				"id": 1168,
+				"name": "Jón Þór Ólafsson",
+				"partyId": 43
+			},
+			"minutesTalked": 238.22
+		},
+		{
+			"mp": {
+				"id": 1164,
+				"name": "Haraldur Benediktsson",
+				"partyId": 35
+			},
+			"minutesTalked": 234.46
+		},
+		{
+			"mp": {
+				"id": 691,
+				"name": "Kristján Þór Júlíusson",
+				"partyId": 35
+			},
+			"minutesTalked": 225.65
+		},
+		{
+			"mp": {
+				"id": 1157,
+				"name": "Ásmundur Friðriksson",
+				"partyId": 35
+			},
+			"minutesTalked": 198.71
+		},
+		{
+			"mp": {
+				"id": 1324,
+				"name": "Albertína Friðbjörg Elíasdóttir",
+				"partyId": 38
+			},
+			"minutesTalked": 162.72
+		},
+		{
+			"mp": {
+				"id": 1218,
+				"name": "Halldóra Mogensen",
+				"partyId": 43
+			},
+			"minutesTalked": 139.35
+		},
+		{
+			"mp": {
+				"id": 688,
+				"name": "Jón Gunnarsson",
+				"partyId": 35
+			},
+			"minutesTalked": 111.65
+		},
+		{
+			"mp": {
+				"id": 1266,
+				"name": "Páll Magnússon",
+				"partyId": 35
+			},
+			"minutesTalked": 105.95
+		},
+		{
+			"mp": {
+				"id": 1180,
+				"name": "Þórunn Egilsdóttir",
+				"partyId": 2
+			},
+			"minutesTalked": 74.73
 		}
 	]
 }
