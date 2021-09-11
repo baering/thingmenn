@@ -2,9 +2,7 @@ import { fetchXml } from '../../utility/xml'
 
 import { writeToFile } from '../../utility/file'
 
-import {
-  urlForClassifications,
-} from '../urls'
+import { urlForClassifications } from '../urls'
 
 function parseWordsInClassification(classificationTitleAttribute) {
   const words = classificationTitleAttribute.replace('þ.m.t. ', '')
@@ -18,13 +16,13 @@ function parseClassifications(xml) {
   const sections = []
   const subjects = []
 
-  xml.efnisflokkar.yfirflokkur.forEach(section => {
+  xml.efnisflokkar.yfirflokkur.forEach((section) => {
     sections.push({
       id: section.$.id,
       name: section.heiti[0],
     })
 
-    section.efnisflokkur.forEach(classification => {
+    section.efnisflokkur.forEach((classification) => {
       subjects.push({
         id: classification.$.id,
         name: classification.heiti[0],

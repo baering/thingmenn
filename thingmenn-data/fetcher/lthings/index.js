@@ -1,8 +1,6 @@
 import { fetchXml } from '../../utility/xml'
 import { writeToFile } from '../../utility/file'
-import {
-  urlForLthings,
-} from '../urls'
+import { urlForLthings } from '../urls'
 
 function parseLthing(xml) {
   return {
@@ -14,7 +12,7 @@ function parseLthing(xml) {
 }
 
 function parseLthings(xml) {
-  return xml.löggjafarþing.þing.map(lthing => parseLthing(lthing))
+  return xml.löggjafarþing.þing.map((lthing) => parseLthing(lthing))
 }
 
 async function fetchLthings() {

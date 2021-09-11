@@ -1,22 +1,22 @@
-import { fetchXml } from "../../utility/xml";
-import { writeToFile } from "../../utility/file";
-import { urlForMpsInLthing, urlForMpLthings, urlForMpHistory } from "../urls";
-import { fetchExistingData } from "../utils";
+import { fetchXml } from '../../utility/xml'
+import { writeToFile } from '../../utility/file'
+import { urlForMpsInLthing, urlForMpLthings, urlForMpHistory } from '../urls'
+import { fetchExistingData } from '../utils'
 
-const letters = "abcdefghijklmnoprstuvwxyz";
+const letters = 'abcdefghijklmnoprstuvwxyz'
 
 const icelandicLetterToAscii = {
-  á: "a",
-  ð: "d",
-  é: "e",
-  í: "i",
-  ó: "o",
-  ú: "u",
-  ý: "y",
-  þ: "th",
-  æ: "ae",
-  ö: "o",
-};
+  á: 'a',
+  ð: 'd',
+  é: 'e',
+  í: 'i',
+  ó: 'o',
+  ú: 'u',
+  ý: 'y',
+  þ: 'th',
+  æ: 'ae',
+  ö: 'o',
+}
 
 // const partyNameToSlug = {
 //   'Björt framtíð': 'bjort-framtid',
@@ -28,70 +28,70 @@ const icelandicLetterToAscii = {
 // }
 
 function generateSlug(mpName) {
-  const nameLowerCased = mpName.toLowerCase();
+  const nameLowerCased = mpName.toLowerCase()
   return nameLowerCased
-    .split("")
+    .split('')
     .map((letter) => {
-      if (letter === " ") {
-        return "_";
+      if (letter === ' ') {
+        return '_'
       }
       if (icelandicLetterToAscii[letter]) {
-        return icelandicLetterToAscii[letter];
+        return icelandicLetterToAscii[letter]
       }
       if (letters.indexOf(letter) !== -1) {
-        return letter;
+        return letter
       }
-      return "\n";
+      return '\n'
     })
-    .filter((letter) => letter !== "\n")
-    .join("");
+    .filter((letter) => letter !== '\n')
+    .join('')
 }
 
 function parseMpXmlBaseInfo(xml) {
-  const mpId = parseInt(xml.$.id, 10);
-  const mpName = xml.nafn[0];
-  const slug = generateSlug(mpName);
+  const mpId = parseInt(xml.$.id, 10)
+  const mpName = xml.nafn[0]
+  const slug = generateSlug(mpName)
 
   return {
     id: mpId,
     mpName,
     slug,
     imagePath: `http://www.althingi.is/myndir/thingmenn-cache/${mpId}/${mpId}-220.jpg`,
-  };
+  }
 }
 
 function parseMpLthingXmlDetails(xml, lthing) {
   for (const currentLthingInfo of xml.þingmaður.þingsetur[0].þingseta) {
-    const currentLthing = parseInt(currentLthingInfo.þing[0], 10);
+    const currentLthing = parseInt(currentLthingInfo.þing[0], 10)
 
     if (currentLthing === lthing) {
       return {
         partyId: parseInt(currentLthingInfo.þingflokkur[0].$.id, 10),
-        isSubstitute: currentLthingInfo.tegund.indexOf("varamaður") !== -1,
+        isSubstitute: currentLthingInfo.tegund.indexOf('varamaður') !== -1,
         constituencyId: parseInt(currentLthingInfo.kjördæmi[0].$.id, 10),
-      };
+      }
     }
   }
 
-  return {};
+  return {}
 }
 
 async function fetchMpLthingInfo(mpId, lthing) {
-  const url = urlForMpLthings(mpId);
-  const xml = await fetchXml(url);
-  return parseMpLthingXmlDetails(xml, lthing);
+  const url = urlForMpLthings(mpId)
+  const xml = await fetchXml(url)
+  return parseMpLthingXmlDetails(xml, lthing)
 }
 
 function formDescriptionFromKeys(mpHistory, keys) {
   return keys
     .reduce((description, key) => {
-      const keyValue = mpHistory[key].trim();
+      const keyValue = mpHistory[key].trim()
       if (description.length > 0) {
-        return `${description} ${keyValue}`;
+        return `${description} ${keyValue}`
       }
-      return keyValue;
-    }, "")
-    .trim();
+      return keyValue
+    }, '')
+    .trim()
 }
 
 function parseMpHistoryDetails(xml) {
@@ -102,7 +102,7 @@ function parseMpHistoryDetails(xml) {
     þingmennska,
     varaþingmennska,
     ráðherra,
-  } = xml.þingmaður.lífshlaup[0];
+  } = xml.þingmaður.lífshlaup[0]
 
   const history = {
     education: menntun[0],
@@ -111,85 +111,85 @@ function parseMpHistoryDetails(xml) {
     asMp: þingmennska[0],
     asSubstitudeMp: varaþingmennska[0],
     asMinister: ráðherra[0],
-  };
+  }
 
   return {
     asPerson: formDescriptionFromKeys(history, [
-      "education",
-      "career",
-      "social",
+      'education',
+      'career',
+      'social',
     ]),
     asMp: formDescriptionFromKeys(history, [
-      "asSubstitudeMp",
-      "asMp",
-      "asMinister",
+      'asSubstitudeMp',
+      'asMp',
+      'asMinister',
     ]),
-  };
+  }
 }
 
 async function fetchMpHistory(mpId) {
-  const url = urlForMpHistory(mpId);
-  const xml = await fetchXml(url);
-  return parseMpHistoryDetails(xml);
+  const url = urlForMpHistory(mpId)
+  const xml = await fetchXml(url)
+  return parseMpHistoryDetails(xml)
 }
 
 async function getMpDetails(xml, lthing) {
-  const mpBaseInfo = parseMpXmlBaseInfo(xml, lthing);
-  const mpLthingInfo = await fetchMpLthingInfo(mpBaseInfo.id, lthing);
-  const mpHistory = await fetchMpHistory(mpBaseInfo.id);
+  const mpBaseInfo = parseMpXmlBaseInfo(xml, lthing)
+  const mpLthingInfo = await fetchMpLthingInfo(mpBaseInfo.id, lthing)
+  const mpHistory = await fetchMpHistory(mpBaseInfo.id)
 
   return {
     ...mpBaseInfo,
     lthings: [{ ...mpLthingInfo, lthing }],
     description: mpHistory,
-  };
+  }
 }
 
 async function fetch(lthings) {
   if (lthings.length === 0) {
-    throw new Error("no lthings in fetcher/mps");
+    throw new Error('no lthings in fetcher/mps')
   }
 
-  const resultFile = "data/v2/mps.json";
-  const existingData = fetchExistingData(resultFile, lthings);
+  const resultFile = 'data/v2/mps.json'
+  const existingData = fetchExistingData(resultFile, lthings)
 
-  const mps = {};
+  const mps = {}
 
   if (existingData) {
     existingData.forEach((mp) => {
-      mps[mp.id] = mp;
-    });
+      mps[mp.id] = mp
+    })
   }
 
   for (const lthing of lthings) {
-    const mpsUrl = urlForMpsInLthing(lthing);
-    const mpsAsXml = await fetchXml(mpsUrl);
+    const mpsUrl = urlForMpsInLthing(lthing)
+    const mpsAsXml = await fetchXml(mpsUrl)
 
     for (const mp of mpsAsXml.þingmannalisti.þingmaður) {
-      const details = await getMpDetails(mp, lthing);
+      const details = await getMpDetails(mp, lthing)
 
       if (!mps[details.id]) {
-        mps[details.id] = details;
+        mps[details.id] = details
       } else {
         if (mps[details.id].lthings === undefined) {
-          mps[details.id].lthings = [];
+          mps[details.id].lthings = []
         }
         // Always use the latest description
-        mps[details.id].description = details.description;
+        mps[details.id].description = details.description
 
         mps[details.id].lthings = mps[details.id].lthings.concat(
-          details.lthings
-        );
+          details.lthings,
+        )
       }
     }
   }
 
-  const mpIds = Object.keys(mps).map((mpId) => parseInt(mpId, 10));
+  const mpIds = Object.keys(mps).map((mpId) => parseInt(mpId, 10))
 
   const result = mpIds.map((mpId) => {
     const mpData = {
       ...mps[mpId],
-    };
+    }
 
     // Remove any duplicates should they exist
     mpData.lthings = mpData.lthings
@@ -197,38 +197,38 @@ async function fetch(lthings) {
         if (
           unique.find((existingItem) => existingItem.lthing === current.lthing)
         ) {
-          return unique;
+          return unique
         }
 
-        unique.push(current);
+        unique.push(current)
 
-        return unique;
+        return unique
       }, [])
-      .sort((a, b) => b.lthing - a.lthing);
+      .sort((a, b) => b.lthing - a.lthing)
 
-    return mpData;
-  });
+    return mpData
+  })
 
-  writeToFile(result, resultFile, true);
+  writeToFile(result, resultFile, true)
 
-  const mpsByLthing = {};
+  const mpsByLthing = {}
   for (const mp of result) {
     for (const lthingInfo of mp.lthings) {
-      const { lthing, partyId } = lthingInfo;
+      const { lthing, partyId } = lthingInfo
       if (mpsByLthing[lthing] === undefined) {
-        mpsByLthing[lthing] = [];
+        mpsByLthing[lthing] = []
       }
 
       mpsByLthing[lthing].push({
         id: mp.id,
         partyId,
-      });
+      })
     }
   }
 
-  writeToFile(mpsByLthing, "data/v2/mps-by-lthing.json", true);
+  writeToFile(mpsByLthing, 'data/v2/mps-by-lthing.json', true)
 
-  return result;
+  return result
 }
 
-export default fetch;
+export default fetch

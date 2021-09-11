@@ -35,7 +35,6 @@ export default class PartyDetails extends React.Component {
     }
   }
 
-
   componentDidMount() {
     this.getData()
   }
@@ -48,13 +47,13 @@ export default class PartyDetails extends React.Component {
     const partyId = id || this.props.params.partyId
     const lthingId = lthing || this.props.params.lthing
 
-    partyService.getPartyDetailsByLthing(partyId, 'allt').then(party => {
+    partyService.getPartyDetailsByLthing(partyId, 'allt').then((party) => {
       this.setState(() => ({ party }))
     })
 
     partySummaryService
       .getPartyVoteSummaryByLthing(partyId, lthingId)
-      .then(voteSummary => {
+      .then((voteSummary) => {
         this.setState(() => ({
           voteSummary,
         }))
@@ -62,7 +61,7 @@ export default class PartyDetails extends React.Component {
 
     partySummaryService
       .getPartySpeechSummaryByLthing(partyId, lthingId)
-      .then(speechSummary => {
+      .then((speechSummary) => {
         this.setState(() => ({
           speechSummary,
         }))
@@ -70,7 +69,7 @@ export default class PartyDetails extends React.Component {
 
     partySummaryService
       .getPartyDocumentSummaryByLthing(partyId, lthingId)
-      .then(documentSummary => {
+      .then((documentSummary) => {
         this.setState(() => ({
           documentSummary,
         }))
@@ -78,7 +77,7 @@ export default class PartyDetails extends React.Component {
 
     partySummaryService
       .getPartyVotePositionsByLthing(partyId, lthingId)
-      .then(votePositions => {
+      .then((votePositions) => {
         this.setState(() => ({
           votePositions,
         }))
@@ -86,7 +85,7 @@ export default class PartyDetails extends React.Component {
 
     partySummaryService
       .getPartySpeechPositionsByLthing(partyId, lthingId)
-      .then(speechPositions => {
+      .then((speechPositions) => {
         this.setState(() => ({
           speechPositions,
         }))
@@ -94,15 +93,15 @@ export default class PartyDetails extends React.Component {
 
     partySummaryService
       .getPartyDocumentPositionsByLthing(partyId, lthingId)
-      .then(documentPositions => {
+      .then((documentPositions) => {
         this.setState(() => ({
           documentPositions,
         }))
       })
 
-    totalsService.getLthings().then(lthings => {
+    totalsService.getLthings().then((lthings) => {
       const lthingLookup = {}
-      lthings.forEach(lthing => lthingLookup[lthing.id] = lthing)
+      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
       this.setState(() => ({
         lthings,
         lthingLookup,
@@ -115,18 +114,20 @@ export default class PartyDetails extends React.Component {
       {
         name: 'Samtölur',
         url: `/thingflokkar/${party.id}/thing/allt`,
-      }
+      },
     ]
 
     if (!party.lthings.length || !lthings.length) {
       return initialList
     }
 
-    const lthingsFormatted = party.lthings.map(lthingInfo => ({
-      year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
-      thing: lthingInfo.lthing,
-      url: `/thingflokkar/${party.id}/thing/${lthingInfo.lthing}`
-    }))
+    const lthingsFormatted = party.lthings.map((lthingInfo) => {
+      return {
+        year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
+        thing: lthingInfo.lthing,
+        url: `/thingflokkar/${party.id}/thing/${lthingInfo.lthing}`,
+      }
+    })
 
     return initialList.concat(lthingsFormatted)
   }
@@ -166,7 +167,9 @@ export default class PartyDetails extends React.Component {
 
     return (
       <div className="fill">
-        <DetailsMenu menuItems={this.generateLthingList(party, lthings, lthingLookup)}/>
+        <DetailsMenu
+          menuItems={this.generateLthingList(party, lthings, lthingLookup)}
+        />
         <DetailsHeader
           speechSummary={speechSummary}
           voteSummary={voteSummary}
@@ -185,7 +188,7 @@ export default class PartyDetails extends React.Component {
 
           <div className="Details-item Details-item--large Details-item--no-padding">
             <Topics>
-              {activeTab => (
+              {(activeTab) => (
                 <span>
                   <Topic active={activeTab === 0}>
                     <div className="Topic-column">
@@ -193,7 +196,7 @@ export default class PartyDetails extends React.Component {
                         Skipting atkvæða eftir flokkum
                       </h1>
                       <ColorLegend />
-                      {votePositions.map(sectionSummary => (
+                      {votePositions.map((sectionSummary) => (
                         <BarChart
                           sectionSummary={sectionSummary}
                           key={sectionSummary.name}
@@ -210,7 +213,10 @@ export default class PartyDetails extends React.Component {
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
-                      <Items divider={this.getDividerSize('speeches', lthing)} items={speechPositions} />
+                      <Items
+                        divider={this.getDividerSize('speeches', lthing)}
+                        items={speechPositions}
+                      />
                     </div>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Skipting ræðutíma</h1>
@@ -220,7 +226,10 @@ export default class PartyDetails extends React.Component {
                   <Topic active={activeTab === 2}>
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
-                      <Items divider={this.getDividerSize('documents', lthing)} items={documentPositions} />
+                      <Items
+                        divider={this.getDividerSize('documents', lthing)}
+                        items={documentPositions}
+                      />
                     </div>
                   </Topic>
                 </span>

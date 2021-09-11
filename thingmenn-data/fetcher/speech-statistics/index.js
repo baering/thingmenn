@@ -3,7 +3,8 @@ import { fetchHtml } from '../../utility/html'
 import { loadFile, writeToFile } from '../../utility/file'
 import { fetchExistingData } from '../utils'
 
-const baseUrl = 'http://www.althingi.is/thingstorf/raedur/raedur-thingmanna-eftir-thingum/?'
+const baseUrl =
+  'http://www.althingi.is/thingstorf/raedur/raedur-thingmanna-eftir-thingum/?'
 
 function generateUrlForMp(mpId, lthing) {
   return `${baseUrl}nfaerslunr=${mpId}&lthing=${lthing}`
@@ -64,9 +65,15 @@ async function fetchAllSpeechAnalytics(mpsByLthings, lthings, existingData) {
 export default async function fetch(lthings) {
   const mpsByLthings = loadFile('data/v2/mps-by-lthing.json')
   const resultFile = 'data/v2/mp-speech-statistics.json'
-  const existingData = fetchExistingData(resultFile, lthings, { resetCurrentLthings: true })
+  const existingData = fetchExistingData(resultFile, lthings, {
+    resetCurrentLthings: true,
+  })
 
-  const statistics = await fetchAllSpeechAnalytics(mpsByLthings, lthings, existingData)
+  const statistics = await fetchAllSpeechAnalytics(
+    mpsByLthings,
+    lthings,
+    existingData,
+  )
   writeToFile(statistics, resultFile, true)
   return statistics
 }

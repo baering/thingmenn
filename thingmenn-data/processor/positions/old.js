@@ -26,8 +26,8 @@ function createOccuranceMaps() {
   const subjectOccuranceMap = {}
   const tagOccuranceMap = {}
 
-  allVotesForTerm.forEach(term => {
-    term.votes.forEach(mpVotes => {
+  allVotesForTerm.forEach((term) => {
+    term.votes.forEach((mpVotes) => {
       if (!subjectOccuranceMap[mpVotes.mpId]) {
         subjectOccuranceMap[mpVotes.mpId] = {}
       }
@@ -36,19 +36,19 @@ function createOccuranceMaps() {
         tagOccuranceMap[mpVotes.mpId] = {}
       }
 
-      mpVotes.votes.forEach(voteTopic => {
+      mpVotes.votes.forEach((voteTopic) => {
         const topicId = voteTopic.id
         const subjectWords = subjects[topicId].words.subjects
         const tagWords = subjects[topicId].words.tags
 
-        voteTopic.votes.forEach(vote => {
+        voteTopic.votes.forEach((vote) => {
           const voteValue = vote.vote
 
           if (!globalVoteTypes[voteValue]) {
             globalVoteTypes[voteValue] = true
           }
 
-          subjectWords.forEach(word => {
+          subjectWords.forEach((word) => {
             if (!uniqueSubjectsMap[word]) {
               uniqueSubjectsMap[word] = true
             }
@@ -57,21 +57,16 @@ function createOccuranceMaps() {
               subjectOccuranceMap,
               mpVotes.mpId,
               word,
-              voteValue
+              voteValue,
             )
           })
 
-          tagWords.forEach(word => {
+          tagWords.forEach((word) => {
             if (!uniqueTagsMap[word]) {
               uniqueTagsMap[word] = true
             }
 
-            updateOccuranceCount(
-              tagOccuranceMap,
-              mpVotes.mpId,
-              word,
-              voteValue
-            )
+            updateOccuranceCount(tagOccuranceMap, mpVotes.mpId, word, voteValue)
           })
         })
       })
@@ -87,66 +82,72 @@ function createOccuranceMaps() {
 function getTopListOf(occuranceMap, mpId, voteType, words) {
   const wordsThatHaveType = []
 
-  words.forEach(word => {
+  words.forEach((word) => {
     if (occuranceMap[mpId][word][voteType] !== undefined) {
       wordsThatHaveType.push(word)
     }
   })
 
   if (wordsThatHaveType.length) {
-    return wordsThatHaveType.sort((a, b) => {
-      const occurancesForA = occuranceMap[mpId][a][voteType]
-      const occurancesForB = occuranceMap[mpId][b][voteType]
+    return wordsThatHaveType
+      .sort((a, b) => {
+        const occurancesForA = occuranceMap[mpId][a][voteType]
+        const occurancesForB = occuranceMap[mpId][b][voteType]
 
-      return occurancesForB - occurancesForA
-    }).map(word => {
-      return {
-        word,
-        occurance: occuranceMap[mpId][word][voteType]
-      }
-    })
+        return occurancesForB - occurancesForA
+      })
+      .map((word) => {
+        return {
+          word,
+          occurance: occuranceMap[mpId][word][voteType],
+        }
+      })
   }
   return []
 }
 
 function generateTopListsForMp(voteTypes, occuranceMaps, mpId, words) {
-  const topList = voteTypes.map(voteType => {
-    const topSubjects = getTopListOf(
-      occuranceMaps.subjects,
-      mpId,
-      voteType,
-      words.subjects
-    )
+  const topList = voteTypes
+    .map((voteType) => {
+      const topSubjects = getTopListOf(
+        occuranceMaps.subjects,
+        mpId,
+        voteType,
+        words.subjects,
+      )
 
-    const topTags = getTopListOf(
-      occuranceMaps.tags,
-      mpId,
-      voteType,
-      words.tags
-    )
+      const topTags = getTopListOf(
+        occuranceMaps.tags,
+        mpId,
+        voteType,
+        words.tags,
+      )
 
-    return {
-      voteType,
-      subjects: topSubjects.slice(0, 10),
-      tags: topTags.slice(0, 10),
-    }
-  }).filter(voteType => voteType.subjects.length || voteType.tags.length)
+      return {
+        voteType,
+        subjects: topSubjects.slice(0, 10),
+        tags: topTags.slice(0, 10),
+      }
+    })
+    .filter((voteType) => voteType.subjects.length || voteType.tags.length)
 
   return topList
 }
 
 function createSortedSummaryList(typeOccuranceMap, totalOccuranceMap) {
   const wordsInSummary = Object.keys(typeOccuranceMap)
-  const typeOccuranceMapSorted = wordsInSummary.map(word => {
-    const occuranceRatio = typeOccuranceMap[word] / totalOccuranceMap[word]
-    return {
-      word,
-      occurance: typeOccuranceMap[word],
-      occuranceRatio: parseFloat((occuranceRatio * 100).toFixed(2)),
-    }
-  }).sort((a, b) => {
-    return b.occuranceRatio - a.occuranceRatio
-  })
+  const typeOccuranceMapSorted = wordsInSummary
+    .map((word) => {
+      const occuranceRatio = typeOccuranceMap[word] / totalOccuranceMap[word]
+      return {
+        word,
+        occurance: typeOccuranceMap[word],
+        occuranceRatio: parseFloat((occuranceRatio * 100).toFixed(2)),
+      }
+    })
+    .sort((a, b) => {
+      return b.occuranceRatio - a.occuranceRatio
+    })
 
   return typeOccuranceMapSorted
 }
@@ -161,26 +162,23 @@ function process() {
   const uniqueSubjects = Object.keys(uniqueSubjectsMap)
   const uniqueTags = Object.keys(uniqueTagsMap)
 
-  console.log(`\nWords that occured (${uniqueSubjects.length} and tags: ${uniqueTags.length})`)
+  console.log(
+    `\nWords that occured (${uniqueSubjects.length} and tags: ${uniqueTags.length})`,
+  )
   console.log(uniqueSubjects)
   console.log(uniqueTags)
   const summary = []
   const mpVoteSplitSummary = {}
 
-  mps.forEach(mp => {
+  mps.forEach((mp) => {
     if (occuranceMaps.subjects[mp.id] !== undefined) {
       const subjectWords = Object.keys(occuranceMaps.subjects[mp.id])
       const tagWords = Object.keys(occuranceMaps.tags[mp.id])
 
-      const topLists = generateTopListsForMp(
-        voteTypes,
-        occuranceMaps,
-        mp.id,
-        {
-          subjects: subjectWords,
-          tags: tagWords,
-        }
-      )
+      const topLists = generateTopListsForMp(voteTypes, occuranceMaps, mp.id, {
+        subjects: subjectWords,
+        tags: tagWords,
+      })
 
       const topSummary = {}
       const totalVotesForSubject = {}
@@ -191,9 +189,9 @@ function process() {
 
       const subjectOccuranceForMp = occuranceMaps.subjects[mp.id]
       const mpSubjects = Object.keys(subjectOccuranceForMp)
-      mpSubjects.forEach(subject => {
+      mpSubjects.forEach((subject) => {
         const mpSubjectVoteTypes = Object.keys(subjectOccuranceForMp[subject])
-        mpSubjectVoteTypes.forEach(voteType => {
+        mpSubjectVoteTypes.forEach((voteType) => {
           const subjectOccurance = subjectOccuranceForMp[subject][voteType]
           if (voteType === 'já' || voteType === 'nei') {
             if (!topSummary[subject]) {
@@ -225,28 +223,39 @@ function process() {
       })
 
       const wordsInTopSummary = Object.keys(topSummary)
-      const topSummarySorted = wordsInTopSummary.map(word => {
-        return {
-          word,
-          occurance: topSummary[word],
-          occuranceRatio: topSummary[word] / totalVotesForSubject[word],
-        }
-      }).sort((a, b) => {
-        return b.occuranceRatio - a.occuranceRatio
-      })
+      const topSummarySorted = wordsInTopSummary
+        .map((word) => {
+          return {
+            word,
+            occurance: topSummary[word],
+            occuranceRatio: topSummary[word] / totalVotesForSubject[word],
+          }
+        })
+        .sort((a, b) => {
+          return b.occuranceRatio - a.occuranceRatio
+        })
 
       summary.push({
         name: mp.name,
-        summary: topSummarySorted.slice(0, 15).map(topSubject => {
+        summary: topSummarySorted.slice(0, 15).map((topSubject) => {
           const { word, occurance, occuranceRatio } = topSubject
           return `${word}: ${occurance} (${(occuranceRatio * 100).toFixed(2)})`
         }),
         top: topLists,
       })
 
-      const sortedStandsTaken = createSortedSummaryList(standsTakenSummary, totalVotesForSubject)
-      const sortedIdles = createSortedSummaryList(idleSummary, totalVotesForSubject)
-      const sortedAways = createSortedSummaryList(awaySummary, totalVotesForSubject)
+      const sortedStandsTaken = createSortedSummaryList(
+        standsTakenSummary,
+        totalVotesForSubject,
+      )
+      const sortedIdles = createSortedSummaryList(
+        idleSummary,
+        totalVotesForSubject,
+      )
+      const sortedAways = createSortedSummaryList(
+        awaySummary,
+        totalVotesForSubject,
+      )
 
       console.log(`Adding split votes for ${mp.name} (${mp.id})`)
       mpVoteSplitSummary[mp.id] = {
@@ -261,11 +270,11 @@ function process() {
   writeToFile(mpVoteSplitSummary, 'data/export/mp-positions.json', true)
 
   const sortedMpVoteSplitSummary = {}
-  mps.forEach(mp => {
+  mps.forEach((mp) => {
     const sortedVoteSplit = {}
 
     const mpVoteSplit = mpVoteSplitSummary[mp.id]
-    mpVoteSplit.standsTaken.forEach(subjectSummary => {
+    mpVoteSplit.standsTaken.forEach((subjectSummary) => {
       if (!sortedVoteSplit[subjectSummary.word]) {
         sortedVoteSplit[subjectSummary.word] = {}
       }
@@ -276,7 +285,7 @@ function process() {
       }
     })
 
-    mpVoteSplit.idle.forEach(subjectSummary => {
+    mpVoteSplit.idle.forEach((subjectSummary) => {
       if (!sortedVoteSplit[subjectSummary.word]) {
         sortedVoteSplit[subjectSummary.word] = {}
       }
@@ -287,7 +296,7 @@ function process() {
       }
     })
 
-    mpVoteSplit.away.forEach(subjectSummary => {
+    mpVoteSplit.away.forEach((subjectSummary) => {
       if (!sortedVoteSplit[subjectSummary.word]) {
         sortedVoteSplit[subjectSummary.word] = {}
       }
@@ -299,53 +308,59 @@ function process() {
     })
 
     const subjectsMpVotedFor = Object.keys(sortedVoteSplit)
-    sortedMpVoteSplitSummary[mp.id] = subjectsMpVotedFor.sort((a, b) => {
-      const aStand = sortedVoteSplit[a].standsTaken
-      const bStand = sortedVoteSplit[b].standsTaken
+    sortedMpVoteSplitSummary[mp.id] = subjectsMpVotedFor
+      .sort((a, b) => {
+        const aStand = sortedVoteSplit[a].standsTaken
+        const bStand = sortedVoteSplit[b].standsTaken
 
-      if (aStand && bStand) {
-        if (aStand.percentage === bStand.percentage) {
-          return bStand.occurance - aStand.occurance
+        if (aStand && bStand) {
+          if (aStand.percentage === bStand.percentage) {
+            return bStand.occurance - aStand.occurance
+          }
+
+          return bStand.percentage - aStand.percentage
+        } else if (aStand && !bStand) {
+          return -1
+        } else if (!aStand && bStand) {
+          return 1
         }
 
-        return bStand.percentage - aStand.percentage
-      } else if (aStand && !bStand) {
-        return -1
-      } else if (!aStand && bStand) {
-        return 1
-      }
+        const aIdle = sortedVoteSplit[a].idle
+        const bIdle = sortedVoteSplit[b].idle
 
-      const aIdle = sortedVoteSplit[a].idle
-      const bIdle = sortedVoteSplit[b].idle
+        if (aIdle && bIdle) {
+          return bIdle.percentage - aIdle.percentage
+        } else if (aIdle && !bIdle) {
+          return -1
+        } else if (!aIdle && bIdle) {
+          return 1
+        }
 
-      if (aIdle && bIdle) {
-        return bIdle.percentage - aIdle.percentage
-      } else if (aIdle && !bIdle) {
-        return -1
-      } else if (!aIdle && bIdle) {
-        return 1
-      }
+        const aAway = sortedVoteSplit[a].away
+        const bAway = sortedVoteSplit[b].away
 
-      const aAway = sortedVoteSplit[a].away
-      const bAway = sortedVoteSplit[b].away
-
-      if (aAway && bAway) {
-        return bAway.percentage - aAway.percentage
-      } else if (aAway && !bAway) {
-        return -1
-      } else if (!aAway && bAway) {
-        return 1
-      }
-      return 0
-    }).map(subjectName => {
-      return {
-        subject: subjectName,
-        voteSplit: sortedVoteSplit[subjectName],
-      }
-    })
+        if (aAway && bAway) {
+          return bAway.percentage - aAway.percentage
+        } else if (aAway && !bAway) {
+          return -1
+        } else if (!aAway && bAway) {
+          return 1
+        }
+        return 0
+      })
+      .map((subjectName) => {
+        return {
+          subject: subjectName,
+          voteSplit: sortedVoteSplit[subjectName],
+        }
+      })
   })
 
-  writeToFile(sortedMpVoteSplitSummary, 'data/export/mp-positions-processed.json', true)
+  writeToFile(
+    sortedMpVoteSplitSummary,
+    'data/export/mp-positions-processed.json',
+    true,
+  )
 }
 
 export default process

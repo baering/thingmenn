@@ -1,9 +1,6 @@
 import { fetchXml } from '../../utility/xml'
 import { writeToFile } from '../../utility/file'
-import {
-  urlForDocuments,
-  urlForDocumentDetails,
-} from '../urls'
+import { urlForDocuments, urlForDocumentDetails } from '../urls'
 import { fetchExistingData } from '../utils'
 
 // Read more here:
@@ -11,19 +8,19 @@ import { fetchExistingData } from '../utils'
 
 function parsePresentersNormally(presenters) {
   if (presenters[0].flutningsmaður.length > 1) {
-    return presenters[0].flutningsmaður.map(presenter => ({
+    return presenters[0].flutningsmaður.map((presenter) => ({
       id: parseInt(presenter.$.id, 10),
     }))
   }
 
-  return presenters.map(presenter => ({
+  return presenters.map((presenter) => ({
     id: parseInt(presenter.flutningsmaður[0].$.id, 10),
   }))
 }
 
 function parsePresentersAsAComittee(presenters) {
   const comittee = presenters[0].nefnd[0]
-  return comittee.flutningsmaður.map(presenter => {
+  return comittee.flutningsmaður.map((presenter) => {
     let id = presenter.id
     if (id === undefined) {
       id = presenter.$.id
@@ -97,7 +94,9 @@ async function fetch(lthings) {
   }
 
   const resultFile = 'data/v2/documents.json'
-  const existingData = fetchExistingData(resultFile, lthings, { resetCurrentLthings: true })
+  const existingData = fetchExistingData(resultFile, lthings, {
+    resetCurrentLthings: true,
+  })
 
   const documentsByLthing = existingData || {}
 

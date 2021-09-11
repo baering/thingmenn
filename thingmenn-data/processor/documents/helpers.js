@@ -1,6 +1,4 @@
-import {
-  getMpToPartyLookup,
-} from '../helpers'
+import { getMpToPartyLookup } from '../helpers'
 
 export function getEmptySummary() {
   return {
@@ -72,7 +70,7 @@ export function generateMpDocumentSummaries(documents) {
 
   const allTypes = {}
 
-  Object.keys(documents).forEach(lthing => {
+  Object.keys(documents).forEach((lthing) => {
     mpDocumentsByLthing[lthing] = {}
 
     for (const doc of documents[lthing]) {
@@ -85,7 +83,8 @@ export function generateMpDocumentSummaries(documents) {
       const isBill = documentTypesOfInterest[doc.type] === BILL
       const isMotion = documentTypesOfInterest[doc.type] === MOTION
       const isInquiry = documentTypesOfInterest[doc.type] === INQUIRY
-      const isInquiryAnswer = documentTypesOfInterest[doc.type] === INQUIRY_ANSWER
+      const isInquiryAnswer =
+        documentTypesOfInterest[doc.type] === INQUIRY_ANSWER
 
       doc.presenters.forEach((presenter, index) => {
         if (mpDocumentsByLthing[lthing][presenter.id] === undefined) {
@@ -99,20 +98,28 @@ export function generateMpDocumentSummaries(documents) {
         const presenterType = index === 0 ? 'presenter' : 'coPresenter'
 
         if (isBill) {
-          mpDocumentsByLthing[lthing][presenter.id].summary.bills[presenterType].count += 1
+          mpDocumentsByLthing[lthing][presenter.id].summary.bills[
+            presenterType
+          ].count += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.bills.total += 1
           mpDocumentsTotal[presenter.id].summary.bills[presenterType].count += 1
           mpDocumentsTotal[presenter.id].summary.bills.total += 1
         } else if (isMotion) {
-          mpDocumentsByLthing[lthing][presenter.id].summary.motions[presenterType].count += 1
+          mpDocumentsByLthing[lthing][presenter.id].summary.motions[
+            presenterType
+          ].count += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.motions.total += 1
-          mpDocumentsTotal[presenter.id].summary.motions[presenterType].count += 1
+          mpDocumentsTotal[presenter.id].summary.motions[
+            presenterType
+          ].count += 1
           mpDocumentsTotal[presenter.id].summary.motions.total += 1
         } else if (isInquiry) {
           mpDocumentsByLthing[lthing][presenter.id].summary.inquiries.asked += 1
           mpDocumentsTotal[presenter.id].summary.inquiries.asked += 1
         } else if (isInquiryAnswer) {
-          mpDocumentsByLthing[lthing][presenter.id].summary.inquiries.answered += 1
+          mpDocumentsByLthing[lthing][
+            presenter.id
+          ].summary.inquiries.answered += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.inquiries.total += 1
           mpDocumentsTotal[presenter.id].summary.inquiries.answered += 1
           mpDocumentsTotal[presenter.id].summary.inquiries.total += 1
@@ -128,11 +135,14 @@ export function generateMpDocumentSummaries(documents) {
 
 function addToSummary(source, target) {
   source.summary.bills.presenter.count += target.summary.bills.presenter.count
-  source.summary.bills.coPresenter.count += target.summary.bills.coPresenter.count
+  source.summary.bills.coPresenter.count +=
+    target.summary.bills.coPresenter.count
   source.summary.bills.total += target.summary.bills.total
 
-  source.summary.motions.presenter.count += target.summary.motions.presenter.count
-  source.summary.motions.coPresenter.count += target.summary.motions.coPresenter.count
+  source.summary.motions.presenter.count +=
+    target.summary.motions.presenter.count
+  source.summary.motions.coPresenter.count +=
+    target.summary.motions.coPresenter.count
   source.summary.motions.total += target.summary.motions.total
 
   source.summary.inquiries.asked += target.summary.inquiries.asked
@@ -146,10 +156,10 @@ export function generatePartyDocumentSummaries(mpDocumentsByLthing) {
 
   const mpToPartyLookup = getMpToPartyLookup()
 
-  Object.keys(mpDocumentsByLthing).forEach(lthing => {
+  Object.keys(mpDocumentsByLthing).forEach((lthing) => {
     partyDocumentsByLthing[lthing] = {}
 
-    Object.keys(mpDocumentsByLthing[lthing]).forEach(mpId => {
+    Object.keys(mpDocumentsByLthing[lthing]).forEach((mpId) => {
       const mpPartyId = mpToPartyLookup[lthing][mpId]
       const mpLthingSummary = mpDocumentsByLthing[lthing][mpId]
 

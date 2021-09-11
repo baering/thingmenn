@@ -52,37 +52,34 @@ const testMenu = [
 ]
 
 const DetailsMenu = ({ menuItems = testMenu }) => (
-  <div>
-    <nav className="DetailsMenu">
-      <ul>
-        {menuItems.map((item, index) => {
-          const isFirst = index === 0
-          let label = `Þing ${item.thing}`
-          if (isFirst && item.name) {
-            label = item.name
-          }
-          return (
-            <li
-              className={classNames('DetailsMenu-item')}
-              key={isFirst ? 'overview' : item.thing}
+  <nav className="DetailsMenu">
+    <ul>
+      {menuItems.map((item, index) => {
+        const isFirst = index === 0
+        let label = `Þing ${item.thing}`
+        if (isFirst && item.name) {
+          label = item.name
+        }
+        return (
+          <li
+            className={classNames('DetailsMenu-item')}
+            key={isFirst ? 'overview' : item.thing}
+          >
+            <Link
+              to={item.url}
+              className="DetailsMenu-itemLink"
+              activeClassName="is-active"
             >
-              <Link
-                to={item.url}
-                className="DetailsMenu-itemLink"
-                activeClassName="is-active"
-              >
-                {label}
-                <span className="DetailsMenu-year">
-                  {item.year && ` (${item.year})`}
-                </span>
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
-    </nav>
-    <h2>Hello world</h2>
-  </div>
+              {label}
+              <span className="DetailsMenu-year">
+                {item.year && ` (${item.year})`}
+              </span>
+            </Link>
+          </li>
+        )
+      })}
+    </ul>
+  </nav>
 )
 
 DetailsMenu.propTypes = {

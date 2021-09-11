@@ -4,9 +4,9 @@ export function getMpToPartyLookup() {
   const mpsByLthing = loadFile('data/v2/mps-by-lthing.json')
   const mps = loadFile('data/v2/mps.json')
   const mpToPartyLookup = {}
-  Object.keys(mpsByLthing).forEach(lthing => {
+  Object.keys(mpsByLthing).forEach((lthing) => {
     const mpsInLthing = mpsByLthing[lthing]
-    mpsInLthing.forEach(mp => {
+    mpsInLthing.forEach((mp) => {
       if (mpToPartyLookup[lthing] === undefined) {
         mpToPartyLookup[lthing] = {}
       }
@@ -16,7 +16,7 @@ export function getMpToPartyLookup() {
   })
 
   mpToPartyLookup.allt = {}
-  mps.forEach(mp => {
+  mps.forEach((mp) => {
     if (mp.lthings && mp.lthings.length) {
       mpToPartyLookup.allt[mp.id] = mp.lthings[0].partyId
     }

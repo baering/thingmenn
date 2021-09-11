@@ -17,9 +17,9 @@ mps.forEach((mp) => {
 
 const mpsByLthing = loadFile('data/v2/mps-by-lthing.json')
 const mpToPartyLookup = {}
-Object.keys(mpsByLthing).forEach(lthing => {
+Object.keys(mpsByLthing).forEach((lthing) => {
   const mpsInLthing = mpsByLthing[lthing]
-  mpsInLthing.forEach(mp => {
+  mpsInLthing.forEach((mp) => {
     if (mpToPartyLookup[lthing] === undefined) {
       mpToPartyLookup[lthing] = {}
     }
@@ -75,43 +75,70 @@ export default function process() {
       incrementVoteType(partyVoteCounter[mpPartyId].voteTypes, vote)
 
       initializeVoteCounterIfNeeded(partyByLthingVoteCounter[lthing], mpPartyId)
-      incrementVoteType(partyByLthingVoteCounter[lthing][mpPartyId].voteTypes, vote)
+      incrementVoteType(
+        partyByLthingVoteCounter[lthing][mpPartyId].voteTypes,
+        vote,
+      )
     }
   }
 
-  Object.keys(mpVoteCounter).forEach(mpId => {
+  Object.keys(mpVoteCounter).forEach((mpId) => {
     createVoteSummary(mpVoteCounter, mpId)
   })
 
   for (const lthing of lthings) {
-    Object.keys(mpByLthingVoteCounter[lthing]).forEach(mpId => {
+    Object.keys(mpByLthingVoteCounter[lthing]).forEach((mpId) => {
       createVoteSummary(mpByLthingVoteCounter[lthing], mpId)
     })
   }
 
-  Object.keys(partyVoteCounter).forEach(partyId => {
+  Object.keys(partyVoteCounter).forEach((partyId) => {
     createVoteSummary(partyVoteCounter, partyId)
   })
 
   for (const lthing of lthings) {
-    Object.keys(partyByLthingVoteCounter[lthing]).forEach(partyId => {
+    Object.keys(partyByLthingVoteCounter[lthing]).forEach((partyId) => {
       createVoteSummary(partyByLthingVoteCounter[lthing], partyId)
     })
   }
 
+  writeToFile(
+    mpVoteCounter,
+    'data/export-v2/total/mp-vote-summaries.json',
+    true,
+  )
+  writeToFile(
+    mpByLthingVoteCounter,
+    'data/export-v2/by-lthing/mp-vote-summaries.json',
+    true,
+  )
+  writeToFile(
+    partyVoteCounter,
+    'data/export-v2/total/party-vote-summaries.json',
+    true,
+  )
+  writeToFile(
+    partyByLthingVoteCounter,
+    'data/export-v2/by-lthing/party-vote-summaries.json',
+    true,
+  )
 
-  writeToFile(mpVoteCounter, 'data/export-v2/total/mp-vote-summaries.json', true)
-  writeToFile(mpByLthingVoteCounter, 'data/export-v2/by-lthing/mp-vote-summaries.json', true)
-  writeToFile(partyVoteCounter, 'data/export-v2/total/party-vote-summaries.json', true)
-  writeToFile(partyByLthingVoteCounter, 'data/export-v2/by-lthing/party-vote-summaries.json', true)
-
-  const { similarMpLookup, differentMpLookup } = createSimilarVoteLookup(mps, mpVoteLogByLthing)
+  const { similarMpLookup, differentMpLookup } = createSimilarVoteLookup(
+    mps,
+    mpVoteLogByLthing,
+  )
 
   const sortedSimilarMpLookupsByLthing = {}
   const sortedDifferentMpLookupsByLthing = {}
 
-  const mpTotalSimilarVotes = createTotalSimilarVoteLookup(similarMpLookup, lthings)
-  const mpTotalDifferentVotes = createTotalSimilarVoteLookup(differentMpLookup, lthings)
+  const mpTotalSimilarVotes = createTotalSimilarVoteLookup(
+    similarMpLookup,
+    lthings,
+  )
+  const mpTotalDifferentVotes = createTotalSimilarVoteLookup(
+    differentMpLookup,
+    lthings,
+  )
 
   for (const lthing of lthings) {
     sortedSimilarMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
@@ -121,12 +148,13 @@ export default function process() {
       lthing,
     )
 
-    sortedDifferentMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
-      differentMpLookup[lthing],
-      mpLookup,
-      mpByLthingVoteCounter[lthing],
-      lthing,
-    )
+    sortedDifferentMpLookupsByLthing[lthing] =
+      createSortedMpVoteSimilarityLookup(
+        differentMpLookup[lthing],
+        mpLookup,
+        mpByLthingVoteCounter[lthing],
+        lthing,
+      )
   }
 
   const sortedMpTotalSimilarVotes = createSortedMpVoteSimilarityLookup(
@@ -141,9 +169,25 @@ export default function process() {
     mpVoteCounter,
   )
 
-  writeToFile(sortedMpTotalSimilarVotes, 'data/export-v2/total/mp-similar-votes.json', true)
-  writeToFile(sortedTotalDifferentVotes, 'data/export-v2/total/mp-different-votes.json', true)
+  writeToFile(
+    sortedMpTotalSimilarVotes,
+    'data/export-v2/total/mp-similar-votes.json',
+    true,
+  )
+  writeToFile(
+    sortedTotalDifferentVotes,
+    'data/export-v2/total/mp-different-votes.json',
+    true,
+  )
 
-  writeToFile(sortedSimilarMpLookupsByLthing, 'data/export-v2/by-lthing/mp-similar-votes.json', true)
-  writeToFile(sortedDifferentMpLookupsByLthing, 'data/export-v2/by-lthing/mp-different-votes.json', true)
+  writeToFile(
+    sortedSimilarMpLookupsByLthing,
+    'data/export-v2/by-lthing/mp-similar-votes.json',
+    true,
+  )
+  writeToFile(
+    sortedDifferentMpLookupsByLthing,
+    'data/export-v2/by-lthing/mp-different-votes.json',
+    true,
+  )
 }

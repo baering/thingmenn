@@ -12,12 +12,16 @@ function getMpAttendance(mp, mpVoteSummary) {
 }
 
 function getTopAttendance(mps, mpVoteSummary) {
-  return mps.filter(mp => mpVoteSummary[mp.id] !== undefined).sort((a, b) =>
-    getMpAttendance(b, mpVoteSummary) - getMpAttendance(a, mpVoteSummary)
-  ).map(mp => ({
-    mp,
-    attendance: getMpAttendance(mp, mpVoteSummary),
-  }))
+  return mps
+    .filter((mp) => mpVoteSummary[mp.id] !== undefined)
+    .sort(
+      (a, b) =>
+        getMpAttendance(b, mpVoteSummary) - getMpAttendance(a, mpVoteSummary),
+    )
+    .map((mp) => ({
+      mp,
+      attendance: getMpAttendance(mp, mpVoteSummary),
+    }))
 }
 
 function getMpStandsTaken(mp, mpVoteSummary) {
@@ -26,12 +30,16 @@ function getMpStandsTaken(mp, mpVoteSummary) {
 }
 
 function getTopStandsTaken(mps, mpVoteSummary) {
-  return mps.filter(mp => mpVoteSummary[mp.id] !== undefined).sort((a, b) =>
-    getMpStandsTaken(b, mpVoteSummary) - getMpStandsTaken(a, mpVoteSummary)
-  ).map(mp => ({
-    mp,
-    standsTaken: getMpStandsTaken(mp, mpVoteSummary),
-  }))
+  return mps
+    .filter((mp) => mpVoteSummary[mp.id] !== undefined)
+    .sort(
+      (a, b) =>
+        getMpStandsTaken(b, mpVoteSummary) - getMpStandsTaken(a, mpVoteSummary),
+    )
+    .map((mp) => ({
+      mp,
+      standsTaken: getMpStandsTaken(mp, mpVoteSummary),
+    }))
 }
 
 function getMpMinutesTalked(mp, mpSpeechSummary) {
@@ -40,12 +48,17 @@ function getMpMinutesTalked(mp, mpSpeechSummary) {
 }
 
 function getTopMinutesTalked(mps, mpSpeechSummary) {
-  return mps.filter(mp => mpSpeechSummary[mp.id] !== undefined).sort((a, b) =>
-    getMpMinutesTalked(b, mpSpeechSummary) - getMpMinutesTalked(a, mpSpeechSummary)
-  ).map(mp => ({
-    mp,
-    minutesTalked: getMpMinutesTalked(mp, mpSpeechSummary),
-  }))
+  return mps
+    .filter((mp) => mpSpeechSummary[mp.id] !== undefined)
+    .sort(
+      (a, b) =>
+        getMpMinutesTalked(b, mpSpeechSummary) -
+        getMpMinutesTalked(a, mpSpeechSummary),
+    )
+    .map((mp) => ({
+      mp,
+      minutesTalked: getMpMinutesTalked(mp, mpSpeechSummary),
+    }))
 }
 
 const mpsNotIncludedInTopCharts = {
@@ -58,7 +71,10 @@ const mpsNotIncludedInTopCharts = {
 }
 
 function hasDied(mp, lthing) {
-  return mpsNotIncludedInTopCharts[lthing] && mpsNotIncludedInTopCharts[lthing][mp.id]
+  return (
+    mpsNotIncludedInTopCharts[lthing] &&
+    mpsNotIncludedInTopCharts[lthing][mp.id]
+  )
 }
 
 function wasSubstituteInLthing(mp, lthing) {
@@ -75,12 +91,12 @@ export default function process() {
   const mpsByLthing = loadFile('data/v2/mps-by-lthing.json')
 
   const mpLookup = {}
-  mps.forEach(mp => mpLookup[mp.id] = mp)
+  mps.forEach((mp) => (mpLookup[mp.id] = mp))
 
   const mpsByLthingLookup = {}
-  Object.keys(mpsByLthing).forEach(lthing => {
+  Object.keys(mpsByLthing).forEach((lthing) => {
     mpsByLthingLookup[lthing] = []
-    mpsByLthing[lthing].forEach(mp => {
+    mpsByLthing[lthing].forEach((mp) => {
       const mpDetails = mpLookup[mp.id]
 
       if (!wasSubstituteInLthing(mpDetails, lthing) && !hasDied(mp, lthing)) {
@@ -93,8 +109,12 @@ export default function process() {
     })
   })
 
-  const mpVoteSummary = loadFile('data/export-v2/by-lthing/mp-vote-summaries.json')
-  const mpSpeechSummary = loadFile('data/export-v2/by-lthing/mp-speech-summaries.json')
+  const mpVoteSummary = loadFile(
+    'data/export-v2/by-lthing/mp-vote-summaries.json',
+  )
+  const mpSpeechSummary = loadFile(
+    'data/export-v2/by-lthing/mp-speech-summaries.json',
+  )
 
   const topListsByLthing = {
     attendance: {},
@@ -102,7 +122,7 @@ export default function process() {
     minutesTalked: {},
   }
 
-  Object.keys(mpsByLthingLookup).forEach(lthing => {
+  Object.keys(mpsByLthingLookup).forEach((lthing) => {
     console.log(lthing)
     const mpVoteSummaryForLthing = mpVoteSummary[lthing]
     const mpSpeechSummaryForLthing = mpSpeechSummary[lthing]
@@ -111,9 +131,18 @@ export default function process() {
 
     console.log('mps', mpsInLthing.length)
 
-    topListsByLthing.attendance[lthing] = getTopAttendance(mpsInLthing, mpVoteSummaryForLthing)
-    topListsByLthing.standsTaken[lthing] = getTopStandsTaken(mpsInLthing, mpVoteSummaryForLthing)
-    topListsByLthing.minutesTalked[lthing] = getTopMinutesTalked(mpsInLthing, mpSpeechSummaryForLthing)
+    topListsByLthing.attendance[lthing] = getTopAttendance(
+      mpsInLthing,
+      mpVoteSummaryForLthing,
+    )
+    topListsByLthing.standsTaken[lthing] = getTopStandsTaken(
+      mpsInLthing,
+      mpVoteSummaryForLthing,
+    )
+    topListsByLthing.minutesTalked[lthing] = getTopMinutesTalked(
+      mpsInLthing,
+      mpSpeechSummaryForLthing,
+    )
   })
 
   // const topLists = {
@@ -123,7 +152,19 @@ export default function process() {
   // }
   //
 
-  writeToFile(topListsByLthing.attendance, 'data/export-v2/by-lthing/mp-top-attendance.json', true)
-  writeToFile(topListsByLthing.standsTaken, 'data/export-v2/by-lthing/mp-top-stands-taken.json', true)
-  writeToFile(topListsByLthing.minutesTalked, 'data/export-v2/by-lthing/mp-top-minutes-talked.json', true)
+  writeToFile(
+    topListsByLthing.attendance,
+    'data/export-v2/by-lthing/mp-top-attendance.json',
+    true,
+  )
+  writeToFile(
+    topListsByLthing.standsTaken,
+    'data/export-v2/by-lthing/mp-top-stands-taken.json',
+    true,
+  )
+  writeToFile(
+    topListsByLthing.minutesTalked,
+    'data/export-v2/by-lthing/mp-top-minutes-talked.json',
+    true,
+  )
 }

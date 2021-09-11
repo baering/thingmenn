@@ -29,17 +29,17 @@ After processing the data, you can copy the output files from [data/export](data
 
 ## Fetch tasks
 
-* mps
-* votes
-* subjects
-* speechStatistics
-* speeches
+- mps
+- votes
+- subjects
+- speechStatistics
+- speeches
 
 ## Process tasks
 
-* mps
-* speeches
-* speechStatistics
-* parties
-* position
-* top
+- mps
+- speeches
+- speechStatistics
+- parties
+- position
+- top
