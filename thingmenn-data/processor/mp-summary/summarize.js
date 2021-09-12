@@ -52,11 +52,13 @@ export default function process() {
       mpAbsentVoteWeekdayTimeMatrixTotal,
       votings[lthing].votings,
       votings[lthing].votes,
+      mpToPartyLookup[lthing],
     )
     updateAbsentVoteTimeMatrixSummary(
       mpAbsentVoteWeekdayTimeMatrixByLthing[lthing],
       votings[lthing].votings,
       votings[lthing].votes,
+      mpToPartyLookup[lthing],
     )
 
     for (const voteInfo of votings[lthing].votes) {

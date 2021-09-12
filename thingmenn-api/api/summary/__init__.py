@@ -284,3 +284,19 @@ def get_party_document_positions_by_lthing(party_id, lthing):
         lthing,
         party_id
     )
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_party_absent_day_time_summary_by_lthing(party_id, lthing):
+    if lthing == 'allt':
+        if party_id not in mp_absent_day_time_summary['byParty']:
+            return make_error('Not found')
+
+        return make_json_response(mp_absent_day_time_summary['byParty'][party_id])
+
+    if lthing not in mp_absent_day_time_summary_by_lthing:
+        return make_error('Not found')
+
+    if party_id not in mp_absent_day_time_summary_by_lthing[lthing]['byParty']:
+        return make_error('Not found')
+
+    return make_json_response(mp_absent_day_time_summary_by_lthing[lthing]['byParty'][party_id])

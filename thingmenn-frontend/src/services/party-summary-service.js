@@ -20,6 +20,12 @@ class PartySummaryService extends CacheService {
     )
   }
 
+  getPartyAbsentSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/absent/party/${mpId}`,
+    )
+  }
+
   getPartyVotePositionsByLthing(mpId, lthing = 'allt') {
     return this.fetchData(
       `${apiUrl}/api/lthing/${lthing}/positions/votes/party/${mpId}`,

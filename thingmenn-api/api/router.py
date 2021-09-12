@@ -7,14 +7,13 @@ from api.summary import get_mp_absent_day_time_summary_by_lthing
 
 from api.summary import get_party_vote_summary_by_lthing, get_party_speech_summary_by_lthing, get_party_document_summary_by_lthing
 from api.summary import get_party_vote_positions_by_lthing, get_party_speech_positions_by_lthing, get_party_document_positions_by_lthing
+from api.summary import get_party_absent_day_time_summary_by_lthing
 
 from api.lthings import get_lthings
 
 from api.top import get_top_mp_attendance, get_bottom_mp_attendance, get_top_mp_minutes_talked, get_bottom_mp_minutes_talked, get_top_mp_stands_taken, get_bottom_mp_stands_taken
 
 from flask import blueprints
-from flask import jsonify
-from flask import make_response
 
 api = blueprints.Blueprint('thingmenn-api', __name__)
 
@@ -41,6 +40,7 @@ api.add_url_rule('/api/lthing/<string:lthing>/positions/documents/mp/<string:mp_
 api.add_url_rule('/api/lthing/<string:lthing>/summary/votes/party/<string:party_id>', 'get_party_vote_summary_by_lthing', get_party_vote_summary_by_lthing)
 api.add_url_rule('/api/lthing/<string:lthing>/summary/speeches/party/<string:party_id>', 'get_party_speech_summary_by_lthing', get_party_speech_summary_by_lthing)
 api.add_url_rule('/api/lthing/<string:lthing>/summary/documents/party/<string:party_id>', 'get_party_document_summary_by_lthing', get_party_document_summary_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/summary/absent/party/<string:party_id>', 'get_party_absent_day_time_summary', get_party_absent_day_time_summary_by_lthing)
 
 # party positions by lthing
 api.add_url_rule('/api/lthing/<string:lthing>/positions/votes/party/<string:party_id>', 'get_party_vote_positions_by_lthing', get_party_vote_positions_by_lthing)

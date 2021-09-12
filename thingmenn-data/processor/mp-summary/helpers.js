@@ -222,7 +222,12 @@ function incrementWeekdayHourLookup(lookup, dayOfWeek, hourOfDay) {
   }
 }
 
-export function updateAbsentVoteTimeMatrixSummary(result, votings, votes) {
+export function updateAbsentVoteTimeMatrixSummary(
+  result,
+  votings,
+  votes,
+  mpToPartyLookup,
+) {
   const votingToDate = {}
   for (const voting of votings) {
     votingToDate[voting.id] = new Date(voting.date)
@@ -234,6 +239,10 @@ export function updateAbsentVoteTimeMatrixSummary(result, votings, votes) {
 
   if (!result.byMp) {
     result.byMp = {}
+  }
+
+  if (!result.byParty) {
+    result.byParty = {}
   }
 
   for (const vote of votes) {
@@ -255,5 +264,15 @@ export function updateAbsentVoteTimeMatrixSummary(result, votings, votes) {
     }
 
     incrementWeekdayHourLookup(result.byMp[vote.mpId], dayOfWeek, hourOfDay)
+
+    if (!result.byParty[mpToPartyLookup[vote.mpId]]) {
+      result.byParty[mpToPartyLookup[vote.mpId]] = {}
+    }
+
+    incrementWeekdayHourLookup(
+      result.byParty[mpToPartyLookup[vote.mpId]],
+      dayOfWeek,
+      hourOfDay,
+    )
   }
 }
