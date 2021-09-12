@@ -193,3 +193,67 @@ export function createTotalSimilarVoteLookup(lookup, lthings) {
 
   return totalLookup
 }
+
+function incrementWeekdayHourLookup(lookup, dayOfWeek, hourOfDay) {
+  if (!lookup.statistics) {
+    lookup.statistics = {
+      max: 0,
+      total: 0,
+    }
+  }
+
+  if (!lookup.data) {
+    lookup.data = {}
+  }
+
+  if (!lookup.data[dayOfWeek]) {
+    lookup.data[dayOfWeek] = {}
+  }
+
+  if (!lookup.data[dayOfWeek][hourOfDay]) {
+    lookup.data[dayOfWeek][hourOfDay] = 0
+  }
+
+  lookup.data[dayOfWeek][hourOfDay] += 1
+  lookup.statistics.total += 1
+
+  if (lookup.statistics.max < lookup.data[dayOfWeek][hourOfDay]) {
+    lookup.statistics.max = lookup.data[dayOfWeek][hourOfDay]
+  }
+}
+
+export function updateAbsentVoteTimeMatrixSummary(result, votings, votes) {
+  const votingToDate = {}
+  for (const voting of votings) {
+    votingToDate[voting.id] = new Date(voting.date)
+  }
+
+  if (!result.total) {
+    result.total = {}
+  }
+
+  if (!result.byMp) {
+    result.byMp = {}
+  }
+
+  for (const vote of votes) {
+    const isAbsent = vote.vote === 'fjarverandi'
+
+    if (!isAbsent) {
+      continue
+    }
+
+    const date = votingToDate[vote.votingId]
+
+    const dayOfWeek = date.getDay()
+    const hourOfDay = date.getHours()
+
+    incrementWeekdayHourLookup(result.total, dayOfWeek, hourOfDay)
+
+    if (!result.byMp[vote.mpId]) {
+      result.byMp[vote.mpId] = {}
+    }
+
+    incrementWeekdayHourLookup(result.byMp[vote.mpId], dayOfWeek, hourOfDay)
+  }
+}

@@ -7,6 +7,7 @@ import {
   createSimilarVoteLookup,
   createSortedMpVoteSimilarityLookup,
   createTotalSimilarVoteLookup,
+  updateAbsentVoteTimeMatrixSummary,
 } from './helpers'
 
 const mps = loadFile('data/v2/mps.json')
@@ -39,9 +40,25 @@ export default function process() {
   const partyVoteCounter = {}
   const partyByLthingVoteCounter = {}
 
+  const mpAbsentVoteWeekdayTimeMatrixTotal = {}
+  const mpAbsentVoteWeekdayTimeMatrixByLthing = {}
+
   const lthings = Object.keys(votings)
 
   for (const lthing of lthings) {
+    mpAbsentVoteWeekdayTimeMatrixByLthing[lthing] = {}
+
+    updateAbsentVoteTimeMatrixSummary(
+      mpAbsentVoteWeekdayTimeMatrixTotal,
+      votings[lthing].votings,
+      votings[lthing].votes,
+    )
+    updateAbsentVoteTimeMatrixSummary(
+      mpAbsentVoteWeekdayTimeMatrixByLthing[lthing],
+      votings[lthing].votings,
+      votings[lthing].votes,
+    )
+
     for (const voteInfo of votings[lthing].votes) {
       const { mpId, vote, votingId } = voteInfo
 
@@ -81,6 +98,18 @@ export default function process() {
       )
     }
   }
+
+  writeToFile(
+    mpAbsentVoteWeekdayTimeMatrixTotal,
+    'data/export-v2/total/mp-absent-day-time-summary.json',
+    true,
+  )
+
+  writeToFile(
+    mpAbsentVoteWeekdayTimeMatrixByLthing,
+    'data/export-v2/by-lthing/mp-absent-day-time-summary.json',
+    true,
+  )
 
   Object.keys(mpVoteCounter).forEach((mpId) => {
     createVoteSummary(mpVoteCounter, mpId)

@@ -3,6 +3,7 @@ from api.parties import get_parties, get_party_by_id
 
 from api.summary import get_mp_vote_summary_by_lthing, get_mp_speech_summary_by_lthing, get_mp_document_summary_by_lthing
 from api.summary import get_mp_vote_positions_by_lthing, get_mp_speech_positions_by_lthing, get_mp_document_positions_by_lthing
+from api.summary import get_mp_absent_day_time_summary_by_lthing
 
 from api.summary import get_party_vote_summary_by_lthing, get_party_speech_summary_by_lthing, get_party_document_summary_by_lthing
 from api.summary import get_party_vote_positions_by_lthing, get_party_speech_positions_by_lthing, get_party_document_positions_by_lthing
@@ -29,6 +30,7 @@ api.add_url_rule('/api/lthing/allt/parties/<string:party_id>', 'get_party', get_
 api.add_url_rule('/api/lthing/<string:lthing>/summary/votes/mp/<string:mp_id>', 'get_mp_vote_summary_by_lthing', get_mp_vote_summary_by_lthing)
 api.add_url_rule('/api/lthing/<string:lthing>/summary/speeches/mp/<string:mp_id>', 'get_mp_speech_summary_by_lthing', get_mp_speech_summary_by_lthing)
 api.add_url_rule('/api/lthing/<string:lthing>/summary/documents/mp/<string:mp_id>', 'get_mp_document_summary_by_lthing', get_mp_document_summary_by_lthing)
+api.add_url_rule('/api/lthing/<string:lthing>/summary/absent/mp/<string:mp_id>', 'get_mp_absent_day_time_summary', get_mp_absent_day_time_summary_by_lthing)
 
 # mp positions by lthing
 api.add_url_rule('/api/lthing/<string:lthing>/positions/votes/mp/<string:mp_id>', 'get_mp_vote_positions_by_lthing', get_mp_vote_positions_by_lthing)

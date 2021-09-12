@@ -16,6 +16,7 @@ import Speeches from '../../widgets/speeches'
 import Documents from '../../widgets/documents'
 import BarChart from '../../widgets/bar-chart'
 import Items from '../../widgets/items'
+import WeekdayHourMatrix from '../../widgets/weekday-hour-matrix'
 
 import '../mp-details/styles.css'
 
@@ -31,6 +32,7 @@ export default class MpDetails extends React.Component {
       voteSummary: { votePercentages: [], voteSummary: [] },
       speechSummary: [],
       documentSummary: [],
+      absentSummary: {},
       votePositions: [],
       speechPositions: [],
       documentPositions: [],
@@ -106,6 +108,14 @@ export default class MpDetails extends React.Component {
       .then((documentPositions) => {
         this.setState(() => ({
           documentPositions,
+        }))
+      })
+
+    mpSummaryService
+      .getMpAbsentSummaryByLthing(mpId, lthingId)
+      .then((absentSummary) => {
+        this.setState(() => ({
+          absentSummary,
         }))
       })
 
@@ -239,6 +249,16 @@ export default class MpDetails extends React.Component {
                       <Piechart voteSummary={voteSummary} />
                       <ColorLegend includeAbsent />
                     </div>
+                    {!!this.state.absentSummary &&
+                      !!this.state.absentSummary.statistics && (
+                        <div className="Topic-column">
+                          <h1 className="Topic-heading">Hvenær fjarverandi</h1>
+
+                          <WeekdayHourMatrix
+                            weekdayHourMatrixSummary={this.state.absentSummary}
+                          />
+                        </div>
+                      )}
                   </Topic>
                   <Topic active={activeTab === 1}>
                     <div className="Topic-column">

@@ -25,6 +25,9 @@ mp_vote_positions_by_lthing = {}
 mp_speech_positions_by_lthing = {}
 mp_document_positions_by_lthing = {}
 
+mp_absent_day_time_summary = {}
+mp_absent_day_time_summary_by_lthing = {}
+
 with open(path.dirname(__file__) + '/../../data/v2/total/mp-vote-summaries.json', 'r') as f:
     mp_vote_summary = json.loads(f.read())
 
@@ -60,6 +63,12 @@ with open(path.dirname(__file__) + '/../../data/v2/total/mp-document-positions.j
 
 with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-document-positions.json', 'r') as f:
     mp_document_positions_by_lthing = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/total/mp-absent-day-time-summary.json', 'r') as f:
+    mp_absent_day_time_summary = json.loads(f.read())
+
+with open(path.dirname(__file__) + '/../../data/v2/by-lthing/mp-absent-day-time-summary.json', 'r') as f:
+    mp_absent_day_time_summary_by_lthing = json.loads(f.read())
 
 parties = []
 party_lookup = {}
@@ -199,6 +208,22 @@ def get_mp_document_positions_by_lthing(mp_id, lthing):
         lthing,
         mp_id
     )
+
+@cache.cached(timeout=summary_cache_timeout)
+def get_mp_absent_day_time_summary_by_lthing(mp_id, lthing):
+    if lthing == 'allt':
+        if mp_id not in mp_absent_day_time_summary['byMp']:
+            return make_error('Not found')
+
+        return make_json_response(mp_absent_day_time_summary['byMp'][mp_id])
+
+    if lthing not in mp_absent_day_time_summary_by_lthing:
+        return make_error('Not found')
+
+    if mp_id not in mp_absent_day_time_summary_by_lthing[lthing]['byMp']:
+        return make_error('Not found')
+
+    return make_json_response(mp_absent_day_time_summary_by_lthing[lthing]['byMp'][mp_id])
 
 # Party
 

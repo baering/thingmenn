@@ -1,0 +1,43 @@
+.WeekdayHourMatrix {
+  display: flex;
+  width: 100%;
+}
+
+.WeekdayHourMatrix-Day {
+  align-items: center;
+  flex-basis: calc(100% / 8);
+  justify-content: center;
+}
+
+.WeekdayHourMatrix-Day:first-child .WeekdayHourMatrix-DayValueContainer {
+  background: none;
+  font-weight: 500;
+}
+
+.WeekdayHourMatrix-DayValues {
+  display: flex;
+  flex-direction: column;
+}
+
+.WeekdayHourMatrix-DayValueContainer {
+  background: rgba(0, 0, 0, 0.04);
+  margin: 2px;
+  text-align: center;
+}
+
+.WeekdayHourMatrix-DayValueContainer:first-child {
+  background: none;
+  font-weight: 500;
+}
+
+@media (min-width: 568px) {
+  .WeekdayHourMatrix-DayValueContainer {
+    margin: 3px;
+  }
+}
+
+.WeekdayHourMatrix-DayValue {
+  height: 100%;
+  padding: 4px 0;
+  width: 100%;
+}

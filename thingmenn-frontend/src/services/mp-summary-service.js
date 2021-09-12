@@ -20,6 +20,12 @@ class MpSummaryService extends CacheService {
     )
   }
 
+  getMpAbsentSummaryByLthing(mpId, lthing = 'allt') {
+    return this.fetchData(
+      `${apiUrl}/api/lthing/${lthing}/summary/absent/mp/${mpId}`,
+    )
+  }
+
   getMpVotePositionsByLthing(mpId, lthing = 'allt') {
     return this.fetchData(
       `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
