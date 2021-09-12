@@ -12,24 +12,31 @@ const KPI = ({ voteSummary, speechSummary, documentSummary }) => {
 
   let bills = 0
   let motions = 0
+
   if (documentSummary && documentSummary.summary) {
     bills = documentSummary.summary.bills.presenter.count
     motions = documentSummary.summary.motions.presenter.count
   }
 
+  const renderedAttendance = attendance ? formatPercentage(attendance) : 'Hleð'
+  const renderedStandsTaken = standsTaken
+    ? formatPercentage(standsTaken)
+    : 'Hleð'
+  const renderedTimeInStand = timeInStand ? formatTime(timeInStand) : 'Hleð'
+
   return (
     <div className="KPI">
       <div className="KPI-stats">
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">{formatPercentage(attendance)}</p>
+          <p className="KPI-statsText">{renderedAttendance}</p>
           <h1 className="KPI-statsHeading">Mæting*</h1>
         </div>
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">{formatPercentage(standsTaken)}</p>
+          <p className="KPI-statsText">{renderedStandsTaken}</p>
           <h1 className="KPI-statsHeading">Afstaða*</h1>
         </div>
         <div className="KPI-statsItem">
-          <p className="KPI-statsText">{formatTime(timeInStand)}</p>
+          <p className="KPI-statsText">{renderedTimeInStand}</p>
           <h1 className="KPI-statsHeading">í Ræðustól</h1>
         </div>
         <div className="KPI-statsItem">
