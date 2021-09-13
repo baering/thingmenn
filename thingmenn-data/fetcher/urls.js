@@ -22,6 +22,14 @@ export function urlForMpHistory(mpId) {
   return `http://www.althingi.is/altext/xml/thingmenn/thingmadur/lifshlaup/?nr=${mpId}`
 }
 
+export function urlForMpPayments(mpId) {
+  if (isNaN(mpId)) {
+    throw new Error('mpId is not a number')
+  }
+
+  return `http://www.althingi.is/altext/cv/is/laun_og_greidslur/?nfaerslunr=${mpId}`
+}
+
 export function urlForLthingVoting(lthing) {
   if (isNaN(lthing)) {
     throw new Error('lthing is not a number')

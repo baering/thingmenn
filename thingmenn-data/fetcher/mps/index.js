@@ -1,6 +1,13 @@
+import cheerio from 'cheerio'
 import { fetchXml } from '../../utility/xml'
+import { fetchHtml } from '../../utility/html'
 import { writeToFile } from '../../utility/file'
-import { urlForMpsInLthing, urlForMpLthings, urlForMpHistory } from '../urls'
+import {
+  urlForMpsInLthing,
+  urlForMpLthings,
+  urlForMpHistory,
+  urlForMpPayments,
+} from '../urls'
 import { fetchExistingData } from '../utils'
 
 const letters = 'abcdefghijklmnoprstuvwxyz'
@@ -133,6 +140,95 @@ async function fetchMpHistory(mpId) {
   return parseMpHistoryDetails(xml)
 }
 
+function parseMpPayments(htmlObj) {
+  const tableHeadingSelector = 'h2:contains("Yfirlit ")'
+
+  const tableHeadYears = htmlObj(
+    `${tableHeadingSelector} + div > table > thead th`,
+  )
+  const tableRows = htmlObj(
+    `${tableHeadingSelector} + div > table > tbody > tr`,
+  )
+
+  const years = []
+  tableHeadYears.each(function parseTableHeadYear() {
+    const cell = htmlObj(this)
+    const value = cell.text()
+
+    if (typeof value === 'string' && value.length > 0) {
+      years.push(parseFloat(value))
+    }
+  })
+
+  const result = {
+    categories: {},
+    totalByYear: {},
+    total: 0,
+  }
+  tableRows.each(function parseTableRow() {
+    const row = htmlObj(this)
+
+    const rowDescription = row.find('td:first-child').text()
+
+    if (rowDescription.indexOf('samtals') === -1) {
+      return
+    }
+
+    // If we get here we know this is a total row so we can
+    // get the category value
+    const [rawCategory] = rowDescription.split(' samtals')
+    const category = rawCategory.trim()
+
+    if (!result.categories[category]) {
+      result.categories[category] = {
+        totalByYear: {},
+        total: 0,
+      }
+    }
+
+    // All the other tds will contain values
+    const paymentTds = row.find('td:not(:first-child)')
+
+    // Current year is the first one
+    let yearIndex = 0
+    paymentTds.each(function parseTableTd() {
+      const currentYear = years[yearIndex]
+      const cell = htmlObj(this)
+
+      // Remove all dots from the number
+      const value = cell.text().replace(/\./g, '')
+
+      const payment =
+        typeof value === 'string' && value.length > 0 ? parseFloat(value) : 0
+
+      if (!result.byYear[currentYear]) {
+        result.byYear[currentYear] = 0
+      }
+
+      // Set the value for that year in the current category
+      result.categories[category].byYear[currentYear] = payment
+      // Along with raising the total
+      result.categories[category].total += payment
+
+      // Add the current payment to the total for the current year
+      result.byYear[currentYear] += payment
+      // As well as the grand total for all years
+      result.total += payment
+
+      yearIndex += 1
+    })
+  })
+
+  return result
+}
+
+async function fetchMpPayments(mpId) {
+  const url = urlForMpPayments(mpId)
+  const html = await fetchHtml(url)
+  const htmlObj = cheerio.load(html)
+  return parseMpPayments(htmlObj)
+}
+
 async function getMpDetails(xml, lthing) {
   const mpBaseInfo = parseMpXmlBaseInfo(xml, lthing)
   const mpLthingInfo = await fetchMpLthingInfo(mpBaseInfo.id, lthing)
@@ -227,6 +323,16 @@ async function fetch(lthings) {
   }
 
   writeToFile(mpsByLthing, 'data/v2/mps-by-lthing.json', true)
+
+  const paymentsByMp = {}
+
+  for (const mp of result) {
+    const payments = await fetchMpPayments(mp.id)
+
+    paymentsByMp[mp.id] = payments
+  }
+
+  writeToFile(paymentsByMp, 'data/v2/payments-by-mp.json', true)
 
   return result
 }
