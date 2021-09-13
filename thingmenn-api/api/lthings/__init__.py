@@ -9,10 +9,18 @@ from api.cache import cache
 
 mp_cache_timeout = 1800
 lthings = None
+terms = None
 
 with open(path.dirname(__file__) + '/../../data/v2/lthings.json', 'r') as f:
     lthings = json.loads(f.read())
 
+with open(path.dirname(__file__) + '/../../data/v2/terms.json', 'r') as f:
+    terms = json.loads(f.read())
+
 @cache.cached(timeout=mp_cache_timeout)
 def get_lthings():
     return make_json_response(lthings)
+
+@cache.cached(timeout=mp_cache_timeout)
+def get_terms():
+    return make_json_response(terms)

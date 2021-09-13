@@ -9,7 +9,7 @@ from api.summary import get_party_vote_summary_by_lthing, get_party_speech_summa
 from api.summary import get_party_vote_positions_by_lthing, get_party_speech_positions_by_lthing, get_party_document_positions_by_lthing
 from api.summary import get_party_absent_day_time_summary_by_lthing
 
-from api.lthings import get_lthings
+from api.lthings import get_lthings, get_terms
 
 from api.top import get_top_mp_attendance, get_bottom_mp_attendance, get_top_mp_minutes_talked, get_bottom_mp_minutes_talked, get_top_mp_stands_taken, get_bottom_mp_stands_taken
 
@@ -56,3 +56,4 @@ api.add_url_rule('/api/lthing/<string:lthing>/bottom/minutes/mps', 'get_bottom_m
 api.add_url_rule('/api/lthing/<string:lthing>/bottom/stands/mps', 'get_bottom_mp_stands_taken', get_bottom_mp_stands_taken)
 
 api.add_url_rule('/api/lthings', 'get_lthings', get_lthings)
+api.add_url_rule('/api/terms', 'get_terms', get_terms)
