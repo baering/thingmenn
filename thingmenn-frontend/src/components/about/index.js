@@ -15,7 +15,7 @@ export default class About extends React.Component {
           </p>
           <p>
             Markmið vefsins er að sækja gögn sem finna má á vef{' '}
-            <a className="u-link" href="http://www.althingi.is/altext/xml/">
+            <a className="u-link" href="http://www.althingi.is/altext/xml/" target="_blank" rel="noopener noreferrer">
               Alþingis
             </a>
             , vinna úr þeim og setja fram á skemmtilegan, fræðandi og helst af
@@ -43,6 +43,7 @@ export default class About extends React.Component {
               className="u-link"
               href="http://twitter.com/baerinq"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Bæring Gunnar Steinþórsson
             </a>
@@ -50,7 +51,7 @@ export default class About extends React.Component {
           </p>
           <p>
             Sérstakar þakkir fá samstarfsfélagar mínir hjá{' '}
-            <a className="u-link" href="http://aranja.com" target="_blank">
+            <a className="u-link" href="http://aranja.com" target="_blank" rel="noopener noreferrer">
               Aranja
             </a>
             ;<br />{' '}
@@ -58,6 +59,7 @@ export default class About extends React.Component {
               className="u-link"
               href="http://twitter.com/dbjcodes"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Davíð Bachmann Jóhannesson
             </a>
@@ -66,6 +68,7 @@ export default class About extends React.Component {
               className="u-link"
               href="http://twitter.com/herrhelms"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Sebastian Helms
             </a>{' '}
@@ -74,6 +77,7 @@ export default class About extends React.Component {
               className="u-link"
               href="http://twitter.com/thorsteinsson"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Ægir Giraldo Þorsteinsson
             </a>{' '}

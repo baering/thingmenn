@@ -1,35 +1,40 @@
 import { apiUrl } from '../config'
 import CacheService from './cache-service'
+import getPath from '../utility/get-path'
 
 class TotalsService extends CacheService {
   getLthings() {
     return this.fetchData(`${apiUrl}/api/lthings`)
   }
 
-  getTopMpsAttendanceByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/attendance/mps`)
+  getTerms() {
+    return this.fetchData(`${apiUrl}/api/terms`)
   }
 
-  getBottomMpsAttendanceByLthing(lthing) {
+  getTopMpsAttendance(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/top/attendance/mps`)
+  }
+
+  getBottomMpsAttendance(params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/bottom/attendance/mps`,
+      `${apiUrl}/api/${getPath(params)}/bottom/attendance/mps`,
     )
   }
 
-  getTopMpsStandsByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/stands/mps`)
+  getTopMpsStands(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/top/stands/mps`)
   }
 
-  getBottomMpsStandsByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/stands/mps`)
+  getBottomMpsStands(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/bottom/stands/mps`)
   }
 
-  getTopMpsMinutesByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/minutes/mps`)
+  getTopMpsMinutes(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/top/minutes/mps`)
   }
 
-  getBottomMpsMinutesByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/minutes/mps`)
+  getBottomMpsMinutes(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/bottom/minutes/mps`)
   }
 }
 

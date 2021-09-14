@@ -25,10 +25,9 @@ export default class MpDetails extends React.Component {
     super(props)
 
     this.state = {
-      mp: { description: {}, lthings: [] },
-      lthing: null,
-      lthings: [],
-      lthingLookup: {},
+      mp: { description: {}, terms: [] },
+      params: {},
+      terms: [],
       voteSummary: { votePercentages: [], voteSummary: [] },
       speechSummary: [],
       documentSummary: [],
@@ -46,25 +45,25 @@ export default class MpDetails extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.getData(nextProps.routeParams.mpId, nextProps.routeParams.lthing)
+    this.getData(nextProps.routeParams.mpId, nextProps.routeParams)
   }
 
-  getData(id, lthing) {
+  getData(id, nextParams) {
     // TODO: HOC withData that injects correct props into components
 
     const mpId = id || this.props.params.mpId
-    const lthingId = lthing || this.props.params.lthing
+    const params = nextParams || this.props.params
 
     if (this.state.mp.id === mpId) return
 
-    mpService.getMpDetailsByLthing(mpId, lthingId).then((mp) => {
+    mpService.getMpDetails(mpId, params).then((mp) => {
       this.setState(() => ({
         mp,
       }))
     })
 
     mpSummaryService
-      .getMpVoteSummaryByLthing(mpId, lthingId)
+      .getMpVoteSummary(mpId, params)
       .then((voteSummary) => {
         this.setState(() => ({
           voteSummary,
@@ -72,7 +71,7 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpSpeechSummaryByLthing(mpId, lthingId)
+      .getMpSpeechSummary(mpId, params)
       .then((speechSummary) => {
         this.setState(() => ({
           speechSummary,
@@ -80,7 +79,7 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpDocumentSummaryByLthing(mpId, lthingId)
+      .getMpDocumentSummary(mpId, params)
       .then((documentSummary) => {
         this.setState(() => ({
           documentSummary,
@@ -88,7 +87,7 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpVotePositionsByLthing(mpId, lthingId)
+      .getMpVotePositions(mpId, params)
       .then((votePositions) => {
         this.setState(() => ({
           votePositions,
@@ -96,7 +95,7 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpSpeechPositionsByLthing(mpId, lthingId)
+      .getMpSpeechPositions(mpId, params)
       .then((speechPositions) => {
         this.setState(() => ({
           speechPositions,
@@ -104,7 +103,7 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpDocumentPositionsByLthing(mpId, lthingId)
+      .getMpDocumentPositions(mpId, params)
       .then((documentPositions) => {
         this.setState(() => ({
           documentPositions,
@@ -112,58 +111,54 @@ export default class MpDetails extends React.Component {
       })
 
     mpSummaryService
-      .getMpAbsentSummaryByLthing(mpId, lthingId)
+      .getMpAbsentSummary(mpId, params)
       .then((absentSummary) => {
         this.setState(() => ({
           absentSummary,
         }))
       })
 
-    mpService.getSimilarMpsByLthing(mpId, lthingId).then((similarMps) => {
+    mpService.getSimilarMps(mpId, params).then((similarMps) => {
       this.setState(() => ({
         similarMps,
       }))
     })
 
-    mpService.getDifferentMpsByLthing(mpId, lthingId).then((differentMps) => {
+    mpService.getDifferentMps(mpId, params).then((differentMps) => {
       this.setState(() => ({
         differentMps,
       }))
     })
 
-    totalsService.getLthings().then((lthings) => {
-      const lthingLookup = {}
-      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
+    totalsService.getTerms().then((terms) => {
       this.setState(() => ({
-        lthings,
-        lthingLookup,
+        terms,
       }))
     })
   }
 
-  generateLthingList(mp, lthings, lthingLookup) {
+  generateTermsList(mp, terms) {
     const initialList = [
       {
         name: 'Samtölur',
-        url: `/thingmenn/${mp.id}/thing/allt`,
+        url: `/thingmenn/${mp.id}/kjortimabil/allt`,
       },
     ]
 
-    if (!mp.lthings.length || !lthings.length) {
+    if (!mp.terms || !mp.terms.length || !terms.length) {
       return initialList
     }
 
-    const lthingsFormatted = mp.lthings.map((lthingInfo) => ({
-      year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
-      thing: lthingInfo.lthing,
-      url: `/thingmenn/${mp.id}/thing/${lthingInfo.lthing}`,
+    const termsFormatted = mp.terms.map((termInfo) => ({
+      name: termInfo.id,
+      url: `/thingmenn/${mp.id}/kjortimabil/${termInfo.id}`,
     }))
 
-    return initialList.concat(lthingsFormatted)
+    return initialList.concat(termsFormatted)
   }
 
-  getDividerSize(tabName, lthing) {
-    if (lthing === 'allt') {
+  getDividerSize(tabName, params) {
+    if (params.term === 'allt' || params.lthing === 'allt') {
       if (tabName === 'speeches') {
         return 3
       } else if (tabName === 'documents') {
@@ -183,8 +178,7 @@ export default class MpDetails extends React.Component {
   render() {
     const {
       mp,
-      lthings,
-      lthingLookup,
+      terms,
       voteSummary,
       speechSummary,
       documentSummary,
@@ -195,12 +189,12 @@ export default class MpDetails extends React.Component {
       differentMps,
     } = this.state
 
-    const lthing = this.props.params.lthing
+    const { params } = this.props
 
     return (
       <div className="fill">
         <DetailsMenu
-          menuItems={this.generateLthingList(mp, lthings, lthingLookup)}
+          menuItems={this.generateTermsList(mp, terms)}
         />
         <DetailsHeader {...mp} description={mp.description.asMp} />
         <div className="Details">
@@ -214,7 +208,7 @@ export default class MpDetails extends React.Component {
               title="Samherjar"
               subTitle="Eins greidd atkvæði"
               friends={similarMps.slice(0, 10)}
-              lthing={lthing}
+              params={params}
               isDisplayingFriends={true}
             />
           </div>
@@ -264,7 +258,7 @@ export default class MpDetails extends React.Component {
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Ræður eftir flokkum</h1>
                       <Items
-                        divider={this.getDividerSize('speeches', lthing)}
+                        divider={this.getDividerSize('speeches', params)}
                         items={speechPositions}
                       />
                     </div>
@@ -277,7 +271,7 @@ export default class MpDetails extends React.Component {
                     <div className="Topic-column">
                       <h1 className="Topic-heading">Þingskjöl eftir flokkum</h1>
                       <Items
-                        divider={this.getDividerSize('documents', lthing)}
+                        divider={this.getDividerSize('documents', params)}
                         items={documentPositions}
                       />
                     </div>

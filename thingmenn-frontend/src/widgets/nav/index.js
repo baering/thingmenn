@@ -12,7 +12,7 @@ class Nav extends React.Component {
           </IndexLink>
         </div>
         <IndexLink
-          to="/thing/allt"
+          to="/kjortimabil/allt"
           className="Nav-item"
           activeClassName="is-active"
         >

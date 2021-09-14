@@ -8,11 +8,8 @@ import PartyBadge from '../partybadge'
 
 import './styles.css'
 
-const Mp = ({ id, imagePath, lthing, mpName, partyId }) => {
-  let url = `/thingmenn/${id}/thing/allt`
-  if (lthing) {
-    url = `/thingmenn/${id}/thing/${lthing}`
-  }
+const Mp = ({ id, imagePath, params, mpName, partyId }) => {
+  let url = `/thingmenn/${id}/kjortimabil/${params.term || 'allt'}`
   return (
     <ListItem url={url}>
       <ListItemImage path={imagePath} cover={true}>

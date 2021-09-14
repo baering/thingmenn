@@ -23,10 +23,10 @@ export default class PartyDetails extends React.Component {
     super(props)
 
     this.state = {
-      party: { lthings: [] },
-      lthing: null,
-      lthings: [],
-      lthingLookup: {},
+      party: { terms: [] },
+      params: null,
+      terms: [],
+      termsLookup: {},
       voteSummary: { votePercentages: [], voteSummary: [] },
       speechSummary: [],
       documentSummary: [],
@@ -42,19 +42,19 @@ export default class PartyDetails extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.getData(nextProps.routeParams.partyId, nextProps.routeParams.lthing)
+    this.getData(nextProps.routeParams.partyId, nextProps.routeParams)
   }
 
-  getData(id, lthing) {
+  getData(id, nextParams) {
     const partyId = id || this.props.params.partyId
-    const lthingId = lthing || this.props.params.lthing
+    const params = nextParams || this.props.params
 
-    partyService.getPartyDetailsByLthing(partyId, 'allt').then((party) => {
+    partyService.getPartyDetails(partyId, { term: 'allt' }).then((party) => {
       this.setState(() => ({ party }))
     })
 
     partySummaryService
-      .getPartyVoteSummaryByLthing(partyId, lthingId)
+      .getPartyVoteSummary(partyId, params)
       .then((voteSummary) => {
         this.setState(() => ({
           voteSummary,
@@ -62,7 +62,7 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartySpeechSummaryByLthing(partyId, lthingId)
+      .getPartySpeechSummary(partyId, params)
       .then((speechSummary) => {
         this.setState(() => ({
           speechSummary,
@@ -70,7 +70,7 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartyDocumentSummaryByLthing(partyId, lthingId)
+      .getPartyDocumentSummary(partyId, params)
       .then((documentSummary) => {
         this.setState(() => ({
           documentSummary,
@@ -78,7 +78,7 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartyAbsentSummaryByLthing(partyId, lthingId)
+      .getPartyAbsentSummary(partyId, params)
       .then((absentSummary) => {
         this.setState(() => ({
           absentSummary,
@@ -86,7 +86,7 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartyVotePositionsByLthing(partyId, lthingId)
+      .getPartyVotePositions(partyId, params)
       .then((votePositions) => {
         this.setState(() => ({
           votePositions,
@@ -94,7 +94,7 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartySpeechPositionsByLthing(partyId, lthingId)
+      .getPartySpeechPositions(partyId, params)
       .then((speechPositions) => {
         this.setState(() => ({
           speechPositions,
@@ -102,44 +102,43 @@ export default class PartyDetails extends React.Component {
       })
 
     partySummaryService
-      .getPartyDocumentPositionsByLthing(partyId, lthingId)
+      .getPartyDocumentPositions(partyId, params)
       .then((documentPositions) => {
         this.setState(() => ({
           documentPositions,
         }))
       })
 
-    totalsService.getLthings().then((lthings) => {
-      const lthingLookup = {}
-      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
+    totalsService.getTerms().then((terms) => {
+      const termsLookup = {}
+      terms.forEach((term) => (termsLookup[term.id] = term))
       this.setState(() => ({
-        lthings,
-        lthingLookup,
+        terms,
+        termsLookup,
       }))
     })
   }
 
-  generateLthingList(party, lthings, lthingLookup) {
+  generateTermsList(party, terms) {
     const initialList = [
       {
         name: 'Samtölur',
-        url: `/thingflokkar/${party.id}/thing/allt`,
+        url: `/thingflokkar/${party.id}/kjortimabil/allt`,
       },
     ]
 
-    if (!party.lthings.length || !lthings.length) {
+    if (!party.terms.length || !terms.length) {
       return initialList
     }
 
-    const lthingsFormatted = party.lthings.map((lthingInfo) => {
+    const termsFormatted = party.terms.map((termInfo) => {
       return {
-        year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
-        thing: lthingInfo.lthing,
-        url: `/thingflokkar/${party.id}/thing/${lthingInfo.lthing}`,
+        name: termInfo.id,
+        url: `/thingflokkar/${party.id}/kjortimabil/${termInfo.id}`,
       }
     })
 
-    return initialList.concat(lthingsFormatted)
+    return initialList.concat(termsFormatted)
   }
 
   getDividerSize(tabName, lthing) {
@@ -163,8 +162,8 @@ export default class PartyDetails extends React.Component {
   render() {
     const {
       party,
-      lthings,
-      lthingLookup,
+      terms,
+      termsLookup,
       voteSummary,
       speechSummary,
       documentSummary,
@@ -178,7 +177,7 @@ export default class PartyDetails extends React.Component {
     return (
       <div className="fill">
         <DetailsMenu
-          menuItems={this.generateLthingList(party, lthings, lthingLookup)}
+          menuItems={this.generateTermsList(party, terms, termsLookup)}
         />
         <DetailsHeader
           speechSummary={speechSummary}

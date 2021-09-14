@@ -1,46 +1,47 @@
 import { apiUrl } from '../config'
 import CacheService from './cache-service'
+import getPath from '../utility/get-path'
 
 class MpSummaryService extends CacheService {
-  getMpVoteSummaryByLthing(mpId, lthing = 'allt') {
+  getMpVoteSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/votes/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/votes/mp/${mpId}`,
     )
   }
 
-  getMpSpeechSummaryByLthing(mpId, lthing = 'allt') {
+  getMpSpeechSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/speeches/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/speeches/mp/${mpId}`,
     )
   }
 
-  getMpDocumentSummaryByLthing(mpId, lthing = 'allt') {
+  getMpDocumentSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/documents/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/documents/mp/${mpId}`,
     )
   }
 
-  getMpAbsentSummaryByLthing(mpId, lthing = 'allt') {
+  getMpAbsentSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/absent/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/absent/mp/${mpId}`,
     )
   }
 
-  getMpVotePositionsByLthing(mpId, lthing = 'allt') {
+  getMpVotePositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/votes/mp/${mpId}`,
     )
   }
 
-  getMpSpeechPositionsByLthing(mpId, lthing = 'allt') {
+  getMpSpeechPositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/speeches/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/speeches/mp/${mpId}`,
     )
   }
 
-  getMpDocumentPositionsByLthing(mpId, lthing = 'allt') {
+  getMpDocumentPositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/documents/mp/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/documents/mp/${mpId}`,
     )
   }
 }

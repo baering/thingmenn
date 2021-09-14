@@ -12,8 +12,8 @@ let searchInput = ''
 
 const initialLthingsMenuList = [
   {
-    name: 'Öll þing',
-    url: '/thing/allt',
+    name: 'Öll kjörtímabil',
+    url: '/kjortimabil/allt',
   },
 ]
 
@@ -22,34 +22,33 @@ export default class Mps extends React.Component {
     super(props)
 
     this.state = {
-      lthing: null,
+      params: null,
       mps: [],
-      lthings: [],
+      terms: [],
       searchInput: '',
       sortByParty: false,
     }
   }
 
   componentWillMount() {
-    const lthing = this.props.params.lthing
-    this.getData(lthing)
+    const { lthing, term } = this.props.params
+    this.getData({ lthing, term })
     this.setSorting(this.props)
   }
 
   componentWillReceiveProps(nextProps) {
-    const lthing = nextProps.params.lthing
-
-    this.getData(lthing)
+    const { lthing, term } = nextProps.params
+    this.getData({ lthing, term })
     this.setSorting(this.props)
   }
 
-  getData(lthing) {
-    mpService.getMpsByLthing(lthing).then((mps) => {
-      this.setState(() => ({ mps, lthing }))
+  getData(params) {
+    mpService.getMps(params).then((mps) => {
+      this.setState(() => ({ mps, params }))
     })
 
-    totalService.getLthings().then((lthings) => {
-      this.setState(() => ({ lthings }))
+    totalService.getTerms().then((terms) => {
+      this.setState(() => ({ terms }))
     })
   }
 
@@ -82,27 +81,24 @@ export default class Mps extends React.Component {
   }
 
   render() {
-    const { mps, sortByParty, lthing, lthings } = this.state
+    const { mps, params, terms } = this.state
 
     const items = mps
       .filter(this.searchFilter.bind(this))
       .sort(this.sortItem.bind(this))
 
-    const lthingsFormatted = lthings.map((lthing) => ({
-      year: lthing.start.split('.')[2],
-      thing: lthing.id,
-      url: `/thing/${lthing.id}`,
-    }))
-
-    const lthingsToRender = initialLthingsMenuList.concat(lthingsFormatted)
+    const termsToRender = initialLthingsMenuList.concat(terms.map((term) => ({
+      name: term.id,
+      url: `/kjortimabil/${term.id}`,
+    })))
 
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <DetailsMenu menuItems={lthingsToRender} />
+        <DetailsMenu menuItems={termsToRender} />
         <List>
           {items.map((mp) => (
-            <Mp key={mp.id} lthing={lthing} {...mp} />
+            <Mp key={mp.id} params={params} {...mp} />
           ))}
         </List>
       </div>
