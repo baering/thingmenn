@@ -1,46 +1,47 @@
 import { apiUrl } from '../config'
 import CacheService from './cache-service'
+import getPath from '../utility/get-path'
 
 class PartySummaryService extends CacheService {
-  getPartyVoteSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyVoteSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/votes/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/votes/party/${mpId}`,
     )
   }
 
-  getPartySpeechSummaryByLthing(mpId, lthing = 'allt') {
+  getPartySpeechSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/speeches/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/speeches/party/${mpId}`,
     )
   }
 
-  getPartyDocumentSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyDocumentSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/documents/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/documents/party/${mpId}`,
     )
   }
 
-  getPartyAbsentSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyAbsentSummary(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/absent/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/summary/absent/party/${mpId}`,
     )
   }
 
-  getPartyVotePositionsByLthing(mpId, lthing = 'allt') {
+  getPartyVotePositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/votes/party/${mpId}`,
     )
   }
 
-  getPartySpeechPositionsByLthing(mpId, lthing = 'allt') {
+  getPartySpeechPositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/speeches/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/speeches/party/${mpId}`,
     )
   }
 
-  getPartyDocumentPositionsByLthing(mpId, lthing = 'allt') {
+  getPartyDocumentPositions(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/documents/party/${mpId}`,
+      `${apiUrl}/api/${getPath(params)}/positions/documents/party/${mpId}`,
     )
   }
 }

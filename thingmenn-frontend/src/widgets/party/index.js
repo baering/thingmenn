@@ -5,7 +5,7 @@ import ListItem from '../list-item'
 import ListItemImage from '../list-item-image'
 import ListItemContent from '../list-item-content'
 
-const Party = ({ id, imagePath, lthing, name }) => {
+const Party = ({ id, imagePath, name }) => {
   const url = `/thingflokkar/${id}/thing/allt`
   return (
     <ListItem url={url}>

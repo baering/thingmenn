@@ -1,22 +1,23 @@
 import { apiUrl } from '../config'
 import CacheService from './cache-service'
+import getPath from '../utility/get-path'
 
 class MpService extends CacheService {
-  getMpsByLthing(lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps`)
+  getMps(params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/mps`)
   }
 
-  getMpDetailsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps/${mpId}`)
+  getMpDetails(mpId, params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/mps/${mpId}`)
   }
 
-  getSimilarMpsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps/${mpId}/similar`)
+  getSimilarMps(mpId, params) {
+    return this.fetchData(`${apiUrl}/api/${getPath(params)}/mps/${mpId}/similar`)
   }
 
-  getDifferentMpsByLthing(mpId, lthing = 'allt') {
+  getDifferentMps(mpId, params) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/mps/${mpId}/different`,
+      `${apiUrl}/api/${getPath(params)}/mps/${mpId}/different`,
     )
   }
 }
