@@ -57,7 +57,7 @@ const DetailsMenu = ({ menuItems = testMenu }) => (
       {menuItems.map((item, index) => {
         const isFirst = index === 0
         let label = `Þing ${item.thing}`
-        if (isFirst && item.name) {
+        if (item.name) {
           label = item.name
         }
         return (

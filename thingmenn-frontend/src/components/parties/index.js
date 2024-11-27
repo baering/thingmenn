@@ -8,7 +8,7 @@ import List from '../../widgets/list'
 
 import './styles.css'
 
-export default class Mps extends React.Component {
+export default class Parties extends React.Component {
   constructor(props) {
     super(props)
 
@@ -30,7 +30,7 @@ export default class Mps extends React.Component {
   }
 
   getData(lthing) {
-    partyService.getPartiesByLthing(lthing).then((parties) => {
+    partyService.getAllParties().then((parties) => {
       this.setState(() => ({ parties }))
     })
 

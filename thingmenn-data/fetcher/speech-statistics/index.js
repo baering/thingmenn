@@ -23,15 +23,24 @@ function parseSpeechAnalyticsRow(row, summary) {
   }
 }
 
-function parseMpSpeechAnalytics(htmlObj) {
+function parseMpSpeechAnalytics(
+  htmlObj,
+  infoTableRowsSelector = 'div > table tbody tr',
+) {
   const tableHeadingSelector = 'h2:contains("Yfirlit yfir")'
-  const infoTableRows = htmlObj(`${tableHeadingSelector} + table tbody tr`)
+  const infoTableRows = htmlObj(
+    `${tableHeadingSelector} + ${infoTableRowsSelector}`,
+  )
 
   const summary = {}
   infoTableRows.each(function parseRow() {
     const row = htmlObj(this)
     parseSpeechAnalyticsRow(row, summary)
   })
+
+  if (Object.keys(summary).length === 0) {
+    return parseMpSpeechAnalytics(htmlObj, 'table tbody tr')
+  }
   return summary
 }
 
@@ -50,11 +59,9 @@ async function fetchMpSpeechAnalytics(mpId, lthing = 145) {
 async function fetchAllSpeechAnalytics(mpsByLthings, lthings, existingData) {
   const statistics = existingData || {}
   for (const lthing of lthings) {
-    console.log(`Fetching lthing ${lthing}`)
     statistics[lthing] = {}
     const mpsInLthing = mpsByLthings[lthing]
     for (const mp of mpsInLthing) {
-      console.log(`MP: ${mp.id}`)
       const data = await fetchMpSpeechAnalytics(mp.id, lthing)
       statistics[lthing][mp.id] = data
     }

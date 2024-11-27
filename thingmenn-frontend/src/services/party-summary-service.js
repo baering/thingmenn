@@ -1,46 +1,46 @@
-import { apiUrl } from '../config'
+import { dataPath, defaultPeriodId } from '../config'
 import CacheService from './cache-service'
 
 class PartySummaryService extends CacheService {
-  getPartyVoteSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyVoteSummaryByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/votes/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/vote-summary.json`,
     )
   }
 
-  getPartySpeechSummaryByLthing(mpId, lthing = 'allt') {
+  getPartySpeechSummaryByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/speeches/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/speech-summary.json`,
     )
   }
 
-  getPartyDocumentSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyDocumentSummaryByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/documents/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/document-summary.json`,
     )
   }
 
-  getPartyAbsentSummaryByLthing(mpId, lthing = 'allt') {
+  getPartyAbsentSummaryByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/absent/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/absent-summary.json`,
     )
   }
 
-  getPartyVotePositionsByLthing(mpId, lthing = 'allt') {
+  getPartyVotePositionsByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/vote-positions.json`,
     )
   }
 
-  getPartySpeechPositionsByLthing(mpId, lthing = 'allt') {
+  getPartySpeechPositionsByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/speeches/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/speech-positions.json`,
     )
   }
 
-  getPartyDocumentPositionsByLthing(mpId, lthing = 'allt') {
+  getPartyDocumentPositionsByLthing(partyId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/documents/party/${mpId}`,
+      `${dataPath}/parties/${lthing}/${partyId}/document-positions.json`,
     )
   }
 }

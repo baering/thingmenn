@@ -1,6 +1,7 @@
 import { getMpToPartyLookup } from '../helpers'
 
 import { documentIsOfInterest } from '../documents/helpers'
+import { lthingToTerm } from '../../utility/lthing'
 
 function getVoteKeyType(vote) {
   if (vote === 'já' || vote === 'nei') {
@@ -132,16 +133,24 @@ export function generateMpVotePositions(
     sectionLookup,
   )
 
-  const mpPositionsTotal = {}
+  const mpPositionsTotalByTerm = {}
 
   Object.keys(mpPositionsByLthing).forEach((lthing) => {
+    const term = lthingToTerm(lthing)
+
+    if (mpPositionsTotalByTerm[term.id] === undefined) {
+      mpPositionsTotalByTerm[term.id] = {}
+    }
+
+    const mpPositionsTotalForTerm = mpPositionsTotalByTerm[term.id]
+
     Object.keys(mpPositionsByLthing[lthing]).forEach((mpId) => {
-      if (mpPositionsTotal[mpId] === undefined) {
-        mpPositionsTotal[mpId] = {}
+      if (mpPositionsTotalForTerm[mpId] === undefined) {
+        mpPositionsTotalForTerm[mpId] = {}
       }
       Object.keys(mpPositionsByLthing[lthing][mpId]).forEach((sectionId) => {
-        if (mpPositionsTotal[mpId][sectionId] === undefined) {
-          mpPositionsTotal[mpId][sectionId] = {
+        if (mpPositionsTotalForTerm[mpId][sectionId] === undefined) {
+          mpPositionsTotalForTerm[mpId][sectionId] = {
             name: sectionLookup[sectionId].name,
             voteSplit: {},
           }
@@ -151,14 +160,15 @@ export function generateMpVotePositions(
           mpPositionsByLthing[lthing][mpId][sectionId].voteSplit,
         ).forEach((voteType) => {
           if (
-            mpPositionsTotal[mpId][sectionId].voteSplit[voteType] === undefined
+            mpPositionsTotalForTerm[mpId][sectionId].voteSplit[voteType] ===
+            undefined
           ) {
-            mpPositionsTotal[mpId][sectionId].voteSplit[voteType] = 0
+            mpPositionsTotalForTerm[mpId][sectionId].voteSplit[voteType] = 0
           }
 
           const value =
             mpPositionsByLthing[lthing][mpId][sectionId].voteSplit[voteType]
-          mpPositionsTotal[mpId][sectionId].voteSplit[voteType] += value
+          mpPositionsTotalForTerm[mpId][sectionId].voteSplit[voteType] += value
         })
       })
     })
@@ -167,7 +177,15 @@ export function generateMpVotePositions(
   return {
     mpVotePositionsByLthing:
       generateSortedVotePositionsByLthing(mpPositionsByLthing),
-    mpVotePositionsTotal: generateSortedVotePositions(mpPositionsTotal),
+    mpVotePositionsTotal: Object.keys(mpPositionsTotalByTerm).reduce(
+      (result, termId) => {
+        result[termId] = generateSortedVotePositions(
+          mpPositionsTotalByTerm[termId],
+        )
+        return result
+      },
+      {},
+    ),
   }
 }
 
@@ -177,7 +195,7 @@ export function generatePartyVotePositions(
   sectionLookup,
 ) {
   const partyPositionsByLthing = {}
-  const partyPositionsTotal = {}
+  const partyPositionsTotalByTerm = {}
 
   const mpToPartyId = getMpToPartyLookup()
 
@@ -188,6 +206,14 @@ export function generatePartyVotePositions(
   )
 
   Object.keys(mpPositionsByLthing).forEach((lthing) => {
+    const term = lthingToTerm(lthing)
+
+    if (partyPositionsTotalByTerm[term.id] === undefined) {
+      partyPositionsTotalByTerm[term.id] = {}
+    }
+
+    const partyPositionsTotalForTerm = partyPositionsTotalByTerm[term.id]
+
     partyPositionsByLthing[lthing] = {}
     Object.keys(mpPositionsByLthing[lthing]).forEach((mpId) => {
       const mpPartyId = mpToPartyId[lthing][mpId]
@@ -196,8 +222,8 @@ export function generatePartyVotePositions(
         partyPositionsByLthing[lthing][mpPartyId] = {}
       }
 
-      if (partyPositionsTotal[mpPartyId] === undefined) {
-        partyPositionsTotal[mpPartyId] = {}
+      if (partyPositionsTotalForTerm[mpPartyId] === undefined) {
+        partyPositionsTotalForTerm[mpPartyId] = {}
       }
 
       Object.keys(mpPositionsByLthing[lthing][mpId]).forEach((sectionId) => {
@@ -210,8 +236,8 @@ export function generatePartyVotePositions(
           }
         }
 
-        if (partyPositionsTotal[mpPartyId][sectionId] === undefined) {
-          partyPositionsTotal[mpPartyId][sectionId] = {
+        if (partyPositionsTotalForTerm[mpPartyId][sectionId] === undefined) {
+          partyPositionsTotalForTerm[mpPartyId][sectionId] = {
             name: sectionLookup[sectionId].name,
             voteSplit: {},
           }
@@ -231,10 +257,13 @@ export function generatePartyVotePositions(
           }
 
           if (
-            partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] ===
-            undefined
+            partyPositionsTotalForTerm[mpPartyId][sectionId].voteSplit[
+              voteType
+            ] === undefined
           ) {
-            partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] = 0
+            partyPositionsTotalForTerm[mpPartyId][sectionId].voteSplit[
+              voteType
+            ] = 0
           }
 
           const value =
@@ -243,7 +272,9 @@ export function generatePartyVotePositions(
           partyPositionsByLthing[lthing][mpPartyId][sectionId].voteSplit[
             voteType
           ] += value
-          partyPositionsTotal[mpPartyId][sectionId].voteSplit[voteType] += value
+          partyPositionsTotalForTerm[mpPartyId][sectionId].voteSplit[
+            voteType
+          ] += value
         })
       })
     })
@@ -253,7 +284,15 @@ export function generatePartyVotePositions(
     partyVotePositionsByLthing: generateSortedVotePositionsByLthing(
       partyPositionsByLthing,
     ),
-    partyVotePositionsTotal: generateSortedVotePositions(partyPositionsTotal),
+    partyVotePositionsTotal: Object.keys(partyPositionsTotalByTerm).reduce(
+      (result, termId) => {
+        result[termId] = generateSortedVotePositions(
+          partyPositionsTotalByTerm[termId],
+        )
+        return result
+      },
+      {},
+    ),
   }
 }
 
@@ -288,10 +327,18 @@ export function generateMpSpeechPositions(
   sectionLookup,
 ) {
   const mpPositionsByLthing = {}
-  const mpPositionsTotal = {}
+  const mpPositionsTotalByTerm = {}
 
   Object.keys(speechClassificationsByLthing).forEach((lthing) => {
     mpPositionsByLthing[lthing] = {}
+
+    const term = lthingToTerm(lthing)
+
+    if (mpPositionsTotalByTerm[term.id] === undefined) {
+      mpPositionsTotalByTerm[term.id] = {}
+    }
+
+    const mpPositionsTotalForTerm = mpPositionsTotalByTerm[term.id]
 
     for (const speech of speechClassificationsByLthing[lthing]) {
       const { mp } = speech
@@ -299,8 +346,8 @@ export function generateMpSpeechPositions(
         mpPositionsByLthing[lthing][mp.id] = {}
       }
 
-      if (mpPositionsTotal[mp.id] === undefined) {
-        mpPositionsTotal[mp.id] = {}
+      if (mpPositionsTotalForTerm[mp.id] === undefined) {
+        mpPositionsTotalForTerm[mp.id] = {}
       }
 
       const currentCase = speech.case
@@ -320,15 +367,15 @@ export function generateMpSpeechPositions(
           }
         }
 
-        if (mpPositionsTotal[mp.id][sectionId] === undefined) {
-          mpPositionsTotal[mp.id][sectionId] = {
+        if (mpPositionsTotalForTerm[mp.id][sectionId] === undefined) {
+          mpPositionsTotalForTerm[mp.id][sectionId] = {
             name: sectionName,
             count: 0,
           }
         }
 
         mpPositionsByLthing[lthing][mp.id][sectionId].count += 1
-        mpPositionsTotal[mp.id][sectionId].count += 1
+        mpPositionsTotalForTerm[mp.id][sectionId].count += 1
       })
     }
   })
@@ -336,18 +383,32 @@ export function generateMpSpeechPositions(
   return {
     mpSpeechPositionsByLthing:
       generateSortedPositionsByLthing(mpPositionsByLthing),
-    mpSpeechPositionsTotal: generateSortedPositions(mpPositionsTotal),
+    mpSpeechPositionsTotal: Object.keys(mpPositionsTotalByTerm).reduce(
+      (result, termId) => {
+        result[termId] = generateSortedPositions(mpPositionsTotalByTerm[termId])
+        return result
+      },
+      {},
+    ),
   }
 }
 
 export function generatePartyPositions(mpSpeechPositionsByLthing) {
   const partyPositionsByLthing = {}
-  const partyPositionsTotal = {}
+  const partyPositionsTotalByTerm = {}
 
   const mpToPartyId = getMpToPartyLookup()
 
   Object.keys(mpSpeechPositionsByLthing).forEach((lthing) => {
     partyPositionsByLthing[lthing] = {}
+
+    const term = lthingToTerm(lthing)
+
+    if (partyPositionsTotalByTerm[term.id] === undefined) {
+      partyPositionsTotalByTerm[term.id] = {}
+    }
+
+    const partyPositionsTotalForTerm = partyPositionsTotalByTerm[term.id]
 
     Object.keys(mpSpeechPositionsByLthing[lthing]).forEach((mpId) => {
       const mpPartyId = mpToPartyId[lthing][mpId]
@@ -356,8 +417,8 @@ export function generatePartyPositions(mpSpeechPositionsByLthing) {
         partyPositionsByLthing[lthing][mpPartyId] = {}
       }
 
-      if (partyPositionsTotal[mpPartyId] === undefined) {
-        partyPositionsTotal[mpPartyId] = {}
+      if (partyPositionsTotalForTerm[mpPartyId] === undefined) {
+        partyPositionsTotalForTerm[mpPartyId] = {}
       }
 
       mpSpeechPositionsByLthing[lthing][mpId].forEach(({ name, count }) => {
@@ -368,22 +429,27 @@ export function generatePartyPositions(mpSpeechPositionsByLthing) {
           }
         }
 
-        if (partyPositionsTotal[mpPartyId][name] === undefined) {
-          partyPositionsTotal[mpPartyId][name] = {
+        if (partyPositionsTotalForTerm[mpPartyId][name] === undefined) {
+          partyPositionsTotalForTerm[mpPartyId][name] = {
             name,
             count: 0,
           }
         }
 
         partyPositionsByLthing[lthing][mpPartyId][name].count += count
-        partyPositionsTotal[mpPartyId][name].count += count
+        partyPositionsTotalForTerm[mpPartyId][name].count += count
       })
     })
   })
 
   return {
     byLthing: generateSortedPositionsByLthing(partyPositionsByLthing),
-    total: generateSortedPositions(partyPositionsTotal),
+    total: Object.keys(partyPositionsTotalByTerm).reduce((result, termId) => {
+      result[termId] = generateSortedPositions(
+        partyPositionsTotalByTerm[termId],
+      )
+      return result
+    }, {}),
   }
 }
 
@@ -422,7 +488,7 @@ export function generateMpDocumentPositions(
   sectionLookup,
 ) {
   const mpPositionsByLthing = {}
-  const mpPositionsTotal = {}
+  const mpPositionsTotalByTerm = {}
 
   const documentIgnoreOptions = {
     ignoreInquiries: true,
@@ -441,6 +507,14 @@ export function generateMpDocumentPositions(
 
   Object.keys(documents).forEach((lthing) => {
     mpPositionsByLthing[lthing] = {}
+
+    const term = lthingToTerm(lthing)
+
+    if (mpPositionsTotalByTerm[term.id] === undefined) {
+      mpPositionsTotalByTerm[term.id] = {}
+    }
+
+    const mpPositionsTotalForTerm = mpPositionsTotalByTerm[term.id]
 
     for (const doc of documents[lthing]) {
       let documentToUse = doc
@@ -477,8 +551,8 @@ export function generateMpDocumentPositions(
           mpPositionsByLthing[lthing][presenter.id] = {}
         }
 
-        if (mpPositionsTotal[presenter.id] === undefined) {
-          mpPositionsTotal[presenter.id] = {}
+        if (mpPositionsTotalForTerm[presenter.id] === undefined) {
+          mpPositionsTotalForTerm[presenter.id] = {}
         }
 
         caseClassifications.sectionIds.forEach((sectionId) => {
@@ -492,15 +566,15 @@ export function generateMpDocumentPositions(
             }
           }
 
-          if (mpPositionsTotal[presenter.id][sectionId] === undefined) {
-            mpPositionsTotal[presenter.id][sectionId] = {
+          if (mpPositionsTotalForTerm[presenter.id][sectionId] === undefined) {
+            mpPositionsTotalForTerm[presenter.id][sectionId] = {
               name: sectionName,
               count: 0,
             }
           }
 
           mpPositionsByLthing[lthing][presenter.id][sectionId].count += 1
-          mpPositionsTotal[presenter.id][sectionId].count += 1
+          mpPositionsTotalForTerm[presenter.id][sectionId].count += 1
         })
       })
     }
@@ -511,6 +585,12 @@ export function generateMpDocumentPositions(
   return {
     mpDocumentPositionsByLthing:
       generateSortedPositionsByLthing(mpPositionsByLthing),
-    mpDocumentPositionsTotal: generateSortedPositions(mpPositionsTotal),
+    mpDocumentPositionsTotal: Object.keys(mpPositionsTotalByTerm).reduce(
+      (result, termId) => {
+        result[termId] = generateSortedPositions(mpPositionsTotalByTerm[termId])
+        return result
+      },
+      {},
+    ),
   }
 }

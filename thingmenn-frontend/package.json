@@ -2,6 +2,9 @@
   "name": "thingmenn-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.4.0"
+  },
   "devDependencies": {
     "prettier": "^2.4.0",
     "react-scripts": "3.4.4"
@@ -19,10 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false npm run generate:release-id && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gcloud app deploy app.yaml --version 0 --project thingmenn --quiet"
+    "generate:release-id": "node ./scripts/generate-release-id.js",
+    "deploy": "npm run generate:release-id && npm run build && gcloud app deploy app.yaml --version 0 --project thingmenn --quiet"
   },
   "browserslist": {
     "production": [

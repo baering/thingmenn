@@ -9,6 +9,7 @@ import {
   urlForMpPayments,
 } from '../urls'
 import { fetchExistingData } from '../utils'
+import { lthingToTerm } from '../../utility/lthing'
 
 const letters = 'abcdefghijklmnoprstuvwxyz'
 
@@ -163,6 +164,7 @@ function parseMpPayments(htmlObj) {
   const result = {
     categories: {},
     totalByYear: {},
+    byYear: {},
     total: 0,
   }
   tableRows.each(function parseTableRow() {
@@ -182,6 +184,7 @@ function parseMpPayments(htmlObj) {
     if (!result.categories[category]) {
       result.categories[category] = {
         totalByYear: {},
+        byYear: {},
         total: 0,
       }
     }
@@ -323,6 +326,36 @@ async function fetch(lthings) {
   }
 
   writeToFile(mpsByLthing, 'data/v2/mps-by-lthing.json', true)
+
+  const mpsByTerm = {}
+  const mpsByTermLookup = {}
+
+  for (const mp of result) {
+    for (const lthingInfo of mp.lthings) {
+      const { lthing, partyId } = lthingInfo
+
+      const term = lthingToTerm(lthing)
+      if (mpsByTerm[term.id] === undefined) {
+        mpsByTerm[term.id] = []
+      }
+
+      if (mpsByTermLookup[term.id] === undefined) {
+        mpsByTermLookup[term.id] = {}
+      }
+
+      if (!mpsByTermLookup[term.id][mp.id]) {
+        // Only add each mp once
+        mpsByTermLookup[term.id][mp.id] = true
+
+        mpsByTerm[term.id].push({
+          id: mp.id,
+          partyId,
+        })
+      }
+    }
+  }
+
+  writeToFile(mpsByTerm, 'data/v2/mps-by-term.json', true)
 
   const paymentsByMp = {}
 

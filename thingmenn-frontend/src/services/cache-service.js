@@ -1,4 +1,5 @@
 import 'whatwg-fetch'
+import { releaseId } from '../config'
 
 const timeToFlushCache = 30 * 3600 // 30 minutes
 
@@ -13,7 +14,7 @@ class CacheService {
       if (cached) {
         resolve(cached)
       } else {
-        return fetch(url)
+        return fetch(`${url}?releaseId=${releaseId}`)
           .then((response) => {
             return response.json()
           })

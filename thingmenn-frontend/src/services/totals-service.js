@@ -1,35 +1,55 @@
-import { apiUrl } from '../config'
+import { dataPath } from '../config'
 import CacheService from './cache-service'
 
 class TotalsService extends CacheService {
   getLthings() {
-    return this.fetchData(`${apiUrl}/api/lthings`)
+    return this.fetchData(`${dataPath}/periods/list.json`).then((result) =>
+      result.filter((period) => {
+        const { id, start, end } = period
+
+        if (!id || (!start && !end)) {
+          return false
+        }
+
+        return true
+      }),
+    )
   }
 
   getTopMpsAttendanceByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/attendance/mps`)
+    return this.fetchData(`${dataPath}/mps/${lthing}/top-attendance.json`).then(
+      (result) => result.slice(0, 10),
+    )
   }
 
   getBottomMpsAttendanceByLthing(lthing) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/bottom/attendance/mps`,
-    )
+      `${dataPath}/mps/${lthing}/bottom-attendance.json`,
+    ).then((result) => result.slice(0, 10))
   }
 
   getTopMpsStandsByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/stands/mps`)
+    return this.fetchData(
+      `${dataPath}/mps/${lthing}/top-stands-taken.json`,
+    ).then((result) => result.slice(0, 10))
   }
 
   getBottomMpsStandsByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/stands/mps`)
+    return this.fetchData(
+      `${dataPath}/mps/${lthing}/bottom-stands-taken.json`,
+    ).then((result) => result.slice(0, 10))
   }
 
   getTopMpsMinutesByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/top/minutes/mps`)
+    return this.fetchData(
+      `${dataPath}/mps/${lthing}/top-minutes-talked.json`,
+    ).then((result) => result.slice(0, 10))
   }
 
   getBottomMpsMinutesByLthing(lthing) {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/bottom/minutes/mps`)
+    return this.fetchData(
+      `${dataPath}/mps/${lthing}/top-minutes-talked.json`,
+    ).then((result) => result.reverse().slice(0, 10))
   }
 }
 

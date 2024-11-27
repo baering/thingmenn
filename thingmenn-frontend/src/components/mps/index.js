@@ -7,15 +7,9 @@ import List from '../../widgets/list'
 import DetailsMenu from '../../widgets/details-menu'
 
 import './styles.css'
+import { generateLthingList } from '../../utility/periods'
 
 let searchInput = ''
-
-const initialLthingsMenuList = [
-  {
-    name: 'Öll þing',
-    url: '/thing/allt',
-  },
-]
 
 export default class Mps extends React.Component {
   constructor(props) {
@@ -23,6 +17,7 @@ export default class Mps extends React.Component {
 
     this.state = {
       lthing: null,
+      lthingLookup: {},
       mps: [],
       lthings: [],
       searchInput: '',
@@ -49,7 +44,9 @@ export default class Mps extends React.Component {
     })
 
     totalService.getLthings().then((lthings) => {
-      this.setState(() => ({ lthings }))
+      const lthingLookup = {}
+      lthings.forEach((lthing) => (lthingLookup[lthing.id] = lthing))
+      this.setState(() => ({ lthings, lthingLookup }))
     })
   }
 
@@ -81,25 +78,29 @@ export default class Mps extends React.Component {
     return mp1.mpName.localeCompare(mp2.mpName)
   }
 
+  generateLthingList(lthings, lthingLookup) {
+    if (!lthings.length) {
+      return []
+    }
+
+    const lthingsForMpList = lthings.map((period) => Number(period.id))
+
+    return generateLthingList(lthingsForMpList, lthings, lthingLookup, ``)
+  }
+
   render() {
-    const { mps, sortByParty, lthing, lthings } = this.state
+    const { mps, sortByParty, lthing, lthings, lthingLookup } = this.state
 
     const items = mps
       .filter(this.searchFilter.bind(this))
       .sort(this.sortItem.bind(this))
 
-    const lthingsFormatted = lthings.map((lthing) => ({
-      year: lthing.start.split('.')[2],
-      thing: lthing.id,
-      url: `/thing/${lthing.id}`,
-    }))
-
-    const lthingsToRender = initialLthingsMenuList.concat(lthingsFormatted)
-
     return (
       <div className="fill">
         <h1 className="title">Allir þingmenn</h1>
-        <DetailsMenu menuItems={lthingsToRender} />
+        <DetailsMenu
+          menuItems={this.generateLthingList(lthings, lthingLookup)}
+        />
         <List>
           {items.map((mp) => (
             <Mp key={mp.id} lthing={lthing} {...mp} />

@@ -1,5 +1,4 @@
-runtime: python27
-threadsafe: true
+runtime: python39
 service: default
 
 default_expiration: '1m'
@@ -14,6 +13,11 @@ handlers:
     mime_type: text/javascript
     static_files: build/\1
     upload: build/(.*\.js)
+
+  - url: /(.*\.json)
+    mime_type: application/json
+    static_files: build/\1
+    upload: build/(.*\.json)
 
   - url: /(.*\.map)
     mime_type: application/json
@@ -38,13 +42,3 @@ handlers:
   - url: /.*
     static_files: build/index.html
     upload: build/index.html
-
-skip_files:
-  - ^(.*/)?#.*#$
-  - ^(.*/)?.*~$
-  - ^(.*/)?.*\.py[co]$
-  - ^(.*/)?.*/RCS/.*$
-  - ^(.*/)?\..*$
-  - src
-  - node_modules
-  - public

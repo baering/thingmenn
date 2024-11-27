@@ -18,9 +18,10 @@ const defaultItems = [
   'speechClassifications',
   'speechStatistics',
 ]
+
 const lthings = [
-  151, 150, 149, 148, 147, 146, 145, 144, 143, 142, 141, 140, 139, 138, 137,
-  136, 135,
+  155, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 144, 143, 142, 141,
+  140, 139, 138, 137, 136, 135,
 ]
 
 async function fetch(config) {
@@ -63,6 +64,8 @@ async function fetch(config) {
     console.log('Fetching documents')
     await fetchDocuments(lthings)
   }
+
+  console.log('done')
 }
 
 const itemsToFetch = getProcessArguments(defaultItems)

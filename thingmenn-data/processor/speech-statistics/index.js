@@ -1,4 +1,5 @@
 import { loadFile, writeToFile } from '../../utility/file'
+import { lthingToTerm } from '../../utility/lthing'
 import { getMpToPartyLookup } from '../helpers'
 
 const mpSpeechAnalytics = loadFile('data/v2/mp-speech-statistics.json')
@@ -17,13 +18,27 @@ export default function process() {
     mpSpeechSummaryByLthing[lthing] = {}
     partySpeechSummaryByLthing[lthing] = {}
 
+    const term = lthingToTerm(lthing)
+
+    if (mpSpeechSummaryTotal[term.id] === undefined) {
+      mpSpeechSummaryTotal[term.id] = {}
+    }
+
+    const mpSpeechSummaryTotalForTerm = mpSpeechSummaryTotal[term.id]
+
+    if (partySpeechSummaryTotal[term.id] === undefined) {
+      partySpeechSummaryTotal[term.id] = {}
+    }
+
+    const partySpeechSummaryTotalForTerm = partySpeechSummaryTotal[term.id]
+
     Object.keys(mpSpeechAnalytics[lthing]).forEach((mpId) => {
       if (mpSpeechSummaryByLthing[lthing][mpId] === undefined) {
         mpSpeechSummaryByLthing[lthing][mpId] = {}
       }
 
-      if (mpSpeechSummaryTotal[mpId] === undefined) {
-        mpSpeechSummaryTotal[mpId] = {}
+      if (mpSpeechSummaryTotalForTerm[mpId] === undefined) {
+        mpSpeechSummaryTotalForTerm[mpId] = {}
       }
 
       const mpPartyId = mpToPartyId[lthing][mpId]
@@ -32,8 +47,8 @@ export default function process() {
         partySpeechSummaryByLthing[lthing][mpPartyId] = {}
       }
 
-      if (partySpeechSummaryTotal[mpPartyId] === undefined) {
-        partySpeechSummaryTotal[mpPartyId] = {}
+      if (partySpeechSummaryTotalForTerm[mpPartyId] === undefined) {
+        partySpeechSummaryTotalForTerm[mpPartyId] = {}
       }
 
       const labels = Object.keys(mpSpeechAnalytics[lthing][mpId])
@@ -45,8 +60,8 @@ export default function process() {
           }
         }
 
-        if (!mpSpeechSummaryTotal[mpId][label]) {
-          mpSpeechSummaryTotal[mpId][label] = {
+        if (!mpSpeechSummaryTotalForTerm[mpId][label]) {
+          mpSpeechSummaryTotalForTerm[mpId][label] = {
             count: 0,
             minutes: 0,
           }
@@ -61,8 +76,8 @@ export default function process() {
           }
         }
 
-        if (partySpeechSummaryTotal[mpPartyId][label] === undefined) {
-          partySpeechSummaryTotal[mpPartyId][label] = {
+        if (partySpeechSummaryTotalForTerm[mpPartyId][label] === undefined) {
+          partySpeechSummaryTotalForTerm[mpPartyId][label] = {
             count: 0,
             minutes: 0,
           }
@@ -76,16 +91,18 @@ export default function process() {
           mpSpeechSummaryByLthing[lthing][mpId][label].minutes +=
             minutesForLabel
 
-          mpSpeechSummaryTotal[mpId][label].count += countForLabel
-          mpSpeechSummaryTotal[mpId][label].minutes += minutesForLabel
+          mpSpeechSummaryTotalForTerm[mpId][label].count += countForLabel
+          mpSpeechSummaryTotalForTerm[mpId][label].minutes += minutesForLabel
 
           partySpeechSummaryByLthing[lthing][mpPartyId][label].count +=
             countForLabel
           partySpeechSummaryByLthing[lthing][mpPartyId][label].minutes +=
             minutesForLabel
 
-          partySpeechSummaryTotal[mpPartyId][label].count += countForLabel
-          partySpeechSummaryTotal[mpPartyId][label].minutes += minutesForLabel
+          partySpeechSummaryTotalForTerm[mpPartyId][label].count +=
+            countForLabel
+          partySpeechSummaryTotalForTerm[mpPartyId][label].minutes +=
+            minutesForLabel
         }
       })
     })

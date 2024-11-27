@@ -17,6 +17,7 @@ import PartyDetails from './components/party-details'
 import Totals from './components/totals'
 import About from './components/about'
 import NotFound from './components/not-found'
+import { defaultLthingId, defaultPeriodId } from './config'
 
 let lastState
 
@@ -40,7 +41,7 @@ function onRouterUpdate() {
 const Routes = (props) => (
   <Router onUpdate={onRouterUpdate} history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRedirect to="/thing/151" />
+      <IndexRedirect to={`/thing/${defaultPeriodId}`} />
       <Route path="/thing/:lthing" component={Mps} />
       <Route path="/thingmenn/:mpId/thing/:lthing" component={MpDetails} />
       <Route path="/thingflokkar" component={Parties} />
@@ -48,7 +49,7 @@ const Routes = (props) => (
         path="/thingflokkar/:partyId/thing/:lthing"
         component={PartyDetails}
       />
-      <Redirect from="/samantekt" to="/samantekt/thing/148" />
+      <Redirect from={`/samantekt" to="/samantekt/thing/${defaultLthingId}`} />
       <Route path="/samantekt/thing/:lthing" component={Totals} />
       <Route path="/um" component={About} />
       <Route path="*" component={NotFound} />

@@ -1,0 +1,24 @@
+# .gcloudignore
+# Ignore Python bytecode files
+**/*.pyc
+**/*.pyo
+**/__pycache__/
+
+# Ignore editor and system files
+.DS_Store
+*.swp
+
+# Ignore Node.js modules and logs
+node_modules/
+npm-debug.log
+
+# Ignore build and deployment artifacts
+src/
+public/
+
+# Ignore Git metadata
+.git/
+.gitignore
+
+# Custom project files
+api/

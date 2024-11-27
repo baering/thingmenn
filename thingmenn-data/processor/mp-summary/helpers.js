@@ -74,47 +74,49 @@ export function createSimilarVoteLookup(mps, mpVoteLogByLthing) {
       const similar = {}
       const different = {}
 
-      mps.forEach((otherMp) => {
-        if (mp.id !== otherMp.id) {
-          for (const votingId of votingIds) {
-            const voteLogForOtherMp = mpVoteLogByLthing[lthing][otherMp.id]
+      for (const otherMp of mps) {
+        if (mp.id === otherMp.id) {
+          continue
+        }
 
-            if (voteLogForOtherMp === undefined) {
-              continue
+        for (const votingId of votingIds) {
+          const voteLogForOtherMp = mpVoteLogByLthing[lthing][otherMp.id]
+
+          if (voteLogForOtherMp === undefined) {
+            continue
+          }
+
+          const mpVote = voteLog[votingId]
+          const otherMpVote = voteLogForOtherMp[votingId]
+
+          const mpTookStand =
+            mpVote === 'já' ||
+            mpVote === 'nei' ||
+            mpVote === 'greiðir ekki atkvæði'
+          const otherMpTookStand =
+            otherMpVote === 'já' ||
+            otherMpVote === 'nei' ||
+            otherMpVote === 'greiðir ekki atkvæði'
+
+          const bothTookStand = mpTookStand && otherMpTookStand
+
+          if (bothTookStand) {
+            if (!similar[otherMp.id]) {
+              similar[otherMp.id] = 0
             }
 
-            const mpVote = voteLog[votingId]
-            const otherMpVote = voteLogForOtherMp[votingId]
+            if (!different[otherMp.id]) {
+              different[otherMp.id] = 0
+            }
 
-            const mpTookStand =
-              mpVote === 'já' ||
-              mpVote === 'nei' ||
-              mpVote === 'greiðir ekki atkvæði'
-            const otherMpTookStand =
-              otherMpVote === 'já' ||
-              otherMpVote === 'nei' ||
-              otherMpVote === 'greiðir ekki atkvæði'
-
-            const bothTookStand = mpTookStand && otherMpTookStand
-
-            if (bothTookStand) {
-              if (!similar[otherMp.id]) {
-                similar[otherMp.id] = 0
-              }
-
-              if (!different[otherMp.id]) {
-                different[otherMp.id] = 0
-              }
-
-              if (mpVote === otherMpVote) {
-                similar[otherMp.id] += 1
-              } else {
-                different[otherMp.id] += 1
-              }
+            if (mpVote === otherMpVote) {
+              similar[otherMp.id] += 1
+            } else {
+              different[otherMp.id] += 1
             }
           }
         }
-      })
+      }
 
       similarMpLookup[lthing][mp.id] = similar
       differentMpLookup[lthing][mp.id] = different
@@ -135,40 +137,42 @@ export function createSortedMpVoteSimilarityLookup(
   const mpToPartyId = getMpToPartyLookup()
 
   const result = {}
-  mpIds.forEach((mpId) => {
-    const otherMpIds = Object.keys(lookup[mpId])
-    const totalNumberOfStandsTaken =
-      mpVoteSummary[mpId].voteSummary.numberOfStandsTaken
-    const totalNumberOfIdleVotes =
-      mpVoteSummary[mpId].voteSummary.numberOfIdleVotes
-    const totalVotesWithStand =
-      totalNumberOfStandsTaken + totalNumberOfIdleVotes
+  mpIds
+    .filter((mpId) => mpVoteSummary[mpId]) // only include MPs that have voted
+    .forEach((mpId) => {
+      const otherMpIds = Object.keys(lookup[mpId])
+      const totalNumberOfStandsTaken =
+        mpVoteSummary[mpId].voteSummary.numberOfStandsTaken
+      const totalNumberOfIdleVotes =
+        mpVoteSummary[mpId].voteSummary.numberOfIdleVotes
+      const totalVotesWithStand =
+        totalNumberOfStandsTaken + totalNumberOfIdleVotes
 
-    result[mpId] = otherMpIds
-      .sort((a, b) => {
-        return lookup[mpId][b] - lookup[mpId][a]
-      })
-      .map((otherMpId) => {
-        const votes = lookup[mpId][otherMpId]
+      result[mpId] = otherMpIds
+        .sort((a, b) => {
+          return lookup[mpId][b] - lookup[mpId][a]
+        })
+        .map((otherMpId) => {
+          const votes = lookup[mpId][otherMpId]
 
-        const similarity = votes / totalVotesWithStand
-        let similarityPrecision = 0
-        if (similarity < 0.5) {
-          similarityPrecision = parseFloat((similarity * 100).toFixed(2))
-        } else {
-          similarityPrecision = parseFloat((similarity * 100).toFixed(1))
-        }
-        return {
-          mp: {
-            id: mpLookup[otherMpId].id,
-            name: mpLookup[otherMpId].mpName,
-            partyId: mpToPartyId[lthing][mpLookup[otherMpId].id],
-          },
-          votes,
-          similarity: similarityPrecision,
-        }
-      })
-  })
+          const similarity = votes / totalVotesWithStand
+          let similarityPrecision = 0
+          if (similarity < 0.5) {
+            similarityPrecision = parseFloat((similarity * 100).toFixed(2))
+          } else {
+            similarityPrecision = parseFloat((similarity * 100).toFixed(1))
+          }
+          return {
+            mp: {
+              id: mpLookup[otherMpId].id,
+              name: mpLookup[otherMpId].mpName,
+              partyId: mpToPartyId[lthing][mpLookup[otherMpId].id],
+            },
+            votes,
+            similarity: similarityPrecision,
+          }
+        })
+    })
 
   return result
 }
@@ -176,12 +180,14 @@ export function createSortedMpVoteSimilarityLookup(
 export function createTotalSimilarVoteLookup(lookup, lthings) {
   const totalLookup = {}
   for (const lthing of lthings) {
+    // console.log('\tProcessing lthing', lthing)
     Object.keys(lookup[lthing]).forEach((mpId) => {
       if (totalLookup[mpId] === undefined) {
         totalLookup[mpId] = {}
       }
 
       Object.keys(lookup[lthing][mpId]).forEach((similarMpId) => {
+        // console.log('\t\tProcessing similar MP', similarMpId)
         if (totalLookup[mpId][similarMpId] === undefined) {
           totalLookup[mpId][similarMpId] = 0
         }

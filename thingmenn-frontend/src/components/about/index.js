@@ -11,7 +11,7 @@ export default class About extends React.Component {
           <h2>Um vefinn</h2>
           <p>
             Á þessum vef finnur þú upplýsingar og tölfræði um þingmenn og
-            þingflokka fyrir árin 2007 til 2021.
+            þingflokka fyrir árin 2007 til 2024.
           </p>
           <p>
             Markmið vefsins er að sækja gögn sem finna má á vef{' '}
@@ -81,8 +81,8 @@ export default class About extends React.Component {
           </p>
           <p>
             Ábendingar og hugmyndir eru vel þegnar á{' '}
-            <a className="u-link" href="mailto:thingmenn@aranja.com">
-              thingmenn@aranja.com
+            <a className="u-link" href="mailto:baering@aranja.com">
+              baering@aranja.com
             </a>
             .
           </p>

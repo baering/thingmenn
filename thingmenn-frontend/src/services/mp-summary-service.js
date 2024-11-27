@@ -1,46 +1,44 @@
-import { apiUrl } from '../config'
+import { dataPath, defaultPeriodId } from '../config'
 import CacheService from './cache-service'
 
 class MpSummaryService extends CacheService {
-  getMpVoteSummaryByLthing(mpId, lthing = 'allt') {
+  getMpVoteSummaryByLthing(mpId, lthing = defaultPeriodId) {
+    return this.fetchData(`${dataPath}/mps/${lthing}/${mpId}/vote-summary.json`)
+  }
+
+  getMpSpeechSummaryByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/votes/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/speech-summary.json`,
     )
   }
 
-  getMpSpeechSummaryByLthing(mpId, lthing = 'allt') {
+  getMpDocumentSummaryByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/speeches/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/document-summary.json`,
     )
   }
 
-  getMpDocumentSummaryByLthing(mpId, lthing = 'allt') {
+  getMpAbsentSummaryByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/documents/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/absent-summary.json`,
     )
   }
 
-  getMpAbsentSummaryByLthing(mpId, lthing = 'allt') {
+  getMpVotePositionsByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/summary/absent/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/vote-positions.json`,
     )
   }
 
-  getMpVotePositionsByLthing(mpId, lthing = 'allt') {
+  getMpSpeechPositionsByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/votes/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/speech-positions.json`,
     )
   }
 
-  getMpSpeechPositionsByLthing(mpId, lthing = 'allt') {
+  getMpDocumentPositionsByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/speeches/mp/${mpId}`,
-    )
-  }
-
-  getMpDocumentPositionsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/positions/documents/mp/${mpId}`,
+      `${dataPath}/mps/${lthing}/${mpId}/document-positions.json`,
     )
   }
 }
