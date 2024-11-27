@@ -41,10 +41,10 @@
   justify-content: center;
   flex: none;
   text-align: center;
-  max-width: 200px;
   min-width: 100px;
   height: 50px;
   align-items: center;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) {
