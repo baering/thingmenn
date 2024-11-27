@@ -1,22 +1,35 @@
-import { apiUrl } from '../config'
+import { dataPath, defaultPeriodId } from '../config'
 import CacheService from './cache-service'
 
 class MpService extends CacheService {
-  getMpsByLthing(lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps`)
+  getMpsByLthing(lthing = defaultPeriodId) {
+    return this.fetchData(`${dataPath}/mps/${lthing}/list.json`)
   }
 
-  getMpDetailsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps/${mpId}`)
+  getMpDetails(mpId) {
+    return this.fetchData(`${dataPath}/mps/list.json`)
+      .then((mps) => mps.find((mp) => Number(mp.id) === Number(mpId)))
+      .then((mp) => {
+        return {
+          ...mp,
+          description: {
+            ...mp.description,
+            asMp: mp.description.asMp.replace(/&ndash;/g, '-'),
+            asPerson: mp.description.asPerson.replace(/&ndash;/g, '-'),
+          },
+        }
+      })
   }
 
-  getSimilarMpsByLthing(mpId, lthing = 'allt') {
-    return this.fetchData(`${apiUrl}/api/lthing/${lthing}/mps/${mpId}/similar`)
-  }
-
-  getDifferentMpsByLthing(mpId, lthing = 'allt') {
+  getSimilarMpsByLthing(mpId, lthing = defaultPeriodId) {
     return this.fetchData(
-      `${apiUrl}/api/lthing/${lthing}/mps/${mpId}/different`,
+      `${dataPath}/mps/${lthing}/${mpId}/similar-votes.json`,
+    )
+  }
+
+  getDifferentMpsByLthing(mpId, lthing = defaultPeriodId) {
+    return this.fetchData(
+      `${dataPath}/mps/${lthing}/${mpId}/different-votes.json`,
     )
   }
 }

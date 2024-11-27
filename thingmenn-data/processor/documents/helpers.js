@@ -1,3 +1,4 @@
+import { lthingToTerm } from '../../utility/lthing'
 import { getMpToPartyLookup } from '../helpers'
 
 export function getEmptySummary() {
@@ -73,6 +74,14 @@ export function generateMpDocumentSummaries(documents) {
   Object.keys(documents).forEach((lthing) => {
     mpDocumentsByLthing[lthing] = {}
 
+    const termForLthing = lthingToTerm(lthing)
+
+    if (!mpDocumentsTotal[termForLthing.id]) {
+      mpDocumentsTotal[termForLthing.id] = {}
+    }
+
+    const mpDocumentsTotalForTerm = mpDocumentsTotal[termForLthing.id]
+
     for (const doc of documents[lthing]) {
       allTypes[doc.type] = true
 
@@ -91,8 +100,8 @@ export function generateMpDocumentSummaries(documents) {
           mpDocumentsByLthing[lthing][presenter.id] = getEmptySummary()
         }
 
-        if (mpDocumentsTotal[presenter.id] === undefined) {
-          mpDocumentsTotal[presenter.id] = getEmptySummary()
+        if (mpDocumentsTotalForTerm[presenter.id] === undefined) {
+          mpDocumentsTotalForTerm[presenter.id] = getEmptySummary()
         }
 
         const presenterType = index === 0 ? 'presenter' : 'coPresenter'
@@ -102,27 +111,29 @@ export function generateMpDocumentSummaries(documents) {
             presenterType
           ].count += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.bills.total += 1
-          mpDocumentsTotal[presenter.id].summary.bills[presenterType].count += 1
-          mpDocumentsTotal[presenter.id].summary.bills.total += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.bills[
+            presenterType
+          ].count += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.bills.total += 1
         } else if (isMotion) {
           mpDocumentsByLthing[lthing][presenter.id].summary.motions[
             presenterType
           ].count += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.motions.total += 1
-          mpDocumentsTotal[presenter.id].summary.motions[
+          mpDocumentsTotalForTerm[presenter.id].summary.motions[
             presenterType
           ].count += 1
-          mpDocumentsTotal[presenter.id].summary.motions.total += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.motions.total += 1
         } else if (isInquiry) {
           mpDocumentsByLthing[lthing][presenter.id].summary.inquiries.asked += 1
-          mpDocumentsTotal[presenter.id].summary.inquiries.asked += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.inquiries.asked += 1
         } else if (isInquiryAnswer) {
           mpDocumentsByLthing[lthing][
             presenter.id
           ].summary.inquiries.answered += 1
           mpDocumentsByLthing[lthing][presenter.id].summary.inquiries.total += 1
-          mpDocumentsTotal[presenter.id].summary.inquiries.answered += 1
-          mpDocumentsTotal[presenter.id].summary.inquiries.total += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.inquiries.answered += 1
+          mpDocumentsTotalForTerm[presenter.id].summary.inquiries.total += 1
         }
       })
     }
@@ -159,6 +170,14 @@ export function generatePartyDocumentSummaries(mpDocumentsByLthing) {
   Object.keys(mpDocumentsByLthing).forEach((lthing) => {
     partyDocumentsByLthing[lthing] = {}
 
+    const termForLthing = lthingToTerm(lthing)
+
+    if (!partyDocumentsTotal[termForLthing.id]) {
+      partyDocumentsTotal[termForLthing.id] = {}
+    }
+
+    const partyDocumentsTotalForTerm = partyDocumentsTotal[termForLthing.id]
+
     Object.keys(mpDocumentsByLthing[lthing]).forEach((mpId) => {
       const mpPartyId = mpToPartyLookup[lthing][mpId]
       const mpLthingSummary = mpDocumentsByLthing[lthing][mpId]
@@ -169,11 +188,11 @@ export function generatePartyDocumentSummaries(mpDocumentsByLthing) {
 
       addToSummary(partyDocumentsByLthing[lthing][mpPartyId], mpLthingSummary)
 
-      if (partyDocumentsTotal[mpPartyId] === undefined) {
-        partyDocumentsTotal[mpPartyId] = getEmptySummary()
+      if (partyDocumentsTotalForTerm[mpPartyId] === undefined) {
+        partyDocumentsTotalForTerm[mpPartyId] = getEmptySummary()
       }
 
-      addToSummary(partyDocumentsTotal[mpPartyId], mpLthingSummary)
+      addToSummary(partyDocumentsTotalForTerm[mpPartyId], mpLthingSummary)
     })
   })
 

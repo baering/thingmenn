@@ -19,6 +19,7 @@ import Items from '../../widgets/items'
 import WeekdayHourMatrix from '../../widgets/weekday-hour-matrix'
 
 import '../mp-details/styles.css'
+import { generateLthingList } from '../../utility/periods'
 
 export default class MpDetails extends React.Component {
   constructor(props) {
@@ -53,15 +54,20 @@ export default class MpDetails extends React.Component {
     // TODO: HOC withData that injects correct props into components
 
     const mpId = id || this.props.params.mpId
-    const lthingId = lthing || this.props.params.lthing
 
     if (this.state.mp.id === mpId) return
 
-    mpService.getMpDetailsByLthing(mpId, lthingId).then((mp) => {
+    mpService.getMpDetails(mpId).then((mp) => {
       this.setState(() => ({
         mp,
       }))
     })
+
+    // if (!this.state.mp.lthings.length) {
+    //   return
+    // }
+
+    const lthingId = lthing || this.props.params.lthing
 
     mpSummaryService
       .getMpVoteSummaryByLthing(mpId, lthingId)
@@ -142,24 +148,20 @@ export default class MpDetails extends React.Component {
   }
 
   generateLthingList(mp, lthings, lthingLookup) {
-    const initialList = [
-      {
-        name: 'Samtölur',
-        url: `/thingmenn/${mp.id}/thing/allt`,
-      },
-    ]
-
     if (!mp.lthings.length || !lthings.length) {
-      return initialList
+      return []
     }
 
-    const lthingsFormatted = mp.lthings.map((lthingInfo) => ({
-      year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
-      thing: lthingInfo.lthing,
-      url: `/thingmenn/${mp.id}/thing/${lthingInfo.lthing}`,
-    }))
+    const lthingsForMp = mp.lthings.map((lthingInfo) =>
+      Number(lthingInfo.lthing),
+    )
 
-    return initialList.concat(lthingsFormatted)
+    return generateLthingList(
+      lthingsForMp,
+      lthings,
+      lthingLookup,
+      `thingmenn/${mp.id}`,
+    )
   }
 
   getDividerSize(tabName, lthing) {
@@ -224,6 +226,7 @@ export default class MpDetails extends React.Component {
               title="Mótherjar"
               subTitle="Ólík greidd atkvæði"
               friends={differentMps.slice(0, 10)}
+              lthing={lthing}
             />
           </div>
           <div className="Details-item Details-item--large Details-item--no-padding">

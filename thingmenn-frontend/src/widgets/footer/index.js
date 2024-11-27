@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="Footer">
       Gögn birt með fyrirvara um villur í úrvinnslu. <br />
       Athugasemdir vel þegnar á{' '}
-      <a className="u-link" href="mailto:thingmenn@aranja.com">
-        thingmenn@aranja.com
+      <a className="u-link" href="mailto:baering@aranja.com">
+        baering@aranja.com
       </a>
       .
     </div>

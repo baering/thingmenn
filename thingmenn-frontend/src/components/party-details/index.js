@@ -17,6 +17,7 @@ import Items from '../../widgets/items'
 import WeekdayHourMatrix from '../../widgets/weekday-hour-matrix'
 
 import './styles.css'
+import { generateLthingList } from '../../utility/periods'
 
 export default class PartyDetails extends React.Component {
   constructor(props) {
@@ -120,26 +121,20 @@ export default class PartyDetails extends React.Component {
   }
 
   generateLthingList(party, lthings, lthingLookup) {
-    const initialList = [
-      {
-        name: 'Samtölur',
-        url: `/thingflokkar/${party.id}/thing/allt`,
-      },
-    ]
-
     if (!party.lthings.length || !lthings.length) {
-      return initialList
+      return []
     }
 
-    const lthingsFormatted = party.lthings.map((lthingInfo) => {
-      return {
-        year: lthingLookup[lthingInfo.lthing].start.split('.')[2],
-        thing: lthingInfo.lthing,
-        url: `/thingflokkar/${party.id}/thing/${lthingInfo.lthing}`,
-      }
-    })
+    const lthingsForParty = party.lthings.map((lthingInfo) =>
+      Number(lthingInfo.lthing),
+    )
 
-    return initialList.concat(lthingsFormatted)
+    return generateLthingList(
+      lthingsForParty,
+      lthings,
+      lthingLookup,
+      `thingflokkar/${party.id}`,
+    )
   }
 
   getDividerSize(tabName, lthing) {

@@ -1,4 +1,5 @@
 import { loadFile, writeToFile } from '../../utility/file'
+import { getTermFromId, lthingToTerm } from '../../utility/lthing'
 
 import {
   initializeVoteCounterIfNeeded,
@@ -34,10 +35,10 @@ const votings = loadFile('data/v2/votings.json')
 export default function process() {
   const mpVoteLogByLthing = {}
 
-  const mpVoteCounter = {}
+  const mpTotalVoteCounter = {}
   const mpByLthingVoteCounter = {}
 
-  const partyVoteCounter = {}
+  const partyTotalVoteCounter = {}
   const partyByLthingVoteCounter = {}
 
   const mpAbsentVoteWeekdayTimeMatrixTotal = {}
@@ -48,8 +49,22 @@ export default function process() {
   for (const lthing of lthings) {
     mpAbsentVoteWeekdayTimeMatrixByLthing[lthing] = {}
 
+    const termForLthing = lthingToTerm(lthing)
+
+    if (mpAbsentVoteWeekdayTimeMatrixTotal[termForLthing.id] === undefined) {
+      mpAbsentVoteWeekdayTimeMatrixTotal[termForLthing.id] = {}
+    }
+
+    if (mpTotalVoteCounter[termForLthing.id] === undefined) {
+      mpTotalVoteCounter[termForLthing.id] = {}
+    }
+
+    if (partyTotalVoteCounter[termForLthing.id] === undefined) {
+      partyTotalVoteCounter[termForLthing.id] = {}
+    }
+
     updateAbsentVoteTimeMatrixSummary(
-      mpAbsentVoteWeekdayTimeMatrixTotal,
+      mpAbsentVoteWeekdayTimeMatrixTotal[termForLthing.id],
       votings[lthing].votings,
       votings[lthing].votes,
       mpToPartyLookup[lthing],
@@ -82,16 +97,25 @@ export default function process() {
         partyByLthingVoteCounter[lthing] = {}
       }
 
-      initializeVoteCounterIfNeeded(mpVoteCounter, mpId)
-      incrementVoteType(mpVoteCounter[mpId].voteTypes, vote)
+      initializeVoteCounterIfNeeded(mpTotalVoteCounter[termForLthing.id], mpId)
+      incrementVoteType(
+        mpTotalVoteCounter[termForLthing.id][mpId].voteTypes,
+        vote,
+      )
 
       initializeVoteCounterIfNeeded(mpByLthingVoteCounter[lthing], mpId)
       incrementVoteType(mpByLthingVoteCounter[lthing][mpId].voteTypes, vote)
 
       const mpPartyId = mpToPartyLookup[lthing][mpId]
 
-      initializeVoteCounterIfNeeded(partyVoteCounter, mpPartyId)
-      incrementVoteType(partyVoteCounter[mpPartyId].voteTypes, vote)
+      initializeVoteCounterIfNeeded(
+        partyTotalVoteCounter[termForLthing.id],
+        mpPartyId,
+      )
+      incrementVoteType(
+        partyTotalVoteCounter[termForLthing.id][mpPartyId].voteTypes,
+        vote,
+      )
 
       initializeVoteCounterIfNeeded(partyByLthingVoteCounter[lthing], mpPartyId)
       incrementVoteType(
@@ -113,8 +137,10 @@ export default function process() {
     true,
   )
 
-  Object.keys(mpVoteCounter).forEach((mpId) => {
-    createVoteSummary(mpVoteCounter, mpId)
+  Object.keys(mpTotalVoteCounter).forEach((termId) => {
+    Object.keys(mpTotalVoteCounter[termId]).forEach((mpId) => {
+      createVoteSummary(mpTotalVoteCounter[termId], mpId)
+    })
   })
 
   for (const lthing of lthings) {
@@ -123,8 +149,10 @@ export default function process() {
     })
   }
 
-  Object.keys(partyVoteCounter).forEach((partyId) => {
-    createVoteSummary(partyVoteCounter, partyId)
+  Object.keys(partyTotalVoteCounter).forEach((termId) => {
+    Object.keys(partyTotalVoteCounter[termId]).forEach((partyId) => {
+      createVoteSummary(partyTotalVoteCounter[termId], partyId)
+    })
   })
 
   for (const lthing of lthings) {
@@ -134,7 +162,7 @@ export default function process() {
   }
 
   writeToFile(
-    mpVoteCounter,
+    mpTotalVoteCounter,
     'data/export-v2/total/mp-vote-summaries.json',
     true,
   )
@@ -144,7 +172,7 @@ export default function process() {
     true,
   )
   writeToFile(
-    partyVoteCounter,
+    partyTotalVoteCounter,
     'data/export-v2/total/party-vote-summaries.json',
     true,
   )
@@ -161,15 +189,6 @@ export default function process() {
 
   const sortedSimilarMpLookupsByLthing = {}
   const sortedDifferentMpLookupsByLthing = {}
-
-  const mpTotalSimilarVotes = createTotalSimilarVoteLookup(
-    similarMpLookup,
-    lthings,
-  )
-  const mpTotalDifferentVotes = createTotalSimilarVoteLookup(
-    differentMpLookup,
-    lthings,
-  )
 
   for (const lthing of lthings) {
     sortedSimilarMpLookupsByLthing[lthing] = createSortedMpVoteSimilarityLookup(
@@ -188,17 +207,49 @@ export default function process() {
       )
   }
 
-  const sortedMpTotalSimilarVotes = createSortedMpVoteSimilarityLookup(
-    mpTotalSimilarVotes,
-    mpLookup,
-    mpVoteCounter,
-  )
+  const sortedMpTotalSimilarVotes = {}
 
-  const sortedTotalDifferentVotes = createSortedMpVoteSimilarityLookup(
-    mpTotalDifferentVotes,
-    mpLookup,
-    mpVoteCounter,
-  )
+  Object.keys(mpTotalVoteCounter).forEach((termId) => {
+    const term = getTermFromId(termId)
+
+    console.log('Processing term to create similar vote lookup', termId)
+    const mpTotalSimilarVotes = createTotalSimilarVoteLookup(
+      similarMpLookup,
+      term.lthings,
+    )
+
+    if (sortedMpTotalSimilarVotes[termId] === undefined) {
+      sortedMpTotalSimilarVotes[termId] = {}
+    }
+
+    sortedMpTotalSimilarVotes[termId] = createSortedMpVoteSimilarityLookup(
+      mpTotalSimilarVotes,
+      mpLookup,
+      mpTotalVoteCounter[termId],
+    )
+  })
+
+  const sortedTotalDifferentVotes = {}
+
+  Object.keys(mpTotalVoteCounter).forEach((termId) => {
+    const term = getTermFromId(termId)
+
+    console.log('Processing term to create different vote lookup', termId)
+    const mpTotalDifferentVotes = createTotalSimilarVoteLookup(
+      differentMpLookup,
+      term.lthings,
+    )
+
+    if (sortedTotalDifferentVotes[termId] === undefined) {
+      sortedTotalDifferentVotes[termId] = {}
+    }
+
+    sortedTotalDifferentVotes[termId] = createSortedMpVoteSimilarityLookup(
+      mpTotalDifferentVotes,
+      mpLookup,
+      mpTotalVoteCounter[termId],
+    )
+  })
 
   writeToFile(
     sortedMpTotalSimilarVotes,

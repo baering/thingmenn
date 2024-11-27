@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router'
 import { formatPercentage } from '../../utils'
+import { defaultPeriodId } from '../../config'
 
 import PartyBadge from '../partybadge'
 
@@ -12,7 +13,7 @@ const Friends = ({
   subTitle,
   friends,
   isDisplayingFriends,
-  lthing = 'allt',
+  lthing = defaultPeriodId,
   valueFormatter = (friend) =>
     `${friend.votes} (${formatPercentage(friend.similarity)})`,
   icon = true,
@@ -41,7 +42,7 @@ const Friends = ({
       {friends.map((friend) => [
         <dt key={friend.mp.id}>
           <PartyBadge party={friend.mp.partyId} className="Friends-badge" />
-          <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing || 'allt'}`}>
+          <Link to={`/thingmenn/${friend.mp.id}/thing/${lthing}`}>
             {friend.mp.name}
           </Link>
         </dt>,

@@ -14,10 +14,26 @@ function getMpAttendance(mp, mpVoteSummary) {
 function getTopAttendance(mps, mpVoteSummary) {
   return mps
     .filter((mp) => mpVoteSummary[mp.id] !== undefined)
-    .sort(
-      (a, b) =>
-        getMpAttendance(b, mpVoteSummary) - getMpAttendance(a, mpVoteSummary),
-    )
+    .sort((a, b) => {
+      const attendanceDiff =
+        getMpAttendance(b, mpVoteSummary) - getMpAttendance(a, mpVoteSummary)
+
+      if (attendanceDiff === 0) {
+        // If equal attendance sort by number of votes
+        const voteDiff =
+          mpVoteSummary[b.id].voteSummary.numberOfStandsTaken -
+          mpVoteSummary[a.id].voteSummary.numberOfStandsTaken
+
+        if (voteDiff === 0) {
+          // If equal votes sort by name
+          return a.name.localeCompare(b.name)
+        }
+
+        return voteDiff
+      }
+
+      return attendanceDiff
+    })
     .map((mp) => ({
       mp,
       attendance: getMpAttendance(mp, mpVoteSummary),
@@ -44,6 +60,12 @@ function getTopStandsTaken(mps, mpVoteSummary) {
 
 function getMpMinutesTalked(mp, mpSpeechSummary) {
   const speechSummary = mpSpeechSummary[mp.id]
+
+  if (speechSummary === undefined || speechSummary.Samtals === undefined) {
+    console.warn(`No speech summary for ${mp.id}`)
+    return 0
+  }
+
   return speechSummary.Samtals.minutes
 }
 
@@ -123,34 +145,27 @@ export default function process() {
   }
 
   Object.keys(mpsByLthingLookup).forEach((lthing) => {
-    console.log(lthing)
+    console.log('processing top lists for lthing', lthing)
     const mpVoteSummaryForLthing = mpVoteSummary[lthing]
     const mpSpeechSummaryForLthing = mpSpeechSummary[lthing]
 
     const mpsInLthing = mpsByLthingLookup[lthing]
 
-    console.log('mps', mpsInLthing.length)
-
     topListsByLthing.attendance[lthing] = getTopAttendance(
       mpsInLthing,
       mpVoteSummaryForLthing,
     )
+
     topListsByLthing.standsTaken[lthing] = getTopStandsTaken(
       mpsInLthing,
       mpVoteSummaryForLthing,
     )
+
     topListsByLthing.minutesTalked[lthing] = getTopMinutesTalked(
       mpsInLthing,
       mpSpeechSummaryForLthing,
     )
   })
-
-  // const topLists = {
-  //   attendance: getTopAttendance(),
-  //   standsTaken: getTopStandsTaken(),
-  //   minutesTalked: getTopMinutesTalked(),
-  // }
-  //
 
   writeToFile(
     topListsByLthing.attendance,

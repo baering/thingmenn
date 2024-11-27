@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 import { parseString } from 'xml2js'
-
-const cache = {}
+import { getFromCache, setToCache } from './cache'
 
 function parseXmlPromiseWrapper(xml) {
   return new Promise((resolve, reject) => {
@@ -17,9 +16,12 @@ function parseXmlPromiseWrapper(xml) {
 }
 
 export async function fetchXml(url, shouldCache = true) {
-  if (shouldCache && cache[url]) {
-    console.log(`fetchXml (cached):\t${url}`)
-    return cache[url]
+  if (shouldCache) {
+    const cached = getFromCache(url)
+
+    if (cached) {
+      return await parseXmlPromiseWrapper(cached)
+    }
   }
 
   let tries = 0
@@ -27,20 +29,23 @@ export async function fetchXml(url, shouldCache = true) {
 
   while (xml === undefined) {
     try {
-      console.log(`fetchXml (request)\t${url}`)
-      tries += 0
       if (tries >= 4) {
         break
       }
       xml = await axios.get(url)
+      tries += 1
     } catch (e) {
-      console.log('Failed. Retrying (', tries, ')')
+      console.log(`Failed to fetch ${url}. Retrying (#${tries})`)
+
+      await new Promise((resolve) => setTimeout(resolve, 500 * tries))
+
+      tries += 1
     }
   }
   const result = await parseXmlPromiseWrapper(xml.data)
 
   if (shouldCache) {
-    cache[url] = result
+    setToCache(url, xml.data)
   }
   return result
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, IndexLink } from 'react-router'
 import './styles.css'
+import { defaultLthingId, releaseIdHuman } from '../../config'
 
 class Nav extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class Nav extends React.Component {
           </IndexLink>
         </div>
         <IndexLink
-          to="/thing/allt"
+          to="/thing/2021-2024"
           className="Nav-item"
           activeClassName="is-active"
         >
@@ -26,7 +27,7 @@ class Nav extends React.Component {
           <span className="typcn typcn-group-outline"></span> Þingflokkar
         </Link>
         <Link
-          to="/samantekt/thing/148"
+          to={`/samantekt/thing/${defaultLthingId}`}
           className="Nav-item"
           activeClassName="is-active"
         >
@@ -35,7 +36,11 @@ class Nav extends React.Component {
         <Link to="/um" className="Nav-item" activeClassName="is-active">
           <span className="typcn typcn-info-large-outline"></span> Um verkefnið
         </Link>
-        <footer className="Nav-footnote">Útgáfa 2.0beta2</footer>
+        <footer className="Nav-footnote">
+          Útgáfa 3.0
+          <br />
+          {releaseIdHuman}
+        </footer>
       </nav>
     )
   }

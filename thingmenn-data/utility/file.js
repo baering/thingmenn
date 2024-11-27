@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const getDir = (filename) => {
+export function getDir(filename) {
   const parts = filename.split('/')
   const dir = parts.slice(0, parts.length - 1).join('/')
 
@@ -22,13 +22,7 @@ export function writeToFile(data, filename, pretty = false) {
     fs.mkdirSync(dir, { recursive: true })
   }
 
-  fs.writeFile(filename, stringified, (error) => {
-    if (error) {
-      console.log(`Error writing to file: ${error}`)
-    } else {
-      console.log('Wrote data to file')
-    }
-  })
+  fs.writeFileSync(filename, stringified)
 }
 
 export function loadFile(filename) {

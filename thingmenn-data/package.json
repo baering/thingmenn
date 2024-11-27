@@ -3,15 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "20.15.0",
+    "yarn": "4.1.1"
+  },
+  "volta": {
+    "node": "20.15.0",
+    "yarn": "4.1.1"
+  },
   "scripts": {
     "fetch": "node index.js --debug",
-    "process": "node process.js --debug"
+    "process": "node process.js --debug",
+    "transform-data": "node transformData.js --debug",
+    "format": "prettier --write \"**/*.js\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.12.0",
     "cheerio": "^0.20.0",
+    "playwright": "^1.49.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {

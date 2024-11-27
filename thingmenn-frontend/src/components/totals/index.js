@@ -7,6 +7,7 @@ import Friends from '../../widgets/friends'
 import DetailsMenu from '../../widgets/details-menu'
 
 import './styles.css'
+import { generateLthingList } from '../../utility/periods'
 
 export default class Totals extends React.Component {
   constructor(props) {
@@ -79,16 +80,20 @@ export default class Totals extends React.Component {
       })
   }
 
-  generateLthingList(lthings) {
+  generateLthingList(lthings, lthingLookup) {
     if (!lthings.length) {
       return []
     }
 
-    return lthings.map((lthing) => ({
-      year: lthing.start.split('.')[2],
-      thing: lthing.id,
-      url: `/samantekt/thing/${lthing.id}`,
-    }))
+    const lthingsForTotals = lthings.map((period) => Number(period.id))
+
+    return generateLthingList(
+      lthingsForTotals,
+      lthings,
+      lthingLookup,
+      `samantekt`,
+      true,
+    )
   }
 
   render() {
@@ -102,6 +107,8 @@ export default class Totals extends React.Component {
       topMpMinutesTalked,
       bottomMpMinutesTalked,
     } = this.state
+
+    const lthing = this.props.params.lthing
 
     return (
       <div className="fill">
@@ -118,6 +125,7 @@ export default class Totals extends React.Component {
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.attendance)}
               smallPrint="* atkvæðagreiðslur"
+              lthing={lthing}
             />
           </div>
           <div className="Details-item">
@@ -128,6 +136,7 @@ export default class Totals extends React.Component {
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.attendance)}
               smallPrint="* atkvæðagreiðslur"
+              lthing={lthing}
             />
           </div>
           <div className="Details-item">
@@ -138,6 +147,7 @@ export default class Totals extends React.Component {
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.standsTaken)}
               smallPrint="* atkvæðagreiðslur"
+              lthing={lthing}
             />
           </div>
           <div className="Details-item">
@@ -148,6 +158,7 @@ export default class Totals extends React.Component {
               icon={false}
               valueFormatter={(friend) => formatPercentage(friend.standsTaken)}
               smallPrint="* atkvæðagreiðslur"
+              lthing={lthing}
             />
           </div>
           <div className="Details-item">
@@ -157,6 +168,7 @@ export default class Totals extends React.Component {
               friends={topMpMinutesTalked}
               icon={false}
               valueFormatter={(friend) => formatTime(friend.minutesTalked)}
+              lthing={lthing}
             />
           </div>
           <div className="Details-item">
@@ -166,6 +178,7 @@ export default class Totals extends React.Component {
               friends={bottomMpMinutesTalked}
               icon={false}
               valueFormatter={(friend) => formatTime(friend.minutesTalked)}
+              lthing={lthing}
             />
           </div>
         </div>
