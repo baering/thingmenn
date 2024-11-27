@@ -92,7 +92,9 @@ export default class Totals extends React.Component {
       lthings,
       lthingLookup,
       `samantekt`,
-      true,
+      {
+        skipTerms: true,
+      },
     )
   }
 

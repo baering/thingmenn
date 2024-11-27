@@ -85,7 +85,9 @@ export default class Mps extends React.Component {
 
     const lthingsForMpList = lthings.map((period) => Number(period.id))
 
-    return generateLthingList(lthingsForMpList, lthings, lthingLookup, ``)
+    return generateLthingList(lthingsForMpList, lthings, lthingLookup, ``, {
+      skipLthings: true,
+    })
   }
 
   render() {

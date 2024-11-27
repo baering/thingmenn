@@ -1,19 +1,33 @@
+const DEFAULT_OPTIONS = {
+  skipTerms: false,
+  skipLthings: false,
+}
+
 export function generateLthingList(
   periodIds,
   periods,
   lthingLookup,
   resourcePath,
-  skipPeriods = false,
+  options = DEFAULT_OPTIONS,
 ) {
+  const mergedOptions = {
+    ...DEFAULT_OPTIONS,
+    ...options,
+  }
+
   return periods
     .filter((period) => {
       if (period.isTerm) {
-        if (skipPeriods) {
+        if (mergedOptions.skipTerms) {
           return false
         }
         const lthingsInTerm = period.lthings.map((lthing) => Number(lthing))
 
         return lthingsInTerm.some((lthing) => periodIds.includes(lthing))
+      }
+
+      if (mergedOptions.skipLthings) {
+        return false
       }
 
       return periodIds.includes(Number(period.id))
