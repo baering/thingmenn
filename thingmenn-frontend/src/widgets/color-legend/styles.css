@@ -28,6 +28,30 @@
   color: #dd673c;
 }
 
+.ColorBox {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  margin-bottom: 2px;
+}
+
+.ColorBox--standsTaken {
+  background-color: lightgreen;
+}
+
+.ColorBox--idle {
+  background-color: lightgrey;
+}
+
+.ColorBox--away {
+  background-color: salmon;
+}
+
+.ColorBox--absent {
+  background-color: #dd673c;
+}
+
 @media (max-width: 450px) {
   .Details-item:not(.Details-item--large) .Colors {
     flex-wrap: wrap;
